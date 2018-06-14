@@ -1,0 +1,15 @@
+java后期：robot how2j ssm
+1. strus-menu;
+2. site-mesh;
+3. 分页；
+4. mybatis-generator 反向生成；
+5. 静态化 freemarker;
+6. webservice: cxf
+7. workflow: activiti
+8. 用户登录，权限管理;
+9. session共享
+10. bootstrap
+11. iframe;
+12.筛选分页动态sql；
+13.前后台分离parent: portal, console, core, file;
+14.并发控制(乐观锁/悲观锁);

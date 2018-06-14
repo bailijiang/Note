@@ -1,0 +1,10 @@
+﻿ctrl+shift+T: 查找类
+ctrl+shift+R: 查找文件
+jsp文件注释：ctrl+shift+C
+ctrl+T: 跳转到接口的实现类
+alt+shift+S 添加 set/get 方法等
+ctrl+shift+O: 去掉没有使用的引用,引入相关包
+ctrl+shift+x   转为大写    
+ctrl+shift+y   转为小写
+ctrl + H 搜索关键字
+选中要搜索的文字，ctrl + shift + R 进行搜索

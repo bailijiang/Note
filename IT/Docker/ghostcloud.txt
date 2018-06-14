@@ -1,0 +1,2 @@
+bailijiang@hotmail.com/1314blj
+curl -s -o install_agent.sh http://release.ghostcloud.cn/install/install_agent.sh ; sudo sh install_agent.sh 9dd2574b-d244-11e6-bad3-0242c0a80002

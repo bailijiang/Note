@@ -1,0 +1,11 @@
+Golang
+1.如何处理死锁；
+2.加锁后如何提高性能；
+3.Redis几种数据结构；
+4.MySQL分库分表的事务处理；
+5.快速查找算法；
+6.openfalcon: Agent, HBS, Transfer, Judge (数据结构 SafeLinkedList(mvs), Strategy，快速查找匹配策略);
+7.go restfulapi;
+8.go 数据结构，排序/查找 算法实现
+9.标准库：container/list    sort
+10. ***策略与监控数据的相关性判定逻辑***

@@ -1,0 +1,11 @@
+十个亿  billion
+1,000,000,000
+
+一个亿  one hundred million
+100,000,000
+
+一百万  one million
+1,000,000
+
+十万 one hundred thousand
+100,000

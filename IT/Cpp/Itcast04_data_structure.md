@@ -323,5 +323,176 @@ int a = *(int *)((char*)&v + sizeof(Test));
 
 #### 16. 栈Stack操作
 * 在取栈顶元素时, 一定要先做判空操作
+```
+if (!st.empty()) {
+                st.pop();
+            }
+```
+* 判断stack长度: st.size() == 1
 
-#### 17. 
+#### 17. 队列 Queue
+* FIFO 先进先出
+* 队尾入栈, 队头出栈
+* 队列不能被遍历, 不能insert/delete中间的元素
+* 数组队列
+    - 队头队尾没有区别
+    - 管理队列结构体struct的设计理念: 如何操作这个队列, 需要哪些属性(front, rear, void* data[MAXSIZE])
+    - 存储任意数据类型的指针数组: `void* data[MAXSIZE];` 不需要malloc开辟空间
+
+#### 18. 树 二叉树
+* 左孩子, 右兄弟表示法, 将多叉树转换成二叉树
+* 完全二叉树
+    - 满二叉树是完全二叉树的一种特殊情况
+    - 完全二叉树: 比如有n层, 从1~n-1层是满二叉树, 第n层最后一个节点前面都挂满了节点
+    - ![](image\完全二叉树.PNG)
+    - 完全二叉树的顺序存储:
+        + 性质5: 对完全二叉树，若从上至下、从左至右编号，则编号为i 的结点，其左孩子编号必为2i，其右孩子编号必为2i＋1；其双亲的编号必为i/2（i＝1 时为根,除外）。
+
+        + ![](image\二叉树的顺序存储.PNG)
+        + 便于还原二叉树
+
+* 普通二叉树
+    - 采用链式存储
+    - 叶子节点一定要把左右孩子赋值为NULL, 即递归退出的条件
+
+#### 19. 遍历二叉树
+![](image\二叉树案例.PNG)
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct _tag_BiTNode {
+    char data;
+    struct _tag_BiTNode* lChild;
+    struct _tag_BiTNode* rChild;
+
+}BiTNode;
+
+void xianxuBL(BiTNode *root) {
+    if (root == NULL) {
+        return;
+    }
+    printf("%c ", root->data);
+    xianxuBL(root->lChild);
+    xianxuBL(root->rChild);
+}
+
+void zhongxuBL(BiTNode *root) {
+    if (root == NULL) {
+        return;
+    }
+    zhongxuBL(root->lChild);
+    printf("%c ", root->data);
+    zhongxuBL(root->rChild);
+}
+
+void zhongxuBL_Leaf_Count(BiTNode *root, int *sum) {
+    if (root == NULL) {
+        return;
+    }
+    
+    zhongxuBL_Leaf_Count(root->lChild, sum);
+    if (!root->lChild && !root->rChild) {
+        printf("%c ", root->data);
+        *sum += 1;
+    }
+    zhongxuBL_Leaf_Count(root->rChild, sum);
+}
+
+void houxuBL(BiTNode *root) {
+    if (root == NULL) {
+        return;
+    }
+    houxuBL(root->lChild);
+    houxuBL(root->rChild);
+    printf("%c ", root->data);
+}
+int treeDepth(BiTNode *root) {
+    if (root == NULL) {
+        return 0;
+    }
+    int left = treeDepth(root->lChild);
+    int right = treeDepth(root->rChild);
+    int max = left > right ? left : right;
+
+    return ++max;
+}
+
+BiTNode* copyTree(BiTNode *root) {
+    if (root == NULL) {
+        return NULL;
+    }
+
+    BiTNode *newRoot = (BiTNode*)malloc(sizeof(BiTNode));
+    BiTNode *left = copyTree(root->lChild);
+    BiTNode *right = copyTree(root->rChild);
+
+    newRoot->data = root->data;
+    newRoot->lChild = left;
+    newRoot->rChild = right;
+
+    return newRoot;
+}
+
+void main() {
+    BiTNode nodeA, nodeB, nodeC, nodeD, nodeE, nodeF, nodeG, nodeH;
+    memset(&nodeA, 0, sizeof(BiTNode));
+    memset(&nodeB, 0, sizeof(BiTNode));
+    memset(&nodeC, 0, sizeof(BiTNode));
+    memset(&nodeD, 0, sizeof(BiTNode));
+    memset(&nodeE, 0, sizeof(BiTNode));
+    memset(&nodeF, 0, sizeof(BiTNode));
+    memset(&nodeG, 0, sizeof(BiTNode));
+    memset(&nodeH, 0, sizeof(BiTNode));
+
+    nodeA.data = 'A';
+    nodeA.lChild = &nodeB;
+    nodeA.rChild = &nodeC;
+
+    nodeB.data = 'B';
+    nodeB.lChild = &nodeD;
+    nodeB.rChild = &nodeE;
+
+    nodeC.data = 'C';
+    nodeC.lChild = &nodeF;
+    nodeC.rChild = &nodeG;
+
+    nodeD.data = 'D';
+    nodeD.lChild = &nodeH;
+
+    nodeE.data = 'E';
+    nodeF.data = 'F';   
+    nodeG.data = 'G';
+    nodeH.data = 'H';
+
+    printf("先序\n");
+    xianxuBL(&nodeA);
+    printf("\n中序\n");
+    zhongxuBL(&nodeA);
+    printf("\n后序\n");
+    houxuBL(&nodeA);
+    printf("\n");
+
+    printf("中序统计叶子节点数:\n");
+    int sum = 0;
+    zhongxuBL_Leaf_Count(&nodeA, &sum);
+    printf("sum: %d\n", sum);
+    
+    int depth = treeDepth(&nodeA);
+    printf("depth: %d\n", depth);
+
+    BiTNode *newRoot = copyTree(&nodeA);
+    printf("copyTree\n");
+    xianxuBL(&nodeA);
+    printf("\n");
+}
+```
+* 非递归算法中序遍历二叉树
+
+![](image\非递归算法中序遍历二叉树.PNG)
+
+#### 20. 递归算法
+* 在递归算法中, 要首先写出递归的退出条件
+* 正序操作(printf/compute...)在递归调用之前
+* 逆序操作(printf/compute...)在递归调用之后

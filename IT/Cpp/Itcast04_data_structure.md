@@ -497,4 +497,254 @@ void main() {
 * 正序操作(printf/compute...)在递归调用之前
 * 逆序操作(printf/compute...)在递归调用之后
 
-#### 21. 
+#### 21. #号法创建树
+* 先序创建
+* 后续销毁(必须)
+```
+BiTNode* createTree() {
+    char c;
+    cin >> c;
+
+    if (c == '#') {
+        return NULL;
+    }
+
+    BiTNode* root = new BiTNode;
+    root->data = c;
+
+    root->lChild = createTree();
+    root->rChild = createTree();
+
+    return root;
+
+}
+
+void destroyTree(BiTNode *root) {
+    if (root == NULL) {
+        return;
+    }
+    destroyTree(root->lChild);
+    destroyTree(root->rChild);
+    cout << root->data << " ";
+    delete root;
+}
+```
+
+#### 22. 选择排序
+* 不稳定排序是指: 对于相同的值经过排序后, 位置进行的交换, 即为不稳定排序
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+void select_sort(int * array, int len) {
+    int min = 0;
+    for (int i = 0; i < len - 1; ++i) {
+        min = i;
+        for (int j = i + 1; j < len; ++j) {
+            if (array[min] > array[j]) {
+                min = j;
+            }
+        }
+        if (min != i) {
+            int tmp = 0;
+            tmp = array[i];
+            array[i] = array[min];
+            array[min] = tmp;
+        }
+    }
+
+}
+
+
+void main() {
+    int array[] = { 12, 55,6,8,96,7,11 };
+    int len = sizeof(array) / sizeof(int);
+    int i = 0;
+
+    for (i = 0; i < len; ++i) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
+    select_sort(array, len);
+
+    printf("after select sort\n");
+    for (i = 0; i < len; ++i) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
+}
+```
+
+#### 23. 冒泡排序
+* 效率最低
+* 原始冒泡排序:
+```
+for (i = 0; i < len; i++) {
+        for (j = i; j < len; j++) {
+            if (array[j] > array[i]) {
+                //需要交换
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+    }
+```
+* 标准冒泡排序优化:
+    - flag: 当没有发生交换时, 即为已经排序完成, 停止外层for循环, 减少外层for循环次数
+```
+#include <stdio.h>
+#include <stdlib.h>
+// flag: 0 没排好,  1 排好
+void bubble_sort(int *array, int len) {
+    int flag = 0;
+    for (int i = len - 1; i > 0 && flag == 0; --i) {
+        flag = 1; // 默认已排好
+        for (int j = 0; j < i; ++j) {
+            if (array[j + 1] > array[j]) {
+                int tmp = array[j + 1];
+                array[j + 1] = array[j];
+                array[j] = tmp;
+                flag = 0;
+            }
+        }
+    }
+}
+
+#if 1
+void main() {
+    int array[] = { 3,55,2,41,66,23,99,1 };
+    int len = sizeof(array) / sizeof(int);
+    
+    bubble_sort(array, len);
+    for (int i = 0; i < len; ++i) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+}
+#endif
+```
+
+#### 24. 插入排序
+* 遍历无序序列的每一个元素, 将其插入在有序序列的合适位置, 有序序列向后移动
+* 两个序列: 有序序列, 无序序列(外层循环)
+* 有序序列的最后一个时最大的
+```
+void insert_sort(int *array, int len) {
+    int tmp = 0; // 基准数
+    int index = 0; // 坑的位置
+    
+    for (int i = 1; i < len; ++i) {
+        index = i;
+        tmp = array[i];
+        for (int j = i - 1; j >= 0; --j) {
+            if (tmp < array[j]) {
+                array[j + 1] = array[j];
+                index = j;
+            }
+            else
+            {
+                break;
+            }
+        }
+        array[index] = tmp;
+    }
+}
+```
+
+#### 25. 希尔排序
+* 高级排序算法, 效率 O(n) ~ O($n^2$)
+* 分组进行插入排序
+* 保证最后步长必须==1
+* 希尔排序是不稳定排序
+```
+void shell_sort(int *array, int len) {
+    int gap = len;
+    while (gap > 1)
+    {
+        gap = gap / 3 + 1;
+        // 分gap组进行插入排序
+        for (int i = 0; i < gap; ++i) {
+            int tmp; // 基准数
+            int index; // 坑的位置
+            for (int j = i + gap; j < len; j+=gap) {
+                tmp = array[j];
+                index = j;
+                for (int k = j - gap; k >= 0; k -= gap) {
+                    if (tmp < array[k]) {
+                        // 后移
+                        array[k + gap] = array[k];
+                        index = k;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                //填坑
+                array[index] = tmp;
+            }
+        }
+    }
+}
+```
+
+#### 26. 快速排序
+* 要能够描述出算法
+* 不稳定算法
+* 挖坑填数+分治法
+* 分治法的基本思想是：
+    - 先从数列中取出一个数作为基准数。
+    - 分区过程，将比这个数大的数全放到它的右边，小于或等于它的数全放到它的左边。
+    - 再对左右区间重复第二步，直到各区间只有一个数。
+
+#### 27. 归并排序
+* 基本思想:
+    - 将数组分成二组A，B，如果这二组组内的数据都是有序的，那么就可以很方便的将这二组数据进行排序
+* 归并的定义: 将两个或两个以上的有序序列合并成一个新的有序序列
+* 空间换时间, 稳定排序, 复杂度$O(n \log n)$
+* 合并2个有序序列(升序): 两个指针分别指向两个有序序列的头部, 通过比较将较小的取出放入临时序列中, 然后将原序列指针后移, 继续比较, 将较小的放入临时序列, 然后相应序列指针后移, 以此类推, 当一个序列遍历完成后, 将另一个序列剩下的值依次取出放入临时序列中, 即完成合并
+![](image\归并排序_有序序列合并.PNG)
+
+#### 28. 堆排序
+* 先构建大顶堆或小顶堆(和父节点比较交换)
+* 根节点序号1, 左孩子2i, 右孩子2i+1
+* 构建好后, 删除根节点, 将数组最后一个叶子节点放到根节点, 然后和自己的左右孩子做比较, 与较大的进行交换
+* 记录删除根节点的顺序, 即为排序结果
+
+#### 29. 顺序线性表的模板实现 SqList template
+* 泛型数组
+* template类在删除数组元素的函数中(返回值带T的)无法明确返回数据类型, 函数的参数列表中没有传递具体数据类型T, 因此不能判定数组下标越界(template的缺陷)
+    - STL中同样存在此风险
+    - 解决方法: 在业务层(main), 用户调用方法前对pos进行合法判定
+
+#### 30. 线性表链式存储的模板实现 LinkList template
+* 泛型链表
+* 泛型链表头节点指针要开辟内存空间:
+```
+ListNode<T> *m_head;
+m_head = new ListNode<T>;
+```
+* template泛型代码在编译时会进行二次编译, 第一次是<T>类型, 第二次才是真正的数据类型, 因此需要包含.h 和 .cpp (.hpp)文件, 才能编译通过
+
+#### 31. SqStack  LinkStack  SqQueue LinkQueue
+
+#### 32. 二叉排序数
+* 根节点比左孩子大, 比右孩子小, 通过中序遍历可以得到升序序列
+* 插入节点时, 与根节点进行比较, 小的放左子树, 大的放右子树, 最终放入合适的位置(叶子节点) 
+* ![](image\二叉排序树.PNG)
+* 平衡二叉树: 左右子树差不能大于1
+* 通过4种情况的反转, 维持二叉树的平衡
+
+#### 33. 红黑树
+* ![](image\红黑树.PNG)
+* 5. 叶子节点下的NULL节点默认都是黑色的
+
+#### 34. B树 B+树
+* 存储在硬盘上使用
+* win/Linus文件系统
+* 数据库文件存储
+* 高度有限(5层以下)
+* 子节点很多

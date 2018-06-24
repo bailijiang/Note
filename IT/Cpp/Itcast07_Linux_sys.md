@@ -35,5 +35,266 @@ int main(void)
     - 以写方式打开只读文件(打开文件没有对应权限)  errno: 13
     - 以只写方式打开目录  errno: 21
 
+#### 3. Linux内存布局
+![](image\内存布局图.PNG)
 
-#### 3. 
+#### 4. read / write
+* 返回的是实际读到/写到的大小
+```
+[root@centos180 file_IO_test]# cat read.c
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <errno.h>
+
+int main(void)  
+{   
+    char buf[1024];
+    int ret = 0;
+    int fd = open("./dict.txt", O_RDWR);    
+    printf("fd: %d\n", fd);
+    printf("errno: %d\n", errno);
+
+    while((ret = read(fd, buf, sizeof(buf))) != 0)
+    {
+        write(STDOUT_FILENO, buf, ret);
+    }
+
+
+    close(fd);  
+    printf("close ok\n");
+
+    return 0;
+}
+```
+
+#### 5. cp命令实现(read/write)
+```
+[root@centos180 file_IO_test]# cat mycopy.c 
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <errno.h>
+
+int main(int argc, char* argv[])    
+{   
+    char buf[1024];
+    int ret = 0;
+    
+    char *src = argv[1];
+    char *des = argv[2];
+
+    
+    int src_fd = open(src, O_RDONLY);
+    int des_fd = open(des, O_WRONLY | O_CREAT, 0644);
+
+    //printf("fd: %d\n", fd);
+    printf("errno: %d\n", errno);
+
+    while((ret = read(src_fd, buf, sizeof(buf))) != 0)
+    {
+        write(des_fd, buf, ret);
+    }
+
+
+    close(src_fd);
+    close(des_fd);  
+    printf("close ok\n");
+
+    return 0;
+}
+```
+
+#### 6. fgetc, fputc / read, write 区别
+* C标准库fgetc, fputc 比 read, write 性能高
+    - 原因: 预读入, 缓输出机制
+    - read,write 从用户区到内核区切换非常耗时
+    - fgetc, fputc 有自己的缓冲区 4096
+    - ![](image\预读入缓输出机制.PNG)
+* strace 跟踪程序系统调用: strace ./app
+* 所有的系统调用都应该判断返回值 errno
+
+#### 7. perror (man 3 perror)
+* vim中查看man: 3+K
+
+#### 8. 阻塞和非阻塞
+* 阻塞
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    char buf[1024];
+    int n = 0;
+
+    n = read(STDIN_FILENO, buf, sizeof(buf));
+    if(n<0)
+    {
+        perror("read err");
+        exit(1);
+    }
+    write(STDOUT_FILENO, buf, n);
+
+    return 0;
+}
+```
+* 非阻塞
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <string.h>
+#include <unistd.h>
+
+#define MSG_TRY "try again\n"
+
+int main(void)
+{
+    char buf[1024];
+    int fd, n;
+    
+    fd = open("/dev/tty", O_RDONLY | O_NONBLOCK);
+    if(fd < 0)
+    {
+        perror("open tty error");
+        exit(1);
+    }
+tryagain:
+    n = read(fd, buf, 1024);
+    if(n < 0)
+    {
+        if(errno != EAGAIN)
+        {
+            perror("read error");
+            exit(1);
+        }
+        sleep(3);
+        write(STDOUT_FILENO, MSG_TRY, sizeof(MSG_TRY));
+        goto tryagain;
+    }
+    write(STDOUT_FILENO, buf, n);
+    close(fd);
+
+    return 0;
+}
+```
+* timeout:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <string.h>
+#include <unistd.h>
+
+#define MSG_TRY "try again\n"
+#define MSG_TIMEOUT "time out\n"
+
+int main(void)
+{
+    char buf[1024];
+    int fd, n, i;
+    
+    fd = open("/dev/tty", O_RDONLY | O_NONBLOCK);
+    if(fd < 0)
+    {
+        perror("open tty error");
+        exit(1);
+    }
+    printf("fd: %d\n", fd);
+
+    for(i = 0; i < 5; ++i)
+    {
+        n = read(fd, buf, 1024);
+        if(n < 0)
+        {
+            if(errno != EAGAIN)
+            {
+                perror("read error");
+                exit(1);
+            }
+            sleep(2);
+            write(STDOUT_FILENO, MSG_TRY, strlen(MSG_TRY));
+        }
+    }
+    if(i == 5)
+    {
+        write(STDOUT_FILENO, MSG_TIMEOUT, strlen(MSG_TIMEOUT));
+    }
+    else
+    {
+        write(STDOUT_FILENO, buf, n);
+    }
+    close(fd);
+
+    return 0;
+}
+```
+
+#### 9. lseek
+* 文件的读写指针只有一个
+* write 完, 指针指向文件末尾
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <string.h>
+#include <unistd.h>
+
+
+int main(void)
+{
+    char msg[] = "It's a test for lseek.\n";
+    int fd, n;
+    char ch;    
+
+    fd = open("lseek.txt", O_RDWR | O_CREAT, 0644); 
+    if(fd < 0)
+    {
+        perror("open error");
+        exit(1);
+    }
+
+    write(fd, msg, strlen(msg));
+    lseek(fd, 10, SEEK_SET);
+
+    while((n = read(fd, &ch, 1)))
+    {
+        if(n < 0)
+        {
+            perror("read error");
+            exit(1);
+        }
+        write(STDOUT_FILENO, &ch, 1);
+    }
+    close(fd);
+
+    return 0;
+}
+```
+* 文件拓展:
+    - 必须发生文件IO后才有效
+```
+lseek(fd, 99, SEEK_SET);
+write(fd, msg, strlen(msg));
+```
+* od : 按照编码格式显示无法显示的字符
+```
+[root@centos180 file_IO_test]# od -tcx lseek.txt 
+0000000  \0  \0  \0  \0  \0  \0  \0  \0  \0  \0  \0  \0  \0  \0  \0  \0
+               00000000        00000000        00000000        00000000
+*
+0000140  \0  \0  \0   I   t   '   s       a       t   e   s   t       f
+               49000000        20732774        65742061        66207473
+0000160   o   r       l   s   e   e   k   .  \n
+               6c20726f        6b656573        00000a2e
+0000172
+```
+* 获取文件大小
+`int len = lseek(fd, 0, SEEK_END);`
+
+#### 10. 

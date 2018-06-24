@@ -10,7 +10,7 @@
 * -Wall  输出所有warning (warning all)
 
 #### 3. toolchain
-* nm 命令查看符号: 全局变量, 全局函数  nm test01.o
+* nm 命令查看二进制文件符号: 全局变量, 全局函数  nm test01.o
     - T 实现了的
     - U 未实现的, 可能在.h里实现
     - D 全局变量

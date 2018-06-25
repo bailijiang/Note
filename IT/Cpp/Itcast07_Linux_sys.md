@@ -297,4 +297,175 @@ write(fd, msg, strlen(msg));
 * 获取文件大小
 `int len = lseek(fd, 0, SEEK_END);`
 
-#### 10. 
+#### 10. 位操作(bitmap位图)
+* 本质是通过二进制位直接操作整数
+* and与操作用于取出特定位
+* or或操作用于指定位的无条件赋值
+* `flags |= O_NONBLOCK; // 在flags中加入O_NONBLOCK属性`
+
+#### 11. fcntl函数
+* 动态添加非阻塞操作
+```
+    #include <unistd.h>
+    #include <fcntl.h>
+    #include <errno.h>
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <string.h>
+
+    #define MSG_TRY "try again\n"
+
+    int main(void)
+    {
+        char buf[10];
+        int flags, n;
+
+        flags = fcntl(STDIN_FILENO, F_GETFL); //获取stdin属性信息
+        if(flags == -1){
+            perror("fcntl error");
+            exit(1);
+        }
+        flags |= O_NONBLOCK; // 在flags中加入O_NONBLOCK属性
+        int ret = fcntl(STDIN_FILENO, F_SETFL, flags);
+        if(ret == -1){
+            perror("fcntl error");
+            exit(1);
+        }
+
+    tryagain:
+        n = read(STDIN_FILENO, buf, 10);
+        if(n < 0){
+            if(errno != EAGAIN){        
+                perror("read /dev/tty");
+                exit(1);
+            }
+            sleep(3);
+            write(STDOUT_FILENO, MSG_TRY, strlen(MSG_TRY));
+            goto tryagain;
+        }
+        write(STDOUT_FILENO, buf, n);
+
+        return 0;
+    }
+```
+
+#### 12. 查找宏定义
+* man
+* 头文件 .h
+* `grep -r "TIOCGWINSZ" /usr/lib/x86_64-redhat-linux6E/include/sys/ioctl.h`
+* `https://elixir.bootlin.com/linux/latest/source`
+
+#### 13. ioctl
+* &size 传出参数
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+
+int main(void)
+{
+    struct winsize size;
+
+    if (isatty(STDOUT_FILENO) == 0)     //
+        exit(1);
+
+    if(ioctl(STDOUT_FILENO, TIOCGWINSZ, &size)<0) {  // &size 传出参数
+        perror("ioctl TIOCGWINSZ error");
+        exit(1);
+    }
+    printf("%d rows, %d columns\n", size.ws_row, size.ws_col);
+
+    return 0;
+}
+```
+
+#### 14. strtok 拆分字符串
+```
+#include<stdio.h>
+#include<string.h>
+int main(void)
+{
+    char buf[]="hello@boy@this@is@heima";
+    char*temp = strtok(buf,"@");
+    while(temp)
+    {
+        printf("%s ",temp);
+        temp = strtok(NULL,"@");
+    }
+    return0;
+}
+```
+
+#### 15. ext2
+* ![](image\ext2文件系统.PNG)
+* 如何确定一个分区有多少个 BlockGroup: 
+    - BlockBitmap 1k x 8 = 8k bit 个Block
+    - 整个分区s个Block, 那么就有 s/8k 个BlockGoup
+
+#### 16. stat
+* 获取文件大小
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/stat.h>
+
+
+int main(void)
+{
+    int ret = 0;
+    struct stat sbuf;
+
+    ret = stat("makefile", &sbuf);
+    if(ret == -1)
+    {
+        perror("stat error");
+        exit(1);
+    }
+    printf("len: %ld\n", sbuf.st_size);
+
+    return 0;
+}
+```
+* 获取文件类型
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/stat.h>
+
+
+int main(void)
+{
+    int ret = 0;
+    struct stat sbuf;
+
+    ret = stat("makefile", &sbuf);
+    if(ret == -1)
+    {
+        perror("stat error");
+        exit(1);
+    }
+    printf("len: %ld\n", sbuf.st_size);
+    printf("mode: %d\n", (int)sbuf.st_mode);
+
+    if(S_ISREG(sbuf.st_mode))
+    {
+        printf("It's a reguler file.\n");
+    }
+    else if(S_ISDIR(sbuf.st_mode))
+    {
+        printf("It's a dir.\n");
+    }
+    else if(S_ISLNK(sbuf.st_mode))
+    {
+        printf("It's a link file.\n");  
+    }
+
+
+    return 0;
+}
+```
+
+#### 17. 

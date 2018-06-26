@@ -116,6 +116,7 @@ int main(int argc, char* argv[])
 
 #### 7. perror (man 3 perror)
 * vim中查看man: 3+K
+* !man 3 perror
 
 #### 8. 阻塞和非阻塞
 * 阻塞
@@ -299,8 +300,8 @@ write(fd, msg, strlen(msg));
 
 #### 10. 位操作(bitmap位图)
 * 本质是通过二进制位直接操作整数
-* and与操作用于取出特定位
-* or或操作用于指定位的无条件赋值
+* and与操作用于取出特定位(然后根据需要进行判定)----->位读 &
+* or或操作用于指定位的无条件赋值              ----->位写 |
 * `flags |= O_NONBLOCK; // 在flags中加入O_NONBLOCK属性`
 
 #### 11. fcntl函数
@@ -436,12 +437,12 @@ int main(void)
 #include <sys/stat.h>
 
 
-int main(void)
+int main(int argc, char* argv[])
 {
     int ret = 0;
     struct stat sbuf;
 
-    ret = stat("makefile", &sbuf);
+    ret = stat(argv[1], &sbuf);
     if(ret == -1)
     {
         perror("stat error");
@@ -462,10 +463,135 @@ int main(void)
     {
         printf("It's a link file.\n");  
     }
+    else if(S_ISFIFO(sbuf.st_mode))
+    {
+        printf("It's a pipe file.\n");
+    }
 
 
     return 0;
 }
 ```
 
-#### 17. 
+#### 17. 管道文件
+* 特点: 半双工, 阻塞
+* 应用: 进程间通信, 一端写一端读(类似于golang: channel)
+* 创建管道文件: mkfifo file_name.pipe
+* 模拟进程间通信程序: a.c, b.c(你一句我一句)
+* a.c:
+```
+#include<sys/types.h>
+#include<sys/stat.h>
+#include<fcntl.h>
+#include<unistd.h>
+#include<strings.h>
+#include<stdio.h>
+#include<string.h>
+int main(int argc,char** argv)
+{
+        int fdw=open(argv[1],O_WRONLY);
+        int fdr=open(argv[2],O_RDONLY);
+        printf("fdr=%d fdw=%d\n",fdr,fdw);
+        char buf[128]="";
+        while(1) //如果管道写端关闭，读端如果read,会返回0
+        {
+                bzero(buf,sizeof(buf));
+                read(0,buf,sizeof(buf));
+                write(fdw,buf,strlen(buf)-1);  //去掉标准输入最后读到的回车
+                bzero(buf,sizeof(buf));
+                read(fdr,buf,sizeof(buf));
+                printf("b:%s\n",buf);                      
+        }
+        return 0;
+}
+```
+* b.c:
+```
+#include<sys/types.h>
+#include<sys/stat.h>
+#include<fcntl.h>
+#include<unistd.h>
+#include<strings.h>
+#include<stdio.h>
+#include<string.h>
+int main(int argc,char** argv)
+{
+        int fdr=open(argv[1],O_RDONLY);
+        int fdw=open(argv[2],O_WRONLY);
+        printf("fdr=%d fdw=%d\n",fdr,fdw);
+        char buf[128]="";
+        while(1)
+        {
+                bzero(buf,sizeof(buf));
+                read(fdr,buf,sizeof(buf));
+                printf("a:%s\n",buf);
+                bzero(buf,sizeof(buf));
+                read(0,buf,sizeof(buf));
+                write(fdw,buf,strlen(buf)-1);  //去掉标准输入最后读到的回车
+        }
+        return 0;
+}
+```
+
+#### 18. 软链接
+* 穿透(符号链接): vi, vim, stat, ...
+* 不穿透: lstat, ls, readlink, ...
+
+#### 19. inode/dentry
+* inode: 
+    - 保存文件属性: 权限, size, owner, xxxtime
+* dentry: 
+    - 保存文件名和inode号
+
+#### 20. 数据块寻址
+* inode表, 每个inode在ext2中是128字节 
+* 一个inode对应一个文件, 一个文件对应多个Block
+* 一个BlockGoup有多少个8K, 就有多少个inode
+* 数据块寻址
+* ![](image\数据块寻址.PNG)
+
+* inode表中, 每个inode[]下标索引项占4字节: 每4个字节标识一个Block, 后3个是间接寻址
+* 当一个Block块大小为1K时(b=1K=1024Bytes), 最多可表示$(b/4)^3+(b/4)^2+(b/4)+12$=16843020 个数据块, 即16843020K字节, 即一个inode对应的一个文件最大为 16.06GB
+
+#### 21. sticky黏住位
+* chmod 01777 ttt
+* 设置sticky位的文件或目录会始终存在内存里
+
+#### 22. 拓展文件 lseek / truncate
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+    int fd = open("./file.t", O_RDWR | O_CREAT, 0644);
+    if(fd == -1)
+    {
+        perror("open error");
+        exit(1);
+    }
+#if 0       
+    lseek(fd, 99, SEEK_SET);
+    write(fd, "s", 1);
+#endif
+    int ret = truncate("./file.t", 200);
+    if(ret < 0)
+    {
+        perror("truncate error");
+        exit(1);
+    }
+    
+    close(fd);
+
+
+    return 0;
+}
+```
+
+#### 23. link
+* 创建硬连接, 相当于 ln
+* 硬连接创建的文件与原文件共享一个inode
+
+#### 24. 

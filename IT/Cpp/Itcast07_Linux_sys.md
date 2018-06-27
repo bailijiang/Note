@@ -594,4 +594,260 @@ int main(int argc, char** argv)
 * 创建硬连接, 相当于 ln
 * 硬连接创建的文件与原文件共享一个inode
 
-#### 24. 
+#### 24. 程序运行时创建临时文件
+```
+/*
+ *unlink函数是删除一个dentry
+ */
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
+
+int main(void)
+{
+    int fd;
+    char *p = "test of unlink\n";
+    char *p2 = "after write something.\n";
+
+    fd = open("temp.txt", O_RDWR|O_CREAT|O_TRUNC, 0644);
+    if(fd < 0){
+        perror("open temp error");
+        exit(1);
+    }
+    int ret = unlink("temp.txt");        //具备了被释放的条件
+    if(ret < 0){
+        perror("unlink error");
+        exit(1);
+    }
+
+    ret = write(fd, p, strlen(p));
+    if (ret == -1) {
+        perror("-----write error");
+    }
+
+    p[0] = 'H';
+
+    printf("hi! I'm printf\n");
+    ret = write(fd, p2, strlen(p2));
+    if (ret == -1) {
+        perror("-----write error");
+    }
+
+
+    printf("Enter anykey continue\n");
+    getchar();
+
+    close(fd);
+
+
+    return 0;
+}
+```
+
+#### 25. 获取改变当前目录getcwd/chdir
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{   
+    char buf[64];
+    printf("pwd: %s\n", getcwd(buf, 64));
+
+    chdir(argv[1]);
+
+    printf("pwd: %s\n", getcwd(buf, 64));
+
+    return 0;
+}
+```
+
+#### 26. 目录
+* 目录也是文件
+* 目录文件内包括目录项
+* 打开/关闭/读取目录项
+```
+#include <unistd.h>
+#include <dirent.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+    DIR *dp;
+    struct dirent *sdp;
+
+    dp = opendir(argv[1]);
+    if(dp == NULL)
+    {
+        perror("opendir error");
+        exit(1);
+    }
+    while((sdp = readdir(dp)) != NULL)
+    {
+        if(sdp->d_name[0] != '.')
+        {
+            printf("%s\n", sdp->d_name);
+        }
+    }
+
+    
+    closedir(dp);
+
+    return 0;
+}
+```
+
+#### 27. 递归遍历目录中的文件
+* listAllFiles.c:
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <dirent.h>
+#include <stdlib.h>
+#include <sys/stat.h>
+#include <string.h>
+#include <assert.h>
+
+#define MAX_PATH_LEN 512
+
+int count =0;
+char dirPath[MAX_PATH_LEN];
+
+void listAllFiles(char *dirname)
+{
+    assert(dirname != NULL);
+    
+    char path[512];
+    struct dirent *filename;
+    DIR *dir;
+    dir = opendir(dirname);
+    if(dir == NULL)
+    {
+        printf("open dir %s error!\n",dirname);
+        exit(1);
+    }
+    
+    while((filename = readdir(dir)) != NULL)
+    {
+        
+        if(!strcmp(filename->d_name,".")||!strcmp(filename->d_name,".."))
+            continue;
+            
+        sprintf(path,"%s/%s",dirname,filename->d_name);
+        
+        struct stat s;
+        lstat(path,&s);
+        
+        if(S_ISDIR(s.st_mode))
+        {
+            listAllFiles(path);
+        }
+        else
+        {
+            printf("%d. %s\n",++count,filename->d_name);
+        }
+    }
+    closedir(dir);
+}
+
+
+int main(int argc, char **argv)
+{
+
+    if(argc != 2)
+    {
+        printf("one dir required!(for eample: ./a.out /home/myFolder)\n");
+        exit(1);
+    }
+    strcpy(dirPath,argv[1]);
+    listAllFiles(dirPath);
+    printf("total files:%d\n",count);
+    return 0;
+}
+```
+
+* ls_R.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <dirent.h>
+
+#define MAX_LENGTH 256
+
+
+void fetchdir(const char *dirname, void (*fcn)(char *name))
+{
+    DIR *dir = opendir(dirname);
+    struct dirent *filename;
+    char path[MAX_LENGTH];
+
+    if(dir == NULL)
+    {
+        perror("opendir error");
+        return;
+    }
+    while((filename = readdir(dir)) != NULL)
+    {
+        if(!strcmp(filename->d_name, ".") || !strcmp(filename->d_name, ".."))
+        {
+            continue;
+        }
+
+        if(strlen(dirname)+strlen(filename->d_name)+2 > sizeof(path))
+        {
+            perror("name too long");
+        }
+        else
+        {
+            sprintf(path, "%s/%s", dirname, filename->d_name);
+            (*fcn)(path);
+        }
+    }
+    closedir(dir);
+}
+
+
+void isfile(char *name)
+{
+    struct stat sbuf;
+    if(stat(name, &sbuf) == -1)
+    {
+        perror("file name error");
+        exit(1);
+    }
+    if((sbuf.st_mode & S_IFMT) == S_IFDIR)
+    {
+        fetchdir(name, isfile);
+    }
+    printf("%s  %8ld\n", name, sbuf.st_size);
+
+}
+
+int main(int argc, char** argv)
+{
+    int i = 0;
+
+    if(argc == 1)
+    {
+        isfile(".");
+    }
+        
+    for(i = 1;i < argc; ++i)
+    {
+        isfile(argv[i]);
+    }
+
+
+    return 0;
+}
+```
+
+#### 28. 

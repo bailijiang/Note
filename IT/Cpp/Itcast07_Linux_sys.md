@@ -545,12 +545,12 @@ int main(int argc,char** argv)
 
 #### 20. 数据块寻址
 * inode表, 每个inode在ext2中是128字节 
-* 一个inode对应一个文件, 一个文件对应多个Block
+* 一个inode对应一个文件, 一个文件对应一个或多个Block
 * 一个BlockGoup有多少个8K, 就有多少个inode
 * 数据块寻址
 * ![](image\数据块寻址.PNG)
 
-* inode表中, 每个inode[]下标索引项占4字节: 每4个字节标识一个Block, 后3个是间接寻址
+* inode表中, 每个inode中的Block[]下标索引项占4字节: 每4个字节标识一个Block, 后3个是间接寻址, 里面存放的时Block的编号(不是地址)
 * 当一个Block块大小为1K时(b=1K=1024Bytes), 最多可表示$(b/4)^3+(b/4)^2+(b/4)+12$=16843020 个数据块, 即16843020K字节, 即一个inode对应的一个文件最大为 16.06GB
 
 #### 21. sticky黏住位
@@ -593,6 +593,7 @@ int main(int argc, char** argv)
 #### 23. link
 * 创建硬连接, 相当于 ln
 * 硬连接创建的文件与原文件共享一个inode
+* 硬连接不能创建目录
 
 #### 24. 程序运行时创建临时文件
 ```
@@ -850,4 +851,147 @@ int main(int argc, char** argv)
 }
 ```
 
-#### 28. 
+#### 28. 回调函数
+* 要确定谁是调用函数, 谁是回调函数
+* 调用函数在参数中指定回调函数的类型
+* 回调函数不是必须的, 但可增强灵活性
+* 回调函数是面向对象中多态的理论基础
+* 回调函数的本质是函数指针
+
+#### 29. dup / dup2 重定向
+* dup2(old_fd, new_fd) 
+    - 是将old_fd 下标(指针), 拷贝到new_fd
+    - new_fd 与 old_fd 指向同一个文件, 即old_fd所指向的文件
+    - 相当于将new_fd重定向到了old_fd
+* 实现 cat read.c > re_read.c
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+    char *s_name = argv[1];
+    char *d_name = argv[2];
+    int s_fd;
+    int d_fd;
+    char buf[1024];
+    int ret;
+
+    s_fd = open(s_name, O_RDONLY);
+    d_fd = open(d_name, O_RDWR | O_CREAT, 0644);
+    if(s_fd == -1 || d_fd == -1)
+    {
+        perror("open error");
+        exit(1);
+    }
+
+    dup2(d_fd, STDOUT_FILENO);  
+    while((ret = read(s_fd, buf, 1024)) != 0)
+    {
+        //write(d_fd, buf, ret);
+        printf("%s", buf);
+
+    }
+    
+    
+    close(s_fd);
+    close(d_fd);
+
+    return 0;
+}
+```
+
+#### 30. while无{}时的分号;
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void)
+{
+    int n = 0;
+    while (n++ <= 2);
+    
+    printf("n = %d\n", n); // n = 4
+
+    return 0;
+}
+```
+
+#### 31. 短路运算
+* &&前面是0时,&&符号后面的不计算
+* ||前面不是0时,||号后面的不计算
+
+#### 32. sizeof运算符
+* 当数组作为函数参数时, 会自动退化成指针, 所以对函数参数做sizeof时, 大小为4
+```
+    void test(char a[10])
+    {
+        printf("a = %d\n", sizeof(a));  // a = 4
+    }
+```
+* 当数组作为表达式时, sizeof 为该数组的空间大小
+```
+    char p[10] = "hello";
+    printf("p = %d\n", sizeof(p));
+```
+
+#### 33. 内存中数据分布
+* .bss: 未初始化的全局变量   初始化为0的全局变量 static修饰（静态变量）的未初始化的或初始化为0的变量
+    - 通常是指用来存放程序中未初始化的全局变量的一块内存区域, BSS是英文Block Started by Symbol的简称, BSS段属于静态内存分配
+    - readelf -S/-s xx.o  可以查看.bss段记录
+* .data：初始化为非0的全局变量    static修饰（静态变量）的初始化为非0的变量
+* rodata：常量、只读全局变量
+* stack：局部变量
+* (变量/函数...)只声明不定义, 编译器不会分配地址空间, 如果使用, 会报错
+
+#### 34. 段错误
+* 对只读区域进程写操作  char　*p = "hello"; p[0] = 'H';
+* 对非访问区域进行读写操 地址1000
+* stack空间耗尽      函数内部 int arr[N]= {1};  #define N 100000000
+
+#### 35. 标准I/O提供的3种类型的缓冲
+* 全缓冲
+* 行缓冲: printf("test \n"); 没有\n就不输出, fflush(stdout) 可以刷新缓冲区
+* 无缓冲: stderr
+
+#### 36. find命令
+`find /usr/ -size +900k -size -2M | xargs ls -lh > result.txt
+`
+
+#### 37. 求1~n之间的所有素数
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+    int i, m, n;
+    int count = 1;          //用来设置显示格式
+
+    if (argc != 2) {
+        printf("Enter: ./a.out number\n");
+        exit(1);
+    }
+
+    printf("1～%d之间的素数有：\n", n = atoi(argv[1]));
+
+    for (i = 2; i <= n; i++) {
+        for(m = 2; m < i; m++) {
+            if(i % m == 0) {
+                break;
+            }
+        }
+        if (m >= i)
+            printf("%2d %c", i, (count++) % 10 ? ' ' : '\n');
+    } 
+    printf("\n");
+
+    return 0;
+}
+```
+
+#### 38. 

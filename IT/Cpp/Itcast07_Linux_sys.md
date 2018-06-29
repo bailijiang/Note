@@ -994,4 +994,99 @@ int main(int argc, char *argv[])
 }
 ```
 
-#### 38. 
+#### 38. 获取进程环境变量
+* environ:
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    extern char** environ;
+    int i;
+    for(i = 0 ;environ[i] != NULL; ++i)
+    {
+        printf("%s\n", environ[i]);
+    }
+
+    printf("-----------------\n");
+    printf("PATH: %s\n", getenv("PATH"));
+
+    return 0;
+}
+```
+* getenv:
+```
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(void)
+{
+        char *user = (char*)malloc(100);
+
+        user = getenv("USER");
+        printf("user: %s\n", user);
+
+        
+        free(user);
+
+        return 0;
+}
+```
+* setenv / unsetenv
+
+#### 39. CPU/MMU
+* CPU: 4级流水机制 (预取器, 译码器, ALU, 寄存器)
+* MMU: 虚拟内存映射 (Memery Management Unit)
+
+#### 40. CentOS7 kernel源代码路径
+* PCB进程控制块的 struct task_struct 在源代码中的定义位置: 
+    - `vim /usr/src/kernels/3.10.0-693.el7.x86_64/include/linux/sched.h`
+* 查询源码定义路径: `grep -r "struct task_struct {" /usr/src/kernels/3.10.0-693.el7.x86_64/include/linux/`
+
+#### 41. 根据pid查找运行程序
+* `ps aux | grep 2177`
+* `ps aux | grep init`
+
+#### 42. fork创建子进程并用循环因子i区分
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int cnt = 0;
+
+int main(int argc, char** argv)
+{
+    int n = 5;
+    int i;
+    pid_t pid;
+
+    for(i = 0; i < n; ++i)
+    {
+        pid = fork();
+        if(pid == 0)
+        {
+            break;
+        }
+    }
+    if(pid == -1)
+    {
+        perror("fork error");
+        exit(1);
+    }else if(i == n)
+    {
+        printf("Parent pid=%d  ppid=%d\n", getpid(), getppid());
+    }else
+    {
+        sleep(i);
+        printf("num: %d child process\n", i+1);
+        printf("Child pid=%d, ppid=%d\n", getpid(), getppid());
+    }
+
+
+    return 0;
+}
+```
+
+#### 43. 

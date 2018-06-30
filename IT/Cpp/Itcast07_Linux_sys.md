@@ -1089,4 +1089,232 @@ int main(int argc, char** argv)
 }
 ```
 
-#### 43. 
+#### 43. 多进程gdb调试
+* set follow-fork-mode child
+* set follow-fork-mode parent
+* 一定要在fork()之前设定才有意义
+
+#### 44. exec函数族
+* p代表PATH环境变量, 没有p的要加路径
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(void)
+{
+        pid_t pid;
+        pid = fork();
+        if(pid == -1)
+        {
+                perror("fork error");
+                exit(1);
+        }else if(pid > 0)
+        {
+                sleep(1);
+                printf("Parent Process: %d  Parent ID: %d\n", getpid(), getppid());
+        }else if(pid == 0)
+        {
+                char *argv1[] = {"ls", "-l", "-a", NULL};
+                //execlp("ls", "ls", "-l", "-a", NULL);
+                //execl("./test", "test", NULL);
+                execvp("ls", argv1);
+                perror("execlp error");
+                exit(1);
+        }
+        return 0;
+}
+
+```
+
+#### 45. 孤儿进程 / 僵尸进程
+* 父进程先于子进程结束, 子进程变为孤儿进程
+* 查看进程ID: `ps ajx`
+* PPID PID PGID SID(Session ID)
+* 僵尸进程不能用kill清除掉
+* 可以手动 kill -9 父进程来回收僵尸进程
+
+#### 46. wait()阻塞回收僵尸进程
+* 一个wait()只能回收1个子进程
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+int main(void)
+{
+        pid_t pid, wpid;
+        int status;
+
+        pid = fork();
+        if(pid == 0)
+        {
+                sleep(3);
+                printf("Child process id: %d\n", getpid());
+                return 19;
+        }
+        else if(pid > 0)
+        {
+                printf("Parent process id: %d\n", getpid());
+                wpid = wait(&status);
+                printf("wpid: %d\n", wpid);
+
+                if(WIFEXITED(status))
+                {
+                        printf("exit with %d\n", WEXITSTATUS(status));
+                }else if(WIFSIGNALED(status))
+                {
+                        printf("kill by %d\n", WTERMSIG(status));
+                }
+
+        }
+
+
+        return 0;
+}
+```
+
+#### 47. 回收指定进程 waitpid()
+* 非阻塞回收: `wpid = waitpid(tmppid, NULL, WNOHANG);`
+* 阻塞指定回收: `wpid = waitpid(tmppid, NULL, 0);`
+* 阻塞全部回收: `wpid = waitpid(-1, NULL, 0);`
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+int cnt = 0;
+
+int main(int argc, char** argv)
+{
+        int n = 5;
+        int i;
+        pid_t pid, wpid, tmppid;
+
+        for(i = 0; i < n; ++i)
+        {
+                pid = fork();
+                if(pid == 0)
+                {
+                        break;
+                }
+                if(i == 1)
+                {
+                        tmppid = pid;
+                }
+        }
+        if(pid == -1)
+        {
+                perror("fork error");
+                exit(1);
+        }else if(i == n)
+        {
+                printf("Parent pid=%d  ppid=%d\n", getpid(), getppid());
+                //wpid = wait(NULL);
+                //wpid = waitpid(tmppid, NULL, WNOHANG);
+                //wpid = waitpid(tmppid, NULL, 0);
+                while(--i)
+                {
+                        wpid = waitpid(-1, NULL, 0);
+                        printf("wpid: %d\n", wpid);
+                }
+                printf("tmppid: %d\n", tmppid);
+        }else
+        {
+                //sleep(i);
+                printf("num: %d child process\n", i+1);
+                printf("Child pid=%d, ppid=%d\n", getpid(), getppid());
+        }
+
+
+        return 0;
+}
+```
+
+#### 48. 父进程fork 3 个子进程，三个子进程一个调用ps命令，一个调用自定义程序1(正常), 一个调用自定义程序2(会出段错误)。父进程使用waitpid对其子进程全部进行回收, 并打印状态
+* exercise_fork.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+int main(int argc, char** argv)
+{
+    int n = 4;
+    int i;
+    pid_t pid, wpid;
+    int status;
+
+    for(i = 1; i < n; ++i)
+    {
+        pid = fork();
+        if(pid == 0)
+        {
+            break;
+        }
+    }
+    if(pid == -1)
+    {
+        perror("fork error");
+        exit(1);
+    }else if(i == n)
+    {
+        printf("Parent pid=%d  ppid=%d\n", getpid(), getppid());
+        while(--i)
+        {
+            wpid = waitpid(-1, &status, 0);
+            printf("wpid: %d\n", wpid);
+            
+            if(WIFEXITED(status))
+            {
+                printf("exit with %d\n", WEXITSTATUS(status));
+            }else if(WIFSIGNALED(status))
+            {
+                printf("kill by %d\n", WTERMSIG(status));
+            }
+
+        }
+    }else if(i == 1)
+    {
+        sleep(i);
+        printf("num: %d child process\n", i+1);
+        printf("Child pid=%d, ppid=%d\n", getpid(), getppid());
+        execlp("/bin/ps", "ps", "-a", "-u", "-x", NULL);
+        
+    }else if(i == 2)
+    {
+        sleep(i);
+        printf("num: %d child process\n", i+1);
+        printf("Child pid=%d, ppid=%d\n", getpid(), getppid());
+        execl("./test", "test", NULL);
+        
+    }else if(i == 3)
+    {
+        sleep(i);
+        printf("num: %d child process\n", i+1);
+        printf("Child pid=%d, ppid=%d\n", getpid(), getppid());
+        execl("./segerr", "segerr", NULL);
+        
+    }
+
+    return 0;
+}
+```
+* segerr.c:
+```
+#include <stdio.h>
+#include <signal.h>
+
+int main(void)
+{
+    printf("SEG ERR\n");
+    raise(SIGSEGV); 
+
+    return 0;
+}
+```
+
+#### 49. 

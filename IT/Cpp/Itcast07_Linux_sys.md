@@ -394,7 +394,7 @@ int main(void)
         printf("%s ",temp);
         temp = strtok(NULL,"@");
     }
-    return0;
+    return 0;
 }
 ```
 
@@ -1317,4 +1317,307 @@ int main(void)
 }
 ```
 
-#### 49. 
+#### 49. 全双工/半双工/单工
+* 全双工: 双向读写(电话)
+* 半双工: 双向半双工, 一端写一端读(对讲机), 管道pipe
+* 单工: 单向写/读(遥控器)
+
+#### 50. 通过pipe管道进行进程间通信
+* 先创建管道pipe, 再fork()子进程
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+
+void sys_err(const char* str)
+{
+        perror(str);
+        exit(1);
+}
+
+int main(void)
+{
+        int fd[2];
+        char *str = "hello pipe\n";
+        char buf[1024];
+        int ret;
+        pid_t pid;
+
+        ret = pipe(fd);
+        if(ret == -1)
+                sys_err("pipe err");            
+        
+        pid = fork();
+        if(pid == -1)
+        {
+                sys_err("fork err");
+        }else if(pid > 0)
+        {
+                close(fd[0]);
+                write(fd[1], str, strlen(str));
+                wait(NULL);
+                close(fd[1]);
+        }else if(pid == 0)
+        {
+                close(fd[1]);
+                ret = read(fd[0], buf, sizeof(buf));
+                write(STDOUT_FILENO, buf, ret);
+                close(fd[0]);
+        }               
+
+        return 0;
+}
+```
+
+#### 51. pipe / fork / dup2 / execlp 练习1父子
+* 让父进程去读fd[0]管道pipe, 可以避免父进程先结束, 出现孤儿进程
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+
+void sys_err(const char* str)
+{
+        perror(str);
+        exit(1);
+}
+
+int main(void)
+{
+        int fd[2];
+        int ret;
+        pid_t pid;
+
+        ret = pipe(fd);
+        if(ret == -1)
+                sys_err("pipe err");
+
+        pid = fork();
+        if(pid == -1)
+        {
+                sys_err("fork err");
+        }else if(pid > 0)
+        {
+                close(fd[1]);
+                dup2(fd[0], STDIN_FILENO);
+                execlp("wc", "wc", "-l", NULL);
+        }else if(pid == 0)
+        {
+                close(fd[0]);
+                dup2(fd[1], STDOUT_FILENO);
+                execlp("ls", "ls", NULL);
+        }
+
+        return 0;
+}
+```
+
+#### 52. pipe / fork / dup2 / execlp 练习2 兄弟
+* 父进程自己读写pipe, 无法保证单向半双工, 需要在父进程中关闭rw, 即fd[0], fd[1], 才能保证子进程(兄弟)顺利读写
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+
+void sys_err(const char* str)
+{
+        perror(str);
+        exit(1);
+}
+
+int main(void)
+{
+        int fd[2];
+        int ret;
+        pid_t pid;
+        int i = 0;
+
+        ret = pipe(fd);
+        if(ret == -1)
+                sys_err("pipe err");
+
+        for(i = 0; i < 2; ++i)
+        {
+                pid = fork();
+                if(pid == 0)
+                        break;
+        }
+
+        if(pid == -1)
+        {
+                sys_err("fork err");
+        }else if(i == 2)
+        {
+                close(fd[0]);
+                close(fd[1]);
+                while(i--)
+                {
+                        wait(NULL);
+                }
+        }else if(i == 0)
+        {
+                close(fd[0]);
+                dup2(fd[1], STDOUT_FILENO);
+                execlp("ls", "ls", NULL);
+        }else if(i == 1)
+        {
+                close(fd[1]);
+                dup2(fd[0], STDIN_FILENO);
+                execlp("wc", "wc", "-l", NULL);
+        }
+
+        return 0;
+}
+```
+
+#### 53. pipe一读多写/一写多读
+
+
+#### 54. 统计当前系统中进程ID大于1000的进程个数
+* 思路: `ps aux`-> strtok -> atoi -> >1000
+* count_pid.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_LEN 1024
+
+int main(void)
+{
+        char *buf = (char*)malloc(MAX_LEN);
+        int cnt = 0;
+        int pid_num = 1000;
+
+        while(fgets(buf, MAX_LEN, stdin) != NULL)
+        {
+                //printf("%s", buf);
+                char *temp = strtok(buf, " ");
+                if(temp)
+                {
+                        temp = strtok(NULL, " ");
+                        //printf("%s\n", temp);
+                        if(atoi(temp) > pid_num)
+                        {
+                                cnt++;
+                        }
+                }
+
+        }
+
+        printf("pid > 1000:  %d\n", cnt);
+
+        free(buf);
+
+        return 0;
+}
+```
+* pipe_count_pid.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+
+void sys_err(const char* str)
+{
+        perror(str);
+        exit(1);
+}
+
+int main(void)
+{
+        int fd[2];
+        int ret;
+        pid_t pid;
+        int i = 0;
+
+        ret = pipe(fd);
+        if(ret == -1)
+                sys_err("pipe err");
+
+        for(i = 0; i < 2; ++i)
+        {
+                pid = fork();
+                if(pid == 0)
+                        break;
+        }
+
+        if(pid == -1)
+        {
+                sys_err("fork err");
+        }else if(i == 2)
+        {
+                close(fd[0]);
+                close(fd[1]);
+                while(i--)
+                {
+                        wait(NULL);
+                }
+        }else if(i == 0)
+        {
+                close(fd[0]);
+                dup2(fd[1], STDOUT_FILENO);
+                execlp("ps", "ps", "-a", "-u", "-x", NULL);     
+        }else if(i == 1)
+        {
+                close(fd[1]);
+                dup2(fd[0], STDIN_FILENO);
+                execlp("./count_pid", "count_pid", NULL);
+        }               
+        
+        return 0;
+}
+```
+
+#### 55. pipe管道大小 4096 bytes
+* `ulimit -a`
+* `pipe size            (512 bytes, -p) 8`
+* 512 * 8 = 4096
+
+#### 56. 获取管道缓冲区大小fpathconf
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+
+void sys_err(const char* str)
+{
+        perror(str);
+        exit(1);
+}
+
+int main(void)
+{
+        int fd[2];
+        int ret;
+
+        ret = pipe(fd);
+        if(ret == -1)
+                sys_err("pipe err");
+        long len = fpathconf(fd[0], _PC_PIPE_BUF);
+        if(len == -1)
+        {
+                sys_err("fpathconf err");
+        }       
+        printf("pipe buf: %ld\n", len);
+        
+        return 0;
+}
+```
+
+#### 57. FIFO命名管道
+* 不相关的进程可以同时使用的管道
+* `mkfifo myfifo`
+
+
+#### 58. 

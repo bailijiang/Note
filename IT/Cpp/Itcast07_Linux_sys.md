@@ -1620,4 +1620,279 @@ int main(void)
 * `mkfifo myfifo`
 
 
-#### 58. 
+#### 58. fifo一写多读
+* fifo_w.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/types.h>
+
+void sys_err(char *str)
+{
+    perror(str);
+    exit(1);
+}
+
+int main(int argc, char** argv)
+{
+    char buf[4096];
+    int fd;
+    int i = 0;
+    
+    if(argc < 2)
+    {
+        printf("./fifo_w myfifo\n");
+        return -1;
+    }
+    fd = open(argv[1], O_WRONLY);
+    if(fd < 0)
+    {
+        sys_err("open fifo err");
+    }
+    while(1)
+    {
+        sprintf(buf, "hello no: %d\n", i++);
+        write(fd, buf, strlen(buf));
+        sleep(2);
+    }
+
+    close(fd);  
+
+    return 0;
+}
+```
+* fifo.r.o:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/types.h>
+
+void sys_err(char *str)
+{
+    perror(str);
+    exit(1);
+}
+
+int main(int argc, char** argv)
+{
+    char buf[4096];
+    int fd, len;
+    
+    if(argc < 2)
+    {
+        printf("./fifo_r myfifo\n");
+        return -1;
+    }
+    fd = open(argv[1], O_RDONLY);
+    if(fd < 0)
+    {
+        sys_err("open fifo err");
+    }
+    while(1)
+    {
+        len = read(fd, buf, sizeof(buf));
+        write(STDOUT_FILENO, buf, len);
+        sleep(3);
+    }
+
+    close(fd);  
+
+    return 0;
+}
+```
+
+#### 59. mmap
+* 将磁盘中的文件映射到内存, 直接进行读写操作
+* 好处: 文件映射到内存后, 所有操作指针的函数就都可以使用了(string, mem...)
+* mmap_test.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+#include <string.h>
+#include <unistd.h>
+
+int main(void)
+{
+        char *mp;
+        int fd, len, ret;
+
+        fd = open("testfile", O_RDWR | O_TRUNC | O_CREAT, 0644);
+        if(fd < 0)
+        {
+                perror("open err");
+                exit(1);
+        }
+
+        ftruncate(fd, 4);
+        len = lseek(fd, 0, SEEK_END);
+
+        mp = mmap(NULL, len, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);
+        if(mp == MAP_FAILED)
+        {
+                perror("mmap err");
+                exit(1);
+        }
+
+        strcpy(mp, "abc\n");
+        ret = munmap(mp, len);
+        if(ret == -1)
+        {
+                perror("munmap err");
+                exit(1);
+        } 
+        
+
+        close(fd);
+
+        return 0;
+}
+```
+
+#### 60. mmap非血缘IPC通信
+* 一写多读 / 一读多写 均可
+* mmap_w.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+#include <string.h>
+#include <unistd.h>
+
+struct STU {
+    int id;
+    char name[20];
+    char sex;
+};
+
+void sys_err(char *str)
+{
+    perror(str);
+    exit(1);
+}
+
+
+int main(int argc, char** argv)
+{
+        char *mp;
+        int fd, ret;
+        struct STU student = {10, "Liangxi", 'f'};
+
+        if(argc < 2)
+        {
+                printf("a.out file_shared\n");
+                exit(-1);
+        }
+
+        fd = open(argv[1], O_RDWR | O_CREAT, 0644);
+        if(fd < 0)
+        {
+                perror("open err");
+                exit(1);
+        }
+
+        ftruncate(fd, sizeof(student));
+
+        mp = mmap(NULL, sizeof(student), PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);
+        if(mp == MAP_FAILED)
+        {
+                perror("mmap err");
+                exit(1);
+        }
+        close(fd);
+
+        while(1)
+        {
+                memcpy(mp, &student, sizeof(student));
+                student.id++;
+                sleep(1);
+        }
+
+
+        ret = munmap(mp, sizeof(student));
+        if(ret == -1)
+        {
+                perror("munmap err");
+                exit(1);
+        }
+
+        return 0;
+}
+```
+* mmap_r.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+#include <string.h>
+#include <unistd.h>
+
+struct STU {
+    int id;
+    char name[20];
+    char sex;
+};
+
+void sys_err(char *str)
+{
+    perror(str);
+    exit(1);
+}
+
+
+int main(int argc, char** argv)
+{
+    int fd, ret;
+    struct STU student; 
+    struct STU *sp;
+
+    if(argc < 2)
+    {
+        printf("a.out file_shared\n");
+        exit(-1);
+    }
+    
+    fd = open(argv[1], O_RDONLY);
+    if(fd < 0)
+    {
+        perror("open err");
+        exit(1);
+    }
+    
+    sp = mmap(NULL, sizeof(student), PROT_READ, MAP_SHARED, fd, 0);
+    if(sp == MAP_FAILED)
+    {
+        perror("mmap err");
+        exit(1);
+    }
+    close(fd);
+
+    while(1)
+    {
+        printf("student id: %d - name: %s - sex: %c\n", sp->id, sp->name, sp->sex);
+        usleep(10000);
+    }
+    
+    
+    ret = munmap(sp, sizeof(student));
+    if(ret == -1)
+    {
+        perror("munmap err");
+        exit(1);
+    } 
+    
+    return 0;
+}
+```
+
+#### 61. 
+

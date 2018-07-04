@@ -5,6 +5,8 @@
 * 撤销: u
 * 恢复(上一次撤销): Ctrl+r 
 * 修改单个字符: r+'x'
+* 翻页: ctrl+f, ctrl+b, ctrl+d, ctrl+u
+* 全局替换: %s/c1/cmd/g
 
 #### 2. gcc
 * 预处理, 编译, 汇编, 链接
@@ -76,6 +78,7 @@ test01.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
     - bt    : 查看栈帧
     - info locals   : 查看栈帧局部变量的值
     - frame 1   : 切换栈帧
+    - set args dict.txt dict.cp 6 : 添加程序参数
 
 * python exception 报错: `cp -rf gdb/python/lib/gdb/* /usr/local/share/gdb/python/gdb/`
 * 栈帧: 由栈帧组成栈, 栈帧保存局部变量和临时值(临时变量地址)

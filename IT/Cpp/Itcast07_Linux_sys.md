@@ -1894,5 +1894,522 @@ int main(int argc, char** argv)
 }
 ```
 
-#### 61. 
+#### 61. 软件项目设计实现流程
+* __功能模块图__: 总目标 -> 拆分成需求点 -> 根据需求点画出
+* 系统架构图
+* 关键技术难点实现方法
+* __设计数据结构__: 根据功能模块图, (struct/class 数组, 链表), 算法, 设计模式
+* UML建模: 确定对象属性, 功能, 关联关系(1:1, 1:n, n:n)
+* __数据业务流程图__: 顺序, 分支, 循环
+* 时序图
+* __列出实现步骤__: 分模块, 逐步由易到难代码实现
+* __功能拆分__: 对功能进行2~3层拆分, 按步骤实现, 边写边测(printf), 从最简单的开始, 每次最好不要超过20行代码
+* 测试(gdb)
 
+#### 62. exercise
+* 多进程拷贝大文件 multiprocess_cp.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/mman.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <sys/wait.h>
+#include <fcntl.h>
+
+void err_int(int ret, const char *err)
+{
+    if(ret == -1)
+    {
+        perror(err);
+        exit(1);
+    }
+    return;
+}
+
+void err_char(char *ret, const char *err)
+{
+    if(ret == MAP_FAILED)
+    {
+        perror(err);
+        exit(1);    
+    }
+    return;
+}
+
+
+int main(int argc, char** argv)
+{
+    int fd_src, fd_dst, len, ret, i, pn;
+    char *mp_src, *mp_dst, *tmp_srcp, *tmp_dstp;
+    struct stat sbuf;
+    pid_t pid;
+
+    if(argc < 3 || argc > 4)
+    {
+        printf("arg num invalid, please input: ./a.out src_file dst_file [process number]\n");
+        exit(1);
+    }else if(argc == 3)
+    {
+        pn = 5;
+    }else if(argc == 4)
+    {
+        pn = atoi(argv[3]);
+    }
+
+    fd_src = open(argv[1], O_RDONLY);
+    err_int(fd_src, "open fd_src err");
+
+    fd_dst = open(argv[2], O_RDWR | O_TRUNC | O_CREAT, 0644);
+    err_int(fd_dst, "open fd_dst err");
+
+    ret = fstat(fd_src, &sbuf);
+    err_int(ret, "fstat err");
+    
+    len = sbuf.st_size;
+    if(len < pn)
+    {
+        pn = len;
+    }
+
+    ret = ftruncate(fd_dst, len);
+    err_int(ret, "ftruncate err");
+
+    mp_src = mmap(NULL, len, PROT_READ, MAP_SHARED, fd_src, 0);     
+    err_char(mp_src, "mmap mp_src err");
+
+    mp_dst = mmap(NULL, len, PROT_READ | PROT_WRITE, MAP_SHARED, fd_dst, 0);
+    err_char(mp_dst, "mmap mp_dst err");
+
+    tmp_srcp = mp_src;
+    tmp_dstp = mp_dst;
+    
+    int bs = len / pn;
+    int mod = len % bs;
+    
+
+    for(i = 0; i < pn; ++i)
+    {
+        pid = fork();
+        if(pid == 0)
+        {
+            break;
+        }
+    }
+
+    if(i == pn) // parent process
+    {
+        for(i = 0; i < pn; ++i)
+        {
+            wait(NULL);
+        }
+    }else if(i == (pn - 1)) // last process
+    {
+        memcpy(tmp_dstp + i * bs, tmp_srcp + i * bs, bs + mod);
+    }else if(i == 0)    // first process
+    {
+        memcpy(tmp_dstp, tmp_srcp, bs );
+    }else   // middle process
+    {
+        memcpy(tmp_dstp + i * bs, tmp_srcp + i * bs, bs);
+    }
+
+    munmap(mp_src, len);
+    munmap(mp_dst, len);
+
+
+    close(fd_src);
+    close(fd_dst);
+
+    return 0;
+}
+```
+* 交互shell, myshell.c :
+    - 总体步骤:
+        + 接收用户输入命令字符串，拆分命令及参数存储。（自行设计数据存储结构）
+        + 实现普通命令加载功能
+        + 实现输入、输出重定向的功能
+        + 实现管道
+        + 支持多重管道
+
+    - 详细开发步骤: 
+        + 接收用户输入命令字符串，拆分命令及参数存储（struct数组） 实现普通命令加载功能
+            - 单行stdin回显, exit退出shell
+            - stdin字符串拆分, 填充数组回显
+            - fork, execl 执行单行命令加参数
+```
+int main(void)
+{
+        //int len;
+        int i = 0;
+        char buf[MAX_LINE];
+        pid_t pid;
+        char *cur_cmd, *next_cmd;
+
+        struct cmd c1;
+        c1.in = NULL;
+        c1.out = NULL;
+
+        while(1)
+        {
+                printf("myshell%% ");
+
+                if(!fgets(buf, MAX_LINE, stdin) || strcmp(buf, "exit\n") == 0)
+                {
+                        exit(0);
+                }
+                if(buf[strlen(buf)-1] == '\n')
+                {
+                        buf[strlen(buf) - 1] = '\0';
+                }
+                //printf("%s\n", buf);
+
+
+                cur_cmd = buf;
+                while((next_cmd = strsep(&cur_cmd, " ")))
+                {
+                        c1.argv[i] = next_cmd;
+                        //printf("%s ", c1.argv[i]);
+                        i++;
+                }
+                //printf("\n");
+
+
+                pid = fork();
+                if(pid > 0)
+                {
+                        wait(NULL);
+                }else if(pid == 0)
+                {
+                        execvp(c1.argv[0], c1.argv);
+                        fprintf(stderr, "executing %s error\n", c1.argv[0]);
+                        exit(127);
+                }
+
+        }
+
+        return 0;
+}
+```
+
+    * 实现输入、输出重定向的功能:
+        - 在子进程中 dup2 , `>` dup2(file, STDOUT_FILENO), `<` dup2(file, STDIN_FILENO)
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+#define MAX_LINE 4096
+#define MAX_ARG 8
+#define MAX_PIPE 16
+
+struct
+{
+    char *argv[MAX_ARG];
+    char *in, *out;
+}cmd;
+
+int parse(char *buf)
+{
+    char *p = buf;
+    int n = 0;
+    cmd.in = cmd.out = NULL;
+    
+    while(*p != '\0')
+    {
+        if(*p == ' ')
+        {
+            *p++ = '\0';
+            continue;
+        }
+        if(*p == '>')
+        {
+            *p++ = '\0';
+            while(*(++p) == ' ');
+            cmd.out = p;
+            continue;
+        }
+        if(*p == '<')
+        {
+            *p++ = '\0';
+            while(*(++p) == ' ');
+            cmd.in = p;
+            continue;
+        }
+        if(*p != ' ' && ((p == buf) || *(p - 1) == '\0'))
+        {
+            cmd.argv[n++] = p++;
+            continue;
+        }
+        
+
+        p++;
+    }
+
+    cmd.argv[n] = NULL;
+
+    return 0;
+}
+
+
+int main(void)
+{
+    int i = 0;
+    char buf[MAX_LINE];
+    pid_t pid;
+    char *cur_cmd, *next_cmd;
+    int fd;
+
+    while(1)
+    {
+        printf("myshell%% ");
+    
+        if(!fgets(buf, MAX_LINE, stdin) || strcmp(buf, "exit\n") == 0)
+        {
+            exit(0);
+        }
+        if(buf[strlen(buf)-1] == '\n')
+        {
+            buf[strlen(buf) - 1] = '\0';
+        }
+        //printf("%s\n", buf);
+        
+            
+        next_cmd = buf;
+
+        parse(next_cmd);
+        
+       
+        pid = fork();
+        if(pid > 0)
+        {
+            wait(NULL);
+        }else if(pid == 0)
+        {   
+            if(cmd.in)
+            {
+                fd = open(cmd.in, O_RDONLY);
+                if(fd != -1)
+                {
+                    dup2(fd, STDIN_FILENO);
+                }
+            }
+            if(cmd.out)
+            {
+                fd = open(cmd.out, O_WRONLY | O_TRUNC | O_CREAT, 0644);
+                if(fd != -1)
+                {
+                    dup2(fd, STDOUT_FILENO);
+                }
+            }
+            execvp(cmd.argv[0], cmd.argv);
+            fprintf(stderr, "executing %s error\n", cmd.argv[0]);
+            exit(127);
+        }
+
+    }
+
+    return 0;
+}
+
+```
+    * 实现多管道, 多进程
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+#define MAX_LINE 4096
+#define MAX_ARG 8
+#define MAX_PIPE 16
+
+struct
+{
+    char *argv[MAX_ARG];
+    char *in, *out;
+}cmd[MAX_PIPE+1];
+
+int parse(char *buf, int num)
+{
+    char *p = buf;
+    int n = 0;
+    cmd[num].in = cmd[num].out = NULL;
+    
+    while(*p != '\0')
+    {
+        if(*p == ' ')
+        {
+            *p++ = '\0';
+            continue;
+        }
+        if(*p == '>')
+        {
+            *p++ = '\0';
+            while(*(++p) == ' ');
+            cmd[num].out = p;
+            continue;
+        }
+        if(*p == '<')
+        {
+            *p++ = '\0';
+            while(*(++p) == ' ');
+            cmd[num].in = p;
+            continue;
+        }
+        if(*p != ' ' && ((p == buf) || *(p - 1) == '\0'))
+        {
+            cmd[num].argv[n++] = p++;
+            continue;
+        }
+        
+
+        p++;
+    }
+
+    cmd[num].argv[n] = NULL;
+
+    return 0;
+}
+
+
+int main(void)
+{
+    int cmd_num, pipe_num;
+    int i = 0;
+    int j = 0;
+    char buf[MAX_LINE];
+    pid_t pid;
+    char *cur_cmd, *next_cmd;
+    int pfd[MAX_PIPE][2];
+    int fd;
+
+    while(1)
+    {
+        printf("myshell%% ");
+    
+        if(!fgets(buf, MAX_LINE, stdin) || strcmp(buf, "exit\n") == 0)
+        {
+            exit(0);
+        }
+        if(buf[strlen(buf)-1] == '\n')
+        {
+            buf[strlen(buf) - 1] = '\0';
+        }
+            
+        next_cmd = buf;
+        cmd_num = 0;
+        pipe_num = 0;
+
+        while((cur_cmd = strsep(&next_cmd, "|")))
+        {
+            parse(cur_cmd, cmd_num);
+            cmd_num++;
+        }   
+
+        pipe_num = cmd_num - 1;
+        
+        for(i = 0; i < pipe_num; ++i)
+        {
+            if(pipe(pfd[i]))
+            {
+                perror("pipe err");
+                exit(1);
+            }
+        }
+
+        for(i = 0; i < cmd_num; ++i)
+        {
+            pid = fork();
+            if(pid == 0)
+                break;
+        }
+
+
+        if(pid > 0)
+        {   
+            for(i = 0; i < pipe_num; ++i)
+            {
+                close(pfd[i][0]);
+                close(pfd[i][1]);
+            }
+            for(i = 0; i < cmd_num; ++i)
+            {
+                wait(NULL);
+            }
+        }else if(pid == 0)
+        {   
+            if(pipe_num)
+            {
+                if(i == 0)
+                {
+                    dup2(pfd[i][1], STDOUT_FILENO);
+                    close(pfd[i][0]);
+                    for(j = 1; j < pipe_num; ++j)
+                    {
+                        close(pfd[j][0]);
+                        close(pfd[j][1]);
+                    }
+                }else if(i == (cmd_num - 1))
+                {
+                    dup2(pfd[i-1][0], STDIN_FILENO);
+                    close(pfd[i-1][1]);
+                    for(j = 0; j < pipe_num - 1; ++j)
+                    {
+                        close(pfd[j][0]);
+                        close(pfd[j][1]);
+                    }
+
+                }else
+                {
+                    dup2(pfd[i-1][0], STDIN_FILENO);
+                    close(pfd[i-1][1]);
+                    dup2(pfd[i][1], STDOUT_FILENO);
+                    close(pfd[i][0]);
+                    for(j = 0; j < pipe_num; ++j)
+                    {
+                        if(j != i - 1 || j != i)
+                        {
+                            close(pfd[j][0]);
+                            close(pfd[j][1]);
+                        }
+                    }
+                }
+
+            }
+            if(cmd[i].in)
+            {
+                fd = open(cmd[i].in, O_RDONLY);
+                if(fd != -1)
+                {
+                    dup2(fd, STDIN_FILENO);
+                }
+            }
+            if(cmd[i].out)
+            {
+                fd = open(cmd[i].out, O_WRONLY | O_TRUNC | O_CREAT, 0644);
+                if(fd != -1)
+                {
+                    dup2(fd, STDOUT_FILENO);
+                }
+            }
+            execvp(cmd[i].argv[0], cmd[i].argv);
+            fprintf(stderr, "executing %s error\n", cmd[i].argv[0]);
+            exit(127);
+        }
+
+    }
+
+    return 0;
+}
+```
+
+* QQ_IPC
+    - 

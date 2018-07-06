@@ -1906,8 +1906,9 @@ int main(int argc, char** argv)
 * __功能拆分__: 对功能进行2~3层拆分, 按步骤实现, 边写边测(printf), 从最简单的开始, 每次最好不要超过20行代码
 * 测试(gdb)
 
-#### 62. exercise
-* 多进程拷贝大文件 multiprocess_cp.c:
+#### 62. 多进程拷贝大文件 
+* multiprocess_cp.c
+* 只要有open/close, mmap/munmap等操作, 就需要定义临时指针, 以保证关闭的有效性(避免指针操作过程中的写操作修改原值)
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -2025,19 +2026,19 @@ int main(int argc, char** argv)
     return 0;
 }
 ```
-* 交互shell, myshell.c :
-    - 总体步骤:
-        + 接收用户输入命令字符串，拆分命令及参数存储。（自行设计数据存储结构）
-        + 实现普通命令加载功能
-        + 实现输入、输出重定向的功能
-        + 实现管道
-        + 支持多重管道
 
-    - 详细开发步骤: 
-        + 接收用户输入命令字符串，拆分命令及参数存储（struct数组） 实现普通命令加载功能
-            - 单行stdin回显, exit退出shell
-            - stdin字符串拆分, 填充数组回显
-            - fork, execl 执行单行命令加参数
+#### 63. 交互shell, myshell.c 
+* 总体步骤:
+    + 接收用户输入命令字符串，拆分命令及参数存储。（自行设计数据存储结构）
+    + 实现普通命令加载功能
+    + 实现输入、输出重定向的功能
+    + 实现管道
+    + 支持多重管道
+
+* 接收用户输入命令字符串，拆分命令及参数存储（struct数组） 实现普通命令加载功能
+    + 单行stdin回显, exit退出shell
+    + stdin字符串拆分, 填充数组回显
+    + fork, execl 执行单行命令加参数
 ```
 int main(void)
 {
@@ -2093,8 +2094,8 @@ int main(void)
 }
 ```
 
-    * 实现输入、输出重定向的功能:
-        - 在子进程中 dup2 , `>` dup2(file, STDOUT_FILENO), `<` dup2(file, STDIN_FILENO)
+* 实现输入、输出重定向的功能:
+    - 在子进程中 dup2 , `>` dup2(file, STDOUT_FILENO), `<` dup2(file, STDIN_FILENO)
 
 ```
 #include <stdio.h>
@@ -2218,7 +2219,7 @@ int main(void)
 }
 
 ```
-    * 实现多管道, 多进程
+* 实现多管道, 多进程
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -2411,5 +2412,630 @@ int main(void)
 }
 ```
 
-* QQ_IPC
-    - 
+#### 64. QQ_IPC
+* qq_ipc_client.c 本地fifo读写struct测试
+```
+#ifndef _QQ_IPC_H
+#define _QQ_IPC_H
+
+struct QQ_DATA_INFO
+{
+    int protocol;
+    char srcname[20];
+    char dstname[20];
+    char data[100];
+};
+
+#endif
+```
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <error.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include "qq_ipc.h"
+
+#define SEV_FIFO "SEV_FIFO"
+
+void sys_err(const char* err)
+{
+    perror(err);
+    exit(1);
+}
+
+int main(int argc, char** argv)
+{
+    int sev_fd, cli_fd;
+    int len;
+    struct QQ_DATA_INFO dbuf, tmpbuf;
+    char cmd_buf[100];
+    char *username;
+
+    if(argc < 2)
+    {
+        printf("./qq_ipc_client dstname\n");
+        exit(1);
+    }
+
+    username = argv[1];
+    mkfifo(username, 0777);
+
+    cli_fd = open(username, O_RDWR | O_NONBLOCK);
+
+    dbuf.protocol = 1;
+    strcpy(dbuf.srcname, username);
+
+    write(cli_fd, &dbuf, sizeof(dbuf));
+
+    len = read(cli_fd, &tmpbuf, sizeof(tmpbuf));
+    if(len > 0)
+    {
+        printf("srcname: %s, protocol: %d\n", tmpbuf.srcname, tmpbuf.protocol);
+    }
+
+    unlink(username);
+    close(cli_fd);
+
+    return 0;
+}
+```
+
+* qq_ipc_client.c 本地NOBLOCK读写屏幕显示 
+    - segment falut段错误, 可以用gdb跟踪
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include "qq_ipc.h"
+
+#define SEV_FIFO "SEV_FIFO"
+
+void sys_err(const char* err)
+{
+    perror(err);
+    exit(1);
+}
+
+
+int main(int argc, char** argv)
+{
+    int sev_fd, cli_fd;
+    int len, flag;
+    struct QQ_DATA_INFO dbuf, tmpbuf, talkbuf;
+    char cmd_buf[100];
+    char *username;
+
+    // login
+    if(argc < 2)
+    {
+        printf("./qq_ipc_client dstname\n");
+        exit(1);
+    }
+
+    username = argv[1];
+    mkfifo(username, 0777);
+
+    cli_fd = open(username, O_RDWR | O_NONBLOCK);
+
+    dbuf.protocol = 1;
+    strcpy(dbuf.srcname, username);
+
+    flag = fcntl(STDIN_FILENO, F_GETFL);
+    flag |= O_NONBLOCK;
+    fcntl(STDIN_FILENO, F_SETFL, flag);
+
+    write(cli_fd, &dbuf, sizeof(dbuf));
+    //printf("qq:");
+    //fflush(STDIN_FILENO);
+
+    while(1)
+    {
+        // display
+        len = read(cli_fd, &tmpbuf, sizeof(tmpbuf));
+        if(len > 0)
+        {
+            if(tmpbuf.protocol == 3)
+            {
+                // dstname offline
+                printf("%s offline\n", tmpbuf.dstname);
+            }else if(tmpbuf.protocol == 2)
+            {
+                printf("%s said: %s\n", tmpbuf.srcname, tmpbuf.data);
+            }else
+            {
+                continue;
+            }
+        }else if(len < 0)
+        {
+            if(errno != EAGAIN)
+            {
+                sys_err("client read err");
+            }
+        }
+
+        // send
+        len = read(STDIN_FILENO, &cmd_buf, sizeof(cmd_buf));
+        //printf("qq:");
+        //fflush(STDIN_FILENO);
+        if(len > 0)
+        {
+            char *dname, *databuf;
+            memset(&talkbuf, 0, sizeof(talkbuf));
+            cmd_buf[len] = '\0';
+
+            dname = strtok(cmd_buf, "#\n");
+            if(dname == NULL)
+            {
+                continue;
+            }
+            if(strcmp(dname, "exit") == 0)
+            {
+                // logoff
+                talkbuf.protocol = 4;
+                strcpy(talkbuf.srcname, username);
+                write(cli_fd, &talkbuf, sizeof(talkbuf));
+                break;
+            }else
+            {
+                // talk
+                databuf = strtok(NULL, "\0");
+                if(databuf == NULL)
+                    continue;
+                talkbuf.protocol = 2;
+                strcpy(talkbuf.srcname, username);
+                strcpy(talkbuf.dstname, dname);
+                strcpy(talkbuf.data, databuf);
+            }
+            write(cli_fd, &talkbuf, sizeof(talkbuf));
+        }
+    }
+
+    unlink(username);
+    close(cli_fd);
+
+    return 0;
+}
+```
+    - qq_ipc_client.c (final):
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include "qq_ipc.h"
+
+#define SEV_FIFO "SEV_FIFO"
+
+void sys_err(const char* err)
+{
+    perror(err);
+    exit(1);
+}
+
+
+int main(int argc, char** argv)
+{
+    int sev_fd, cli_fd;
+    int len, flag;
+    struct QQ_DATA_INFO dbuf, tmpbuf, talkbuf;
+    char cmd_buf[100];
+    char *username;
+
+    // login
+    if(argc < 2)
+    {
+        printf("./qq_ipc_client dstname\n");
+        exit(1);
+    }
+    
+    if((sev_fd = open(SEV_FIFO, O_WRONLY)) < 0)
+    {
+        sys_err("open serv_fd err");
+    }
+
+    username = argv[1];
+    mkfifo(username, 0777);
+
+    cli_fd = open(username, O_RDONLY|O_NONBLOCK);
+
+    dbuf.protocol = 1;
+    strcpy(dbuf.srcname, username);
+
+    flag = fcntl(STDIN_FILENO, F_GETFL);
+    flag |= O_NONBLOCK;
+    fcntl(STDIN_FILENO, F_SETFL, flag);
+
+    write(sev_fd, &dbuf, sizeof(dbuf));
+    //printf("qq:");
+    //fflush(STDIN_FILENO);
+
+    while(1)
+    {
+        // display
+        len = read(cli_fd, &tmpbuf, sizeof(tmpbuf));
+        if(len > 0)
+        {
+            if(tmpbuf.protocol == 3)
+            {
+                // dstname offline
+                printf("%s offline\n", tmpbuf.dstname);
+            }else if(tmpbuf.protocol == 2)
+            {
+                printf("%s said: %s\n", tmpbuf.srcname, tmpbuf.data);
+            }else
+            {
+                continue;
+            }
+        }else if(len < 0)
+        {
+            if(errno != EAGAIN)
+            {
+                sys_err("client read err");
+            }
+        }
+
+        // send
+        len = read(STDIN_FILENO, &cmd_buf, sizeof(cmd_buf));
+        //printf("qq:");
+        //fflush(STDIN_FILENO);
+        if(len > 0)
+        {
+            char *dname, *databuf;
+            memset(&talkbuf, 0, sizeof(talkbuf));
+            cmd_buf[len] = '\0';
+
+            dname = strtok(cmd_buf, "#\n");
+            if(dname == NULL)
+            {
+                continue;
+            }
+            if(strcmp(dname, "exit") == 0)
+            {
+                // logoff
+                talkbuf.protocol = 4;
+                strcpy(talkbuf.srcname, username);
+                write(sev_fd, &talkbuf, sizeof(talkbuf));
+                break;
+            }else
+            {
+                // talk
+                databuf = strtok(NULL, "\0");
+                if(databuf == NULL)
+                    continue;
+                talkbuf.protocol = 2;
+                strcpy(talkbuf.srcname, username);
+                strcpy(talkbuf.dstname, dname);
+                strcpy(talkbuf.data, databuf);
+            }
+            write(sev_fd, &talkbuf, sizeof(talkbuf));
+        }
+    }
+
+    unlink(username);
+    close(cli_fd);
+    close(sev_fd);
+
+    return 0;
+}
+```
+
+
+* qq_ipc_server.c:
+    - fifo接收client发送的struct, 并回显
+    - 链表的CRUD, 先做创建node, insert, c/s联合测试server端 printf head->username
+    - `gcc -g qq_ipc_server.c server_record.c -I ./ -Wall -o qq_ipc_server`
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include "qq_ipc.h"
+#include "server_record.h"
+
+#define SEV_FIFO "SEV_FIFO"
+
+record head = NULL;
+
+void sys_err(const char* err)
+{
+    perror(err);
+    exit(1);
+}
+
+void login_qq(struct QQ_DATA_INFO *dbuf, record *head)
+{
+    //create record
+    int user_fd;
+    user_fd = open(dbuf->srcname, O_WRONLY);
+    record r = create_record(dbuf->srcname, user_fd);
+
+    //insert
+    insert_record(head, r);
+}
+
+int main(int argc, char** argv)
+{
+    int serv_fd;
+    struct QQ_DATA_INFO dbuf;
+
+    if(access(SEV_FIFO, F_OK) != 0)
+    {
+        mkfifo(SEV_FIFO, 0644);
+    }
+    serv_fd = open(SEV_FIFO, O_RDONLY);
+    if(serv_fd == -1)
+    {
+        sys_err("open serv_fd err");
+    }
+
+    server_record_init(&head);
+
+    while(1)
+    {
+        read(serv_fd, &dbuf, sizeof(dbuf));
+        switch(dbuf.protocol)
+        {
+            case 1: 
+                login_qq(&dbuf, &head); 
+                printf("record: %s  %d\n", head->username, head->user_fifo_fd);
+                break;
+            default: continue;
+        }
+    }
+
+        
+
+
+    unlink(SEV_FIFO);
+    close(serv_fd);
+
+    return 0;
+}
+```
+
+    - 链表摘掉delete, freenode
+    - 链表的search, destroy
+    - qq_ipc_server.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include "qq_ipc.h"
+#include "server_record.h"
+
+#define SEV_FIFO "SEV_FIFO"
+
+record head = NULL;
+
+void sys_err(const char* err)
+{
+    perror(err);
+    exit(1);
+}
+
+void login_qq(struct QQ_DATA_INFO *dbuf, record *head)
+{
+    //create record
+    int user_fd;
+    user_fd = open(dbuf->srcname, O_WRONLY);
+    record r = create_record(dbuf->srcname, user_fd);
+
+    //insert
+    insert_record(head, r);
+}
+
+void talk_qq(struct QQ_DATA_INFO *dbuf, record *head)
+{
+    record p = search_record(head, dbuf->dstname);
+    if(p == NULL)
+    {
+        struct QQ_DATA_INFO offline;
+        offline.protocol = 3;
+        strcpy(offline.dstname, dbuf->dstname);
+        record sp = search_record(head, dbuf->srcname);
+        write(sp->user_fifo_fd, &offline, sizeof(offline));
+    }else
+    {
+        write(p->user_fifo_fd, dbuf, sizeof(*dbuf));
+    }
+
+}
+
+void logout_qq(struct QQ_DATA_INFO *dbuf, record *head)
+{
+    record p = search_record(head, dbuf->srcname);
+    if(p == NULL)
+        return;
+    close(p->user_fifo_fd); // 777
+    delete_record(head, p);
+    free_record(p);
+}
+
+int main(int argc, char** argv)
+{
+    int serv_fd;
+    struct QQ_DATA_INFO dbuf;
+
+    if(access(SEV_FIFO, F_OK) != 0)
+    {
+        mkfifo(SEV_FIFO, 0644);
+    }
+    serv_fd = open(SEV_FIFO, O_RDONLY);
+    if(serv_fd == -1)
+    {
+        sys_err("open serv_fd err");
+    }
+
+    server_record_init(&head);
+
+    while(1)
+    {
+        read(serv_fd, &dbuf, sizeof(dbuf));
+        switch(dbuf.protocol)
+        {
+            case 1: 
+                login_qq(&dbuf, &head); 
+                printf("record: %s  %d\n", head->username, head->user_fifo_fd);
+                break;
+            case 2:
+                talk_qq(&dbuf, &head);
+                break;
+            case 4:
+                logout_qq(&dbuf, &head);
+                //printf("record: %s  %d\n", head->username, head->user_fifo_fd);
+                break;
+            default: continue;
+        }
+    }
+
+    unlink(SEV_FIFO);
+    close(serv_fd);
+
+    return 0;
+}
+```
+    - server_record.h:
+```
+#ifndef _SERVER_RECORD_H_
+#define _SERVER_RECORD_H_
+
+
+#define SEV_FIFO "SEV_FIFO"
+
+typedef struct server_record* record;
+struct server_record
+{
+    char username[20];
+    int user_fifo_fd;
+    record next;
+};
+
+// init, create, insert, delete, free, find
+void server_record_init(record *head);
+record create_record(char* username, int user_fifo_fd);
+void insert_record(record *head, record r);
+record search_record(record *head, char* keyname);
+void delete_record(record *head, record r);
+void free_record(record r);
+void destroy_link(record *head);
+void travel_record(record *head, void (*visit)(record)); // 群发扩展
+
+#endif
+```
+    - server_record.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include "qq_ipc.h"
+#include "server_record.h"
+
+void server_record_init(record *head)
+{
+    *head = NULL;
+}
+
+record create_record(char* username, int user_fifo_fd)
+{
+    record p = (record)malloc(sizeof(struct server_record));
+    strcpy(p->username, username);
+    p->user_fifo_fd = user_fifo_fd;
+    p->next = NULL;
+
+    return p;
+}
+
+void insert_record(record *head, record r)
+{
+    r->next = *head;
+    *head = r;
+}
+
+record search_record(record *head, char* keyname)
+{
+    record p;
+    for(p = *head; p != NULL; p = p->next)
+    {
+        if(strcmp(p->username, keyname) == 0)
+        {
+            return p;
+        }
+    }
+    return NULL;
+}
+
+void delete_record(record *head, record r)
+{
+    record p;
+    if(r == *head)
+    {
+        *head = r->next;
+        return;
+    }
+    for(p = *head; p != NULL; p = p->next)
+    {
+        if(p->next == r)
+        {
+            p->next = r->next;
+            return;
+        }
+    }
+
+}
+
+void free_record(record r)
+{
+    free(r);
+}
+
+void destroy_link(record *head)
+{
+    record p = *head, q;
+    while(p != NULL)
+    {
+        q = p->next;
+        free(p);
+        p = q;
+    }
+    *head = NULL;
+}
+void travel_record(record *head, void (*visit)(record))
+{
+    record p;
+    for(p = *head; p != NULL; p=p->next)
+    {
+        visit(p);
+    }
+}
+```
+
+#### 65. 信号

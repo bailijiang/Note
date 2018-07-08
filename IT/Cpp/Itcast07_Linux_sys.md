@@ -1,9 +1,85 @@
+<!-- MarkdownTOC -->
+
+- [1. 系统调用](#1-系统调用)
+- [2. open/close : man 2 open](#2-openclose--man-2-open)
+- [3. Linux内存布局](#3-linux内存布局)
+- [4. read / write](#4-read--write)
+- [5. cp命令实现\(read/write\)](#5-cp命令实现readwrite)
+- [6. fgetc, fputc / read, write 区别](#6-fgetc-fputc--read-write-区别)
+- [7. perror \(man 3 perror\)](#7-perror-man-3-perror)
+- [8. 阻塞和非阻塞](#8-阻塞和非阻塞)
+- [9. lseek](#9-lseek)
+- [10. 位操作\(bitmap位图\)](#10-位操作bitmap位图)
+- [11. fcntl函数](#11-fcntl函数)
+- [12. 查找宏定义](#12-查找宏定义)
+- [13. ioctl](#13-ioctl)
+- [14. strtok 拆分字符串](#14-strtok-拆分字符串)
+- [15. ext2](#15-ext2)
+- [16. stat](#16-stat)
+- [17. 管道文件](#17-管道文件)
+- [18. 软链接](#18-软链接)
+- [19. inode/dentry](#19-inodedentry)
+- [20. 数据块寻址](#20-数据块寻址)
+- [21. sticky黏住位](#21-sticky黏住位)
+- [22. 拓展文件 lseek / truncate](#22-拓展文件-lseek--truncate)
+- [23. link](#23-link)
+- [24. 程序运行时创建临时文件](#24-程序运行时创建临时文件)
+- [25. 获取改变当前目录getcwd/chdir](#25-获取改变当前目录getcwdchdir)
+- [26. 目录](#26-目录)
+- [27. 递归遍历目录中的文件](#27-递归遍历目录中的文件)
+- [28. 回调函数](#28-回调函数)
+- [29. dup / dup2 重定向](#29-dup--dup2-重定向)
+- [30. while无{}时的分号;](#30-while无时的分号)
+- [31. 短路运算](#31-短路运算)
+- [32. sizeof运算符](#32-sizeof运算符)
+- [33. 内存中数据分布](#33-内存中数据分布)
+- [34. 段错误](#34-段错误)
+- [35. 标准I/O提供的3种类型的缓冲](#35-标准io提供的3种类型的缓冲)
+- [36. find命令](#36-find命令)
+- [37. 求1~n之间的所有素数](#37-求1~n之间的所有素数)
+- [38. 获取进程环境变量](#38-获取进程环境变量)
+- [39. CPU/MMU](#39-cpummu)
+- [40. CentOS7 kernel源代码路径](#40-centos7-kernel源代码路径)
+- [41. 根据pid查找运行程序](#41-根据pid查找运行程序)
+- [42. fork创建子进程并用循环因子i区分](#42-fork创建子进程并用循环因子i区分)
+- [43. 多进程gdb调试](#43-多进程gdb调试)
+- [44. exec函数族](#44-exec函数族)
+- [45. 孤儿进程 / 僵尸进程](#45-孤儿进程--僵尸进程)
+- [46. wait\(\)阻塞回收僵尸进程](#46-wait阻塞回收僵尸进程)
+- [47. 回收指定进程 waitpid\(\)](#47-回收指定进程-waitpid)
+- [48. 父进程fork 3 个子进程，三个子进程一个调用ps命令，一个调用自定义程序1\(正常\), 一个调用自定义程序2\(会出段错误\)。父进程使用waitpid对其子进程全部进行回收, 并打印状态](#48-父进程fork-3-个子进程，三个子进程一个调用ps命令，一个调用自定义程序1正常-一个调用自定义程序2会出段错误。父进程使用waitpid对其子进程全部进行回收-并打印状态)
+- [49. 全双工/半双工/单工](#49-全双工半双工单工)
+- [50. 通过pipe管道进行进程间通信](#50-通过pipe管道进行进程间通信)
+- [51. pipe / fork / dup2 / execlp 练习1父子](#51-pipe--fork--dup2--execlp-练习1父子)
+- [52. pipe / fork / dup2 / execlp 练习2 兄弟](#52-pipe--fork--dup2--execlp-练习2-兄弟)
+- [53. pipe一读多写/一写多读](#53-pipe一读多写一写多读)
+- [54. 统计当前系统中进程ID大于1000的进程个数](#54-统计当前系统中进程id大于1000的进程个数)
+- [55. pipe管道大小 4096 bytes](#55-pipe管道大小-4096-bytes)
+- [56. 获取管道缓冲区大小fpathconf](#56-获取管道缓冲区大小fpathconf)
+- [57. FIFO命名管道](#57-fifo命名管道)
+- [58. fifo一写多读](#58-fifo一写多读)
+- [59. mmap](#59-mmap)
+- [60. mmap非血缘IPC通信](#60-mmap非血缘ipc通信)
+- [61. 软件项目设计实现流程](#61-软件项目设计实现流程)
+- [62. 多进程拷贝大文件](#62-多进程拷贝大文件)
+- [63. 交互shell, myshell.c](#63-交互shell-myshellc)
+- [64. QQ_IPC](#64-qq_ipc)
+- [65. 信号sig的概念](#65-信号sig的概念)
+- [66. typedef 类型定义](#66-typedef-类型定义)
+- [67. sigaction函数](#67-sigaction函数)
+- [63. pause函数](#63-pause函数)
+- [64. 父进程利用sigaction信号捕捉子进程退出状态](#64-父进程利用sigaction信号捕捉子进程退出状态)
+
+<!-- /MarkdownTOC -->
+
+<a id="1-系统调用"></a>
 #### 1. 系统调用
 * 本质: 内核提供的函数
 * 完成系统和应用程序之间的传递
 * write 函数就是一个系统调用: libc -> printf -> write -> sys_write -> 内核驱动 -> 终端显示
     * ![](image\系统调用.PNG)
 
+<a id="2-openclose--man-2-open"></a>
 #### 2. open/close : man 2 open
 * open 返回一个文件描述符
 * vim 中看man: 2+K
@@ -35,9 +111,11 @@ int main(void)
     - 以写方式打开只读文件(打开文件没有对应权限)  errno: 13
     - 以只写方式打开目录  errno: 21
 
+<a id="3-linux内存布局"></a>
 #### 3. Linux内存布局
 ![](image\内存布局图.PNG)
 
+<a id="4-read--write"></a>
 #### 4. read / write
 * 返回的是实际读到/写到的大小
 ```
@@ -68,6 +146,7 @@ int main(void)
 }
 ```
 
+<a id="5-cp命令实现readwrite"></a>
 #### 5. cp命令实现(read/write)
 ```
 [root@centos180 file_IO_test]# cat mycopy.c 
@@ -105,6 +184,7 @@ int main(int argc, char* argv[])
 }
 ```
 
+<a id="6-fgetc-fputc--read-write-区别"></a>
 #### 6. fgetc, fputc / read, write 区别
 * C标准库fgetc, fputc 比 read, write 性能高
     - 原因: 预读入, 缓输出机制
@@ -114,10 +194,12 @@ int main(int argc, char* argv[])
 * strace 跟踪程序系统调用: strace ./app
 * 所有的系统调用都应该判断返回值 errno
 
+<a id="7-perror-man-3-perror"></a>
 #### 7. perror (man 3 perror)
 * vim中查看man: 3+K
 * !man 3 perror
 
+<a id="8-阻塞和非阻塞"></a>
 #### 8. 阻塞和非阻塞
 * 阻塞
 ```
@@ -235,6 +317,7 @@ int main(void)
 }
 ```
 
+<a id="9-lseek"></a>
 #### 9. lseek
 * 文件的读写指针只有一个
 * write 完, 指针指向文件末尾
@@ -298,12 +381,14 @@ write(fd, msg, strlen(msg));
 * 获取文件大小
 `int len = lseek(fd, 0, SEEK_END);`
 
+<a id="10-位操作bitmap位图"></a>
 #### 10. 位操作(bitmap位图)
 * 本质是通过二进制位直接操作整数
 * and与操作用于取出特定位(然后根据需要进行判定)----->位读 &
 * or或操作用于指定位的无条件赋值              ----->位写 |
 * `flags |= O_NONBLOCK; // 在flags中加入O_NONBLOCK属性`
 
+<a id="11-fcntl函数"></a>
 #### 11. fcntl函数
 * 动态添加非阻塞操作
 ```
@@ -350,12 +435,14 @@ write(fd, msg, strlen(msg));
     }
 ```
 
+<a id="12-查找宏定义"></a>
 #### 12. 查找宏定义
 * man
 * 头文件 .h
 * `grep -r "TIOCGWINSZ" /usr/lib/x86_64-redhat-linux6E/include/sys/ioctl.h`
 * `https://elixir.bootlin.com/linux/latest/source`
 
+<a id="13-ioctl"></a>
 #### 13. ioctl
 * &size 传出参数
 ```
@@ -381,6 +468,7 @@ int main(void)
 }
 ```
 
+<a id="14-strtok-拆分字符串"></a>
 #### 14. strtok 拆分字符串
 ```
 #include<stdio.h>
@@ -398,12 +486,14 @@ int main(void)
 }
 ```
 
+<a id="15-ext2"></a>
 #### 15. ext2
 * ![](image\ext2文件系统.PNG)
 * 如何确定一个分区有多少个 BlockGroup: 
     - BlockBitmap 1k x 8 = 8k bit 个Block
     - 整个分区s个Block, 那么就有 s/8k 个BlockGoup
 
+<a id="16-stat"></a>
 #### 16. stat
 * 获取文件大小
 ```
@@ -473,6 +563,7 @@ int main(int argc, char* argv[])
 }
 ```
 
+<a id="17-管道文件"></a>
 #### 17. 管道文件
 * 特点: 半双工, 阻塞
 * 应用: 进程间通信, 一端写一端读(类似于golang: channel)
@@ -533,16 +624,19 @@ int main(int argc,char** argv)
 }
 ```
 
+<a id="18-软链接"></a>
 #### 18. 软链接
 * 穿透(符号链接): vi, vim, stat, ...
 * 不穿透: lstat, ls, readlink, ...
 
+<a id="19-inodedentry"></a>
 #### 19. inode/dentry
 * inode: 
     - 保存文件属性: 权限, size, owner, xxxtime
 * dentry: 
     - 保存文件名和inode号
 
+<a id="20-数据块寻址"></a>
 #### 20. 数据块寻址
 * inode表, 每个inode在ext2中是128字节 
 * 一个inode对应一个文件, 一个文件对应一个或多个Block
@@ -553,10 +647,12 @@ int main(int argc,char** argv)
 * inode表中, 每个inode中的Block[]下标索引项占4字节: 每4个字节标识一个Block, 后3个是间接寻址, 里面存放的时Block的编号(不是地址)
 * 当一个Block块大小为1K时(b=1K=1024Bytes), 最多可表示$(b/4)^3+(b/4)^2+(b/4)+12$=16843020 个数据块, 即16843020K字节, 即一个inode对应的一个文件最大为 16.06GB
 
+<a id="21-sticky黏住位"></a>
 #### 21. sticky黏住位
 * chmod 01777 ttt
 * 设置sticky位的文件或目录会始终存在内存里
 
+<a id="22-拓展文件-lseek--truncate"></a>
 #### 22. 拓展文件 lseek / truncate
 ```
 #include <stdio.h>
@@ -590,11 +686,13 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="23-link"></a>
 #### 23. link
 * 创建硬连接, 相当于 ln
 * 硬连接创建的文件与原文件共享一个inode
 * 硬连接不能创建目录
 
+<a id="24-程序运行时创建临时文件"></a>
 #### 24. 程序运行时创建临时文件
 ```
 /*
@@ -648,6 +746,7 @@ int main(void)
 }
 ```
 
+<a id="25-获取改变当前目录getcwdchdir"></a>
 #### 25. 获取改变当前目录getcwd/chdir
 ```
 #include <stdio.h>
@@ -667,6 +766,7 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="26-目录"></a>
 #### 26. 目录
 * 目录也是文件
 * 目录文件内包括目录项
@@ -703,6 +803,7 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="27-递归遍历目录中的文件"></a>
 #### 27. 递归遍历目录中的文件
 * listAllFiles.c:
 ```
@@ -851,6 +952,7 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="28-回调函数"></a>
 #### 28. 回调函数
 * 要确定谁是调用函数, 谁是回调函数
 * 调用函数在参数中指定回调函数的类型
@@ -858,6 +960,7 @@ int main(int argc, char** argv)
 * 回调函数是面向对象中多态的理论基础
 * 回调函数的本质是函数指针
 
+<a id="29-dup--dup2-重定向"></a>
 #### 29. dup / dup2 重定向
 * dup2(old_fd, new_fd) 
     - 是将old_fd 下标(指针), 拷贝到new_fd
@@ -903,6 +1006,7 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="30-while无时的分号"></a>
 #### 30. while无{}时的分号;
 ```
 #include <stdio.h>
@@ -920,10 +1024,12 @@ int main(void)
 }
 ```
 
+<a id="31-短路运算"></a>
 #### 31. 短路运算
 * &&前面是0时,&&符号后面的不计算
 * ||前面不是0时,||号后面的不计算
 
+<a id="32-sizeof运算符"></a>
 #### 32. sizeof运算符
 * 当数组作为函数参数时, 会自动退化成指针, 所以对函数参数做sizeof时, 大小为4
 ```
@@ -938,6 +1044,7 @@ int main(void)
     printf("p = %d\n", sizeof(p));
 ```
 
+<a id="33-内存中数据分布"></a>
 #### 33. 内存中数据分布
 * .bss: 未初始化的全局变量   初始化为0的全局变量 static修饰（静态变量）的未初始化的或初始化为0的变量
     - 通常是指用来存放程序中未初始化的全局变量的一块内存区域, BSS是英文Block Started by Symbol的简称, BSS段属于静态内存分配
@@ -947,20 +1054,24 @@ int main(void)
 * stack：局部变量
 * (变量/函数...)只声明不定义, 编译器不会分配地址空间, 如果使用, 会报错
 
+<a id="34-段错误"></a>
 #### 34. 段错误
 * 对只读区域进程写操作  char　*p = "hello"; p[0] = 'H';
 * 对非访问区域进行读写操 地址1000
 * stack空间耗尽      函数内部 int arr[N]= {1};  #define N 100000000
 
+<a id="35-标准io提供的3种类型的缓冲"></a>
 #### 35. 标准I/O提供的3种类型的缓冲
 * 全缓冲
 * 行缓冲: printf("test \n"); 没有\n就不输出, fflush(stdout) 可以刷新缓冲区
 * 无缓冲: stderr
 
+<a id="36-find命令"></a>
 #### 36. find命令
 `find /usr/ -size +900k -size -2M | xargs ls -lh > result.txt
 `
 
+<a id="37-求1~n之间的所有素数"></a>
 #### 37. 求1~n之间的所有素数
 ```
 #include <stdio.h>
@@ -994,6 +1105,7 @@ int main(int argc, char *argv[])
 }
 ```
 
+<a id="38-获取进程环境变量"></a>
 #### 38. 获取进程环境变量
 * environ:
 ```
@@ -1035,19 +1147,23 @@ int main(void)
 ```
 * setenv / unsetenv
 
+<a id="39-cpummu"></a>
 #### 39. CPU/MMU
 * CPU: 4级流水机制 (预取器, 译码器, ALU, 寄存器)
 * MMU: 虚拟内存映射 (Memery Management Unit)
 
+<a id="40-centos7-kernel源代码路径"></a>
 #### 40. CentOS7 kernel源代码路径
 * PCB进程控制块的 struct task_struct 在源代码中的定义位置: 
     - `vim /usr/src/kernels/3.10.0-693.el7.x86_64/include/linux/sched.h`
 * 查询源码定义路径: `grep -r "struct task_struct {" /usr/src/kernels/3.10.0-693.el7.x86_64/include/linux/`
 
+<a id="41-根据pid查找运行程序"></a>
 #### 41. 根据pid查找运行程序
 * `ps aux | grep 2177`
 * `ps aux | grep init`
 
+<a id="42-fork创建子进程并用循环因子i区分"></a>
 #### 42. fork创建子进程并用循环因子i区分
 ```
 #include <stdio.h>
@@ -1089,11 +1205,13 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="43-多进程gdb调试"></a>
 #### 43. 多进程gdb调试
 * set follow-fork-mode child
 * set follow-fork-mode parent
 * 一定要在fork()之前设定才有意义
 
+<a id="44-exec函数族"></a>
 #### 44. exec函数族
 * p代表PATH环境变量, 没有p的要加路径
 ```
@@ -1127,6 +1245,7 @@ int main(void)
 
 ```
 
+<a id="45-孤儿进程--僵尸进程"></a>
 #### 45. 孤儿进程 / 僵尸进程
 * 父进程先于子进程结束, 子进程变为孤儿进程
 * 查看进程ID: `ps ajx`
@@ -1134,6 +1253,7 @@ int main(void)
 * 僵尸进程不能用kill清除掉
 * 可以手动 kill -9 父进程来回收僵尸进程
 
+<a id="46-wait阻塞回收僵尸进程"></a>
 #### 46. wait()阻塞回收僵尸进程
 * 一个wait()只能回收1个子进程
 ```
@@ -1175,6 +1295,7 @@ int main(void)
 }
 ```
 
+<a id="47-回收指定进程-waitpid"></a>
 #### 47. 回收指定进程 waitpid()
 * 非阻塞回收: `wpid = waitpid(tmppid, NULL, WNOHANG);`
 * 阻塞指定回收: `wpid = waitpid(tmppid, NULL, 0);`
@@ -1233,6 +1354,7 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="48-父进程fork-3-个子进程，三个子进程一个调用ps命令，一个调用自定义程序1正常-一个调用自定义程序2会出段错误。父进程使用waitpid对其子进程全部进行回收-并打印状态"></a>
 #### 48. 父进程fork 3 个子进程，三个子进程一个调用ps命令，一个调用自定义程序1(正常), 一个调用自定义程序2(会出段错误)。父进程使用waitpid对其子进程全部进行回收, 并打印状态
 * exercise_fork.c:
 ```
@@ -1317,11 +1439,13 @@ int main(void)
 }
 ```
 
+<a id="49-全双工半双工单工"></a>
 #### 49. 全双工/半双工/单工
 * 全双工: 双向读写(电话)
 * 半双工: 双向半双工, 一端写一端读(对讲机), 管道pipe
 * 单工: 单向写/读(遥控器)
 
+<a id="50-通过pipe管道进行进程间通信"></a>
 #### 50. 通过pipe管道进行进程间通信
 * 先创建管道pipe, 再fork()子进程
 ```
@@ -1371,6 +1495,7 @@ int main(void)
 }
 ```
 
+<a id="51-pipe--fork--dup2--execlp-练习1父子"></a>
 #### 51. pipe / fork / dup2 / execlp 练习1父子
 * 让父进程去读fd[0]管道pipe, 可以避免父进程先结束, 出现孤儿进程
 ```
@@ -1416,6 +1541,7 @@ int main(void)
 }
 ```
 
+<a id="52-pipe--fork--dup2--execlp-练习2-兄弟"></a>
 #### 52. pipe / fork / dup2 / execlp 练习2 兄弟
 * 父进程自己读写pipe, 无法保证单向半双工, 需要在父进程中关闭rw, 即fd[0], fd[1], 才能保证子进程(兄弟)顺利读写
 ```
@@ -1476,9 +1602,11 @@ int main(void)
 }
 ```
 
+<a id="53-pipe一读多写一写多读"></a>
 #### 53. pipe一读多写/一写多读
 
 
+<a id="54-统计当前系统中进程id大于1000的进程个数"></a>
 #### 54. 统计当前系统中进程ID大于1000的进程个数
 * 思路: `ps aux`-> strtok -> atoi -> >1000
 * count_pid.c:
@@ -1577,11 +1705,13 @@ int main(void)
 }
 ```
 
+<a id="55-pipe管道大小-4096-bytes"></a>
 #### 55. pipe管道大小 4096 bytes
 * `ulimit -a`
 * `pipe size            (512 bytes, -p) 8`
 * 512 * 8 = 4096
 
+<a id="56-获取管道缓冲区大小fpathconf"></a>
 #### 56. 获取管道缓冲区大小fpathconf
 ```
 #include <stdio.h>
@@ -1615,11 +1745,13 @@ int main(void)
 }
 ```
 
+<a id="57-fifo命名管道"></a>
 #### 57. FIFO命名管道
 * 不相关的进程可以同时使用的管道
 * `mkfifo myfifo`
 
 
+<a id="58-fifo一写多读"></a>
 #### 58. fifo一写多读
 * fifo_w.c:
 ```
@@ -1707,6 +1839,7 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="59-mmap"></a>
 #### 59. mmap
 * 将磁盘中的文件映射到内存, 直接进行读写操作
 * 好处: 文件映射到内存后, 所有操作指针的函数就都可以使用了(string, mem...)
@@ -1756,6 +1889,7 @@ int main(void)
 }
 ```
 
+<a id="60-mmap非血缘ipc通信"></a>
 #### 60. mmap非血缘IPC通信
 * 一写多读 / 一读多写 均可
 * mmap_w.c:
@@ -1894,6 +2028,7 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="61-软件项目设计实现流程"></a>
 #### 61. 软件项目设计实现流程
 * __功能模块图__: 总目标 -> 拆分成需求点 -> 根据需求点画出
 * 系统架构图
@@ -1906,6 +2041,7 @@ int main(int argc, char** argv)
 * __功能拆分__: 对功能进行2~3层拆分, 按步骤实现, 边写边测(printf), 从最简单的开始, 每次最好不要超过20行代码
 * 测试(gdb)
 
+<a id="62-多进程拷贝大文件"></a>
 #### 62. 多进程拷贝大文件 
 * multiprocess_cp.c
 * 只要有open/close, mmap/munmap等操作, 就需要定义临时指针, 以保证关闭的有效性(避免指针操作过程中的写操作修改原值)
@@ -2027,6 +2163,7 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="63-交互shell-myshellc"></a>
 #### 63. 交互shell, myshell.c 
 * 总体步骤:
     + 接收用户输入命令字符串，拆分命令及参数存储。（自行设计数据存储结构）
@@ -2412,6 +2549,7 @@ int main(void)
 }
 ```
 
+<a id="64-qq_ipc"></a>
 #### 64. QQ_IPC
 * qq_ipc_client.c 本地fifo读写struct测试
 ```
@@ -3038,4 +3176,417 @@ void travel_record(record *head, void (*visit)(record))
 }
 ```
 
-#### 65. 信号
+<a id="65-信号sig的概念"></a>
+#### 65. 信号sig的概念
+* signal是软件产生,有一定延时, 而中断是有CPU硬件产生,可靠无延时
+* 信号是由kernel内核发送的
+* 阻塞信号集mask, 未决信号集pending
+* kill函数发送信号要使用宏macro名, 不要使用数字(不同系统中信号编号不一致, 但宏名不会出错)
+* kill一组进程: kill -9 -PGID
+```
+cat | cat | cat | cat | wc -l
+ps ajx
+kill -9 -3144
+```
+* alarm: 每个进程都有且只有一个定时器, 定时发信号, 返回剩余时间, 与进程状态无关, 精度为妙second
+    - 测试系统1秒钟计数次数 alarm.c
+```
+int main(int argc, char** argv)
+{
+    int i;
+    alarm(1);
+    for(i = 0;;++i)
+    {
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+```
+```
+// 去除屏幕等待时间
+// 从I/O入手优化程序
+bryan@ubuntu:/Code/signal_test$ time ./alarm > out
+Alarm clock
+
+real    0m1.002s
+user    0m0.224s
+sys     0m0.740s
+```
+// 10147007 次
+* setitimer: 与alarm类似, 精度为微秒us
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <signal.h>
+#include <sys/time.h>
+
+/*
+int setitimer(int which, const struct itimerval *new_value,
+                     struct itimerval *old_value);
+
+struct itimerval {
+
+    struct timeval it_interval; 
+    struct timeval it_value;    
+};
+
+struct timeval {
+
+    time_t      tv_sec;         
+    suseconds_t tv_usec;       
+};
+*/
+
+//unsigned int alarm(unsigned int seconds);
+
+unsigned int my_alarm(unsigned int seconds)
+{
+    struct itimerval new_value, old_value;
+    int ret;
+
+    new_value.it_interval.tv_sec = 0;
+    new_value.it_interval.tv_usec = 0;
+    new_value.it_value.tv_sec = seconds;
+    new_value.it_value.tv_usec = 0;
+
+    ret = setitimer(ITIMER_REAL, &new_value, &old_value);
+    if(ret == -1)
+    {
+        perror("setitimer err");
+        exit(1);
+    }
+    printf("remain: %d", (int)old_value.it_value.tv_sec);
+
+    return old_value.it_value.tv_sec;
+
+}
+
+
+int main(int argc, char** argv)
+{
+    int i;
+    time_t remain;
+
+    remain = my_alarm(2);
+    printf("remain: %d\n", (int)remain);
+
+    while(1)
+    {
+        printf("%d\n", i++);
+    }
+
+    return 0;
+}
+```
+* setitimer_interval.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <signal.h>
+#include <sys/time.h>
+
+/*
+int setitimer(int which, const struct itimerval *new_value,
+                     struct itimerval *old_value);
+
+struct itimerval {
+
+    struct timeval it_interval; 
+    struct timeval it_value;    
+};
+
+struct timeval {
+
+    time_t      tv_sec;         
+    suseconds_t tv_usec;       
+};
+*/
+
+void do_sig(int a)
+{
+    printf("I love you\n");
+}
+
+int main(int argc, char** argv)
+{
+    
+    struct itimerval it, old_it;
+
+    it.it_interval.tv_sec = 2;
+    it.it_interval.tv_usec = 0;
+    it.it_value.tv_sec = 1;
+    it.it_value.tv_usec = 0;
+
+    signal(SIGALRM, do_sig);
+
+    if(setitimer(ITIMER_REAL, &it, &old_it) == -1)
+    {
+        perror("signal err");
+        exit(1);
+    }
+
+    while(1);
+
+    return 0;
+}
+```
+* sigemptyset, sigaddset, sigprocmask, sigpending, sigismember 测试
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <signal.h>
+
+void print_pending(sigset_t *ped)
+{
+    int i;
+    int ret;
+
+    for(i = 1; i < 32; ++i)
+    {
+        ret = sigismember(ped, i);
+        if(ret == 1)
+        {
+            putchar('1');
+        }else
+        {
+            putchar('0');
+        }
+    }
+    printf("\n");
+}
+
+
+int main(int argc, char** argv)
+{
+    sigset_t set, ped;
+
+    sigemptyset(&set);
+
+    sigaddset(&set, SIGINT);
+    sigaddset(&set, SIGKILL);
+    sigaddset(&set, SIGSTOP);
+    sigaddset(&set, SIGTSTP);
+
+    sigprocmask(SIG_BLOCK, &set, NULL);
+
+    while(1)
+    {
+        sigpending(&ped);
+        print_pending(&ped);
+        sleep(1);
+    }
+
+    return 0;
+}
+```
+
+<a id="66-typedef-类型定义"></a>
+#### 66. typedef 类型定义
+* `void (*sighandler)(int);` sighandler是函数指针(变量, 可赋值)
+* `typedef void (*sighandler_t)(int);` sighandler_t是类型
+
+<a id="67-sigaction函数"></a>
+#### 67. sigaction函数
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <signal.h>
+
+/*
+   struct sigaction {
+
+   void     (*sa_handler)(int);
+   void     (*sa_sigaction)(int, siginfo_t *, void *);
+   sigset_t   sa_mask;
+   int        sa_flags;
+   void     (*sa_restorer)(void);
+   };
+*/
+
+void do_sig(int a)
+{
+    printf("Hi, Signal: %d, How do you do?\n", a);
+    sleep(10);
+    printf("slept 10sec\n");
+}
+
+int main(int argc, char** argv)
+{
+    struct sigaction act;
+    
+    act.sa_handler = do_sig;
+    act.sa_flags = 0;
+    sigemptyset(&act.sa_mask);
+    sigaddset(&act.sa_mask, SIGQUIT); // 在信号处理函数do_sig执行期间不响应SIGQUIT(ctrl+\)
+
+    sigaction(SIGINT, &act, NULL);
+    
+    while(1);
+
+    return 0;
+}
+```
+
+<a id="63-pause函数"></a>
+#### 63. pause函数
+* 使用 pause, alarm, sigaction函数实现 sleep()函数
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <signal.h>
+
+/*
+   struct sigaction {
+
+   void     (*sa_handler)(int);
+   void     (*sa_sigaction)(int, siginfo_t *, void *);
+   sigset_t   sa_mask;
+   int        sa_flags;
+   void     (*sa_restorer)(void);
+   };
+*/
+
+//unsigned int sleep(unsigned int seconds);
+
+void do_sig(int a)
+{
+
+}
+
+unsigned int my_sleep(unsigned int sec)
+{
+
+    struct sigaction act, old_act;
+    int unslept;
+
+    act.sa_handler = do_sig;
+    act.sa_flags = 0;
+    sigemptyset(&act.sa_mask);
+    //sigaddset(&act.sa_mask, SIGALRM);
+
+    sigaction(SIGALRM, &act, &old_act);
+
+    alarm(sec);
+    pause();
+
+    unslept = alarm(0);
+    sigaction(SIGALRM, &old_act, NULL);
+
+    return unslept;
+}
+
+
+int main(int argc, char** argv)
+{
+    while(1)
+    {
+        my_sleep(2);
+        printf("slept 2 seconds\n");
+    }
+
+    return 0;
+}
+```
+
+<a id="64-父进程利用sigaction信号捕捉子进程退出状态"></a>
+#### 64. 父进程利用sigaction信号捕捉子进程退出状态
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <signal.h>
+#include <sys/wait.h>
+
+void do_sig(int a)
+{
+    pid_t pid;
+    int status;
+
+    while((pid = waitpid(0, &status, WNOHANG)) > 0)
+    {
+        if(WIFEXITED(status))
+        {
+            printf("Child pid: %d exited status: %d\n", pid, WEXITSTATUS(status));
+        }else if(WIFSIGNALED(status))
+        {
+            printf("Child pid: %d term signal: %d\n", pid, WTERMSIG(status));
+        }
+    }
+}
+
+int main(int argc, char** argv)
+{
+    int i;
+    pid_t pid;
+
+    for(i = 0; i < 10; ++i)
+    {
+        pid = fork();
+        if(pid == 0)
+        {
+            break;
+        }else if(pid < 0)
+        {
+            perror("fork err");
+            exit(1);
+        }
+    }
+
+
+    if(pid == 0)
+    {
+        printf("child%d pid: %d\n", i, getpid());
+        sleep(1);
+        if(i == 3)
+        {
+            alarm(1);
+            pause();
+        }
+        return i+1;
+    }else if(pid > 0)
+    {
+        struct sigaction act;
+        
+        act.sa_handler = do_sig;
+        sigemptyset(&act.sa_mask);
+        act.sa_flags = 0;
+        sigaction(SIGCHLD, &act, NULL);
+
+        while(1)
+        {
+            printf("Parent: %d slept 1 seconds\n", getpid());
+            sleep(1);
+        }
+    }
+
+
+    return 0;
+}
+```

@@ -1,13 +1,45 @@
+<!-- MarkdownTOC -->
+
+- [1. STL 容器 迭代器 算法](#1-stl-容器-迭代器-算法)
+- [2. string:](#2-string)
+- [3. vector:](#3-vector)
+- [4. deque vector sort 平均分练习](#4-deque-vector-sort-平均分练习)
+- [5. stack queue](#5-stack-queue)
+- [6. list 链表](#6-list-链表)
+- [7. set/multiset 二叉树/红黑树](#7-setmultiset-二叉树红黑树)
+- [8. pair:  lower_bound / upper_bound / equal_range](#8-pair-lower_bound--upper_bound--equal_range)
+- [9. map/multimap](#9-mapmultimap)
+- [10. vector multimap 员工分组练习](#10-vector-multimap-员工分组练习)
+- [11. 容器中对象的浅拷贝问题](#11-容器中对象的浅拷贝问题)
+- [12. class对象 函数化\(伪函数\)](#12-class对象-函数化伪函数)
+- [13. 一元函数对象, 二元函数对象, 一元谓词, 二元谓词](#13-一元函数对象-二元函数对象-一元谓词-二元谓词)
+- [14. class匿名对象](#14-class匿名对象)
+- [15. `functional plus minus...`](#15-functional-plus-minus)
+- [16. 函数对象适配器](#16-函数对象适配器)
+- [17. 常用查找算法](#17-常用查找算法)
+- [18. 常用排序算法](#18-常用排序算法)
+- [19. lambda expression](#19-lambda-expression)
+- [20. 常用拷贝替换算法](#20-常用拷贝替换算法)
+- [21. 常用数字生成算法 numeric](#21-常用数字生成算法-numeric)
+- [22. 常用集合算法\(交集/并集\)](#22-常用集合算法交集并集)
+- [23. distance 两个迭代器的距离](#23-distance-两个迭代器的距离)
+- [24. 演讲比赛练习](#24-演讲比赛练习)
+
+<!-- /MarkdownTOC -->
+
+<a id="1-stl-容器-迭代器-算法"></a>
 #### 1. STL 容器 迭代器 算法
 * STL中容器与算法是分离的
 * 容器 ---迭代器---> 算法
 * 容器提供iterator, 算法调用iterator
 * 容器可以嵌套容器
 
+<a id="2-string"></a>
 #### 2. string: 
     - at()  越界会抛异常
     - find() 没找到 返回-输出
 
+<a id="3-vector"></a>
 #### 3. vector:
 * 动态数组, 是单口容器, 在尾部插入删除效率高
 * end() 不是指向最后一个元素, 他是指向最后一个元素的下一个地址
@@ -61,6 +93,7 @@ capacity: 2
 请按任意键继续. . .
 ```
 
+<a id="4-deque-vector-sort-平均分练习"></a>
 #### 4. deque vector sort 平均分练习
 ```
 #define _CRT_SECURE_NO_WARNINGS
@@ -147,11 +180,13 @@ int main(void)
 }
 ```
 
+<a id="5-stack-queue"></a>
 #### 5. stack queue
 * stack 后进先出 LIFO
 * queue 先进先出 FIFO
 * stack/queue 无迭代器
 
+<a id="6-list-链表"></a>
 #### 6. list 链表
 * 单向链表, 双向链表
 * 非连续, 动态分配内存
@@ -250,6 +285,7 @@ int main(void)
 }
 ```
 
+<a id="7-setmultiset-二叉树红黑树"></a>
 #### 7. set/multiset 二叉树/红黑树
 * set 查找效率高
 * multiset 可以插入重复值
@@ -310,6 +346,7 @@ int main()
 }
 ```
 
+<a id="8-pair-lower_bound--upper_bound--equal_range"></a>
 #### 8. pair:  lower_bound / upper_bound / equal_range
 * lower_bound: 包括  ]
 * upper_bound: 不包括  (
@@ -368,6 +405,7 @@ int main()
 ```
 
 
+<a id="9-mapmultimap"></a>
 #### 9. map/multimap 
 * 基于红黑树
 * map 4种insert方式:
@@ -435,6 +473,7 @@ mymap['d'] is
 mymap now contains 4 elements. 
 ```
 
+<a id="10-vector-multimap-员工分组练习"></a>
 #### 10. vector multimap 员工分组练习
 ```
 #define _CRT_SECURE_NO_WARNINGS
@@ -547,6 +586,7 @@ int main()
 }
 ```
 
+<a id="11-容器中对象的浅拷贝问题"></a>
 #### 11. 容器中对象的浅拷贝问题
 * 容器中的对象如果有在堆上开辟空间的元素(指针), push_back操作时就会产生浅拷贝问题
     - 解决方法:
@@ -554,6 +594,7 @@ int main()
         + 并且实现operator=号操作符重载实现深拷贝
         + 显示提供析构函数手动释放内存delete[]
 
+<a id="12-class对象-函数化伪函数"></a>
 #### 12. class对象 函数化(伪函数)
 * 在 algorithm的 for_each 中使用, 可作为参数 和 返回值, 记录对象运行状态, __从而避免定义全局变量__
 ```
@@ -598,6 +639,7 @@ p2 count: 10
 请按任意键继续. . .
 ```
 
+<a id="13-一元函数对象-二元函数对象-一元谓词-二元谓词"></a>
 #### 13. 一元函数对象, 二元函数对象, 一元谓词, 二元谓词
 * __主要针对 for_each / find_if / transform / sort__
 * 函数对象: class实例, 实现operator()重载的伪函数
@@ -705,6 +747,7 @@ int main()
 
 
 
+<a id="14-class匿名对象"></a>
 #### 14. class匿名对象
 ```
 class A {...};
@@ -712,6 +755,7 @@ A a;
 A(); // 匿名对象
 ```
 
+<a id="15-functional-plus-minus"></a>
 #### 15. `functional plus<T> minus<T>...`
 * 预定义操作符实现函数对象重载(仿函数)
 * 自定义class对象, 使用 functional 中的 `plus<T>, minus<T>` 等
@@ -784,6 +828,7 @@ int main()
 }
 ```
 
+<a id="16-函数对象适配器"></a>
 #### 16. 函数对象适配器
 * functional, binary_function, bind1st, bind2nd
     - bind1st: 将实参绑定到第1个参数上, 迭代器对象绑定到第2个参数
@@ -935,11 +980,13 @@ void test_mem_fun() {
 }
 ```
 
+<a id="17-常用查找算法"></a>
 #### 17. 常用查找算法
 * find : 查找对象时, 要重载 operator==(){...} 操作符
 * adjacent_find: 查找相邻重复对象, 返回第一个
 * binary_find: 二分查找, 需要先排序
 
+<a id="18-常用排序算法"></a>
 #### 18. 常用排序算法
 * 需要支持随机访问: vector, map/multimap
 * merge : 2in1 需要先排序(相同原则)
@@ -963,15 +1010,18 @@ void test_random_shuffle() {
 }
 ```
 
+<a id="19-lambda-expression"></a>
 #### 19. lambda expression
 * `[capture list] (parameter list) -> return type {function body}`
 ```
 [](int v)->void{cout << v << endl;};
 ```
 
+<a id="20-常用拷贝替换算法"></a>
 #### 20. 常用拷贝替换算法
 * copy / replace / replace_if / swap
 
+<a id="21-常用数字生成算法-numeric"></a>
 #### 21. 常用数字生成算法 numeric
 * accumulate / fill
 ```
@@ -995,6 +1045,7 @@ void test_fill(){
 }
 ```
 
+<a id="22-常用集合算法交集并集"></a>
 #### 22. 常用集合算法(交集/并集)
 * set_intersection
 ```
@@ -1044,6 +1095,7 @@ void test_set_difference()
 }
 ```
 
+<a id="23-distance-两个迭代器的距离"></a>
 #### 23. distance 两个迭代器的距离
 ```
 void test_distance() {
@@ -1056,6 +1108,7 @@ void test_distance() {
 }
 ```
 
+<a id="24-演讲比赛练习"></a>
 #### 24. 演讲比赛练习
 * 需求:
     - 24个选手, 每6个一组进行打分, 共比赛3轮, 每轮的每组前3名晋级到下一轮

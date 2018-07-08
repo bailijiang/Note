@@ -1,3 +1,18 @@
+<!-- MarkdownTOC -->
+
+- [1. vim](#1-vim)
+- [2. gcc](#2-gcc)
+- [3. toolchain](#3-toolchain)
+- [4. 程序在Linux内存中的存储位置](#4-程序在linux内存中的存储位置)
+- [5. 函数库](#5-函数库)
+- [5. gdb](#5-gdb)
+- [6. makefile](#6-makefile)
+- [7. C项目目录结构](#7-c项目目录结构)
+- [8. 将目录下的所有.c文件单独生成可执行文件](#8-将目录下的所有c文件单独生成可执行文件)
+
+<!-- /MarkdownTOC -->
+
+<a id="1-vim"></a>
 #### 1. vim
 * 分屏创建新文件   vsp: head.h 
 * 切换分屏: ctrl+w+w 
@@ -7,7 +22,9 @@
 * 修改单个字符: r+'x'
 * 翻页: ctrl+f, ctrl+b, ctrl+d, ctrl+u
 * 全局替换: %s/c1/cmd/g
+* 删除光标到当前行结尾: d$
 
+<a id="2-gcc"></a>
 #### 2. gcc
 * 预处理, 编译, 汇编, 链接
 * ![](image\gcc编译过程.PNG)
@@ -15,6 +32,7 @@
 * -I 指定头文件目录: gcc -g test01.c -I ../ -Wall -o test01
 * -Wall  输出所有warning (warning all)
 
+<a id="3-toolchain"></a>
 #### 3. toolchain
 * nm 命令查看二进制文件符号: 全局变量, 全局函数  nm test01.o
     - T 实现了的
@@ -29,10 +47,12 @@ test01.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
 ```
 * readelf -a test01.o 读取二进制文件
 
+<a id="4-程序在linux内存中的存储位置"></a>
 #### 4. 程序在Linux内存中的存储位置
 * Linux 中 stack区 为 8M
 * stack 和 heap 的存储方向相反
 
+<a id="5-函数库"></a>
 #### 5. 函数库
 * 代码复用: 函数->模块->函数库
 * 静态库: .a 复制静态库到代码中, 速度快, 占用内存大, 应用于核心程序
@@ -55,6 +75,7 @@ test01.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
 * ldd app: 查看需要加载哪些动态链接库
 * 配置动态链接库路径: vi ~/.bashrc -> export LD_LIBRARY_PATH=./  
 
+<a id="5-gdb"></a>
 #### 5. gdb
 * 调试逻辑错误
 * 命令: gdb file_name
@@ -85,6 +106,7 @@ test01.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
 * 段错误: 非法访问内存
     - 排错方法: gdb -> run -> 停止位置即为出现段错误的位置
 
+<a id="6-makefile"></a>
 #### 6. makefile
 * 组成: 目标, 依赖, 命令 (变量, 函数)
     - 目标:依赖<br>
@@ -198,6 +220,7 @@ clean:
 .PHONY:clean ALL
 ```
 
+<a id="7-c项目目录结构"></a>
 #### 7. C项目目录结构
 * ![](image\c项目目录结构.PNG)
 * 项目中的makefile:
@@ -223,6 +246,7 @@ clean:
 .PHONY:clean ALL
 ```
 
+<a id="8-将目录下的所有c文件单独生成可执行文件"></a>
 #### 8. 将目录下的所有.c文件单独生成可执行文件
 ```
 src = $(wildcard *.c)

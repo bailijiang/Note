@@ -69,6 +69,8 @@
 - [67. sigaction函数](#67-sigaction函数)
 - [63. pause函数](#63-pause函数)
 - [64. 父进程利用sigaction信号捕捉子进程退出状态](#64-父进程利用sigaction信号捕捉子进程退出状态)
+- [65. sigsuspend解决时序竞态问题](#65-sigsuspend解决时序竞态问题)
+- [66. 父子进程交替数数](#66-父子进程交替数数)
 
 <!-- /MarkdownTOC -->
 
@@ -3590,3 +3592,248 @@ int main(int argc, char** argv)
     return 0;
 }
 ```
+
+<a id="65-sigsuspend解决时序竞态问题"></a>
+#### 65. sigsuspend解决时序竞态问题
+* 使用pause()函数, 会导致在恢复信号集之前程序挂起
+```
+#include <unistd.h>
+#include <signal.h>
+#include <stdio.h> 
+
+void handler(int sig)    //信号处理函数的实现
+{
+    printf("SIGINT sig\n");
+}
+
+int main(void)
+{
+    sigset_t new,old;
+    struct sigaction act;
+
+    act.sa_handler = handler;  //信号处理函数handler
+    sigemptyset(&act.sa_mask);
+    act.sa_flags = 0;
+    sigaction(SIGINT, &act, 0);  //准备捕捉SIGINT信号
+
+    sigemptyset(&new);
+    sigaddset(&new, SIGINT);
+    sigprocmask(SIG_BLOCK, &new, &old);  //将SIGINT信号阻塞，同时保存当前信号集
+    printf("Blocked\n");
+
+    pause();
+
+    sigprocmask(SIG_SETMASK, &old, NULL);  //取消阻塞
+    printf("sigprocmask recovered\n");
+
+    return 0;
+
+}
+```
+
+* 使用sigsuspend()函数在程序挂起期间临时撤销对wait信号集中的SIGUSR1以外的信号阻塞, 在挂起期间, 程序可以对除SIGUSR1以外的信号(如SIGINT)进行处理, 执行sigaction
+* sigsuspend实际是将取消阻塞sigprocmask和pause结合起来原子操作
+```
+#include <unistd.h>
+#include <signal.h>
+#include <stdio.h> 
+
+void handler(int sig)    //信号处理函数的实现
+{
+    printf("SIGINT sig\n");
+}
+
+int main(void)
+{
+    sigset_t new,old, wait;
+    struct sigaction act;
+
+    act.sa_handler = handler;  //信号处理函数handler
+    sigemptyset(&act.sa_mask);
+    act.sa_flags = 0;
+    sigaction(SIGINT, &act, 0);  //准备捕捉SIGINT信号
+
+    sigemptyset(&new);
+    sigaddset(&new, SIGINT);
+    sigprocmask(SIG_BLOCK, &new, &old);  //将SIGINT信号阻塞，同时保存当前信号集
+    printf("Blocked\n");
+
+    sigemptyset(&wait);
+    sigaddset(&wait, SIGUSR1);
+
+    //pause();
+    sigsuspend(&wait);
+
+    sigprocmask(SIG_SETMASK, &old, NULL);  //取消阻塞
+    printf("sigprocmask recovered\n");
+
+    return 0;
+
+}
+```
+
+<a id="66-父子进程交替数数"></a>
+#### 66. 父子进程交替数数
+* 使用全局变量flag, 出现时序竞态问题
+* 出现问题的原因(流程): 
+    - 原本正常情况: 父子进程都是 响应sigaction->处理sa_handler->发信号kill
+    - 但当父进程在发完信号kill后失去了cpu(挂起了/卡住了), 导致子进程响应处理发信号后, 父进程才恢复cpu, 此时父进程又响应了一次子进程发来的信号, 并进行处理, 然后flag=0, 之后由于子进程已经发完信号, 导致父进程再没有可响应的信号了, 父进程的flag永远变成了0, 而无法进入if条件判断, 也无法再发kill信号给子进程了, 最终程序无法继续运行 
+```
+#include <stdio.h>
+#include <signal.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int n = 0;
+int flag = 0; // 读时共享, 写时复制, 父子进程的flag不同
+
+void sys_err(char *str)
+{
+    perror(str);
+    exit(1);
+}
+
+void do_sig_parent(int sig)
+{
+    printf("Parent count: %d\n", n);
+    n += 2;
+    flag = 1;
+    //sleep(1);
+}
+void do_sig_child(int sig)
+{
+    printf("Child count: %d\n", n);
+    n += 2;
+    flag = 1;
+    //sleep(1);
+}
+
+int main(void)
+{
+    pid_t pid;
+    struct sigaction act;
+
+    pid = fork();
+    if(pid < 0)
+    {
+        sys_err("fork err");
+    }
+
+    if(pid > 0)
+    {
+        sleep(1);
+        n = 1;
+        act.sa_handler = do_sig_parent;
+        sigemptyset(&act.sa_mask);
+        act.sa_flags = 0;
+        sigaction(SIGUSR1, &act, NULL);
+
+        do_sig_parent(0);
+
+        while(1)
+        {
+            if(flag == 1)
+            {
+                kill(pid, SIGUSR2);
+                // ... 失去cpu
+                flag = 0;
+            }
+
+        }
+
+    }else if(pid == 0)
+    {
+        n = 2;
+        act.sa_handler = do_sig_child;
+        sigemptyset(&act.sa_mask);
+        act.sa_flags = 0;
+        sigaction(SIGUSR2, &act, NULL);
+
+        while(1)
+        {
+            if(flag == 1)
+            {
+                kill(getppid(), SIGUSR1);
+                flag = 0;
+            }
+        }
+    }
+
+
+    return 0;
+}
+```
+* 使用信号阻塞sigprocmask解决全局变量时序竞态问题 alternate_count2.c:
+```
+#include <stdio.h>
+#include <signal.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int num1 = 0;
+int num2 = 1;
+pid_t pid;
+
+void sys_err(char *str)
+{
+    perror(str);
+    exit(1);
+}
+
+void do_sig_parent(int sig)
+{
+    printf("Parent\t count: %d\n", num2);
+    num2 += 2;
+    kill(pid, SIGUSR2);
+}
+void do_sig_child(int sig)
+{
+    printf("Child\t count: %d\n", num1);
+    num1 += 2;
+    kill(getppid(), SIGUSR1);
+}
+
+int main(void)
+{
+    struct sigaction act1, act2;
+    sigset_t set;
+    sigemptyset(&set);
+    sigaddset(&set, SIGUSR2);
+    sigprocmask(SIG_BLOCK, &set, NULL);
+
+    pid = fork();
+
+    if(pid < 0)
+    {
+        sys_err("fork err");
+    }
+
+    if(pid > 0)
+    {
+        sleep(1);
+        
+        act1.sa_handler = do_sig_parent;
+        sigemptyset(&act1.sa_mask);
+        act1.sa_flags = 0;
+        sigaction(SIGUSR1, &act1, NULL);
+
+        kill(pid, SIGUSR2);
+        
+        while(1);
+
+    }else if(pid == 0)
+    {
+        act2.sa_handler = do_sig_child;
+        sigemptyset(&act2.sa_mask);
+        act2.sa_flags = 0;
+        sigaction(SIGUSR2, &act2, NULL);
+        
+        sigprocmask(SIG_UNBLOCK, &set, NULL);
+
+        while(1);
+    }
+
+    return 0;
+}
+```
+

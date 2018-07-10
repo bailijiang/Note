@@ -68,9 +68,11 @@
 - [66. typedef 类型定义](#66-typedef-类型定义)
 - [67. sigaction函数](#67-sigaction函数)
 - [63. pause函数](#63-pause函数)
-- [64. 父进程利用sigaction信号捕捉子进程退出状态](#64-父进程利用sigaction信号捕捉子进程退出状态)
+- [64. 父进程利用sigaction信号捕捉处理多个僵尸进程](#64-父进程利用sigaction信号捕捉处理多个僵尸进程)
 - [65. sigsuspend解决时序竞态问题](#65-sigsuspend解决时序竞态问题)
 - [66. 父子进程交替数数](#66-父子进程交替数数)
+- [67. 创建session会话/作业](#67-创建session会话作业)
+- [68. 创建daemon守护进程](#68-创建daemon守护进程)
 
 <!-- /MarkdownTOC -->
 
@@ -3516,8 +3518,9 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="64-父进程利用sigaction信号捕捉子进程退出状态"></a>
-#### 64. 父进程利用sigaction信号捕捉子进程退出状态
+<a id="64-父进程利用sigaction信号捕捉处理多个僵尸进程"></a>
+#### 64. 父进程利用sigaction信号捕捉处理多个僵尸进程
+* 可以在父进程中的每1次响应SIG_CHLD的do_sig中通过while循环waitpid的方式回收多个同时死亡的子进程, 从而避免僵尸进程的产生
 ```
 #include <stdio.h>
 #include <unistd.h>
@@ -3547,7 +3550,7 @@ int main(int argc, char** argv)
 {
     int i;
     pid_t pid;
-
+// 阻塞SIG_CHLD
     for(i = 0; i < 10; ++i)
     {
         pid = fork();
@@ -3580,7 +3583,7 @@ int main(int argc, char** argv)
         sigemptyset(&act.sa_mask);
         act.sa_flags = 0;
         sigaction(SIGCHLD, &act, NULL);
-
+//解除阻塞SIG_CHLD
         while(1)
         {
             printf("Parent: %d slept 1 seconds\n", getpid());
@@ -3837,3 +3840,122 @@ int main(void)
 }
 ```
 
+<a id="67-创建session会话作业"></a>
+#### 67. 创建session会话/作业
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <sys/wait.h>
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+    pid_t pid = fork();
+
+    if(pid == 0)
+    {
+        printf("Child getpid: %d\n", getpid());
+        printf("Child getpgid: %d\n", getpgid(0));
+        printf("Child getsid: %d\n", getsid(0));
+        sleep(2);
+        
+        setsid();
+
+        printf("Child getpid: %d\n", getpid());
+        printf("Child getpgid: %d\n", getpgid(0));
+        printf("Child getsid: %d\n", getsid(0));
+
+        exit(0);
+    }
+
+    return 0;
+}
+```
+
+<a id="68-创建daemon守护进程"></a>
+#### 68. 创建daemon守护进程
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <sys/wait.h>
+#include <signal.h>
+#include <time.h>
+
+void mydaemon(void)
+{
+    pid_t pid = fork();
+    if(pid < 0)
+    {
+        perror("fork err");
+        exit(1);
+    }
+    if(pid > 0)
+    {
+        exit(0);
+    }
+
+    pid = setsid();
+    if(pid < 0)
+    {
+        perror("setsid err");
+        exit(1);
+    }
+
+    if(chdir("/") < 0)
+    {
+        perror("chdir err");
+        exit(1);
+    }
+
+    umask(0022);
+    
+    close(0);
+    int fd = open("/dev/null", O_RDWR);
+    if(fd == -1)
+    {
+        perror("open err");
+        exit(1);
+    }
+    dup2(fd, STDOUT_FILENO);
+    dup2(fd, STDERR_FILENO);
+
+    return;
+
+}
+
+
+int main(int argc, char** argv)
+{
+    mydaemon();
+    
+    int fd = open("/tmp/mydaemon_time", O_RDWR | O_TRUNC | O_CREAT, 0644);
+    if(fd == -1)
+    {
+        perror("open tmp err");
+        exit(1);
+    }
+    while(1)
+    {
+        time_t ct = time(NULL);
+        dprintf(fd, "%s\n", ctime(&ct));
+        sleep(5);
+    }
+    close(fd);
+
+    return 0;
+}
+```

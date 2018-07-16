@@ -73,6 +73,23 @@
 - [66. 父子进程交替数数](#66-父子进程交替数数)
 - [67. 创建session会话/作业](#67-创建session会话作业)
 - [68. 创建daemon守护进程](#68-创建daemon守护进程)
+- [69. 线程的概念](#69-线程的概念)
+- [70. 创建线程](#70-创建线程)
+- [71. 退出单个线程pthread_exit\(NULL\)](#71-退出单个线程pthread_exitnull)
+- [72. pthread_join阻塞等待线程退出, 获取线程退出状态](#72-pthread_join阻塞等待线程退出-获取线程退出状态)
+- [73. pthread_detach 分离单个线程](#73-pthread_detach-分离单个线程)
+- [74. pthread_cancel杀死一个线程](#74-pthread_cancel杀死一个线程)
+- [75. 设置线程属性pthread_attr](#75-设置线程属性pthread_attr)
+- [76. 线程同步的概念](#76-线程同步的概念)
+- [77. 多线程拷贝大文件, 并显示拷贝进度](#77-多线程拷贝大文件-并显示拷贝进度)
+- [78. 线程死锁](#78-线程死锁)
+- [79. 读写锁](#79-读写锁)
+- [80. 生产者消费者-pthread_cond](#80-生产者消费者-pthread_cond)
+- [81. semaphore旗语\(信号量\)](#81-semaphore旗语信号量)
+- [82. 进程间同步pthread_mutexattr_t](#82-进程间同步pthread_mutexattr_t)
+- [83. 进程间文件锁fcntl/flock](#83-进程间文件锁fcntlflock)
+- [84. 哲学家吃饭问题](#84-哲学家吃饭问题)
+- [85. sem_timedwait](#85-sem_timedwait)
 
 <!-- /MarkdownTOC -->
 
@@ -3955,6 +3972,1232 @@ int main(int argc, char** argv)
         sleep(5);
     }
     close(fd);
+
+    return 0;
+}
+```
+
+<a id="69-线程的概念"></a>
+#### 69. 线程的概念
+* 线程本质还是进程
+* 不要在多线程的程序中使用信号signal
+* `ps -Lf pid` : 查看进程下的线程
+* 线程是最小的执行单位, 每个线程独立一个stack栈空间
+* 线程共享数据方便
+* 进程间不共享全局变量, 只能通过pipe/fifo/file/mmap/signal通信, 不如线程方便
+* 线程id和线程号不同, 线程id是进程内部使用的, 线程号是不同进程之间使用
+
+<a id="70-创建线程"></a>
+#### 70. 创建线程
+* `int pthread_create(pthread_t *thread, const pthread_attr_t *attr,
+                          void *(*start_routine) (void *), void *arg);`
+    - thread: 线程id(传出参数, 即创建的线程id)
+    - attr: 属性, 一般传NULL
+    - start_routine: 函数指针, 线程需要执行的主控函数名(操作)
+    - arg: 函数指针start_routine 的参数
+* makefile: -lpthread
+```
+src = $(wildcard *.c)
+target = $(patsubst %.c, %, $(src))
+
+ALL: $(target)
+CFLAGES = -Wall -g -lpthread
+
+$(target):%:%.c
+    gcc $^ -o $@ $(CFLAGES)
+clean:
+    -rm -rf $(target)
+.PHONY:clean ALL
+```
+* 标准输出行缓冲, 标准错误无缓冲
+* pthread_create.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <pthread.h>
+
+
+void *tfn(void *arg)
+{
+    printf("tfn ---- pid: %d  tid: %lu\n", getpid(), pthread_self());
+    
+    return (void*)0;
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t tid;
+
+    printf("main ---- pid: %d  tid: %lu\n", getpid(), pthread_self());
+
+    int ret = pthread_create(&tid, NULL, tfn, NULL);
+    if(ret != 0)
+    {
+        fprintf(stderr, "pthread create err: %s\n", strerror(ret));
+        exit(1);
+    }
+    sleep(1);
+
+    return 0;
+}
+```
+* more_pthread.c:
+    - `(void *)i` : 将i的值赋值给void * 指针, 有warning, 但此处__不能__用地址传参`(void *)&i`
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+#include <pthread.h>
+
+
+void *tfn(void *arg)
+{
+    //int i = *((int*)arg);
+    int i;
+    i = (int)arg;
+    sleep(i);
+    printf("Num: %d tfn ---- pid: %d  tid: %lu\n", i + 1, getpid(), pthread_self());
+
+    return NULL;
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t tid;
+    int i, ret;
+
+
+
+    for(i = 0; i < 5; ++i)
+    {
+        ret = pthread_create(&tid, NULL, tfn, (void *)i);   // 将i的值赋值给void * 指针, 有warning
+        if(ret != 0)
+        {
+            fprintf(stderr, "pthread create err: %s\n", strerror(ret));
+            exit(1);
+        }
+    }
+
+
+    sleep(i);
+    printf("main ---- pid: %d  tid: %lu\n", getpid(), pthread_self());
+
+    return 0;
+}
+```
+
+<a id="71-退出单个线程pthread_exitnull"></a>
+#### 71. 退出单个线程pthread_exit(NULL)
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <sys/wait.h>
+#include <signal.h>
+#include <pthread.h>
+
+
+void func(void)
+{
+    pthread_exit(NULL);
+}
+
+
+void *tfn(void *arg)
+{
+    //int i = *((int*)arg);
+    int i;
+    i = (int)arg;
+    if(i == 2)
+    {
+        func();
+    }
+    sleep(i);
+    printf("Num: %d tfn ---- pid: %d  tid: %lu\n", i + 1, getpid(), pthread_self());
+
+    return NULL;
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t tid;
+    int i, ret;
+
+
+
+    for(i = 0; i < 5; ++i)
+    {
+        ret = pthread_create(&tid, NULL, tfn, (void *)i);
+        if(ret != 0)
+        {
+            fprintf(stderr, "pthread create err: %s\n", strerror(ret));
+            exit(1);
+        }
+    }
+
+    printf("main ---- pid: %d  tid: %lu\n", getpid(), pthread_self());
+
+    // return 0; // exit();
+    pthread_exit(NULL);
+}
+```
+
+<a id="72-pthread_join阻塞等待线程退出-获取线程退出状态"></a>
+#### 72. pthread_join阻塞等待线程退出, 获取线程退出状态
+* 回收单线程
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+#include <pthread.h>
+
+typedef struct
+{
+    int var;
+    char str[64];
+}exit_t;
+
+
+void *tfn(void *arg)
+{
+    exit_t *ret = (exit_t *)arg;
+    ret->var = 77;
+    strcpy(ret->str, "hello pthread_join");
+
+    //return (void *)ret;
+    pthread_exit((void *)ret);
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t tid;
+    exit_t *ret = malloc(sizeof(exit_t));
+    
+    pthread_create(&tid, NULL, tfn, (void *)ret);
+    pthread_join(tid, (void **)&ret);
+
+    printf("ret var=%d  str=%s\n", ret->var, ret->str);
+
+    free(ret);
+
+    return 0;
+}
+```
+* 循环回收多线程
+    - 同一进程下的所有线程共享全局变量
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+#include <pthread.h>
+
+int g_var = 100;
+
+typedef struct
+{
+    int var;
+    char str[64];
+}exit_t;
+
+
+void *tfn(void *arg)
+{
+    exit_t *ret = (exit_t *)arg;
+    sleep(ret->var);
+
+    if(ret->var == 1)
+    {
+        strcpy(ret->str, "hello pthread 2");
+        g_var = 222;
+        printf("g_var: %d\n", g_var);
+        pthread_exit((void *)ret);
+    }
+    else if(ret->var == 3)
+    {
+        strcpy(ret->str, "hello pthread 4");
+        g_var = 444;
+        printf("g_var: %d\n", g_var);
+        pthread_exit((void *)ret);
+    }
+    printf("g_var: %d\n", g_var);
+    strcpy(ret->str, "hello pthread");
+
+    pthread_exit((void *)ret);
+}
+
+int main(int argc, char** argv)
+{
+    int i;
+    pthread_t tid[5];
+    exit_t *ret[5];
+
+    for(i=0;i<5;++i)
+    {
+        ret[i] = malloc(sizeof(exit_t));
+    }
+
+
+    for(i = 0;i<5;++i)
+    {
+        ret[i]->var = i;
+        pthread_create(&tid[i], NULL, tfn, (void *)ret[i]);
+    }
+
+    for(i = 0;i<5;++i)
+    {
+        pthread_join(tid[i], (void **)&ret[i]);
+        printf("ret var=%d  str=%s\n", ret[i]->var, ret[i]->str);
+    }
+
+    for(i=0;i<5;++i)
+    {
+        free(ret[i]);
+    }
+
+    //return 0;
+    pthread_exit(NULL);
+}
+```
+
+<a id="73-pthread_detach-分离单个线程"></a>
+#### 73. pthread_detach 分离单个线程
+* 查看进程下的线程 `ps -T -p <pid>`
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+#include <pthread.h>
+
+
+void *tfn(void *arg)
+{
+    printf("tfn ---- pid: %d  tid: %lu\n", getpid(), pthread_self());
+
+    pthread_exit(NULL);
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t tid;
+    void *val;
+    int ret;
+
+    pthread_create(&tid, NULL, tfn, NULL);
+    pthread_detach(tid);
+
+    ret = pthread_join(tid,(void **)&val);
+
+    if(ret != 0)
+    {
+        fprintf(stderr, "pthread join err: %s\n", strerror(ret));
+        exit(1);
+    }
+
+
+    pthread_exit(NULL);
+}
+```
+
+<a id="74-pthread_cancel杀死一个线程"></a>
+#### 74. pthread_cancel杀死一个线程
+* pthread_cancel: 以一个系统调用(alarm/pause/...printf/sleep)为取消点, 到达取消点才能把线程杀死, 如果没有系统调用(如空的while循环), 则无法杀死线程
+* pthread_testcancel: 杀死无系统调用的线程
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <pthread.h>
+
+
+void *tfn(void *arg)
+{
+    //while(1); // 无法杀死线程的原因
+    while(1)
+    {
+
+        pthread_testcancel(); // 杀死无系统调用的线程
+    }
+
+    printf("tfn ---- pid: %d  tid: %lu\n", getpid(), pthread_self());
+    sleep(2);
+    return (void *)888;
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t tid;
+    void *val;
+    int ret;
+
+    pthread_create(&tid, NULL, tfn, NULL);
+    pthread_cancel(tid);
+    ret = pthread_join(tid,(void **)&val);
+    if(ret != 0)
+    {
+        fprintf(stderr, "pthread join err: %s\n", strerror(ret));
+        exit(1);
+    }
+    printf("pthread exit with: %d\n", (int)val);
+
+    pthread_exit(NULL);
+}
+```
+
+<a id="75-设置线程属性pthread_attr"></a>
+#### 75. 设置线程属性pthread_attr
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <pthread.h>
+
+
+void *tfn(void *arg)
+{
+    int n = 3;
+    while(n--)
+    {
+        printf("pthread n: %d\n", n);
+        sleep(1);
+    }
+    return (void *)0;
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t tid;
+    void *val;
+    int ret;
+#if 1
+    pthread_attr_t attr;
+    pthread_attr_init(&attr);
+    pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+    pthread_create(&tid, &attr, tfn, NULL);
+    pthread_attr_destroy(&attr);
+
+#else
+    pthread_create(&tid, NULL, tfn, NULL);
+    pthread_detach(tid);
+#endif
+    
+    ret = pthread_join(tid,(void **)&val);
+
+    if(ret != 0)
+    {
+        fprintf(stderr, "pthread join err: %s\n", strerror(ret));
+        exit(1);
+    }else
+    {
+        printf("pthread exit with: %d\n", (int)val);
+    }
+
+
+    pthread_exit(NULL);
+}
+```
+
+<a id="76-线程同步的概念"></a>
+#### 76. 线程同步的概念
+* 线程同步是指线程间协同工作(线程安全)
+* 多个线程/进程,共同操作一个共享资源的情况,都需要同步(协调工作), 避免混乱
+* 建议锁对全局变量无效
+
+<a id="77-多线程拷贝大文件-并显示拷贝进度"></a>
+#### 77. 多线程拷贝大文件, 并显示拷贝进度
+* multi_pthread_cp.c: (5个步骤实现)
+    - 进度条使用pthread_mutex
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
+#include <pthread.h>
+#include <sys/stat.h>
+#include <sys/mman.h>
+
+#define EQ_NUM 50
+
+unsigned long long complish = 0;
+char *mp_src, *mp_dst, *tmp_srcp, *tmp_dstp;
+pthread_mutex_t lock;
+
+typedef struct
+{
+    int off_set;
+    int size;
+    int t_no;
+}arg_t;
+
+
+void err_int(int ret, const char *str)
+{
+    if(ret == -1)
+    {
+        perror(str);
+        exit(1);
+    }
+    return;
+}
+void err_str(char *ret, const char *str)
+{
+    if(ret == MAP_FAILED)
+    {
+        perror(str);
+        exit(1);
+    }
+    return;
+}
+
+void *tfn(void *arg)
+{
+    arg_t *arg_p = (arg_t *)arg;
+    memcpy(tmp_dstp + arg_p->off_set, tmp_srcp + arg_p->off_set, arg_p->size);
+    
+    pthread_mutex_lock(&lock);
+    complish += (unsigned long long)arg_p->size;
+    pthread_mutex_unlock(&lock);
+
+    return (void *)0;
+}
+
+void *draw_progress(void *file_size)
+{
+    int bytes_per_eq = *((int *)file_size) / EQ_NUM;
+    int draw = 0;
+    int should_draw_num = 0;
+    while(draw < EQ_NUM)
+    {
+        should_draw_num = complish / bytes_per_eq;
+        for(;draw < should_draw_num;++draw)
+        {
+            putchar('=');
+            fflush(stdout);
+        }
+    }
+    putchar('\n');
+    return NULL;
+}
+
+int main(int argc, char** argv)
+{
+    int i;
+    int src_fd, dst_fd;
+    int t_num;
+    int ret;
+    struct stat sbuf;
+    int file_size;
+    pthread_t *tid;
+    int thrd_cp_size;
+
+    if(argc != 4)
+    {
+        printf("usage: %s src dst pthreadNum\n", argv[0]);
+        exit(1);
+    }
+    
+    src_fd = open(argv[1], O_RDONLY);
+    err_int(src_fd, "open src err");
+
+    dst_fd = open(argv[2], O_RDWR | O_TRUNC | O_CREAT, 0644);
+    err_int(dst_fd, "open dst err");
+    
+    t_num = atoi(argv[3]);
+
+    ret = fstat(src_fd, &sbuf);
+    err_int(ret, "fstat err");
+
+    file_size = sbuf.st_size;
+
+    ret = ftruncate(dst_fd, file_size);
+    err_int(ret, "ftruncate err");
+
+    mp_src = mmap(NULL, file_size, PROT_READ, MAP_SHARED, src_fd, 0);
+    err_str(mp_src, "mmap src err");
+
+    mp_dst = mmap(NULL, file_size, PROT_READ | PROT_WRITE, MAP_SHARED, dst_fd, 0);
+    err_str(mp_dst, "mmap dst err");
+
+    tmp_srcp = mp_src;
+    tmp_dstp = mp_dst;
+
+    close(src_fd);
+    close(dst_fd);
+    
+    thrd_cp_size = file_size / t_num;
+    
+    arg_t *arg_arr;
+    arg_arr = (arg_t *)malloc(sizeof(arg_t) * t_num);
+    for(i = 0; i < t_num; ++i)
+    {
+        arg_arr[i].off_set = i * thrd_cp_size;
+        arg_arr[i].size = thrd_cp_size;
+        arg_arr[i].t_no = i;
+    }
+    arg_arr[t_num - 1].size += file_size % t_num;
+
+    pthread_t draw_tid;
+    pthread_create(&draw_tid, NULL, draw_progress, (void *)&file_size);
+
+    tid = (pthread_t *)malloc(sizeof(pthread_t) * t_num);
+    for(i = 0; i < t_num; ++i)
+    {
+        //usleep(10000); // slow copy speed
+        pthread_create(&tid[i], NULL, tfn, (void *)&arg_arr[i]);
+    }
+
+
+    for(i = 0; i < t_num; ++i)
+    {
+        pthread_join(tid[i], NULL);
+    }
+    pthread_join(draw_tid, NULL);
+
+    munmap(mp_src, file_size);
+    munmap(mp_dst, file_size);
+
+    free(arg_arr);
+    free(tid);
+
+    pthread_mutex_destroy(&lock);
+
+    pthread_exit(NULL);
+}
+```
+
+<a id="78-线程死锁"></a>
+#### 78. 线程死锁
+* 线程死锁不是一下就能锁住的, 而是trylock一段时间或此处后, 锁如果仍然存在, 才会真正死锁住, 所以在pthread_mutex_destroy前 sleep(3)秒
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <pthread.h>
+
+int m, n;
+pthread_mutex_t m_lock, n_lock;
+
+void *tfn1(void *arg)
+{
+    pthread_mutex_lock(&m_lock);
+    m++;
+    sleep(1);
+    pthread_mutex_lock(&n_lock);
+    n++;
+
+    pthread_mutex_unlock(&m_lock);
+    pthread_mutex_unlock(&n_lock);
+
+    pthread_exit(NULL);
+}
+void *tfn2(void *arg)
+{
+    pthread_mutex_lock(&n_lock);
+    n++;
+    sleep(1);
+    pthread_mutex_lock(&m_lock);
+    m++;
+
+    pthread_mutex_unlock(&n_lock);
+    pthread_mutex_unlock(&m_lock);
+
+    pthread_exit(NULL);
+}
+
+
+int main(int argc, char** argv)
+{
+    pthread_t tid1, tid2;
+
+    pthread_mutex_init(&m_lock, NULL);
+    pthread_mutex_init(&n_lock, NULL);
+
+    
+    pthread_create(&tid1, NULL, tfn1, NULL);
+    pthread_create(&tid2, NULL, tfn2, NULL);
+    
+    sleep(3); // keypoint 给线程加锁创建时间
+    printf("m: %d  n: %d\n", m, n);
+    
+    pthread_mutex_destroy(&m_lock);
+    pthread_mutex_destroy(&n_lock);
+
+    pthread_join(tid1, NULL);
+    pthread_join(tid2, NULL);
+
+    printf("m: %d  n: %d\n", m, n);
+
+    pthread_exit(NULL);
+}
+```
+
+<a id="79-读写锁"></a>
+#### 79. 读写锁
+* 读共享, 写独占
+* 读写锁并行时, 写锁优先级高
+* 既有读又有写时, 读写锁性能比互斥要高, 只有写时, 读写锁与互斥性能一样
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
+
+int counter;
+pthread_rwlock_t rwlock;
+
+
+void *tfn_write(void *arg)
+{
+    int i = (int)arg;
+    int t;
+
+    while(1)
+    {
+        pthread_rwlock_wrlock(&rwlock);
+        usleep(1000);
+        t = counter;
+        printf("write:\t%d\t tid: %lu\t counter: %d\t ++counter: %d\n", i, pthread_self(), t, ++counter);
+        pthread_rwlock_unlock(&rwlock);
+        usleep(10000);
+    }
+    return NULL;
+}
+void *tfn_read(void *arg)
+{
+    int i = (int)arg;
+
+    while(1)
+    {
+        pthread_rwlock_rdlock(&rwlock);
+        printf("read:\t%d\t tid: %lu\t counter: %d\t\n", i, pthread_self(), counter);
+        pthread_rwlock_unlock(&rwlock);
+        usleep(2000);
+    }
+
+    return NULL;
+}
+
+int main(int argc, char** argv)
+{   
+    int i;
+    pthread_t tid[8];
+
+    pthread_rwlock_init(&rwlock, NULL);
+
+    for(i = 0; i < 3; ++i)
+    {
+        pthread_create(&tid[i], NULL, tfn_write, (void *)i);
+    }
+    for(i = 0; i < 5; ++i)
+    {
+        pthread_create(&tid[i+3], NULL, tfn_read, (void *)i);
+    }
+    for(i = 0; i < 8; ++i)
+    {
+        pthread_join(tid[i], NULL);
+    }
+
+    pthread_rwlock_destroy(&rwlock);
+
+    return 0;
+}
+```
+
+<a id="80-生产者消费者-pthread_cond"></a>
+#### 80. 生产者消费者-pthread_cond
+* pthread_cond_wait的任务: 阻塞, 解锁, 唤醒其他抢锁线程, 条件满足pthread_cond_signal唤醒后加锁继续执行
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
+
+pthread_cond_t has_product = PTHREAD_COND_INITIALIZER;
+pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
+
+struct product 
+{
+    int num;
+    struct product *next;
+};
+struct product *head;   // shared link data
+
+void *consumer(void *arg)
+{
+    struct product *del;
+    for(;;)
+    {
+        pthread_mutex_lock(&lock);  //先抢锁
+        while(head == NULL)
+        {
+            pthread_cond_wait(&has_product, &lock);
+        }
+        del = head;
+        head = del->next;
+        pthread_mutex_unlock(&lock);
+
+        printf("Consumer: %lu\t del: %d\n", pthread_self(), del->num);
+        free(del);
+        sleep(rand() % 4);
+    }
+}
+
+void *producer(void *arg)
+{
+    struct product *add;
+    for(;;)
+    {
+        add = (struct product*)malloc(sizeof(struct product));
+        add->num = rand() % 1000 + 1;
+        printf("Producer: %lu\t add: %d\n", pthread_self(), add->num);
+
+        pthread_mutex_lock(&lock);
+        add->next = head;
+        head = add;
+        pthread_mutex_unlock(&lock);
+
+        pthread_cond_signal(&has_product);
+
+        sleep(rand() % 4);
+    }
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t pid, cid; // pid: product tid ; cid: consumer tid
+    srand(time(NULL));
+
+    pthread_create(&pid, NULL, producer, NULL);
+    
+    pthread_create(&cid, NULL, consumer, NULL);
+    pthread_create(&cid, NULL, consumer, NULL);
+    pthread_create(&cid, NULL, consumer, NULL);
+    pthread_create(&cid, NULL, consumer, NULL);
+
+
+    pthread_join(cid, NULL);
+    pthread_join(pid, NULL);
+
+    return 0;
+}
+```
+
+<a id="81-semaphore旗语信号量"></a>
+#### 81. semaphore旗语(信号量)
+* 进程/线程 都可以使用
+* 生产者消费者-semaphore
+* wait:--   post:++
+* sem_wait到blank_num--为0时才会阻塞
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <semaphore.h>
+
+#define NUM 5
+
+sem_t blank_num, product_num;
+int queue[NUM];
+int idx;
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+
+void *consumer(void *arg)
+{
+    //int i = 0;
+    while(1)
+    {
+        sem_wait(&product_num);
+        printf("Consume: %lu\t product: %d\n", pthread_self(), queue[idx]);
+        queue[idx] = 0;
+        sem_post(&blank_num);
+
+        pthread_mutex_lock(&mutex);
+        idx = (idx + 1) % NUM;
+        pthread_mutex_unlock(&mutex);
+
+        sleep(rand()%1);
+    }
+    return NULL;
+}
+
+void *producer(void *arg)
+{
+    int i = 0;
+    while(1)
+    {   
+        sem_wait(&blank_num);
+        queue[i] = rand() % 1000 + 1;
+        printf("Produce: \t%d\n", queue[i]);
+        sem_post(&product_num);
+        i = (i + 1) % NUM;
+
+        sleep(rand()%1);
+    }
+    return NULL;
+}
+
+int main(int argc, char** argv)
+{
+    pthread_t pid, cid; // pid: product tid ; cid: consumer tid
+    srand(time(NULL));
+
+    sem_init(&blank_num, 0, NUM);
+    sem_init(&product_num, 0, 0);
+
+    pthread_create(&pid, NULL, producer, NULL);
+    
+    pthread_create(&cid, NULL, consumer, NULL);
+    pthread_create(&cid, NULL, consumer, NULL);
+    pthread_create(&cid, NULL, consumer, NULL);
+    pthread_create(&cid, NULL, consumer, NULL);
+
+
+    pthread_join(cid, NULL);
+    pthread_join(pid, NULL);
+
+    sem_destroy(&blank_num);
+    sem_destroy(&product_num);
+
+    return 0;
+}
+
+```
+
+<a id="82-进程间同步pthread_mutexattr_t"></a>
+#### 82. 进程间同步pthread_mutexattr_t
+* 进程间同步操作共享区主要用mmap(pipe/fifo是伪文件)
+* 一个共享资源(变量/数组/链表/struct)就有一把对应的锁mutex, 所以可以把锁mutex和锁属性与一个共享数据资源封装到一个struct中
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/mman.h>
+#include <sys/wait.h>
+#include <pthread.h>
+
+struct mt
+{
+    int num;
+    pthread_mutexattr_t mutexattr;
+    pthread_mutex_t mutex;
+};
+
+int main(int argc, char** argv)
+{
+    pid_t pid;
+    struct mt *mm;
+    int i;
+
+    mm = mmap(NULL, sizeof(*mm), PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANON, -1, 0);
+    memset(mm, 0, sizeof(*mm));
+
+    pthread_mutexattr_init(&mm->mutexattr);
+    pthread_mutexattr_setpshared(&mm->mutexattr, PTHREAD_PROCESS_SHARED);
+    pthread_mutex_init(&mm->mutex, &mm->mutexattr);
+
+    pid = fork();
+    if(pid == 0)
+    {
+        // child process
+        for(i = 0; i < 10; ++i)
+        {
+            pthread_mutex_lock(&mm->mutex);
+            mm->num += 1;
+            printf("Child: \tnum: %d\n", mm->num);
+            pthread_mutex_unlock(&mm->mutex);
+            sleep(1);
+        }
+    }else if(pid > 0)
+    {
+        //parent process
+        for(i = 0; i < 10; ++i)
+        {
+            sleep(1);
+            pthread_mutex_lock(&mm->mutex);
+            mm->num += 2;
+            printf("Parent: \tnum: %d\n", mm->num);
+            pthread_mutex_unlock(&mm->mutex);
+        }
+        wait(NULL);
+    }
+
+
+    pthread_mutexattr_destroy(&mm->mutexattr);
+    pthread_mutex_destroy(&mm->mutex);
+
+    munmap(mm, sizeof(*mm));
+    
+    return 0;
+}
+```
+
+<a id="83-进程间文件锁fcntlflock"></a>
+#### 83. 进程间文件锁fcntl/flock
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
+
+void sys_err(const char* err)
+{
+    perror(err);
+    exit(1);
+}
+
+int main(int argc, char** argv)
+{
+    struct flock f_lock;
+    int fd;
+
+    if(argc < 2)
+    {
+        printf("usage: %s filename\n", argv[0]);
+        exit(1);
+    }
+
+    fd = open(argv[1], O_RDWR);
+    if(fd == -1)
+    {
+        sys_err("open err");
+    }
+    
+    //f_lock.l_type = F_RDLCK;
+    f_lock.l_type = F_WRLCK;
+
+    f_lock.l_whence = SEEK_SET;
+    f_lock.l_start = 0;
+    f_lock.l_len = 0;
+
+    fcntl(fd, F_SETLKW, &f_lock);
+    printf("get lock\n");
+    sleep(10);
+
+    f_lock.l_type = F_UNLCK;
+    fcntl(fd, F_SETLKW, &f_lock);
+    printf("un flock\n");
+
+    close(fd);
+
+    return 0;
+}
+```
+
+<a id="84-哲学家吃饭问题"></a>
+#### 84. 哲学家吃饭问题
+* 线程实现
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <pthread.h>
+
+pthread_mutex_t m[5]; // 5 chopstick
+
+void *tfn(void *arg)
+{
+    int i, l, r;
+    srand(time(NULL));
+    i = (int)arg;
+
+    if(i == 4)
+    {
+        l = 0;  // 避免极端震荡现象(5个人同时拿, 没拿到, 同时放), 4号哲学家E拿筷子方向与别人相反即可
+        r = i;
+    }else
+    {
+        l = i;
+        r = i + 1;
+    }
+
+    while(1)
+    {
+        pthread_mutex_lock(&m[l]);
+        if(pthread_mutex_trylock(&m[r]) == 0)
+        {
+            printf("philosopher: %c eating\n", i+'A');
+            pthread_mutex_unlock(&m[r]);
+        }
+        pthread_mutex_unlock(&m[l]);
+        sleep(rand()%5);
+    }
+    return NULL;
+}
+
+
+int main(int argc, char** argv)
+{
+    pthread_t tid[5]; // 5 philosopher
+    int i;
+
+    for(i=0;i<5;++i)
+    {
+        pthread_mutex_init(&m[i], NULL);
+    }
+
+    for(i=0;i<5;++i)
+    {
+        pthread_create(&tid[i], NULL, tfn, (void *)i);
+    }
+
+    for(i=0;i<5;++i)
+    {
+        pthread_join(tid[i], NULL);
+    }
+    
+    for(i=0;i<5;++i)
+    {
+        pthread_mutex_destroy(&m[i]);
+    }
+    
+    return 0;
+}
+```
+* 进程实现
+    - semaphore变成互斥mutex: sem_init(&s[i], 1, 1);  //信号量初值制定为1，信号量，变成了互斥锁
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/mman.h>
+#include <sys/wait.h>
+#include <semaphore.h>
+
+int main(int argc, char** argv)
+{   
+    int i;
+    sem_t *s;
+    pid_t pid;
+
+    s = mmap(NULL, sizeof(sem_t)*5, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANON, -1, 0);
+    if(s == MAP_FAILED)
+    {
+        perror("mmap err");
+        exit(1);
+    }
+
+    for(i=0;i<5;++i)
+    {
+        sem_init(&s[i], 1, 1);
+    }
+
+    for(i=0;i<5;++i)
+    {
+        pid = fork();
+        if(pid == 0)
+            break;
+    }
+
+    if(i<5)
+    {
+        int l, r;
+        srand(time(NULL));
+
+        if(i == 4)
+        {
+            l = 0, r = i;
+        }else
+        {
+            l = i, r = i + 1;
+        }
+        
+        while(1)
+        {
+            sem_wait(&s[l]);
+            if(sem_trywait(&s[r]) == 0)
+            {
+                printf("Philosopher: %c eating\n", i + 'A');
+                sem_post(&s[r]);
+            }
+            sem_post(&s[l]);
+            sleep(rand() % 5);
+        }
+        exit(0);
+    }
+
+
+    for(i=0;i<5;++i)
+    {
+        wait(NULL);
+    }
+    for(i=0;i<5;++i)
+    {
+        sem_destroy(&s[i]);
+    }
+    munmap(s, sizeof(sem_t)*5);
+
+    return 0;
+}
+```
+
+<a id="85-sem_timedwait"></a>
+#### 85. sem_timedwait
+* 共享资源: STDIN_FILENO
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <semaphore.h>
+#include <pthread.h>
+#include <time.h>
+
+#define N 1024
+
+sem_t s;
+char buf[N];
+
+void *tfn(void *arg)
+{
+
+    while(1)
+    {
+        read(STDIN_FILENO, buf, N);
+        sem_post(&s);
+    }
+    return NULL;
+}
+
+
+int main(void)
+{
+    pthread_t tid;
+    struct timespec t = {0, 0};
+
+    sem_init(&s, 0, 0);
+    pthread_create(&tid, NULL, tfn, NULL);
+
+    while(1)
+    {
+        sem_timedwait(&s, &t);
+        printf("hello world: %s\n", buf);
+        t.tv_sec = time(NULL) + 5;
+        t.tv_nsec = 0;
+    }
+
+    pthread_join(tid, NULL);
+    sem_destroy(&s);
 
     return 0;
 }

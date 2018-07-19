@@ -9,6 +9,7 @@
 - [6. makefile](#6-makefile)
 - [7. C项目目录结构](#7-c项目目录结构)
 - [8. 将目录下的所有.c文件单独生成可执行文件](#8-将目录下的所有c文件单独生成可执行文件)
+- [9. makefile同一目录下多个目标](#9-makefile同一目录下多个目标)
 
 <!-- /MarkdownTOC -->
 
@@ -23,6 +24,7 @@
 * 翻页: ctrl+f, ctrl+b, ctrl+d, ctrl+u
 * 全局替换: %s/c1/cmd/g
 * 删除光标到当前行结尾: d$
+* 选择多行: v
 
 <a id="2-gcc"></a>
 #### 2. gcc
@@ -260,4 +262,24 @@ $(target):%:%.c
 clean:
     -rm -rf $(target)
 .PHONY:clean ALL
+```
+
+<a id="9-makefile同一目录下多个目标"></a>
+#### 9. makefile同一目录下多个目标
+```
+server = server.c wrap.c
+client = client.c wrap.c
+target = server client
+
+CFLAGES = -Wall -g -I. -lpthread
+
+ALL: $(target)
+
+server:$(server)
+    gcc $^ -o $@ $(CFLAGES)
+client:$(client)
+    gcc $^ -o $@ $(CFLAGES)
+clean:
+    -rm -rf $(target)
+.PHONY:clean server client
 ```

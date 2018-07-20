@@ -5,9 +5,9 @@
 - [3. server/client Socket最简实现](#3-serverclient-socket最简实现)
 - [4. TCP建立和断开连接](#4-tcp建立和断开连接)
 - [5. goto语句相关](#5-goto语句相关)
-- [6. 多进程并发服务器实现](#6-多进程并发服务器实现)
-- [7. CLOSE_WAIT问题](#7-close_wait问题)
-- [8. 多线程并发服务器实现](#8-多线程并发服务器实现)
+- [6. 多进程socket并发服务器实现及CLOSE_WAIT问题解决](#6-多进程socket并发服务器实现及close_wait问题解决)
+- [7. 多线程并发服务器实现](#7-多线程并发服务器实现)
+- [8. 多线程QQ聊天室socket](#8-多线程qq聊天室socket)
 
 <!-- /MarkdownTOC -->
 
@@ -207,13 +207,10 @@ int main(int argc, char** argv)
 * goto语句使用范围: a:当前函数 b:当前文件 c:当前项目  
     -  选a
 
-<a id="6-多进程并发服务器实现"></a>
-#### 6. 多进程并发服务器实现
+<a id="6-多进程socket并发服务器实现及close_wait问题解决"></a>
+#### 6. 多进程socket并发服务器实现及CLOSE_WAIT问题解决
 * warp.c warp.h: 错误处理
     - 封装为首字母大写的函数,仍然可以在vim中用2+K查询man page 
-
-<a id="7-close_wait问题"></a>
-#### 7. CLOSE_WAIT问题
 * server主动/被动 断开client端socket连接, 避免CLOSE_WAIT 占用端口和进程的问题
 * server.c:
 ```
@@ -395,8 +392,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="8-多线程并发服务器实现"></a>
-#### 8. 多线程并发服务器实现
+<a id="7-多线程并发服务器实现"></a>
+#### 7. 多线程并发服务器实现
 * 将线程栈的大小从8M减为1M可以增加线程并发数量
 ```
 #include <stdio.h>
@@ -489,4 +486,299 @@ int main(void)
 }
 ```
 
+<a id="8-多线程qq聊天室socket"></a>
+#### 8. 多线程QQ聊天室socket
+* pthread, mutex, linked_list, 
+* qq_socket_server.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <arpa/inet.h>
+#include "server_record.h"
+#include "qq_socket.h"
+#include "wrap.h"
+
+#define SERV_PORT 8000
+
+//shared
+record head = NULL;
+pthread_mutex_t mutex;
+
+
+void sys_err(const char* err)
+{
+    perror(err);
+    exit(1);
+}
+
+void login_qq(int cfd, struct QQ_DATA_INFO *dbuf, record *head)
+{
+    //create record
+    pthread_mutex_lock(&mutex);
+    record r = create_record(dbuf->srcname, cfd);
+
+    //insert
+    insert_record(head, r);
+    pthread_mutex_unlock(&mutex);
+}
+
+void talk_qq(struct QQ_DATA_INFO *dbuf, record *head)
+{
+    record p = search_record(head, dbuf->dstname);
+    if(p == NULL)
+    {
+        struct QQ_DATA_INFO offline;
+        offline.protocol = 3;
+        strcpy(offline.dstname, dbuf->dstname);
+        record srcp = search_record(head, dbuf->srcname);
+        write(srcp->cfd, &offline, sizeof(offline));
+    }else
+    {
+        write(p->cfd, dbuf, sizeof(*dbuf));
+    }
+
+}
+
+void logout_qq(struct QQ_DATA_INFO *dbuf, record *head)
+{
+    record p = search_record(head, dbuf->srcname);
+    if(p == NULL)
+        return;
+    close(p->cfd);
+    pthread_mutex_lock(&mutex);
+    delete_record(head, p);
+    pthread_mutex_unlock(&mutex);
+    free_record(p);
+}
+
+void *tfn(void *arg)
+{
+    pthread_detach(pthread_self());
+    int cfd = (int)arg;
+    struct QQ_DATA_INFO dbuf;
+    
+    while(1)
+    {
+        read(cfd, &dbuf, sizeof(dbuf));
+        switch(dbuf.protocol)
+        {
+            case 1: 
+                login_qq(cfd, &dbuf, &head); 
+                printf("record: %s  %d\n", head->username, head->cfd);
+                break;
+            case 2:
+                talk_qq(&dbuf, &head);
+                break;
+            case 4:
+                logout_qq(&dbuf, &head);
+                break;
+            default: continue;
+        }
+    }
+}
+
+
+
+int main(int argc, char** argv)
+{
+
+    int lfd, cfd;
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t addr_len;
+    char client_ip[128];
+    pthread_t tid;
+    
+    pthread_mutex_init(&mutex, NULL);
+
+    //socket
+    lfd = Socket(AF_INET, SOCK_STREAM, 0);
+
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    serv_addr.sin_addr.s_addr = inet_addr("192.168.30.190");
+
+    Bind(lfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+
+    Listen(lfd, 128);
+    printf("wait for connect...\n");
+    
+    server_record_init(&head);
+
+    while(1)
+    {
+        addr_len = sizeof(cli_addr);
+        cfd = Accept(lfd, (struct sockaddr*)&cli_addr, &addr_len);
+        
+        int keepAlive = 1; 
+        int keepIdle = 60; 
+        int keepInterval = 5;
+        int keepCount = 3;
+
+        setsockopt(cfd, SOL_SOCKET, SO_KEEPALIVE, (void *)&keepAlive, sizeof(keepAlive));
+        setsockopt(cfd, IPPROTO_TCP, TCP_KEEPIDLE, (void*)&keepIdle, sizeof(keepIdle));
+        setsockopt(cfd, IPPROTO_TCP, TCP_KEEPINTVL, (void *)&keepInterval, sizeof(keepInterval));
+        setsockopt(cfd, IPPROTO_TCP, TCP_KEEPCNT, (void *)&keepCount, sizeof(keepCount));
+
+        printf("client IP: %s\t%d\n",
+                inet_ntop(AF_INET, &cli_addr.sin_addr.s_addr, client_ip, sizeof(client_ip)),
+                ntohs(cli_addr.sin_port));
+
+        pthread_create(&tid, NULL, tfn, (void *)cfd);
+    }
+
+    destroy_link(&head);
+
+    Close(cfd);
+    Close(lfd);
+
+    pthread_mutex_destroy(&mutex);
+
+    return 0;
+}
+```
+* qq_socket_client.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include "qq_socket.h"
+#include "wrap.h"
+
+#define SERV_IP "192.168.30.190"
+#define SERV_PORT 8000
+
+void sys_err(const char* err)
+{
+    perror(err);
+    exit(1);
+}
+
+
+int main(int argc, char** argv)
+{
+    int sfd;
+    int len, flag;
+    struct QQ_DATA_INFO dbuf, tmpbuf, talkbuf;
+    char cmd_buf[100];
+    char *username;
+    struct sockaddr_in serv_addr;
+
+    if(argc < 2)
+    {
+        printf("usage: %s username\n", argv[0]);
+        exit(1);
+    }
+    
+    username = argv[1];
+    
+    //sockaddr_in
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    inet_pton(AF_INET, SERV_IP, &serv_addr.sin_addr.s_addr);
+
+    //socket
+    sfd = Socket(AF_INET, SOCK_STREAM, 0);
+
+    //connect
+    Connect(sfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+    
+    //login
+    dbuf.protocol = 1;
+    strcpy(dbuf.srcname, username);
+    write(sfd, &dbuf, sizeof(dbuf));
+
+    //nonblock
+    flag = fcntl(STDIN_FILENO, F_GETFL);
+    flag |= O_NONBLOCK;
+    fcntl(STDIN_FILENO, F_SETFL, flag);
+
+    flag = fcntl(sfd, F_GETFL);
+    flag |= O_NONBLOCK;
+    fcntl(sfd, F_SETFL, flag);
+
+    while(1)
+    {
+        // display
+        len = read(sfd, &tmpbuf, sizeof(tmpbuf));
+        if(len > 0)
+        {
+            if(tmpbuf.protocol == 3)
+            {
+                // dstname offline
+                printf("%s offline\n", tmpbuf.dstname);
+            }else if(tmpbuf.protocol == 2)
+            {
+                printf("%s said: %s\n", tmpbuf.srcname, tmpbuf.data);
+            }else
+            {
+                continue;
+            }
+        }else if(len < 0)
+        {
+            if(errno != EAGAIN)
+            {
+                sys_err("client read err");
+            }
+        }
+
+        // send
+        len = read(STDIN_FILENO, &cmd_buf, sizeof(cmd_buf));
+        
+        if(len > 0)
+        {
+            char *dname, *databuf;
+            memset(&talkbuf, 0, sizeof(talkbuf));
+            cmd_buf[len] = '\0';
+
+            dname = strtok(cmd_buf, "#\n");
+            if(dname == NULL)
+            {
+                continue;
+            }
+            if(strcmp(dname, "exit") == 0)
+            {
+                // logoff
+                talkbuf.protocol = 4;
+                strcpy(talkbuf.srcname, username);
+                write(sfd, &talkbuf, sizeof(talkbuf));
+                break;
+            }else
+            {
+                // talk
+                databuf = strtok(NULL, "\0");
+                if(databuf == NULL)
+                    continue;
+                talkbuf.protocol = 2;
+                strcpy(talkbuf.srcname, username);
+                strcpy(talkbuf.dstname, dname);
+                strcpy(talkbuf.data, databuf);
+            }
+            write(sfd, &talkbuf, sizeof(talkbuf));
+        }
+    }
+
+    
+
+    return 0;
+}
+```
 

@@ -13,7 +13,7 @@
 - [11. fcntl函数](#11-fcntl函数)
 - [12. 查找宏定义](#12-查找宏定义)
 - [13. ioctl](#13-ioctl)
-- [14. strtok 拆分字符串](#14-strtok-拆分字符串)
+- [14. strtok 拆分字符串与可重入和不可重入函数](#14-strtok-拆分字符串与可重入和不可重入函数)
 - [15. ext2](#15-ext2)
 - [16. stat](#16-stat)
 - [17. 管道文件](#17-管道文件)
@@ -67,29 +67,29 @@
 - [65. 信号sig的概念](#65-信号sig的概念)
 - [66. typedef 类型定义](#66-typedef-类型定义)
 - [67. sigaction函数](#67-sigaction函数)
-- [63. pause函数](#63-pause函数)
-- [64. 父进程利用sigaction信号捕捉处理多个僵尸进程](#64-父进程利用sigaction信号捕捉处理多个僵尸进程)
-- [65. sigsuspend解决时序竞态问题](#65-sigsuspend解决时序竞态问题)
-- [66. 父子进程交替数数](#66-父子进程交替数数)
-- [67. 创建session会话/作业](#67-创建session会话作业)
-- [68. 创建daemon守护进程](#68-创建daemon守护进程)
-- [69. 线程的概念](#69-线程的概念)
-- [70. 创建线程](#70-创建线程)
-- [71. 退出单个线程pthread_exit\(NULL\)](#71-退出单个线程pthread_exitnull)
-- [72. pthread_join阻塞等待线程退出, 获取线程退出状态](#72-pthread_join阻塞等待线程退出-获取线程退出状态)
-- [73. pthread_detach 分离单个线程](#73-pthread_detach-分离单个线程)
-- [74. pthread_cancel杀死一个线程](#74-pthread_cancel杀死一个线程)
-- [75. 设置线程属性pthread_attr](#75-设置线程属性pthread_attr)
-- [76. 线程同步的概念](#76-线程同步的概念)
-- [77. 多线程拷贝大文件, 并显示拷贝进度](#77-多线程拷贝大文件-并显示拷贝进度)
-- [78. 线程死锁](#78-线程死锁)
-- [79. 读写锁](#79-读写锁)
-- [80. 生产者消费者-pthread_cond](#80-生产者消费者-pthread_cond)
-- [81. semaphore旗语\(信号量\)](#81-semaphore旗语信号量)
-- [82. 进程间同步pthread_mutexattr_t](#82-进程间同步pthread_mutexattr_t)
-- [83. 进程间文件锁fcntl/flock](#83-进程间文件锁fcntlflock)
-- [84. 哲学家吃饭问题](#84-哲学家吃饭问题)
-- [85. sem_timedwait](#85-sem_timedwait)
+- [68. pause函数](#68-pause函数)
+- [69. 父进程利用sigaction信号捕捉处理多个僵尸进程](#69-父进程利用sigaction信号捕捉处理多个僵尸进程)
+- [70. sigsuspend解决时序竞态问题](#70-sigsuspend解决时序竞态问题)
+- [71. 父子进程交替数数](#71-父子进程交替数数)
+- [72. 创建session会话/作业](#72-创建session会话作业)
+- [73. 创建daemon守护进程](#73-创建daemon守护进程)
+- [74. 线程的概念](#74-线程的概念)
+- [75. 创建线程](#75-创建线程)
+- [76. 退出单个线程pthread_exit\(NULL\)](#76-退出单个线程pthread_exitnull)
+- [77. pthread_join阻塞等待线程退出, 获取线程退出状态](#77-pthread_join阻塞等待线程退出-获取线程退出状态)
+- [78. pthread_detach 分离单个线程](#78-pthread_detach-分离单个线程)
+- [79. pthread_cancel杀死一个线程](#79-pthread_cancel杀死一个线程)
+- [80. 设置线程属性pthread_attr](#80-设置线程属性pthread_attr)
+- [81. 线程同步的概念](#81-线程同步的概念)
+- [82. 多线程拷贝大文件, 并显示拷贝进度](#82-多线程拷贝大文件-并显示拷贝进度)
+- [83. 线程死锁](#83-线程死锁)
+- [84. 读写锁](#84-读写锁)
+- [85. 生产者消费者-pthread_cond](#85-生产者消费者-pthread_cond)
+- [86. semaphore旗语\(信号量\)](#86-semaphore旗语信号量)
+- [87. 进程间同步pthread_mutexattr_t](#87-进程间同步pthread_mutexattr_t)
+- [88. 进程间文件锁fcntl/flock](#88-进程间文件锁fcntlflock)
+- [89. 哲学家吃饭问题](#89-哲学家吃饭问题)
+- [90. sem_timedwait](#90-sem_timedwait)
 
 <!-- /MarkdownTOC -->
 
@@ -131,6 +131,13 @@ int main(void)
     - 打开文件不存在 errno: 2
     - 以写方式打开只读文件(打开文件没有对应权限)  errno: 13
     - 以只写方式打开目录  errno: 21
+    - 不加权限位: 
+        + `open("tmp.file", O_CREAT | O_RDWR);`
+        + `\\open("tmp.file", O_CREAT | O_RDWR, 0644);`
+        + 编译时不报错, 不使用不报错
+        + 使用了, 运行时才报错
+
+* 每打开一个文件都有一个I/O缓冲区
 
 <a id="3-linux内存布局"></a>
 #### 3. Linux内存布局
@@ -489,8 +496,10 @@ int main(void)
 }
 ```
 
-<a id="14-strtok-拆分字符串"></a>
-#### 14. strtok 拆分字符串
+<a id="14-strtok-拆分字符串与可重入和不可重入函数"></a>
+#### 14. strtok 拆分字符串与可重入和不可重入函数
+* 不可重入函数(执行期间不可中断, 无法正常返回): 使用了全局资源
+* strtok_r 是可重入函数: 使用二级指针
 ```
 #include<stdio.h>
 #include<string.h>
@@ -589,6 +598,7 @@ int main(int argc, char* argv[])
 * 特点: 半双工, 阻塞
 * 应用: 进程间通信, 一端写一端读(类似于golang: channel)
 * 创建管道文件: mkfifo file_name.pipe
+* 管道大小: 64K
 * 模拟进程间通信程序: a.c, b.c(你一句我一句)
 * a.c:
 ```
@@ -3472,8 +3482,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="63-pause函数"></a>
-#### 63. pause函数
+<a id="68-pause函数"></a>
+#### 68. pause函数
 * 使用 pause, alarm, sigaction函数实现 sleep()函数
 ```
 #include <stdio.h>
@@ -3535,8 +3545,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="64-父进程利用sigaction信号捕捉处理多个僵尸进程"></a>
-#### 64. 父进程利用sigaction信号捕捉处理多个僵尸进程
+<a id="69-父进程利用sigaction信号捕捉处理多个僵尸进程"></a>
+#### 69. 父进程利用sigaction信号捕捉处理多个僵尸进程
 * 可以在父进程中的每1次响应SIG_CHLD的do_sig中通过while循环waitpid的方式回收多个同时死亡的子进程, 从而避免僵尸进程的产生
 ```
 #include <stdio.h>
@@ -3613,8 +3623,9 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="65-sigsuspend解决时序竞态问题"></a>
-#### 65. sigsuspend解决时序竞态问题
+<a id="70-sigsuspend解决时序竞态问题"></a>
+#### 70. sigsuspend解决时序竞态问题
+* sigsuspend的使用场景: 多进程高并发服务器中, 进程在失去cpu时间片的时候仍然可以响应信号并处理
 * 使用pause()函数, 会导致在恢复信号集之前程序挂起
 ```
 #include <unistd.h>
@@ -3634,16 +3645,16 @@ int main(void)
     act.sa_handler = handler;  //信号处理函数handler
     sigemptyset(&act.sa_mask);
     act.sa_flags = 0;
-    sigaction(SIGINT, &act, 0);  //准备捕捉SIGINT信号
+    sigaction(SIGINT, &act, 0);  //准备捕捉SIGINT信号(注册)
 
     sigemptyset(&new);
     sigaddset(&new, SIGINT);
     sigprocmask(SIG_BLOCK, &new, &old);  //将SIGINT信号阻塞，同时保存当前信号集
-    printf("Blocked\n");
+    printf("Blocked\n");    //模拟阻塞了SIGINT
+    
+    pause(); // 因为之前阻塞了SIGINT, 所以SIGINT在挂起期间永远不会递达, 程序将永久挂起
 
-    pause();
-
-    sigprocmask(SIG_SETMASK, &old, NULL);  //取消阻塞
+    sigprocmask(SIG_SETMASK, &old, NULL);  //恢复原阻塞信号集
     printf("sigprocmask recovered\n");
 
     return 0;
@@ -3651,8 +3662,10 @@ int main(void)
 }
 ```
 
-* 使用sigsuspend()函数在程序挂起期间临时撤销对wait信号集中的SIGUSR1以外的信号阻塞, 在挂起期间, 程序可以对除SIGUSR1以外的信号(如SIGINT)进行处理, 执行sigaction
-* sigsuspend实际是将取消阻塞sigprocmask和pause结合起来原子操作
+* 使用sigsuspend()函数在程序挂起期间临时撤销对wait信号集中的SIGUSR1以外的信号阻塞(只临时阻塞SIGUSR1), 在挂起期间, 程序可以对除SIGUSR1以外的信号(如SIGINT)进行处理, 执行sigaction
+* sigsuspend实际是将临时阻塞SIGUSR1和pause结合起来原子操作
+* 临时替换信号集wait和挂起是一个原子操作
+* 程序在sigsuspend(&wait);之前和之后对SIGINT(Ctrl+c)信号都不响应, 只有在sigsuspend挂起期间对SIGINT响应并处理
 ```
 #include <unistd.h>
 #include <signal.h>
@@ -3675,16 +3688,23 @@ int main(void)
 
     sigemptyset(&new);
     sigaddset(&new, SIGINT);
-    sigprocmask(SIG_BLOCK, &new, &old);  //将SIGINT信号阻塞，同时保存当前信号集
-    printf("Blocked\n");
+
+    //sigprocmask作用: 改变当前进程的阻塞信号集
+    sigprocmask(SIG_BLOCK, &new, &old);  //将SIGINT信号阻塞(模拟Ctrl+c失效)，同时保存当前信号集
+
+    printf("Blocked\n");    // 模拟阻塞SIGINT(Ctrl+c), 模拟失去cpu
 
     sigemptyset(&wait);
     sigaddset(&wait, SIGUSR1);
 
-    //pause();
-    sigsuspend(&wait);
+    //pause(); 是挂起期间对所有信号都响应
 
-    sigprocmask(SIG_SETMASK, &old, NULL);  //取消阻塞
+    // 在程序挂起期间对wait(SIGUSR1)临时不响应, 而响应其他所有信号,如SIGINT, 挂起结束后恢复. 
+    // 程序挂起期间可以不想被SIGUSR1打断
+    // 挂起期间可以用SIGINT(Ctrl+c)唤醒进程
+    sigsuspend(&wait);  
+
+    sigprocmask(SIG_SETMASK, &old, NULL);  //恢复原阻塞信号集
     printf("sigprocmask recovered\n");
 
     return 0;
@@ -3692,8 +3712,8 @@ int main(void)
 }
 ```
 
-<a id="66-父子进程交替数数"></a>
-#### 66. 父子进程交替数数
+<a id="71-父子进程交替数数"></a>
+#### 71. 父子进程交替数数
 * 使用全局变量flag, 出现时序竞态问题
 * 出现问题的原因(流程): 
     - 原本正常情况: 父子进程都是 响应sigaction->处理sa_handler->发信号kill
@@ -3837,7 +3857,7 @@ int main(void)
         act1.sa_flags = 0;
         sigaction(SIGUSR1, &act1, NULL);
 
-        kill(pid, SIGUSR2);
+        kill(pid, SIGUSR2); // begin
         
         while(1);
 
@@ -3857,8 +3877,8 @@ int main(void)
 }
 ```
 
-<a id="67-创建session会话作业"></a>
-#### 67. 创建session会话/作业
+<a id="72-创建session会话作业"></a>
+#### 72. 创建session会话/作业
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -3896,8 +3916,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="68-创建daemon守护进程"></a>
-#### 68. 创建daemon守护进程
+<a id="73-创建daemon守护进程"></a>
+#### 73. 创建daemon守护进程
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -3977,8 +3997,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="69-线程的概念"></a>
-#### 69. 线程的概念
+<a id="74-线程的概念"></a>
+#### 74. 线程的概念
 * 线程本质还是进程
 * 不要在多线程的程序中使用信号signal
 * `ps -Lf pid` : 查看进程下的线程
@@ -3986,9 +4006,10 @@ int main(int argc, char** argv)
 * 线程共享数据方便
 * 进程间不共享全局变量, 只能通过pipe/fifo/file/mmap/signal通信, 不如线程方便
 * 线程id和线程号不同, 线程id是进程内部使用的, 线程号是不同进程之间使用
+* 查看线程库版本NPTL(Native POSIX Thread Library): `getconf GNU_LIBPTHREAD_VERSION`
 
-<a id="70-创建线程"></a>
-#### 70. 创建线程
+<a id="75-创建线程"></a>
+#### 75. 创建线程
 * `int pthread_create(pthread_t *thread, const pthread_attr_t *attr,
                           void *(*start_routine) (void *), void *arg);`
     - thread: 线程id(传出参数, 即创建的线程id)
@@ -4088,8 +4109,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="71-退出单个线程pthread_exitnull"></a>
-#### 71. 退出单个线程pthread_exit(NULL)
+<a id="76-退出单个线程pthread_exitnull"></a>
+#### 76. 退出单个线程pthread_exit(NULL)
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -4150,8 +4171,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="72-pthread_join阻塞等待线程退出-获取线程退出状态"></a>
-#### 72. pthread_join阻塞等待线程退出, 获取线程退出状态
+<a id="77-pthread_join阻塞等待线程退出-获取线程退出状态"></a>
+#### 77. pthread_join阻塞等待线程退出, 获取线程退出状态
 * 回收单线程
 ```
 #include <stdio.h>
@@ -4271,8 +4292,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="73-pthread_detach-分离单个线程"></a>
-#### 73. pthread_detach 分离单个线程
+<a id="78-pthread_detach-分离单个线程"></a>
+#### 78. pthread_detach 分离单个线程
 * 查看进程下的线程 `ps -T -p <pid>`
 ```
 #include <stdio.h>
@@ -4312,8 +4333,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="74-pthread_cancel杀死一个线程"></a>
-#### 74. pthread_cancel杀死一个线程
+<a id="79-pthread_cancel杀死一个线程"></a>
+#### 79. pthread_cancel杀死一个线程
 * pthread_cancel: 以一个系统调用(alarm/pause/...printf/sleep)为取消点, 到达取消点才能把线程杀死, 如果没有系统调用(如空的while循环), 则无法杀死线程
 * pthread_testcancel: 杀死无系统调用的线程
 ```
@@ -4358,8 +4379,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="75-设置线程属性pthread_attr"></a>
-#### 75. 设置线程属性pthread_attr
+<a id="80-设置线程属性pthread_attr"></a>
+#### 80. 设置线程属性pthread_attr
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -4412,14 +4433,14 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="76-线程同步的概念"></a>
-#### 76. 线程同步的概念
+<a id="81-线程同步的概念"></a>
+#### 81. 线程同步的概念
 * 线程同步是指线程间协同工作(线程安全)
 * 多个线程/进程,共同操作一个共享资源的情况,都需要同步(协调工作), 避免混乱
 * 建议锁对全局变量无效
 
-<a id="77-多线程拷贝大文件-并显示拷贝进度"></a>
-#### 77. 多线程拷贝大文件, 并显示拷贝进度
+<a id="82-多线程拷贝大文件-并显示拷贝进度"></a>
+#### 82. 多线程拷贝大文件, 并显示拷贝进度
 * multi_pthread_cp.c: (5个步骤实现)
     - 进度条使用pthread_mutex
 ```
@@ -4581,8 +4602,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="78-线程死锁"></a>
-#### 78. 线程死锁
+<a id="83-线程死锁"></a>
+#### 83. 线程死锁
 * 线程死锁不是一下就能锁住的, 而是trylock一段时间或此处后, 锁如果仍然存在, 才会真正死锁住, 所以在pthread_mutex_destroy前 sleep(3)秒
 ```
 #include <stdio.h>
@@ -4648,8 +4669,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="79-读写锁"></a>
-#### 79. 读写锁
+<a id="84-读写锁"></a>
+#### 84. 读写锁
 * 读共享, 写独占
 * 读写锁并行时, 写锁优先级高
 * 既有读又有写时, 读写锁性能比互斥要高, 只有写时, 读写锁与互斥性能一样
@@ -4720,8 +4741,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="80-生产者消费者-pthread_cond"></a>
-#### 80. 生产者消费者-pthread_cond
+<a id="85-生产者消费者-pthread_cond"></a>
+#### 85. 生产者消费者-pthread_cond
 * pthread_cond_wait的任务: 阻塞, 解锁, 唤醒其他抢锁线程, 条件满足pthread_cond_signal唤醒后加锁继续执行
 ```
 #include <stdio.h>
@@ -4799,8 +4820,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="81-semaphore旗语信号量"></a>
-#### 81. semaphore旗语(信号量)
+<a id="86-semaphore旗语信号量"></a>
+#### 86. semaphore旗语(信号量)
 * 进程/线程 都可以使用
 * 生产者消费者-semaphore
 * wait:--   post:++
@@ -4881,8 +4902,8 @@ int main(int argc, char** argv)
 
 ```
 
-<a id="82-进程间同步pthread_mutexattr_t"></a>
-#### 82. 进程间同步pthread_mutexattr_t
+<a id="87-进程间同步pthread_mutexattr_t"></a>
+#### 87. 进程间同步pthread_mutexattr_t
 * 进程间同步操作共享区主要用mmap(pipe/fifo是伪文件)
 * 一个共享资源(变量/数组/链表/struct)就有一把对应的锁mutex, 所以可以把锁mutex和锁属性与一个共享数据资源封装到一个struct中
 ```
@@ -4950,8 +4971,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="83-进程间文件锁fcntlflock"></a>
-#### 83. 进程间文件锁fcntl/flock
+<a id="88-进程间文件锁fcntlflock"></a>
+#### 88. 进程间文件锁fcntl/flock
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -5003,8 +5024,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="84-哲学家吃饭问题"></a>
-#### 84. 哲学家吃饭问题
+<a id="89-哲学家吃饭问题"></a>
+#### 89. 哲学家吃饭问题
 * 线程实现
 ```
 #include <stdio.h>
@@ -5152,8 +5173,8 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="85-sem_timedwait"></a>
-#### 85. sem_timedwait
+<a id="90-sem_timedwait"></a>
+#### 90. sem_timedwait
 * 共享资源: STDIN_FILENO
 ```
 #include <stdio.h>

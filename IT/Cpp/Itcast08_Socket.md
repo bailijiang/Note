@@ -8,6 +8,10 @@
 - [6. 多进程socket并发服务器实现及CLOSE_WAIT问题解决](#6-多进程socket并发服务器实现及close_wait问题解决)
 - [7. 多线程并发服务器实现](#7-多线程并发服务器实现)
 - [8. 多线程QQ聊天室socket](#8-多线程qq聊天室socket)
+- [9. 多路I/O复用概念](#9-多路io复用概念)
+- [10. multiI/O-select](#10-multiio-select)
+- [11. mutiio-epoll1最简](#11-mutiio-epoll1最简)
+- [12. UDP服务器实现](#12-udp服务器实现)
 
 <!-- /MarkdownTOC -->
 
@@ -201,6 +205,7 @@ int main(int argc, char** argv)
 #### 4. TCP建立和断开连接
 * mss 1460 = MTU 1500 - IP 20 - TCP 20
 * ![](image\TCP连接建立断开.PNG)
+* ![](image\TCP状态转换图.PNG)
 
 <a id="5-goto语句相关"></a>
 #### 5. goto语句相关
@@ -782,3 +787,417 @@ int main(int argc, char** argv)
 }
 ```
 
+<a id="9-多路io复用概念"></a>
+#### 9. 多路I/O复用概念
+* 业务应用场景:
+    - 多进程/多线程: I/O密集型(耗时长)
+    - select/epoll: CPU密集型(计算,耗时短)
+* select/epoll 原理: 内核阻塞监听所有文件描述符, 当有数据时再返回给业务处理程序(一个进程,顺序处理) 
+
+<a id="10-multiio-select"></a>
+#### 10. multiI/O-select
+* server.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include "wrap.h"
+
+#define SERV_PORT 8000
+#define MAXLINE 4096
+
+
+int main(void)
+{
+    int sfd, cfd, maxfd, maxi, nready;
+    int client[FD_SETSIZE];
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t addr_len;
+    char buf[MAXLINE], client_ip[128];
+    int i;
+    ssize_t len;
+    fd_set rset, allset; // readset
+
+    //socket
+    sfd = socket(AF_INET, SOCK_STREAM, 0);
+    
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    
+    //bind
+    bind(sfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+
+    //listen
+    listen(sfd, 128);
+
+    //accept
+    printf("wait for connect...\n");
+
+    maxi = -1;
+    for(i=0;i<FD_SETSIZE;++i)
+    {
+        client[i] = -1;
+    }
+
+    maxfd = sfd;
+
+    FD_ZERO(&allset);
+    FD_SET(sfd, &allset);
+
+    while(1)
+    {
+        //每次循环在select前, 必须先copy需要监视的fd_set
+        rset = allset;
+
+        //每次调用select会轮询阻塞rset, 当有event发生时, 会将rset相应的位置1(修改rset), 并返回连接就绪个数
+        nready = select(maxfd+1, &rset, NULL, NULL, NULL);  //nready: 已经连接就绪的fd个数(需要处理数据的socket连接数)
+        if(nready < 0)
+        {
+            perror("select err");
+            exit(1);
+        }
+
+        //如果有新连接, add到allset
+        if(FD_ISSET(sfd, &rset))
+        {
+            addr_len = sizeof(cli_addr);
+            cfd = Accept(sfd, (struct sockaddr*)&cli_addr, &addr_len);
+            printf("client IP: %s\t%d\n",
+                    inet_ntop(AF_INET, &cli_addr.sin_addr.s_addr, client_ip, sizeof(client_ip)),
+                    ntohs(cli_addr.sin_port));
+            
+            for(i=0;i<FD_SETSIZE;++i)
+            {
+                if(client[i] < 0)
+                {
+                    client[i] = cfd;
+                    break;
+                }
+            }
+
+            if(i > FD_SETSIZE)
+            {
+                fputs("too many client connect...\n", stderr);
+                exit(1);
+            }
+
+            if(cfd > maxfd)
+                maxfd = cfd;
+            if(i > maxi)
+                maxi = i;
+
+            FD_SET(cfd, &allset);
+        
+            if(--nready == 0)
+                continue;
+        }
+
+        //处理listenfd以外的连接event(业务)
+        for(i=0;i<=maxi;++i)
+        {
+            if(client[i] < 0)
+                continue;
+            if(FD_ISSET(client[i], &rset))
+            {
+                if((len = Read(client[i], buf, MAXLINE)) == 0)
+                {
+                    Close(client[i]);
+                    FD_CLR(client[i], &allset);
+                    client[i] = -1;
+                }else
+                {
+                    Write(STDOUT_FILENO, buf, len);
+                    int j;
+                    for(j=0;j<len;++j)
+                    {
+                        buf[j] = toupper(buf[j]);
+                    }
+                    Write(client[i], buf, len);
+                }
+                if(--nready == 0)
+                    break;
+            }
+            
+
+        }
+    }
+    Close(sfd);
+
+    return 0;
+}
+```
+
+<a id="11-mutiio-epoll1最简"></a>
+#### 11. mutiio-epoll1最简
+* Api: epoll_create, epoll_ctl, epoll_wait, struct epoll_event 
+* server.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/epoll.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include "wrap.h"
+
+#define SERV_PORT 8000
+#define MAXLINE 4096
+#define OPEN_MAX 10000
+
+
+int main(int argc, char *argv[])
+{
+    int sfd, connfd, sockfd, nready;
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t addr_len;
+    char buf[MAXLINE], client_ip[128];
+    int i, j, num;
+    ssize_t len, efd, res;
+    struct epoll_event tep, ep[OPEN_MAX];   //tep: temp ep event
+    
+
+    //socket
+    sfd = Socket(AF_INET, SOCK_STREAM, 0);
+    
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    
+    //bind
+    Bind(sfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+
+    //listen
+    Listen(sfd, 128);
+
+    //epoll create rb_tree
+    efd = epoll_create(OPEN_MAX);
+    if(efd == -1)
+    {
+        perror("epoll create err");
+        exit(1);
+    }
+
+    // tep(server event)->add->ep[]
+    tep.events = EPOLLIN;
+    tep.data.fd = sfd;
+    res = epoll_ctl(efd, EPOLL_CTL_ADD, sfd, &tep);
+    if(res == -1)
+        perror("epoll ctl add tep err");
+
+    //accept
+    printf("wait for connect...\n");
+
+    while(1)
+    {
+        nready = epoll_wait(efd, ep, OPEN_MAX, -1);
+        if(nready == -1)
+        {
+            perror("epoll wait err");
+            exit(1);
+        }
+
+        for(i=0;i<nready;++i)
+        {
+            // find EPOLLIN
+            if(!ep[i].events & EPOLLIN)
+                continue;
+
+            // new connect add to ep[]
+            if(ep[i].data.fd == sfd)
+            {
+                addr_len = sizeof(cli_addr);
+                connfd = Accept(sfd, (struct sockaddr*)&cli_addr, &addr_len);
+                printf("client IP: %s\t%d\n",
+                    inet_ntop(AF_INET, &cli_addr.sin_addr.s_addr, client_ip, sizeof(client_ip)),
+                    ntohs(cli_addr.sin_port));
+                printf("connect client num: %d\tconnfd: %d\n", ++num, connfd);
+
+                tep.events = EPOLLIN;
+                tep.data.fd = connfd;
+                res = epoll_ctl(efd, EPOLL_CTL_ADD, connfd, &tep);
+                if(res == -1)
+                    perror("epoll ctrl add new err");
+            }
+            else
+            {
+                // handle business
+                sockfd = ep[i].data.fd;
+                len = Read(sockfd, buf, MAXLINE);
+
+                if(len == 0)
+                {   // client close
+                    res = epoll_ctl(efd, EPOLL_CTL_DEL, sockfd, NULL);
+                    if(res == -1)
+                        perror("epoll del err");
+                    Close(sockfd);
+                    printf("client[%d] closed connection\n", sockfd);
+                }else if(len < 0)
+                {
+                    perror("read err");
+                    res = epoll_ctl(efd, EPOLL_CTL_DEL, sockfd, NULL);
+                    Close(sockfd);
+                }else
+                {
+                    Write(STDOUT_FILENO, buf, len);
+                    for(j=0;j<len;++j)
+                    {
+                        buf[j] = toupper(buf[j]);
+                    }
+                    Write(sockfd, buf, len);
+                }
+
+            }
+        }
+    }
+    
+    Close(sfd);
+    Close(efd);
+
+    return 0;
+}
+```
+
+<a id="12-udp服务器实现"></a>
+#### 12. UDP服务器实现
+* 应用场景: 局域网, 不经过路由器
+* udp服务器c/s:
+    - 支持并发请求
+    - server.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include "wrap.h"
+#include <sys/types.h>
+#include <netinet/tcp.h>
+
+#define SERV_PORT 8000
+#define SERV_IP "192.168.30.190"
+
+int main(int argc, char *argv[])
+{
+    int sfd;
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t addr_len;
+    char buf[4096], client_ip[128];
+    int i, len;
+    
+
+    //socket UDP
+    sfd = Socket(AF_INET, SOCK_DGRAM, 0);
+
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    serv_addr.sin_addr.s_addr = inet_addr(SERV_IP);
+
+    //bind
+    Bind(sfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+
+    //listen
+    //listen(sfd, 128);
+
+    printf("wait for connect...\n");
+
+    //read write
+    while(1)
+    {
+        //recv
+        addr_len = sizeof(cli_addr);
+        len = recvfrom(sfd, buf, sizeof(buf), 0, (struct sockaddr*)&cli_addr, &addr_len);
+        
+        printf("client IP: %s\t%d\n",
+                inet_ntop(AF_INET, &cli_addr.sin_addr.s_addr, client_ip, sizeof(client_ip)),
+                ntohs(cli_addr.sin_port));
+
+        //handle business
+        for(i=0;i<len;++i)
+        {
+            buf[i] = toupper(buf[i]);
+        }
+        //sendto
+        sendto(sfd, buf, len, 0, (struct sockaddr*)&cli_addr, addr_len);
+    }
+
+    Close(sfd);
+
+    return 0;
+}
+```
+    - client.c:
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include "wrap.h"
+
+#define SERV_PORT 8000
+#define SERV_IP "192.168.30.190"
+
+int main(int argc, char** argv)
+{
+    
+    struct sockaddr_in serv_addr;
+    socklen_t addr_len;
+    int sfd, len;
+    char buf[4096];
+
+    //sockaddr_in
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    inet_pton(AF_INET, SERV_IP, &serv_addr.sin_addr.s_addr);
+
+    //socket UDP
+    sfd = Socket(AF_INET, SOCK_DGRAM, 0);
+
+    while(fgets(buf, sizeof(buf), stdin))
+    {
+        //sendto
+        addr_len = sizeof(serv_addr);
+        sendto(sfd, buf, strlen(buf), 0, (struct sockaddr*)&serv_addr, addr_len);
+
+        //recv
+        len = recvfrom(sfd, buf, sizeof(buf), 0, NULL, 0);
+        buf[len] = '\0';
+        printf("recv: %s\n", buf);
+    }
+
+    Close(sfd);
+
+    return 0;
+}
+```
+* udp广播:
+
+* udp组播:

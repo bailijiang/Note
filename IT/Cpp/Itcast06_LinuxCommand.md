@@ -107,6 +107,10 @@ test01.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
 * 栈帧: 由栈帧组成栈, 栈帧保存局部变量和临时值(临时变量地址)
 * 段错误: 非法访问内存
     - 排错方法: gdb -> run -> 停止位置即为出现段错误的位置
+* bt 查看栈帧:
+    - 开启core: ulimit -c 1024 
+    - 直接停到出错位置: gdb a.out core
+    - 查看函数调用关系: bt
 
 <a id="6-makefile"></a>
 #### 6. makefile

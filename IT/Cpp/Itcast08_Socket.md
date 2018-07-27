@@ -12,6 +12,16 @@
 - [10. multiI/O-select](#10-multiio-select)
 - [11. mutiio-epoll1最简](#11-mutiio-epoll1最简)
 - [12. UDP服务器实现](#12-udp服务器实现)
+- [13. 得到结构体成员偏移位置offsetof函数](#13-得到结构体成员偏移位置offsetof函数)
+- [14. epoll调用epoll_wait的两种触发方式LT/ET-pipe](#14-epoll调用epoll_wait的两种触发方式ltet-pipe)
+- [15. epoll调用epoll_wait的两种触发方式LT/ET-Socket-Block](#15-epoll调用epoll_wait的两种触发方式ltet-socket-block)
+- [16. epoll调用epoll_wait的两种触发方式LT/ET-Socket-NonBlock](#16-epoll调用epoll_wait的两种触发方式ltet-socket-nonblock)
+- [17. epoll非阻塞io事件驱动服务器Reactor模型-重要](#17-epoll非阻塞io事件驱动服务器reactor模型-重要)
+- [18. 线程池模型](#18-线程池模型)
+- [19. C语言项目设计开发流程](#19-c语言项目设计开发流程)
+- [20. Shell相关](#20-shell相关)
+- [21. C语言中使用正则表达式](#21-c语言中使用正则表达式)
+- [22. C程序中打日志](#22-c程序中打日志)
 
 <!-- /MarkdownTOC -->
 
@@ -1199,5 +1209,1027 @@ int main(int argc, char** argv)
 }
 ```
 * udp广播:
+    - server.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include "wrap.h"
+#include <sys/types.h>
+#include <netinet/tcp.h>
 
+#define SERV_PORT 8000
+#define CLIENT_PORT 9000
+#define BROADCAST_IP "192.168.30.255"
+
+int main(int argc, char *argv[])
+{
+    int sfd;
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t addr_len;
+    char buf[4096] = "Bryan.bai udp broadcast\n";
+    
+
+    //socket UDP
+    sfd = Socket(AF_INET, SOCK_DGRAM, 0);
+
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    serv_addr.sin_addr.s_addr = inet_addr("192.168.30.190");
+
+    //bind
+    Bind(sfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+    
+    //open broadcast
+    int flag = 1;
+    setsockopt(sfd, SOL_SOCKET, SO_BROADCAST, &flag, sizeof(flag));
+
+    //generate client broadcast addr
+    bzero(&cli_addr, sizeof(cli_addr));
+    cli_addr.sin_family = AF_INET;
+    cli_addr.sin_port = htons(CLIENT_PORT);
+    inet_pton(AF_INET, BROADCAST_IP, &cli_addr.sin_addr.s_addr);
+
+    //read write
+    while(1)
+    {
+        addr_len = sizeof(cli_addr);
+
+        //sendto
+        sendto(sfd, buf, strlen(buf), 0, (struct sockaddr*)&cli_addr, addr_len);
+        printf("sendto broadcast...\n");
+        sleep(1);
+    }
+
+    Close(sfd);
+
+    return 0;
+}
+```
+    - client.c:
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include "wrap.h"
+
+#define SERV_PORT 8000
+#define CLIENT_PORT 9000
+
+int main(int argc, char** argv)
+{
+    
+    struct sockaddr_in cli_addr, serv_addr;
+    int cfd, len;
+    char buf[4096];
+
+    //init client socket
+    bzero(&cli_addr, sizeof(cli_addr));
+
+    cli_addr.sin_family = AF_INET;
+    cli_addr.sin_port = htons(CLIENT_PORT);
+    inet_pton(AF_INET, "0.0.0.0", &cli_addr.sin_addr.s_addr);
+
+    //socket UDP
+    cfd = Socket(AF_INET, SOCK_DGRAM, 0);
+
+    //bind
+    Bind(cfd, (struct sockaddr*)&cli_addr, sizeof(cli_addr));   
+
+    while(1)
+    {
+        //recv
+        socklen_t servlen;
+        servlen = sizeof(servlen);
+        len = recvfrom(cfd, buf, sizeof(buf), 0, (struct sockaddr*)&serv_addr, &servlen);
+        buf[len] = '\0';
+        printf("recv: %s\n", buf);
+    }
+
+    Close(cfd);
+
+    return 0;
+}
+```
 * udp组播:
+    - server.c:
+        + `struct ip_mreqn group;`
+        + 查找struct定义文件的具体行数: 
+            * `grep -R -n "struct ip_mreqn {" /usr/include/*`
+        + steps: sfd(bind), group(multiaddr/address/if), setsockopt, cli_addr(GROUP), sendto
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include "wrap.h"
+#include <sys/types.h>
+#include <netinet/tcp.h>
+#include <net/if.h>
+
+#define SERV_PORT 8000
+#define CLIENT_PORT 9000
+#define SERV_IP "192.168.30.190"
+#define GROUP "239.0.0.8"
+
+int main(int argc, char *argv[])
+{
+    int sfd, cfd;
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t addr_len;
+    char buf[4096] = "Bryan UDP Group\n";
+    struct ip_mreqn group;
+    
+
+    //socket UDP
+    sfd = Socket(AF_INET, SOCK_DGRAM, 0);
+
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    serv_addr.sin_addr.s_addr = inet_addr(SERV_IP);
+
+    //bind
+    Bind(sfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+
+    //group
+    inet_pton(AF_INET, GROUP, &group.imr_multiaddr);
+    inet_pton(AF_INET, SERV_IP, &group.imr_address);
+    group.imr_ifindex = if_nametoindex("ens33");
+
+    //setsockopt
+    setsockopt(sfd,IPPROTO_IP, IP_MULTICAST_IF, &group, sizeof(group));
+    
+    //client(GROUP)
+    bzero(&cli_addr, sizeof(cli_addr));
+    cli_addr.sin_family = AF_INET;
+    cli_addr.sin_port = htons(CLIENT_PORT);
+    inet_pton(AF_INET, GROUP, &cli_addr.sin_addr.s_addr);
+    
+    printf("wait for connect...\n");
+
+    while(1)
+    {
+        //sendto
+        addr_len = sizeof(cli_addr);
+        sendto(sfd, buf, strlen(buf), 0, (struct sockaddr*)&cli_addr, addr_len);
+        sleep(1);
+    }
+
+    Close(sfd);
+    Close(cfd);
+
+    return 0;
+}
+```
+    - client.c:
+        + steps: cfd(bind), group(multiaddr/address/if), setsockopt, recvfrom
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <net/if.h>
+#include "wrap.h"
+
+#define CLI_PORT 9000
+#define GROUP "239.0.0.8"
+
+int main(int argc, char** argv)
+{
+    
+    struct sockaddr_in cli_addr;
+    int cfd, len;
+    char buf[4096];
+    struct ip_mreqn group;
+
+    //bind cfd
+    bzero(&cli_addr, sizeof(cli_addr));
+    cli_addr.sin_family = AF_INET;
+    cli_addr.sin_port = htons(CLI_PORT);
+    inet_pton(AF_INET, "0.0.0.0", &cli_addr.sin_addr.s_addr);
+    cfd = Socket(AF_INET, SOCK_DGRAM, 0);
+    Bind(cfd, (struct sockaddr*)&cli_addr, sizeof(cli_addr));
+
+    //group
+    inet_pton(AF_INET, GROUP, &group.imr_multiaddr);
+    inet_pton(AF_INET, "0.0.0.0", &group.imr_address);
+    group.imr_ifindex = if_nametoindex("ens33");
+    
+    //setsockopt(add cli to group)
+    setsockopt(cfd, IPPROTO_IP, IP_ADD_MEMBERSHIP, &group, sizeof(group));
+
+    while(1)
+    {
+        //recv
+        len = recvfrom(cfd, buf, sizeof(buf), 0, NULL, 0);
+        buf[len] = '\0';
+        printf("recv: %s\n", buf);
+    }
+
+    Close(cfd);
+
+    return 0;
+}
+```
+
+<a id="13-得到结构体成员偏移位置offsetof函数"></a>
+#### 13. 得到结构体成员偏移位置offsetof函数
+* `size = offsetof(struct sockaddr_un, sun_path) + strlen(un.sun_path);`
+* `#define offsetof(TYPE, MEMBER) ((int)&((TYPE *)0)->MEMBER)`
+* `(int)&((struct sockaddr_un *)0->sun_path)`: 将0强转为struct指针 -> 偏移sun_path -> &取地址 -> (int)强转 得到偏移量
+
+<a id="14-epoll调用epoll_wait的两种触发方式ltet-pipe"></a>
+#### 14. epoll调用epoll_wait的两种触发方式LT/ET-pipe
+* LT(Level Triggered) 水平触发: 有就绪就返回(默认触发方式)
+* ET(Edge Triggered) 边缘触发: 有状态改变再返回(效率高, 代码复杂度高)
+* epoll_pipe_ET.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/epoll.h>
+#include <unistd.h>
+#include <errno.h>
+
+#define MAXLINE 10
+
+int main(void)
+{
+    int efd, i;
+    int pfd[2];
+    pipe(pfd);  //pipe两端: pfd[0]读 / pfd[1]写
+    pid_t pid;
+    char buf[MAXLINE];
+    char ch = 'a';
+
+    pid = fork();
+    if(pid == 0)
+    {
+        //write pfd[1]
+        close(pfd[0]);
+        while(1)
+        {
+            for(i=0;i<MAXLINE/2;++i)
+            {
+                buf[i] = ch;
+            }
+            buf[i-1] = '\n';
+            ch++;
+
+            for(;i<MAXLINE;++i)
+            {
+                buf[i] = ch;
+            }
+            buf[i-1] = '\n';
+            ch++;
+            
+            write(pfd[1], buf, sizeof(buf));
+
+            sleep(5);
+        }
+        close(pfd[1]);
+
+    }else if(pid > 0)
+    {
+        //read pfd[0]
+        close(pfd[1]);
+        struct epoll_event event;
+        struct epoll_event resevent[10];
+        int res, len;
+
+        efd = epoll_create(10);
+
+        //event.events = EPOLLIN;
+        event.events = EPOLLIN | EPOLLET;
+        event.data.fd = pfd[0];
+
+        epoll_ctl(efd, EPOLL_CTL_ADD, pfd[0], &event);
+
+        while(1)
+        {
+            res = epoll_wait(efd, resevent, 10, -1);    // -1 永久阻塞
+            printf("res: %d\n", res);
+            if(resevent[0].data.fd == pfd[0])
+            {
+                len = read(pfd[0], buf, MAXLINE / 2);
+                write(STDOUT_FILENO, buf, len);
+            }
+
+        }
+
+        close(efd);
+        close(pfd[0]);
+    }else
+    {
+        perror("fork err");
+        exit(1);
+    }
+
+    return 0;
+}
+```
+
+<a id="15-epoll调用epoll_wait的两种触发方式ltet-socket-block"></a>
+#### 15. epoll调用epoll_wait的两种触发方式LT/ET-Socket-Block
+* server端epoll_wait读多行的情况下, 即使是ET触发方式, server也会阻塞在read上, 因为cfd是阻塞模式, 此时server无法epoll_wait响应其他客户端请求
+* server.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/epoll.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include "wrap.h"
+
+#define SERV_PORT 8000
+#define MAXLINE 10
+
+
+int main(int argc, char *argv[])
+{
+    int sfd, cfd;
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t addr_len;
+    char buf[MAXLINE], cli_ip[128];
+    ssize_t len, efd, res;
+    struct epoll_event event, resevent[10];
+    
+
+    //socket
+    sfd = Socket(AF_INET, SOCK_STREAM, 0);
+    
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    
+    //bind
+    Bind(sfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+
+    //listen
+    Listen(sfd, 128);
+
+    //accept
+    addr_len = sizeof(cli_addr);
+    cfd = Accept(sfd, (struct sockaddr*)&cli_addr, &addr_len);
+    printf("recieved from %s : %d\n",
+            inet_ntop(AF_INET, &cli_addr.sin_addr.s_addr, cli_ip, addr_len),
+            ntohs(cli_addr.sin_port));
+
+    //epoll create rb_tree
+    efd = epoll_create(10);
+    if(efd == -1)
+    {
+        perror("epoll create err");
+        exit(1);
+    }
+
+    // cfd add to efd
+    event.events = EPOLLIN | EPOLLET;
+    //event.events = EPOLLIN;
+    event.data.fd = cfd;
+    epoll_ctl(efd, EPOLL_CTL_ADD, cfd, &event);
+
+
+    while(1)
+    {
+        res = epoll_wait(efd, resevent, 10, -1);
+        printf("epoll wait res: %d\n", (int)res);
+
+        if(resevent[0].data.fd == cfd)
+        {
+            len = Read(cfd, buf, MAXLINE/2);
+            Write(STDOUT_FILENO, buf, len);
+            len = Read(cfd, buf, MAXLINE/2);
+            Write(STDOUT_FILENO, buf, len);
+            len = Read(cfd, buf, MAXLINE/2);
+            Write(STDOUT_FILENO, buf, len);
+            len = Read(cfd, buf, MAXLINE/2);
+            Write(STDOUT_FILENO, buf, len);
+            //len = Read(cfd, buf, sizeof(buf));
+            //Write(STDOUT_FILENO, buf, len);
+            //len = Read(cfd, buf, sizeof(buf));
+            //Write(STDOUT_FILENO, buf, len);
+            //len = Read(cfd, buf, sizeof(buf));
+            //Write(STDOUT_FILENO, buf, len);
+        }
+    }
+    
+    Close(sfd);
+    Close(cfd);
+
+    return 0;
+}
+```
+* client.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include "wrap.h"
+
+#define SERV_PORT 8000
+#define SERV_IP "192.168.30.190"
+#define MAXLINE 10
+
+int main(int argc, char** argv)
+{
+    
+    struct sockaddr_in serv_addr;
+    socklen_t addr_len;
+    int sfd, i;
+    char buf[MAXLINE], ch = 'a';
+
+    //sockaddr_in
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    inet_pton(AF_INET, SERV_IP, &serv_addr.sin_addr.s_addr);
+
+    //socket
+    sfd = socket(AF_INET, SOCK_STREAM, 0);
+
+    //connect
+    addr_len = sizeof(serv_addr);
+    connect(sfd, (struct sockaddr*)&serv_addr, addr_len);
+    
+    //write read
+    while(1)
+    {
+        for(i=0;i<MAXLINE / 2;++i)
+        {
+            buf[i] = ch;
+        }
+        buf[i-1] = '\n';
+        ch++;
+        for(;i<MAXLINE;++i)
+        {
+            buf[i] = ch;
+        }
+        buf[i-1] = '\n';
+        ch++;
+        Write(sfd, buf, sizeof(buf));
+        sleep(10);
+    }
+
+    close(sfd);
+
+    return 0;
+}
+```
+
+<a id="16-epoll调用epoll_wait的两种触发方式ltet-socket-nonblock"></a>
+#### 16. epoll调用epoll_wait的两种触发方式LT/ET-Socket-NonBlock
+* 此处是教学代码, 无法响应多client, 不重要
+* server端将cfd改为非阻塞模式NonBlock配合ET触发方式提高server并发处理能力
+* 此模式不适合socket长连接持续读写数据
+* server.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/epoll.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include "wrap.h"
+#include <fcntl.h>
+
+#define SERV_PORT 8000
+#define MAXLINE 10
+
+
+int main(int argc, char *argv[])
+{
+    int sfd, cfd, flag;
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t addr_len;
+    char buf[MAXLINE], cli_ip[128];
+    ssize_t len, efd, res;
+    struct epoll_event event, resevent[10];
+    
+
+    //socket
+    sfd = Socket(AF_INET, SOCK_STREAM, 0);
+    
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    
+    //bind
+    Bind(sfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+
+    //listen
+    Listen(sfd, 128);
+
+    //accept
+    addr_len = sizeof(cli_addr);
+    cfd = Accept(sfd, (struct sockaddr*)&cli_addr, &addr_len);
+    printf("recieved from %s : %d\n",
+            inet_ntop(AF_INET, &cli_addr.sin_addr.s_addr, cli_ip, addr_len),
+            ntohs(cli_addr.sin_port));
+
+    //set cfd nonblock
+    flag = fcntl(cfd, F_GETFL);
+    flag |= O_NONBLOCK;
+    fcntl(cfd, F_SETFL, flag);
+
+    //epoll create rb_tree
+    efd = epoll_create(10);
+    if(efd == -1)
+    {
+        perror("epoll create err");
+        exit(1);
+    }
+
+    // cfd add to efd
+    event.events = EPOLLIN | EPOLLET;
+    //event.events = EPOLLIN;
+    event.data.fd = cfd;
+    epoll_ctl(efd, EPOLL_CTL_ADD, cfd, &event);
+
+
+    while(1)
+    {
+        res = epoll_wait(efd, resevent, 10, -1);
+        printf("epoll wait res: %d\n", (int)res);
+
+        if(resevent[0].data.fd == cfd)
+        {
+            while((len = Read(cfd, buf, MAXLINE / 2)) > 0)
+            {
+                Write(STDOUT_FILENO, buf, len);
+            }
+        }
+    }
+
+    Close(sfd);
+    Close(cfd);
+
+    return 0;
+}
+```
+
+<a id="17-epoll非阻塞io事件驱动服务器reactor模型-重要"></a>
+#### 17. epoll非阻塞io事件驱动服务器Reactor模型-重要
+* 功能: server并发接收client数据, 根据事件(EPOLLIN/EPOLLOUT)处理业务, 经过业务处理后发送回client
+* 实现思想: 
+    - 文件描述符变成非阻塞
+    - 为每个被监控的文件描述符(socket)注册回调callback函数, 利用回调函数callback, 实现多态(acceptconn/recvdata/senddata)
+* 数据结构: struct epoll_event events[] 数组, events[i].data.ptr 指针指向自定义 struct myevent_s, 其中注册了callback回调函数, 为了在调用时实现多态
+* 事件驱动特点: 可以在读/写之前先针对滑动窗口进行就绪判断
+    - 缓存未满: 写就绪 EPOLLIN
+    - 缓存非空: 读就绪 EPOLLOUT
+* dev_steps: 
+    - 设计数据结构: epoll_event, struct myevent_s{callback ...}
+    - 程序运行流程
+    - API(功能,函数名,参数,返回值): initlistensocket, event_set, event_add, acceptconn, recvdata, event_del, senddata
+    - 实现main函数
+    - 逐个实现API, 逐个测试
+    - 整体测试
+* 如果需要将处理完的数据转发到不同server(808->WAS->SaveCenter), 那么处理数据的server(WAS)同时是接收数据server(SaveCenter)的client端
+* server.c:
+```
+// epoll基于非阻塞I/O事件驱动(反应堆)
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <sys/epoll.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <errno.h>
+#include <time.h>
+#include <ctype.h>
+#include "wrap.h"
+
+#define MAX_EVENTS 1024
+#define SERV_PORT 8000
+#define BUF_LEN 128
+
+
+struct myevent_s {
+    int fd;
+    int events;
+    void *arg;  //指向这个结构体自己的地址
+    void (*callback)(int fd, int events, void *arg);
+    int status; //fd是否在rb_tree中被监控 0:不在  1:在
+    char buf[BUF_LEN];
+    int len;    //实际读到的长度
+    long last_active;   //计时使用
+};
+
+int g_efd;
+struct myevent_s g_events[MAX_EVENTS+1];
+
+//封装自定义struct myevent_s, 注册call_back函数
+void event_set(struct myevent_s *ev, int fd, void (*callback)(int, int, void*), void *arg)
+{
+    ev->fd = fd;
+    ev->events = 0;
+    ev->arg = arg;
+    ev->callback = callback;
+    ev->status = 0;
+    ev->last_active = time(NULL);
+
+    return;
+}
+
+//将eventset好的myevent_s赋值给epoll_event.data.ptr, 然后epoll_ctrl到g_efd红黑树中
+void event_add(int efd, int events, struct myevent_s *ev)
+{
+    //将myevent_s转换成epoll_event后再add到epoll红黑树中
+    struct epoll_event epv = {0, {0}};
+    epv.data.ptr = ev;
+    epv.events = ev->events = events;
+    int op;
+
+    if(ev->status == 1)
+    {
+        op = EPOLL_CTL_MOD;
+    }else
+    {
+        op = EPOLL_CTL_ADD;
+        ev->status = 1;
+    }
+
+    if (epoll_ctl(efd, op, ev->fd, &epv) < 0)
+        printf("event add failed [fd=%d], events[%d]\n", ev->fd, events);
+    else
+        printf("event add OK [fd=%d], op=%d, events[%0X]\n", ev->fd, op, events);
+
+    return;
+}
+
+void recvdata(int fd, int events, void *arg);
+void senddata(int fd, int events, void *arg);
+
+//listenfd调用callback
+void acceptconn(int lfd, int events, void *arg)
+{
+    struct sockaddr_in cin;
+    socklen_t len = sizeof(cin);
+    int cfd, i;
+
+    if((cfd = accept(lfd, (struct sockaddr*)&cin, &len)) == -1)
+    {
+        if(errno != EAGAIN && errno != EINTR)
+        {
+
+        }
+        printf("%s accept %s\n", __func__, strerror(errno));
+        return;
+    }
+    do{
+        //找到g_events中未使用的位置i
+        for(i=0;i<MAX_EVENTS;++i)
+        {
+            if(g_events[i].status == 0)
+                break;
+        }
+        if(i == MAX_EVENTS)
+        {
+            printf("%s: max connet limit[%d]\n", __func__, MAX_EVENTS);
+            break;
+        }
+        int flag = 0;
+        if((flag = fcntl(cfd, F_SETFL, O_NONBLOCK)) < 0)
+        {
+            printf("%s: fcntl nonblocking failed, %s\n", __func__, strerror(errno));
+            break;
+        }
+        event_set(&g_events[i], cfd, recvdata, &g_events[i]);
+        event_add(g_efd, EPOLLIN, &g_events[i]);
+    }while(0);
+    printf("new connect [%s:%d][time:%ld], pos[%d]\n", inet_ntoa(cin.sin_addr), ntohs(cin.sin_port), g_events[i].last_active, i);
+    return;
+}
+
+void eventdel(int efd, struct myevent_s *ev)
+{
+    struct epoll_event epv = {0, {0}};
+    if(ev->status != 1)
+        return;
+    epv.data.ptr = ev;
+    epoll_ctl(efd, EPOLL_CTL_DEL, ev->fd, &epv);
+    return;
+}
+
+// cfd callback
+void recvdata(int fd, int events, void *arg)
+{
+    struct myevent_s *ev = (struct myevent_s*)arg;  // 临时指针接收参数
+    int len;
+
+    len = recv(fd, ev->buf, sizeof(ev->buf), 0);
+    eventdel(g_efd, ev);
+
+    if(len > 0)
+    {
+        ev->len = len;
+        ev->buf[len] = '\0';    //buf: 可以填充未来业务相关的struct(如: struct QQ_INFO ...)
+        printf("C[%d]: %s\n", fd, ev->buf); // 模拟处理业务
+        int j;
+        for(j=0;j<len;++j)
+        {
+            ev->buf[j] = toupper(ev->buf[j]);
+        }
+        ev->buf[len] = '\0';
+
+        event_set(ev, fd, senddata, ev);    // fd可以根据需要换成其他socket(SaveCenter)
+        event_add(g_efd, EPOLLOUT, ev);
+    }else if(len == 0)
+    {
+        close(ev->fd);
+        printf("[fd=%d] pos[%ld], closed\n", fd, ev - g_events);
+    }else
+    {
+        close(ev->fd);
+        printf("recv[fd=%d] error[%d]:%s\n", fd, errno, strerror(errno));
+    }
+    return;
+}
+
+// cfd callback
+void senddata(int fd, int events, void *arg)
+{
+    struct myevent_s *ev = (struct myevent_s*)arg;
+    int len;
+    
+    len = send(fd, ev->buf, ev->len, 0);    //send: 往另一个socket写message
+    if(len > 0)
+    {
+        printf("send[fd=%d], [%d]%s\n", fd, len, ev->buf);
+        eventdel(g_efd, ev);
+        event_set(ev, fd, recvdata, ev);
+        event_add(g_efd, EPOLLIN, ev);
+    }else
+    {
+        close(ev->fd);
+        eventdel(g_efd, ev);
+        printf("send[fd=%d] error %s\n", fd, strerror(errno));
+    }
+    return;
+}
+
+void initlistensocket(int efd, short port)
+{
+    struct sockaddr_in serv_addr;
+    int lfd = Socket(AF_INET, SOCK_STREAM, 0);
+    fcntl(lfd, F_SETFL, O_NONBLOCK);
+
+    bzero(&serv_addr, sizeof(serv_addr));
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(port);
+    serv_addr.sin_addr.s_addr = INADDR_ANY;
+
+    Bind(lfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+
+    Listen(lfd, 128);
+
+    event_set(&g_events[MAX_EVENTS], lfd, acceptconn, &g_events[MAX_EVENTS]);   // 将listenfd放在rb_tree的最后一个位置, 并设置回调acceptconn
+    event_add(efd, EPOLLIN, &g_events[MAX_EVENTS]);
+}
+
+int main(int argc, char* argv[])
+{
+    unsigned short port = SERV_PORT;
+    if(argc == 2)
+        port = atoi(argv[1]);
+
+    g_efd = epoll_create(MAX_EVENTS+1);
+
+    initlistensocket(g_efd, port);
+
+    struct epoll_event events[MAX_EVENTS+1];
+
+    int i, checkpos = 0;
+
+    while(1)
+    {
+        /* 超时验证，每次测试100个链接，不测试listenfd 当客户端60秒内没有和服务器通信，则关闭此客户端链接 */
+        long now = time(NULL);
+        //每次epoll_wait返回后检测100个event, 第一次0~100, 第二次101~200 ...
+        for(i=0;i<100;++i, ++checkpos)
+        {
+            if(checkpos == MAX_EVENTS)
+                checkpos = 0;
+            if(g_events[checkpos].status != 1)
+                continue;
+            long duration = now - g_events[checkpos].last_active;
+            if(duration >= 60)
+            {
+                close(g_events[checkpos].fd);
+                printf("[fd=%d] timeout\n", g_events[checkpos].fd);
+                eventdel(g_efd, &g_events[checkpos]);
+            }
+        }
+
+        int nfd = epoll_wait(g_efd, events, MAX_EVENTS+1, 1000);    //timeout: 1000 ms (NonBlock)
+        if(nfd < 0)
+        {
+            printf("epoll wait err\n");
+            break;
+        }
+
+        for(i=0;i<nfd;++i)
+        {
+            //ev指向ptr, 准备调用callback函数
+            struct myevent_s *ev = (struct myevent_s *)events[i].data.ptr;
+            if((events[i].events & EPOLLIN) && (ev->events & EPOLLIN) )
+            {
+                ev->callback(ev->fd, events[i].events, ev->arg);    //多态
+                //...其他处理
+            }
+            if((events[i].events & EPOLLOUT) && (ev->events & EPOLLOUT))
+            {
+                ev->callback(ev->fd, events[i].events, ev->arg);    //多态
+                //...其他处理
+            }
+        }
+    }
+
+    /* 退出前释放所有资源 */
+    return 0;
+}
+```
+* client.c:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <sys/types.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include "wrap.h"
+
+#define SERV_PORT 8000
+#define SERV_IP "192.168.30.190"
+#define MAXLINE 10
+
+int main(int argc, char** argv)
+{
+    
+    struct sockaddr_in serv_addr;
+    socklen_t addr_len;
+    int sfd, i;
+    char buf[MAXLINE], ch = 'a';
+    char buf_r[MAXLINE];
+    ssize_t len;
+
+    //sockaddr_in
+    bzero(&serv_addr, sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(SERV_PORT);
+    inet_pton(AF_INET, SERV_IP, &serv_addr.sin_addr.s_addr);
+
+    //socket
+    sfd = socket(AF_INET, SOCK_STREAM, 0);
+
+    //connect
+    addr_len = sizeof(serv_addr);
+    connect(sfd, (struct sockaddr*)&serv_addr, addr_len);
+    
+    //write 
+    while(1)
+    {
+        for(i=0;i<MAXLINE / 2;++i)
+        {
+            buf[i] = ch;
+        }
+        buf[i-1] = '\n';
+        ch++;
+        for(;i<MAXLINE;++i)
+        {
+            buf[i] = ch;
+        }
+        buf[i-1] = '\n';
+        ch++;
+        Write(sfd, buf, sizeof(buf));
+        
+        len = Read(sfd, buf_r, sizeof(buf_r));
+        buf_r[len] = '\0';
+        printf("read: %s\n", buf_r);
+
+        sleep(10);
+    }
+
+    close(sfd);
+
+    return 0;
+}
+```
+
+<a id="18-线程池模型"></a>
+#### 18. 线程池模型
+* 基于生产者消费者模型
+* 共享资源: 任务队列(互斥锁)
+    - 环形队列
+* 线程池中的工作线程阻塞在条件变量(任务队列不为空)上, 处理完业务后继续阻塞在条件变量上
+
+<a id="19-c语言项目设计开发流程"></a>
+#### 19. C语言项目设计开发流程
+* ![](image\C语言项目设计流程.png)
+
+<a id="20-shell相关"></a>
+#### 20. Shell相关
+* 查看内建命令: `man bash-builtins`
+    - `bash  defines  the  following  built-in commands: :, ., [, alias, bg, bind, break, builtin, case, cd, command, compgen, complete, continue, declare, dirs, disown, echo, enable, eval, exec, exit, export, fc, fg, getopts, hash, help, history, if, jobs, kill,
+       let, local, logout, popd, printf, pushd, pwd, read, readonly, return, set, shift, shopt, source, suspend, test, times, trap, type, typeset, ulimit, umask, unalias, unset, until, wait, while.`
+    - ls不是内建命令
+* shell变量赋值=号前后不能加空格
+* 创建dir脚本:
+```
+#!/bin/bash
+
+is_dir()
+{
+    DIR_NAME=$1
+    
+    if [ ! -d $DIR_NAME ]
+    then 
+        return 1
+    else
+        return 0
+    fi
+}
+
+for DIR in "$@"
+do
+    if is_dir "$DIR"
+    then :
+    else
+        echo "$DIR is not exist! Creating now..."
+        mkdir $DIR > /dev/null 2>&1
+        if [ $? -ne 0 ]; then
+            echo "Cannot create directory $DIR"
+            exit 1
+        fi
+    fi
+done
+```
+* sed以行为处理单位
+* awk能以行为处理单位, 也能以列为处理单位
+
+<a id="21-c语言中使用正则表达式"></a>
+#### 21. C语言中使用正则表达式
+* regcomp()
+* regexec()
+* regfree()
+
+<a id="22-c程序中打日志"></a>
+#### 22. C程序中打日志
+* 开启 syslog / rsyslog 守护进程
+* `#include <syslog.h>`
+    - openlog()
+    - syslog()
+    - closelog()

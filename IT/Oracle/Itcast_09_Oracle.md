@@ -7,7 +7,11 @@
 1. [分组函数](#分组函数)
 1. [多表查询](#多表查询)
 1. [子查询\(重点\)](#子查询重点)
-1. [单行多行子查询](#单行多行子查询)
+1. [单行/多行子查询](#单行多行子查询)
+1. [集合运算](#集合运算)
+1. [SQL语言的类型](#sql语言的类型)
+1. [__事务__](#__事务__)
+1. [创建表](#创建表)
 
 <!-- /MarkdownTOC -->
 
@@ -255,4 +259,73 @@ WHERE sal > (SELECT sal
 ```
 
 <a id="单行多行子查询"></a>
-#### 单行多行子查询
+#### 单行/多行子查询
+* 单行子查询: >, <, =, <>, >=, <=, !=
+* 多行子查询: in, not in, any, all
+* 查询部门名称为SALES和ACCOUNTING的所有员工信息
+```
+    SELECT e.empno, e.ename, d.dname
+    FROM emp e, dept d
+    WHERE e.deptno = d.deptno
+      AND d.dname in ('ACCOUNTING', 'SALES')
+    ;
+```
+* 包含NULL值时不能用NOT IN:
+    - 原因: NOT IN 是和子查询集合中所有数值比较, 当与NULL值比较时 NULL != NULL, 导致WHERE判定结果为假
+```
+    SELECT *
+    FROM emp
+    WHERE empno NOT IN (SELECT mgr
+                          FROM emp)
+    ;
+    // 查询没有mgr的员工, 结果为空
+```
+
+<a id="集合运算"></a>
+#### 集合运算
+* 交集, 并集, 差集
+* UNION / UNION ALL(重叠部分记录2次), INTERSECT, MINUS
+* 参与运算的各个集合必须列数相同, 且类型一致, 否则出错
+    - 可以通过 to_char(null), to_number(null) 去凑成一致的列数类型
+```
+    SELECT *
+    FROM emp
+    WHERE deptno = 10
+    UNION
+    SELECT *
+    FROM emp
+    WHERE deptno = 20
+    ;
+```
+* 打开SQL语句执行时间显示: `set timing on`
+
+<a id="sql语言的类型"></a>
+#### SQL语言的类型
+* DML: insert, update, delete, select
+    - insert into values
+    - update set where
+    - delete from where
+* DDL: truncate, create, alter, drop
+    - truncate: 不可回滚rollback
+* DCL: commit, rollback(必须在commit之前使用才有效)
+
+<a id="__事务__"></a>
+#### __事务__
+* 多条SQL语句
+* 特点: 要么都成功, 要么都失败
+* 特性: ACID 原子性, 一致性, 隔离性, 持久性
+    - Oracle默认隔离级别: Read Committed 读已提交
+* 事务的起始结束标志: DML语句开启事务, commit/rollback都是事务的结束标志
+    - 隐式提交: DDL语句(create...), 正常退出(exit/quit)
+* 事务控制: savepoint
+    - SAVEPOINT A
+    - SAVEPOINT B
+    - ROLLBACK TO SAVEPOINT A
+    - ROLLBACK TO SAVEPOINT B
+
+<a id="创建表"></a>
+#### 创建表
+* create table test1(tid number, tname varchar2(20), hiredate date default sysdate);
+    - default 作用: 当向表中insert into数据时, 没有指定时间的情况下, 所使用的默认时间
+* 创建表并填充数据: create table test2 as select ...
+    - select中对表达式用别名

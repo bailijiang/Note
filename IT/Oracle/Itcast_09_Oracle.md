@@ -6,12 +6,20 @@
 1. [条件判断if...else...](#条件判断ifelse)
 1. [分组函数](#分组函数)
 1. [多表查询](#多表查询)
-1. [子查询\(重点\)](#子查询重点)
+1. [__子查询__](#__子查询__)
 1. [单行/多行子查询](#单行多行子查询)
 1. [集合运算](#集合运算)
 1. [SQL语言的类型](#sql语言的类型)
 1. [__事务__](#__事务__)
 1. [创建表](#创建表)
+1. [修改表](#修改表)
+1. [闪回](#闪回)
+1. [__约束__](#__约束__)
+1. [视图view](#视图view)
+1. [序列](#序列)
+1. [索引Index](#索引index)
+1. [Pro*C/C++概念](#procc概念)
+1. [Pro*C/C++操作](#procc操作)
 
 <!-- /MarkdownTOC -->
 
@@ -154,8 +162,8 @@ from emp;
     - 伪列: 查则有, 不查则无
     - connect by prior  start with
 
-<a id="子查询重点"></a>
-#### 子查询(重点)
+<a id="__子查询__"></a>
+#### __子查询__
 * 一步不能求解的问题使用子查询
 ```
 SELECT *
@@ -329,3 +337,362 @@ WHERE sal > (SELECT sal
     - default 作用: 当向表中insert into数据时, 没有指定时间的情况下, 所使用的默认时间
 * 创建表并填充数据: create table test2 as select ...
     - select中对表达式用别名
+
+<a id="修改表"></a>
+#### 修改表
+* ALTER TABLE test1 ADD image blob
+* ALTER TABLE test1 MODIFY...
+* ALTER TABLE test1 DROP COLUMN...
+* ALTER TABLE test1 RENAME COLUMN...TO...
+
+<a id="闪回"></a>
+#### 闪回
+* 概念: 闪回技术是Oracle强大数据库备份恢复机制的一部分，在数据库发生逻辑错误的时候，闪回技术能提供快速且最小损失的恢复（多数闪回功能都能在数据库联机状态下完成）。需要注意的是，闪回技术旨在快速恢复逻辑错误，对于物理损坏或是介质丢失的错误，闪回技术就回天乏术了，还是得借助于Oracle一些高级的备份恢复工具如RMAN去完成（这才是Oracle强大备份恢复机制的精髓）
+* 闪回操作
+    - `SQL> flashback table dept to timestamp to_timestamp('2016-09-10 11:00:00','yyyy-mm-dd hh24:mi:ss');`
+
+<a id="__约束__"></a>
+#### __约束__
+* 约束的种类: NOT NULL / UNIQUE / PRIMARY KEY / FOREIGN KEY / CHECK
+* 多个约束之间用空格隔开, 不用,号
+* __外键约束__: 
+    - emp表中 deptno列是外键
+    - 先有dept表, 后有emp表
+    - dept是主表, emp是从表
+    - 在从表中创建外键约束
+    - dept表约束了emp表
+    - 外键约束保持了主从表之间的数据的一致性
+    - 设置外键时通过 REFERENCES 指定参数来定义删除记录的行为: 
+        + ON DELETE CASCADE : 关联删除
+        + ON DELETE SET NULL: 关联置空
+* 创建表时使用 CONSTRAINT 进行外键约束
+    - `CREATE TABLE student(deptno NUMBER CONSTRAINT student_FK REFERENCES dept(deptno) ON DELETE SET NULL)`
+* 只有主表的主键可以作为从表的外键
+* 查看指定表的外键约束:
+```
+    //表名大写
+    SELECT *
+    FROM user_constraints c
+    WHERE c.constraint_type = 'R'
+          AND c.table_name = 'EMP'
+    ;
+```
+
+<a id="视图view"></a>
+#### 视图view
+* 作用: 
+    - 简化复杂查询: 给多表查询创建视图
+    - 限制数据访问
+* 创建视图: `CREATE VIEW ...`
+* 视图不能提高性能
+* 视图不能被修改
+
+<a id="序列"></a>
+#### 序列
+* 游标机制
+* 在内存中, 访问效率高
+* 一般用于创建主键
+* 创建序列: `CREATE SEQUENCE myseq`
+* 使用序列插入数据: `INSERT INTO table1 VALUES(myseq.nextval, 'aaa');`
+* 删除序列: `DROP SEQUENCE myseq;`
+* 序列是多张表的共有对象
+* ROLLBACK/掉电会造成数据不连续
+
+<a id="索引index"></a>
+#### 索引Index
+* 功能: 查询速度快, 提高查询效率
+* 在列上创建索引: `CREATE INDEX myindex ON emp(deptno);`
+* 适合索引使用场景: 
+    - 数据分布广
+    - 列经常在WHERE子句或连接条件中出现
+    - 表经常被访问且数据量大, 被访问的数据占数据总量的2%~%4之间(多个SELECT, 每个查询数据量都在总数据量的2%~%4之间)
+* 索引表是独立存储
+* 当删除一张表是, 基于这张表的所有索引都会被删除
+
+<a id="procc概念"></a>
+#### Pro*C/C++概念
+* 相当于一门新语言
+* 功能: Linux/Win下通过Proc连接Oracle数据库进行CRUD操作
+* 用struct映射操作单行多列(相当于ORM)
+* 使用流程: 先用proc编译器将.pc文件编译后生成.c文件再编译成可执行文件
+* Linux C/C++程序远程连接Oracle需要安装Oracle client客户端, 安装proc编译环境, 使用proc
+* 使用proc前需要配置pcscfg.cfg文件(参照RedHat安装Oracle11gR2文档)
+```
+    // /usr/lib/gcc/x86_64-redhat-linux/4.1.1/include 改成 /usr/lib/gcc/x86_64-redhat-linux/4.4.4/include
+    [oracle@oracledb proc_test]$ cat /opt/oracle/app/product/11.2.0/dbhome_1/precomp/admin/pcscfg.cfg 
+    sys_include=($ORACLE_HOME/precomp/public,/usr/include,/usr/lib/gcc-lib/x86_64-redhat-linux/3.2.3/include,/usr/lib/gcc/x86_64-redhat-linux/4.4.4/include,/usr/lib64/gcc/x86_64-suse-linux/4.1.0/include,/usr/lib64/gcc/x86_64-suse-linux/4.3/include)
+    ltype=short
+    define=__x86_64__
+
+```
+* proc helloworld:
+```
+    // hello.pc
+    #include <stdio.h>
+    #include <sqlca.h>
+
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/scott@orcl";
+
+    EXEC SQL END DECLARE SECTION;
+
+
+    int main(void)
+    {
+        EXEC SQL CONNECT :serverid;
+
+        printf("hello\n");
+
+
+        EXEC SQL COMMIT RELEASE;
+
+        return 0;
+    }
+    
+    proc hello.pc
+    gcc hello.c -o hello -L /opt/oracle/app/product/11.2.0/dbhome_1/lib 
+                         -I /opt/oracle/app/product/11.2.0/dbhome_1/precomp/public/ 
+                         -l clntsh
+```
+* proc 的 makefile:
+```
+
+    C_FILES = $(wildcard *.pc)
+    C_MIDDLE1 = $(patsubst %.pc, %.c, $(C_FILES))
+    C_MIDDLE2 = $(patsubst %.pc, %.lis, $(C_FILES))
+    C_TARGET = $(patsubst %.pc, %, $(C_FILES))
+
+    lib_path = ${ORACLE_HOME}/lib
+    inc_path = ${ORACLE_HOME}/precomp/public
+
+    all:$(C_TARGET) 
+
+    $(C_TARGET):%:%.c
+        gcc $< -o $@ -L$(lib_path) -I$(inc_path) -lclntsh
+    %.c:%.pc
+        proc $<
+
+    .PHONY:clean all
+
+    clean:
+        -rm -rf $(C_TARGET) $(C_MIDDLE1) $(C_MIDDLE2) *~ 
+```
+
+<a id="procc操作"></a>
+#### Pro*C/C++操作
+* Connect数据库进行INSERT/UPDATE/DELETE
+```
+    //01_ins_upd_del.pc   sqlca.sqlcode
+    #include <stdio.h>
+    #include <sqlca.h>
+
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/scott@orcl";    //宿主变量
+
+    EXEC SQL END DECLARE SECTION;
+
+    int main(void)
+    {
+        int ret;
+
+        EXEC SQL CONNECT :serverid;
+        
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("Connect Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("Connect OK...\n");
+
+        // EXEC SQL INSERT INTO dept(deptno, dname, loc) VALUES(50, 'Engineer', 'Beijing');
+        // if(sqlca.sqlcode != 0)
+        // {
+        //  ret = sqlca.sqlcode;
+        //  printf("INSERT Failed, Error: %d\n", sqlca.sqlcode);
+        //  return ret;
+        // }
+        // printf("INSERT OK...\n");
+
+        // EXEC SQL UPDATE dept SET dname='Dev', loc='Shanghai' WHERE deptno=50; 
+        // if(sqlca.sqlcode != 0)
+        // {
+        //  ret = sqlca.sqlcode;
+        //  printf("UPDATE Failed, Error: %d\n", sqlca.sqlcode);
+        //  return ret;
+        // }
+        // printf("UPDATE OK...\n");
+
+        EXEC SQL DELETE FROM dept WHERE deptno=50; 
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("DELETE Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("DELETE OK...\n");
+
+        EXEC SQL COMMIT RELEASE;
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("RELEASE Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("RELEASE OK...\n");
+
+        return 0;
+    }
+```
+* Linux下查看ORA错误信息: 
+    - `oerr ora 1`
+    - `oerr ora 1017`
+* SELECT操作-自动类型转换
+```
+    #include <stdio.h>
+    #include <sqlca.h>
+
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/scott@orcl";    //宿主变量
+
+        int deptno;
+        varchar dname[20];
+        varchar loc[20];
+
+    EXEC SQL END DECLARE SECTION;
+
+    int main(void)
+    {
+        int ret;
+
+        EXEC SQL CONNECT :serverid;
+        
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("Connect Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("Connect OK...\n");
+
+        EXEC SQL SELECT deptno, dname, loc INTO :deptno, :dname, :loc FROM dept WHERE deptno=10;
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("SELECT Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("SELECT OK...\n");
+        printf("deptno:%d|dname:%s|loc:%s\n", deptno, dname.arr, loc.arr);
+        // /* varchar loc[20];*/ 
+        // struct { unsigned short len; unsigned char arr[20]; } loc;
+
+
+        EXEC SQL COMMIT RELEASE;
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("RELEASE Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("RELEASE OK...\n");
+
+        return 0;
+    }
+```
+* 编写Proc程序时只使用Proc数据类型(Host Variables)
+    - 数据类型转换流程: Proc数据类型->C/C++数据类型->Oracle数据类型
+```
+    Table 4–4 C Datatypes for Host Variables
+    C Datatype or Pseudotype Description
+    char        single character
+    char[n]     n-character array (string)
+    int         integer
+    short       small integer
+    long        large integer
+    long long   very large (8-byte) integer
+    float       floating-point number (usually single precision)
+    double      floating-point number (always double precision)
+    VARCHAR[n]  variable-length string
+```
+* SELECT操作-手动类型转换
+    - 流程: typedef定义类型->EXEC SQL TYPE注册->定义变量->填充数据->执行SQL
+```
+    #include <stdio.h>
+    #include <string.h>
+    #include <sqlca.h>
+    
+    // char dnameType[20]; 定义变量
+    typedef char dnameType[20]; // 定义变量类型
+
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/scott@orcl";    //宿主变量
+
+        EXEC SQL TYPE dnameType is string(20);  //注册
+
+        int deptno;
+        dnameType dname;
+        dnameType loc;
+
+    EXEC SQL END DECLARE SECTION;
+
+    int main(void)
+    {
+        int ret;
+
+        EXEC SQL CONNECT :serverid;
+        
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("Connect Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("Connect OK...\n");
+
+
+        deptno = 80;
+        strcpy(dname, "dept80");
+        strcpy(loc, "GuangZhou");
+
+        EXEC SQL INSERT INTO dept(deptno, dname, loc) VALUES(:deptno, :dname, :loc);
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("INSERT Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("INSERT OK...\n");
+
+        EXEC SQL COMMIT;
+
+        EXEC SQL SELECT deptno, dname, loc INTO :deptno, :dname, :loc FROM dept WHERE deptno=:deptno;
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("SELECT Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("SELECT OK...\n");
+        printf("deptno:%d|dname:%s|loc:%s\n", deptno, dname, loc);
+
+        EXEC SQL COMMIT RELEASE;
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("RELEASE Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("RELEASE OK...\n");
+
+        return 0;
+    }
+```
+
+
+
+

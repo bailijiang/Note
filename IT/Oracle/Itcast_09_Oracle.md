@@ -19,7 +19,7 @@
 1. [序列](#序列)
 1. [索引Index](#索引index)
 1. [Pro*C/C++概念](#procc概念)
-1. [Pro*C/C++操作](#procc操作)
+1. [__Pro*C/C++操作__](#__procc操作__)
 
 <!-- /MarkdownTOC -->
 
@@ -479,8 +479,8 @@ WHERE sal > (SELECT sal
         -rm -rf $(C_TARGET) $(C_MIDDLE1) $(C_MIDDLE2) *~ 
 ```
 
-<a id="procc操作"></a>
-#### Pro*C/C++操作
+<a id="__procc操作__"></a>
+#### __Pro*C/C++操作__
 * Connect数据库进行INSERT/UPDATE/DELETE
 ```
     //01_ins_upd_del.pc   sqlca.sqlcode
@@ -692,7 +692,320 @@ WHERE sal > (SELECT sal
         return 0;
     }
 ```
+* 指示变量indicator
+    - 主要作用: 查询数据时, 判断数值是否为空, 如果为NULL, 指示变量值为-1
+    - 类型: short
+    - 插入空值NULL: 将指示变量赋值为-1, 执行插入语句, 无论宿主变量为何值, 都直接写入NULL
+```
+    // 04_indicator_var.pc
+    #include <stdio.h>
+    #include <string.h>
+    #include <sqlca.h>
+
+    typedef char dnameType[20];
+
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/scott@orcl";    //宿主变量
+
+        EXEC SQL TYPE dnameType is string(20);  //注册
+
+        int deptno;
+        dnameType dname;
+        dnameType loc;
+        short loc_ind;
+
+    EXEC SQL END DECLARE SECTION;
+
+    int main(void)
+    {
+        int ret;
+
+        EXEC SQL CONNECT :serverid;
+        
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("Connect Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("Connect OK...\n");
 
 
+        deptno = 81;
+        strcpy(dname, "dept81");
+        strcpy(loc, "Dalian");
+        loc_ind = -1;
+
+        EXEC SQL INSERT INTO dept(deptno, dname, loc) VALUES(:deptno, :dname, :loc:loc_ind);
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("INSERT Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        
+        EXEC SQL COMMIT;
+        printf("INSERT OK...\n");
+
+        EXEC SQL SELECT deptno, dname, loc INTO :deptno, :dname, :loc:loc_ind FROM dept WHERE deptno=:deptno;
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("SELECT Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+
+        if(loc_ind == -1)
+        {
+            strcpy(loc, "NULL");
+        }
+
+        printf("SELECT OK...\n");
+        printf("deptno:%d|dname:%s|loc:%s\n", deptno, dname, loc);
+
+        EXEC SQL COMMIT RELEASE;
+        if(sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("RELEASE Oracle Failed, Error: %d\n", sqlca.sqlcode);
+            return ret;
+        }
+        printf("RELEASE OK...\n");
+
+        return 0;
+    }
+```
+* 通信区错误处理:
+```
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <string.h>
+    #include <sqlca.h>
 
 
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/123456@orcl";   //密码错误
+
+    EXEC SQL END DECLARE SECTION;
+
+    void sqlerr()
+    {
+        EXEC SQL WHENEVER SQLERROR CONTINUE;    //防止RELEASE 出错造成递归死循环
+        printf("Error Reason: %.*s\n", sqlca.sqlerrm.sqlerrml, sqlca.sqlerrm.sqlerrmc); // %.*s 动态指定字符串长度上限
+        EXEC SQL ROLLBACK RELEASE;
+        exit(1);
+    }
+
+    int main(void)
+    {
+        EXEC SQL WHENEVER SQLERROR DO sqlerr(); //注册错误处理函数
+
+        EXEC SQL CONNECT :serverid;
+        
+        printf("---should not printf---\n");
+
+        EXEC SQL COMMIT RELEASE;
+        
+
+        return 0;
+    }
+```
+* 宿主数组(存多行数据)
+```
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <string.h>
+    #include <sqlca.h>
+
+    typedef char dnameType[20];
+
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/scott@orcl";
+
+        EXEC SQL TYPE dnameType is string(20);
+
+        int deptno_arr[10];
+        dnameType dname_arr[10];
+        dnameType loc_arr[10];
+
+        int count;
+
+        short dname_ind[10];
+        short loc_ind[10];
+
+    EXEC SQL END DECLARE SECTION;
+
+    void sqlerr()
+    {
+        EXEC SQL WHENEVER SQLERROR CONTINUE;
+        printf("Error Reason: %.*s\n", sqlca.sqlerrm.sqlerrml, sqlca.sqlerrm.sqlerrmc);
+        EXEC SQL ROLLBACK RELEASE;
+        exit(1);
+    }
+
+    int main(void)
+    {
+        int i;
+
+        EXEC SQL WHENEVER SQLERROR DO sqlerr(); 
+
+        EXEC SQL CONNECT :serverid;
+
+        EXEC SQL SELECT deptno, dname, loc INTO :deptno_arr, :dname_arr:dname_ind, :loc_arr:loc_ind FROM dept;
+        count = sqlca.sqlerrd[2];
+
+        for(i=0;i<count;++i)
+        {
+            printf("%d\t%s\t%s\n", deptno_arr[i], dname_arr[i], loc_arr[i]);
+        }
+
+        printf("Create table dept2\n");
+        EXEC SQL CREATE TABLE dept2 as SELECT * FROM dept WHERE 1=2;
+
+        printf("Insert Data to dept2\n");
+        EXEC SQL FOR :count INSERT INTO dept2(deptno, dname, loc) VALUES(:deptno_arr, :dname_arr, :loc_arr);
+        printf("Insert OK\n");
+        
+        EXEC SQL COMMIT RELEASE;
+        
+
+        return 0;
+    }
+```
+* 游标cursor/fetch
+    - 作用: 查询返回单条数据
+    - 游标为查询而生
+```
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <string.h>
+    #include <sqlca.h>
+
+    typedef char dnameType[20];
+
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/scott@orcl";
+
+        EXEC SQL TYPE dnameType is string(20);
+
+        int deptno;
+        dnameType dname;
+        dnameType loc;
+
+        short dname_ind;
+        short loc_ind;
+
+    EXEC SQL END DECLARE SECTION;
+
+    void sqlerr()
+    {
+        EXEC SQL WHENEVER SQLERROR CONTINUE;
+        printf("Error Reason: %.*s\n", sqlca.sqlerrm.sqlerrml, sqlca.sqlerrm.sqlerrmc);
+        EXEC SQL ROLLBACK RELEASE;
+        exit(1);
+    }
+
+    int main(void)
+    {
+
+        EXEC SQL WHENEVER SQLERROR DO sqlerr(); 
+
+        EXEC SQL CONNECT :serverid;
+
+        EXEC SQL DECLARE dept_cur CURSOR FOR SELECT * FROM dept;
+
+        EXEC SQL OPEN dept_cur;
+
+        while(1)
+        {
+            EXEC SQL FETCH dept_cur INTO :deptno, :dname:dname_ind, :loc:loc_ind;
+            if(sqlca.sqlcode == 100 || sqlca.sqlcode == 1403)
+            {
+                break;
+            }
+            printf("%d\t%s\t%s\n", deptno, dname, loc);
+        }
+
+
+        EXEC SQL CLOSE dept_cur;
+        
+        EXEC SQL COMMIT RELEASE;
+        
+
+        return 0;
+    }
+```
+* 滚动游标scroll_cursor
+```
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <string.h>
+    #include <sqlca.h>
+
+    typedef char dnameType[20];
+
+    EXEC SQL BEGIN DECLARE SECTION;
+
+        char *serverid = "scott/scott@orcl";
+
+        EXEC SQL TYPE dnameType is string(20);
+
+        int deptno;
+        dnameType dname;
+        dnameType loc;
+
+        short dname_ind;
+        short loc_ind;
+
+    EXEC SQL END DECLARE SECTION;
+
+    void sqlerr()
+    {
+        EXEC SQL WHENEVER SQLERROR CONTINUE;
+        printf("Error Reason: %.*s\n", sqlca.sqlerrm.sqlerrml, sqlca.sqlerrm.sqlerrmc);
+        EXEC SQL ROLLBACK RELEASE;
+        exit(1);
+    }
+
+    int main(void)
+    {
+
+        EXEC SQL WHENEVER SQLERROR DO sqlerr(); 
+
+        EXEC SQL CONNECT :serverid;
+
+        EXEC SQL DECLARE dept_scur SCROLL CURSOR FOR SELECT * FROM dept;
+
+        EXEC SQL OPEN dept_scur;
+
+            EXEC SQL FETCH LAST dept_scur INTO :deptno, :dname:dname_ind, :loc:loc_ind;
+            printf("%d\t%s\t%s\n", deptno, dname, loc);
+
+            EXEC SQL FETCH FIRST dept_scur INTO :deptno, :dname:dname_ind, :loc:loc_ind;
+            printf("%d\t%s\t%s\n", deptno, dname, loc);
+
+            EXEC SQL FETCH ABSOLUTE 2 dept_scur INTO :deptno, :dname:dname_ind, :loc:loc_ind;
+            printf("%d\t%s\t%s\n", deptno, dname, loc);
+
+            EXEC SQL FETCH RELATIVE 2 dept_scur INTO :deptno, :dname:dname_ind, :loc:loc_ind;
+            printf("%d\t%s\t%s\n", deptno, dname, loc);
+
+            EXEC SQL FETCH NEXT dept_scur INTO :deptno, :dname:dname_ind, :loc:loc_ind;
+            printf("%d\t%s\t%s\n", deptno, dname, loc);
+
+            EXEC SQL FETCH PRIOR dept_scur INTO :deptno, :dname:dname_ind, :loc:loc_ind;
+            printf("%d\t%s\t%s\n", deptno, dname, loc);
+        
+
+        EXEC SQL CLOSE dept_scur;
+        
+        EXEC SQL COMMIT RELEASE;
+        
+
+        return 0;
+    }
+```

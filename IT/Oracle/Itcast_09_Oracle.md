@@ -1009,3 +1009,245 @@ WHERE sal > (SELECT sal
         return 0;
     }
 ```
+* 动态SQL
+```
+    // [oracle@oracledb dynamicSQL_proc]$ cat dynamic_demo1.pc 
+    #include <stdio.h>
+    #include <string.h>
+    #include <stdlib.h>
+    #include <sqlca.h>
+
+    EXEC SQL BEGIN DECLARE SECTION;
+        
+        char *serverid = "scott/scott@orcl";
+        char sql_stat[100];
+        char choice;
+
+    EXEC SQL END DECLARE SECTION;
+
+
+    void sql_error()
+    {
+        printf("%.*s\n", sqlca.sqlerrm.sqlerrml, sqlca.sqlerrm.sqlerrmc);
+    }
+
+    void dynamic_sql()
+    {
+        for(;;)
+        {
+            printf("Please input SQL(not select and do not input';' ): \n");
+            fgets(sql_stat, 100, stdin);
+            
+            EXEC SQL EXECUTE IMMEDIATE :sql_stat;
+
+            printf("continue?\n");
+            scanf("%c", &choice);
+            fflush(stdin);
+            if(choice == 'n' || choice == 'N')
+            {
+                break;
+            }
+        }
+    }
+
+
+    int main(void)
+    {
+        EXEC SQL WHENEVER SQLERROR DO sql_error();
+
+        EXEC SQL CONNECT :serverid;
+        
+        dynamic_sql();
+
+        EXEC SQL COMMIT RELEASE;
+
+        return 0;
+    }
+```
+* ANSI动态SQL
+    - `proc iname=dm02_ansi4.pc oname=dm02_ansi4.c  sqlcheck=full mode=ansi`
+    - `gcc -g dm02_ansi4.c -o dm02_ansi4 -I${ORACLE_HOME}/precomp/public -L${ORACLE_HOME}/lib -lclntsh`
+    - 不要用gets()函数, 可以用fgets()函数
+    - 生成的.c文件需要修改
+        + 退格 `#include <stdio.h>`  
+        + 添加 `long SQLCODE;`
+```
+    //[oracle@oracledb dynamicSQL_proc]$ cat dm02_ansi4.pc
+
+    #include <stdio.h>  
+    #include <stdlib.h> 
+    #include <string.h>  
+    #include <sqlca.h>  
+
+    #define MAX_VAR_LEN 30
+    #define MAX_NAME_LEN 31  
+
+    exec sql begin declare section; 
+        char *usrname = "scott";
+        char *passwd = "scott";
+        char *serverid = "orcl"; 
+        
+        char sql_stat[100];  
+        char current_date[20]; 
+        
+    exec sql end declare section;  
+      
+    void sql_error(void);  
+    void connet(void);
+    void process_input(void);  
+    void process_output(void);  
+      
+    int main(void)  
+    {  
+        exec sql whenever sqlerror do sql_error();
+
+        connet();  
+
+        exec sql allocate descriptor 'input_descriptor';
+        exec sql allocate descriptor 'output_descriptor';
+      
+        for(;;)  
+        {  
+            printf("\n请输入动态SQL语句(EXIT:退出):\n");  
+            fgets(sql_stat, 100, stdin);  
+      
+            if(0 == strncmp(sql_stat , "EXIT" , 4) || 0 == strncmp(sql_stat , "exit" , 4))  
+                break;  
+      
+            exec sql prepare s from :sql_stat;  
+      
+            exec sql declare c cursor for s;  
+      
+            process_input();  
+      
+            exec sql open c using descriptor 'input_descriptor';  
+            if(0 == strncmp(sql_stat , "SELECT" , 6) , 0 == strncmp(sql_stat , "select" , 6))  
+            {  
+                    process_output();
+            }
+
+            exec sql close c;  
+        }  
+      
+        exec sql deallocate descriptor 'input_descriptor';  
+        exec sql deallocate descriptor 'output_descriptor';  
+      
+        exec sql commit work release;  
+        puts("谢谢使用ANSI动态SQL!\n");  
+      
+        return 0;  
+    }  
+      
+    void sql_error(void)  
+    {  
+        printf("%.*s\n" , sqlca.sqlerrm.sqlerrml , sqlca.sqlerrm.sqlerrmc);  
+        exit(1);
+    }  
+      
+    void process_input(void)  
+    {  
+        int i;  
+
+        exec sql begin declare section;  
+            int input_count;  
+            int input_type ;  
+            int input_len;  
+            char input_buffer[30];  
+            char name[31];  
+            int occurs;  
+        exec sql end declare section;  
+      
+        exec sql describe input s using descriptor 'input_descriptor';  
+      
+        exec sql get descriptor 'input_descriptor' :input_count = count;  
+      
+        for(i = 0 ; i != input_count ; ++i)  
+        {  
+            occurs = i + 1;  
+      
+            exec sql get descriptor 'input_descriptor' value :occurs :name = name;  
+            printf("请输入%s的值：" , name);  
+            fgets(input_buffer, 30, stdin);  
+      
+            input_len = strlen(input_buffer);  
+            input_buffer[input_len] = '\0';  
+      
+            input_type = 1;  
+            exec sql set descriptor 'input_descriptor' value :occurs   
+                type = :input_type , length = :input_len , data = :input_buffer;  
+        }  
+    }  
+      
+    void process_output(void)  
+    {  
+        int i;  
+      
+        EXEC SQL BEGIN DECLARE SECTION ;  
+            int output_count;  
+            int output_type;  
+            int output_len;  
+            char output_buffer[30];
+            short  output_indicator;  
+            char name[31];  
+            int occurs;  
+        EXEC SQL END DECLARE SECTION ;  
+      
+        exec sql describe output s using descriptor 'output_descriptor';  
+      
+        exec sql get descriptor 'output_descriptor' :output_count = count;  
+      
+        
+        output_type = 12;
+         
+        for(i = 0 ; i != output_count ; ++i)  
+        {  
+            occurs = i + 1;  
+            
+            output_len = MAX_VAR_LEN;  
+          
+            exec sql set descriptor 'output_descriptor' value :occurs   
+                            type = :output_type , length = :output_len;  
+      
+            exec sql get descriptor 'output_descriptor' value :occurs :name = name;  
+            
+            printf("\t%s" , name);  
+        }  
+        printf("\n");  
+      
+        exec sql whenever not found do break;  
+      
+        for(;;)  
+        {  
+            exec sql fetch c into descriptor 'output_descriptor';  
+               
+            for(i = 0 ; i < output_count ; ++i)  
+            {  
+                occurs = i + 1;  
+               
+                exec sql get descriptor 'output_descriptor' VALUE :occurs  
+                    :output_buffer = DATA , :output_indicator = INDICATOR;  
+      
+                if(-1 == output_indicator)  
+                   printf("\t%s", "   ");         
+                else  
+                   printf("\t%s" , output_buffer);        
+            }   
+            printf("\n"); 
+        }  
+    }
+
+    void connet(void)
+    {
+        int ret = 0;
+        
+        EXEC SQL CONNECT:usrname IDENTIFIED BY:passwd USING:serverid ;
+        if (sqlca.sqlcode != 0)
+        {
+            ret = sqlca.sqlcode;
+            printf("sqlca.sqlcode: err:%d \n", sqlca.sqlcode);
+            return;
+        } else {
+            printf("connect ok...\n");
+        }
+    }
+```

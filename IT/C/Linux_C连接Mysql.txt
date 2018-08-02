@@ -1,0 +1,179 @@
+Linux C连接Mysql
+首先确定系统上安装了GCC和MYSQL了没有,
+
+如果没有先安装.CentOS用
+
+yum -y install gcc
+
+yum -y install mysql-server
+
+此外还必须安装mysql-devel
+
+安装成功检测:
+
+复制代码
+[root@liu mysql]# rpm -qa | grep 'gcc'  
+libgcc-4.4.7-4.el6.x86_64
+gcc-4.4.7-4.el6.x86_64
+[root@liu mysql]# rpm -qa | grep 'mysql'
+mysql-5.1.73-3.el6_5.x86_64
+mysql-devel-5.1.73-3.el6_5.x86_64
+mysql-libs-5.1.73-3.el6_5.x86_64
+mysql-server-5.1.73-3.el6_5.x86_64
+复制代码
+然后启动mysql
+
+service mysqld start
+
+进入Mysql创建数据库和表
+
+复制代码
+mysql> create database c_test;
+mysql> use c_test
+CREATE TABLE `user` (
+`id`  int(11) NOT NULL AUTO_INCREMENT ,
+`name`  varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '' ,
+PRIMARY KEY (`id`)
+)
+ENGINE=InnoDB
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
+;
+mysql> insert into user(name) values('张三'),('李四'),('王五');
+mysql> select * from user;
++----+--------+
+| id | name   |
++----+--------+
+|  1 | 张三 |
+|  2 | 李四 |
+|  3 | 王五 |
++----+--------+
+3 rows in set (0.00 sec)
+复制代码
+ 
+
+创建mysql.c
+
+复制代码
+/*
+ ============================================================================
+ Name        : connect.c
+ Author      : 林泽归来
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Connect Mysql
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <mysql/mysql.h>
+
+MYSQL *g_conn; // mysql 连接
+MYSQL_RES *g_res; // mysql 记录集
+MYSQL_ROW g_row; // 字符串数组，mysql 记录行
+
+#define MAX_BUF_SIZE 1024 // 缓冲区最大字节数
+
+const char *g_host_name = "localhost";
+const char *g_user_name = "root";
+const char *g_password = "123456";
+const char *g_db_name = "c_test";
+const unsigned int g_db_port = 3306;
+
+void print_mysql_error(const char *msg) { // 打印最后一次错误
+    if (msg)
+        printf("%s: %s\n", msg, mysql_error(g_conn));
+    else
+        puts(mysql_error(g_conn));
+}
+
+int executesql(const char * sql) {
+    /*query the database according the sql*/
+    if (mysql_real_query(g_conn, sql, strlen(sql))) // 如果失败
+        return -1; // 表示失败
+
+    return 0; // 成功执行
+}
+
+
+int init_mysql() { // 初始化连接
+    // init the database connection
+    g_conn = mysql_init(NULL);
+    /*设置字符编码,可能会乱码*/
+    mysql_query(g_conn,"set nemas utf-8");
+    /* connect the database */
+    if(!mysql_real_connect(g_conn, g_host_name, g_user_name, g_password, g_db_name, g_db_port, NULL, 0)) // 如果失败
+        return -1;
+
+    // 是否连接已经可用
+    //if (executesql("set names utf8")) // 如果失败
+       // return -1;
+    return 0; // 返回成功
+}
+
+
+int main(void) {
+    if (init_mysql());
+        print_mysql_error(NULL);
+
+    char sql[MAX_BUF_SIZE];
+
+    if (executesql(sql))
+        print_mysql_error(NULL);
+    if (executesql("select * from user")) // 句末没有分号
+        print_mysql_error(NULL);
+
+    g_res = mysql_store_result(g_conn); // 从服务器传送结果集至本地，mysql_use_result直接使用服务器上的记录集
+
+    int iNum_rows = mysql_num_rows(g_res); // 得到记录的行数
+    int iNum_fields = mysql_num_fields(g_res); // 得到记录的列数
+
+    printf("共%d个记录，每个记录%d字段\n", iNum_rows, iNum_fields);
+
+    puts("id\tname\n");
+
+    while ((g_row=mysql_fetch_row(g_res))) // 打印结果集
+        printf("%s\t%s\n", g_row[0], g_row[1]); // 第一，第二字段
+
+    mysql_free_result(g_res); // 释放结果集
+
+    mysql_close(g_conn); // 关闭链接
+
+    return EXIT_SUCCESS;
+}
+复制代码
+ 
+
+编译
+
+gcc -g -o mysql -I/usr/include/mysql/ connect.c -L/usr/lib64/mysql/ -lmysqlclient -lz
+编译的时候要注意用到2个路径,mysql.h和libmysqlclient.so的路径
+
+查找mysql.h路径
+
+[root@liu mysql]# find / -name 'mysql.h'  
+/usr/include/mysql/mysql.h
+ 
+
+复制代码
+[root@liu mysql]# find / -name '*mysqlclient*' 
+/usr/lib64/mysql/libmysqlclient_r.so.16.0.0
+/usr/lib64/mysql/libmysqlclient.so.16
+/usr/lib64/mysql/libmysqlclient_r.so.16
+/usr/lib64/mysql/libmysqlclient_r.so
+/usr/lib64/mysql/libmysqlclient.so
+/usr/lib64/mysql/libmysqlclient.so.16.0.0
+复制代码
+运行:
+
+[root@liu mysql]# ./mysql 
+运行结果:
+
+共3个记录，每个记录2字段
+id      name
+
+1       张三
+2       李四
+3       王五
+一定要保持数据表编码,C文件编码的一致性,否则会出现乱码

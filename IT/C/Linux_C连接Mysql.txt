@@ -8,10 +8,10 @@ yum -y install gcc
 yum -y install mysql-server
 
 此外还必须安装mysql-devel
+yum install mysql-devel
 
 安装成功检测:
 
-复制代码
 [root@liu mysql]# rpm -qa | grep 'gcc'  
 libgcc-4.4.7-4.el6.x86_64
 gcc-4.4.7-4.el6.x86_64
@@ -20,14 +20,13 @@ mysql-5.1.73-3.el6_5.x86_64
 mysql-devel-5.1.73-3.el6_5.x86_64
 mysql-libs-5.1.73-3.el6_5.x86_64
 mysql-server-5.1.73-3.el6_5.x86_64
-复制代码
+
 然后启动mysql
 
 service mysqld start
 
 进入Mysql创建数据库和表
 
-复制代码
 mysql> create database c_test;
 mysql> use c_test
 CREATE TABLE `user` (
@@ -48,12 +47,10 @@ mysql> select * from user;
 |  3 | 王五 |
 +----+--------+
 3 rows in set (0.00 sec)
-复制代码
- 
+
 
 创建mysql.c
 
-复制代码
 /*
  ============================================================================
  Name        : connect.c
@@ -142,10 +139,28 @@ int main(void) {
 
     return EXIT_SUCCESS;
 }
-复制代码
+
  
 
-编译
+编译 makefile
+问题: 源码安装的libmysqlclient.so.20 与CentOS7不兼容, 需要yum install mysql-devel, 使用 libmysqlclient.so.18才可以
+
+[root@centos180 mysql_api]# vi makefile 
+src = $(wildcard *.c)
+target = $(patsubst %.c, %, $(src))
+inc_path = /opt/local/mysql/include/
+lib_path = /usr/lib64/mysql/
+
+all: $(target)
+
+%:%.c
+        gcc $< -o $@ -I$(inc_path) -L$(lib_path) -lmysqlclient -lstdc++ -lpthread -ldl -lrt
+
+clean:
+        -rm -rf $(target)
+
+.PHONY:all clean
+
 
 gcc -g -o mysql -I/usr/include/mysql/ connect.c -L/usr/lib64/mysql/ -lmysqlclient -lz
 编译的时候要注意用到2个路径,mysql.h和libmysqlclient.so的路径
@@ -156,7 +171,7 @@ gcc -g -o mysql -I/usr/include/mysql/ connect.c -L/usr/lib64/mysql/ -lmysqlclien
 /usr/include/mysql/mysql.h
  
 
-复制代码
+
 [root@liu mysql]# find / -name '*mysqlclient*' 
 /usr/lib64/mysql/libmysqlclient_r.so.16.0.0
 /usr/lib64/mysql/libmysqlclient.so.16
@@ -164,7 +179,7 @@ gcc -g -o mysql -I/usr/include/mysql/ connect.c -L/usr/lib64/mysql/ -lmysqlclien
 /usr/lib64/mysql/libmysqlclient_r.so
 /usr/lib64/mysql/libmysqlclient.so
 /usr/lib64/mysql/libmysqlclient.so.16.0.0
-复制代码
+
 运行:
 
 [root@liu mysql]# ./mysql 

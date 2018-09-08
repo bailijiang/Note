@@ -1,0 +1,97 @@
+使用ccl库读取配置文件
+
+下载、编译、安装库.
+
+wget http://files.sbooth.org/ccl-0.1.1.tar.gz
+tar -xvf ccl-0.1.1.tar.gz
+cd ccl-0.1.1
+./configure
+make
+make install
+ldconfig
+测试：
+
+在解压后的文件夹，有个demo文件夹，运行以下命令即可进行测试.
+
+[root@localhost ccl-0.1.1]# cd demo/
+[root@localhost demo]# ./tester simple.conf 
+(Background Color,Black)
+(Desktop-Picture,/usr/images/earth.jpg)
+(Position,Centered)
+注意事项：
+
+如果要使用g++编译
+
+则cpp文件包含ccl头文件时，采用以下的方式，
+
+extern "C"{
+#include "ccl/ccl.h"
+}
+否则，编译的时候会报以下错误
+
+[root@localhost cpptmp]# g++ tester.cpp -o tester -lccl
+/tmp/cc8VjFgx.o: In function `main':
+tester.cpp:(.text+0x93): undefined reference to `ccl_parse(ccl_t*, char const*)'
+tester.cpp:(.text+0xa2): undefined reference to `ccl_iterate(ccl_t*)'
+tester.cpp:(.text+0xe4): undefined reference to `ccl_release(ccl_t*)'
+collect2: 错误：ld 返回 1
+
+编译和测试：
+
+[root@localhost cpptmp]# g++ tester.cpp -o tester -lccl
+[root@localhost cpptmp]# ./tester simple.conf 
+(Background Color,Black)
+(Desktop-Picture,/usr/images/earth.jpg)
+(Position,Centered)
+
+---------------------------------------------------------------------------------------
+
+Introduction
+ccl is the customizable configuration library, a collection of functions for application programmers wishing to interface with user-editable configuration files containing key/value pairs.
+
+ccl is customizable because it allows the comment, key/value, and string literal delimiters to be programatically specified at runtime.
+
+ccl is designed to be simple and portable; it has a small interface consisting of five functions and is written in ANSI/ISO C. ccl uses avl’s implemenation of binary search trees for backend storage.
+
+Download
+ccl is available via ftp from http://files.sbooth.org/.
+
+Documentation 
+You can browse the library’s contents by using the navigation bar at the top of this page. A good starting point is the globals page.
+
+Example 
+An example is the best way to understand how ccl works. A configuration file named example.conf might contain:
+
+## Sample configuration file 
+Desktop-Picture = /usr/images/earth.jpg 
+Position = Centered 
+"Background Color" = Black 
+
+The following code demonstrates how to parse and access this file using ccl:
+
+#include "ccl/ccl.h"
+
+struct ccl_t config;
+const struct ccl_pair_t *iter;
+
+/* Set configuration file details */
+config.comment_char = '#';
+config.sep_char = '=';
+config.str_char = '"';
+
+/* Parse the file */
+ccl_parse(&config, "example.conf");
+
+/* Iterate through all key/value pairs */
+while((iter = ccl_iterate(&config)) != 0) {
+printf("(%s,%s)n", iter->key, iter->value);
+}
+
+/* Clean up */
+ccl_release(&config);
+
+When compiled, the snippet above produces the output
+
+(Background Color,Black) 
+(Desktop-Picture,/usr/images/earth.jpg) 
+(Position,Centered)

@@ -1,0 +1,2 @@
+1. 管理员权限运行 cmd
+2. powercfg -h off 

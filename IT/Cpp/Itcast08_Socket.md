@@ -1,27 +1,27 @@
 <!-- MarkdownTOC -->
 
-- [1. Makefile相关](#1-makefile相关)
-- [2. 大端/小端存储方式验证](#2-大端小端存储方式验证)
-- [3. server/client Socket最简实现](#3-serverclient-socket最简实现)
-- [4. TCP建立和断开连接](#4-tcp建立和断开连接)
-- [5. goto语句相关](#5-goto语句相关)
-- [6. 多进程socket并发服务器实现及CLOSE_WAIT问题解决](#6-多进程socket并发服务器实现及close_wait问题解决)
-- [7. 多线程并发服务器实现](#7-多线程并发服务器实现)
-- [8. 多线程QQ聊天室socket](#8-多线程qq聊天室socket)
-- [9. 多路I/O复用概念](#9-多路io复用概念)
-- [10. multiI/O-select](#10-multiio-select)
-- [11. mutiio-epoll1最简](#11-mutiio-epoll1最简)
-- [12. UDP服务器实现](#12-udp服务器实现)
-- [13. 得到结构体成员偏移位置offsetof函数](#13-得到结构体成员偏移位置offsetof函数)
-- [14. epoll调用epoll_wait的两种触发方式LT/ET-pipe](#14-epoll调用epoll_wait的两种触发方式ltet-pipe)
-- [15. epoll调用epoll_wait的两种触发方式LT/ET-Socket-Block](#15-epoll调用epoll_wait的两种触发方式ltet-socket-block)
-- [16. epoll调用epoll_wait的两种触发方式LT/ET-Socket-NonBlock](#16-epoll调用epoll_wait的两种触发方式ltet-socket-nonblock)
-- [17. epoll非阻塞io事件驱动服务器Reactor模型-重要](#17-epoll非阻塞io事件驱动服务器reactor模型-重要)
-- [18. 线程池模型](#18-线程池模型)
-- [19. C语言项目设计开发流程](#19-c语言项目设计开发流程)
-- [20. Shell相关](#20-shell相关)
-- [21. C语言中使用正则表达式](#21-c语言中使用正则表达式)
-- [22. C程序中打日志](#22-c程序中打日志)
+1. [1. Makefile相关](#1-makefile相关)
+1. [2. 大端/小端存储方式验证](#2-大端小端存储方式验证)
+1. [3. server/client Socket最简实现](#3-serverclient-socket最简实现)
+1. [4. TCP建立和断开连接](#4-tcp建立和断开连接)
+1. [5. goto语句相关](#5-goto语句相关)
+1. [6. 多进程socket并发服务器实现及CLOSE_WAIT问题解决](#6-多进程socket并发服务器实现及close_wait问题解决)
+1. [7. 多线程并发服务器实现](#7-多线程并发服务器实现)
+1. [8. 多线程QQ聊天室socket](#8-多线程qq聊天室socket)
+1. [9. 多路I/O复用概念](#9-多路io复用概念)
+1. [10. multiI/O-select](#10-multiio-select)
+1. [11. multiio-epoll1最简](#11-multiio-epoll1最简)
+1. [12. UDP服务器实现](#12-udp服务器实现)
+1. [13. 得到结构体成员偏移位置offsetof函数](#13-得到结构体成员偏移位置offsetof函数)
+1. [14. epoll调用epoll_wait的两种触发方式LT/ET-pipe](#14-epoll调用epoll_wait的两种触发方式ltet-pipe)
+1. [15. epoll调用epoll_wait的两种触发方式LT/ET-Socket-Block](#15-epoll调用epoll_wait的两种触发方式ltet-socket-block)
+1. [16. epoll调用epoll_wait的两种触发方式LT/ET-Socket-NonBlock](#16-epoll调用epoll_wait的两种触发方式ltet-socket-nonblock)
+1. [17. epoll非阻塞io事件驱动服务器Reactor模型-重要](#17-epoll非阻塞io事件驱动服务器reactor模型-重要)
+1. [18. 线程池模型](#18-线程池模型)
+1. [19. C语言项目设计开发流程](#19-c语言项目设计开发流程)
+1. [20. Shell相关](#20-shell相关)
+1. [21. C语言中使用正则表达式](#21-c语言中使用正则表达式)
+1. [22. C程序中打日志](#22-c程序中打日志)
 
 <!-- /MarkdownTOC -->
 
@@ -947,8 +947,8 @@ int main(void)
 }
 ```
 
-<a id="11-mutiio-epoll1最简"></a>
-#### 11. mutiio-epoll1最简
+<a id="11-multiio-epoll1最简"></a>
+#### 11. multiio-epoll1最简
 * Api: epoll_create, epoll_ctl, epoll_wait, struct epoll_event 
 * server.c:
 ```

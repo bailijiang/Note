@@ -1,25 +1,25 @@
 <!-- MarkdownTOC -->
 
-1. [Oracle基本命令](#oracle基本命令)
-1. [PL/SQL中文乱码问题](#plsql中文乱码问题)
-1. [单行\(数据\)函数](#单行数据函数)
-1. [条件判断if...else...](#条件判断ifelse)
-1. [分组函数](#分组函数)
-1. [多表查询](#多表查询)
-1. [__子查询__](#__子查询__)
-1. [单行/多行子查询](#单行多行子查询)
-1. [集合运算](#集合运算)
-1. [SQL语言的类型](#sql语言的类型)
-1. [__事务__](#__事务__)
-1. [创建表](#创建表)
-1. [修改表](#修改表)
-1. [闪回](#闪回)
-1. [__约束__](#__约束__)
-1. [视图view](#视图view)
-1. [序列](#序列)
-1. [索引Index](#索引index)
-1. [Pro*C/C++概念](#procc概念)
-1. [__Pro*C/C++操作__](#__procc操作__)
+- [Oracle基本命令](#oracle基本命令)
+- [PL/SQL中文乱码问题](#plsql中文乱码问题)
+- [单行\(数据\)函数](#单行数据函数)
+- [条件判断if...else...](#条件判断ifelse)
+- [分组函数](#分组函数)
+- [多表查询](#多表查询)
+- [__子查询__](#__子查询__)
+- [单行/多行子查询](#单行多行子查询)
+- [集合运算](#集合运算)
+- [SQL语言的类型](#sql语言的类型)
+- [__事务__](#__事务__)
+- [创建表](#创建表)
+- [修改表](#修改表)
+- [闪回](#闪回)
+- [__约束__](#__约束__)
+- [视图view](#视图view)
+- [序列](#序列)
+- [索引Index](#索引index)
+- [Pro*C/C++概念](#procc概念)
+- [__Pro*C/C++操作__](#__procc操作__)
 
 <!-- /MarkdownTOC -->
 
@@ -396,7 +396,7 @@ WHERE sal > (SELECT sal
 * 使用序列插入数据: `INSERT INTO table1 VALUES(myseq.nextval, 'aaa');`
 * 删除序列: `DROP SEQUENCE myseq;`
 * 序列是多张表的共有对象
-* ROLLBACK/掉电会造成数据不连续
+* ROLLBACK/掉电会造成序列数据不连续
 
 <a id="索引index"></a>
 #### 索引Index
@@ -407,7 +407,7 @@ WHERE sal > (SELECT sal
     - 列经常在WHERE子句或连接条件中出现
     - 表经常被访问且数据量大, 被访问的数据占数据总量的2%~%4之间(多个SELECT, 每个查询数据量都在总数据量的2%~%4之间)
 * 索引表是独立存储
-* 当删除一张表是, 基于这张表的所有索引都会被删除
+* 当删除一张表时, 基于这张表的所有索引都会被删除
 
 <a id="procc概念"></a>
 #### Pro*C/C++概念
@@ -693,8 +693,9 @@ WHERE sal > (SELECT sal
     }
 ```
 * 指示变量indicator
-    - 主要作用: 查询数据时, 判断数值是否为空, 如果为NULL, 指示变量值为-1
+    - 主要作用: 查询数据时, 判断数值是否为空, 如果为NULL, 指示变量值为-1(或插入空值NULL)
     - 类型: short
+    - 每个indicator与一个宿主变量进行关联
     - 插入空值NULL: 将指示变量赋值为-1, 执行插入语句, 无论宿主变量为何值, 都直接写入NULL
 ```
     // 04_indicator_var.pc
@@ -737,7 +738,7 @@ WHERE sal > (SELECT sal
         strcpy(loc, "Dalian");
         loc_ind = -1;
 
-        EXEC SQL INSERT INTO dept(deptno, dname, loc) VALUES(:deptno, :dname, :loc:loc_ind);
+        EXEC SQL INSERT INTO dept(deptno, dname, loc) VALUES(:deptno, :dname, :loc:loc_ind);    // 如果没有指定INDICATOR 关键字，指示变量必须紧跟在与其关联的宿主变量后
         if(sqlca.sqlcode != 0)
         {
             ret = sqlca.sqlcode;
@@ -1068,7 +1069,7 @@ WHERE sal > (SELECT sal
     - `proc iname=dm02_ansi4.pc oname=dm02_ansi4.c  sqlcheck=full mode=ansi`
     - `gcc -g dm02_ansi4.c -o dm02_ansi4 -I${ORACLE_HOME}/precomp/public -L${ORACLE_HOME}/lib -lclntsh`
     - 不要用gets()函数, 可以用fgets()函数
-    - 生成的.c文件需要修改
+    - bug: 生成的.c文件需要修改
         + 退格 `#include <stdio.h>`  
         + 添加 `long SQLCODE;`
 ```

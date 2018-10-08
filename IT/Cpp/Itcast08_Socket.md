@@ -1,27 +1,27 @@
 <!-- MarkdownTOC -->
 
-1. [1. Makefile相关](#1-makefile相关)
-1. [2. 大端/小端存储方式验证](#2-大端小端存储方式验证)
-1. [3. server/client Socket最简实现](#3-serverclient-socket最简实现)
-1. [4. TCP建立和断开连接](#4-tcp建立和断开连接)
-1. [5. goto语句相关](#5-goto语句相关)
-1. [6. 多进程socket并发服务器实现及CLOSE_WAIT问题解决](#6-多进程socket并发服务器实现及close_wait问题解决)
-1. [7. 多线程并发服务器实现](#7-多线程并发服务器实现)
-1. [8. 多线程QQ聊天室socket](#8-多线程qq聊天室socket)
-1. [9. 多路I/O复用概念](#9-多路io复用概念)
-1. [10. multiI/O-select](#10-multiio-select)
-1. [11. multiio-epoll1最简](#11-multiio-epoll1最简)
-1. [12. UDP服务器实现](#12-udp服务器实现)
-1. [13. 得到结构体成员偏移位置offsetof函数](#13-得到结构体成员偏移位置offsetof函数)
-1. [14. epoll调用epoll_wait的两种触发方式LT/ET-pipe](#14-epoll调用epoll_wait的两种触发方式ltet-pipe)
-1. [15. epoll调用epoll_wait的两种触发方式LT/ET-Socket-Block](#15-epoll调用epoll_wait的两种触发方式ltet-socket-block)
-1. [16. epoll调用epoll_wait的两种触发方式LT/ET-Socket-NonBlock](#16-epoll调用epoll_wait的两种触发方式ltet-socket-nonblock)
-1. [17. epoll非阻塞io事件驱动服务器Reactor模型-重要](#17-epoll非阻塞io事件驱动服务器reactor模型-重要)
-1. [18. 线程池模型](#18-线程池模型)
-1. [19. C语言项目设计开发流程](#19-c语言项目设计开发流程)
-1. [20. Shell相关](#20-shell相关)
-1. [21. C语言中使用正则表达式](#21-c语言中使用正则表达式)
-1. [22. C程序中打日志](#22-c程序中打日志)
+- [1. Makefile相关](#1-makefile相关)
+- [2. 大端/小端存储方式验证](#2-大端小端存储方式验证)
+- [3. server/client Socket最简实现](#3-serverclient-socket最简实现)
+- [4. TCP建立和断开连接](#4-tcp建立和断开连接)
+- [5. goto语句相关](#5-goto语句相关)
+- [6. 多进程socket并发服务器实现及CLOSE_WAIT问题解决](#6-多进程socket并发服务器实现及close_wait问题解决)
+- [7. 多线程并发服务器实现](#7-多线程并发服务器实现)
+- [8. 多线程QQ聊天室socket](#8-多线程qq聊天室socket)
+- [9. 多路I/O复用概念](#9-多路io复用概念)
+- [10. multiI/O-select](#10-multiio-select)
+- [11. multiio-epoll1最简](#11-multiio-epoll1最简)
+- [12. UDP服务器实现](#12-udp服务器实现)
+- [13. 得到结构体成员偏移位置offsetof函数](#13-得到结构体成员偏移位置offsetof函数)
+- [14. epoll调用epoll_wait的两种触发方式LT/ET-pipe](#14-epoll调用epoll_wait的两种触发方式ltet-pipe)
+- [15. epoll调用epoll_wait的两种触发方式LT/ET-Socket-Block](#15-epoll调用epoll_wait的两种触发方式ltet-socket-block)
+- [16. epoll调用epoll_wait的两种触发方式LT/ET-Socket-NonBlock](#16-epoll调用epoll_wait的两种触发方式ltet-socket-nonblock)
+- [17. epoll非阻塞io事件驱动服务器Reactor模型-重要](#17-epoll非阻塞io事件驱动服务器reactor模型-重要)
+- [18. 线程池模型](#18-线程池模型)
+- [19. C语言项目设计开发流程](#19-c语言项目设计开发流程)
+- [20. Shell相关](#20-shell相关)
+- [21. C语言中使用正则表达式](#21-c语言中使用正则表达式)
+- [22. C程序中打日志](#22-c程序中打日志)
 
 <!-- /MarkdownTOC -->
 
@@ -215,6 +215,7 @@ int main(int argc, char** argv)
 #### 4. TCP建立和断开连接
 * mss 1460 = MTU 1500 - IP 20 - TCP 20
 * ![](image\TCP连接建立断开.PNG)
+* 11种TCP状态: 实线表示客户, 虚线表示服务器 (使用 netstat 可以查看TCP状态)
 * ![](image\TCP状态转换图.PNG)
 
 <a id="5-goto语句相关"></a>
@@ -800,8 +801,8 @@ int main(int argc, char** argv)
 <a id="9-多路io复用概念"></a>
 #### 9. 多路I/O复用概念
 * 业务应用场景:
-    - 多进程/多线程: I/O密集型(耗时长)
-    - select/epoll: CPU密集型(计算,耗时短)
+    - 多进程/多线程: I/O密集型(I/O耗时长)
+    - select/epoll: CPU密集型(计算多,I/O耗时短)
 * select/epoll 原理: 内核阻塞监听所有文件描述符, 当有数据时再返回给业务处理程序(一个进程,顺序处理) 
 
 <a id="10-multiio-select"></a>
@@ -869,7 +870,7 @@ int main(void)
         //每次循环在select前, 必须先copy需要监视的fd_set
         rset = allset;
 
-        //每次调用select会轮询阻塞rset, 当有event发生时, 会将rset相应的位置1(修改rset), 并返回连接就绪个数
+        //每次调用select会轮询阻塞rset, 当有event发生时, 会将rset相应的位 置1(修改rset), 并返回连接就绪个数
         nready = select(maxfd+1, &rset, NULL, NULL, NULL);  //nready: 已经连接就绪的fd个数(需要处理数据的socket连接数)
         if(nready < 0)
         {
@@ -1831,7 +1832,7 @@ int main(int argc, char *argv[])
     - 逐个实现API, 逐个测试
     - 整体测试
 * 如果需要将处理完的数据转发到不同server(808->WAS->SaveCenter), 那么处理数据的server(WAS)同时是接收数据server(SaveCenter)的client端
-* server.c:
+* epoll_loop/server.c:
 ```
 // epoll基于非阻塞I/O事件驱动(反应堆)
 #include <stdio.h>

@@ -65,6 +65,7 @@
 <!-- /MarkdownTOC -->
 
 
+
 <a id="1-c命名空间namespace"></a>
 #### 1. C++命名空间namespace
 ```
@@ -198,8 +199,8 @@ $distance=\sqrt{(x2 - x1)^2 + (y2 - y1)^2}$
 * 构造函数与class同名
 * 构造函数可以重载
 * 构造函数可以为private属性设置初始值
-* 不显示写构造函数,会有一个默认的无参构造函数
-* 显示写构造函数会覆盖掉无参默认构造函数,此时如果要使用无参构造函数,就必须再显示写一个无参构造函数
+* 不显式写构造函数,会有一个默认的无参构造函数
+* 显示写构造函数会覆盖掉无参默认构造函数,此时如果要使用无参构造函数,就必须再显式写一个无参构造函数
 * 通过另一个对象构造(拷贝构造函数)
 
 ```
@@ -233,7 +234,7 @@ $distance=\sqrt{(x2 - x1)^2 + (y2 - y1)^2}$
 
 <a id="17-class的3种特殊函数"></a>
 #### 17. class的3种特殊函数
-* 默认构造函数(有参,无参): 如果显示的写了一个普通构造函数,会隐藏默认的无惨构造函数
+* 默认构造函数(有参,无参): 如果显示的写了一个普通构造函数,会隐藏默认的无参构造函数
 * 拷贝构造函数: 如果显示的写了一个拷贝构造函数,会隐藏默认的无参构造函数和默认的拷贝构造函数
 * 析构函数: 如果显示的写了一个析构函数,会隐藏默认的析构函数
 
@@ -294,7 +295,7 @@ private:
 #### 20. new 和 delete
 * C++中 new 和 delete 相当于 C 中的 malloc 和 free
 * new, delete 和 malloc, free 的区别:
-    - malloc和free 在对于普通变量是可以混合使用的, 但是 malloc和free 是函数, new和delete 是操作符, 不是一个函数, 没有压栈和出栈操作, new和delete 效率更高
+    - new和delete 在对于普通变量是可以混合使用的, 但是 malloc和free 是函数, new和delete 是操作符, 不是一个函数, 没有压栈和出栈操作, new和delete 效率更高
     - new 在创建一个对象的时候，会调用对象的构造函数,delete在释放一个对象指针的时候，会调用对象析构函数
 ```
 void test2()
@@ -327,13 +328,13 @@ void test2()
 #### 21. static静态成员变量
 * 在类的内部声明这个变量 用static
 * 静态的成员变量是对本class共享, 所有本class中的对象, 都是共用一个内存区域
-* 在__类的外部__去写静态成员变量的__初始化__, 不加 static关键字
+* 在__类的外部__去__初始化__类class的静态成员变量, 不加 static关键字  `int AA::m_c = 0;` (day03_11)
 * 不能被其他类class调用
 * static修饰的成员变量并不属于对象中, 而是在全局区开辟的
 
 <a id="22-static静态成员函数"></a>
 #### 22. static静态成员函数
-* 如果class的static成员变量在private中, 就需要提供static成员函数对其进行访问
+* 如果class的static成员变量放在private中, 就需要提供static成员函数对其进行访问
 * 可以把他当成一个类的全局函数
 
 <a id="23-货物进货出货练习"></a>
@@ -439,7 +440,7 @@ int main(void)
   //Test_getI(&t1);
 ```
 * 哪个对象调用的, 就传那个对象的指针: `t2.getK(); // t2.getK(&t2)`
-* this 时一个常量指针: Test* const this
+* this 是一个常量指针: Test* const this
 * 如果想将this指针变成只读, 可以在成员函数后面加 const
 ```
   int  getK()  const   // int getK(const Test *const this) // this 是一个常指针
@@ -1964,7 +1965,7 @@ int main(void)
 
 <a id="59-自定义异常类"></a>
 #### 59. 自定义异常类
-* 继承 exception 类, 实现 e.what() 方法
+* 继承 exception 类, 实现 e.what() 方法  //day10_9
 ```
 virtual const char *what() const{
     cout << "MyException 的异常" << endl;

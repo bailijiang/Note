@@ -1,0 +1,7 @@
+面试题:
+1. mfc 双管道(两个进程间通信, 4个句柄);
+2. class方法作为回调函数的方法(friend);
+3. 多线程的调度方式;
+4. mfc加载图片, 鼠标光标变换(图片抖动); 双缓冲/ static  https://blog.csdn.net/atp1992/article/details/80973007
+5. 继承多个父类, 如何进行区别; https://www.cnblogs.com/yangyh/p/3373252.html
+6. 项目当中的技术难点(亮点/值得说的);

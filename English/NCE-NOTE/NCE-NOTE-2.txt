@@ -884,5 +884,14 @@ He also said that he had found five empty wiskey bottles which the ghost must ha
 The villagers have told him that they will not accept the inn even if he gaves it away.
 
 L48: Did You Want To Tell Me Something?
-* whether 引导的从句
-
+* 宾语从句的疑问句使用陈述句语序
+He then asked me how my brother was and whether I liked my new job in London.
+* either...or: 要么...要么...
+In answer to these questions I either nodded or made strange noises.
+* topic sentence:
+Dentists always ask questions when it is impossible for you to answer.
+* 常用动词make, do:
+He had make progress.
+You never do a job properly.
+Why can't you make up your mind?
+I have to go out now. I must do some shopping.

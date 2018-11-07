@@ -965,3 +965,17 @@ He would sit for hours doing nothing.
 * Done/Doing + ... : 分词短语(增加表达信息量)
 Armed with the new machine, a search party went into the cave hoping to find buried treasure.
 Very excited, the party dug a hole two feet deep.
+
+L56: Faster than Sound!
+* 比较级/最高级
+One of the most handsome cars was a Rolls-Royce Silver Ghost.
+The most unusual car was a Benz which had only three wheels.
+Built in 1885, it was the oldest cat taking part.
+Many of the cars broke down on the course and some drivers spent more time under their cars than in them!
+The winning car reached a speed of forty miles an hour--much faster than any of its rivals.
+It was very different from modern car races but no less exciting. (...no less exciting than modern car races.)
+
+L57: Can I Help You Madam?
+* 介词使用： in, at, out of, to, with, into
+The woman walked out of the shop angrily and decided to punish the assistant next day.
+She returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.

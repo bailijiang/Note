@@ -1086,10 +1086,33 @@ L64: The Channel Tunnel
 3类if条件句
 * 表示将来很可能发生的事
 If you park your car in the wrong place, a traffic policeman will soon find it.
+You'll miss the train, if you don't hurry.
 
-* 想象中的情况
+ 虚拟语气
+* 与现在事实相反的, 想象中的情况(不太可能发生的)
 If I were you, I would not go to London tomorrow.
+If I were in your position, I would act differently.
 
-* 假设条件句, 与过去事实相反, if从句需用过去完成时，主句用
-would have/should have+过去分词形式：
-If I had worked harder at school, I'd have go a better job.
+* 与过去事实相反, 假设条件句, 
+  if从句需用过去完成时had done，
+  主句用would have/should have done 过去分词形式：
+If I had worked harder at school, I'd have got a better job.
+You had got a good health If you would have had good exercise. 
+
+L65: Jumbo versus police
+* 表示“应该”和“必须”的情态助动词 should, ought, have to 与must
+I missed the train, so I had to take a taxi.
+I'm sorry I'm late. I should have taken a taxi.
+I should to stop smoking.
+I must stop smoking.
+I should have stopped smoking.
+Do you have to wash the dishes now?
+I would get that job if I should have studied English hard.
+If I should not have eaten candy, my teeth would not decay.
+
+L66: Sweet as honey!
+* 完全动词: have 
+Do you have a good meal?
+
+* 使役动词: have + 名词/宾格 + done 
+I'm having my car repaired.

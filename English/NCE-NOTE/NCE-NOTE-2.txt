@@ -1111,8 +1111,22 @@ I would get that job if I should have studied English hard.
 If I should not have eaten candy, my teeth would not decay.
 
 L66: Sweet as honey!
-* 完全动词: have 
-Do you have a good meal?
+* 完全(实意)动词: have 
+Did you have a good meal?
+He has five cars.
 
-* 使役动词: have + 名词/宾格 + done 
+* 使役动词: have + 名词/宾格 + done (sb 使 sth/sb 如何)
+  强调sth/sb别人, 但不必指明 (相对于被动语态的第三方)
+I washed my car.
+My car was washed.
+I had my car washed. 我让人把车给洗了.
 I'm having my car repaired.
+I'm going to have my suit cleaned.
+
+L67: Volcanoes
+* 表示“能力”的情态助动词及其他有关的动词： can/ could / be able to / manage to
+I can't remember where I've seen him.
+I can sing some songs, but I can't play the piano.
+He thought he could pass the exam easily, but he failed.
+He was able to finish the job yesterday.
+He managed to finish the job yesterday.

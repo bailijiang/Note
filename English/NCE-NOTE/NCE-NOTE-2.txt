@@ -1130,3 +1130,18 @@ I can sing some songs, but I can't play the piano.
 He thought he could pass the exam easily, but he failed.
 He was able to finish the job yesterday.
 He managed to finish the job yesterday.
+
+I think I can be a successful programmer and I can't fail.
+I was able to win the game yesterday because I have ever been training hard.
+I managed to obtain the job as I took part a number of interviews.
+
+L68: Persistent
+* 动名词doing
+I like watching TV.
+I'd like to watch TV.
+I tried to avoid meeting him.
+I never enjot meeting Nigel Dykes.
+I haven't finished speaking yet.
+He insisted on paying.
+Why don't we go swimming?
+I saw him coming.

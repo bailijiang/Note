@@ -1140,8 +1140,36 @@ L68: Persistent
 I like watching TV.
 I'd like to watch TV.
 I tried to avoid meeting him.
-I never enjot meeting Nigel Dykes.
+I never enjoy meeting Nigel Dykes.
 I haven't finished speaking yet.
 He insisted on paying.
 Why don't we go swimming?
 I saw him coming.
+
+I turned my head, trying to avoid looking at her.
+It's no use arguing with you.
+It is no use having medicine for this kind of illness.
+I insisted on studying English well.
+The blacklist of the telephone can prevent trash phone from calling in.
+You are very busy, aren't you? You are not very busy, are you?
+Would you mind drinking with me?
+Would you mind my smoking here?
+I enjoy playing basketball.
+
+L69: But not murder!
+* 被动语态
+  was/were being done
+  had been done
+  has/have been done
+  was/were done
+  could be done
+  现在完成进行时被动语态和将来进行时被动语态的句子通常会将进行时的成分去掉(不常用)
+When I was being interviewed yesterday, I received a call.
+The haze was being decreased as the wind blew.
+The enemy had been destroyed this morning.
+My money has been spent out.
+The mobile phone that I wanted to buy was already sold out.
+Though the bicycle could be ridden, I haven't enough money.
+
+L70: Red for danger
+* 与 for, with, of, to, at, from, in, on, about 连用的形容词

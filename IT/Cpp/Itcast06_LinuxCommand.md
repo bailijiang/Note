@@ -5,11 +5,11 @@
 - [3. toolchain](#3-toolchain)
 - [4. 程序在Linux内存中的存储位置](#4-程序在linux内存中的存储位置)
 - [5. 函数库](#5-函数库)
-- [5. gdb](#5-gdb)
-- [6. makefile](#6-makefile)
-- [7. C项目目录结构](#7-c项目目录结构)
-- [8. 将目录下的所有.c文件单独生成可执行文件](#8-将目录下的所有c文件单独生成可执行文件)
-- [9. makefile同一目录下多个目标](#9-makefile同一目录下多个目标)
+- [6. gdb](#6-gdb)
+- [7. makefile](#7-makefile)
+- [8. C项目目录结构](#8-c项目目录结构)
+- [9. 将目录下的所有.c文件单独生成可执行文件](#9-将目录下的所有c文件单独生成可执行文件)
+- [10. makefile同一目录下多个目标](#10-makefile同一目录下多个目标)
 
 <!-- /MarkdownTOC -->
 
@@ -77,8 +77,8 @@ test01.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
 * ldd app: 查看需要加载哪些动态链接库
 * 配置动态链接库路径: vi ~/.bashrc -> export LD_LIBRARY_PATH=./  
 
-<a id="5-gdb"></a>
-#### 5. gdb
+<a id="6-gdb"></a>
+#### 6. gdb
 * 调试逻辑错误
 * 命令: gdb file_name
     - list 1
@@ -112,10 +112,10 @@ test01.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
     - 直接停到出错位置: gdb a.out core
     - 查看函数调用关系: bt
 
-<a id="6-makefile"></a>
-#### 6. makefile
+<a id="7-makefile"></a>
+#### 7. makefile
 * 组成: 目标, 依赖, 命令 (变量, 函数)
-    - 目标:依赖<br>
+    - $(集合):目标:依赖<br>
       (tab)命令
 * makefile / Makefile
 ```
@@ -147,9 +147,9 @@ clean:
 ```
 * make clean -n : 测试不执行
 * 自动变量: 
-    - $@ : 命令中的目标
-    - $< : 命令中的第一个条件
-    - $^ : 命令中的条件
+    - $@ : 目标
+    - $< : 依赖中的第一个条件
+    - $^ : 依赖中的所有条件
 ```
 src = add.c sub.c main.c
 obj = add.o sub.o main.o
@@ -226,8 +226,8 @@ clean:
 .PHONY:clean ALL
 ```
 
-<a id="7-c项目目录结构"></a>
-#### 7. C项目目录结构
+<a id="8-c项目目录结构"></a>
+#### 8. C项目目录结构
 * ![](image\c项目目录结构.PNG)
 * 项目中的makefile:
 ```
@@ -252,8 +252,8 @@ clean:
 .PHONY:clean ALL
 ```
 
-<a id="8-将目录下的所有c文件单独生成可执行文件"></a>
-#### 8. 将目录下的所有.c文件单独生成可执行文件
+<a id="9-将目录下的所有c文件单独生成可执行文件"></a>
+#### 9. 将目录下的所有.c文件单独生成可执行文件
 ```
 src = $(wildcard *.c)
 target = $(patsubst %.c, %, $(src))
@@ -268,8 +268,8 @@ clean:
 .PHONY:clean ALL
 ```
 
-<a id="9-makefile同一目录下多个目标"></a>
-#### 9. makefile同一目录下多个目标
+<a id="10-makefile同一目录下多个目标"></a>
+#### 10. makefile同一目录下多个目标
 ```
 server = server.c wrap.c
 client = client.c wrap.c

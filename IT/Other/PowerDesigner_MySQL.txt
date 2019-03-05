@@ -1,0 +1,23 @@
+使用PowerDesigner设计建造MySQL数据库
+
+一、使用PowerDesigner制作建库脚本
+1、设计CDM(Conceptual Data Model)
+2、选择 Tools -> Generate Physical Data Model ，选择对应的DBMS为mysql，生成PDM
+3、选择 Database -> Generate Database ，在弹出的 Database Generation 对话框中选择脚本存取路径及脚本文件名称
+4、点击确定后生成数据库建库脚本(*.sql)
+
+
+-----------------------------------------------------
+
+近日在使用PowerDesigner设计MySql的Model，但在生成SQL脚本的时候，老是过不去。
+PowerDesigner版本:15
+MySql版本:5
+主要问题有以下几点：
+1、当字段类型为text,longtext,ENUM的时候，一定要把"National"关键字去掉，可以双击表-->"Columns"-->双击字段-->"MySql"-->去掉Charset中的"National"复选。
+2、一定要把主键脚本生成在create table里面，可以在生成数据库脚本的时候进行设置：菜单Database-->Database Generation-->Options-->选择左边的"Key"-->把右边的"Outside"改为"Inside"
+
+还有其它要注意的地方：
+1、从数据库中反向导入到PD中的时候，ENUM字段的默认值会被加上~，要去掉才可以。
+2、在生成SQL文件的时候，如果是UTF8的话，也要设置一下导出的格式，不然中文是乱码
+
+总的来讲，PowerDesigner是一个很不错的东东，至少提供有地方让我们去设置。

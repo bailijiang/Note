@@ -351,7 +351,7 @@ int a = *(int *)((char*)&v + sizeof(Test));
 * 游标移动到链表的下一节点, 但返回的是移动前的节点(游标++)
     - `CircleListNode* CircleList_Next(CircleList* list);`
 * 删除节点时, 游标向后移动到有效节点
-    - 删除的时头节点时, 先找到尾节点, 使其指向头节点的下一个节点(新的头节点)
+    - 删除的是头节点时, 先找到尾节点, 使其指向头节点的下一个节点(新的头节点)
 * 头部插入时, 要先找到尾部节点, 使其指向新节点pNew, pNew->(head->next), head->pNew
     - 链表为空时, pNew->pNew
 

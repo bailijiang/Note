@@ -1181,7 +1181,7 @@ I'm sensitive to the sound.
 I'm pretty sure of winning the game.
 I feel so sorry for the foolish of the people of China.
 
-L71: A famous clock
+# L71: A famous clock
 * 复习: 将来时 / if条件句 / 完成时 / 情态动词 / 使役动词have / 被动语态 / 介词+动名词 / adj+prep
 - When ... do ... , ... will do ...
 When you compete on the court, you will feel very excited.
@@ -1209,7 +1209,7 @@ If I had studied coding, I would have obtained this job.
 - ...not only...but...as well (Not only 放句首时, 后面要倒装)
 Not only are you dump but mean as well.
 
-L72: A car called Bulebird
+# L72: A car called Bulebird
 * to 引导的不定式短语做定语修饰前面的名词
 She's always the first to arrive and the last to leave.
 You're the best person to advise me about buying a house.
@@ -1223,17 +1223,86 @@ I feel very disappointed with the firm.
 * set up 创造
 I wish I can set up the miracle.
 
-L73: The record-holder
-* 动名词和现在分词的区别: doing
-    - 动名词当名词用, 有动作持续性的含义;      n.
-    - 现在分词引导的短语当形容词用, 表伴随, 修饰前面的名词;  adj.
+# L73: The record-holder
+##1. 动名词和现在分词的区别: doing
+    - 动名词当名词用, 有动作持续性的含义;      
+    - 现在分词引导的名词短语当形容词用, 表伴随性动作, 修饰前面的动词;  
+We couldn't help laughing as hearing such funny news.
+People shouldn't call as driving.
+As far as my concerned, traveling by air is very scared.
 
-* ... as far as ... 能够达到的程度 / 就...而言
+Yesterday, I returned home, carrying a lot of food.(carrying 修饰 returned)
+The teacher came into the classroom, carrying(carried) a book in her hand.
 
-* in the meantime 在这期间(与此同时)
+##2. 从句:
+* 主语从句 who
+People who like to play basketball are usually good healthy.
+The man who is standing by the road is my high school classmate.
 
-* pick up 把...拾起来 / 到...去接人 / 被...拘捕
+* 时间状语从句： when(时间点有前后) / as(随着,同时) / while(持续一段时间)
+When I arrived at the bus stop, the bus had already gone.
 
-* 从句 who(主语) / when(时间状语) / that(宾语) / as(时间状语)
+As she grew older she gained in confidence.
+I was playing video's game as you called me yesterday.
+
+They arrived while we were having dinner.
+
+* 宾语从句that：
+I can't believe that he's only 17.
+Are you sure that they live in Beijing?
+
+## ... as far as ... 能够达到的程度 / 就...而言 (连词，与距离无关)
+My boss who lies to me is very dishonorable. A whole day's lying is usually as far as he gets.
+As far as I can see, there's nothing else to discuss.
+I only do this as far as I can.
+
+## in the meantime 在这期间(与此同时)
+I had dinner last night, in the meantime, it began to snow.
+
+## pick up 把...拾起来 / 到...去接人 / 被...拘捕
+My boss was picked up because he lied to me.
+
+# L74: Out of the limelight
+##1. 过去完成时： had done
+* 过去的过去(过去已经...)
+I had gone to gas when I drove yesterday.
+I had taken enough preparing when I interviewed last time.
+I had decided to quit my job before went on a business trip.
+When we had finished dinner, my girlfriend appeared.
+
+* 虚拟语气(与事实相反): 
+  原理：以 现在/过去 的时间为基准点，往前推一个时态(现在时->过去时，过去时->过去完成时) 
+I didn't feel bad if I had drunk less.
+She looked at me as if I had been a stranger.
+
+# L75: SOS
+##1. 主系表句子结构： 主语 + 系动词 + 形容词
+Snow lay thick on the ground.
+It grew dark.
+It got terribly cold.
+
+You grew fat.
+My boss is very awful.
+
+##2. 动词的现在分词形式，表伴随
+We ate and drunk, laughter filling the whole room.
+I ate dinner, watching the TV.
+Yesterday, I worked in my office, listening to jazz music.
+
+##3. 不久： It was not long before(连词) / It will not be long before
+I will not be long before to find my girlfriend.
+
+# L76: Apil Fools' Day
+##1. 现在完成时: 
+      have/has been 
+      have/has been done 被动
+      have/has been doing 进行
+I have finished my homework.
+He has gone abroad.
+He has been arrested.
+They have been fired.
+How long has it been grown there?
+I have been living here for thirty years.
+He has been selling drug here for three years.
 
 

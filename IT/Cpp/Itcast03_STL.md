@@ -145,6 +145,7 @@ void setScore(vector<Player> &pList) {
             dscore.push_back(score);
         }
         sort(dscore.begin(), dscore.end(), myCompare);
+        //去掉最高,最低分
         dscore.pop_front();
         dscore.pop_back();
 

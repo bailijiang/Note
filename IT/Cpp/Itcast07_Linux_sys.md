@@ -674,6 +674,7 @@ int main(int argc,char** argv)
 * 一个BlockGoup有多少个8K, 就有多少个inode
 * 数据块寻址
 * ![](image\数据块寻址.PNG)
+* 索引项代表block的号
 
 * inode表中, 每个inode中的Block[]下标索引项占4字节: 每4个字节标识一个Block, 后3个是间接寻址, 里面存放的时Block的编号(不是地址)
 * 当一个Block块大小为1K时(b=1K=1024Bytes), 最多可表示$(b/4)^3+(b/4)^2+(b/4)+12$=16843020 个数据块, 即16843020K字节, 即一个inode对应的一个文件最大为 16.06GB
@@ -1196,6 +1197,9 @@ int main(void)
 
 <a id="42-fork创建子进程并用循环因子i区分"></a>
 #### 42. fork创建子进程并用循环因子i区分
+* 在父进程中，fork返回新创建子进程的进程ID；
+* 在子进程中，fork返回0；
+* 如果出现错误，fork返回一个负值；
 ```
 #include <stdio.h>
 #include <stdlib.h>

@@ -24,6 +24,37 @@
 - [22. 常用集合算法\(交集/并集\)](#22-常用集合算法交集并集)
 - [23. distance 两个迭代器的距离](#23-distance-两个迭代器的距离)
 - [24. 演讲比赛练习](#24-演讲比赛练习)
+- [25. list双向链表操作](#25-list双向链表操作)
+- [26. priority_queue优先队列操作](#26-priority_queue优先队列操作)
+- [27. iterator迭代器使用](#27-iterator迭代器使用)
+- [28. 使用iterator迭代器在顺序容器中查找](#28-使用iterator迭代器在顺序容器中查找)
+- [29. size_type类型](#29-size_type类型)
+- [30. 顺序容器的insert操作](#30-顺序容器的insert操作)
+- [31. 顺序容器的查找删除find/erase](#31-顺序容器的查找删除finderase)
+- [32. 顺序容器的交换swap和赋值assign](#32-顺序容器的交换swap和赋值assign)
+- [33. string字符串的查找](#33-string字符串的查找)
+- [34. map/multimap操作](#34-mapmultimap操作)
+- [35. set/multiset操作](#35-setmultiset操作)
+- [36. 函数对象/class实例函数对象的使用](#36-函数对象class实例函数对象的使用)
+- [37. count/count_if计数器操作](#37-countcount_if计数器操作)
+- [38. max/min计算最大最小值](#38-maxmin计算最大最小值)
+- [39. search_n查找算法](#39-search_n查找算法)
+- [40. search/find_end在容器中查找另一个容器](#40-searchfind_end在容器中查找另一个容器)
+- [41. 用find_first_of在ivec中查找searchList中的任一个对象](#41-用find_first_of在ivec中查找searchlist中的任一个对象)
+- [42. adjacent_find查找2个连续的](#42-adjacent_find查找2个连续的)
+- [43. 对已序区间进行查找binary_search/includes](#43-对已序区间进行查找binary_searchincludes)
+- [44. lower_bound/upper_bound/equal_range 查找算法应用于顺序容器](#44-lower_boundupper_boundequal_range-查找算法应用于顺序容器)
+- [45. for_each算法使用](#45-for_each算法使用)
+- [46. 区间\(容器\)比较equal/mismatch/lexicographical_compare](#46-区间容器比较equalmismatchlexicographical_compare)
+- [47. 复制元素copy/copy_backward算法](#47-复制元素copycopy_backward算法)
+- [48. transform变换算法使用](#48-transform变换算法使用)
+- [49. for_each与transform的比较](#49-for_each与transform的比较)
+- [50. swap_ranges/swap算法使用](#50-swap_rangesswap算法使用)
+- [51. fill/fill_n/generate/generate_n填充算法](#51-fillfill_ngenerategenerate_n填充算法)
+- [52. replace/replace_if/replace_copy/replace_copy_if替换算法的使用](#52-replacereplace_ifreplace_copyreplace_copy_if替换算法的使用)
+- [53. 删除算法使用](#53-删除算法使用)
+- [54. reverse/rotate旋转算法](#54-reverserotate旋转算法)
+- [55. next_permutation/prev_permutation排列组合算法](#55-next_permutationprev_permutation排列组合算法)
 
 <!-- /MarkdownTOC -->
 
@@ -1244,7 +1275,2226 @@ int main()
 }
 ```
 
+<a id="25-list双向链表操作"></a>
+#### 25. list双向链表操作
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <deque>
+#include <algorithm>
+#include <list>
+
+using namespace std;
+
+void printIntListContent(const list<int> &listInput)
+{
+    cout << endl;
+    cout << "{ ";
+    list<int>::const_iterator iter;
+
+    for (iter = listInput.begin(); iter != listInput.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << " }";
+    cout << endl;
+
+}
+
+int main(int argc, char *argv[])
+{
+
+    list<int> l1;
+    l1.push_back(7);
+    l1.push_back(8);
+    l1.push_back(9);
+    l1.push_back(10);
+    l1.push_front(2);
+    l1.push_front(1);
+
+    list<int>::iterator iter = l1.begin();
+    iter++;
+
+    l1.insert(iter, 88);
+
+    l1.erase(l1.begin());
+
+    list<int>::iterator itr;
+    for (itr = l1.begin(); itr != l1.end(); ++itr)
+    {
+        cout << *itr << endl;
+    }
+
+
+    cout << "--------------" << endl;
+
+    printIntListContent(l1);
+
+    l1.reverse();
+    printIntListContent(l1);
+
+    l1.sort();
+    printIntListContent(l1);
+
+    return 0;
+}
+
+```
+
+<a id="26-priority_queue优先队列操作"></a>
+#### 26. priority_queue优先队列操作
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <deque>
+#include <algorithm>
+#include <list>
+#include <stack>
+#include <queue>
+#include <functional>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+
+    priority_queue<int> pq1; // default vector
+    priority_queue<int, deque<int>> pq2;
+
+    pq1.push(20);
+    pq1.push(88);
+    pq1.push(-9);
+    pq1.push(34);
+
+    cout << pq1.top() << endl;
+
+    priority_queue<int, vector<int>, greater<int> > pq3;
+
+    return 0;
+}
+
+```
+
+<a id="27-iterator迭代器使用"></a>
+#### 27. iterator迭代器使用
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <deque>
+#include <algorithm>
+#include <list>
+#include <stack>
+#include <queue>
+#include <functional>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+
+    vector<int> a;
+    deque<int> b;
+    list<int> c;
+
+    a.push_back(1);
+    a.push_back(2);
+    a.push_back(3);
+    a.push_back(4);
+    a.push_back(5);
+
+    vector<int>::iterator first = a.begin();
+    vector<int>::iterator last = a.end(); // end() 指向最后一个的下一个
+                                           // 目的: 为了循环条件设置方便,前包后不包 [ )
+
+    while (first != last)
+    {
+        cout << *first << endl;
+        first++;
+    }
+
+    vector<int>::iterator m = a.begin() + a.size() / 2;
+    cout << "middle: " << *m << endl;
+
+    return 0;
+}
+
+```
+
+<a id="28-使用iterator迭代器在顺序容器中查找"></a>
+#### 28. 使用iterator迭代器在顺序容器中查找
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <deque>
+#include <algorithm>
+#include <list>
+#include <stack>
+#include <queue>
+#include <functional>
+
+using namespace std;
+
+//在begin和end的范围内找x, 返回迭代器位置, 如果找到begin!=end, 如果没找到begin==end
+vector<int>::iterator findIntInVector(vector<int>::iterator begin,
+                                      vector<int>::iterator end,
+                                      int x)
+{
+    while (begin!=end)
+    {
+        if (*begin == x)
+            break;
+        else
+            begin++;
+    }
+    return begin;
+}
+
+
+int main(int argc, char *argv[])
+{
+
+    vector<int> a;
+    deque<int> b;
+    list<int> c;
+
+    a.push_back(1);
+    a.push_back(2);
+    a.push_back(3);
+    a.push_back(4);
+    a.push_back(5);
+
+    vector<int>::iterator first = a.begin();
+    vector<int>::iterator last = a.end(); 
+
+    vector<int>::iterator result = findIntInVector(first, last, 5);
+    if (result != last)
+        cout << "find 5 in vec a." << endl;
+    else
+        cout << "not find 5 in vec a." << endl;
+
+    return 0;
+}
+
+```
+
+<a id="29-size_type类型"></a>
+#### 29. size_type类型
+所谓 size_type 就是这个“vector 的 size 的类型”。
+
+size就是指vector有多少个元素，这个“多少个”也是个整型值，它的类型就是 size_type。
+
+举个具体的例子：
+
+假如有个vector，你调用size()来得到它有多少个元素，你要把这个值存在一个变量里，那么这个变量该声明为什么类型呢？
+
+int 型吗？ 万一这个vector的元素数超过了 int 的范围呢？  要不就用 long？ 万一也不够用呢？？
+
+现在你知道了 size_type 就是这个 size 值的类型，你只要声明一个 size_type 类型的变量就能存下“元素个数”的值。
+
+顺便一提，在 C 语言中 size_t 指的是系统中最大的整型类型，一般在前述情况下都是使用 size_t 类型的。
+
+<a id="30-顺序容器的insert操作"></a>
+#### 30. 顺序容器的insert操作
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <deque>
+#include <algorithm>
+#include <list>
+#include <stack>
+#include <queue>
+#include <functional>
+
+using namespace std;
+
+
+int main(int argc, char *argv[])
+{
+    string array[4] = { "Bill","Mary","Tom", "Jerry" };
+    vector<string> a1;
+
+    a1.push_back("begin");
+    a1.push_back("end");
+
+    vector<string>::iterator aBegin = a1.begin();
+    vector<string>::iterator aEnd = a1.end();
+
+    //insert
+    aBegin++;
+    a1.insert(aBegin, array+1, array + 2);
+
+    for (vector<string>::iterator iter = a1.begin();iter != a1.end();++iter)
+    {
+        cout << *iter << " ";
+    }
+
+    cout << endl;
+
+    return 0;
+}
+```
+
+<a id="31-顺序容器的查找删除finderase"></a>
+#### 31. 顺序容器的查找删除find/erase
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <deque>
+#include <algorithm>
+#include <list>
+#include <stack>
+#include <queue>
+#include <functional>
+
+using namespace std;
+
+
+int main(int argc, char *argv[])
+{
+    list<string> slist;
+    slist.push_back("apple");
+    slist.push_back("boy");
+    slist.push_back("cat");
+    slist.push_back("dog");
+    slist.push_back("egg");
+    slist.push_back("fish");
+
+    /*slist.pop_back();
+    slist.pop_front();*/
+
+    string s("dog");
+    list<string>::iterator result = find(slist.begin(), slist.end(), s);
+    if (result != slist.end())
+    {
+        slist.erase(result);
+    }
+    else
+    {
+        cout << "not find!" << endl;
+    }
+
+
+    for (list<string>::iterator iter = slist.begin(); iter != slist.end(); ++iter)
+    {
+        cout << *iter << endl;
+    }
+
+    return 0;
+}
+
+```
+
+<a id="32-顺序容器的交换swap和赋值assign"></a>
+#### 32. 顺序容器的交换swap和赋值assign
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <deque>
+#include <algorithm>
+#include <list>
+#include <stack>
+#include <queue>
+#include <functional>
+
+using namespace std;
+
+
+int main(int argc, char *argv[])
+{
+    vector<int> a{ 10,20,30,40 };
+    vector<int> b{ 100,200,300 };
+    vector<int> c;
+    vector<int> d;
+    
+    a.swap(b);
+
+    for (vector<int>::iterator iter = a.begin(); iter != a.end(); ++iter)
+    {
+        cout << "a: " << *iter << endl;
+    }
+    for (vector<int>::iterator iter = b.begin(); iter != b.end(); ++iter)
+    {
+        cout << "b: " << *iter << endl;
+    }
+
+    c = b;
+    for (vector<int>::iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << "c: " << *iter << endl;
+    }
+
+    d.assign(c.begin(), c.end());
+    for (vector<int>::iterator iter = d.begin(); iter != d.end(); ++iter)
+    {
+        cout << "d: " << *iter << endl;
+    }
+    return 0;
+}
+
+```
+
+<a id="33-string字符串的查找"></a>
+#### 33. string字符串的查找
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <deque>
+#include <algorithm>
+#include <list>
+#include <stack>
+#include <queue>
+#include <functional>
+
+using namespace std;
+
+
+int main(int argc, char *argv[])
+{
+    string s1("Har0394rdayP0349850#$#oter");
+
+    string::size_type pos = s1.find("Pota");
+    if (pos == string::npos)
+    {
+        cout << "not found!" << endl;
+    }
+    else
+    {
+        cout << "find pos: " << pos << endl;
+    }
+
+    string letters("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
+    pos = 0;
+    while ((pos = s1.find_first_of(letters, pos)) != string::npos)
+    {
+        cout << s1[pos] << endl;
+        ++pos;
+    }
+
+
+    return 0;
+}
+
+```
+
+<a id="34-mapmultimap操作"></a>
+#### 34. map/multimap操作
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <functional>
+#include <map>
+#include <set>
+
+using namespace std;
+
+
+int main(int argc, char *argv[])
+{
+    map<int, string> m1;
+    multimap<int, string> m2;
+
+    m1.insert(map<int, string>::value_type(1, "one"));
+    m1.insert(map<int, string>::value_type(2, "two"));
+    m1.insert(map<int, string>::value_type(3, "three"));
+    m1.insert(make_pair(4, "four"));
+    m1.insert(pair<int, string>(5, "five"));
+    m1[6] = "six";
+
+    cout << "map size: " << m1.size() << endl;
+
+    map<int, string>::iterator iter;
+    for (iter = m1.begin(); iter != m1.end(); ++iter)
+    {
+        cout << "key: " << iter->first << " value: " << iter->second << endl;
+    }
+
+    cout << m1[3] << endl;
+
+    m2.insert(multimap<int, string>::value_type(10, "ten"));
+    m2.insert(multimap<int, string>::value_type(20, "twenty"));
+    m2.insert(multimap<int, string>::value_type(30, "thirty"));
+    m2.insert(make_pair(40, "fourty"));
+    m2.insert(pair<int, string>(50, "fifty"));
+    m2.insert(pair<int, string>(50, "fifty"));
+
+    cout << "multimap size: " << m2.size() << endl;
+    multimap<int, string>::const_iterator citer;
+    for (citer = m2.begin(); citer != m2.end(); ++citer)
+    {
+        cout << "multimap key: " << citer->first << " " << " value: " << citer->second << endl;
+    }
+
+    cout << "have 1000:  " << m2.count(50) << endl;
+
+    //find
+    multimap<int, string>::const_iterator miter;
+    miter = m2.find(50);
+    if (miter==m2.end())
+    {
+        cout << "not found 50 in multimap." << endl;
+    }
+    else
+    {
+        cout << "found 50 in multimap." << endl;
+        size_t n = m2.count(50);
+        for (size_t i = 0; i < n; i++, miter++)
+        {
+            cout << i << " key: " << miter->first << " value: " << miter->second << endl;
+        }
+    }
+
+    if (m2.erase(40) > 0)
+    {
+        cout << "m2 erase 40 success." << endl;
+    }
+
+    multimap<int, string>::iterator iFound = m2.find(40);
+    if (iFound != m2.end())
+    {
+        cout << "m2 erase 40 success." << endl;
+    }
+    else
+    {
+        cout << "m2 erase 40 failed." << endl;
+    }
+
+    m2.erase(m2.lower_bound(50), m2.upper_bound(50));
+
+    return 0;
+}
+
+```
+
+<a id="35-setmultiset操作"></a>
+#### 35. set/multiset操作
+* set/multiset 是只读的, 不允许修改
+* 插入数据是自动进行排序的
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <functional>
+#include <map>
+#include <set>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+int main(int argc, char *argv[])
+{
+    set<int> s1;
+    multiset<int> s2;
+
+    s1.insert(2);
+    s1.insert(-1);
+    s1.insert(30);
+
+    for (set<int>::const_iterator iter = s1.begin(); iter != s1.end(); ++iter)
+    {
+        cout << "s1: " << *iter << endl;
+    }
+
+    cout << endl;
+
+    s2.insert(s1.begin(), s1.end());
+    s2.insert(-1);
+    s2.insert(-1);
+    for (set<int>::const_iterator iter = s2.begin(); iter != s2.end(); ++iter)
+    {
+        cout << "s2: " << *iter << endl;
+    }
+    cout << "s2 have -1: " << s2.count(-1) << " times." << endl;
+
+    printContents(s2);
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << endl;
+    }
+    cout << endl;
+}
+```
+
+<a id="36-函数对象class实例函数对象的使用"></a>
+#### 36. 函数对象/class实例函数对象的使用
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <set>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+void print(int x)
+{
+    cout << x << " ";
+}
+
+class Print
+{
+public:
+    void operator() (int elem) { cout << elem << " "; }
+};
+
+
+int main(int argc, char *argv[])
+{
+    set<int, greater<int>> s1;
+    set<int, less<int>> s2;
+    
+
+    s1.insert(2);
+    s1.insert(-1);
+    s1.insert(30);
+    s1.insert(16);
+    s1.insert(-16);
+
+    printContents(s1);
+
+    for_each(s1.begin(), s1.end(), print);
+    cout << endl;
+    for_each(s1.begin(), s1.end(), Print()); //将class实例作为函数对象(回调函数/函数指针)
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << endl;
+    }
+    cout << endl;
+}
+```
+
+<a id="37-countcount_if计数器操作"></a>
+#### 37. count/count_if计数器操作
+* 关联容器(set/multiset/map/multimap)要使用自己的count
+```
+//一元谓词
+bool isEven(int n)
+{
+    return n % 2 == 0;
+}
+
+
+int main(int argc, char *argv[])
+{
+    vector<int> vec1;
+    for (int i = 0;i<10;++i)
+    {
+        vec1.push_back(i);
+    }
+
+    printContents(vec1);
+
+    int num = count(vec1.begin(), vec1.end(), 4);
+    cout << "have 4 num: " << num << " times." << endl;
+
+    num = count_if(vec1.begin(), vec1.end(), isEven);
+    int num2 = count_if(vec1.begin(), vec1.end(), bind2nd(modulus<int>(), 2));
+    cout << "isEven num: " << num << endl;
+    cout << "modulus num: " << num2 << endl;
+    int num3 = count_if(vec1.begin(), vec1.end(), not1(bind2nd(modulus<int>(), 2)));
+    cout << "odd num: " << num3 << endl;
+
+
+    // bind2nd: 给第一个参数的函数对象greater<int>()绑定第二个参数4
+    num = count_if(vec1.begin(), vec1.end(), bind2nd(greater<int>(), 4));
+    cout << ">4: " << num << endl;
+
+    cout << "---------------" << endl;
+
+    multiset<int> ms;
+    for (int i = 1;i<10;++i)
+    {
+        ms.insert(i);
+    }
+    ms.insert(2);
+    ms.insert(7);
+
+    printContents(ms);
+
+    num = count(ms.begin(), ms.end(), 7);
+    cout << "7 num: " << num << endl;
+
+    // 比count()速度快(set/multiset已经排好序了)
+    num = ms.count(7);
+    cout << "7 num: " << num << endl;
+
+    return 0;
+}
+```
+
+<a id="38-maxmin计算最大最小值"></a>
+#### 38. max/min计算最大最小值
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <deque>
+#include <list>
+#include <stack>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+bool absLess(int x, int y)
+{
+    return abs(x) < abs(y);
+}
+
+int main(int argc, char *argv[])
+{
+    deque<int> dq1;
+    for (int i = 2; i < 8; ++i)
+    {
+        dq1.insert(dq1.end(), i);
+    }
+    for (int i = -3; i < 5; ++i)
+    {
+        dq1.insert(dq1.end(), i);
+    }
+
+    printContents(dq1);
+
+    deque<int>::iterator min = min_element(dq1.begin(), dq1.end());
+    cout << "min: " << *min << endl;
+
+    deque<int>::iterator max = max_element(dq1.begin(), dq1.end());
+    cout << "max: " << *max << endl;
+
+    deque<int>::iterator absMin = min_element(dq1.begin(), dq1.end(), absLess);
+    cout << "abs min: " << *absMin << endl;
+
+    deque<int>::iterator absMax = max_element(dq1.begin(), dq1.end(), absLess);
+    cout << "abs max: " << *absMax << endl;
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << endl;
+    }
+    cout << endl;
+}
+```
+
+<a id="39-search_n查找算法"></a>
+#### 39. search_n查找算法
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <deque>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+int main(int argc, char *argv[])
+{
+    deque<int> dq;
+    for (int i = 1;i<10;++i)
+    {
+        if (i == 3)
+        {
+            dq.insert(dq.end(), i);
+            dq.insert(dq.end(), i);
+            dq.insert(dq.end(), i);
+        }
+        else
+        {
+            dq.insert(dq.end(), i);
+        }
+    }
+
+    printContents(dq);
+
+    deque<int>::iterator pos;
+    pos = search_n(dq.begin(), dq.end(), 3, 6, greater<int>());
+    //pos = search_n_if(dq.begin(), dq.end(), 3, bind2nd(greater<int>(), 6)); 错误
+
+    if (pos != dq.end())
+    {
+        cout << "find > 6: " << endl;
+        for (;pos != dq.end();++pos)
+        {
+            cout << *pos << " ";
+        }
+        cout << endl;
+    }
+    else
+    {
+        cout << "not find > 6!" << endl;
+    }
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << " " ;
+    }
+    cout << endl;
+}
+```
+
+<a id="40-searchfind_end在容器中查找另一个容器"></a>
+#### 40. search/find_end在容器中查找另一个容器
+* find_end (应该是search_end), 功能是从后往前找
+```
+//二元谓词: 检测是否为偶数时,isEven为true
+bool checkEven(int elem, bool isEven)
+{
+    if (isEven)
+    {
+        return elem % 2 == 0;
+    }
+    else
+    {
+        return elem % 2 == 1;
+    }
+}
+
+int main(int argc, char *argv[])
+{
+    deque<int> dq;
+    list<int> li;
+
+    for (int i = 1; i <= 7; ++i)
+    {
+        dq.insert(dq.end(), i);
+    }
+    for (int i = 1; i <= 7; ++i)
+    {
+        dq.insert(dq.end(), i);
+    }
+    for (int i = 1; i <= 7; ++i)
+    {
+        dq.insert(dq.end(), i);
+    }
+
+    for (int i = 3; i <= 6; ++i)
+    {
+        li.insert(li.end(), i);
+    }
+
+    printContents(dq);
+    printContents(li);
+
+    deque<int>::iterator pos;
+    pos = search(dq.begin(), dq.end(), li.begin(), li.end());
+    while(pos != dq.end())
+    {
+        cout << "find ok, pos: " << distance(dq.begin(), pos) + 1 << endl;
+        ++pos;
+        pos = search(pos, dq.end(), li.begin(), li.end());
+    }
+
+    cout << "find_end: " << endl;
+    
+    pos = find_end(dq.begin(), dq.end(), li.begin(), li.end());
+    if(pos != dq.end())
+    {
+        cout << "find ok, pos: " << distance(dq.begin(), pos) + 1 << endl;
+    }
+    
+    vector<int> vec;
+    for (int i=1;i<=9;++i)
+    {
+        vec.push_back(i);
+    }
+
+    printContents(vec);
+
+    bool checkEvenArgs[] = { true, false, true }; //find: even odd even
+    //bool checkEvenArgs[] = { true, true, true }; //find: even even even
+
+    vector<int>::iterator pos1;
+    pos1 = search(vec.begin(), vec.end(), checkEvenArgs, checkEvenArgs + 3, checkEven);
+    if (pos1 != vec.end())
+    {
+        cout << "found pos: " << distance(vec.begin(), pos1) + 1 << endl;
+    }
+    else
+    {
+        cout << "not found!" << endl;
+    }
+
+    return 0;
+}
+
+```
+
+<a id="41-用find_first_of在ivec中查找searchlist中的任一个对象"></a>
+#### 41. 用find_first_of在ivec中查找searchList中的任一个对象
+* 不存在find_last_of,需要用find_first_of加上逆向迭代器才能实现
+```
+/* 
+功能: 用find_first_of,在ivec中查找searchList
+*/
+int main(int argc, char *argv[])
+{
+    vector<int> ivec;
+    list<int> searchList{3, 6, 9}; //被查找的内容list
+
+    for (int i = 1; i <= 11; ++i)
+    {
+        ivec.push_back(i);
+    }
+    printContents(ivec);
+    printContents(searchList);
+
+    vector<int>::iterator pos;
+    pos = find_first_of(ivec.begin(), ivec.end(), searchList.begin(), searchList.end());
+    if (pos != ivec.end())
+    {
+        cout << "find pos: " << distance(ivec.begin(), pos) + 1 << endl;
+    }
+    else
+    {
+        cout << "not found!" << endl;
+    }
+
+    vector<int>::reverse_iterator rpos;
+    rpos = find_first_of(ivec.rbegin(), ivec.rend(), searchList.begin(), searchList.end());
+    cout << "find rpos: " << distance(ivec.begin(), rpos.base()) << endl;
+
+    //在字符串里找数字
+    string numeric("0123456789");
+    string str("r3h8i9");
+    string::size_type p = str.find_first_of(numeric);
+    if (p != string::npos)
+    {
+        cout << "found num: " << p << endl;
+    }
+    else
+    {
+        cout << "not found!" << endl;
+    }
+
+    p = str.find_last_not_of(numeric);
+    if (p != string::npos)
+    {
+        cout << "found num: " << p << endl;
+    }
+    else
+    {
+        cout << "not found!" << endl;
+    }
+
+    return 0;
+}
+运行结果:
+1 2 3 4 5 6 7 8 9 10 11
+3 6 9
+find pos: 3
+find rpos: 9
+found num: 1
+found num: 4
+请按任意键继续. . .
+```
+
+<a id="42-adjacent_find查找2个连续的"></a>
+#### 42. adjacent_find查找2个连续的
+* 找2个相等的或符合谓词规则的
+```
+//二元谓词
+bool doubled(int elem1, int elem2)
+{
+    return elem1*2 == elem2; //后面是前面的2倍
+}
+
+int main(int argc, char *argv[])
+{
+    vector<int> ivec{ 1,3,2,4,5,5,0 };
+    printContents(ivec);
+
+    vector<int>::iterator pos;
+    pos = adjacent_find(ivec.begin(), ivec.end());
+    if (pos != ivec.end())
+    {
+        cout << "found adjancent pos: " << distance(ivec.begin(), pos) + 1 << endl;
+    }
+    else
+    {
+        cout << "not found!" << endl;
+    }
+
+
+    pos = adjacent_find(ivec.begin(), ivec.end(), doubled);
+    if (pos != ivec.end())
+    {
+        cout << "found adjancent pos: " << distance(ivec.begin(), pos) + 1 << endl;
+    }
+    else
+    {
+        cout << "not found!" << endl;
+    }
+
+
+    return 0;
+}
+
+result:
+1 3 2 4 5 5 0
+found adjancent pos: 5
+found adjancent pos: 3
+请按任意键继续. . .
+```
+
+<a id="43-对已序区间进行查找binary_searchincludes"></a>
+#### 43. 对已序区间进行查找binary_search/includes
+* 要求容器先进行排序, 再查找, 速度快
+* 可以使用谓词制定排序的规则
+```
+int main(int argc, char *argv[])
+{
+    list<int> iList;
+    vector<int> iVec;
+
+    for (int i = 1; i < 10; ++i)
+    {
+        iList.push_back(i);
+    }
+    printContents(iList);
+
+    if (binary_search(iList.begin(), iList.end(), 5))
+        cout << "find 5" << endl;
+    else
+        cout << "not found 5" << endl;
+
+    iVec.push_back(3);
+    iVec.push_back(4);
+    iVec.push_back(7);
+    // includes 全包括返回true, 顺序无所谓, iVec也需要排序
+    if (includes(iList.begin(), iList.end(), iVec.begin(), iVec.end()))
+    {
+        cout << "includes 3 4 7" << endl;
+    }
+    else
+    {
+        cout << "not includes 3 4 7" << endl;
+
+    }
+
+    return 0;
+}
+```
+
+<a id="44-lower_boundupper_boundequal_range-查找算法应用于顺序容器"></a>
+#### 44. lower_bound/upper_bound/equal_range 查找算法应用于顺序容器
+* lower_bound: 最先匹配
+* upper_bound: 最后匹配
+* equal_range: 相当于同时使用lower_bound 和 upper_bound, 返回2个迭代器
+* 应用于顺序容器快, 关联容器慢(关联容器应该使用自身的成员函数)
+```
+int main(int argc, char *argv[])
+{
+    list<int> iList;
+    for (int i = 1;i<10;++i)
+    {
+        iList.insert(iList.end(), i);
+        //iList.insert(iList.end(), i);
+    }
+    iList.insert(iList.end(), 5);
+    iList.insert(iList.end(), 5);
+    iList.insert(iList.end(), 5);
+    iList.insert(iList.end(), 5);
+
+    iList.sort();
+    printContents(iList);
+
+    list<int>::iterator pos1;
+    pos1 = lower_bound(iList.begin(), iList.end(), 5);
+    if (pos1 != iList.end())
+    {
+        cout << "lower_bound found 5 pos: " << distance(iList.begin(), pos1)+1 << endl;
+    }
+    else
+    {
+        cout << "lower_bound not found 5!" << endl;
+    }
+
+    list<int>::iterator pos2;
+    pos2 = upper_bound(iList.begin(), iList.end(), 5); //返回最后一个5的下一个位置
+    if (pos2 != iList.end())
+    {
+        cout << "upper_bound found 5 pos: " << distance(iList.begin(), pos2) << endl;
+    }
+    else
+    {
+        cout << "upper_bound not found 5!" << endl;
+    }
+
+    iList.insert(upper_bound(iList.begin(), iList.end(), 5), 5);
+    iList.insert(lower_bound(iList.begin(), iList.end(), 5), 5);
+    printContents(iList);
+
+    pair<list<int>::iterator, list<int>::iterator> range = equal_range(iList.begin(), iList.end(), 5);
+    cout << distance(iList.begin(), range.first) << " " << distance(iList.begin(), range.second)  << endl;
+
+    return 0;
+}
+result:
+1 2 3 4 5 5 5 5 5 6 7 8 9
+lower_bound found 5 pos: 5
+upper_bound found 5 pos: 9
+1 2 3 4 5 5 5 5 5 5 5 6 7 8 9
+4 11
+请按任意键继续. . .
+```
+
+<a id="45-for_each算法使用"></a>
+#### 45. for_each算法使用
+* for_each的返回值是一个函数对象
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <deque>
+#include <set>
+#include <map>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+void print(int x)
+{
+    cout << x << " ";
+}
+
+template<class T>
+class AddValue
+{
+public:
+    AddValue(const T &v) :theValue(v) {}
+    void operator()(T &elem) const
+    {
+        elem += theValue;
+    }
+private:
+    T theValue;
+};
+
+class MeanValue
+{
+private:
+    long num;
+    long sum;
+public:
+    MeanValue() :num(0), sum(0) {}
+    void operator()(int elem)
+    {
+        num++;
+        sum += elem;
+    }
+    double value()
+    {
+        return static_cast<double>(sum) / static_cast<double>(num);
+    }
+
+    operator double()
+    {
+        return static_cast<double>(sum) / static_cast<double>(num);
+    }
+};
+
+
+int main(int argc, char *argv[])
+{
+    vector<int> iVec;
+    for (int i = 1; i < 10; ++i)
+    {
+        iVec.push_back(i);
+    }
+
+    for_each(iVec.begin(), iVec.end(), print);
+    cout << endl;
+
+    //使用函数对象为容器iVec所有对象+10
+    for_each(iVec.begin(), iVec.end(), AddValue<int>(10));
+    printContents(iVec);
+
+    MeanValue mv = for_each(iVec.begin(), iVec.end(), MeanValue());
+    cout << "MeanValue: " << mv.value() << endl;
+
+    double mean = for_each(iVec.begin(), iVec.end(), MeanValue());
+    cout << "MeanValue(double): " << mean << endl;
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+}
+
+result:
+1 2 3 4 5 6 7 8 9
+11 12 13 14 15 16 17 18 19
+MeanValue: 15
+MeanValue(double): 15
+请按任意键继续. . .
+```
+
+<a id="46-区间容器比较equalmismatchlexicographical_compare"></a>
+#### 46. 区间(容器)比较equal/mismatch/lexicographical_compare
+* equal: 判断区间是否相等, 返回bool
+* mismatch: 判断区间是否不相等, 返回一对iterator
+* lexicographical_compare: 检查区间1是否小于区间2, 返回bool, true代表区间1<区间2, false表示区间1>=区间2
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <deque>
+#include <set>
+#include <map>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+//二元谓词, 判定是否奇偶对应
+bool bothEvenOrOdd(int elem1, int elem2)
+{
+    return elem1 % 2 == elem2 % 2;
+}
+
+
+bool lessForCollection(const list<int> &list1, const list<int> &list2)
+{
+    return lexicographical_compare(list1.begin(), list1.end(), list2.begin(), list2.end());
+}
+
+int main(int argc, char *argv[])
+{
+    //equal
+    vector<int> ivec;
+    list<int> ilist;
+
+    for (int i = 1; i <= 7; ++i)
+    {
+        ivec.push_back(i);
+    }
+    for (int i = 3; i <= 9; ++i)
+    {
+        ilist.push_back(i);
+    }
+    printContents(ivec);
+    printContents(ilist);
+
+    if (equal(ivec.begin(), ivec.end(), ilist.begin()))
+    {
+        cout << "ivec == ilist" << endl;
+    }
+    else
+    {
+        cout << "ivec != ilist" << endl;
+    }
+
+    if (equal(ivec.begin(), ivec.end(), ilist.begin(), bothEvenOrOdd))
+    {
+        cout << "ivec correspond ilist Even Or Odd." << endl;
+    }
+    else
+    {
+        cout << "ivec not correspond ilist Even Or Odd." << endl;
+    }
+
+    //mismatch
+    vector<int> ivec1;
+    list<int> ilist1;
+
+    for (int i = 1; i <= 6; ++i)
+    {
+        ivec1.push_back(i);
+    }
+    for (int i = 1; i <= 16; i *= 2)
+    {
+        ilist1.push_back(i);
+    }
+    ilist1.push_back(3);
+    printContents(ivec1);
+    printContents(ilist1);
+
+    pair<vector<int>::iterator, list<int>::iterator> values;
+    values = mismatch(ivec1.begin(), ivec1.end(), ilist1.begin());
+    if (values.first == ivec1.begin())
+    {
+        cout << "no mismatch." << endl;
+    }
+    else
+    {
+        cout << "first mismatch: " << *values.first << " " << *values.second << endl;
+    }
+
+    //找第一个容器里大于第二个容器里的数
+    values = mismatch(ivec1.begin(), ivec1.end(), ilist1.begin(), less_equal<int>());
+    if (values.first == ivec1.end())
+    {
+        cout << "ivec1 <= ilist1." << endl;
+    }
+    else
+    {
+        cout << "found ivec1: " << *values.first << " less or equal ilist1: " << *values.second << endl;
+    }
+    cout << endl;
+
+    //lexicographical_compare
+    list<int> l1, l2, l3, l4;
+    for (int i = 1;i<6;++i)
+    {
+        l1.push_back(i);
+    }
+    l4 = l3 = l2 = l1;
+    l1.push_back(7);
+    l3.push_back(2);
+    l3.push_back(0);
+    l4.push_back(2);
+
+    cout << "l1: ";
+    printContents(l1);
+    cout << "l2: ";
+    printContents(l2);
+    cout << "l3: ";
+    printContents(l3);
+    cout << "l4: ";
+    printContents(l4);
+
+    if (lexicographical_compare(l4.begin(), l4.end(), l1.begin(), l1.end()))
+    {
+        cout << "l4 < l1" << endl;
+    }
+    else
+    {
+        cout << "l4 >= l1" << endl;
+    }
+
+    if (lexicographical_compare(l4.begin(), l4.end(), l3.begin(), l3.end()))
+    {
+        cout << "l4 < l3" << endl;
+    }
+    else
+    {
+        cout << "l4 >= l3" << endl;
+    }
+    cout << endl;
+
+    //对vls中的8个list容器进行排序
+    vector<list<int>> vls{ l1,l2,l3,l4,l3,l1,l4,l2 };
+    for_each(vls.begin(), vls.end(), printContents<list<int>>);
+    cout << endl;
+
+    cout << "sorted: " << endl;
+    sort(vls.begin(), vls.end(), lessForCollection);
+    for_each(vls.begin(), vls.end(), printContents<list<int>>);
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+}
+
+result:
+1 2 3 4 5 6 7
+3 4 5 6 7 8 9
+ivec != ilist
+ivec correspond ilist Even Or Odd.
+1 2 3 4 5 6
+1 2 4 8 16 3
+first mismatch: 3 4
+found ivec1: 6 less or equal ilist1: 3
+
+l1: 1 2 3 4 5 7
+l2: 1 2 3 4 5
+l3: 1 2 3 4 5 2 0
+l4: 1 2 3 4 5 2
+l4 < l1
+l4 < l3
+
+1 2 3 4 5 7
+1 2 3 4 5
+1 2 3 4 5 2 0
+1 2 3 4 5 2
+1 2 3 4 5 2 0
+1 2 3 4 5 7
+1 2 3 4 5 2
+1 2 3 4 5
+
+sorted:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5 2
+1 2 3 4 5 2
+1 2 3 4 5 2 0
+1 2 3 4 5 2 0
+1 2 3 4 5 7
+1 2 3 4 5 7
+请按任意键继续. . .
+```
+
+<a id="47-复制元素copycopy_backward算法"></a>
+#### 47. 复制元素copy/copy_backward算法
+* copy过程中不能修改元素
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <deque>
+#include <set>
+#include <map>
+#include <iterator>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+
+int main(int argc, char *argv[])
+{
+    //将list中的元素copy到vector中
+    list<int> ilist;
+    for (int i = 0; i < 10; ++i)
+    {
+        ilist.push_back(i);
+    }
+    printContents(ilist);
+
+    vector<int> ivec(ilist.size() * 2);
+    printContents(ivec);
+
+    cout << "after copy: " << endl;
+    copy(ilist.begin(), ilist.end(), ivec.begin());
+    printContents(ivec);
+
+    copy_backward(ilist.begin(), ilist.end(), ivec.end());
+    printContents(ivec);
+
+    cout << "back_inserter: " << endl;
+    //back_inserter(ilist)插入迭代器: 用于向空的容器中插入数据
+    vector<int> ivec1;
+    list<int> ilist1;
+
+    for (int i = 0; i < 10; ++i)
+    {
+        ivec1.push_back(i);
+    }
+
+    copy(ivec1.begin(), ivec1.end(), back_inserter(ilist1));
+    printContents(ivec1);
+    printContents(ilist1);
+    cout << endl;
+
+    copy(ivec1.begin(), ivec1.end(), ostream_iterator<int>(cout, " "));
+
+    cout << "reverse copy: " << endl;
+    copy(ivec1.rbegin(), ivec1.rend(), ilist1.begin());
+    printContents(ilist1);
+
+    //将source中的字母复制到source的后面
+    vector<char> source(10, '.');
+    for (char c = 'a'; c <= 'f'; ++c)
+    {
+        source.push_back(c);
+    }
+    source.insert(source.end(), 10, '.');
+    printContents(source);
+
+    vector<char> c1(source.begin(), source.end());
+    copy(c1.begin() + 10, c1.begin() + 16, c1.begin() + 7);
+    printContents(c1);
+
+    vector<char> c2(source.begin(), source.end());
+    copy_backward(c2.begin() + 10, c2.begin() + 16, c2.begin() + 19);
+    printContents(c2);
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+}
+
+result:
+0 1 2 3 4 5 6 7 8 9
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+after copy:
+0 1 2 3 4 5 6 7 8 9 0 0 0 0 0 0 0 0 0 0
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9
+back_inserter:
+0 1 2 3 4 5 6 7 8 9
+0 1 2 3 4 5 6 7 8 9
+
+0 1 2 3 4 5 6 7 8 9 reverse copy:
+9 8 7 6 5 4 3 2 1 0
+. . . . . . . . . . a b c d e f . . . . . . . . . .
+. . . . . . . a b c d e f d e f . . . . . . . . . .
+. . . . . . . . . . a b c a b c d e f . . . . . . .
+请按任意键继续. . .
+```
+
+<a id="48-transform变换算法使用"></a>
+#### 48. transform变换算法使用
+* 如果目标容器是空的, 就必须使用插入迭代器back_inserter
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <deque>
+#include <set>
+#include <map>
+#include <iterator>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+
+int main(int argc, char *argv[])
+{
+    vector<int> ivec;
+    list<int> ilist;
+
+    for (int i = 1; i < 10; ++i)
+    {
+        ivec.push_back(i);
+    }
+    printContents(ivec);
+
+    transform(ivec.begin(), ivec.end(), ivec.begin(), negate<int>());
+    printContents(ivec);
+
+    //将ivec中的每个元素x10, 然后插入到ilist中
+    transform(ivec.begin(), ivec.end(), back_inserter(ilist), bind2nd(multiplies<int>(), 10));
+    printContents(ilist);
+
+    cout << endl;
+    transform(ilist.begin(), ilist.end(), ostream_iterator<int>(cout, " "), negate<int>());
+    
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+}
+
+result:
+1 2 3 4 5 6 7 8 9
+-1 -2 -3 -4 -5 -6 -7 -8 -9
+-10 -20 -30 -40 -50 -60 -70 -80 -90
+
+10 20 30 40 50 60 70 80 90 请按任意键继续. . .
+
+int main(int argc, char *argv[])
+{
+    vector<int> ivec;
+    list<int> ilist;
+
+    for (int i = 1; i < 10; ++i)
+    {
+        ivec.push_back(i);
+    }
+    printContents(ivec);
+
+    transform(ivec.begin(), ivec.end(), ivec.begin(), ivec.begin(), multiplies<int>());
+    printContents(ivec);
+    
+    transform(ivec.begin(), ivec.end(), ivec.begin(), back_inserter(ilist), plus<int>());
+    cout << "ilist: " << endl;
+    printContents(ilist);
+
+    transform(ivec.begin(), ivec.end(), ilist.begin(), ostream_iterator<int>(cout, " "), minus<int>());
+
+
+    return 0;
+}
+result:
+1 2 3 4 5 6 7 8 9
+1 4 9 16 25 36 49 64 81
+ilist:
+2 8 18 32 50 72 98 128 162
+-1 -4 -9 -16 -25 -36 -49 -64 -81 请按任意键继续. . .
+```
+
+<a id="49-for_each与transform的比较"></a>
+#### 49. for_each与transform的比较
+* for_each: 传参为引用, op函数无返回值 速度快, 相对不够灵活;
+* transform: 传参为值拷贝, op函数有返回值, 速度慢, 相对灵活;
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <deque>
+#include <set>
+#include <map>
+#include <iterator>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
+
+void square(int &elem)
+{
+    elem = elem * elem;
+}
+
+int square2(int elem)
+{
+    return elem = elem * elem;
+}
+
+int main(int argc, char *argv[])
+{
+    vector<int> a;
+    vector<int> b;
+    
+
+    for (int i = 1; i < 10; ++i)
+    {
+        a.push_back(i);
+        b.push_back(i);
+    }
+    printContents(a);
+    printContents(b);
+
+    for_each(a.begin(), a.end(), square);
+    cout << "square: " << endl;
+    printContents(a);
+
+    transform(b.begin(), b.end(), b.begin(), square2);
+    printContents(b);
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+}
+result:
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+square:
+1 4 9 16 25 36 49 64 81
+1 4 9 16 25 36 49 64 81
+请按任意键继续. . .
+```
+
+<a id="50-swap_rangesswap算法使用"></a>
+#### 50. swap_ranges/swap算法使用
+* swap_ranges返回值为一个iterator, 指向第二个容器中没有被交换的位置
+* swap: 容器全部进行交换
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <deque>
+#include <set>
+#include <map>
+#include <iterator>
+
+using namespace std;
+
+template <typename Container>
+void printContents(const Container &c);
 
 
 
+int main(int argc, char *argv[])
+{
+    vector<int> ivec;
+    deque<int> ideq;
+
+    for (int i = 1; i < 10; ++i)
+    {
+        ivec.push_back(i);
+    }
+    for (int i = 11; i < 24; ++i)
+    {
+        ideq.push_back(i);
+    }
+    cout << "before swap: " << endl;
+    cout << "ivec: ";
+    printContents(ivec);
+    cout << "ideq: ";
+    printContents(ideq);
+
+    deque<int>::iterator pos;
+    pos = swap_ranges(ivec.begin(), ivec.end(), ideq.begin());
+    if (pos != ideq.end())
+    {
+        cout << "first no swap number: " << *pos << endl;
+    }
+
+    cout << "after swap: " << endl;
+    cout << "ivec: ";
+    printContents(ivec);
+    cout << "ideq: ";
+    printContents(ideq);
+
+    swap_ranges(ideq.begin(), ideq.begin() + 3, ideq.rbegin());
+    printContents(ideq);
+
+    vector<int> ivec1;
+    vector<int> ivec2;
+    for (int i = 1; i < 4; ++i)
+    {
+        ivec1.push_back(i);
+    }
+    for (int i = 10; i < 40; i+=10)
+    {
+        ivec2.push_back(i);
+    }
+    printContents(ivec1);
+    printContents(ivec2);
+
+    ivec1.swap(ivec2);
+
+    printContents(ivec1);
+    printContents(ivec2);
+
+    return 0;
+}
+
+template <typename Container>
+void printContents(const Container &c)
+{
+    for (Container::const_iterator iter = c.begin(); iter != c.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+}
+
+result:
+before swap:
+ivec: 1 2 3 4 5 6 7 8 9
+ideq: 11 12 13 14 15 16 17 18 19 20 21 22 23
+first no swap number: 20
+after swap:
+ivec: 11 12 13 14 15 16 17 18 19
+ideq: 1 2 3 4 5 6 7 8 9 20 21 22 23
+23 22 21 4 5 6 7 8 9 20 3 2 1
+1 2 3
+10 20 30
+10 20 30
+1 2 3
+请按任意键继续. . .
+```
+
+<a id="51-fillfill_ngenerategenerate_n填充算法"></a>
+#### 51. fill/fill_n/generate/generate_n填充算法
+```
+int main(int argc, char *argv[])
+{
+    list<string> slist;
+    slist.push_back("hi");
+    slist.push_back("good");
+    slist.push_back("morning");
+
+    printContents(slist);
+
+    fill(slist.begin(), slist.end(), "hao");
+    printContents(slist);
+
+    list<string> slist2;
+    fill_n(back_inserter(slist2), 9, "hello");
+    printContents(slist2);
+
+    fill_n(ostream_iterator<double>(cout, " "), 10, 7.7);
+    cout << endl;
+
+    list<int> ilist;
+    generate_n(back_inserter(ilist), 5, rand);
+    printContents(ilist);
+
+    generate(ilist.begin(), ilist.end(), rand);
+    printContents(ilist);
+
+    return 0;
+}
+result:
+hi good morning
+hao hao hao
+hello hello hello hello hello hello hello hello hello
+7.7 7.7 7.7 7.7 7.7 7.7 7.7 7.7 7.7 7.7
+41 18467 6334 26500 19169
+15724 11478 29358 26962 24464
+请按任意键继续. . .
+```
+
+<a id="52-replacereplace_ifreplace_copyreplace_copy_if替换算法的使用"></a>
+#### 52. replace/replace_if/replace_copy/replace_copy_if替换算法的使用
+
+```
+int main(int argc, char *argv[])
+{
+    list<int> ilist;
+
+    for (int i = 2; i < 8; ++i)
+    {
+        ilist.push_back(i);
+    }
+    for (int i = 4; i < 10; ++i)
+    {
+        ilist.push_back(i);
+    }
+    printContents(ilist);
+
+    replace(ilist.begin(), ilist.end(), 6, 42);
+    printContents(ilist);
+
+    replace_if(ilist.begin(), ilist.end(), bind2nd(less<int>(), 5), 0);
+    printContents(ilist);
+
+    replace_copy(ilist.begin(), ilist.end(), ostream_iterator<int>(cout, " "), 5, 55);
+    printContents(ilist);
+
+    replace_copy_if(ilist.begin(), ilist.end(), ostream_iterator<int>(cout, " ") , bind2nd(less<int>(),5), 42);
+    printContents(ilist);
+
+
+    return 0;
+}
+result:
+2 3 4 5 6 7 4 5 6 7 8 9
+2 3 4 5 42 7 4 5 42 7 8 9
+0 0 0 5 42 7 0 5 42 7 8 9
+0 0 0 55 42 7 0 55 42 7 8 9 0 0 0 5 42 7 0 5 42 7 8 9
+42 42 42 5 42 7 42 5 42 7 8 9 0 0 0 5 42 7 0 5 42 7 8 9
+请按任意键继续. . .
+```
+
+<a id="53-删除算法使用"></a>
+#### 53. 删除算法使用
+* remove不是真正的删除, 而是将后面的元素往前移, 覆盖掉前面的元素, erase是真正的删除
+* remove
+* remove_if
+```
+int main(int argc, char *argv[])
+{
+    list<int> ilist;
+    for (int i = 1;i<7;++i)
+    {
+        ilist.push_front(i);
+        ilist.push_back(i);
+    }
+    printContents(ilist);
+
+    list<int>::iterator end;
+
+    end = remove(ilist.begin(), ilist.end(), 3); // end是删除后的逻辑终点
+    printContents(ilist);
+
+    cout << "一共删除了: " << distance(end, ilist.end()) << " 个 3." << endl;
+
+    ilist.erase(end, ilist.end());
+    printContents(ilist);
+
+    //真正的删除
+    vector<int> ivec;
+    for (int i=2;i<7;++i)
+    {
+        ivec.push_back(i);
+    }
+    for (int i = 4; i < 10; ++i)
+    {
+        ivec.push_back(i);
+    }
+    for (int i = 1; i < 8; ++i)
+    {
+        ivec.push_back(i);
+    }
+    printContents(ivec);
+
+    ivec.erase(remove(ivec.begin(), ivec.end(), 5), ivec.end());
+    printContents(ivec);
+
+    //删除掉ivec中所有<4的元素
+    ivec.erase(remove_if(ivec.begin(), ivec.end(), bind2nd(less<int>(), 4)), ivec.end());
+    printContents(ivec);
+
+    return 0;
+}
+result:
+6 5 4 3 2 1 1 2 3 4 5 6
+6 5 4 2 1 1 2 4 5 6 5 6
+一共删除了: 2 个 3.
+6 5 4 2 1 1 2 4 5 6
+2 3 4 5 6 4 5 6 7 8 9 1 2 3 4 5 6 7
+2 3 4 6 4 6 7 8 9 1 2 3 4 6 7
+4 6 4 6 7 8 9 4 6 7
+请按任意键继续. . .
+```
+* remove_copy
+* remove_copy_if
+```
+int main(int argc, char *argv[])
+{
+    list<int> ilist;
+    for (int i = 1;i<7;++i)
+    {
+        ilist.push_back(i);
+    }
+    for (int i = 1; i < 10; ++i)
+    {
+        ilist.push_back(i);
+    }
+    printContents(ilist);
+
+    multiset<int> iset;
+    remove_copy_if(ilist.begin(), ilist.end(), inserter(iset, iset.end()), bind2nd(less<int>(), 4));
+    printContents(iset);
+
+    remove_copy(ilist.begin(), ilist.end(), ostream_iterator<int>(cout, " "), 3);
+    cout << endl;
+    remove_copy_if(ilist.begin(), ilist.end(), ostream_iterator<int>(cout, " "), bind2nd(greater<int>(), 4));
+
+    return 0;
+}
+result:
+1 2 3 4 5 6 1 2 3 4 5 6 7 8 9
+4 4 5 5 6 6 7 8 9
+1 2 4 5 6 1 2 4 5 6 7 8 9
+1 2 3 4 1 2 3 4 请按任意键继续. . .
+```
+* unique
+* unique_copy
+```
+bool differenceOne(int elem1, int elem2)
+{
+    return elem1 + 1 == elem2 || elem1 - 1 == elem2;
+}
+
+int main(int argc, char *argv[])
+{
+    int source[] = { 1,2,2,3,4,4,4,5,6,6,6,7,4,4 };
+    int sourceNum = sizeof(source) / sizeof(source[0]);
+
+    list<int> ilist;
+    copy(source, source + sourceNum, back_inserter(ilist));
+    printContents(ilist);
+
+    list<int>::iterator pos;
+    pos = unique(ilist.begin(), ilist.end());
+    for (list<int>::iterator iter = ilist.begin(); iter != pos; ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+
+    copy(source, source + sourceNum, ilist.begin());
+    printContents(ilist);
+
+    pos = unique(ilist.begin(), ilist.end(), greater<int>());
+    for (list<int>::iterator iter = ilist.begin(); iter != pos; ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+
+    copy(source, source + sourceNum, ilist.begin());
+    printContents(ilist);
+
+    unique_copy(ilist.begin(), ilist.end(), ostream_iterator<int>(cout, " "));
+    cout << endl;
+
+    unique_copy(ilist.begin(), ilist.end(), ostream_iterator<int>(cout, " "), differenceOne);
+
+    return 0;
+}
+result:
+1 2 2 3 4 4 4 5 6 6 6 7 4 4
+1 2 3 4 5 6 7 4
+1 2 2 3 4 4 4 5 6 6 6 7 4 4
+1 2 2 3 4 4 4 5 6 6 6 7
+1 2 2 3 4 4 4 5 6 6 6 7 4 4
+1 2 3 4 5 6 7 4
+1 3 5 7 4 4 请按任意键继续. . .
+```
+
+<a id="54-reverserotate旋转算法"></a>
+#### 54. reverse/rotate旋转算法
+```
+int main(int argc, char *argv[])
+{
+    vector<int> ivec;
+    for (int i = 1; i < 10; ++i)
+    {
+        ivec.push_back(i);
+    }
+    printContents(ivec);
+
+    reverse(ivec.begin(), ivec.end());
+    printContents(ivec);
+
+    reverse_copy(ivec.begin() + 1, ivec.end() - 1, ostream_iterator<int>(cout, " "));
+    cout << endl;
+
+    reverse(ivec.begin(), ivec.end());
+    printContents(ivec);
+
+    //将ivec中的元素进行旋转, ivec.begin()+1为旋转后的开头元素
+    rotate(ivec.begin(), ivec.begin() + 1, ivec.end());
+    printContents(ivec);
+
+    rotate(ivec.begin(), find(ivec.begin(), ivec.end(), 4), ivec.end());
+    printContents(ivec);
+
+    //rotate旋转
+    set<int> iset;
+    for (int i = 1; i < 10; ++i)
+    {
+        iset.insert(iset.end(), i);
+    }
+    printContents(iset);
+
+    set<int>::iterator pos = iset.begin();
+    advance(pos, 1); // set是双向迭代器, 只能用advance向前移动
+    rotate_copy(iset.begin(), pos, iset.end(), ostream_iterator<int>(cout, " "));
+
+    cout << endl;
+
+    pos = iset.end();
+    advance(pos, -2);
+    rotate_copy(iset.begin(), pos, iset.end(), ostream_iterator<int>(cout, " "));
+    cout << endl;
+
+    rotate_copy(iset.begin(), iset.find(4), iset.end(), ostream_iterator<int>(cout, " "));
+
+    return 0;
+}
+result:
+1 2 3 4 5 6 7 8 9
+9 8 7 6 5 4 3 2 1
+2 3 4 5 6 7 8
+1 2 3 4 5 6 7 8 9
+2 3 4 5 6 7 8 9 1
+4 5 6 7 8 9 1 2 3
+1 2 3 4 5 6 7 8 9
+2 3 4 5 6 7 8 9 1
+8 9 1 2 3 4 5 6 7
+4 5 6 7 8 9 1 2 3 请按任意键继续. . .
+```
+
+<a id="55-next_permutationprev_permutation排列组合算法"></a>
+#### 55. next_permutation/prev_permutation排列组合算法
+* 要先排序, 从小到大用next_permutation, 从大到小用prev_permutation
+* next_permutation返回值为true代表还有下一个排列组合, false代表没有下一个排列组合
+```
+int main(int argc, char *argv[])
+{
+    vector<int> ivec;
+    for (int i = 1; i < 4; ++i)
+    {
+        ivec.push_back(i);
+    }
+    printContents(ivec);
+
+    while (next_permutation(ivec.begin(), ivec.end()))
+    {
+        printContents(ivec);
+
+    }
+    cout << endl;
+
+    vector<int> ivec2;
+    ivec2.push_back(3);
+    ivec2.push_back(2);
+    ivec2.push_back(1);
+
+    while (prev_permutation(ivec2.begin(), ivec2.end()))
+    {
+        printContents(ivec2);
+    }
+
+    return 0;
+}
+result:
+1 2 3
+1 3 2
+2 1 3
+2 3 1
+3 1 2
+3 2 1
+
+3 1 2
+2 3 1
+2 1 3
+1 3 2
+1 2 3
+请按任意键继续. . .
+```
 

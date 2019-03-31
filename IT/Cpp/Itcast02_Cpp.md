@@ -62,6 +62,11 @@
 - [60. cin.putback\(\)](#60-cinputback)
 - [61. 文件流的基本操作](#61-文件流的基本操作)
 - [62. 重载,重定义,重写的区别](#62-重载重定义重写的区别)
+- [63. 指向常量的指针和常量指针](#63-指向常量的指针和常量指针)
+- [64. 顶层const\(high-level const\)和底层const\(low-level const\)](#64-顶层consthigh-level-const和底层constlow-level-const)
+- [65. bitset筛选查找质数](#65-bitset筛选查找质数)
+- [66. fstream文件流操作](#66-fstream文件流操作)
+- [67. 通过函数open_file打开文件流并处理文件内容](#67-通过函数open_file打开文件流并处理文件内容)
 
 <!-- /MarkdownTOC -->
 
@@ -2103,3 +2108,191 @@ int main(void)
 * 重载(overload): 类内部同名方法, 参数列表不同;
 * 重定义(redifining): 父类与子类的同名方法, 参数列表相同, 父类方法有virtual关键字, 从而实现多态; 覆盖
 * 重写(overwrite): 父类与子类的同名方法, 参数列表不同, 父类方法没有virtual关键字, 可以通过父类指针调用父类方法; 隐藏
+
+<a id="63-指向常量的指针和常量指针"></a>
+#### 63. 指向常量的指针和常量指针
+要明确对象是常量const,还是指针是常量
+
+* 指向常量的指针: ` const double *cptr = &pi;     // 指针可以改变方向(即指针对象可以再次赋值), 但不能通过该指针改变所指向对象的值`
+* const 指针(常量指针): `  int *const curErr = &errNum;  // 指针不可以改变方向(即指针对象不能再次赋值, 但可以通过该指针改变所指向对象的值`
+
+* `const double *const pip = &pi;            // 指针既不能改变方向, 也不能改变所指向对象的值`
+
+<a id="64-顶层consthigh-level-const和底层constlow-level-const"></a>
+#### 64. 顶层const(high-level const)和底层const(low-level const)
+* 顶层const: 指针是const, 但其所指向的对象不是const, 可以通过该指针修改对象的值;
+* 底层const: 指针所指向的对象是const, 指针可以修改所指向的对象, 但不能通过该指针改变所指向对象的值;
+
+<a id="65-bitset筛选查找质数"></a>
+#### 65. bitset筛选查找质数
+```
+#include "stdafx.h"
+#include <cctype>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <bitset>
+#include <cmath>
+
+using namespace std;
+
+
+int main(int argc, char *argv[])
+{
+  int const max_len(1000000);
+  int const max_sqrt = sqrt(max_len);
+  bitset<max_len + 1> numbers;
+  numbers.set();
+  numbers[1] = 0;
+
+  for (int i(1); i < max_sqrt + 1; ++i)
+  {
+    if (numbers[i]) {
+      for (int j(i * i); j < max_len + 1; j += i)
+      {
+        numbers[j] = 0;
+      }
+    }
+  }
+
+  cout << numbers.count() << endl;
+  for (int i(1); i < max_len + 1; ++i)
+  {
+    if (numbers[i]) {
+      cout << i << " ";
+    }
+  }
+  cout << endl;
+
+  return 0;
+}
+
+```
+
+<a id="66-fstream文件流操作"></a>
+#### 66. fstream文件流操作
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+
+using namespace std;
+
+void process(string s)
+{
+  cout << s << endl;
+}
+
+int main(int argc, char *argv[])
+{
+  vector<string> files;
+  files.push_back("one.txt");
+  files.push_back("two.txt");
+  files.push_back("three.txt");
+
+  string s; // 存储文件流中每一行的内容
+  vector<string>::const_iterator it = files.begin();
+
+  while (it != files.end())
+  {
+    ifstream input(it->c_str());
+    if (!input)
+    {
+      cerr << "Open error: " << *it << endl;
+      input.clear();
+      ++it;
+      continue;
+    }
+
+    while (input >> s)
+    {
+      process(s);
+    }
+
+    input.close();
+    input.clear();
+
+    it++;
+  }
+
+
+  return 0;
+}
+
+```
+
+<a id="67-通过函数open_file打开文件流并处理文件内容"></a>
+#### 67. 通过函数open_file打开文件流并处理文件内容
+
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+
+using namespace std;
+
+istream& get_int(istream &in)
+{
+  int temp;
+  while (in >> temp, !in.eof())
+  {
+    if (in.bad())
+    {
+      throw runtime_error("istream corrupted!!!");
+    }
+    if (in.fail())
+    {
+      cerr << "data type is not int!!!" << endl;
+      in.clear();
+      in.ignore(200, '\n');
+
+      continue;
+    }
+    cout << "data: " << temp << endl;
+  }
+
+  in.clear();
+
+  return in;
+}
+
+ifstream& open_file(ifstream &in, const string &filename)
+{
+  in.close();
+  in.clear();
+  in.open(filename.c_str());
+
+  return in;
+}
+
+
+int main(int argc, char *argv[])
+{
+  cout << "Please input your file name: " << endl;
+  
+  string filename;
+  cin >> filename;
+
+  ifstream in;
+  if (!open_file(in, filename))
+  {
+    cout << "error: can not open file: " << filename << endl;
+    return -1;
+  }
+
+  get_int(in);
+
+  in.clear();
+  in.close();
+
+  return 0;
+}
+
+```

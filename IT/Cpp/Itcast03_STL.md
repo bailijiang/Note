@@ -55,6 +55,11 @@
 - [53. 删除算法使用](#53-删除算法使用)
 - [54. reverse/rotate旋转算法](#54-reverserotate旋转算法)
 - [55. next_permutation/prev_permutation排列组合算法](#55-next_permutationprev_permutation排列组合算法)
+- [56. 重排random_shuffle,分区partition算法](#56-重排random_shuffle分区partition算法)
+- [57. 排序算法sort/stable_sort](#57-排序算法sortstable_sort)
+- [58. 局部排序partial_sort/partial_sort_copy](#58-局部排序partial_sortpartial_sort_copy)
+- [59. 取容器中第n大/小个元素排序算法nth_element](#59-取容器中第n大小个元素排序算法nth_element)
+- [60. 堆排序算法Heap](#60-堆排序算法heap)
 
 <!-- /MarkdownTOC -->
 
@@ -3495,6 +3500,286 @@ result:
 2 1 3
 1 3 2
 1 2 3
+请按任意键继续. . .
+```
+
+<a id="56-重排random_shuffle分区partition算法"></a>
+#### 56. 重排random_shuffle,分区partition算法
+* partition: 把符合规则(谓词)的元素向前搬移, 返回值为一个迭代器, 代表分区后中间的位置
+```
+int main(int argc, char *argv[])
+{
+    vector<int> ivec;
+    vector<int> ivec1;
+    vector<int> ivec2;
+    for (int i = 1; i < 10; ++i)
+    {
+        ivec.push_back(i);
+        ivec1.push_back(i);
+        ivec2.push_back(i);
+    }
+    printContents(ivec);
+
+    random_shuffle(ivec.begin(), ivec.end());
+    printContents(ivec);
+
+    printContents(ivec1);
+    printContents(ivec2);
+
+    //将偶数分区向前移动
+    vector<int>::iterator pos1;
+    pos1 = partition(ivec1.begin(), ivec1.end(), not1(bind2nd(modulus<int>(), 2)));
+    printContents(ivec1);
+    cout << "diveded pos: " << *pos1 << endl;
+
+    vector<int>::iterator pos2;
+    pos2 = stable_partition(ivec2.begin(), ivec2.end(), not1(bind2nd(modulus<int>(), 2)));
+    printContents(ivec2);
+    cout << "diveded pos: " << *pos2 << endl;
+
+
+    return 0;
+}
+result:
+1 2 3 4 5 6 7 8 9
+9 2 7 3 1 6 8 4 5
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+8 2 6 4 5 3 7 1 9
+diveded pos: 5
+2 4 6 8 1 3 5 7 9
+diveded pos: 1
+请按任意键继续. . .
+```
+
+<a id="57-排序算法sortstable_sort"></a>
+#### 57. 排序算法sort/stable_sort
+* 不适用于list(链表), list有成员函数list.sort
+* stable_sort不会改变元素原始位置
+```
+bool lessLength(string elem1, string elem2)
+{
+    return elem1.length() < elem2.length();
+}
+
+
+int main(int argc, char *argv[])
+{
+    deque<int> idq;
+    for (int i = 1; i < 10; ++i)
+    {
+        idq.push_back(i);
+    }
+    for (int i = 1; i < 10; ++i)
+    {
+        idq.push_back(i);
+    }
+    printContents(idq);
+
+    sort(idq.begin(), idq.end());
+    
+    printContents(idq);
+
+    sort(idq.begin(), idq.end(), greater<int>());
+    printContents(idq);
+
+    vector<string> svec1;
+    vector<string> svec2;
+
+    svec1.push_back("1xx");
+    svec1.push_back("2xx");
+    svec1.push_back("3xxx");
+    svec1.push_back("4x");
+    svec1.push_back("5");
+    svec1.push_back("6");
+    svec1.push_back("15");
+    svec1.push_back("13");
+    svec1.push_back("7xx");
+    svec1.push_back("8xxx");
+    svec1.push_back("9xx");
+    svec1.push_back("10xx");
+    svec1.push_back("11x");
+    svec1.push_back("12x");
+    svec1.push_back("14xxxx");
+
+    svec2 = svec1;
+    printContents(svec1);
+
+    cout << "sorted + stable_sorted:" << endl;
+    sort(svec1.begin(), svec1.end(), lessLength);
+    stable_sort(svec2.begin(), svec2.end(), lessLength);
+
+    printContents(svec1);
+    printContents(svec2);
+
+    return 0;
+}
+result:
+1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9
+9 9 8 8 7 7 6 6 5 5 4 4 3 3 2 2 1 1
+1xx 2xx 3xxx 4x 5 6 15 13 7xx 8xxx 9xx 10xx 11x 12x 14xxxx
+sorted + stable_sorted:
+5 6 4x 15 13 1xx 2xx 7xx 9xx 11x 12x 3xxx 8xxx 10xx 14xxxx
+5 6 4x 15 13 1xx 2xx 7xx 9xx 11x 12x 3xxx 8xxx 10xx 14xxxx
+请按任意键继续. . .
+```
+
+<a id="58-局部排序partial_sortpartial_sort_copy"></a>
+#### 58. 局部排序partial_sort/partial_sort_copy
+
+```
+int main(int argc, char *argv[])
+{
+    deque<int> idq;
+    deque<int> idq1;
+
+    for (int i = 3; i < 8; ++i)
+    {
+        idq.push_back(i);
+    }
+    for (int i = 2; i < 7; ++i)
+    {
+        idq.push_back(i);
+    }
+    for (int i = 1; i < 6; ++i)
+    {
+        idq.push_back(i);
+    }
+    printContents(idq);
+    idq1 = idq;
+
+    partial_sort(idq.begin(), idq.begin() + 5, idq.end());
+    printContents(idq);
+
+    partial_sort(idq.begin(), idq.begin() + 5, idq.end(), greater<int>());
+    printContents(idq);
+
+    //partial_sort_copy
+    vector<int> ivec6(6);
+    vector<int> ivec30(30);
+
+    printContents(idq1);
+
+    partial_sort_copy(idq1.begin(), idq1.end(), ivec6.begin(), ivec6.end());
+    printContents(ivec6);
+
+    vector<int>::iterator pos;
+    pos = partial_sort_copy(idq1.begin(), idq1.end(), ivec30.begin(), ivec30.end(), greater<int>());
+    printContents(ivec30);
+
+    copy(ivec30.begin(), pos, ostream_iterator<int>(cout, " "));
+    cout << endl;
+
+    return 0;
+}
+result:
+3 4 5 6 7 2 3 4 5 6 1 2 3 4 5
+1 2 2 3 3 7 6 5 5 6 4 4 3 4 5
+7 6 6 5 5 1 2 2 3 3 4 4 3 4 5
+3 4 5 6 7 2 3 4 5 6 1 2 3 4 5
+1 2 2 3 3 3
+7 6 6 5 5 5 4 4 4 3 3 3 2 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 6 6 5 5 5 4 4 4 3 3 3 2 2 1
+请按任意键继续. . .
+```
+
+<a id="59-取容器中第n大小个元素排序算法nth_element"></a>
+#### 59. 取容器中第n大/小个元素排序算法nth_element
+* 作用：nth_element作用为求第n大的元素，并把它放在第n位置上，下标是从0開始计数的，也就是说求第0小的元素就是最小的数。
+```
+int main(int argc, char *argv[])
+{
+    deque<int> idq;
+
+    for (int i = 3; i < 8; ++i)
+    {
+        idq.push_back(i);
+    }
+    for (int i = 2; i < 7; ++i)
+    {
+        idq.push_back(i);
+    }
+    for (int i = 1; i < 6; ++i)
+    {
+        idq.push_back(i);
+    }
+    printContents(idq);
+
+    //最小的前4个
+    nth_element(idq.begin(), idq.begin() + 3, idq.end());
+    printContents(idq);
+
+    nth_element(idq.begin(), idq.end() - 4, idq.end());
+    copy(idq.end() - 4, idq.end(), ostream_iterator<int>(cout, " "));
+    cout << endl;
+
+    //最大3个
+    nth_element(idq.begin(), idq.begin() + 3, idq.end(), greater<int>());
+    copy(idq.begin(), idq.begin() + 3, ostream_iterator<int>(cout, " "));
+    cout << endl;
+    
+    //partition的有并列的
+    deque<int>::iterator pos;
+    pos = partition(idq.begin(), idq.end(), bind2nd(less_equal<int>(), 3));
+    copy(idq.begin(), pos, ostream_iterator<int>(cout, " "));
+    cout << endl;
+
+    return 0;
+}
+result:
+3 4 5 6 7 2 3 4 5 6 1 2 3 4 5
+1 2 2 3 3 3 4 4 4 5 5 5 6 6 7
+5 6 6 7
+7 6 6
+1 2 2 3 3 3
+请按任意键继续. . .
+```
+
+<a id="60-堆排序算法heap"></a>
+#### 60. 堆排序算法Heap
+* 大根堆, 小根堆
+```
+int main(int argc, char *argv[])
+{
+    vector<int> ivec;
+    for (int i = 3; i < 8; ++i)
+    {
+        ivec.push_back(i);
+    }
+    for (int i = 5; i < 10; ++i)
+    {
+        ivec.push_back(i);
+    }
+    for (int i = 1; i < 5; ++i)
+    {
+        ivec.push_back(i);
+    }
+    printContents(ivec);
+
+    make_heap(ivec.begin(), ivec.end());
+    printContents(ivec);
+
+    pop_heap(ivec.begin(), ivec.end());
+    ivec.pop_back();
+    printContents(ivec);
+
+    ivec.push_back(17);
+    push_heap(ivec.begin(), ivec.end());
+    printContents(ivec);
+
+    //把堆变成普通排序
+    sort_heap(ivec.begin(), ivec.end());
+    printContents(ivec);
+
+    return 0;
+}
+result:
+3 4 5 6 7 5 6 7 8 9 1 2 3 4
+9 8 6 7 7 5 5 3 6 4 1 2 3 4
+8 7 6 7 4 5 5 3 6 4 1 2 3
+17 7 8 7 4 5 6 3 6 4 1 2 3 5
+1 2 3 3 4 4 5 5 6 6 7 7 8 17
 请按任意键继续. . .
 ```
 

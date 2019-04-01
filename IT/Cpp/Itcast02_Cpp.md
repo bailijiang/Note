@@ -67,6 +67,8 @@
 - [65. bitset筛选查找质数](#65-bitset筛选查找质数)
 - [66. fstream文件流操作](#66-fstream文件流操作)
 - [67. 通过函数open_file打开文件流并处理文件内容](#67-通过函数open_file打开文件流并处理文件内容)
+- [67. CppPrimer_Class002类定义](#67-cppprimer_class002类定义)
+- [68. CppPrimer_Class003类定义](#68-cppprimer_class003类定义)
 
 <!-- /MarkdownTOC -->
 
@@ -2296,3 +2298,137 @@ int main(int argc, char *argv[])
 }
 
 ```
+
+<a id="67-cppprimer_class002类定义"></a>
+#### 67. CppPrimer_Class002类定义
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Sales_item
+{
+public:
+  Sales_item(string book, unsigned units, double amount) : isbn(book), units_sold(units), revenue(amount) {}
+  double avg_price() const
+  {
+    if (units_sold)
+    {
+      return revenue / units_sold;
+    }
+    else
+    {
+      return 0;
+    }
+  }
+  bool same_isbn(const Sales_item &rhs) const
+  {
+    return isbn == rhs.isbn;
+  }
+
+  void add(const Sales_item &rhs)
+  {
+    units_sold += rhs.units_sold;
+    revenue += rhs.revenue;
+  }
+
+private:
+  string isbn;
+  unsigned units_sold;
+  double revenue;
+};
+
+int main(int argc, char *argv[])
+{
+  Sales_item x("3-209-X", 2, 20.00);
+  Sales_item y("3-209-X", 4, 35.00);
+  cout << x.avg_price() << endl;
+
+  if (x.same_isbn(y))
+  {
+    x.add(y);
+  }
+  cout << "x+y avg price: " << x.avg_price() << endl;
+
+
+  return 0;
+}
+
+result:
+10
+x+y avg price: 9.16667
+请按任意键继续. . .
+```
+
+<a id="68-cppprimer_class003类定义"></a>
+#### 68. CppPrimer_Class003类定义
+* typedef类型别名
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Screen
+{
+public:
+  typedef string::size_type index;
+
+  Screen(index ht = 0, index wd = 0) :cursor(0), width(wd), heigth(ht), contents(ht*wd, 'A') {}
+  Screen(index ht, index wd, const string &conts);
+
+  //返回当前光标的字符
+  char get() const;
+  //根据行列号取出contents字符串相应下标的字符
+  char get(index r, index c) const;
+
+private:
+  string contents; // 文本框的内容
+  index cursor; // 当前光标位置
+  index width, heigth; // 文本框的宽度,高度
+};
+
+Screen::Screen(index ht, index wd, const string &conts):cursor(0),heigth(ht),width(wd),contents(conts){}
+
+
+char Screen::get() const
+{
+  return contents[cursor];
+}
+
+char Screen::get(index r, index c) const
+{
+  index row = r * width;
+  return contents[row + c];
+}
+
+int main(int argc, char *argv[])
+{
+  
+  Screen a(10,100);
+  cout << a.get() << endl;
+  cout << a.get(3, 3) << endl;
+
+  Screen b(3, 6, "hello class screen");
+  cout << b.get() << endl;
+  cout << b.get(2, 3) << endl;
+
+  return 0;
+}
+
+result:
+A
+A
+h
+e
+请按任意键继续. . .
+```
+
+

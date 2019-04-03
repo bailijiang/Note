@@ -32,7 +32,8 @@
 - [30. void*](#30-void)
 - [31. class对象的仿\(伪\)函数操作符重载\(\)](#31-class对象的仿伪函数操作符重载)
 - [32. && 和 || 操作符重载](#32--和-||-操作符重载)
-- [33. 智能指针 auto_ptr, `-> *` 重载](#33-智能指针-auto_ptr----重载)
+- [33. 智能指针 auto_ptr](#33-智能指针-auto_ptr)
+- [33. `-> *` 重载](#33----重载)
 - [34. 继承的本质](#34-继承的本质)
 - [35. 继承方式](#35-继承方式)
 - [36. 返回值 void, void* 区别](#36-返回值-void-void-区别)
@@ -69,6 +70,10 @@
 - [67. 通过函数open_file打开文件流并处理文件内容](#67-通过函数open_file打开文件流并处理文件内容)
 - [67. CppPrimer_Class002类定义](#67-cppprimer_class002类定义)
 - [68. CppPrimer_Class003类定义](#68-cppprimer_class003类定义)
+- [69. this隐藏指针/const引用重载/mutable可变成员的应用](#69-this隐藏指针const引用重载mutable可变成员的应用)
+- [70. class构造函数相关](#70-class构造函数相关)
+- [71. copy拷贝构造和operate=等号操作符重载](#71-copy拷贝构造和operate等号操作符重载)
+- [72. 智能指针auto_ptr/shared_ptr/unique_ptr/weak_ptr](#72-智能指针auto_ptrshared_ptrunique_ptrweak_ptr)
 
 <!-- /MarkdownTOC -->
 
@@ -629,10 +634,13 @@ int main(void)
 * friend class B; //声明B类是我的友元类。  友元类就可以访问我的所有成员
 * 同类之间无私处, 异类之间有友元
 * 友元关系不能被继承, 无交换性, 无传递性
+* 重载操作符除了= [] () -> *以外, 应该声明为友元, 在class的外部定义, 这样就可以操作class的private成员
 
 <a id="28-操作符重载operator"></a>
 #### 28. 操作符重载operator
 * ` + - * / >> << += -+ 重载`
+* `+= -=` 重载返回值为引用, `+ -` 返回值不能是引用, 而且 `+ -` 重载不应该是成员函数
+* `+ -` 的重载可以通过调用`+= -=`重载完成(通过临时对象保存结果)
 ```
 class Complex
 {
@@ -898,10 +906,14 @@ int main(void)
 }
 ```
 
-<a id="33-智能指针-auto_ptr----重载"></a>
-#### 33. 智能指针 auto_ptr, `-> *` 重载
+<a id="33-智能指针-auto_ptr"></a>
+#### 33. 智能指针 auto_ptr
 * `auto_ptr<A> a_p(new A);` 不需要手动释放内存
 * 当new一个对象后, 如果程序抛出异常, 会导致内存泄露(无法delete), 这时使用auto_ptr可以自动释放内存
+* 
+<a id="33----重载"></a>
+#### 33. `-> *` 重载
+* 当class类成员有其他类成员指针时, 要实现`-> *` 重载
 ```
 #define  _CRT_SECURE_NO_WARNINGS
 #include <iostream>
@@ -934,7 +946,7 @@ public:
   A* operator->() { // ->返回的是指针
     return p_a;
   }
-  A& operator*() {  // *返回的是对象
+  A& operator*() {  // *返回的是对象(引用)
     return *p_a;
   }
 
@@ -2431,4 +2443,230 @@ e
 请按任意键继续. . .
 ```
 
+<a id="69-this隐藏指针const引用重载mutable可变成员的应用"></a>
+#### 69. this隐藏指针/const引用重载/mutable可变成员的应用
+* 对象方法连缀使用时, 方法返回对象的this指针不能省略
+* 可以基于const引用类型进行重载
+* 可变数据成员mutable: const方法中需要变化的成员,可以用mutable进行修饰, 如计数器 
+```
+#define _CRT_SECURE_NO_WARNINGS
 
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Screen
+{
+public:
+  typedef string::size_type index;
+
+  Screen(index ht = 0, index wd = 0) :cursor(0), width(wd), heigth(ht), contents(ht*wd, 'A'), access_ctr(0) {}
+  Screen(index ht, index wd, const string &conts);
+
+  //返回当前光标的字符
+  char get() const;
+  //根据行列号取出contents字符串相应下标的字符
+  char get(index r, index c) const;
+
+  //void move(index r, index c);
+  Screen& move(index r, index c);
+  Screen& set(index, index, char);
+  Screen& set(char);
+
+  //显示所有内容, 基于const进行重载
+  const Screen& display(ostream &os) const
+  {
+    ++access_ctr;
+    do_display(os);
+    return *this;
+  }
+
+  Screen& display(ostream &os)
+  {
+    ++access_ctr;
+    do_display(os);
+    return *this;
+  }
+
+  void getAccessCtr() const
+  {
+    cout << access_ctr << endl;
+  }
+
+private:
+  string contents; // 文本框的内容
+  index cursor; // 当前光标位置
+  index width, heigth; // 文本框的宽度,高度
+  mutable size_t access_ctr; //显示display计数器
+
+  void do_display(ostream &os) const
+  {
+    os << contents << endl;
+  }
+};
+
+Screen::Screen(index ht, index wd, const string &conts) :cursor(0), heigth(ht), width(wd), contents(conts) {}
+
+
+char Screen::get() const
+{
+  return contents[cursor];
+}
+
+char Screen::get(index r, index c) const
+{
+  index row = r * width;
+  return contents[row + c];
+}
+
+Screen& Screen::move(index r, index c)
+{
+  index row = r * width;
+  cursor = row + c;
+
+  return *this; //此时this指针不能省略
+}
+Screen& Screen::set(index r, index c, char ch)
+{
+  index row = r * width;
+  contents[row + c] = ch;
+  return *this;
+}
+Screen& Screen::set(char ch)
+{
+  contents[cursor] = ch;
+  return *this;
+}
+
+int main(int argc, char *argv[])
+{
+  Screen myScreen(5, 3);
+  cout << myScreen.get() << endl;
+  myScreen.move(2, 3);
+  cout << myScreen.get() << endl;
+  myScreen.set(2, 3, 'B');
+  cout << myScreen.get() << endl;
+  myScreen.move(3, 2);
+  myScreen.set(3, 2, 'C');
+  cout << myScreen.get() << endl;
+
+  //重点:将move和set写到一行
+  //需要move方法返回Screen的引用对象
+  myScreen.move(4, 2).set('D').display(cout);
+  cout << myScreen.get() << endl;
+
+  cout << myScreen.move(4, 1).set('E').get() << endl;
+
+  myScreen.display(cout);
+
+  myScreen.move(2, 1).set('X').move(2, 2).set('Y').display(cout).move(3, 1).set('Z').display(cout);
+
+  myScreen.getAccessCtr();
+
+  return 0;
+}
+
+result:
+A
+A
+B
+C
+AAAAAAAAABACAAD
+D
+E
+AAAAAAAAABACAED
+AAAAAAAXYBACAED
+AAAAAAAXYBZCAED
+4
+请按任意键继续. . .
+```
+
+<a id="70-class构造函数相关"></a>
+#### 70. class构造函数相关
++ 使用输入流istream创建class对象
+  + friend operator>> 实现操作符重载
++ 构造函数重载
++ 构造函数永远不需要写成const函数, 可以有const参数
++ private中的const成员,必须用参数列表的方式进行初始化
++ 成员初始化顺序与private中的定义顺义有关, 与初始化列表顺序无关
++ 只有一个形参的构造函数的副作用, 可以使用explicit避免隐式构造
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Sales_item
+{
+public:
+  friend istream& operator>> (istream&, Sales_item&);
+  Sales_item(istream &is){is >> *this;}
+  Sales_item(const string &na) :isbn(na), units_sold(0), revenue(0.0) {}
+  Sales_item():units_sold(0),revenue(0.0){}
+
+  void getName()
+  {
+    cout << isbn << endl;
+  }
+private:
+  string isbn;
+  unsigned units_sold;
+  double revenue;
+};
+
+istream& operator >> (istream &is, Sales_item &s)
+{
+  double price;
+  is >> s.isbn >> s.units_sold >> price;
+  if (is)
+  {
+    s.revenue = s.units_sold * price;
+  }
+  else
+  {
+    s = Sales_item();
+  }
+  return is;
+}
+
+int main(int argc, char *argv[])
+{
+  Sales_item *p = new Sales_item();
+  cout << "Please input Sales_item isbn units_sold price: " << endl;
+  cin >> *p;
+  p->getName();
+  
+  delete p;
+
+  return 0;
+}
+
+result:
+Please input Sales_item isbn units_sold price:
+3-343-X 3 45.66
+3-343-X
+请按任意键继续. . .
+```
+
+<a id="71-copy拷贝构造和operate等号操作符重载"></a>
+#### 71. copy拷贝构造和operate=等号操作符重载
+* 拷贝构造和operate=都是同时编写
+* 编译器默认有拷贝构造和operate=操作符重载
+* 默认的拷贝构造和operate=重载对class的指针成员是指针拷贝, 而不是对象的值拷贝
+* 如果class成员中有对象指针, 则必须写拷贝构造和operate=重载, 以避免浅拷贝问题(应该把指针指向对象的值拷贝过去new...)
+* 函数传参和返回值为值传递时, 会调用拷贝构造
+* 创建容器时会调用拷贝构造
+* 创建数组不会调用拷贝构造, 会调用默认构造函数
+* 有析构函数, 就要有copy拷贝构造和operate=操作符重载(配合避免浅拷贝问题, new和delete是一对,必须同时出现)
+
+<a id="72-智能指针auto_ptrshared_ptrunique_ptrweak_ptr"></a>
+#### 72. 智能指针auto_ptr/shared_ptr/unique_ptr/weak_ptr
+* 智能指针: 当引用计数器为0时,自动释放内存地址空间, 避免野指针
+* 智能指针的作用: 当不想进行类对象深copy拷贝时, 又想避免浅拷贝的野指针危险时, 可以使用智能指针shared_ptr(当引用计数器为0时,才会自动释放)
+* 参照C++ Primer 5th 第 12 章
+* 使用类class对象指针时,要用智能指针shared_ptr/auto_ptr, 不要使用普通指针, 避免出现野指针问题

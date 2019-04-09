@@ -26,7 +26,7 @@
 - [24. this指针](#24-this指针)
 - [25. class成员函数](#25-class成员函数)
 - [26. 数组类操作](#26-数组类操作)
-- [27. 友元函数](#27-友元函数)
+- [27. 友元函数/友元类/嵌套类](#27-友元函数友元类嵌套类)
 - [28. 操作符重载operator](#28-操作符重载operator)
 - [29. size_t](#29-size_t)
 - [30. void*](#30-void)
@@ -74,6 +74,7 @@
 - [70. class构造函数相关](#70-class构造函数相关)
 - [71. copy拷贝构造和operate=等号操作符重载](#71-copy拷贝构造和operate等号操作符重载)
 - [72. 智能指针auto_ptr/shared_ptr/unique_ptr/weak_ptr](#72-智能指针auto_ptrshared_ptrunique_ptrweak_ptr)
+- [73. 泛型函数对象操作符重载operator\(\)](#73-泛型函数对象操作符重载operator)
 
 <!-- /MarkdownTOC -->
 
@@ -231,6 +232,8 @@ $distance=\sqrt{(x2 - x1)^2 + (y2 - y1)^2}$
 * 函数参数为通过值传递的class对象时,会隐式调用拷贝构造函数
 * 函数返回值为class对象时(值传递),会通过**匿名对象**接收返回值,并调用拷贝构造函数
 * C++是静态编译语言,没有反射,this保留的是内存地址,class实例对象名在代码块结束时会被弹栈,因此无法cout出class实例对象名称,可以采用通过字符串保存对象名称
+* 创建子类对象时, 会先通过初始化列表调用父类构造函数,调用顺序以继承的顺序为准(如果不写, 会隐式调用父类默认构造函数), 然后调换子类成员对应的构造函数, 最后调用子类构造函数
+* 构造函数和析构函数不能被继承
 
 <a id="15-析构函数"></a>
 #### 15. 析构函数
@@ -619,8 +622,8 @@ int main(void)
 }
 ```
 
-<a id="27-友元函数"></a>
-#### 27. 友元函数
+<a id="27-友元函数友元类嵌套类"></a>
+#### 27. 友元函数/友元类/嵌套类
 * 在class类的内部通过friend声明一个全局函数后, 这个全局函数就可以使用这个class类的private私有成员
 * friend 会破坏class封装性
 ```
@@ -635,6 +638,7 @@ int main(void)
 * 同类之间无私处, 异类之间有友元
 * 友元关系不能被继承, 无交换性, 无传递性
 * 重载操作符除了= [] () -> *以外, 应该声明为友元, 在class的外部定义, 这样就可以操作class的private成员
+* 使用嵌套class或struct, 可以避免声明友元friend, 直接使用嵌套类中的private成员
 
 <a id="28-操作符重载operator"></a>
 #### 28. 操作符重载operator
@@ -910,7 +914,7 @@ int main(void)
 #### 33. 智能指针 auto_ptr
 * `auto_ptr<A> a_p(new A);` 不需要手动释放内存
 * 当new一个对象后, 如果程序抛出异常, 会导致内存泄露(无法delete), 这时使用auto_ptr可以自动释放内存
-* 
+
 <a id="33----重载"></a>
 #### 33. `-> *` 重载
 * 当class类成员有其他类成员指针时, 要实现`-> *` 重载
@@ -1015,6 +1019,8 @@ int main(void)
 #### 39. virtual 虚继承
 * 菱形继承关系,会产生继承的二义性
 * 通过virtual 只拷贝一份
+* 多继承中, 如果不用虚继承, 孙子类会调用2次爷爷类的构造函数
+* 当父类有了虚继承后, 孙子类需要在构造函数中调用爷爷类的构造函数
 ```
 class Bed: virtual  public Furniture
 {
@@ -2670,3 +2676,223 @@ Please input Sales_item isbn units_sold price:
 * 智能指针的作用: 当不想进行类对象深copy拷贝时, 又想避免浅拷贝的野指针危险时, 可以使用智能指针shared_ptr(当引用计数器为0时,才会自动释放)
 * 参照C++ Primer 5th 第 12 章
 * 使用类class对象指针时,要用智能指针shared_ptr/auto_ptr, 不要使用普通指针, 避免出现野指针问题
+
+<a id="73-泛型函数对象操作符重载operator"></a>
+#### 73. 泛型函数对象操作符重载operator()
+* 函数对象operator()重载泛型类: 泛型对象输出,加了计数器
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Sales_item
+{
+public:
+  friend istream& operator>> (istream&, Sales_item&);
+  friend ostream& operator<< (ostream&, const Sales_item&);
+
+  Sales_item(istream &is){is >> *this;}
+  Sales_item(const string &na) :isbn(na), units_sold(0), revenue(0.0) {}
+  Sales_item():units_sold(0),revenue(0.0){}
+
+  void getName()
+  {
+    cout << isbn << endl;
+  }
+private:
+  string isbn;
+  unsigned units_sold;
+  double revenue;
+};
+
+istream& operator >> (istream &is, Sales_item &s)
+{
+  double price;
+  is >> s.isbn >> s.units_sold >> price;
+  if (is)
+  {
+    s.revenue = s.units_sold * price;
+  }
+  else
+  {
+    s = Sales_item();
+  }
+  return is;
+}
+
+ostream& operator<< (ostream& os, const Sales_item& s)
+{
+  os << s.isbn << " " << s.units_sold << " " << s.revenue;
+  return os;
+}
+
+template<typename elementType>
+struct DisplayElement
+{
+  mutable int d_cnt;
+  DisplayElement()
+  {
+    d_cnt = 0;
+  }
+
+  void operator() (const elementType &element) const
+  {
+    ++d_cnt;
+    cout << element " ";
+  }
+};
+
+int main(int argc, char *argv[])
+{
+  Sales_item *p = new Sales_item();
+  cout << "Please input Sales_item isbn units_sold price: " << endl;
+  cin >> *p;
+  p->getName();
+  
+  cout << *p << endl;
+
+  cout << "DisplayElement: " << endl;
+  DisplayElement<Sales_item> de;
+  const Sales_item &q = *p;
+  de(q); //重点
+  cout << "Display count: " << de.d_cnt << endl;
+
+  vector<int> ivec;
+  for (int i = 1;i<10;++i)
+  {
+    ivec.push_back(i);
+  }
+  
+  DisplayElement<int> vec_int_display;
+  vec_int_display = for_each(ivec.begin(), ivec.end(), vec_int_display);
+  cout << "vec_int_display count: " << vec_int_display.d_cnt << endl;
+
+  delete p;
+
+  return 0;
+}
+
+result:
+Please input Sales_item isbn units_sold price:
+2-102-3423-X 2 34.44
+2-102-3423-X
+2-102-3423-X 2 68.88
+DisplayElement:
+2-102-3423-X 2 68.88 Display count: 1
+1 2 3 4 5 6 7 8 9 vec_int_display count: 9
+请按任意键继续. . .
+```
+
+* 泛型类的函数对象操作符重载(一元谓词): 判断是否是divisor的倍数
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+// 泛型类的函数对象操作符重载(一元谓词): 判断是否是divisor的倍数
+template<typename numberType>
+struct IsMultiple
+{
+  numberType myDivisor;
+
+  IsMultiple(const numberType& divisor)
+  {
+    myDivisor = divisor;
+  }
+
+  bool operator()(const numberType& num) const
+  {
+    return (num % myDivisor) == 0;
+  }
+
+};
+
+int main(int argc, char *argv[])
+{
+  vector<int> ivec;
+  for (int i = 50; i <= 100; ++i)
+  {
+    ivec.push_back(i);
+  }
+
+  vector<int>::iterator result;
+  result = find_if(ivec.begin(), ivec.end(), IsMultiple<int>(4));
+  if (result != ivec.end())
+  {
+    cout << "第一个是4的倍数的是: " << *result << endl;
+  }
+
+  return 0;
+}
+
+result:
+第一个是4的倍数的是: 52
+请按任意键继续. . .
+```
+
+* set容器二元谓词函数对象operator()操作符重载: 忽略大小写查找字符串
+```
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <set>
+#include <algorithm>
+
+using namespace std;
+
+struct CCompareStringNoCase
+{
+  bool operator()(const string& str1, const string& str2) const
+  {
+    string str1LowerCase;
+    str1LowerCase.resize(str1.size());
+    transform(str1.begin(), str1.end(), str1LowerCase.begin(), tolower);
+
+    string str2LowerCase;
+    str2LowerCase.resize(str2.size());
+    transform(str2.begin(), str2.end(), str2LowerCase.begin(), tolower);
+
+    return (str1LowerCase == str2LowerCase);
+  }
+};
+
+int main(int argc, char *argv[])
+{
+  set<string,CCompareStringNoCase> names;
+  names.insert("Apple");
+  names.insert("Bryan");
+  names.insert("Tom");
+  names.insert("jerry");
+  names.insert("pear");
+  names.insert("Beauty");
+
+  set<string,CCompareStringNoCase>::iterator find_result;
+  find_result = names.find("tom");
+  if (find_result != names.end())
+  {
+    cout << "找到了" << endl;
+  }
+  else
+  {
+    cout << "没找到" << endl;
+  }
+
+  return 0;
+}
+
+```
+

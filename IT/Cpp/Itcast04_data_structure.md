@@ -394,6 +394,9 @@ if (!st.empty()) {
     - 队头队尾没有区别
     - 管理队列结构体struct的设计理念: 如何操作这个队列, 需要哪些属性(front, rear, void* data[MAXSIZE])
     - 存储任意数据类型的指针数组: `void* data[MAXSIZE];` 不需要malloc开辟空间
+* 循环队列: 向队列里push数据 
+    - 判断是否为队尾: rear = (rear+1) % capacity;
+    - 队列满了: (rear+1) % capacity == front;
 
 <a id="18-树-二叉树"></a>
 #### 18. 树 二叉树

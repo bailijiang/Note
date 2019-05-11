@@ -1082,7 +1082,7 @@ He insisted that I should stay to lunch.
 
 I wonder when he will arrive.
 
-L64: The Channel Tunnel
+# L64: The Channel Tunnel
 3类if条件句
 * 表示将来很可能发生的事
 If you park your car in the wrong place, a traffic policeman will soon find it.
@@ -1095,11 +1095,11 @@ If I were in your position, I would act differently.
 
 * 与过去事实相反, 假设条件句, 
   if从句需用过去完成时had done，
-  主句用would have/should have done 过去分词形式：
+  主句用 would/should/might/could have done 过去分词形式：
 If I had worked harder at school, I'd have got a better job.
 You had got a good health If you would have had good exercise. 
 
-L65: Jumbo versus police
+# L65: Jumbo versus police
 * 表示“应该”和“必须”的情态助动词 should, ought, have to 与must
 I missed the train, so I had to take a taxi.
 I'm sorry I'm late. I should have taken a taxi.
@@ -1110,7 +1110,7 @@ Do you have to wash the dishes now?
 I would get that job if I should have studied English hard.
 If I should not have eaten candy, my teeth would not decay.
 
-L66: Sweet as honey!
+# L66: Sweet as honey!
 * 完全(实意)动词: have 
 Did you have a good meal?
 He has five cars.
@@ -1123,7 +1123,7 @@ I had my car washed. 我让人把车给洗了.
 I'm having my car repaired.
 I'm going to have my suit cleaned.
 
-L67: Volcanoes
+# L67: Volcanoes
 * 表示“能力”的情态助动词及其他有关的动词： can/ could / be able to / manage to
 I can't remember where I've seen him.
 I can sing some songs, but I can't play the piano.
@@ -1135,7 +1135,7 @@ I think I can be a successful programmer and I can't fail.
 I was able to win the game yesterday because I have ever been training hard.
 I managed to obtain the job as I took part a number of interviews.
 
-L68: Persistent
+# L68: Persistent
 * 动名词doing
 I like watching TV.
 I'd like to watch TV.
@@ -1156,7 +1156,7 @@ Would you mind drinking with me?
 Would you mind my smoking here?
 I enjoy playing basketball.
 
-L69: But not murder!
+# L69: But not murder!
 * 被动语态
   was/were being done
   had been done
@@ -1171,7 +1171,7 @@ My money has been spent out.
 The mobile phone that I wanted to buy was already sold out.
 Though the bicycle could be ridden, I haven't enough money.
 
-L70: Red for danger
+# L70: Red for danger
 * 与 for, with, of, to, at, from, in, on, about 连用的形容词(形容词词组)
   be unaware of / busy with / sensitive to / sure of / sorry for 
 I was unaware of the difficulty of the job.
@@ -1293,7 +1293,7 @@ Yesterday, I worked in my office, listening to jazz music.
 I will not be long before to find my girlfriend.
 
 # L76: Apil Fools' Day
-##1. 现在完成时: 
+##现在完成时: 已经, 刚刚, 尚未(还没)
       have/has been 
       have/has been done 被动
       have/has been doing 进行
@@ -1305,4 +1305,15 @@ How long has it been grown there?
 I have been living here for thirty years.
 He has been selling drug here for three years.
 
+# L77: A successful operation
+##限制性定语从句(名词从句): 关系代词 who / which / that / when / where / why
+  非限制性定语从句, 起补充说明的作用: ...,which...
+
+I finally have left Yiyuanju where I had lived for 30 years.
+My boss who is a hypocritical person.
+The department at Shunyi that I have just bought recently.
+Thank you for your help that you have given me.
+Mr.Brown was the only person who saw the accident.
+He will not tell you the reason why he didn't go to the meeting
+I won't forget the day when you give me a kiss.
 

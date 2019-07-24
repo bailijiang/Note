@@ -1,4 +1,4 @@
-﻿L1: A private conversation
+﻿#L1: A private conversation
 * 陈述句语序: 
   主语+动词+宾语或补语+方式(adv)+地点+时间
 
@@ -12,7 +12,7 @@ I could not hear the actors.
 A young man and a young woman were sitting behind me.
 They were talking loudly.
 
-L2: Breakfast or lunch?
+#L2: Breakfast or lunch?
 * 现在进行时时间副词：now, still
   一般现在时的时间副词：often, always, never, ever, sometimes, seldom, frequently, rarely
 * 感叹句
@@ -1306,8 +1306,8 @@ I have been living here for thirty years.
 He has been selling drug here for three years.
 
 # L77: A successful operation
-##限制性定语从句(名词从句): 关系代词 who / which / that / when / where / why
-  非限制性定语从句, 起补充说明的作用: ...,which...
+##限制性定语从句: 关系代词 who / which / that / when / where / why
+  非限制性定语从句, 起补充说明的作用(有逗号的): ...,which(不能用that)...
 
 I finally have left Yiyuanju where I had lived for 30 years.
 My boss who is a hypocritical person.
@@ -1317,3 +1317,199 @@ Mr.Brown was the only person who saw the accident.
 He will not tell you the reason why he didn't go to the meeting
 I won't forget the day when you give me a kiss.
 
+# L78: The last one?
+##现在/过去分词做形容词成分
+A barking dog doesn't bite.
+The sparkling lake is beautiful.
+The lighting firefly likes stars in the sky.
+I want to be a flying bird.
+A learning man could be a true master.
+Boiled water is safe to drink.
+
+##动名词:doing (表示习惯/持续性的)
+Drinking is his only vice.
+Picking strawberries can be fun.
+I am not afraid of death,but I am scared of dying.
+I don't like calling my girlfriend day after day.
+Learning English is my habit.
+My favorite sport is playing basketball.
+
+##动词不定式短语: to do 
+  做名词/形容词/副词 均可
+I am glad to know you.
+They plan to marry next month.
+I hate to say this, but I think you're mistaken.
+I always try to be on time.
+Please remember to give me a wake-up call at 6:00 tomorrow.
+I want to study math.
+I remember to eat lunch.
+I know what it's like to lose.
+
+#L79: By air
+##used to do 曾经做过某事 use(v.)
+I used to live in this street.
+I used to work in Chongqing by air.
+Did you use to play basketball?
+She used to love me.
+When I was young, I used to play PC games.
+
+##be used to do/doing 习惯于做某事  used(adj.)
+We are used to living together.
+Now I have used to learn English in the morning every day.
+I am used to eating fruit every day.
+I am used to eating vegetable dishes once a week.
+Are you used to do exercise every day?
+
+#L80: The Crystal Palace
+##形容词和副词的比较级和最高级 er est / more than / the most / one of the most / 特殊
+Chinese is stupider than American. 
+Chinese people is the stupidest in the world.
+My girlfriend is more beautiful than yours.
+My girlfriend is the most beautiful woman in the world.
+I am one of the most accurate shooters in the NBA.
+
+#L81: Escape
+##介词的用法: at / in / to / with / of / into / over / towards / for / inside / off ... + n.
+I get up early in the morning.
+I'm very greatful for your help.
+Don't aim your gun at me.
+She keeps healthy by jogging every day.
+Hundreds of people died of the diease.
+I recently sleep badly at night.
+We walked to the bus station after dinner.
+I used to work at Chongqing with my laptop.
+The host of this house is me.
+I have changed into sports clothes and ready to play basketball.
+The bridge over the river.
+She is walking toward me.
+When he looked towards me, I smiled and waved.
+
+#L82: Monster of fish?
+##被动语态(可应用在各种时态中)
+These bicycles are made in Shanghai.
+My head used to be beaten by the boy in 2014.
+He told me that he was being beaten.
+I will be asked many questions during the interview next month.
+The team of China has been eliminated in the world cup.
+
+#L83: After the elections
+##时态 复习(过去时/进行时/完成时...)
+When he was studying at high school, I had already gone aboard.
+When I was walking in the park, I had since recited the text.
+But after we were getting ready to change locations, we just kind of realized, we weren't really sure that taking her with us was the right thing to do. 
+
+#L84: On strike
+##将来时 will be / be going to do (计划性强)
+I will find a job next month.
+I am going to finish the NCE studying course this year.
+
+#L85: Never too old to learn
+##一般将来时 will be / 将来进行时 will be doing / 将来完成进行时 will have been doing 
+I will be waiting for you at the station when you arrive. 
+I will be working at a decent company.
+This project will have been finishing its half function next week.
+By then, I shall have been living in Beijing for over 40 years.
+If Kobe gets two points again, he will have been getting 80 points in this game.
+
+#L86: Out of control
+##过去完成时 had done / 过去完成进行时 had been doing 
+I have received the shoes which had been bought yesterday.
+I had been starting to learn English this time last year.
+She had just been sleeping in my bed for two hours.
+
+#L87: A perfect alibi
+##直接/间接引语 : 两种向别人转述的方式
+She said, "I will get back next week."
+She said that she would get back the next week.
+She said, "Are you busy, John?"
+She asked John whether he was busy.
+He asked me, "Where did you buy this Chinese-English dictionary?"
+He asked me where I had bought that Chinese-English dictionary.
+She asked, "Are you handsome?"
+She asked me whether I am handsome.
+
+#L88: Trapped in a mine
+##if虚拟语气 (与 现在 / 过去 / 将来 事实相反, 或发生概率很小)
+If I had the money now, I would buy a new car. (与现在事实相反)
+If I were you, I would not buy a laptop.
+If John had worked hard, he would have passed his examination. (与过去事实相反)
+If I had not hurried to decorate my house, I would not have been cheated two thousand dollars.
+If an asteroid should hit the earth, man could die out. (与将来事实相反)
+If he should come here tomorrow, I would talk to him.
+If she should come here tomorrow, I would happy to see her.
+If I could marry this year, I would buy furniture next month.
+
+#L89: A slip of the tongue
+##情态动词: Must / Have to / Need / Should
+need not(needn't) : 不必...
+should have done : 本应该xx, 而实际没有
+should be...: 应该...
+must be...: 必须...
+have to...: 必须(不得不)...
+must have been: 肯定...
+
+I think I needn't go to the party.
+He should have performed a father's responsibility.
+I should have dinner now.
+You must have a good rest now. 
+I have to get to work on time.
+These people must have not been kindness.
+
+#L90: What's for supper?
+##have的用法:
+  have sth done : 让某人做某事
+  have to do: 不得不...
+  现在完成时: have/has done 已经...
+  现在完成时被动语态: have been done 曾经被...
+
+I have my colleague bought me lunch.
+She has me picked up the children after work.
+I have to finish my work today.
+I have done the physical exercise this morning.
+I have been teased by my colleague.
+
+#L91: Three men in a basket
+##Can (可能性/有能力) / Be able to (有能力) / Manage to (努力设法去做)
+I think that he can probably dunk.
+I think that he will be able to dunk when he grows up.
+I told him that we would be able to finish this project later.
+I manage to use all sorts of ways to promote my English learning speed.
+Everybody all can be an honest person and should be. 
+
+#L92: Asking for trouble
+##动名词doing(做名词用)
+  by doing ...
+  begin / need / regret / enjoy / busy / mind  + doing ...
+I believe the knowledge of a person could be promoted by reading a lot of books.
+I began learning English when I was twelve.
+You need relaxing a little every night.
+I regretted drinking so much last night.
+I enjoy listening to music when I driving my car. 
+I have busied learning software development this year.
+Would you mind smoking here I am? Yes, I'm very mind.
+
+#L93: A noble gift
+##被动语态: 
+  was/were done
+  was/were + being + done
+  is/are + being + done
+  shall/will + be + done
+  have/has + been + done
+  had been done
+  had to be done
+My former boss was arrested for frauding last year.
+My house was being built last October.
+My house is being built now.
+Those people who are living where I used to live will be ruled by American.
+Those people who think they're smart has been brainwashed.
+The moral had already been distorted in this city ten years ago.
+These scumbags had to be fired before the company public.
+
+#L94: Future champions
+##review
+
+#L95: A fantacy
+##review
+
+#L96: The dead return
+##review

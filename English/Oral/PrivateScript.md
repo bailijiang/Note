@@ -14,7 +14,7 @@
 
 <a id="1-daily-life"></a>
 ####1. Daily life
-* eating
+* Food
 * cloth
 * 
 

@@ -507,7 +507,7 @@ I would excitedly go along to the party.
 * none other than... : 不是别人, 正是...
 The worst criminal is none other than this country's president.
 
-* be supposed to ...: 被认为...
+* be supposed to be...: 被认为...
 All the policeman of this country was absolutely supposed to be seen as gangsters.
 
 * quite unaware of the fact that ... : 对...不知道
@@ -515,9 +515,228 @@ He seemed unaware of the trouble he had caused.
 The fool is usually unaware of the fact that they are foolish.
 
 #L31: A lovable eccentric
+##表示否定: 
+       -  no / not
+       -  never / hardly
+       -  rarely / seldom / none / neither / little / few / too...to
+       -  动词表否定: disregard / refuse ...
+*      -  without (= ...that sb is not ...) 连接表示否定从句的简化形式
+I disregard social convention without being conscious that I'm doing anything extraordinary.
+The party was organized without her knowing anything about it.
+She had done this without consulting me.
+She read my e-mail without my permit.
+
+* be caught in... : 陷入...(困境)
+I was caught in a traffic jam on my way to the airport.
+I was caught in the poisoned culture in my life.
+
+* be in a ... condition : 在...样的状态下
+I was in an absent-minded condition that I was working yesterday.
+He was in a so exciting condition singing that song.
+
+* insist on sb's doing sth : 坚持让某人做某事
+I insist on her learning English every day.
+I insist on my colleague's apologize to me.
+
+#L32: A lost ship
+##过去完成进行时 had been + doing : 过去一直做...(现在不做了)
+I had been learning English last year.
+I had been swimming for years.
+It had been raining last week.
+I had been singing when I was young.
+
+* under the impression that...: 错误的认为
+I was under the impression that he is a good man.
+
+* of + n. = adj.
+  of value / of great interest / of use / of help
+The things which everybody does is nothing of value.
+I hope the information will be of some help to you. (of some help = helpful)
+
+
+#L33: A day to remember
+* choose to...: (故意)找...
+You must have chosen to make trouble!
+It seemed like the weather chooses to make trouble for me.
+
+* attend to: 接待,照顾
+He is attending to the customers now.
+She is attending to her baby.
+You are responsible to attend to the customers.
+
+* reduce sb to ... : 把(谁)...弄(怎么样)... / 沦为...
+His question reduced me to silence.
+The city was reduced to ruins.
+This country will certainly reduce to the colony.
+
+* yet: still 也...
+  yet another / again / worse...
+Though having already owned three pairs of basketball shoes, I bought yet another pair today.
+Sorry to disturb you yet again.
+He made a yet worse mistake.
+
+* was drawing up alongside ... : 正在靠近...
+I am drawing up alongside the first place.
+
+#L34: A happy discovery
+* its: it的所有格
+There is always hope that in its labyrinth of musty, dark, disordered room ...
+  - its 代表的是 hope (...充满希望的迷宫...)
+The dog has its own house.
+Turn the box on its side.
+
+* be bother to...: 费事做...
+I cannot be bothered to cook this evening.
+
+* bent on: determined to 决心做...
+I bend on learning English well.
+
+* by chance: 碰巧, 意外
+I picked up fifty dollars by chance when I was walking in our community yesterday.
+
+#L35: Justice was done
+* of one's own accord: 自愿地, 自动地
+I had donated 1,500 RMB of my own accord.
+He donated blood of his own accord.
+
+* cease to do / doing sth: 
+Some museums have ceased to charge admission. 
+We must cease dumping waste in the sea.
+
+* a certain set of circumstances: 一些特定情况下
+In a certain set of circumstances has enabled the bug emerged in this program.
+
+* blackened: black(adj.) -> blacken(v.) -> blackened(adj.)
+  这种变换通常在形容 quality / state 时使用, 使其带有变化性质的形容效果
+  如: broadened, brightened, sharpened, weakened ...
+
+#L36: A chance in a million
+* how it is/was : why
+How is it that you don't know?
+How it was that you missed that shot?
+
+* be acquaited with sb/sth...: 对...很熟悉(认识了...)
+I'm acquainted with this city.
+I've acquainted with a lot of basketball friends there.
+
+* make one's way: 前往,前进(慢慢)
+He made his way slowly up the hill.
+I made my way up the stairs.
+I made my way to success.
+
+#L37: The Westhaven express
+* too...to...: 太...以至于(不能)...
+He is too smart to solve this math problem.
+She was too clumsy to open the door.
+
+* can't help doing: 禁不住...
+It is too hot, I can't help drinking a bottle of beer.
+
+* Neither was I... : (倒装)...也没有...
+Neither was I happy.
+Neither did I go swimming.
+
+* dawn on : v. 使...渐渐明白
+I dawn on understanding that this country's darkness.
+The truth finally dawned on him.
+It finally dawned on him that his parents had been right.
+
+* strike (me) as (odd): 使(我)感到(奇怪)
+His behavior strikes me on odd.
+Doesn't it strike you as strange that he never talks about his family? 
+His jokes didn't strike me as funny.
+
+* reflected that... : 认为...
+I reflected that those people should die.
+
+* note: 一丝
+There is a not jealousy in his voice.
+Her voice had an angry note.
+There is a note smile on her face.
+
+#L38: The first calender
+* ...not have to rely...: 不必依赖...
+If you want to live with a soul, you must not have to rely solely on the national network.(必须不能完全依赖...)
+
+* shed... light on: 使...显露出来
+Though he is young, he has shed talent light on music.
+
+* come into being with...: 产生于/ 形成于...
+This kind of rogue culture came into being with the advent of reform and opening.
+
+* scanty(adj.): 不足的, 欠缺的, 暴露的
+There is only scanty evidence of his involvement.
+a scanty bikini
+
+* the passage of: ...的流逝
+As the passage of time, we all gradually getting old.
+
+#L39: Nothing to worry about
+* get sb (not)to do sth: 说服某人(不)做某事
+I tried to get her not to travel to the Hongkong.
+
+* not in the least... : 一点也不...
+Though I finished studying my English course today, I am not in the least with satisfaction.
+I don't like travelling in the least.
+
+* it is/was not that..., ... : 不是...只是(强调)...
+It is not that I am not paying attention to you, I'm simply too busy.
+It was not that I'm not seeing you, I just didn't want to talk to you.
+
+* wonder if/whether... : 不知是否...
+I wondered if I am right to accept this job.
+I was wondering whether you'd like to join us for dinner.
+I was wondering whether she really loves me.
+
+* What a relief it was...
+= It was such a relief...
+
+* charge at: 冲向
+My pup always happily charges at me when I came home from work every day.
+A lot pigeon charge at me.
+
+* give way to: 为(由)...所代替 / 给...让路 (= replace)
+These days the blue sky has given way to haze.
+Sailing ships finally gave way to steamships.
+
+* come to a (grinding) halt: 突然陷入停顿
+The traffic came to a halt as the light turned red.
+The economy of Hongkong came to a grinding halt because of the riot.
+
+#L40: Who's who
+* It has never been explained why... : 很难解释...
+  why后面是真正的主语
+It has never been explained why the Chinese are so lazy.
+
+* take sb seriously: 把...当回事
+I never take these people seriously.
+
+* Only when... did he realize that... : 直到...才...
+  only引导的副词从句放句首,主句要倒装
+Only when I was forty years old did I find a way to learn English.
+
+#L41: Illusions of Pastoral Peace
+* at the mere mention of ... : 一提到...
+
+
+* the virtues of ... : ...的好处
+
+
+* beyond me: 我无法理解
+
+
+* make do with... : 凑合着用...
+
+
+* Nor is ... without ... : ...也不是没有...
+
+
+* descend on... : 笼罩着...
+
+
+#L42: Modern cavemen
 *
 
 
-#L32: 
-*
 
+*

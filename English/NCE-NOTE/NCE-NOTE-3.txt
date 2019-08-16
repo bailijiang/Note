@@ -717,24 +717,97 @@ Only when I was forty years old did I find a way to learn English.
 
 #L41: Illusions of Pastoral Peace
 * at the mere mention of ... : 一提到...
-
+She blushed at the mere mention of his name.
 
 * the virtues of ... : ...的好处
+The virtue of a small car is that you can park it easily.
 
+* virtually: almost 几乎, 实际上
+The twins are virtually identical.
+This country has virtually not a little honesty.
 
 * beyond me: 我无法理解
+It's beyond me how she could bear to live with such a snob.
 
+* do without...:凑合...(某事)
+I cannot do without a computer.
+You'll have to do without your breakfast if you don't want to be late.
+Stop it, I can do without your nagging.
 
-* make do with... : 凑合着用...
-
+* make do with/without... : 凑合着用...(某物)
+New clothes are expensive, so you'll have to make do with what you've got.
+New cars are too expensive, so I'll have to make do with the old one I've got.
 
 * Nor is ... without ... : ...也不是没有...
-
+Nor is he without a little virtue.
 
 * descend on... : 笼罩着...
-
+Silence descended on the room.
+A feeling of despair descends on us as we realized that we had no choice.
+The white terror descends on this country.
 
 #L42: Modern cavemen
+##... might never have been discovered (if)... : 如果...就永远不会被发现
+  与过去事实相反的虚拟语气, 可以省略if, 然后将助动词提前(倒装)
+I might have not been bullied had I left this place earlier.
+You might have not been solved this problem had I not given you hint.
+
+If I had had any sense, I would have kept quiet about it.
+= Had I had any sense, I would have kept quiet about it.
+If you should be interested(adj.) in our offer, please contact us. (将来虚拟)
+= Should you be interested in our offer, please contact us.
+
+* as long as: 长达(表强调)
+It took him as long as three hours to write the first paragraph.
+
+* remain to be done: not yet done 还没有完成
+A great many things remain to be done.
+It remains to be seen who will finally win.
+
+* as it has come to be known : ...逐渐被了解
+Communism, as it has come to be known, is impossible to realize.
+
+* ... is not a task for ... : ...不是...能胜任的
+This project is not a task for you.
+Independent travel is not a task for old people.
+
+* edge one's way: 侧身挪
+  edge v. 挪动
+A long line of traffic is edging its way forward.(往前挪)
+In morning rush hour, there are thousands of people edging their way in this subway station.
+
+#L43: Fully insured
+##同位语从句: ...(n.) that ... : 从句用于解释前面的句子成分, 相当于等号=
+  同位语从句 > 定语从句 > 非限定性定语从句
+  名词: conclusion/decision/idea/problem/event/news/danger...
+Yesterday, I encountered an event that someone I didn't know had scraped my car.
+The news that I heard yesterday is true.
+The news that our team has won the match is true.
+
+* the bigger... the higher...: 越...越... 
+  the...the...的比较级
+The more spoil your girlfriend, the more ignore she give you.
+The harder you take, the bigger the chance to success you achieve.
+
+* It is not uncommon to do...: 这很正常...
+        双重否定表肯定强调
+It is not uncommon to hear that an old man cheated by a swindler.
+
+* in the event of...: 万一,倘若...
+In the event of fire, ring the alarm bell.
+In the event of rain, the party will be held indoors.
+
+* ...proved to be more than ... : 经受不住
+Testing proved to be more than the system could bear, for during the test it crashed.
+
+* draw towards: 拽/拖向
+
+
+* put into operation: 使...运转
+
+
+
+#L44: Speed and comfort
 *
 
 

@@ -15,8 +15,8 @@
 <a id="1-daily-life"></a>
 ####1. Daily life
 * Food
-* cloth
-* 
+* Cloth
+
 
 <a id="2-travel"></a>
 ####2. Travel
@@ -24,7 +24,8 @@
 
 <a id="3-hobbies"></a>
 ####3. Hobbies
-
+* Sport
+* Music
 
 <a id="4-work"></a>
 ####4. Work

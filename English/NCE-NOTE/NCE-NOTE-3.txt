@@ -778,8 +778,8 @@ In morning rush hour, there are thousands of people edging their way in this sub
 
 #L43: Fully insured
 ##同位语从句: ...(n.) that ... : 从句用于解释前面的句子成分, 相当于等号=
-  同位语从句 > 定语从句 > 非限定性定语从句
-  名词: conclusion/decision/idea/problem/event/news/danger...
+  与主句的紧密程度: 同位语从句 > 定语从句 > 非限定性定语从句
+  主句被解释的名词: conclusion/decision/idea/problem/event/news/danger...
 Yesterday, I encountered an event that someone I didn't know had scraped my car.
 The news that I heard yesterday is true.
 The news that our team has won the match is true.
@@ -788,10 +788,15 @@ The news that our team has won the match is true.
   the...the...的比较级
 The more spoil your girlfriend, the more ignore she give you.
 The harder you take, the bigger the chance to success you achieve.
+The sooner the better.
 
 * It is not uncommon to do...: 这很正常...
         双重否定表肯定强调
 It is not uncommon to hear that an old man cheated by a swindler.
+
+* ...impossible...without...: 
+It seemed impossible that I could have satisfied her without offending the others.
+It was almost impossible to work abroad without speaking English.
 
 * in the event of...: 万一,倘若...
 In the event of fire, ring the alarm bell.
@@ -800,16 +805,64 @@ In the event of rain, the party will be held indoors.
 * ...proved to be more than ... : 经受不住
 Testing proved to be more than the system could bear, for during the test it crashed.
 
-* draw towards: 拽/拖向
-
+* draw (towards): 拽/拖向
+She drew me aside to whisper in my ear.
 
 * put into operation: 使...运转
-
-
+  put into action / effect / use 
+He always likes to put the things he has learned into practice.
 
 #L44: Speed and comfort
+* ... n. + of being... : xx就是xx
+I have a habit of being to go to bed early and get up early every day.
+People who smoke have a feature of being to die early than the normal man. 
+
+* take one's mind off sth : 把某人的注意力从某事上移开
+The authority needs to take people's mind off the riot.
+
+* a/an partial... : 一部分...
+The patient may only a partial recovery.
+A newspaper made an entirely partial report on the conflict.(有倾向性的报道)
+The authority has only expressed a partial report for the riot.
+
+* more often than not: 经常,通常
+  = as often as not
+Behind many successful men there is, more often than not, a woman who makes this success possible.
+Most of the successful person who, more often than not, can be good at time management.
+
+* assuming that... : 前提是(假设)...
+Assuming that your application is accepted, are you going to quit the present job?
+Assuming that you have learned English very well, are you going to work abroad? 
+Assuming that she is single, would you pursuit her?
+
+* But nothing can match them for speed and comfort: 就...而论, 什么也不能与...相比
+Nothing can match this house for comfort and large. 
+Nobody can match them for lazy and stupid in the world.
+
+#L45: The power of the press
+* 虚拟语气:　与过去事实相反 If had done...,　would have done
+If my English had quite had good, I would have acquired that job.
+If my English had quite good, I would have gone abroad.
+
+* not only...but (also)...(as well): 不但...而且...
+Domestic cars are not only expensive but the performance is not good. 
+
+
+#L46: Do it yourself
 *
 
+
+*
+
+
+#L47: 
+*
+
+
+*
+
+#L48: 
+*
 
 
 *

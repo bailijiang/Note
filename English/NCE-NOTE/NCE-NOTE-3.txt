@@ -840,6 +840,9 @@ Nothing can match this house for comfort and large.
 Nobody can match them for lazy and stupid in the world.
 
 #L45: The power of the press
+##副词连用: 副词修饰副词
+  副词可以修饰动词/副词/形容词/名词
+
 * 虚拟语气:　与过去事实相反 If had done...,　would have done
 If my English had quite had good, I would have acquired that job.
 If my English had quite good, I would have gone abroad.
@@ -848,13 +851,30 @@ I had thought it would have been hard to win.
 * not only...but (also)...(as well): 不但...而且...
 Domestic cars are not only expensive but the performance is not good. 
 
+* It...whether...: 形式主语(主语较长)
+It is extremely doubtful whether the authority can protect people.
+
+* ...was to be replaced...: 将被/由(取代)
+  was/were to be done
+This country was to be colonized.
 
 #L46: Do it yourself
-*
+* go so far as to (do): 甚至要...(竟到了...程度)
+She went so far as to threaten to kill herself.
+The authority went so far as to threaten to use a nuclear weapon.
 
+* as/so much... as... : ...不仅...而且... / 与其...不如...
+She is as much a friend to me as a mother.
+They are not so much friends as lovers.
+These people are not so much selfish as mean.
 
-*
+* as far as (I) ... : 对(我)来说...
+There has been no change, as far as I can tell.
+It sounds like a good idea as far as I'm conserned.
+As far as I'm concerned, music is my life.
 
+* either...or...: 要么...要么...
+Either you would learn English well or to die. 
 
 #L47: 
 *

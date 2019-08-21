@@ -863,10 +863,19 @@ This country was to be colonized.
 She went so far as to threaten to kill herself.
 The authority went so far as to threaten to use a nuclear weapon.
 
-* as/so much... as... : ...不仅...而且... / 与其...不如...
+*     as/so much... as... : 既...又...
+  not as/so much... as... : 与其说是...不如...(not多了一层递进的含义)
 She is as much a friend to me as a mother.
 They are not so much friends as lovers.
 These people are not so much selfish as mean.
+
+*     as...as... : 和...一样...
+  not as...as... : 不像...一样...(没有那么...)
+You are as bad as her.
+You are not as bad as her.
+
+* ...rather...than... : 宁愿...也不...(不如...与其...)
+I'd rather sleep than learn.
 
 * as far as (I) ... : 对(我)来说...
 There has been no change, as far as I can tell.
@@ -876,14 +885,31 @@ As far as I'm concerned, music is my life.
 * either...or...: 要么...要么...
 Either you would learn English well or to die. 
 
-#L47: 
-*
+#L47: Too high a price?
+* 并列句: ...or...or...
+         and / but / so / though
+         either...or / neither...nor / both...and
+         not only...but (also)...(as well)
+         : ... , ... , ... ,
+If you want to exercise, you can play basketball or go swimming or running in the park.
 
+* 动名词 / 现在分词 / 名词 的区别:
+  动名词是名词,但有动词的性质, 及物动词可以接宾语
+  现在分词是形容词
+  polluting(动名词), pollution(名词)
+...of polluting our planet. 
+...a different kind of pollution.
 
-*
+* to be doing: 不定式的进行时 表示 事实(强调) 
+It turned out to be snoring!
+The guy is to be jerking.
 
-#L48: 
-*
+* have the choice of ... or ... or ...
+If the product doesn't work, you are given the choice of a refund or a replacement.
+I have the choice of living in China or America.
+
+#L48: The silent village
+* 
 
 
 *

@@ -1126,22 +1126,94 @@ They should be working at the office.
 You should be sleeping at your home.
 
 #L58: A spot of bother
-* yet following her regular practice: 然而按照她的惯例
+##间接引语: asked / advised / said / told ...
+           时态通常向后移动(现在变过去)
+           Reported Orders / Commands / Requests
+"Open the door!"
+He ordered me to open the door.
 
+"Don't answer the phone."
+She told me not to answer the phone.
+
+* with... : 随着... 
+They have grown stronger with every match they encountered.
+
+* yet following her regular practice: 然而按照她的惯例
+  regular / common practice
+What can Chinese companies learn from Japanese business practices?
+Traditional religious practices are disppearing in many parts of the world.
+Following my regular practice, I would learn English in the morning.
 
 * might be doing... : 也许正在...
-
+I decided that she might be sleeping now.
+I think that they might be working overtime.
 
 * must have been done: 必定是被...
- 
+I think that the rebels must have been destroyed.
+
+* sort out: 选出,分类
+Sort out any books you want to throw away and give them to me.
+They failed to sort out the computer system's problems.
 
 #L59: Collecting
-* 
+##排比句:描述的是一件事, 并有重复的成分可以省略(并列句描述的是独立事件)
+  ..., ..., ..., ...
+  ...to..., to..., to...
+No matter how they pretend, they also can not hide their extremely selfish, hypocrisy, shameless, fool, ignorance, confused, low, mean, faithlessness, violence. 
+For leisure hours I like to play basketball, to sing, to read, to swim, to play PCs games.
 
-* 
+* have/has a/some bearing on... : 与...有关(受...影响)
+It has direct bearing on the subject.
+It has an important bearing on the relations between China and the United States.
+His remark had some/a/no bearing on what happened.
+Many people's bad temper has some bearing on the local culture.
+
+* in connection with... : 与...有关
+He asked many questions in connection with life in Britain.
+Several people have been detained in connection with the robbery.
+The suicide of that boy in connection with the methods of education of his parents.
+
+* to such an extent that... : 以至于...
+The car was damaged to such an extent that it would be useless to repair it.
+Sales have fallen to such an extent that we will have to close some of our shops.
+I was very sick to such an extent that I can not finish my English course in time.
+
+* save doing... : 省去做...
+If you walk to the office every morning, you'll save spending money on bus fares.
+If you do exercise every day, you'll save spending money to see the doctor.
 
 #L60: Too early and too late
-* 
+* without : 常用虚拟语气
+Without honest, any country could ever not be became stronger; everything would be in a state of chaos.
+Without health, I could not be achieved my dreams.
 
-* 
+* It is hard for... : 很难...
+It is hard for foolish to admit his fault.
+
+* the + adj. 表示一类人(名词短语)
+the over-punctural,  the unpunctual
+the hypocritic
+the honest
+the mean
+
+* and 可以嵌套使用: 
+  ... 事件A and 事件B(条件1 and 条件2)
+I think that my teeth must have decayed and feeling toothache when I eating and drinking anything.
+
+* draw out/into: 驶出/入
+The cars drew out one by one as the party was over.
+She looked eagerly along the platform as the train drew into the station.
+I felt very exciting when our cruise ship drew out the harbor.
+
+* whom : who的宾格
+He asked me with whom I had discussed it.
+Desperate for money, she called her sister, whom she hadn’t spoken to in 20 years.
+Can you tell me whom you were calling to?
+
+* impress... upon / on ... : 把...铭刻在...
+They impressed on their children the virtue of always telling the truth.
+She's always trying to impress upon me how much easier life is if one is organized.
+I always impress upon myself doing the right things rather than the easy things.
+
+
 

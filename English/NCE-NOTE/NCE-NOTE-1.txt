@@ -39,6 +39,9 @@ He's very well.
 
 L11: Is this your shirt?
 Whose is this(that) ...?
+Whose ... is this/that?
+Is this... sb's?
+Is this sb's ...?
 It's ...
 This(That) is my/your/his/her...
 
@@ -83,7 +86,7 @@ Are you all right?
 Yes, we are.
 
 L21: Which book?
-Give me/hime/her/us/them a ...
+Give me/him/her/us/them a ...
 Which one?
 The ... one.
 

@@ -177,7 +177,7 @@ What are you going to do with that letter?
 I'm going to send it to my sister.
 
 L41: Penny's bag
-Is there any ...? (对于不可数名词的提问要用 any)
+Is there any ...? (对于不可数名词的提问要用 is)
 
 Is there any milk in that bottle?
 There's some milk in that bottle.
@@ -191,7 +191,7 @@ There isn't a book on that desk.
 不可数名词前可以加数量词短语来表示数量：a piece of bread
 
 L43: Hurry up!
-Are there any ...? (对可数名词提问)
+Are there any ...? (对可数名词复数提问用 are)
 
 Are there any glasses on the table?
 There are some glasses on the table.

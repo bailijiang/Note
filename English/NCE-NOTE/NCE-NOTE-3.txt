@@ -964,60 +964,256 @@ He immediately applied himself to the investigation.
  I've been jumping about the file instead of working straight through it.
 
 #L51: Predicting the future
+##could / would / what 用法
+
 * could (not) have done: (不)可能...
   表示主观猜测: 本来(不)可以...
 Tom could not have gone abroad to work, because his English is too bad. 
+Who could have thought that the sanitary condition of No.10 subway would be so bad?
 
-*
+* This is what ... : 这就是...
+  名词从句(宾语从句), 连接词 what/who/that... 做宾语从句的主语
+This is who prescribed illegal drugs for me.
+This is what has become corruption reason.
+
+* take over: replace
+His brother took over from him as the chief executive.
+I've asked my assistant to take over preparing for the conference.
+Cars gradully took over from horses.
 
 #L52: Mud is mud 
-*
+## ... v + to be done ... : 将要被...
+   将来时的被动语态
+I like to be praised in public.
+The murderer has to be executed tomorrow.
+The people of this country like to be abused and insulted very much.
+
+* a delicate shade of (colour): 一种(...)淡(颜色)
+We choose a delicate colour for our bedroom curtains.
+The wine has a delicate fruity flavour.
+
+* shade: 色度(级别)
+What shade of lipstick do you use?
+Everything is black or white for him; there are no shades of grey.
+There are several shades of meaning in that sentence. 
+
+* put out: 愤怒的 adj.
+The subway of this city makes me considerably put out.
+
+#L53: In the public interest
+* be subject to : 臣服于/受制约  adj.
+Cars are subject to a high domestic tax.
+Any actions will be subject to the director's permission.
+Any speeches will be subject to the local authority's control.
+
+* be open to : 开放,开通 / 尚未决定的 / 易受
+I think his sincerity is open to doubt.
+我认为他的诚意值得怀疑.
+
+* vary: 不同 v.
+Personal preference naturally varies.
+Prices can vary enormously.
+I vary other people enormously.
+
+* justify: 证明合理 v.
+I cannot justify taking another day off work.
+
+#L54: Instinct of cleverness?
+## 动名词 being (名词从句简化)
+   prep. + being done : 介词 + 动名词 + 被动语态
+   完整形式(主语不一致时): having been done
+I am looking forward to being invited to the party.
+Everybody likes being praised.
+Being laughed in the class makes him angry.
+We wish not being defeated.
+The matter requires being looked into.
+The book is worthy of being read.
+Those refugees need being transferred.
+Being despised make me feel very angry.
+
+## 复合句中转折方式的应用
+   即使 ... 也不能...
+   Being...do nothing to do...
+   No matter how much...
+
+* against...on/by...: 
+The house against a high mountain by the side of a river.
+
+* sb/sth...Ving...Ving...
+Last summer I spent three months learning C/C++ programming helping me to get a good job.
+
+* be to be done: 结果被...
+  情态动词, 比could情绪强一些
+I felt very cold was to be found the window was opened.
+
+* stand in awe: 肃然起敬
+You cannot help but stand in awe of such a stunning performance.
+
+#L55: From the earth: Greetings!
+##虚拟语气: 与现在事实相反
+           would (not) be (doing/done)
+           would have to do...
+If he were not honest, he would have to be accused.
+If they lost this game, they would have to face the stronger opponent.
+Once I finished English study, I would have to find a job.
+If I were not sick, I would be learning English.
+No man's eye would not be attracted by that kind of beautiful woman. 
+
+##过去将来时: 
+            would do 
+            would be doing
+            would have done
+            would have been doing
+I didn't know if he would come.
+He said he could not come because he would be having a meeting. 
+He told them he would have finished it by 8 o'clock.
+He told me that by the end of the year he would have been living there for 30 years.
+I found that I would have to learn English.
+
+##比较级
+  the more... the more... : 越...越...
+  far too... far too... : 太...太...
+  infinitely more...
+  larger, brighter and hotter
+The harder you work, the greater progress you will make.
+
+* It is impossible to do... : it为形式主语, 逻辑主语是 to do...
+  ... would make it impossible to do... : it为形式宾语, 逻辑宾语是 to do...
+
+* blot out: 遮住
+Thick white smoke blotted out the sun.
+Clouds blotted out the sun.
+
+* develop: 生长, 发育, 发展 v.
+The bacteria would develop in our respiratory system.
+
+#L56: Our neighbour, the river
+##虚拟语气: 与过去事实相反
+           if had (been) done... would have done  本来...
+I would have got that job if I had been English very well.  
+
+* stand to lose/gain/win: 处于损失/盈利...的境况中
+Our company stands to lose a lot of money if the deal is unsuccessful.
+We stand to gain/win a lot if our plans get approved.
+Our team stands to lose a lot of points if their defends fail.
+
+* hard by: 在...近旁 
+Hard by the school stood a big bookstore.
+My home sited hard by a basketball court.
+
+* take turns: 轮流
+We take turns to do the cooking. 
+I'm tired. Do you want to take a turn?
+If you give the wrong answer, you have to miss a turn. 
+
+* unduly: 过分地
+    duly: 恰当地
+There is no need to be unduly pessimistic about the situation.
+
+#L57: Back in the old country
+## but, no(not) 的用法
+
+* sb had expected to be... : 本以为...
+I had expected him to say 'Yes', but he said 'No' instead.
+I had expected to finish my English course last month, but I had sick. 
+
+* must have done: 必定是...
+The news must have been censored.
+
+* should be doing: 虚拟语气, 表推测
+I should be seeing a movie at my house.
+They should be working at the office.
+You should be sleeping at your home.
+
+#L58: A spot of bother
+##间接引语: asked / advised / said / told ...
+           时态通常向后移动(现在变过去)
+           Reported Orders / Commands / Requests
+"Open the door!"
+He ordered me to open the door.
+
+"Don't answer the phone."
+She told me not to answer the phone.
+
+* with... : 随着... 
+They have grown stronger with every match they encountered.
+
+* yet following her regular practice: 然而按照她的惯例
+  regular / common practice
+What can Chinese companies learn from Japanese business practices?
+Traditional religious practices are disppearing in many parts of the world.
+Following my regular practice, I would learn English in the morning.
+
+* might be doing... : 也许正在...
+I decided that she might be sleeping now.
+I think that they might be working overtime.
+
+* must have been done: 必定是被...
+I think that the rebels must have been destroyed.
+
+* sort out: 选出,分类
+Sort out any books you want to throw away and give them to me.
+They failed to sort out the computer system's problems.
+
+#L59: Collecting
+##排比句:描述的是一件事, 并有重复的成分可以省略(并列句描述的是独立事件)
+  ..., ..., ..., ...
+  ...to..., to..., to...
+No matter how they pretend, they also can not hide their extremely selfish, hypocrisy, shameless, fool, ignorance, confused, low, mean, faithlessness, violence. 
+For leisure hours I like to play basketball, to sing, to read, to swim, to play PCs games.
+
+* have/has a/some bearing on... : 与...有关(受...影响)
+It has direct bearing on the subject.
+It has an important bearing on the relations between China and the United States.
+His remark had some/a/no bearing on what happened.
+Many people's bad temper has some bearing on the local culture.
+
+* in connection with... : 与...有关
+He asked many questions in connection with life in Britain.
+Several people have been detained in connection with the robbery.
+The suicide of that boy in connection with the methods of education of his parents.
+
+* to such an extent that... : 以至于...
+The car was damaged to such an extent that it would be useless to repair it.
+Sales have fallen to such an extent that we will have to close some of our shops.
+I was very sick to such an extent that I can not finish my English course in time.
+
+* save doing... : 省去做...
+If you walk to the office every morning, you'll save spending money on bus fares.
+If you do exercise every day, you'll save spending money to see the doctor.
+
+#L60: Too early and too late
+* without : 常用虚拟语气
+Without honest, any country could ever not be became stronger; everything would be in a state of chaos.
+Without health, I could not be achieved my dreams.
+
+* It is hard for... : 很难...
+It is hard for foolish to admit his fault.
+
+* the + adj. 表示一类人(名词短语)
+the over-punctural,  the unpunctual
+the hypocritic
+the honest
+the mean
+
+* and 可以嵌套使用: 
+  ... 事件A and 事件B(条件1 and 条件2)
+I think that my teeth must have decayed and feeling toothache when I eating and drinking anything.
+
+* draw out/into: 驶出/入
+The cars drew out one by one as the party was over.
+She looked eagerly along the platform as the train drew into the station.
+I felt very exciting when our cruise ship drew out the harbor.
+
+* whom : who的宾格
+He asked me with whom I had discussed it.
+Desperate for money, she called her sister, whom she hadn’t spoken to in 20 years.
+Can you tell me whom you were calling to?
+
+* impress... upon / on ... : 把...铭刻在...
+They impressed on their children the virtue of always telling the truth.
+She's always trying to impress upon me how much easier life is if one is organized.
+I always impress upon myself doing the right things rather than the easy things.
 
 
-*
-
-#L53: 
-*
-
-*
-
-#L54:
-*
-
-*
-
-#L55: 
-*
-
-*
-
-#L55:
-*
-
-*
-
-#L56: 
-*
-
-*
-
-#L57:
-*
-
-*
-
-#L58: 
-*
-
-*
-
-#L59:
-*
-
-*
-
-#L60: 
-*
-
-*
 

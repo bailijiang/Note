@@ -39,6 +39,9 @@ He's very well.
 
 L11: Is this your shirt?
 Whose is this(that) ...?
+Whose ... is this/that?
+Is this... sb's?
+Is this sb's ...?
 It's ...
 This(That) is my/your/his/her...
 
@@ -83,7 +86,7 @@ Are you all right?
 Yes, we are.
 
 L21: Which book?
-Give me/hime/her/us/them a ...
+Give me/him/her/us/them a ...
 Which one?
 The ... one.
 
@@ -174,7 +177,7 @@ What are you going to do with that letter?
 I'm going to send it to my sister.
 
 L41: Penny's bag
-Is there any ...? (对于不可数名词的提问要用 any)
+Is there any ...? (对于不可数名词的提问要用 is)
 
 Is there any milk in that bottle?
 There's some milk in that bottle.
@@ -188,7 +191,7 @@ There isn't a book on that desk.
 不可数名词前可以加数量词短语来表示数量：a piece of bread
 
 L43: Hurry up!
-Are there any ...? (对可数名词提问)
+Are there any ...? (对可数名词复数提问用 are)
 
 Are there any glasses on the table?
 There are some glasses on the table.
@@ -769,7 +772,9 @@ He says that he has a bad cold.
 L101: A card from Jimmy
 * 省略 that 的名词从句(间接引语/转述)
   转述的名词从句中通常要改变时态(往回移:现在时变过去时，过去时变为过去完成时)
-* 反义疑问句
+* 反义疑问句:
+  - 回答: 与疑问句相反  是 肯定
+          与疑问句相同  是 否定
 
 I'm afraid ...
 He says ...
@@ -785,6 +790,8 @@ Yes, he does. 不，他写了很多。
 She went to Paris last month, didn't she?
 Yes, she did.
 No, she didn't.
+He doesn't go to work, does he? No, he doesn't.
+She didn't go to school, did she? No, she didn't.
 
 What does he say?
 He says he feels tired.
@@ -911,6 +918,8 @@ L111: The most expensive model
                 最高级可以使用 the most / the least 修饰
 * as ... as ... 同等程度的比较
   not as/so ... as : 不如...
+
+多音节形容词: difficult / intellegent / interesting / expensive / wonderful / comfortable / impressive / beautiful / careful / important
 
 This television is more expensive than that one.
 It's the most expensive model in the shop.

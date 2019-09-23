@@ -2,6 +2,13 @@
 * 陈述句语序: 
   主语+动词+宾语或补语+方式(adv)+地点+时间
 
+Yesterday a young boy suicided by jumping off a building.
+A group of people was talking about the boy for a long time.
+I went out from home and saw a corpse lied on the ground.
+The policemen were dealing with the emergency event.
+I could not find the dead boy's parents.
+So I turned around and went to play basketball happily. 
+
 一般过去时:
 I had a very good seat.
 The play was very interesting.
@@ -40,7 +47,7 @@ Are you leaving soon?
 He's going to the theatre this evening.
 The train is arriving in 5 minutes.
 
-L3: Please send me a card
+#L3: Please send me a card
 一般过去时
 * 有些动词可以带两个宾语：直接宾语，间接宾语
   这些动词大多具有"给与"的含义
@@ -63,7 +70,7 @@ His uncle left some money to him.
 She showed her friends her new dress.
 She showed her new dress to her friends.
 
-L4: An exciting trip
+#L4: An exciting trip
 现在完成时
 * have / has + Ven
   现在完成时的时间状语：just, already, since, for, not...yet, so far
@@ -80,7 +87,7 @@ The weather has been good so far.
 He hasn't combined his hair yet.
 Have you taken your holidays yet?
 
-L5: No wrong numbers
+#L5: No wrong numbers
 一般过去时和现在完成时
 * 一般过去时时间状语：last year, yesterday, two years ago, ...
   现在完成时时间状语： just, already, for six months, up till now, up to now, before, yet, ...
@@ -90,7 +97,7 @@ He has been abroad for six months.
 I have never met him before.
 I have not finished work yet.
 
-L6: Percy Buttons
+#L6: Percy Buttons
 
 * 用在可数名词前，表示数量的修饰词：a/an, the, some, a few, many, a great number of, a great many, lots of
 a meal, an eggs, some books, a few words,
@@ -109,7 +116,7 @@ knock at(敲), knock off(碰掉/下班/打折), knock over(撞倒), knock out(�
 
 call at = visit
 
-L7: Too late
+#L7: Too late
 * 过去进行时 was/were + doing
   时间状语：when, while, as, just as, all morning, ...
 
@@ -122,7 +129,7 @@ As I was getting on the bus, I slipped and hurt my foot.
 Someone knocked at the door just as I was getting into the bath.
 The plane was late and detectives were waiting at the airport all morning.
 
-L8: The best and the worst
+#L8: The best and the worst
 * 形容词/副词的比较级和最高级
 
 He entered for marathon last year.
@@ -138,7 +145,7 @@ This restaurant is less expensive than that one.
 Mary is tall, but Jane is taller. Jane is taller than Mary.
 Caroline is very tall. She is the tallest girl in the class.
 
-L9: A cold welcome
+#L9: A cold welcome
 * 表示时间的短语可由以下介词引导：
   at, in, on, from... till, during, until, past
 
@@ -168,7 +175,7 @@ Did you go anywhere yesterday?
 I didn't go anywhere yesterday.
 I went nowhere yesterday.
 
-L10: Not for jazz
+#L10: Not for jazz
 * 被动语态
   was/were + Ven
   is/are

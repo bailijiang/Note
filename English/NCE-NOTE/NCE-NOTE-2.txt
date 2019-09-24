@@ -22,11 +22,13 @@ They were talking loudly.
 #L2: Breakfast or lunch?
 * 现在进行时时间副词：now, still
   一般现在时的时间副词：often, always, never, ever, sometimes, seldom, frequently, rarely
-* 感叹句
-  What 引导的感叹句,后面要用名词，表示惊奇、愤怒、赞赏、喜悦等感情
-  How 引导的感叹句,后面要用形容词或副词
-  感叹句主谓语采用正常语序
-* come, leave, go, arrive 用正在进行时表将来
+I'm learning English.
+It's blowing wind outside now.
+I always play basketball in the afternoon.
+I often cook myself.
+Are you sometimes play a video game?
+Are you still learning English?
+I never lie to anybody.
 
 I'm never late for appointments.
 Sometimes he tells us jokes.
@@ -35,6 +37,10 @@ She is always nice and friendly to people.
 Are you still working?
 I seldom watch TV.
 
+* 感叹句
+  What 引导的感叹句,后面要用名词，表示惊奇、愤怒、赞赏、喜悦等感情
+  How 引导的感叹句,后面要用形容词或副词
+  感叹句主谓语采用正常语序
 What a day!
 What a day it is!
 What an awful / nice day!
@@ -43,6 +49,7 @@ What a beautiful picture!
 How wonderful! 
 How surprising!
 
+* come, leave, go, arrive 用正在进行时表将来
 Are you leaving soon?
 He's going to the theatre this evening.
 The train is arriving in 5 minutes.
@@ -52,6 +59,9 @@ The train is arriving in 5 minutes.
 * 有些动词可以带两个宾语：直接宾语，间接宾语
   这些动词大多具有"给与"的含义
   lend, send, give, bring, get, make, leave, show
+
+Last month I went to Shunyi by subway, but I did not take the mask.
+Then I was infected by the virus and had to rest at home for a week.
 
 He lent me a book.
 He lent a book to me.
@@ -73,7 +83,7 @@ She showed her new dress to her friends.
 #L4: An exciting trip
 现在完成时
 * have / has + Ven
-  现在完成时的时间状语：just, already, since, for, not...yet, so far
+  现在完成时的时间状语(副词)：just, already, since, for, not...yet, so far,
                         now, ever, lately
 
 I find this book very interesting. (find 觉得)
@@ -91,6 +101,9 @@ Have you taken your holidays yet?
 一般过去时和现在完成时
 * 一般过去时时间状语：last year, yesterday, two years ago, ...
   现在完成时时间状语： just, already, for six months, up till now, up to now, before, yet, ...
+I haven't finished the English study yet.
+I have played basketball for twenty years.
+I haven't traveled anywhere since I graduated from university.
 
 I bought this car last year.
 He has been abroad for six months.
@@ -98,6 +111,9 @@ I have never met him before.
 I have not finished work yet.
 
 #L6: Percy Buttons
+* a(an) / some / the
+Yesterday, I bought some beer and a piece of cake.
+I saw a boy jumping a building, and then the boy dead.
 
 * 用在可数名词前，表示数量的修饰词：a/an, the, some, a few, many, a great number of, a great many, lots of
 a meal, an eggs, some books, a few words,
@@ -191,8 +207,7 @@ Two of the strings were broken.
 Now we are not allowed to touch it.
 It is being repaired by a friend of my father.
 
-L11: One good turn deserves another
-
+#L11: One good turn deserves another
 I was having dinner at a restaurant when Tony Steele came in.
 Tony saw me and came and sat at the same table.
 
@@ -207,7 +222,7 @@ She taught her son to read.
 We advised them to stay at home.
 They did not allow us to enter the museum before 9 o'clock.
 
-L12: Goodbye and good luck
+#L12: Goodbye and good luck
 * 一般将来时
   will/shall + be
 
@@ -228,7 +243,7 @@ set up 创造(记录等)
 
 You can't take the exam yet. You are not up to it.
 
-L13: The Greenwood Boys
+#L13: The Greenwood Boys
 * 将来进行时: 计划安排好，非常可能发生的事情
   will/shall + be + doing
 
@@ -241,7 +256,7 @@ I'll be seeing you next week.
 We shall meet at the cafe this evening.
 We shall be meeting at the cafe this evening.
 
-L14: Do you speak English?
+#L14: Do you speak English?
 * 过去完成时(发生在过去时之前)
   had + Ven
   没有 action verb 时: had been ...
@@ -254,7 +269,7 @@ When he had finished lunch he asked for a glass of water.
 I had not understood the problem until he explained it.
 He had been very ill before he died.
 
-L15: Good news
+#L15: Good news
 * 间接引语: 引述动词与间接引语的时态保持一致(直接引语不必一致)
   say that, tell sb that
   
@@ -288,7 +303,7 @@ The teacher says that you can go now.
 The teacher said that you could go now.
 The teacher told the pupil that he could go now.
 
-L16: A polite request
+#L16: A polite request
 * If 引导的条件句
   if 从句用现在时，主句用将来时(will)
   reason: if从句发生后，主句才有可能发生，所以 if从句 要用现在时
@@ -310,7 +325,7 @@ Please don't disturb him if he is busy.
 
 One must be careful these days.== You must be careful these days.
 
-L17: Always young
+#L17: Always young
 * 情态动词: 必须
   must: 不能用在过去时; 可以表推测 must be
   have to: 可以与更多的时态连用
@@ -356,7 +371,7 @@ I want to know when you will come.
 I asked the shop assistant how much that watch was.
 I wonder what he will say.
 
-L18: He often does this!
+#L18: He often does this!
 * have 的用法：
   a. 现在/过去 完成时  have/has + Ven; had + Ven
   b. 拥有
@@ -380,7 +395,7 @@ I had a letter from him yesterday.
 They are having a meeting.
 I have a cold.
 
-L19: Sold out
+#L19: Sold out
 * 表示请求、推测、还是
   can/could: 能，可以
   may/might: 允许；可能、也许
@@ -401,7 +416,7 @@ I haven't got anything to do, so I may as well come with you.
 Do you think he'll pass that exam?
 He'll never pass. He might as well give up.
 
-L20: One man in a boat
+#L20: One man in a boat
 * 动名词 ing (动词当名词用): 做主语、宾语
 * 动名词可以与介词组成介宾短语,作副词从句(状语从句)来修饰主句动词
   without / before / after / for / on /  ... + doing ...

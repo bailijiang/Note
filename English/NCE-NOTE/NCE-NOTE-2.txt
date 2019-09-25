@@ -136,6 +136,12 @@ call at = visit
 * 过去进行时 was/were + doing
   时间状语：when, while, as, just as, all morning, ...
 
+When I was listening to music, it rained.
+She was still working while I was sleeping last night.
+The express arrived just as I was closing the door.
+As I was watching the movie, my phone rang.
+After drinking some beer, I was having stomachache all evening.
+
 What were you doing when I telephoned?
 When I was watering the garden, it began to rain.
 I was having breakfast when the telephone rang.
@@ -147,6 +153,11 @@ The plane was late and detectives were waiting at the airport all morning.
 
 #L8: The best and the worst
 * 形容词/副词的比较级和最高级
+In these cars, My car is the cheapest one.
+But my car is more comfortable.
+My car is smaller than that one behind me.
+The service quality of this company was the worst in Beijing.
+The house prices of Beijing is the most expensive in China.
 
 He entered for marathon last year.
 She will enter for a beauty contest.

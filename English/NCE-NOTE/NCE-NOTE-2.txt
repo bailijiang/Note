@@ -373,39 +373,18 @@ One must be careful these days.== You must be careful these days.
 
 #L17: Always young
 * 情态动词: 必须
-  must: 不能用在过去时; 可以表推测 must be
-  have to: 可以与更多的时态连用
-  have got to
-* as 作为...
-* (名词性)宾语从句要用陈述语序: 
-  宾语从句通常是转述性语句，不具有感情色彩，本身就是陈述句
+          must do
+          have (got) to do : 可以用各种时态 
+          had to : must不能用在过去时, 要用had to
+          must be : 表推测
 
-I must leave now.
-I have to leave now.
-I have got to leave now.
+I had to take her to the hospital yesterday.
+Do you have got to leave now?
+I will have to check my car tomorrow morning. 
+I must be infected when I went home by subway.
 
-Must you leave now?
-Do you have to leave now?
-Have you got to leave now?
 
-We must leave early tomorrow.
-We have to leave early tomorrow.
-We have to got to leave early tomorrow.
-We shall have to leave early tomorrow.
-
-He said he must leave early.
-He said he would have to leave early.
-
-She had to go shopping yesterday.
-He had to tell her mother all the truth. 
-Jennifer will have to take part in a new play soon.
-I have had to tell the truth.
-
-He must be a fool.
-He must be mad.
-She must be over forty.
-He must have been there before.
-
+* as 作为/当...
 I'm telling you this as a friend.
 He treats his dog as his best friend.
 I cannot come as I am busy.
@@ -413,6 +392,8 @@ As I was leaving the house, the postman brought a letter.
 Do as you are told.
 He works as an engineer.
 
+* (名词性)宾语从句要用陈述语序: 
+  宾语从句通常是转述性语句，不具有感情色彩，本身就是陈述句
 I want to know when you will come.
 I asked the shop assistant how much that watch was.
 I wonder what he will say.
@@ -423,6 +404,8 @@ I wonder what he will say.
   b. 拥有
   c. 吃、洗、玩、收到、开会、得了(病)...
 
+He has a lot of money and has got a new house, but he had a bad time in his childhood.
+I had a bottle of beer at lunch but I didn't have chicken.
 Have you had lunch yet?
 After he had finished work he went home
 
@@ -442,56 +425,31 @@ They are having a meeting.
 I have a cold.
 
 #L19: Sold out
-* 表示请求、推测、还是
+* 情态动词: can/could/may/might/might as well + do
   can/could: 能，可以
   may/might: 允许；可能、也许
   may/might as well: 还是
 
-Can I use your phone please?
-Could I use your phone please?
-May I use your phone please?
-Might I use your phone please?
-
-He may come tomorrow.
-He might come tomorrow.
-He may have telephoned last night, but I'm not sure.
-He might have telephoned last night, but I'm not sure.
-
-Do you want to come to the cinema with me?
-I haven't got anything to do, so I may as well come with you.
-Do you think he'll pass that exam?
-He'll never pass. He might as well give up.
+I think she may go on a business trip but I'm not sure.
+I feel that I could move that wardrobe myself, but I was wrong.
+As it's raining outside, I can't go anywhere, so I might as well go to sleep.
 
 #L20: One man in a boat
-* 动名词 ing (动词当名词用): 做主语、宾语
-* 动名词可以与介词组成介宾短语,作副词从句(状语从句)来修饰主句动词
-  without / before / after / for / on /  ... + doing ...
+* 动名词 ing (动词当名词用): 
+  - 做主语: Doing...
+  - 做宾语: ... of/on/in/for doing...
+  - 连接从句: 可以与介词组成介宾短语,作副词从句(状语从句)来修饰主句动词
+             without / Before / After ... + doing ...
 
-Eating is always a pleasure.
-Watching television is my favourite pastime.
-Reading in bed is something I always enjoy.
+Drinking is my only vice.
+Reading and exercising are my favorites things to do.
+I think I am capable of finishing this job.
+I'm just interested in listening to her voice.
+The boy suicide without saying anything.
+After having a bath I went to bed.
+Instead of drinking beer, we drank water.
 
-I am very keen on cycling.
-She is afraid of staying in that house alone.
-He is capable of doing anything.
-
-He sat there. He did not say anything.
-He sat there without saying anything.
-He turned off the radio. He left the room.
-Before leaving the room, he turned off the radio.
-He looked at this watch. He hurried to the station.
-After looking at his watch, he hurried to the station.
-After having looked at his watch, he hurried to the station.
-I must apologize. I interrupted you.
-I must apologize for interrupting you.
-I must apologize. I did not let you know earlier.
-I must apologize for not letting you know earlier.
-I must apologize for not having let you know earlier.
-He congratulated me. I won the competition.
-He congratulated me on winning the competition.
-He congratulated me on having won the competition.
-
-L21: Mad or not?
+#L21: Mad or not?
 * 被动语态
   当不需要强调动作的执行者时(如: someone/somebody),可以将 by... 省略掉
 
@@ -521,7 +479,7 @@ drive out of: 赶出  The dog drove the sheep out of the field.
 drive back: 撵回去  The police drove the crowds back.
 drive into: 赶(开)进    I drove my car into the garage.
 
-L22: A glass envelope
+#L22: A glass envelope
 * 介词使用： of, from, in, on
 
 I refuse to comment on his work.
@@ -541,7 +499,7 @@ Children should be prohibited from smoking.
 How much have you borrowed from me already?
 He delights in annoying me.
 
-L23: A new house
+#L23: A new house
 
 * district, area, region
 commercial district, dwelling district
@@ -556,7 +514,7 @@ This room smells terrible.
 Silk feels very soft.
 This coffee tastes very strong.
 
-L24: It could be worse
+#L24: It could be worse
 * 可以用进行时表示含有埋怨的情绪
 * 抽象名词前不需要加冠词：money, Honesty
 * 直接引语
@@ -567,7 +525,7 @@ He's always complaining about something.
 'Well,' I said to the manager, 'there is still some honesty in this world!'
 'I left the money in my room,' I said, 'and it's not there now.'
 
-L25: Do the English speak English?
+#L25: Do the English speak English?
 * 并列句
   and, so, but, or, yet
   not only...but...as well, neither...nor, either...or, both...and
@@ -595,7 +553,7 @@ I'm wondering if you could help me.
 It's a great wonder!
 No wonder!
 
-L26: The best art critics
+#L26: The best art critics
 * 一般现在时和进行时
   感官动词一般不用在进行时: appear, appreciate, believe, feel, forget, hear, know, like, look like, notice, remember, resemble, see, think(that), understand
 
@@ -616,7 +574,7 @@ I'll see whether I can do anything about it.
 I forgot whether I had returned the money to him.
 I can't decide whether to go or not.
 
-L27: A wet night
+#L27: A wet night
 * 一般过去时
 I lost my unbrella a few days ago.
 I bought this coat yesterday.
@@ -635,7 +593,7 @@ The rescue services are still trying to put out the fires.
 Please put out the light when you leave.
 Put out your tongue and say "aah."
 
-L28: No parking
+#L28: No parking
 * 完成时 (just, since, for, up till now, so far)
 I have just received a letter from my brother, Tim.
 I have not seen Tim since last January.
@@ -663,7 +621,7 @@ This is the hotel which was built last year.
 This is the island that was bought by a millionaire.
 The pilot whose plane landed in a field was not hurt.
 
-L29: Taxi!
+#L29: Taxi!
 * 一般过去时和现在完成时的对比
 I saw him in 1994.
 I have not seen him since 1994.
@@ -688,7 +646,7 @@ He brought the book with him when he came to see me.
 He took the book with him when he left.
 I asked him to go to my room and fetch my glasses.
 
-L30: Football or polo?
+#L30: Football or polo?
 * some, any, a, the
 Is there any milk in the bottle?
 There isn't any milk in the bottle, but there is some in this jug.

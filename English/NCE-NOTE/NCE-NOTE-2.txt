@@ -452,28 +452,16 @@ Instead of drinking beer, we drank water.
 #L21: Mad or not?
 * 被动语态
   当不需要强调动作的执行者时(如: someone/somebody),可以将 by... 省略掉
+  was done / is done / will be done / must have been done / should be done / could be done / can be done / have been done / have(has) to be done
 
-He will repair your watch.
-Your watch will be repaired.
-He can repair your watch.
-Your watch can be repaired.
-They must test this new car.
-This new car must be tested.
-You have to write this letter again.
-This letter has to be written again.
-I told you he could do it.
-I told you it could be done.
-I can't find my bag. Someone has stolen it.
-I can't find my bag. It has been stolen.
-I can't find my bag. Someone must have stolen it.
-I can't find my bag. It must have been stolen.
-
-The police will arrest the thieves. The thieves will be arrested.
-You must pay me for this. I must be paid for this.
-They cannot find him. He cannot be found.
-
-The letter has to be delivered by hand.
-Your letter must have been lost in the post.
+If they would not have been beaten, they could not know how weak they are.
+Although the American basketball team is very strong, they were still beaten by France.
+These kids are already spoiled by their parents.
+I think they must have been killed by the invaders.
+The flaw can not be fixed now.
+But it will be fixed in a few days.
+Because in this system, it has to be fixed.
+The flaw has been fixed this morning.
 
 drive out of: 赶出  The dog drove the sheep out of the field.
 drive back: 撵回去  The police drove the crowds back.
@@ -481,6 +469,13 @@ drive into: 赶(开)进    I drove my car into the garage.
 
 #L22: A glass envelope
 * 介词使用： of, from, in, on
+
+He has continually boasted of his basketball skill in front of me.
+But I didn't believe in it.
+So we decided on having a one-by-one game between us.
+Then I have won the game.
+Well, I draw a conclusion from this game that I'm better than him in basketball.
+
 
 I refuse to comment on his work.
 This warm coat will protect you from the cold.

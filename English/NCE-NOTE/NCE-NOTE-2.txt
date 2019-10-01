@@ -514,6 +514,8 @@ This coffee tastes very strong.
 * 抽象名词前不需要加冠词：money, Honesty
 * 直接引语
 
+You are really wasting my time.
+
 'Everyone's losing money these days,' he said.
 You are always picking on me.
 He's always complaining about something.
@@ -525,17 +527,15 @@ He's always complaining about something.
   and, so, but, or, yet
   not only...but...as well, neither...nor, either...or, both...and
 
- He finished lunch and went into the garden.
- I ran to the station but missed the train.
- I saw him yesterday but he did not greet me.
- Both he and I teach English.
- He teaches both English and French.
- Either you or I must tell him.
- He plays either soccer or rugby.
- Neither he nor I speak English.
- He speaks neither English nor French.
- He can neither read nor write.
- You must not only wash the dishes but sweep the floor as well.
+I got up quickly and brushed my teeth, but I'm still late.
+So I was fined for being late for work.
+I can use both python and C to develop software.
+I believe the key point of crack this bomb either red or blue line.
+The water of this tap is either too hot or too cold.
+Neither you nor he is good people.
+I find it that I go to Shunyi neither by car nor by subway is comfortable.
+Driving to Shunyi not only cost too much but very tired as well.
+She's looking not only very beautiful but very sexy also.
 
 * wonder
 I wonder at his rudeness.
@@ -549,32 +549,28 @@ It's a great wonder!
 No wonder!
 
 #L26: The best art critics
-* 一般现在时和进行时
-  感官动词一般不用在进行时: appear, appreciate, believe, feel, forget, hear, know, like, look like, notice, remember, resemble, see, think(that), understand
+* 经常发生的(总是): 用一般现在时
+                  always, often
+She always hurry to finish that unimportant things.
+The air of the city often fill with heavy haze.
 
-I am having breakfast. Do you always get up so late?
-The earth goes round the sun.
-The sun rises in the east and sets in the west.
-
-I hear that you like classsical music.
-I remember Tom very well. Do you know him?
+* 感官动词一般不用在进行时: appear, appreciate, believe, feel, forget, hear, know, like, look like, notice, remember, resemble, see, think(that), understand
+I see a boy suicide by jumping a building.
+I hear that the price of the house will be decreased.
 
 * 宾语从句
   whether...(or not) 从句使用陈述句语序
   that,what,pretend
-
-She always tells me whether my pictures are good or not.
-I don't know whether you are telling the truth.
-I'll see whether I can do anything about it.
-I forgot whether I had returned the money to him.
-I can't decide whether to go or not.
+I don't know whether we can win the game.
+I remember that I had locked the door before I went to work.
+Do you notice what I had my hair cut?
 
 #L27: A wet night
 * 一般过去时
-I lost my unbrella a few days ago.
-I bought this coat yesterday.
-I dreamt of you last night.
-She paid the bill and left the shop.
+The river wound its way beside my home.
+She came into the hotel and sat to the same table with me.
+He wasn't at work this morning.
+I went to the theatre last night.
 
 * put up
 to put up a flag
@@ -590,6 +586,12 @@ Put out your tongue and say "aah."
 
 #L28: No parking
 * 完成时 (just, since, for, up till now, so far)
+
+Every day when I return home, I always think that dinner has been cooked.
+I have not been able to finish English learning because it needs too many time.
+Before it's dark, we have put up our tent.
+I have not been Shunyi since last Thursday.
+
 I have just received a letter from my brother, Tim.
 I have not seen Tim since last January.
 I have not seen Tim since 1994.
@@ -603,6 +605,8 @@ Have you seen this film?
 Have you read this book?
 
 * 名词从句: 关系代词在从句中做主语时不能省略,做宾语时可以省略
+This is the house that was bought by me.
+
 Jasper White is one of those rare people who believes in ancient myths.
 Is it your mobile phone that/which is ringing?
 
@@ -618,13 +622,15 @@ The pilot whose plane landed in a field was not hurt.
 
 #L29: Taxi!
 * 一般过去时和现在完成时的对比
-I saw him in 1994.
-I have not seen him since 1994.
-I saw him three years ago.
-I have stayed at this hotel last month.
-Have you ever stayed at this hotel?
-I went abroad last year.
-Up till now, I have never been abroad before.
+  现在完成时: 强调对现在的影响
+             for / since / last month / ever / up till now
+
+Up till now, I have not married.
+I have not traveled for a long time.
+I haven't gone abroad since 1999.
+Have you known this kind of man?
+She has stayed at home last year.
+Have you ever been Shunyi?
 
 * take 的用法
 Take it away.
@@ -642,45 +648,42 @@ He took the book with him when he left.
 I asked him to go to my room and fetch my glasses.
 
 #L30: Football or polo?
-* some, any, a, the
-Is there any milk in the bottle?
-There isn't any milk in the bottle, but there is some in this jug.
-Is there any soap in the bathroom?
-There isn't any soap in the bathroom, but there's some in the cupboard.
-Are there any nails in that tin?
-There aren't any in the tin, but there are some in this box.
-
-* sight
-Pease is in sight.
-Suddenly a bird came in sight.
-Land is out of sight now.
-Get this out of my sight!
-Out of sight, out of mind.
-They fell in love at first sight.
+* some, any
+Is there any problem?
+Is there any tea in the bottle?
+No, there isn't any tea in the bottle, there is some tea in the jug.
+Would you give me some water?
+Do you know where can buy some food?
+There isn't any food and water.
 
 * so...that...
-The ball struck him so hard that he nearly fell into the water.
+The house is so large that I can hear my echo.
 I'm so tired that I can fall asleep right now.
 He is so busy that he doesn't even have time to say hello to me.
 The request is so polite that you cannot fail to obey it.
 He is speaking so clearly that we can all follow him very well.
 
 L31: Success story
+* 过去进行时: was/were doing ... (when)...
+Last night I was sleeping when she entered my room.
+My parents were traveling when I went back home.
+
 * used to do(表示过去的习惯、动作或状态，常含有此动作现在已不再进行的意思)
-I used to go to work by bus, Now I go by car.
-He used to be a postman a long time ago. He's a taxi driver now.
-I have given up smoking. I used to smoke very heavily.
-I used to collect stamps when I was a boy.
-My uncle used to live in New Zealand but he's now living in Australia.
+When I was a boy, I used to play a video game at home.
+He used to be bullied as he was young.
 Did you use to see each other a lot?
 
 * It 做形式主语: It is/was ... to ... 
+It's your responsebility to solve the problem.
 It was his job to repair bicycles.
 It's my wish to become an artist.
 It's a great pleasure to talk to you.
 
 L32: Shopping made easy
-* not so + adj + as ...  (不如... 那样)
+* as...as...: 像...一样
+  not so + adj + as ... : 不如... 那样
+These people are as stupid as a pig.
+Today's work is as too much as usual for me.
 She is not as/so intelligent as we think.
 People are not so honest as they once were.
 It's not so easy as I thought.

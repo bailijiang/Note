@@ -663,7 +663,7 @@ He is so busy that he doesn't even have time to say hello to me.
 The request is so polite that you cannot fail to obey it.
 He is speaking so clearly that we can all follow him very well.
 
-L31: Success story
+#L31: Success story
 * 过去进行时: was/were doing ... (when)...
 Last night I was sleeping when she entered my room.
 My parents were traveling when I went back home.
@@ -679,7 +679,7 @@ It was his job to repair bicycles.
 It's my wish to become an artist.
 It's a great pleasure to talk to you.
 
-L32: Shopping made easy
+#L32: Shopping made easy
 * as...as...: 像...一样
   not so + adj + as ... : 不如... 那样
 These people are as stupid as a pig.
@@ -689,29 +689,45 @@ People are not so honest as they once were.
 It's not so easy as I thought.
 The film is not so interesting as I expected.
 
-L33: Out of the darkness
-* On + Ving... = as soon as ...
+#L33: Out of the darkness
+* 带介词的短语: to, from, into, out of, for, towards, at 
+I'm going to drive from Haidian to Shunyi tomorrow.
+Where were you been? I have just been into the bathroom.
+Don't throw the bottle out of the car.
+I set out for my house where at Shunyi at 6 o'clock the next morning.
+She is walking towards me slowly.
+She was smiled when she looked at a flower.
+
+* On + doing... = as soon as ...
+On having the medicine, I went to bed last night.
 On arriving at the shore, the girl struggled up the cliff towards the light she had seen.
 On entering the gate, he was stopped by the guard.
 On seeing the man, she waved and called out to him.
 
 * 连词 before: 才
   ...时间 + before + ... : 过了...时间 才...
-Nearly a week passed before the girl was able to explain what had happened to her.
+I waited for one hour before she arrived.
 It was three days before he came back.
 The phone had rung for one minute before someone answered it.
 
-L34: Quick work
-* 被动语态
-This bridge was built in 1942.
-I was asked to make a speech.
-He is being sent abroad.
-The man was being questioned.
-I was told to wait for him.
-Your wallet has been found.
-He never expected the bicycle to be found.
+#L34: Quick work
+* 被动语态:
+        - am/is/are done
+        - was/were done
+        - am/is/are being done
+        - was/were being done
+        - have/has been done
+        - had been done
+        - will be done
+        - ... to be done
+He was hit by a car.
+I was told that the tickets have been sold out yet.
+The air of this city is being polluted now.
+I have to tell you that you had already been cheated by him when your car was being repaired. 
+If you don't study hard you will be eliminated.
+I expected him to be arrested because my money was stolen by him.
 
-L35: Stop thief!
+#L35: Stop thief!
 * such + n + that... : 如此...以至于... (引导副词从句)
   so + adj + that... : 如此...以至于...
 The one with the money got such a fright that he dropped the bag.
@@ -735,7 +751,7 @@ I am finding my wound deteriorate.
 
 A short while ago / Shortly afterwards
 
-L36: Across the Channel
+#L36: Across the Channel
 * be going to do...: 打算做什么(主观愿望)
   will be doing...: 将要做什么(主观较弱)
 I am going to travel by air.
@@ -750,7 +766,7 @@ You will enjoy yourself if you travel by sea. (不能用 be going to)
 Among them will be Debbie's mother, who swam the Channel herself when she was a girl.
 Next month she will start her new job in Shanghai, which is her birthplace.
 
-L37: The Olympic Games
+#L37: The Olympic Games
 * 将来完成时
   will + has/have + Ven ... +(by)...
 When will they have finished this bridge?
@@ -760,7 +776,7 @@ He will have moved to a new flat in two month's time.
 You will have learnt the results of the examination by then.
 I shall have received a reply by this time tomorrow.
 
-L38: Everything Except the Weather
+#L38: Everything Except the Weather
 * 过去完成时
   conj: after, as soon as, when, until, before
 The children ran away after they had broken the window.
@@ -795,7 +811,7 @@ It looked(looks) as though it were going to rain.
 They quarreled continually. (频率高)
 They have quarreled continuously for more than an hour. (连续不断)
 
-L39: Am I all right?
+#L39: Am I all right?
 * He asked if/whether/when/why...
 She asked if/whether you were tired.
 Tom asked if/whether Jack would arrive the next day.
@@ -808,7 +824,7 @@ He hopes he will win and I hope so too.
 If you say so, I'll have to believe it.
 Are you ready? If so, let's go.
 
-L40: Food and Talk
+#L40: Food and Talk
 * if 虚拟语气
 与现在相反：从句 if Ved/were ... ，主句 would ...
 If you went to the exhibition you would enjoy it.

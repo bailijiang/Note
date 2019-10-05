@@ -730,23 +730,21 @@ I expected him to be arrested because my money was stolen by him.
 #L35: Stop thief!
 * such + n + that... : 如此...以至于... (引导副词从句)
   so + adj + that... : 如此...以至于...
+I have just got such a fright when a bastard driver horns outside my window.
+The BBQ looks such a delicious that I can't wait.
 The one with the money got such a fright that he dropped the bag.
 The one with the money got so frightened that he dropped the bag.
 It's such a wonderful experience that I'll never forget it.
 
-* so, such, such a
-  so + adj/adv
-  such + n
-  such a/an + 单数可数 n
-
-* see/notice sb do sth: 看见某人做过某事
-  see/notice sb doing sth: 看见某人正在做某事
+* see/notice sb/sth do sth: 看见某人做过某事
+  see/notice sb/sth doing sth: 看见某人正在做某事
+I saw the highway being a traffic jam from the map.
 He saw two thieves rush out of a shop and run towards a waiting car.
 He saw the ball fly straight towards the man in the boat.
 I saw some children playing games in the park.
 
 * ...finding + sb's + adj : ...发现...怎么样...
-He is finding his new work far more exciting.
+I'm finding my life unperfect.
 I am finding my wound deteriorate.
 
 A short while ago / Shortly afterwards
@@ -754,31 +752,26 @@ A short while ago / Shortly afterwards
 #L36: Across the Channel
 * be going to do...: 打算做什么(主观愿望)
   will be doing...: 将要做什么(主观较弱)
-I am going to travel by air.
-He is going to sell his car.
-They are going to move to a new house.
-I am going to write to him.
-She is going to ask for an explanation.
-
-You will enjoy yourself if you travel by sea. (不能用 be going to)
+I'm going to cook chicken myself tomorrow.
+They will be driving through the highway at night.
 
 * ... , who/which... 是非限制性的名词从句，是一种补充说明
+This kind of beer is very delicious, which has just bought by myself.
 Among them will be Debbie's mother, who swam the Channel herself when she was a girl.
 Next month she will start her new job in Shanghai, which is her birthplace.
 
 #L37: The Olympic Games
-* 将来完成时
-  will + has/have + Ven ... +(by)...
-When will they have finished this bridge?
-They will have finished this bridge in a year's time.
-I shall have completed this novel by next June.
-He will have moved to a new flat in two month's time.
-You will have learnt the results of the examination by then.
-I shall have received a reply by this time tomorrow.
+* 将来完成时: will + has/have + Ven ... +(by)...
+* 将来进行时: will be doing
+I will be finished all the study courses this month.
+He will be working at this company for a couple of months.
 
 #L38: Everything Except the Weather
-* 过去完成时
+* 过去完成时: had done
   conj: after, as soon as, when, until, before
+I had already prepared all I need before I went to Shunyi.
+I had no sooner finished my study courses than began to find a job and opened my resume on the website.
+
 The children ran away after they had broken the window.
 As soon as the sun had set we returned to our hotel.
 When he had finished lunch he asked for a glass of water.
@@ -797,13 +790,13 @@ No sooner had I entered the room than the telephone rang. (倒装)
 
 * hardly... when... : 还没(刚刚)...就...
   用法与 no sooner... than... 类似 
-He had hardly had time to settle down when he sold the house...
+We had hardly prepared all the stuff when she came back.
 I had hardly known him well enough when he began to greet me like an old friend.
 Hardly had I known him well enough when he began to greet me like an old friend.
 
 * as if : 就好象...  = as though
   常用来引导表示方式的副词从句, 后面接虚拟语气
-He acted as if he had never lived in England before.
+He acted as if he never makes a mistake.
 She looked(looks) at me as if I were a stranger.
 It looked(looks) as though it were going to rain.
 
@@ -812,20 +805,35 @@ They quarreled continually. (频率高)
 They have quarreled continuously for more than an hour. (连续不断)
 
 #L39: Am I all right?
-* He asked if/whether/when/why...
-She asked if/whether you were tired.
-Tom asked if/whether Jack would arrive the next day.
-Tom asked when Jack would arrive.
-Mary asked if/whether you had ever been abroad.
-Jane asked why I hadn't written to her.
+* 间接引语: ask (sb) if / ask when / ask sb to do whether
+           He asked if/whether/when/why...
+The vice president asked me if I would go to work now.
+My mother asked me when I go to work.
+My boss asked you to tell me whether you had finished your work.
 
 * so 做代词
+Can you go abroad to work? I don't think so.
+So be good.
 He hopes he will win and I hope so too.
 If you say so, I'll have to believe it.
 Are you ready? If so, let's go.
 
 #L40: Food and Talk
-* if 虚拟语气
+* will be doing... 将来进行时
+  will do: 是将来时态，指将来某个时间要做的事情。
+  will be doing: 是将来进行时态，指将来某个时间正在做某事。
+  常用的时间状语: Soon,tomorrow,this evening,on Sunday,by this time,tomorrow,in two days,tomorrow evening
+I will be working soon.
+By this time tomorrow,I'll be lying on the beach.
+I will study English (in the future).
+I will be studying English at universty this time next year.
+
+* if虚拟语气 与 if条件句
+  if虚拟语气: if was/were...I would be...
+  if条件句: if do..., I will...
+If I finished my stuff, I would do what I should do.
+If you don't take your key, you will not be able to enter the room.
+
 与现在相反：从句 if Ved/were ... ，主句 would ...
 If you went to the exhibition you would enjoy it.
 If you saw him now you wouldn't recognize him.
@@ -836,35 +844,31 @@ If you could make him change his mind, you would save him a lot of trouble.
 If it were not for you, I wouldn't do this.
 
 与过去事实相反：if had done... 主句 would/could have done
+If I had finished my work, I would have gone to travel.
 If I had known that, I wouldn't have supported him.
 He could have come if his car had not broken down on the road.
 It would have been different if you had helped.
 
-* will be doing... 将来进行时
-will do: 是将来时态，指将来某个时间要做的事情。
-will be doing: 是将来进行时态，指将来某个时间正在做某事。
-I will study English (in the future).
-I will be studying English at universty this time next year.
-常用的时间状语
-Soon,tomorrow,this evening,on Sunday,by this time,tomorrow,in two days,tomorrow evening
-By this time tomorrow,I'll be lying on the beach.
-
-L41: Do You Call That a Hat?
+#L41: Do You Call That a Hat?
 * mustn't 不应该
   needn't 不必
   need 作为情态动词时，只能用于疑问或否定句，后接动词原形，肯定句中用 must, have to, ought to, should
 
-We mustn't buy things we don't need.
-You mustn't make a noise. The children are asleep.
-You needn't come with us if you don't want to.
-You needn't drive so quickly; we have plenty of time.
+You needn't buy so many pairs of sports shoes.
+I know, but I can't help but be tempted by them.
+I have to control myself do not to be tempted.
 
-L42: Not very musical
+#L42: Not very musical
 * have + (可加形容词)表示动作的名词/名词短语 == verb  
   语气更委婉，更显得正式
+Do you want to have a drink?
+I have been to have dinner.
+You needn't have a bath.
+I must be to have relaxing.
+I remember I was very excited when I have my first look at her.
 
 had a ride
-was having a look
+was having a look at
 had a wash
 had a swim
 had a fight
@@ -872,16 +876,21 @@ have had a quarrel
 had another try
 had had a long walk
 have a rest
-to have a look
-had our first glimpse
+to have a look at
+had our first glimpse of
 They had a big quarrel over a small thing.
 Can I have a try?
 He had another try again.
 Did you have a good sleep last night?
 
-L43: Over the South Pole
+#L43: Over the South Pole
 * Can/Could: 无将来时，完成时
-  Be(was) able to: 当表示过去已经成功完成时，不能用could
+  Be(was) able to: 当表示过去已经成功完成时(客观事实)，不能用could
+
+Can you give me a piece of paper?
+I was able to find a good job before I finished the English courses.
+Through hard studying, I was able to develop software with C/C++.
+I believe I would be able to reach my life summit.
 
 He was able to go to London yesterday and he enjoyed himself very much.
 He didn't agree with me at first, but in the end I was able to persuade him.
@@ -889,49 +898,62 @@ He was able to leave Europe before the war began.
 Will you be able to come tomorrow?
 I have not been able to go to work for three days.
 
-L44: Through the forest
+* It seeded certain that...
+At that moment, it seemed certain that they would win the game.
+
+#L44: Through the forest
 * was/were doing ... 过去进行时
-Mrs.Anne Sterling did not think of the risk she was taking when she ran through the forest after two men.
+It began to rain when I was sleeping last night.
+I was learning English when they were having dinner yesterday.
 
 * 动名词: 是具有持续性动作含义的名词
-With the bag in their poccession, both men started running through the trees.
+I love staying at home when it's raining.
+I'm used to getting up early.
 
-L45: A Clear Conscience
-* was/were done 被动语态
-  had been done
-The whole village soon learnt that a large sum of money had been lost.
-Two months later, some more money was sent to Sam with another note.
+#L45: A Clear Conscience
+* 被动语态:
+          was/were done 
+          had been done
+          must have been done
+
+I remember that I had been hurt deeply by her.
+After fixing my car, I realized that I must have been cheated out some of the money by the repairman.
 
 * ... while doing ...
-Sam Benton, the local butcher, had lost his wallet while taking his savings to the post office.
+He had an accident while driving to the airport.
 
-L46: Expensive and Uncomfortable
+#L46: Expensive and Uncomfortable
 * 动词后面接 To, At, For, With
-arrived at...
-began to...
-account for...
-occurred to...
-astonished at...
-agree with...
-compare with...
+I was appealed to that song.
+He was condemned to death.
+She had been confined to a huge pit for three days.
+When I was looking at her, she glanced at me with shy.
+I can't account for the fact that why am I do the thing.
+I didn't expect to be charged for parking there.
+I'm sorry, I confused with these two people.
+I think we should prepare to cope with the thing.
 
-He was astonished at what he found.
+* It ... to... : 形式主语it, 真正主语是to后面的 
+It must amuse at myself to compose a song.
+It will challenge me to find a good job in a short time.
 
-L47: A Thirsty Ghost
+#L47: A Thirsty Ghost
 * 名词从句: which, that
-He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.
-He also said that he had found five empty wiskey bottles which the ghost must have drunk the night before.
-The villagers have told him that they will not accept the inn even if he gaves it away.
+He told me he can't go to sleep because he smelled a kind of subtle frowzy odor coming from the floor.
+She also said that she had loved the man who had already married.
+They also said they used to go to the restaurant which had closed. 
+I suggested that some bugs must have existed in the system.
+The neighbors have told me that they will never give up the parking space even if police intervene.
+Didn't you tell him that the grocery beside our home which had closed?
 
-L48: Did You Want To Tell Me Something?
-* 宾语从句的疑问句使用陈述句语序
-He then asked me how my brother was and whether I liked my new job in London.
+#L48: Did You Want To Tell Me Something?
+* 宾语从句的疑问句使用陈述句语序: ask sb if/whether/how...
+She then asked me whether I liked her.
+I asked her how's her health.
 
 * either...or: 要么...要么...
-In answer to these questions I either nodded or made strange noises.
-
-* topic sentence:
-Dentists always ask questions when it is impossible for you to answer.
+During her interview, she either nod or shake.
+Most of the people in this country are either too hypocrisy or too stupid.
 
 * 常用动词make, do:
 He had make progress.
@@ -939,34 +961,38 @@ You never do a job properly.
 Why can't you make up your mind?
 I have to go out now. I must do some shopping.
 
-L49: The End of a Dream
+#L49: The End of a Dream
 * 连词: when, until, after, as soon as, before, because, as, since, to, in order to, although, who, which, that
-For the first time in his life, he became the proud owner of a bed which had springs and a mattress.
-When he woke up, he was still on the mattress.
-The young man did not wake up until the bed had struck the ground.
+I'm still not beginning to find a job because I haven't finished which I want to study.
+Although I can already write code, it's not well enough.
+I can't open my resume on the website until I finish ROS exercises.
+Finding no more vegetables, I went to a supermaket.
+Scratched in an accident, my car has still not been fixed.
+After having dinner, I went to the park which by my home walked for 2 hours.
 
 * send + 名词 + 分词/into(to) 表示"使...处于某种状态"
-A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.
-The news sent him into a rage.
-The song sent the child to sleep.
+Poverty sent me feeling very unhappy.
+Composing and singing sent me very happy.
 
-L50: Taken for a Ride
+#L50: Taken for a Ride
 * love doing / like doing:
-I love tralling in the country, but I don't like losing my way.
+I love listening to music while working.
+I don't like being set up by my boss.
+I need a new job.
+I hate getting cold.
 
 * 连词 that, when, what, where
-I went on an excursion recently, but my trip took me longer than I expected.
-'I'll tell you where to get off', answered the conductor.
+Excuse me, can you tell me where am I?
 I don't know what to do.
-Please let us know when to start preparing.
+Please let us know when to start setting off.
 Can you show me how to use the fax machine?
-Looking round, I realized with a shock that I was the only passenger left on the bus.
+According to my age, I realized that I must get married quickly.
 
 * in front of : 在...的前面
   in the front of : 在...内部的前面
-I sat in the front of the bus to get a good view of the countryside.
+I stand in the front of the ship to feel the sea breeze.
 
-L51: Reward for Virtue
+#L51: Reward for Virtue
 * 从句连词 which, that, when, what
 First of all, he wrote out a long list of all the foods which were forbidden.
 It was obvious that he was very embarrassed.
@@ -976,25 +1002,25 @@ When I asked him what he was doing, he smiled guiltily and then put the parcel o
 My friend, Herbert, has always been fat, but things got so bad recently that he decided to go on a diet.
 He explained that his diet was so strict that he had to reward himself occasionally.
 
-L52: A Pretty Carpet
+#L52: A Pretty Carpet
 * 现在完成时: have/has been
   现在完成进行时: have/has been doing
 We have just moved a new house and I have been working hard all morning.
 This is the prettiest carpet I have ever seen.
 
-L53: Hot Snake
+#L53: Hot Snake
 * 过去完成时: had been
   现在完成进行时: have/has been doing
 A bird had snatched up the snake from the ground and then dropped it on to the wires.
 Since then, they have been trying to find out how the fire began.
 
-L54: Sticky Fingers
+#L54: Sticky Fingers
 * and 连接并列句
 The children were at school, my husband was at work and the house was quiet.
 In a short time I was busy mixing and flour and my hands were soon covered with sticky pastry.
 I picked up the receiver between two sticky fingers and was dismayed when I recognized the voice of Mrs Bates.
 
-L55: Not a Gold Mine
+#L55: Not a Gold Mine
 * 现在完成时的被动语态: have/has been done
 A new machine called 'The Revealer' has been invented and it has been used to detect gold which has been buried in the ground.
 
@@ -1006,7 +1032,7 @@ He would sit for hours doing nothing.
 Armed with the new machine, a search party went into the cave hoping to find buried treasure.
 Very excited, the party dug a hole two feet deep.
 
-L56: Faster than Sound!
+#L56: Faster than Sound!
 * 比较级/最高级
 One of the most handsome cars was a Rolls-Royce Silver Ghost.
 The most unusual car was a Benz which had only three wheels.
@@ -1015,7 +1041,7 @@ Many of the cars broke down on the course and some drivers spent more time under
 The winning car reached a speed of forty miles an hour--much faster than any of its rivals.
 It was very different from modern car races but no less exciting. (...no less exciting than modern car races.)
 
-L57: Can I Help You Madam?
+#L57: Can I Help You Madam?
 * 介词使用： in, at, out of, to, with, into
 The woman walked out of the shop angrily and decided to punish the assistant next day.
 She returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.
@@ -1023,7 +1049,7 @@ She returned to the shop the following morning dressed in a fur coat, with a han
 * doing 动名词与现在分词的区别: 看前面是否有介词
 She enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.
 
-L58: A Blessing in Disguise?
+#L58: A Blessing in Disguise?
 * 被动语态(起强调作用)
 The tiny village of Frinley is said to possess a 'cursed tree'.
 The vicar has been asked to have the tree cut down, but so far he has refused.
@@ -1038,7 +1064,7 @@ It was in England that we first met.
 It's he who has solved the problem for you.
 It was because of him that we succeeded.
 
-L59: In or out?
+#L59: In or out?
 * 表示目的的几种方式(连词),后面连接状语从句: to, in order to, so as to, so that, in order that
 My husband spent weeks training him to press his paw on the latch to let himself in.
 This time he was barking so that someone would let him out!
@@ -1046,7 +1072,7 @@ We started out early in order to avoid traffic.
 I moved to the front of the bus so as to get a good view of the countryside.
 He left the letter on the table in order that I might see it.
 
-L60: The Future
+#L60: The Future
 * 在表示 来/去/到达 时可以用进行时表将来
 A relation of yours is coming to see you.
 She will be arriving this evening.
@@ -1064,7 +1090,7 @@ I'll give him the message when he returns.
 I'll join you after I finish my work.
 He will write to his friends as soon as he gets there.
 
-L61: Trouble with the Hubble
+#L61: Trouble with the Hubble
 * 将来完成时 will have done
   将来进行时 will be doing 
   将来完成进行时 will have been doing 
@@ -1073,7 +1099,7 @@ By the time you read this, the Hubble's eagle eye will have sent us thousands an
 By Friday midday, they will have been working on it for seven days.
 By that time, the Astra will have been flying through space for seventeen hours and will have circled the earth a great many times.
 
-L62: After the Fire
+#L62: After the Fire
 * 过去完成时 had done
 When I went to the office yesterday, my boss had been there.
 
@@ -1093,7 +1119,7 @@ He asked me yesterday when I should leave for Paris.
 * not only... but...as well 不但...而且...
 Last summer, I not only obtained Master's degree but bought a new house as well.
 
-L63: She was not Amused
+#L63: She was not Amused
 * 陈述句/疑问句变间接引语
 - He said that...
 He told me that the firm could not afford to pay such large salaries.

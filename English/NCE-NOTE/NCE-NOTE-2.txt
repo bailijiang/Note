@@ -994,75 +994,146 @@ I stand in the front of the ship to feel the sea breeze.
 
 #L51: Reward for Virtue
 * 从句连词 which, that, when, what
-First of all, he wrote out a long list of all the foods which were forbidden.
-It was obvious that he was very embarrassed.
-When I asked him what he was doing, he smiled guiltily and then put the parcel on the desk.
+I feel hungry, so I eat a bar of bread which I have just bought.
+When I asked her what she was doing, she said she did nothing.
+It is very clear that he is a fool.
 
 * so...that...
-My friend, Herbert, has always been fat, but things got so bad recently that he decided to go on a diet.
-He explained that his diet was so strict that he had to reward himself occasionally.
+The tea in the cup is so cold that I can't have.
+My house where at Shunyi is so quiet at night that I feel a little bit fear.
 
 #L52: A Pretty Carpet
 * 现在完成时: have/has been
   现在完成进行时: have/has been doing
-We have just moved a new house and I have been working hard all morning.
-This is the prettiest carpet I have ever seen.
+I have just got home and I have been learning English all morning.
+I have been thinking for an hour about how to make lunch easier.
+It has not been easy because I need nutrition to remain balance.
+This is the most delicious I have ever had.
 
 #L53: Hot Snake
 * 过去完成时: had been
   现在完成进行时: have/has been doing
-A bird had snatched up the snake from the ground and then dropped it on to the wires.
-Since then, they have been trying to find out how the fire began.
+I had quit my job for 3 months.
+Since then, I have been learning English for 3 months.
+Have you ever tried this restaurant?
+I have been working for 3 months in this company.
 
 #L54: Sticky Fingers
-* and 连接并列句
-The children were at school, my husband was at work and the house was quiet.
-In a short time I was busy mixing and flour and my hands were soon covered with sticky pastry.
-I picked up the receiver between two sticky fingers and was dismayed when I recognized the voice of Mrs Bates.
+* any, some / The / Most
+Did you buy any beer?
+I want some beer.
+Did you have any trouble?
+I have some trouble.
+He is not only mean but stupid as well.
+The stupid can only be manipulated in this world.
+I need a new car.
+The old car is mine.
+I often play basketball at the court of this community.
+Most neighbors of mine are bastards.
+Our football team is the weakest in this world cup.
 
 #L55: Not a Gold Mine
-* 现在完成时的被动语态: have/has been done
-A new machine called 'The Revealer' has been invented and it has been used to detect gold which has been buried in the ground.
+* 现在完成时的被动语态(已经被): have/has been done
+AI technology has been used in many areas of people and it has been used to relieve the pressure of people's work.
+The court where I used to play basketball has been pulled down.
+
+* when
+I was learning English in the morning when my express arrived.
+When I was learning English in the morning my express arrived.
+I was sleeping when she telephoned me and said that she would come to my home.
 
 * ...would (often) do...: 过去常常做...
-The pirates would often bury gold in the cave and then fail to collect it.
-He would sit for hours doing nothing.
+I would often go to the cinema and then I watch the movie at home.
 
 * Done/Doing + ... : 分词短语(增加表达信息量)
-Armed with the new machine, a search party went into the cave hoping to find buried treasure.
-Very excited, the party dug a hole two feet deep.
+Taken the tools, I went into the garage starting to fix my car.
+Hoping to get that job, I went to take part in the interview.
+Got nervous, I went to the podium.
 
 #L56: Faster than Sound!
-* 比较级/最高级
-One of the most handsome cars was a Rolls-Royce Silver Ghost.
-The most unusual car was a Benz which had only three wheels.
-Built in 1885, it was the oldest cat taking part.
-Many of the cars broke down on the course and some drivers spent more time under their cars than in them!
-The winning car reached a speed of forty miles an hour--much faster than any of its rivals.
-It was very different from modern car races but no less exciting. (...no less exciting than modern car races.)
+* one of the most
+  the most
+  more than
+One of the corrupt cities in this country is S.
+City B is the most corrupt city in this country.
+City B is more corrupt than S.
+
+* as...as
+  not as(so)...as
+She is as foolish as he.
+I'm not as same as others very much.
+
+* the same as
+  different from
+Your sports shoes are the same as mine.
+The perspective of this event of her is totally different from mine.
+
+* a few 一点(肯定) / few 几乎没有(否定) :  修饰可数名词
+  a little 一点(肯定) / little 几乎没有(否定) : 修饰不可数名词
+There are a few things I need to buy.
+There are few things I need to buy.
+There are quite a few things I need to buy. (quite a few 很多)
+There is a little water in the bottle.
+There is little water in the bottle.
+There is quite a little water in the bottle. (quite a little 很多)
+
+* much: 很多, 修饰不可数名词
+  many: 很多, 修饰可数名词
+There isn't much beer, but you can have a little.
+There aren't many apples, but you can take a few.
+
+* a lot of = lots of : 大量的, 修饰可数和不可数名词
+  a great deal of : 大量的, 修饰不可数名词
+  a great number of : 大量的, 修饰复数可数名词
+  a great many : 后面直接加复数可数名词
+  a great many of : 后面跟限定语再跟名词
+There are a lot of people in the park.
+There are many people in the park.
+There are a lot of girls in my class.
+There is a lot of time to finish my work.
+I spent a great deal of time on this work.
+There are a great number of birds outside my window. 
+There are a great many students.
+There are a great many of my classmates
 
 #L57: Can I Help You Madam?
-* 介词使用： in, at, out of, to, with, into
-The woman walked out of the shop angrily and decided to punish the assistant next day.
-She returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.
+* 介词使用： at, in, off, with
+I sat on a bench at the park, with a book.
+We appointed to meet at a coffee shop.
+At that moment, I was waiting for you in the street.
+Please take off your hat.
+I saw him got off the bus.
+I remember I was dressed in a casual T-shirt to the interview.
+The woman with a pair of glasses and the brown handbag is my wife.
+Do you know that woman in the white dress?
 
 * doing 动名词与现在分词的区别: 看前面是否有介词
-She enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.
+I think of obsessing about video games is a vice.
+Before having dinner, I must finish the task today.
 
 #L58: A Blessing in Disguise?
 * 被动语态(起强调作用)
-The tiny village of Frinley is said to possess a 'cursed tree'.
-The vicar has been asked to have the tree cut down, but so far he has refused.
+All the neighors have been asked to move their cars to other places.
+The vice president has been arrested because of corruption.
+He was offered the vacant post.
 
 * so far + 现在完成时
-So far, not one of them has been struck down by sudden death!
+So far, no one has beaten me in the basketball game.
 
 * 强调句 It is/was ...(被强调部分) that...
-It is said that if anyone touches the tree, he will have bad luck, if he picks a leaf, he will die.
-The tree was planted near a church fifty years ago, but it is only in recent years that it has gained an evil reputation.
+It was his selfish that my life was destroyed.
+It's she who put me at a disadvantage.
 It was in England that we first met.
 It's he who has solved the problem for you.
 It was because of him that we succeeded.
+
+* claim
+This wrong decision has already claimed much damage to the company.
+
+* is said to
+  It is said that...
+The classmate who has not seen many years is said to go abroad.
+It is said that if you buy a lottery ticket continuously, you will win the big prize.
 
 #L59: In or out?
 * 表示目的的几种方式(连词),后面连接状语从句: to, in order to, so as to, so that, in order that
@@ -1109,7 +1180,7 @@ I had been studying English for nearly three years before I got the job yesterda
 He had been working in a factory for years before he got this job.
 
 * 过去完成时被动语态 had been done
-When China had been colonized, the people of China just understood the importance of the study.
+When a country had been colonized, the people of this country just understood the importance of the study.
 
 * 过去将来时 would/should do
 I knew you would agree.
@@ -1162,7 +1233,7 @@ If I were in your position, I would act differently.
 * 与过去事实相反, 假设条件句, 
   if从句需用过去完成时had done，
   主句用 would/should/might/could have done 过去分词形式：
-If I had worked harder at school, I'd have got a better job.
+If I had studied harder at school, I'd have got a better job.
 You had got a good health If you would have had good exercise. 
 
 # L65: Jumbo versus police

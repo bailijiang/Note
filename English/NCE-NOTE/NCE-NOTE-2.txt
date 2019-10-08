@@ -1136,24 +1136,44 @@ The classmate who has not seen many years is said to go abroad.
 It is said that if you buy a lottery ticket continuously, you will win the big prize.
 
 #L59: In or out?
-* 表示目的的几种方式(连词),后面连接状语从句: to, in order to, so as to, so that, in order that
-My husband spent weeks training him to press his paw on the latch to let himself in.
-This time he was barking so that someone would let him out!
+* 表示目的的几种方式(连词),后面连接副词从句(状语从句): to, in order to, so as to, so that, in order that
+I have been learning English very hard so as to get a good job and to live better.
+We had tested the program so that it would be running stable.
 We started out early in order to avoid traffic.
-I moved to the front of the bus so as to get a good view of the countryside.
 He left the letter on the table in order that I might see it.
 
-#L60: The Future
-* 在表示 来/去/到达 时可以用进行时表将来
-A relation of yours is coming to see you.
-She will be arriving this evening.
+* has developed / as soon as / until / got so annoyed
+How did you develop this vice?
+I have developed a good habit of eating an apple every day.
+As soon as she comes back home, she begins to cook until I go home.
+As soon as I arrive at the office, I start working until lunchtime.
+He got so annoyed because his wife cheated on him.
 
-I'm coming to see you.
+* begin doing / start doing: 已经开始做...(习惯做...)
+  begin to do / start to do: 打算开始要做...
+I have been studying Python for a long time, so I start to find a job about it.
+He starts exercising for some time.
+She begins to read that novel.
+She begins reading a book since she was a child.
+
+#L60: The Future
+* 将来时: will be
+  将来进行时: will be doing
+  在表示 来/去/到达 时可以用进行时表将来: is coming/arriving/leaving
+After having lunch, I will go outside to walk for a while.
+I am going to working for three years.
+I will be working at this company for a year.
 She's going to the party this evening.
+
+She is coming at twelve o'clock.
+I am leaving next week.
+I'm coming to see you.
 He's arriving tomorrow.
 Are you leaving now?
 
-* 条件/时间状语从句用一般现在时, 主句一般将来时
+* 表示 条件/时间 的副词从句 用 一般现在时表将来, 主语用将来时
+If I go outside this time, I will meet many people who annoyed me.
+They will pay a high price when the conditions permit.
 The moment you leave this tent, you will get a big surprise.
 If it rains tomorrow we will cancel the football match.
 I shall wait here until he comes.
@@ -1161,34 +1181,43 @@ I'll give him the message when he returns.
 I'll join you after I finish my work.
 He will write to his friends as soon as he gets there.
 
+* 带从句的疑问句
+Does what she said come true?
+Is what you talked about the movie on?
+
 #L61: Trouble with the Hubble
 * 将来完成时 will have done
   将来进行时 will be doing 
   将来完成进行时 will have been doing 
-The shuttle Endeavour will be taking the astrounauts to the Hubble.
-By the time you read this, the Hubble's eagle eye will have sent us thousands and thousands of wonderful pictures.
-By Friday midday, they will have been working on it for seven days.
-By that time, the Astra will have been flying through space for seventeen hours and will have circled the earth a great many times.
+The ceremony will be helding at 10 o'clock.
+By the end of this month, the system will have worked for one year continuously.
+Next month, I will have been working at this company for ten years.
+Later, you will have received the message from me.
 
 #L62: After the Fire
 * 过去完成时 had done
 When I went to the office yesterday, my boss had been there.
+She had already finished cooking dinner when I went home.
+I had finished jogging before she woke up.
 
 * 过去完成进行时 had been doing 
 By last year, I had been playing basketball for nearly 30 years.
 I had been studying English for nearly three years before I got the job yesterday.
 He had been working in a factory for years before he got this job.
+He asked me what I had been doing all afternoon.
 
 * 过去完成时被动语态 had been done
 When a country had been colonized, the people of this country just understood the importance of the study.
 
 * 过去将来时 would/should do
+You said you would get rid of this vice.
 I knew you would agree.
 I said I would arrange everything.
 He asked me yesterday when I should leave for Paris.
 
 * not only... but...as well 不但...而且...
 Last summer, I not only obtained Master's degree but bought a new house as well.
+If I get this job, I will not only make money but learn certain knowledge.
 
 #L63: She was not Amused
 * 陈述句/疑问句变间接引语

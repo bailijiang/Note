@@ -1231,9 +1231,10 @@ He asked if Mr.Gilbert's opertion had been successful.
 Tom asked if it would have a match tomorrow.
 She asked if I had a lunch.
 
-* 祈使句变间接引语, 后接 to do 不定式
+* 祈使句表示请求/命令/建议等, 谓语动词用动词原型, 省略主语
+  祈使句变间接引语, 后接 to do 不定式
 - He told me...
-She told me to turn off all the lights.
+She told me to turn off all the lights. (She said: "Turn off all the lights.")
 I advise you not to buy her anything.
 She told him not to make a mess in the kitchen.
 She told me to open the door.
@@ -1249,17 +1250,15 @@ He insisted that I should stay to lunch.
 I wonder when he will arrive.
 
 # L64: The Channel Tunnel
-3类if条件句
-* 表示将来很可能发生的事
+* if一般条件句, 表示将来很可能发生的事
 If you park your car in the wrong place, a traffic policeman will soon find it.
 You'll miss the train, if you don't hurry.
 
- 虚拟语气
-* 与现在事实相反的, 想象中的情况(不太可能发生的)
+* 虚拟语气: 与现在事实相反的, 想象中的情况(不太可能发生的)
 If I were you, I would not go to London tomorrow.
 If I were in your position, I would act differently.
 
-* 与过去事实相反, 假设条件句, 
+* 虚拟语气: 与过去事实相反, 假设条件句, 
   if从句需用过去完成时had done，
   主句用 would/should/might/could have done 过去分词形式：
 If I had studied harder at school, I'd have got a better job.
@@ -1390,7 +1389,7 @@ I feel very disappointed with the firm.
 I wish I can set up the miracle.
 
 # L73: The record-holder
-##1. 动名词和现在分词的区别: doing
+##动名词和现在分词的区别: doing
     - 动名词当名词用, 有动作持续性的含义;      
     - 现在分词引导的名词短语当形容词用, 表伴随性动作, 修饰前面的动词;  
 We couldn't help laughing as hearing such funny news.
@@ -1400,7 +1399,7 @@ As far as my concerned, traveling by air is very scared.
 Yesterday, I returned home, carrying a lot of food.(carrying 修饰 returned)
 The teacher came into the classroom, carrying(carried) a book in her hand.
 
-##2. 从句:
+##从句:
 * 主语从句 who
 People who like to play basketball are usually good healthy.
 The man who is standing by the road is my high school classmate.
@@ -1417,19 +1416,19 @@ They arrived while we were having dinner.
 I can't believe that he's only 17.
 Are you sure that they live in Beijing?
 
-## ... as far as ... 能够达到的程度 / 就...而言 (连词，与距离无关)
+##... as far as ... 能够达到的程度 / 就...而言 (连词，与距离无关)
 My boss who lies to me is very dishonorable. A whole day's lying is usually as far as he gets.
 As far as I can see, there's nothing else to discuss.
 I only do this as far as I can.
 
-## in the meantime 在这期间(与此同时)
+##in the meantime 在这期间(与此同时)
 I had dinner last night, in the meantime, it began to snow.
 
 ## pick up 把...拾起来 / 到...去接人 / 被...拘捕
 My boss was picked up because he lied to me.
 
 # L74: Out of the limelight
-##1. 过去完成时： had done
+##过去完成时： had done
 * 过去的过去(过去已经...)
 I had gone to gas when I drove yesterday.
 I had taken enough preparing when I interviewed last time.
@@ -1442,7 +1441,7 @@ I didn't feel bad if I had drunk less.
 She looked at me as if I had been a stranger.
 
 # L75: SOS
-##1. 主系表句子结构： 主语 + 系动词 + 形容词
+##主系表句子结构： 主语 + 系动词 + 形容词
 Snow lay thick on the ground.
 It grew dark.
 It got terribly cold.
@@ -1450,12 +1449,12 @@ It got terribly cold.
 You grew fat.
 My boss is very awful.
 
-##2. 动词的现在分词形式，表伴随
+##动词的现在分词形式，表伴随
 We ate and drunk, laughter filling the whole room.
 I ate dinner, watching the TV.
 Yesterday, I worked in my office, listening to jazz music.
 
-##3. 不久： It was not long before(连词) / It will not be long before
+##不久： It was not long before(连词) / It will not be long before
 I will not be long before to find my girlfriend.
 
 # L76: Apil Fools' Day

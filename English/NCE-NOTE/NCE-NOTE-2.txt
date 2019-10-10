@@ -1220,73 +1220,113 @@ Last summer, I not only obtained Master's degree but bought a new house as well.
 If I get this job, I will not only make money but learn certain knowledge.
 
 #L63: She was not Amused
-* 陈述句/疑问句变间接引语
-- He said that...
+* 陈述句/疑问句变间接引语: sb told (that)... / sb asked...if(why)... / sb said ...
+- sb said that...
 He told me that the firm could not afford to pay such large salaries.
 He said that we could not wait like this.
 She said that she was shopping on the internet.
+She told me she was disappointed with you.
 
-- He asked if...
+- sb asked if/why...
 He asked if Mr.Gilbert's opertion had been successful.
 Tom asked if it would have a match tomorrow.
 She asked if I had a lunch.
+The boss asked why I still did not finish the work.
 
 * 祈使句表示请求/命令/建议等, 谓语动词用动词原型, 省略主语
   祈使句变间接引语, 后接 to do 不定式
-- He told me...
+- sb told me...
 She told me to turn off all the lights. (She said: "Turn off all the lights.")
-I advise you not to buy her anything.
+I advise you not to buy anything of her.
 She told him not to make a mess in the kitchen.
 She told me to open the door.
 She told me not to play the game in the middle of the night.
 
-* 动词suggest和insist用于转述建议、要求时，其结构为suggest/insist+that从句
+* 动词suggest和insist用于转述建议、要求时，其结构为 suggested/insisted + that从句
 （用should）：
-He suggests that they (should) sell the flat.
+He suggested that they (should) sell the flat.
 He still insisted that we (should) help him.
 She suggested that you should not go to work at that company.
 He insisted that I should stay to lunch.
 
+* This is the sort of thing that...
+This is the sort of thing that I hate.
+This is the sort of thing that she likes.
+
+* wonder
 I wonder when he will arrive.
+I wonder why the people of this country are so lazy.
 
 # L64: The Channel Tunnel
-* if一般条件句, 表示将来很可能发生的事
+##虚拟语气与假设条件句的区别在于: 虚拟语气是已经发生了的
+* if一般条件句(现在时), 表示将来很可能发生的事
 If you park your car in the wrong place, a traffic policeman will soon find it.
 You'll miss the train, if you don't hurry.
+If you go outside now, you will meet a lot of neighbors.
 
 * 虚拟语气: 与现在事实相反的, 想象中的情况(不太可能发生的)
 If I were you, I would not go to London tomorrow.
 If I were in your position, I would act differently.
+If I had some bread, I could make Hamburg now.
 
-* 虚拟语气: 与过去事实相反, 假设条件句, 
+* 虚拟语气: 与过去事实相反 
   if从句需用过去完成时had done，
   主句用 would/should/might/could have done 过去分词形式：
 If I had studied harder at school, I'd have got a better job.
 You had got a good health If you would have had good exercise. 
+If I had got up early this morning, I would have felt comfortable.
+
+* 虚拟语气: 将来事实相反(是指将来发生的可能性很小, 或低概率事件)
+If would hire a foreign coach, the football team of China could enter the World Cup finals.
+If I could go to the USA tomorrow, I would watch the NBA game.
+
+* 过去将来时: would be... (会...)
+He said that you would pay high price for it.
+I would spend more money on lunch if I ordered takeout.
+
+* ventilate: 通风 v. (ventilation n.)
+Open the window and ventilate the room.
 
 # L65: Jumbo versus police
-* 表示“应该”和“必须”的情态助动词 should, ought, have to 与must
-I missed the train, so I had to take a taxi.
+* 情态动词:
+  应该: should, ought to(语气强)
+  可能: may, might(可能性较小) 
+  必须: have to(被动), must(主动)
+
 I'm sorry I'm late. I should have taken a taxi.
-I should to stop smoking.
-I must stop smoking.
-I should have stopped smoking.
-Do you have to wash the dishes now?
+I ought to stop smoking.
+You should have stopped smoking.
 I would get that job if I should have studied English hard.
-If I should not have eaten candy, my teeth would not decay.
+If I had not eaten candy, my teeth would not have decayed.
+I ought to begin finding a job.
+This party is very rare, you ought to have come.
+
+May I ask you some questions?
+You may leave now.
+She might have arrived at the destination.
+She said she might travel abroad.
+My boss might be sleeping now.
+
+I missed the train, so I had to take a taxi.
+Do you have to wash the dishes now?
+You must stop smoking.
+I must finish my review quickly.
 
 # L66: Sweet as honey!
-* 完全(实意)动词: have 
-Did you have a good meal?
-He has five cars.
-
-* 使役动词: have + 名词/宾格 + done (sb 使 sth/sb 如何)
+* 使役动词: have + sth(名词/宾格) + done (sb 使 sth/sb 如何)
   强调sth/sb别人, 但不必指明 (相对于被动语态的第三方)
+I'm going to have my resume updated on the website.
+Did you have the network of your home opened?
+I didn't have your code modified.
 I washed my car.
 My car was washed.
 I had my car washed. 我让人把车给洗了.
 I'm having my car repaired.
 I'm going to have my suit cleaned.
+
+* 完全(实意)动词: have 
+Did you have a good meal? (吃)
+He has five cars. (有)
 
 # L67: Volcanoes
 * 表示“能力”的情态助动词及其他有关的动词： can/ could / be able to / manage to
@@ -1298,53 +1338,83 @@ He managed to finish the job yesterday.
 
 I think I can be a successful programmer and I can't fail.
 I was able to win the game yesterday because I have ever been training hard.
-I managed to obtain the job as I took part a number of interviews.
+Although she managed to offer me that job, I still can't like her.
+I managed to learn English by myself so that I could get a good job and travel abroad.
 
 # L68: Persistent
-* 动名词doing
+* 动名词 doing : 有动作含义的名词或名词短语 (没有名词形式的动词+ing)
+  - 主动补: S + V + N(doing)
+  - 介宾: prep + N(doing)
+  - 感官动词连用: see/hear/smell... + sb/sth + N(doing)
+  - go/come + N(doing)
+  - 名词短语: n/adj. + N(doing)
 I like watching TV.
 I'd like to watch TV.
-I tried to avoid meeting him.
-I never enjoy meeting Nigel Dykes.
-I haven't finished speaking yet.
-He insisted on paying.
-Why don't we go swimming?
-I saw him coming.
+I enjoy playing basketball.
+I'm usually busy working in the morning.
 
-I turned my head, trying to avoid looking at her.
-It's no use arguing with you.
-It is no use having medicine for this kind of illness.
+He insisted on paying.
+I have to think of a way of preventing him from disturbing me consistently.
 I insisted on studying English well.
 The blacklist of the telephone can prevent trash phone from calling in.
-You are very busy, aren't you? You are not very busy, are you?
+Can you come to teaching me English tomorrow?
+
+I saw him coming.
+Do you smell something burning?
+I can hear a little girl laughing next door.
+
+Why don't we go swimming?
+I went shopping yesterday afternoon.
+Come listening to the concert with me, please.
+
+I turned my head, trying to avoid looking at her.
+It's no use helping him.
+It's no use arguing with you.
+It is no use having medicine for this kind of illness.
 Would you mind drinking with me?
 Would you mind my smoking here?
-I enjoy playing basketball.
 
 # L69: But not murder!
 * 被动语态
-  was/were being done
-  had been done
-  has/have been done
   was/were done
+  was/were being done
+  has/have been done
+  had been done
   could be done
+  must have been done
   现在完成进行时被动语态和将来进行时被动语态的句子通常会将进行时的成分去掉(不常用)
+
 When I was being interviewed yesterday, I received a call.
 The haze was being decreased as the wind blew.
 The enemy had been destroyed this morning.
 My money has been spent out.
 The mobile phone that I wanted to buy was already sold out.
-Though the bicycle could be ridden, I haven't enough money.
+Though that house still could be bought, I haven't enough money.
+She said she must have been cheated on him.
+After having been asked to show the tickets, we entered the theatre.
+After having been fired, he decided to sue the company for unpaid wages.
 
 # L70: Red for danger
 * 与 for, with, of, to, at, from, in, on, about 连用的形容词(形容词词组)
   be unaware of / busy with / sensitive to / sure of / sorry for 
+
+I'm wondering who should be responsible for this fault.
 I was unaware of the difficulty of the job.
 They were busy with a war.
 Apparently sensitive to the smoke, I covered my nose quickly.
+Are you good at coding?
 I'm sensitive to the sound.
+My opinions are very different from yours.
+I wish you could be honest in this event.
+People always keen on snooping.
 I'm pretty sure of winning the game.
-I feel so sorry for the foolish of the people of China.
+I feel so sorry for the foolish of the people of this country.
+When I was a child, I was curious about everything.
+
+* ...until...before...: (一直)...直到...才...
+  Not until...: 直到...(才)...
+I felt so miserable until I had finished learning English before once more getting a new job.
+Not until I'm 35, I had realized the meaning people live.
 
 # L71: A famous clock
 * 复习: 将来时 / if条件句 / 完成时 / 情态动词 / 使役动词have / 被动语态 / 介词+动名词 / adj+prep
@@ -1352,7 +1422,7 @@ I feel so sorry for the foolish of the people of China.
 When you compete on the court, you will feel very excited.
 
 - ... takes its name from ...
-Asian culture takes its name from Chinese stupid.
+Asian culture takes its name from asians stupid.
 
 - ... was/were being done ...
 When the environment was being destroyed, why the government did nothing?

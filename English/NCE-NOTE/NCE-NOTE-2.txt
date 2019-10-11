@@ -1417,32 +1417,37 @@ I felt so miserable until I had finished learning English before once more getti
 Not until I'm 35, I had realized the meaning people live.
 
 # L71: A famous clock
-* 复习: 将来时 / if条件句 / 完成时 / 情态动词 / 使役动词have / 被动语态 / 介词+动名词 / adj+prep
-- When ... do ... , ... will do ...
+##复习: 将来时 / if条件句 / 完成时 / 情态动词 / 使役动词have / 被动语态 / 介词+动名词 / adj+prep(形容词词组)
+* When/If ... do ... , ... will do ...
 When you compete on the court, you will feel very excited.
+If you get up late, you will lose time to exercise.
 
-- ... takes its name from ...
+* ... takes its name from ...
 Asian culture takes its name from asians stupid.
 
-- ... was/were being done ...
+* ... was/were being done ...
 When the environment was being destroyed, why the government did nothing?
 
--  ... when/who ...
+* ... when/who ...
 It began to rain when I was waiting for the bus this morning.
-The old man who assassinated the president is the assassin.
+The old man who was arrested is an actor.
 
-- can/must/may  could/would/might 情态动词有过去时, 但没有人称复数变化, 后面接动词原型do
+* can/must/may  could/would/might 情态动词有过去时, 但没有人称复数变化, 后面接动词原型do
 Everybody can taste these cakes for free.
 If you stood up just now, you could be found.
 
-- ...have/has/had ... done ...
+* ...have/has/had ... done ...: 使...(怎么样)
 I need to have my house decorated this year.
+I must have my life changed to be better.
 
-- If...had done, ...would have done...虚拟语气(与过去事实相反)
+* have/has done: 现在完成时
+She has rarely been late to work.
+
+* If...had done, ...would have done...虚拟语气(与过去事实相反)
 If I had studied coding, I would have obtained this job.
 
-- ...not only...but...as well (Not only 放句首时, 后面要倒装)
-Not only are you dump but mean as well.
+* ...not only...but...as well (Not only 放句首时, 后面要倒装)
+Not only are you clumsy but lazy as well.
 
 # L72: A car called Bulebird
 * to 引导的不定式短语做定语修饰前面的名词
@@ -1450,10 +1455,22 @@ She's always the first to arrive and the last to leave.
 You're the best person to advise me about buying a house.
 You're the only person to complain.
 You're the best appropriate man to do this job.
+This is the man to save my life.
 
-* disappointing 令人失望的 adj. / disappointed 失望的 adj.
+* disappointing 令人失望的 adj. (物让人失望)
+  disappointed 失望的 adj. (人感觉到失望)
 The entrepreneurial firm was very disappointing.
 I feel very disappointed with the firm.
+
+* have/has/had 实意动词: 有
+The enemy was over 300 and had gun with them.
+This car was over 10 years and had many faults.
+
+* 过去完成时被动语态: had been done
+This laptop had simply been built for me.
+
+* 过去完成时: had been (曾经是)
+This city had ever been one part of this country.
 
 * set up 创造
 I wish I can set up the miracle.
@@ -1461,20 +1478,23 @@ I wish I can set up the miracle.
 # L73: The record-holder
 ##动名词和现在分词的区别: doing
     - 动名词当名词用, 有动作持续性的含义;      
-    - 现在分词引导的名词短语当形容词用, 表伴随性动作, 修饰前面的动词;  
+    - 现在分词引导的名词短语当形容词用, 表伴随性动作, 修饰前面的动词(副词从句);  
 We couldn't help laughing as hearing such funny news.
 People shouldn't call as driving.
 As far as my concerned, traveling by air is very scared.
 
 Yesterday, I returned home, carrying a lot of food.(carrying 修饰 returned)
 The teacher came into the classroom, carrying(carried) a book in her hand.
+She walks towards me taking a little smile.
+I said goodbye waving to her.
+The woman was walking past me emitting the attractive perfume smell.
 
 ##从句:
-* 主语从句 who
+- 主语从句 who
 People who like to play basketball are usually good healthy.
 The man who is standing by the road is my high school classmate.
 
-* 时间状语从句： when(时间点有前后) / as(随着,同时) / while(持续一段时间)
+- 时间状语从句： when(时间点有前后) / as(随着,同时) / while(持续一段时间)
 When I arrived at the bus stop, the bus had already gone.
 
 As she grew older she gained in confidence.
@@ -1482,19 +1502,19 @@ I was playing video's game as you called me yesterday.
 
 They arrived while we were having dinner.
 
-* 宾语从句that：
+- 宾语从句that：
 I can't believe that he's only 17.
 Are you sure that they live in Beijing?
 
-##... as far as ... 能够达到的程度 / 就...而言 (连词，与距离无关)
+* ... as far as ... 能够达到的程度 / 就...而言 (连词，与距离无关)
 My boss who lies to me is very dishonorable. A whole day's lying is usually as far as he gets.
 As far as I can see, there's nothing else to discuss.
 I only do this as far as I can.
 
-##in the meantime 在这期间(与此同时)
+* in the meantime 在这期间(与此同时)
 I had dinner last night, in the meantime, it began to snow.
 
-## pick up 把...拾起来 / 到...去接人 / 被...拘捕
+* pick up 把...拾起来 / 到...去接人 / 被...拘捕
 My boss was picked up because he lied to me.
 
 # L74: Out of the limelight
@@ -1509,6 +1529,7 @@ When we had finished dinner, my girlfriend appeared.
   原理：以 现在/过去 的时间为基准点，往前推一个时态(现在时->过去时，过去时->过去完成时) 
 I didn't feel bad if I had drunk less.
 She looked at me as if I had been a stranger.
+If she had had time, I would have asked her to have dinner yesterday.
 
 # L75: SOS
 ##主系表句子结构： 主语 + 系动词 + 形容词
@@ -1525,7 +1546,7 @@ I ate dinner, watching the TV.
 Yesterday, I worked in my office, listening to jazz music.
 
 ##不久： It was not long before(连词) / It will not be long before
-I will not be long before to find my girlfriend.
+It will not be long before to find my girlfriend.
 
 # L76: Apil Fools' Day
 ##现在完成时: 已经, 刚刚, 尚未(还没)

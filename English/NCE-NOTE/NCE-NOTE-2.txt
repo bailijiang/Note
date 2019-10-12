@@ -1547,6 +1547,7 @@ Yesterday, I worked in my office, listening to jazz music.
 
 ##不久： It was not long before(连词) / It will not be long before
 It will not be long before to find my girlfriend.
+It was not long before raining.
 
 # L76: Apil Fools' Day
 ##现在完成时: 已经, 刚刚, 尚未(还没)
@@ -1572,6 +1573,13 @@ Thank you for your help that you have given me.
 Mr.Brown was the only person who saw the accident.
 He will not tell you the reason why he didn't go to the meeting
 I won't forget the day when you give me a kiss.
+How to run a dual system on my laptop was the problem that confused me.
+
+* 宾语从句: how, whether, what, that...
+I want to find out how is her health.
+I don't know whether she realized it was silly to do that.
+Do what you should do.
+I just said what I want to say.
 
 # L78: The last one?
 ##现在/过去分词做形容词成分
@@ -1598,8 +1606,10 @@ I hate to say this, but I think you're mistaken.
 I always try to be on time.
 Please remember to give me a wake-up call at 6:00 tomorrow.
 I want to study math.
-I remember to eat lunch.
+I don't remember to eat lunch.
 I know what it's like to lose.
+I want to live abroad.
+I went running for a while to make me feel better.
 
 #L79: By air
 ##used to do 曾经做过某事 use(v.)

@@ -1612,12 +1612,13 @@ I want to live abroad.
 I went running for a while to make me feel better.
 
 #L79: By air
-##used to do 曾经做过某事 use(v.)
+##used to do 曾经做过某事(现在不做了) use(v.)
 I used to live in this street.
 I used to work in Chongqing by air.
 Did you use to play basketball?
-She used to love me.
+She used to love me deeply.
 When I was young, I used to play PC games.
+She used to iron his shirts.
 
 ##be used to do/doing 习惯于做某事  used(adj.)
 We are used to living together.
@@ -1626,16 +1627,19 @@ I am used to eating fruit every day.
 I am used to eating vegetable dishes once a week.
 Are you used to do exercise every day?
 
+##be used to do 被用来做...(被动语态)
+My salaries were used to learn about music.
+
 #L80: The Crystal Palace
 ##形容词和副词的比较级和最高级 er est / more than / the most / one of the most / 特殊
-Chinese is stupider than American. 
-Chinese people is the stupidest in the world.
+Asians is stupider than Americans. 
+The people of this country are the stupidest in the world.
 My girlfriend is more beautiful than yours.
 My girlfriend is the most beautiful woman in the world.
 I am one of the most accurate shooters in the NBA.
 
 #L81: Escape
-##介词的用法: at / in / to / with / of / into / over / towards / for / inside / off ... + n.
+##介词的用法: at / in / to / with / of / by / into / over / towards / for / inside / off ... + n.
 I get up early in the morning.
 I'm very greatful for your help.
 Don't aim your gun at me.
@@ -1646,17 +1650,19 @@ We walked to the bus station after dinner.
 I used to work at Chongqing with my laptop.
 The host of this house is me.
 I have changed into sports clothes and ready to play basketball.
-The bridge over the river.
+The bridge is over the river.
 She is walking toward me.
-When he looked towards me, I smiled and waved.
+When she looked towards me, I smiled and waved.
 
 #L82: Monster of fish?
 ##被动语态(可应用在各种时态中)
 These bicycles are made in Shanghai.
 My head used to be beaten by the boy in 2014.
-He told me that he was being beaten.
+He told me that he was being bullied.
+I asked her if she was bullied by the other children.
 I will be asked many questions during the interview next month.
-The team of China has been eliminated in the world cup.
+The team of Hongkong has been eliminated in the world cup.
+The flying saucer which has at times been sighted are artificial drones.
 
 #L83: After the elections
 ##时态 复习(过去时/进行时/完成时...)

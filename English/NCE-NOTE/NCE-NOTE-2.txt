@@ -1711,22 +1711,33 @@ He asked me, "Where did you buy this Chinese-English dictionary?"
 He asked me where I had bought that Chinese-English dictionary.
 She asked, "Are you handsome?"
 She asked me whether I am handsome.
+I suggest that you have been taken off the quality of the match.
 
 #L88: Trapped in a mine
-##if虚拟语气 (与 现在 / 过去 / 将来 事实相反, 或发生概率很小)
+##if虚拟语气:
+  - 与 现在 / 过去 事实相反: 已经发生的
+  - 将来:  发生概率很小 
 If I had the money now, I would buy a new car. (与现在事实相反)
 If I were you, I would not buy a laptop.
+If you knew how difficult it was to learn to code yourself, you would give up. 
+
 If John had worked hard, he would have passed his examination. (与过去事实相反)
 If I had not hurried to decorate my house, I would not have been cheated two thousand dollars.
-If an asteroid should hit the earth, man could die out. (与将来事实相反)
+
+If an asteroid should hit the earth, man could die out. (将来:概率小)
 If he should come here tomorrow, I would talk to him.
 If she should come here tomorrow, I would happy to see her.
 If I could marry this year, I would buy furniture next month.
 
+##if假设条件句: 如果...就会...(没发生的)
+If it rains, the match will be taken off.
+If you lose your job, you will feel very miserable.
+If I propose to her, she may accept it.
+
 #L89: A slip of the tongue
 ##情态动词: Must / Have to / Need / Should
 need not(needn't) : 不必...
-should have done : 本应该xx, 而实际没有
+should have done : 本应该..., 而实际没有(虚拟语气)
 should be...: 应该...
 must be...: 必须...
 have to...: 必须(不得不)...
@@ -1739,18 +1750,35 @@ You must have a good rest now.
 I have to get to work on time.
 These people must have not been kindness.
 
+* present v. adj.
+There would be presented a parade in Beijing.
+At that time, there will be present many people.
+
 #L90: What's for supper?
 ##have的用法:
-  have sth done : 让某人做某事
+  have sth done : 使...(怎么样)
   have to do: 不得不...
-  现在完成时: have/has done 已经...
+  现在完成时: have/has done 一直/已经/曾经...
   现在完成时被动语态: have been done 曾经被...
 
-I have my colleague bought me lunch.
-She has me picked up the children after work.
+I have always been a good man.
+I have always been working hard.
+I have been to a gym this morning.
+You have just terrified me.
+They had eaten lunch cooked by me.
+
+He has our company suffered a loss of profits.
+This program has my laptop's system crashed.
+
 I have to finish my work today.
-I have done the physical exercise this morning.
-I have been teased by my colleague.
+
+I have ever been teased by my colleague.
+This city has been invaded many years ago.
+She has been cheated before.
+
+* ask sb to do: 让某人做某事
+She asked me to pick up the baby after work.
+I asked my colleague to buy my lunch.
 
 #L91: Three men in a basket
 ##Can (可能性/有能力) / Be able to (有能力) / Manage to (努力设法去做)

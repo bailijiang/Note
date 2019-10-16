@@ -1783,10 +1783,18 @@ I asked my colleague to buy my lunch.
 #L91: Three men in a basket
 ##Can (可能性/有能力) / Be able to (有能力) / Manage to (努力设法去做)
 I think that he can probably dunk.
-I think that he will be able to dunk when he grows up.
+I wonder whether he can dunk.
+I believe he will be able to dunk when he grows up.
 I told him that we would be able to finish this project later.
-I manage to use all sorts of ways to promote my English learning speed.
+I manage to use all sorts of ways to promote the speed of my English learning.
+
+* can be / might be doing(推测)
 Everybody all can be an honest person and should be. 
+You can't be serious?
+He said she might be shopping now.
+
+* make out: 辨认出,看出
+I could make out you are drunk.
 
 #L92: Asking for trouble
 ##动名词doing(做名词用)
@@ -1798,7 +1806,8 @@ You need relaxing a little every night.
 I regretted drinking so much last night.
 I enjoy listening to music when I driving my car. 
 I have busied learning software development this year.
-Would you mind smoking here I am? Yes, I'm very mind.
+Would you mind smoking here I am? Yes, I do mind.
+At the party, the laughing was filled with the house.
 
 #L93: A noble gift
 ##被动语态: 
@@ -1808,20 +1817,58 @@ Would you mind smoking here I am? Yes, I'm very mind.
   shall/will + be + done
   have/has + been + done
   had been done
-  had to be done
+  had to be done: 必须被...
+There are two pandas were presented to Japan by China.
+This clock was taken to pieces by the children.
 My former boss was arrested for frauding last year.
 My house was being built last October.
 My house is being built now.
-Those people who are living where I used to live will be ruled by American.
+Those people will be ruled by the USA.
 Those people who think they're smart has been brainwashed.
 The moral had already been distorted in this city ten years ago.
-These scumbags had to be fired before the company public.
+These people must be fired before the company goes public.
+These bugs had to be solved before the system goes online.
+In 2015, this house had been built.
 
 #L94: Future champions
-##review
+* instruct
+Dogs can be instructed in searching for drugs.
+These prisoners can be instructed in building the bridge.
+I arrived at the office at 8 o'clock as instructed.
+The phone call instructed him to report to the CEO immediately.
+
+* compete in/against/with/for...
+We must compete against each other to gain that job.
+I regularly compete in basketball.
+We can't compete with them on price.
+
+* gasp n. / v.
+I was taking in great gasps of air when I entered the park.
+We gasped in astonishment at the news.
+He gasped with pain and slumped forward.
+She was gasping with pain.
+The cold made her gasp.
 
 #L95: A fantacy
-##review
+* set... on fire: 放火
+Edie set Susan's house on fire.
+
+* definitely adv.
+I definitely remember sending the mail.
+'Yes, definitely.'
+'Definitely not!'
 
 #L96: The dead return
-##review
+* lantern n.
+A lantern lit the small room.
+
+* spectacle n.
+It was a spectacle not to be missed.
+a pair of spectacles
+This is a moving spectacle, for a little girl gently hugging a little kitten with smiling.
+
+* expected adj.
+I was expected she will be home at 6 o'clock.
+
+* lay out
+In the supermarket, many of fruit is laid out for choosing by people.

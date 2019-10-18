@@ -73,7 +73,7 @@
 - [69. this隐藏指针/const引用重载/mutable可变成员的应用](#69-this隐藏指针const引用重载mutable可变成员的应用)
 - [70. class构造函数相关](#70-class构造函数相关)
 - [71. copy拷贝构造和operate=等号操作符重载](#71-copy拷贝构造和operate等号操作符重载)
-- [72. 智能指针auto_ptr/shared_ptr/unique_ptr/weak_ptr](#72-智能指针auto_ptrshared_ptrunique_ptrweak_ptr)
+- [72. 智能指针auto_ptr/shared_ptr/unique_ptr/weak_ptr](#72-智能指针autoptrshared_ptrunique_ptrweakptr)
 - [73. 泛型函数对象操作符重载operator\(\)](#73-泛型函数对象操作符重载operator)
 
 <!-- /MarkdownTOC -->
@@ -2453,7 +2453,8 @@ e
 #### 69. this隐藏指针/const引用重载/mutable可变成员的应用
 * 对象方法连缀使用时, 方法返回对象的this指针不能省略
 * 可以基于const引用类型进行重载
-* 可变数据成员mutable: const方法中需要变化的成员,可以用mutable进行修饰, 如计数器 
+* 可变数据成员mutable: const方法中需要变化的成员,可以用mutable进行修饰, 如计数器
+                      被mutable修饰的变量(mutable只能由于修饰类的非静态数据成员)，将永远处于可变的状态，即使在一个const函数中
 ```
 #define _CRT_SECURE_NO_WARNINGS
 
@@ -2670,7 +2671,7 @@ Please input Sales_item isbn units_sold price:
 * 创建数组不会调用拷贝构造, 会调用默认构造函数
 * 有析构函数, 就要有copy拷贝构造和operate=操作符重载(配合避免浅拷贝问题, new和delete是一对,必须同时出现)
 
-<a id="72-智能指针auto_ptrshared_ptrunique_ptrweak_ptr"></a>
+<a id="72-智能指针autoptrshared_ptrunique_ptrweakptr"></a>
 #### 72. 智能指针auto_ptr/shared_ptr/unique_ptr/weak_ptr
 * 智能指针: 当引用计数器为0时,自动释放内存地址空间, 避免野指针
 * 智能指针的作用: 当不想进行类对象深copy拷贝时, 又想避免浅拷贝的野指针危险时, 可以使用智能指针shared_ptr(当引用计数器为0时,才会自动释放)

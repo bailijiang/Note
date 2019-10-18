@@ -7,7 +7,7 @@
 - [5. stack queue](#5-stack-queue)
 - [6. list 链表](#6-list-链表)
 - [7. set/multiset 二叉树/红黑树](#7-setmultiset-二叉树红黑树)
-- [8. pair:  lower_bound / upper_bound / equal_range](#8-pair-lower_bound--upper_bound--equal_range)
+- [8. pair:  lower_bound / upper_bound / equal_range](#8-pair-lowerbound--upper_bound--equalrange)
 - [9. map/multimap](#9-mapmultimap)
 - [10. vector multimap 员工分组练习](#10-vector-multimap-员工分组练习)
 - [11. 容器中对象的浅拷贝问题](#11-容器中对象的浅拷贝问题)
@@ -40,24 +40,24 @@
 - [38. max/min计算最大最小值](#38-maxmin计算最大最小值)
 - [39. search_n查找算法](#39-search_n查找算法)
 - [40. search/find_end在容器中查找另一个容器](#40-searchfind_end在容器中查找另一个容器)
-- [41. 用find_first_of在ivec中查找searchList中的任一个对象](#41-用find_first_of在ivec中查找searchlist中的任一个对象)
+- [41. 用find_first_of在ivec中查找searchList中的任一个对象](#41-用findfirstof在ivec中查找searchlist中的任一个对象)
 - [42. adjacent_find查找2个连续的](#42-adjacent_find查找2个连续的)
 - [43. 对已序区间进行查找binary_search/includes](#43-对已序区间进行查找binary_searchincludes)
-- [44. lower_bound/upper_bound/equal_range 查找算法应用于顺序容器](#44-lower_boundupper_boundequal_range-查找算法应用于顺序容器)
+- [44. lower_bound/upper_bound/equal_range 查找算法应用于顺序容器](#44-lowerboundupper_boundequalrange-查找算法应用于顺序容器)
 - [45. for_each算法使用](#45-for_each算法使用)
 - [46. 区间\(容器\)比较equal/mismatch/lexicographical_compare](#46-区间容器比较equalmismatchlexicographical_compare)
 - [47. 复制元素copy/copy_backward算法](#47-复制元素copycopy_backward算法)
 - [48. transform变换算法使用](#48-transform变换算法使用)
 - [49. for_each与transform的比较](#49-for_each与transform的比较)
 - [50. swap_ranges/swap算法使用](#50-swap_rangesswap算法使用)
-- [51. fill/fill_n/generate/generate_n填充算法](#51-fillfill_ngenerategenerate_n填充算法)
-- [52. replace/replace_if/replace_copy/replace_copy_if替换算法的使用](#52-replacereplace_ifreplace_copyreplace_copy_if替换算法的使用)
+- [51. fill/fill_n/generate/generate_n填充算法](#51-fillfillngenerategeneraten填充算法)
+- [52. replace/replace_if/replace_copy/replace_copy_if替换算法的使用](#52-replacereplaceifreplace_copyreplace_copyif替换算法的使用)
 - [53. 删除算法使用](#53-删除算法使用)
 - [54. reverse/rotate旋转算法](#54-reverserotate旋转算法)
-- [55. next_permutation/prev_permutation排列组合算法](#55-next_permutationprev_permutation排列组合算法)
+- [55. next_permutation/prev_permutation排列组合算法](#55-nextpermutationprevpermutation排列组合算法)
 - [56. 重排random_shuffle,分区partition算法](#56-重排random_shuffle分区partition算法)
 - [57. 排序算法sort/stable_sort](#57-排序算法sortstable_sort)
-- [58. 局部排序partial_sort/partial_sort_copy](#58-局部排序partial_sortpartial_sort_copy)
+- [58. 局部排序partial_sort/partial_sort_copy](#58-局部排序partialsortpartial_sortcopy)
 - [59. 取容器中第n大/小个元素排序算法nth_element](#59-取容器中第n大小个元素排序算法nth_element)
 - [60. 堆排序算法Heap](#60-堆排序算法heap)
 
@@ -383,7 +383,7 @@ int main()
 }
 ```
 
-<a id="8-pair-lower_bound--upper_bound--equal_range"></a>
+<a id="8-pair-lowerbound--upper_bound--equalrange"></a>
 #### 8. pair:  lower_bound / upper_bound / equal_range
 * lower_bound: 包括  ]
 * upper_bound: 不包括  (
@@ -781,8 +781,42 @@ int main()
     return 0;
 }
 ```
+* 二元谓词:
+```
+//二元谓词: MyCompare sort(...)
 
+void current(int &v)
+{
+  cout << v << " ";
+}
 
+bool MyCompare(const int &a, const int &b)
+{
+  return a < b;
+}
+
+void main()
+{
+  vector<int> v(10);
+  for (int i=0; i<10; i++)
+  {
+    v[i] = rand() % 100;
+  }
+  
+  for_each(v.begin(), v.end(), current);
+  printf("\n"); 
+  
+  sort(v.begin(), v.end(), MyCompare);
+  printf("\n"); 
+  
+  for (int i=0; i<10; ++i)
+  {
+      printf("%d ", v[i]);
+  }               
+  printf("\n");
+
+}
+```
 
 <a id="14-class匿名对象"></a>
 #### 14. class匿名对象
@@ -929,7 +963,7 @@ void test_not() {
     }
 
     vector<int>::iterator pos;
-    pos = find_if(v.begin(), v.end(), not1(MyCompare()));
+    pos = find_if(v.begin(), v.end(), not1(MyCompare())); // >= 5
     if (pos != v.end()) {
         cout << "found: " << *pos << endl;
     }
@@ -939,7 +973,7 @@ void test_not() {
     }
 
     cout << "---sort---" << endl;
-    sort(v.begin(), v.end(), not2(greater<int>()));
+    sort(v.begin(), v.end(), not2(greater<int>())); // <= 升序
     for each (int val in v)
     {
         cout << val << " ";
@@ -2224,7 +2258,7 @@ int main(int argc, char *argv[])
 
 ```
 
-<a id="41-用find_first_of在ivec中查找searchlist中的任一个对象"></a>
+<a id="41-用findfirstof在ivec中查找searchlist中的任一个对象"></a>
 #### 41. 用find_first_of在ivec中查找searchList中的任一个对象
 * 不存在find_last_of,需要用find_first_of加上逆向迭代器才能实现
 ```
@@ -2380,7 +2414,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-<a id="44-lower_boundupper_boundequal_range-查找算法应用于顺序容器"></a>
+<a id="44-lowerboundupper_boundequalrange-查找算法应用于顺序容器"></a>
 #### 44. lower_bound/upper_bound/equal_range 查找算法应用于顺序容器
 * lower_bound: 最先匹配
 * upper_bound: 最后匹配
@@ -3159,7 +3193,7 @@ ideq: 1 2 3 4 5 6 7 8 9 20 21 22 23
 请按任意键继续. . .
 ```
 
-<a id="51-fillfill_ngenerategenerate_n填充算法"></a>
+<a id="51-fillfillngenerategeneraten填充算法"></a>
 #### 51. fill/fill_n/generate/generate_n填充算法
 ```
 int main(int argc, char *argv[])
@@ -3200,7 +3234,7 @@ hello hello hello hello hello hello hello hello hello
 请按任意键继续. . .
 ```
 
-<a id="52-replacereplace_ifreplace_copyreplace_copy_if替换算法的使用"></a>
+<a id="52-replacereplaceifreplace_copyreplace_copyif替换算法的使用"></a>
 #### 52. replace/replace_if/replace_copy/replace_copy_if替换算法的使用
 
 ```
@@ -3454,7 +3488,7 @@ result:
 4 5 6 7 8 9 1 2 3 请按任意键继续. . .
 ```
 
-<a id="55-next_permutationprev_permutation排列组合算法"></a>
+<a id="55-nextpermutationprevpermutation排列组合算法"></a>
 #### 55. next_permutation/prev_permutation排列组合算法
 * 要先排序, 从小到大用next_permutation, 从大到小用prev_permutation
 * next_permutation返回值为true代表还有下一个排列组合, false代表没有下一个排列组合
@@ -3625,7 +3659,7 @@ sorted + stable_sorted:
 请按任意键继续. . .
 ```
 
-<a id="58-局部排序partial_sortpartial_sort_copy"></a>
+<a id="58-局部排序partialsortpartial_sortcopy"></a>
 #### 58. 局部排序partial_sort/partial_sort_copy
 
 ```

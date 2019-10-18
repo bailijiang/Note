@@ -1,22 +1,34 @@
 ﻿#L1: a puma at large
 ##复杂句Complex(从句): 通过连接词判断主从句之间的关系
 ##被动语态: 表达事实的客观性
-I had been cheated 20000 yuan for my house decorating.
+I had been cheated 20,000 yuan for my house decorating.
 These people's brain had been eaten by zombies.
 ##cling clung clung: 抓住 / 粘在(客观) / 固执坚持(主观)
 His wet shirt clung to his body.
 They're clinging to the past.
 
+* ... where/when sb doing... did...
+The investigation by police began in an office where a worker cleaning it fond a corpse under the table.
+
+* It is disturbing to think that...
+It is disturbing to think that a young boy suicided by jumping off a building.
+
 #L2: Thirteen equals one
-##现在进行时, 一般现在时表示习惯性动作 always,constantly,continually,frequently, ever,never,forever,hardly,often,rarely,repeatedly...
+##现在进行时 和 一般现在时 可以表示习惯性动作 always,constantly,continually,frequently, ever,never,forever,hardly,often,rarely,repeatedly...
 I'm always hearing strange stories about him.
-My mouth is always inflaming when I study at home.
+I often have mouth ulcers when I study at home.
 They always stay up until midnight.
-Chinese is always smoke all day.
+Many people of this country is always smoke all day.
+He never exercises since I knew him.
+They argue continually about money.
+
+* whom
+The car in my way whom I recognized as my neighbor's.
+She was wearing the coat whom I recognized as mine.
 
 #L3: An unknown goddess
 ##must have done : ...一定是...(对过去某事的推测)
-Where can mum have put my headset? She must have lost it at the Airport.
+Where could my mom put my headphones? She must have lost it at the Airport.
 Look at this, my house's lock must have cracked by a thief.
 
 #L4: The double life of Alfred Bloggs
@@ -293,7 +305,7 @@ The air in Beijing is so dirty that I cannot play basketball outside.
 
 * alike: 同样的
   ... A and B alike.
-The most of Chinese and pig alike.
+Most of the people in this country and pig alike.
 
 * introduce: 
   introduce sb: 介绍某人
@@ -307,7 +319,7 @@ I locked myself in my room for six hours on end.
 It have been raining for two days on end.
 
 * ...be the case... : ...(情况)如此...
-China looks like strong, but that's simply not the case.
+This country looks strong, but that's simply not the case.
 
 * look on: 旁观
 It is usually in China when an old man falls to the ground everybody just looks on.
@@ -379,7 +391,7 @@ The ceremony will take place in the church.
 
 * destory: 彻底毁坏
   ruin: 毁了(但不彻底)
-China was destroyed by nuclear.
+Japan was almost destroyed by nuclear.
 The rain ruined my holiday.
 
 * sb's hair stands on end: 某人毛骨悚然
@@ -447,7 +459,7 @@ Whenever I told him what to do, he does precisely the opposite.
 
 * ... in the same way that ... : ...就像...一样
   比较两个从句的相同之处
-The government block youtube and google in the same way that they block the freedom of Chinese people.
+The government block youtube and google in the same way that they block the freedom of the people.
 
 * lead:
 I wish I lead the life I lead without others disturb.
@@ -552,7 +564,6 @@ I was under the impression that he is a good man.
   of value / of great interest / of use / of help
 The things which everybody does is nothing of value.
 I hope the information will be of some help to you. (of some help = helpful)
-
 
 #L33: A day to remember
 * choose to...: (故意)找...
@@ -961,7 +972,7 @@ I must have applied myself to learn English.
 He immediately applied himself to the investigation.
 
 * jump about: 跳来跳去
- I've been jumping about the file instead of working straight through it.
+I've been jumping about the file instead of working straight through it.
 
 #L51: Predicting the future
 ##could / would / what 用法

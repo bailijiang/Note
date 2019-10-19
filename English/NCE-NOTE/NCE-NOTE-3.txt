@@ -27,7 +27,14 @@ The car in my way whom I recognized as my neighbor's.
 She was wearing the coat whom I recognized as mine.
 
 #L3: An unknown goddess
-##must have done : ...一定是...(对过去某事的推测)
+##被动语态:
+  - was/were done
+  - has/have/had been done
+  - must have been done
+Those cheeses were bought for making a cake.
+I wonder why those cheeses still have not been sent to my home and I guess they must have been delayed by the express. 
+
+* must have done : ...一定是...(对过去某事的推测)
 Where could my mom put my headphones? She must have lost it at the Airport.
 Look at this, my house's lock must have cracked by a thief.
 
@@ -43,8 +50,8 @@ Have you passed your driving test yet?
 
 ##现在完成进行时 have/has been doing
 I'm very tired, I've been working all day.
-I've been singing for five years.
-I've been eating an apple every morning for ten years.
+I've been keeping to sing for five years.
+I've been keeping to eat an apple every morning for ten years.
 
 #L5: The facts
 ##过去完成时的被动语态: had been done 

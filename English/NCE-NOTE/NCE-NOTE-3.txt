@@ -55,15 +55,25 @@ I've been keeping to eat an apple every morning for ten years.
 
 #L5: The facts
 ##过去完成时的被动语态: had been done 
-I had been instructed of fitness by a personal trainer.
+I had been instructed on fitness by a personal trainer in a gym.
 The prisoner had been released last year.
-Those people having a dream in this country had at last been changed.
+Under the pressure of life, those people with dreams had at last been forced to give up.
 Not only had he been arrested, but he had been executed.
+
+He had at last been allowed to telephone his parents informing that he had been arrested by stealing money.
+Not only had she not been convinced by the police, but she had been irritated at all.
+This project had originally been considered to have great development.
 
 #L6: Smash-and-grab
 ##过去进行时 were/was doing
 It was raining this time last evening.
 I was learning software development in July last year.
+He was helping himself to buy a car without his parents permitting.
+The raid was all over (lasting) in ten minutes until the robbers scrambled back into the car and it moved off at a fantastic speed.
+
+* begin doing : 开始做...
+  go doing : 去做...
+When I began learning English this morning, a little bird went flying to my window.
 
 #L7: Mutilated ladies
 * ever

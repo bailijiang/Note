@@ -95,6 +95,7 @@ Cats love to chew up fish.
 * whose
 I saw a man shouting at a driver whose car was blocking the street.
 I saw a woman shouting at a man whose car is blocking her's.
+She told me about that guy whose hands had been mutilated by an accident.
 
 * went doing / went to do
 We went swimming last night. (不及物v. go doing)
@@ -103,8 +104,23 @@ I went to see the auto show yesterday. (及物v. go to do...)
 * so long 只要
 I'm so hungry, So long as there's something to eat, I will eat.
 
+* claim  v. / n.
+He claimed that it was all a conspiracy against him.
+The product claims that it can make you thin without dieting.
+They claim that this country enjoys democracy, freedom, and civilization.
+They made claims they couldn't live up to.
+
+* got 有/获得/必须(口语)
+I've got a coat just like this.
+Have you got any ideas?
+When she has succeeded in the interview, she has got confidence immediately.
+See, you got to work very hard.
+got home
+got back
+We'll do what we got to do.
+
 #L8: A famous monastery
-* Now that 既然...
+* Now that 既然/由于...
 Now that it has been raining, we don't go out.
 
 * prefer... to... for...

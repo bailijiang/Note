@@ -184,12 +184,35 @@ I'm still learning English even if I'm forty years old.
 This car is not only the fastest car that had ever been built but was regarded as the coolest, for it has been a concept car, even if you have a lot of money, you can't buy it.
 
 #L11: Not guilty
+##副词的用法: really/recently/particularly/clearly/confidently/carefully/suddenly/sarcastically/encouragingly
+'Please get out my way, I'm in a hurry', I claimed encouragingly
+A particularly officious neighbor is clearly annoying.
+'You did a good job, eh?' he said sarcastically.
+
+##形容词的用法: guilty/tolerant/hardened/officious/dreadful/exempt/precious
+I feel so guilty, leaving all this to you.
+They need to be tolerant of different points of view.
+A hardened engineer. 
+The hardened politicians.
+What dreadful weather!
+Men in college were exempt from military service.
+Children under two years are exempt.
+The interest is exempt from income tax.
+Children are exempt from the charges.
+
+* hurry v. : 匆忙走(做)...
+        n. : in a hurry, no hurry
+If we hurry, we'll get there in time.
+I hate having to hurry for a meal.
+Sorry, I can’t stop, I’m in a hurry.
+Pay me back whenever you can. There’s no great hurry.
+
 * On the one hand..., but on the other hand...
 On the one hand, I want to find a job quickly, but on the other hand, I need to finish my English courses.
 
-* sb have/has  sth  done: 某人使某人/物做某事
+* sb have/has  sth/sb  done: 某人使 某人/物 做某事(怎么样)
 I have my hair cut.
-He wants to have you died.
+This policy has the residents of this district lived is worse.
 They have all the people of this country changed to fools.
 
 * should have done: 本应该...
@@ -206,6 +229,21 @@ I wish I could find a good job next month.
 * either... or... : 不是...就是...
 I go to Shunyi either by subway or by bus.
 I exercise every day either jogging or play basketball.
+
+* exceptional adj. 特别的
+There is nothing exceptional about this case.
+
+* wretched adj. 可怜的
+The kindness people are wretched in this country.
+
+* genuinely adv. 真正地/由衷地
+The election result was genuinely democratic.
+She was genuinely sorry.
+I genuinely thank the people who had really helped me.
+
+* take, put 
+I'm going to take my car to the office tomorrow.
+As I put it 'There are no good people here'.
 
 #L13: 'It's only me'
 ##副词从句的省略形式(主语一致): 现在分词 doing

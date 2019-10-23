@@ -27,7 +27,14 @@ The car in my way whom I recognized as my neighbor's.
 She was wearing the coat whom I recognized as mine.
 
 #L3: An unknown goddess
-##must have done : ...一定是...(对过去某事的推测)
+##被动语态:
+  - was/were done
+  - has/have/had been done
+  - must have been done
+Those cheeses were bought for making a cake.
+I wonder why those cheeses still have not been sent to my home and I guess they must have been delayed by the express. 
+
+* must have done : ...一定是...(对过去某事的推测)
 Where could my mom put my headphones? She must have lost it at the Airport.
 Look at this, my house's lock must have cracked by a thief.
 
@@ -43,20 +50,30 @@ Have you passed your driving test yet?
 
 ##现在完成进行时 have/has been doing
 I'm very tired, I've been working all day.
-I've been singing for five years.
-I've been eating an apple every morning for ten years.
+I've been keeping to sing for five years.
+I've been keeping to eat an apple every morning for ten years.
 
 #L5: The facts
 ##过去完成时的被动语态: had been done 
-I had been instructed of fitness by a personal trainer.
+I had been instructed on fitness by a personal trainer in a gym.
 The prisoner had been released last year.
-Those people having a dream in this country had at last been changed.
+Under the pressure of life, those people with dreams had at last been forced to give up.
 Not only had he been arrested, but he had been executed.
+
+He had at last been allowed to telephone his parents informing that he had been arrested by stealing money.
+Not only had she not been convinced by the police, but she had been irritated at all.
+This project had originally been considered to have great development.
 
 #L6: Smash-and-grab
 ##过去进行时 were/was doing
 It was raining this time last evening.
 I was learning software development in July last year.
+He was helping himself to buy a car without his parents permitting.
+The raid was all over (lasting) in ten minutes until the robbers scrambled back into the car and it moved off at a fantastic speed.
+
+* begin doing : 开始做...
+  go doing : 去做...
+When I began learning English this morning, a little bird went flying to my window.
 
 #L7: Mutilated ladies
 * ever
@@ -78,6 +95,7 @@ Cats love to chew up fish.
 * whose
 I saw a man shouting at a driver whose car was blocking the street.
 I saw a woman shouting at a man whose car is blocking her's.
+She told me about that guy whose hands had been mutilated by an accident.
 
 * went doing / went to do
 We went swimming last night. (不及物v. go doing)
@@ -86,8 +104,23 @@ I went to see the auto show yesterday. (及物v. go to do...)
 * so long 只要
 I'm so hungry, So long as there's something to eat, I will eat.
 
+* claim  v. / n.
+He claimed that it was all a conspiracy against him.
+The product claims that it can make you thin without dieting.
+They claim that this country enjoys democracy, freedom, and civilization.
+They made claims they couldn't live up to.
+
+* got 有/获得/必须(口语)
+I've got a coat just like this.
+Have you got any ideas?
+When she has succeeded in the interview, she has got confidence immediately.
+See, you got to work very hard.
+got home
+got back
+We'll do what we got to do.
+
 #L8: A famous monastery
-* Now that 既然...
+* Now that 既然/由于...
 Now that it has been raining, we don't go out.
 
 * prefer... to... for...
@@ -119,26 +152,67 @@ The more cheap petrol becomes, the more people drive.
 * Ver and Ver: 表示连续不断的变化
   taller and taller
 The weather becomes hotter and hotter.
-Chinese people become worse and worse.
+Most people become worse and worse.
+
+* lead v. : 过着/带着/带领/引领/导致/领导/指挥/通往/从事...  (led,leads,leading)
+A nurse took her arm and led her to a chair.
+The horses were led to safety.
+He walks with a stick but still leads his soldiers into battle.
+The doors that led to the yard.
+He's leading in the presidential race.
+She led a normal, happy life with her sister and brother.
+He warned yesterday that a pay rise for teachers would lead to job cuts.
+A degree in English could lead to a career in journalism.
+
+The tourists were led to the entrance of the park by the tour guide.
+My character leads me to live simply.
+This highway leads to the airport.
+I have led the team to accomplish the project.
+The ability of coding could lead to a career in a programmer.
 
 #L10: The loss of the Titanic
 ##过去完成时 had done
-My life had already been ruined by my father.
+His life had already been ruined by his father.
 These people's conscience had already been eaten by dogs.
 All people's brain had been eaten by zombies.
-The world record of man's 100 meters run had never been broken since 1989. 
+Before yesterday, the world record of man's 100 meters race had never been broken since 1989.  
+She had narrowly caught the flight.
 
 * even if 即使
-I will recite this class even if I'm so tired.
+I will recite this text even if I'm so tired.
 I'm still learning English even if I'm forty years old.
+This car is not only the fastest car that had ever been built but was regarded as the coolest, for it has been a concept car, even if you have a lot of money, you can't buy it.
 
 #L11: Not guilty
+##副词的用法: really/recently/particularly/clearly/confidently/carefully/suddenly/sarcastically/encouragingly
+'Please get out my way, I'm in a hurry', I claimed encouragingly
+A particularly officious neighbor is clearly annoying.
+'You did a good job, eh?' he said sarcastically.
+
+##形容词的用法: guilty/tolerant/hardened/officious/dreadful/exempt/precious
+I feel so guilty, leaving all this to you.
+They need to be tolerant of different points of view.
+A hardened engineer. 
+The hardened politicians.
+What dreadful weather!
+Men in college were exempt from military service.
+Children under two years are exempt.
+The interest is exempt from income tax.
+Children are exempt from the charges.
+
+* hurry v. : 匆忙走(做)...
+        n. : in a hurry, no hurry
+If we hurry, we'll get there in time.
+I hate having to hurry for a meal.
+Sorry, I can’t stop, I’m in a hurry.
+Pay me back whenever you can. There’s no great hurry.
+
 * On the one hand..., but on the other hand...
 On the one hand, I want to find a job quickly, but on the other hand, I need to finish my English courses.
 
-* sb have/has  sth  done: 某人使某人/物做某事
+* sb have/has  sth/sb  done: 某人使 某人/物 做某事(怎么样)
 I have my hair cut.
-He wants to have you died.
+This policy has the residents of this district lived is worse.
 They have all the people of this country changed to fools.
 
 * should have done: 本应该...
@@ -155,6 +229,21 @@ I wish I could find a good job next month.
 * either... or... : 不是...就是...
 I go to Shunyi either by subway or by bus.
 I exercise every day either jogging or play basketball.
+
+* exceptional adj. 特别的
+There is nothing exceptional about this case.
+
+* wretched adj. 可怜的
+The kindness people are wretched in this country.
+
+* genuinely adv. 真正地/由衷地
+The election result was genuinely democratic.
+She was genuinely sorry.
+I genuinely thank the people who had really helped me.
+
+* take, put 
+I'm going to take my car to the office tomorrow.
+As I put it 'There are no good people here'.
 
 #L13: 'It's only me'
 ##副词从句的省略形式(主语一致): 现在分词 doing

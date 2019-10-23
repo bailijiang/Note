@@ -86,7 +86,7 @@
 - [84. 读写锁](#84-读写锁)
 - [85. 生产者消费者-pthread_cond](#85-生产者消费者-pthread_cond)
 - [86. semaphore旗语\(信号量\)](#86-semaphore旗语信号量)
-- [87. 进程间同步pthread_mutexattr_t](#87-进程间同步pthread_mutexattr_t)
+- [87. 进程间同步pthread_mutexattr_t](#87-进程间同步pthreadmutexattrt)
 - [88. 进程间文件锁fcntl/flock](#88-进程间文件锁fcntlflock)
 - [89. 哲学家吃饭问题](#89-哲学家吃饭问题)
 - [90. sem_timedwait](#90-sem_timedwait)
@@ -125,7 +125,7 @@ int main(void)
 }
 ```
 * 文件权限用8进制表示: 0644    0777
-* open O_CREAT 创建的文件权限于当前系统下的 umask 有关: 0777 -> 0775  (mode & ~umask)
+* open O_CREAT 创建的文件权限与当前系统下的 umask 有关: 0777 -> 0775  (mode & ~umask)
 * O_TRUNC : 文件清空
 * open 常见错误:
     - 打开文件不存在 errno: 2
@@ -520,8 +520,8 @@ int main(void)
 #### 15. ext2
 * ![](image\ext2文件系统.PNG)
 * 如何确定一个分区有多少个 BlockGroup: 
-    - BlockBitmap 1k x 8 = 8k bit 个Block
-    - 整个分区s个Block, 那么就有 s/8k 个BlockGoup
+    - BlockBitmap 1KB x 8 = 8k bit 个Block
+    - 整个分区s个Block, 那么就有 s/8k 个BlockGroup
 
 <a id="16-stat"></a>
 #### 16. stat
@@ -4907,7 +4907,7 @@ int main(int argc, char** argv)
 
 ```
 
-<a id="87-进程间同步pthread_mutexattr_t"></a>
+<a id="87-进程间同步pthreadmutexattrt"></a>
 #### 87. 进程间同步pthread_mutexattr_t
 * 进程间同步操作共享区主要用mmap(pipe/fifo是伪文件)
 * 一个共享资源(变量/数组/链表/struct)就有一把对应的锁mutex, 所以可以把锁mutex和锁属性与一个共享数据资源封装到一个struct中

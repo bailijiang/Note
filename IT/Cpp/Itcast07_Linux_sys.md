@@ -1128,7 +1128,7 @@ int main(int argc, char *argv[])
                 break;
             }
         }
-        if (m >= i)
+        if (m >= i) //内层for循环正常退出,不是break的(已经判定为素数的)
             printf("%2d %c", i, (count++) % 10 ? ' ' : '\n');
     } 
     printf("\n");
@@ -1483,6 +1483,7 @@ int main(void)
 <a id="50-通过pipe管道进行进程间通信"></a>
 #### 50. 通过pipe管道进行进程间通信
 * 先创建管道pipe, 再fork()子进程
+* 管道两端可分别用描述字fd[0]以及fd[1]来描述，需要注意的是，管道的两端是固定了任务的。即一端只能用于读，由描述字fd[0]表示，称其为管道读端；另一端则只能用于写，由描述字fd[1]来表示，称其为管道写端。
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -2824,7 +2825,7 @@ int main(int argc, char** argv)
 
     cli_fd = open(username, O_RDONLY|O_NONBLOCK);
 
-    dbuf.protocol = 1;
+    dbuf.protocol = 1; //client init default: login
     strcpy(dbuf.srcname, username);
 
     flag = fcntl(STDIN_FILENO, F_GETFL);
@@ -3030,7 +3031,7 @@ void talk_qq(struct QQ_DATA_INFO *dbuf, record *head)
         strcpy(offline.dstname, dbuf->dstname);
         record sp = search_record(head, dbuf->srcname);
         write(sp->user_fifo_fd, &offline, sizeof(offline));
-    }else
+    }else   // client online, then talk
     {
         write(p->user_fifo_fd, dbuf, sizeof(*dbuf));
     }
@@ -3222,7 +3223,7 @@ cat | cat | cat | cat | wc -l
 ps ajx
 kill -9 -3144
 ```
-* alarm: 每个进程都有且只有一个定时器, 定时发信号, 返回剩余时间, 与进程状态无关, 精度为妙second
+* alarm: 每个进程都有且只有一个定时器, 定时发信号, 返回剩余时间, 与进程状态无关, 精度为秒second
     - 测试系统1秒钟计数次数 alarm.c
 ```
 int main(int argc, char** argv)
@@ -4042,7 +4043,7 @@ clean:
 #include <pthread.h>
 
 
-void *tfn(void *arg)
+void* tfn(void* arg)
 {
     printf("tfn ---- pid: %d  tid: %lu\n", getpid(), pthread_self());
     
@@ -4076,7 +4077,7 @@ int main(int argc, char** argv)
 #include <pthread.h>
 
 
-void *tfn(void *arg)
+void* tfn(void* arg)
 {
     //int i = *((int*)arg);
     int i;
@@ -4135,7 +4136,7 @@ void func(void)
 }
 
 
-void *tfn(void *arg)
+void* tfn(void* arg)
 {
     //int i = *((int*)arg);
     int i;
@@ -4155,11 +4156,9 @@ int main(int argc, char** argv)
     pthread_t tid;
     int i, ret;
 
-
-
     for(i = 0; i < 5; ++i)
     {
-        ret = pthread_create(&tid, NULL, tfn, (void *)i);
+        ret = pthread_create(&tid, NULL, tfn, (void*)i);
         if(ret != 0)
         {
             fprintf(stderr, "pthread create err: %s\n", strerror(ret));
@@ -4185,6 +4184,7 @@ int main(int argc, char** argv)
 
 #include <pthread.h>
 
+//存放:线程执行结果集
 typedef struct
 {
     int var;
@@ -4192,7 +4192,7 @@ typedef struct
 }exit_t;
 
 
-void *tfn(void *arg)
+void* tfn(void* arg)
 {
     exit_t *ret = (exit_t *)arg;
     ret->var = 77;
@@ -4607,7 +4607,7 @@ int main(int argc, char** argv)
 
 <a id="83-线程死锁"></a>
 #### 83. 线程死锁
-* 线程死锁不是一下就能锁住的, 而是trylock一段时间或此处后, 锁如果仍然存在, 才会真正死锁住, 所以在pthread_mutex_destroy前 sleep(3)秒
+* 线程死锁不是一下就能锁住的, 而是trylock一段时间或次数后, 锁如果仍然存在, 才会真正死锁住, 所以在pthread_mutex_destroy前 sleep(3)秒
 ```
 #include <stdio.h>
 #include <stdlib.h>

@@ -251,29 +251,35 @@ As I put it 'There are no good people here'.
 Before playing outside, you must be finished your homework.
 After getting a master's degree, it was a little easier for me to find a job.
 On being interviewed to somebody, you should ask some important questions.
-Since quitting my job, I have been studying hard.
+Since quitting my job, I have been studying hard constantly.
 While injuring some time, you should have a good rest.
 Not wanting to hurt my mum, I did not say it out.
 
 ##逗号后, doing 表伴随:
-Weather is very cool, raining a little outside.
+The weather is very cold, raining a little outside.
 We have had a very good dinner, listening to the gracious music.
 She looks very beautiful, emitting a charming perfume.
 
-* intend to do...: 打算做...
-He intends to cheat her.
-I intend to learn English well.
-
-* 形容词adj. + to do ...
+##形容词adj. + to do ...
 She is easy enough to be cheated.
 I'm glad to hear this.
 It was silly of us to believe you.
 
+* intend to do...: 打算做...
+He intends to cheat her.
+I intend to have my English level promoted.
+
+* would be doing... : 过去将来进行时
+He said he would be taking part in a competition.
+
+* consist of : 由...组成
+The cake I had just made consisted of eggs, flour, and cheese.
+
 #L14: A noble gangster
 ##would rather do... than... (不带to的不定式): 宁可做...而不做...
 They would rather die than surrender.
-I would rather die than accept Chinese culture.
-I would rather lonely than making friend with a mean man.
+I would rather die than accept Asian culture.
+I would rather be alone than talking with you.
 
 #L15: Fifty pence worth of trouble
 * managed to do (努力设法去做...)
@@ -282,16 +288,22 @@ I manage to finish my study plan quickly.
 
 * xx yuan worth of ... : 价值xx元钱的xx
 One hundred yuan worth of beer.
-Five yuan worth of bread.
+Five million pounds worth of the antique.
 
 * ...is a small price to pay... : ...是算不了什么的...
-In China, fifty people died is a small price to pay for freedom.
-In China, air pollution is a small price to pay for rulers.
+In Hongkong, fifty people died is a small price to pay for freedom.
+In Indian, air pollution is a small price to pay for the development of the economy.
 
 * Instead: 本应...却... (表转折)
 I want to finish my English course last month. Instead, I got sick.
 I had wanted to play a game at night, Instead, power cut.
 I had expected her to say 'Yes', but she said 'No' instead.
+
+* find one's way: 找到解决方法
+I wish I can find my way to happiness.
+
+* on one's way: 去...的路上
+On my way to the airport, I encountered heavy traffic and I feel I could not catch the flight.
 
 #L16: Mary had a little lamb
 ##过去完成时被动语态: had been done (...已经被...)
@@ -305,6 +317,7 @@ You had better not be late tomorrow.
 
 * accuse sb of doing
 I accused his son of having thrown a stone to my head.
+I accused him of stealing my money, but he denied taking it.
 * deny doing
 But he denied admitting it.
 * ashamed of doing
@@ -336,11 +349,16 @@ A man called me yesterday, whom he is proved to be a liar in the end.
 * within: 在...里面/内部/内侧
 I should have my English course finished within 2 hours.
 There are full of cheating and hypocrisy within this country's culture.
+We should have the test results back within 24 hours.
+He fell sick and died within a matter of weeks.
 
 * would be doing: 过去将来进行时
   ...would still only be carrying...
 If I have a lot of money, I would be living very well.
 I wish I will be living very happy forever.
+
+* probably adv.
+I guess she has probably arrived at home.
 
 #L18: Electric currents in modern art
 * ...cannot have failed...: 不至于失败...
@@ -355,10 +373,24 @@ There are many beautiful lights suspended from the tree.
 * pieces of: 一些...
 These people are pieces of garbage.
 
+* exhibit n. : 展览品(有复数)
+  exhibition n. : 展览会
+
 #L19: A very dear cat
+##动词,副词,形容词的用法:　
+  - 动词v. :take/got/lead/share/state/fail/instruct/place/leave/make/follow/fear/change/withdraw/keep/astound/consider
+  - 副词adv. : rarely/usually/orderly/immediately/punctually
+  - 形容词adj. : dear/considerable/wealthy/worried
+I lead an orderly life for a great many years.
+I usually take a short walk in the evenings at the park.
+I often drink milk and rarely drink beer.
+I always get up punctually at 6 o'clock.
+The spokesman stated that the company has gone bankrupt.
+I was astounded when she told me what she had done.
+
 * considerable: 相当大/多...
   take considerable interest in...
-Now, I take considerable interest in the robot's AI.
+Now, I recently take considerable interest in the robot's AI.
 She takes considerable interest in learning English.
 
 * lead a ... life: 过着...样的生活
@@ -379,6 +411,12 @@ I was going to marry last year.
 We are within two kilometres of the city centre.
 She is within one meter of me.
 I'm within one kilometer of the cinema.
+
+* during which: 在此期间
+A week before, we had finished this project during which we wrote 50,000 lines of code.
+
+* Over...passed before... : 多久后才...
+Over a year passed before the building was built.
 
 #L21: Daniel Mendoza
 * It was not until... that... : 直到...才...

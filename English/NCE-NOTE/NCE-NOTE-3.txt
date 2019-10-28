@@ -419,10 +419,26 @@ A week before, we had finished this project during which we wrote 50,000 lines o
 Over a year passed before the building was built.
 
 #L21: Daniel Mendoza
-* It was not until... that... : 直到...才...
-It was not until my 35 years old that I understood the meaning that people live.
-* not ... until ... when ...: 直到...才...(强调when之后的)
-I did not understand the meaning that people live until 2014 when I quit my job.
+* adore v. : 崇拜,爱戴
+In my teenage days, I enjoyed tremendous popularity.
+I was adored by girls and boys alike.
+
+* extravagant adj. : 浪费的, 奢侈的
+Would it be too extravagant to buy both?
+Do you want to lead an extravagant lifestyle?
+
+* technically adv. : 严格地/准确地
+They were technically not human beings.
+Technically, the two countries are still at war, as a peace treaty was never signed.
+What you have done is technically illegal.
+
+...之前...不行 ...之后...行了
+* It was not until... that... : ...不/没...直到...才...
+It was not until I'm 35 that I understood the meaning of life.
+It was not until 2018 that I had an opportunity to acquire a job of coding.
+* not ... until ... when ...: ...不/没...直到...才...(强调when之后的)
+I did not understand the meaning of life until 2014 when I quit my job.
+I did not have an opportunity to acquire a job of coding until 2018 when I finished my learning.
 
 * draw up: 制定
 The rules which the authority drew up have the people of this country changed to extremely selfish and hypocrisy.
@@ -432,15 +448,48 @@ The air in Beijing is so dirty that I cannot play basketball outside.
 
 * alike: 同样的
   ... A and B alike.
-Most of the people in this country and pig alike.
+My mother and I are alike in many ways.
+We looked very alike.
 
-* introduce: 
+* introduce v. : 
   introduce sb: 介绍某人
-  introduce sth: 引进某物
+  introduce sth: 引进/推行某物(事)
+He introduced me to a Greek girl at the party.
+The company is introducing a new range of products this year.
+The new law was introduced in 2007.
 I intend to introduce AI in my robot.
 The efficient of produce was obviously promote since introduced the automatic system.
 
 #L22: By heart
+* expect v. : 预计/期待/指望
+We are expecting a rise in food prices this month.
+I'm expecting a rise in house prices next year.
+I am expecting several important letters but nothing has arrived.
+He wasn't expecting our hospitality.
+I do expect to have some time to myself in the evenings.
+I do expect to get a decent job next month.
+
+* proceed v. : 接着做/继续进行
+Work is proceeding slowly.
+The government was determined to proceed with the election.
+The group proceeded with a march they knew would lead to bloodshed.
+I nodded and proceeded up the stairs.
+I will instruct my lawyer to proceed with the preparation of draft contracts.
+I will remember your advice and proceed accordingly.
+She decided not to proceed with the treatment.
+I will proceed with English learning and robot development.
+
+* falter v. : 结巴/蹒跚/停滞/退缩
+Normal life is at a standstill, and the economy is faltering.
+The economy is showing signs of faltering.
+The boy faltered when the policeman demanded his name.
+They went to falter under enemy fire.
+
+* squint v. : 眯着眼看
+She was squinting through the keyhole.
+The girl squinted at me.
+Anna squinted in the sudden bright sunlight.
+
 * ...run for... on end : ...连续...
 I locked myself in my room for six hours on end.
 It have been raining for two days on end.
@@ -449,7 +498,7 @@ It have been raining for two days on end.
 This country looks strong, but that's simply not the case.
 
 * look on: 旁观
-It is usually in China when an old man falls to the ground everybody just looks on.
+It is usually in America when an old man falls everybody just looks on.
 
 * so...that...
 His speed is so quick that no one can catch him.
@@ -457,7 +506,7 @@ His speed is so quick that no one can catch him.
 * Even though...
 Even though you make great progress in your work, you shouldn't be conceited.
 Even though you failed many times, you shouldn't give up.
-Even though China team was expected to win, they still lose the game.
+Even though the team of Japan was expected to win, they still lose the game.
 
 * proceed to do... : 继续进行...
 After I finished my math course, I proceed to learn English.

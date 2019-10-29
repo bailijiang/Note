@@ -521,15 +521,16 @@ Much to me disgust, he lied to me again.
 ##虚拟语气: 与将来事实相反 
   (if)... would do... : 如果..., 某人/物就将会...
 If I were to have enough money, I would buy myself a computer. 
-If the air of China has been polluting continuously, we would all get cancer.
+If the air of here has been polluting continuously, we would all get cancer.
 If you have still insisted not to study the new technology, you would soon be eliminated.
 
-* What was it about sth that made sb... : 是什么使谁怎么样?
-What was it about Chinese that made them so hypocrisy nowadays.
+* What was it about sth that made sb...? : 关于这些...是什么使...怎么样?
+What was it about this country that made people so hypocrisy nowadays?
+What was it about work that made you feel so excited?
 
 * ... brought up to do...: 养育(raise)
 She was brought up to repect authority. 
-Chinese were brought up to cheat each other and meanwhile, they stick to cheat themselves either.
+These people were brought up to cheat each other and meanwhile, they stick to cheat themselves either.
 
 * despise: 鄙视, 小看
 I lived in a country where the knowledge was despised.
@@ -539,15 +540,25 @@ I don't know why honest people was so despised in this country.
 Does the idea of working abroad appeal to you?(...对你有吸引力吗?)
 Leaving this country to live is so appealing to me.
 
-* happened to be doing...when... : 碰巧做...
+* happened to be doing...when... : 碰巧正在做...
 I happened to be showering when she called me yesterday.
 She happened to leave when I went to see her.
+After a heavy shower, I happened to be walking in the park when I noticed a huge number of snails taking a stroll on some of the trees.
 
 * take possession of (house/car/...) : 占据/拥有...
 These gangsters have taken complete possession of this country for 70 years.
 The gang of drug dealers has taken possession of this house for five years.
+I had taken complete possession of the house.
+
+* fancy v. : 想要
+What do you fancy doing, anyway?
+I just fancied a drink.
+All the girls fancied me.
 
 #L24: A skeleton in the cupboard
+* how adv. : 强调程度
+What I didn't expect was how a seemingly respectable person has some terrible secret which has been concealed from strangers for years.
+
 * conceal from sb: 对谁隐瞒...
 You should not conceal this matter from me.
 
@@ -578,7 +589,7 @@ I was a good three-point shooter once upon a time.
 
 #L25: The Cutty Sark
 * serve as...: 用于...
-The political is served as the oppression of people.
+Politics is usually served as oppressing people.
 
 * ... of its kind : ...是同类中最...
 This is the best wine of its kind.

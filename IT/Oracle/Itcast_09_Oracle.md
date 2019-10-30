@@ -6,20 +6,20 @@
 - [条件判断if...else...](#条件判断ifelse)
 - [分组函数](#分组函数)
 - [多表查询](#多表查询)
-- [__子查询__](#__子查询__)
+- [__子查询__](#_子查询_)
 - [单行/多行子查询](#单行多行子查询)
 - [集合运算](#集合运算)
 - [SQL语言的类型](#sql语言的类型)
-- [__事务__](#__事务__)
+- [__事务__](#_事务_)
 - [创建表](#创建表)
 - [修改表](#修改表)
 - [闪回](#闪回)
-- [__约束__](#__约束__)
+- [__约束__](#_约束_)
 - [视图view](#视图view)
 - [序列](#序列)
 - [索引Index](#索引index)
 - [Pro*C/C++概念](#procc概念)
-- [__Pro*C/C++操作__](#__procc操作__)
+- [__Pro*C/C++操作__](#_procc操作_)
 
 <!-- /MarkdownTOC -->
 
@@ -107,7 +107,7 @@ from emp;
 * GROUP BY:
     - 非组函数列必须出现在GROUP BY 后面(必须明确指定以谁分组)
     - `SELECT deptno,avg(sal) FROM emp GROUP BY deptno;`
-    - GROUP BY ROLLUP():
+    - GROUP BY ROLLUP(): ROLL UP 搭配 GROUP BY 使用，可以为每一个分组返回一个小计行，为所有分组返回一个总计行, 实现分类汇总统计功能
 ```
         Group by  rollup(A ,B,C)
 
@@ -162,7 +162,7 @@ from emp;
     - 伪列: 查则有, 不查则无
     - connect by prior  start with
 
-<a id="__子查询__"></a>
+<a id="_子查询_"></a>
 #### __子查询__
 * 一步不能求解的问题使用子查询
 ```
@@ -317,7 +317,7 @@ WHERE sal > (SELECT sal
     - truncate: 不可回滚rollback
 * DCL: commit, rollback(必须在commit之前使用才有效)
 
-<a id="__事务__"></a>
+<a id="_事务_"></a>
 #### __事务__
 * 多条SQL语句
 * 特点: 要么都成功, 要么都失败
@@ -351,7 +351,7 @@ WHERE sal > (SELECT sal
 * 闪回操作
     - `SQL> flashback table dept to timestamp to_timestamp('2016-09-10 11:00:00','yyyy-mm-dd hh24:mi:ss');`
 
-<a id="__约束__"></a>
+<a id="_约束_"></a>
 #### __约束__
 * 约束的种类: NOT NULL / UNIQUE / PRIMARY KEY / FOREIGN KEY / CHECK
 * 多个约束之间用空格隔开, 不用,号
@@ -479,7 +479,7 @@ WHERE sal > (SELECT sal
         -rm -rf $(C_TARGET) $(C_MIDDLE1) $(C_MIDDLE2) *~ 
 ```
 
-<a id="__procc操作__"></a>
+<a id="_procc操作_"></a>
 #### __Pro*C/C++操作__
 * Connect数据库进行INSERT/UPDATE/DELETE
 ```

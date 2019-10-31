@@ -629,20 +629,28 @@ If you exert the control of your temper, you would make your life better.
 Most of the people are so abnormal that I had to be a hermit.
 
 #L27: Nothing to sell and nothing to buy
-##...be such that... : ...是这样的...(such是that从句的代词)
-The aim of the government is such that they manipulate people through money.
+##...be such that... : ...是这样的...(以至于)...  // such是that从句的代词
+  ...such...that...
+The force of the explosion was such that windows were blown out.
+Such behavior is just not acceptable in this school.
+His behavior was such mean that everyone disliked him.
 
-* In terms of...: 从...方面来讲...(用...来说)
+* In terms of...: 从...方面来讲...(用...来说) / 从...的角度
 In terms of the nation's future, the government should not be a one-party state.
+So think of your priorities not in terms of what activities you do, but when you do them.
 
 * perform: 执行/履行/进行/表演
 The doctor performed the operation yesterday.
 She will be performing at the piano.
+The children perform two plays each school year.
+He had not performed well in his exams.
 This program is performing very stable.
+A complex engine has many separate components, each performing a different function.
 
-* precisely: 准确地/精确地/恰恰/偏偏
+* precisely: 准确地/精确地/恰恰地/偏偏地
 Temperature can be measured precisely.
 Whenever I told him what to do, he does precisely the opposite.
+Nobody knows precisely how many people are still living in the camp.
 
 * ... in the same way that ... : ...就像...一样
   比较两个从句的相同之处
@@ -651,7 +659,25 @@ The government block youtube and google in the same way that they block the free
 * lead:
 I wish I lead the life I lead without others disturb.
 
+* grudge:
+I grudge having to pay so much tax.
+
 #L28: Five pounds too dear
+## speed / approach / examine / bargain / tempt / assail / thrust / inscribe  v.
+The car sped along the road towards the village.
+He sped away on his bike.
+He didn't approach the front door at once.
+When I approached, they grew silent.
+A storm is approaching.
+Each case must be carefully examined.
+He examined her passport and stamped it.
+Workers bargaining for better pay.
+Did you ever feel tempted to cheat?
+Carla was suddenly assailed by doubts.
+He thrust a piece of paper at me.
+She suddenly thrust out her arm.
+Her name was inscribed on the watch.
+
 * sb went to great lengths to prove that ... : 某人竭力...
 I told him that I would go to any lengths to revenge.
 
@@ -664,7 +690,10 @@ He acted like a child.
 He acted as if he had never seen me before.
 He acted as if he is a kind man.
 
-* readily: 很快地, 毫不迟疑地
+* readily: 很快地, 毫不迟疑地, 乐意地
+I asked her if she would allow me to interview her, and she readily agreed.
+Boats are readily available to visitors.
+The information is readily accessible on the Internet.
 I readily made a 3-points.
 I readily launched a nuclear bomb.
 

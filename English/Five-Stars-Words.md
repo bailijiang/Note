@@ -24,6 +24,8 @@
 - [offer](#offer)
 - [expect : 预计/期待/指望](#expect--预计期待指望)
 - [turn : 转身/使转向/转动/拐弯/翻动/变得/开始从事](#turn--转身使转向转动拐弯翻动变得开始从事)
+- [believe](#believe)
+- [claim](#claim)
 
 <!-- /MarkdownTOC -->
 
@@ -129,3 +131,10 @@
 <a id="turn--转身使转向转动拐弯翻动变得开始从事"></a>
 ##turn : 转身/使转向/转动/拐弯/翻动/变得/开始从事
 
+
+<a id="believe"></a>
+##believe
+
+
+<a id="claim"></a>
+##claim

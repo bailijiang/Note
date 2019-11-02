@@ -705,15 +705,16 @@ I would love you forever no matter how you are rich or poor.
 ##find + n. + adj. : 觉得...怎么样...
   find + it + adj. + to do ...
   see/consider/think/feel
-Whether we find our life happy or not largely depends on your parent's ability.
+Whether we find our life happy or not largely depends on your parent's intelligence.
 Many people find this country very distasteful.
 I find these people worse than a beast.
 She found it difficult to make friends because of her natural reserve.
+I found it perfect nice to go to the concert.
 
 * stem (v.): 源于
 All my problems stem from drink.
 Their argument stemmed from a misunderstanding.
-The ignorance of Chinese stemmed from their lazy.
+The ignorance of people stemmed from their lazy.
 
 * chances: 可能性
   chances... good / faint / slight
@@ -725,34 +726,57 @@ I have a good chance that I would find a job next month.
 * certain : 某些
 Certain people have very bad luck.
 
-* along: 参加 (adv. / prep.)
-I would excitedly go along to the party.
+* along: 参加/一起 (adv. / prep.)
+You're welcome to come along if you like.
+I think I'll go along and watch the game.
+I find it excited to go along to the party.
 
 #L30: The Death of a Ghost
 ##believe that / suspect that / suppose to have done / claim to have done  
                                 用 现在完成时的不定式 对过去事情的猜测
+Detectives believe that the victim knew his killer.
+It is believed that the house was built in 1735.
+It was suspected that the drugs had been brought into the country by boat.
+First, we have to suppose that she was out to make money.
+The policy is perfectly clear and I see no reason to suppose that it isn't working.
+We supposed to have solved that problem.
+The girls claim to have seen the fairies.
 
 * none other than... : 不是别人, 正是...
-The worst criminal is none other than this country's president.
+The criminal is none other than the old lady who is my neighbor.
 
 * be supposed to be...: 被认为...
 All the policeman of this country was absolutely supposed to be seen as gangsters.
 
-* quite unaware of the fact that ... : 对...不知道
+* (quite) unaware of the fact that ... : 对...不知道
 He seemed unaware of the trouble he had caused.
 The fool is usually unaware of the fact that they are foolish.
+
+* think it... to do...
+  find it...to do...
+The men usually thought it their duty to make money for their family.
+I found it impossible to buy a luxury car.
 
 #L31: A lovable eccentric
 ##表示否定: 
        -  no / not
        -  never / hardly
        -  rarely / seldom / none / neither / little / few / too...to
-       -  动词表否定: disregard / refuse ...
-*      -  without (= ...that sb is not ...) 连接表示否定从句的简化形式
+       -  动词表否定: disregard / dislike / refuse ...
+       -  without (= ...that sb is not ...) 连接表示否定从句的简化形式
 I disregard social convention without being conscious that I'm doing anything extraordinary.
 The party was organized without her knowing anything about it.
 She had done this without consulting me.
 She read my e-mail without my permit.
+I disliked snobs intensely.
+There's hardly any tea left.
+I hardly know you.
+They hardly make a mistake.
+
+* invariably
+It invariably rains when I go there.
+Their teamwork was invariably good.
+I invariably cook BBQ myself at home using the oven.
 
 * be caught in... : 陷入...(困境)
 I was caught in a traffic jam on my way to the airport.
@@ -781,6 +805,11 @@ I was under the impression that he is a good man.
 The things which everybody does is nothing of value.
 I hope the information will be of some help to you. (of some help = helpful)
 
+* piece v.
+Police are trying to piece together his movements before the murder.
+The detectives tried to piece together the facts.
+I was piecing that contract when you called me.
+
 #L33: A day to remember
 * choose to...: (故意)找...
 You must have chosen to make trouble!
@@ -803,7 +832,7 @@ Sorry to disturb you yet again.
 He made a yet worse mistake.
 
 * was drawing up alongside ... : 正在靠近...
-I am drawing up alongside the first place.
+I am drawing up alongside the first place in the race.
 
 #L34: A happy discovery
 * its: it的所有格

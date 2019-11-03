@@ -812,8 +812,9 @@ I was piecing that contract when you called me.
 
 #L33: A day to remember
 * choose to...: (故意)找...
-You must have chosen to make trouble!
+He must have chosen to ask for trouble!
 It seemed like the weather chooses to make trouble for me.
+I wonder why the boss chose to make trouble for me.
 
 * attend to: 接待,照顾
 He is attending to the customers now.
@@ -824,6 +825,7 @@ You are responsible to attend to the customers.
 His question reduced me to silence.
 The city was reduced to ruins.
 This country will certainly reduce to the colony.
+They were reduced to extreme poverty.
 
 * yet: still 也...
   yet another / again / worse...
@@ -834,12 +836,18 @@ He made a yet worse mistake.
 * was drawing up alongside ... : 正在靠近...
 I am drawing up alongside the first place in the race.
 
+* as if : 好像
+It is as if you like her.
+As if this were not enough to reduce you to upset, your wife arrives, unexpectedly bringing her parents to dinner.
+
 #L34: A happy discovery
 * its: it的所有格
 There is always hope that in its labyrinth of musty, dark, disordered room ...
-  - its 代表的是 hope (...充满希望的迷宫...)
+  - its 代表的是 hope
+  - ...its labyrinth of... : 希望迷宫
 The dog has its own house.
 Turn the box on its side.
+The hotel has its own pool.
 
 * be bother to...: 费事做...
 I cannot be bothered to cook this evening.
@@ -849,6 +857,14 @@ I bend on learning English well.
 
 * by chance: 碰巧, 意外
 I picked up fifty dollars by chance when I was walking in our community yesterday.
+
+* 数字: 
+一万: Ten thousand          10,000 
+百万: One million           1,000,000
+千万: Ten million           10,000,000
+一亿: One hundred million   100,000,000
+十亿: One billion           1,000,000,000
+万亿: One trillion          100,000,000,000
 
 #L35: Justice was done
 * of one's own accord: 自愿地, 自动地

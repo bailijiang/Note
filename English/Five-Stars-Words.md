@@ -26,6 +26,8 @@
 - [turn : 转身/使转向/转动/拐弯/翻动/变得/开始从事](#turn--转身使转向转动拐弯翻动变得开始从事)
 - [believe](#believe)
 - [claim](#claim)
+- [cut](#cut)
+- [remain](#remain)
 
 <!-- /MarkdownTOC -->
 
@@ -138,3 +140,11 @@
 
 <a id="claim"></a>
 ##claim
+
+
+<a id="cut"></a>
+##cut
+
+
+<a id="remain"></a>
+##remain

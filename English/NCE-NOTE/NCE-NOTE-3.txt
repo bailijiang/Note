@@ -867,25 +867,46 @@ I picked up fifty dollars by chance when I was walking in our community yesterda
 万亿: One trillion          100,000,000,000
 
 #L35: Justice was done
-* of one's own accord: 自愿地, 自动地
-I had donated 1,500 RMB of my own accord.
-He donated blood of his own accord.
+##certain adj. : 某些 / 肯定的,有把握的
+  - a certain set of circumstances: 一些特定情况下 
+In a certain set of circumstances has enabled the bug emerged in this program.
+I'm absolutely certain I'm going to make it in the world.
+They are certain to agree.
+I'm absolutely certain that I left the keys in the kitchen.
+I felt certain that I'd passed the test.
 
-* cease to do / doing sth: 
+* v...to act of one's own accord: 自愿地, 自动地
+I had donated 1,500 RMB to act of my own accord.
+He donated blood to act of his own accord.
+
+* cease v. : 停止,消失,终止,不再是 (否定动词)
+  - cease to do / doing sth: 
 Some museums have ceased to charge admission. 
 We must cease dumping waste in the sea.
-
-* a certain set of circumstances: 一些特定情况下
-In a certain set of circumstances has enabled the bug emerged in this program.
+At one o'clock the rain had ceased.
+He never ceases to amaze me.
 
 * blackened: black(adj.) -> blacken(v.) -> blackened(adj.)
   这种变换通常在形容 quality / state 时使用, 使其带有变化性质的形容效果
   如: broadened, brightened, sharpened, weakened ...
+The sun would be brightened gradually in the morning of winter.
+As you get older, your strength would be weakened increasingly.
+
+* enable(v.) to do
+  unable(adj.) to do
+  able(adj.) to do
+I'm admitting that a certain set of circumstances justice has enabled to act of its own accord.
+The software enables you to create your own songs.
+She remained silent, unwilling or unable to say what was in her mind.
+You must be able to speak English for this job.
 
 #L36: A chance in a million
-* how it is/was : why
+##形容词的用法: credulous, improbable, obscure, naive, unacceptable, incredible, close
+
+* how it is/was that... : why (it 是形式主语)
 How is it that you don't know?
 How it was that you missed that shot?
+She explained how it was that she was cheated by her husband.
 
 * be acquaited with sb/sth...: 对...很熟悉(认识了...)
 I'm acquainted with this city.

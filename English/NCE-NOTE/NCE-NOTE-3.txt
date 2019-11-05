@@ -918,6 +918,29 @@ I made my way up the stairs.
 I made my way to success.
 
 #L37: The Westhaven express
+##动词的用法: learn,expect,condition,develop,delay,cancel,dislocate,blame,occur,consult,note,last,board,strike,reflect,hold up,dawdle,dawn on,roar,chug,cover,heard,determine,lodge,borrow,glance,conduct,suspend
+
+He was eager to learn all she could teach him.
+It was only after his death that she learned of his affair with Eddie.
+The situation is developing into a crisis.
+A long-protracted strike dislocated the economy.
+I dislocated my shoulder playing football.
+A third of accidental deaths occur in the home. //əˈkɜːr//
+The explosion occurred at 5.30 a.m.
+If the pain continues, consult your doctor.
+The meeting only lasted (for) a few minutes.
+The ship struck a rock.
+At this point, it suddenly struck me that I was wasting my time.
+We should all give ourselves time to reflect.
+I have reflected upon his suggestion.
+She covered her face with her hands.
+It would not be easy to cover ten miles on that amount of petrol.
+They were hoping to cover 40 miles yesterday.
+A guide conducted us around the museum.
+I decided to conduct an experiment.
+He should learn how to conduct a meeting.
+The union suspended strike action this week.
+
 * too...to...: 太...以至于(不能)...
 He is too smart to solve this math problem.
 She was too clumsy to open the door.
@@ -942,14 +965,16 @@ His jokes didn't strike me as funny.
 * reflected that... : 认为...
 I reflected that those people should die.
 
-* note: 一丝
-There is a not jealousy in his voice.
+* note: n. 一丝
+        v. 意识到
+There is a note jealousy in his voice.
 Her voice had an angry note.
 There is a note smile on her face.
+Suddenly, I noted that the rain had stopped.
 
 #L38: The first calender
-* ...not have to rely...: 不必依赖...
-If you want to live with a soul, you must not have to rely solely on the national network.(必须不能完全依赖...)
+* ...not have to do...: 不必...
+If you don't want to live abroad, you will not have to learn English well.
 
 * shed... light on: 使...显露出来
 Though he is young, he has shed talent light on music.
@@ -963,6 +988,20 @@ a scanty bikini
 
 * the passage of: ...的流逝
 As the passage of time, we all gradually getting old.
+
+* definite adj.
+It's too soon to give a definite answer.
+Can you give me a definite time to finish this job?
+
+* bewilder v.
+He was rather bewildered at seeing her there.
+The driver was bewildered by the conflicting road signs.
+He was bewildered by his daughter’s reaction.
+I was bewildered by your talking about.
+
+* ...have long been done...: ...很久被(一直被)...
+This country has long been manipulated by America.
+It has long been known that the most important things in life are working and loving.
 
 #L39: Nothing to worry about
 * get sb (not)to do sth: 说服某人(不)做某事

@@ -1015,7 +1015,7 @@ I don't like travelling in the least.
 It is not that I am not paying attention to you, I'm simply too busy.
 It was not that I'm not seeing you, I just didn't want to talk to you.
 
-* wonder if/whether... : 不知是否...
+* wonder if/whether... : 想知是否...
 I wondered if I am right to accept this job.
 I was wondering whether you'd like to join us for dinner.
 I was wondering whether she really loves me.
@@ -1038,14 +1038,33 @@ The economy of Hongkong came to a grinding halt because of the riot.
 #L40: Who's who
 * It has never been explained why... : 很难解释...
   why后面是真正的主语
-It has never been explained why the Chinese are so lazy.
+It has never been explained why the people of this country are so lazy.
+
+* specialize(v.) in : 专门做...
+He specialized in criminal law.
+I specialized in learning AI.
+
+* indulge v.
+They went into town to indulge in some serious shopping.
+Only rarely will she indulge in a glass of wine.
+Children have always indulged themselves in video games.
+
+* seem to do : 似乎...
+I seem to see someone going into my house.
+I can't seem to get started today.
+The dinner seems to look so delicious.
+It seems to look like we're going to win the game.
 
 * take sb seriously: 把...当回事
 I never take these people seriously.
 
+* remonstrate v.
+He remonstrated with the referee.
+
 * Only when... did he realize that... : 直到...才...
-  only引导的副词从句放句首,主句要倒装
+  only引导的副词从句放句首,主句要倒装(强调when之后的时间)
 Only when I was forty years old did I find a way to learn English.
+I did not find a way to learn English until I was forty years old.
 
 #L41: Illusions of Pastoral Peace
 * at the mere mention of ... : 一提到...

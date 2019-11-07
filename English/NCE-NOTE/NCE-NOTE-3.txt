@@ -1015,7 +1015,7 @@ I don't like travelling in the least.
 It is not that I am not paying attention to you, I'm simply too busy.
 It was not that I'm not seeing you, I just didn't want to talk to you.
 
-* wonder if/whether... : 想知是否...
+* wonder if/whether... : 想(不)知是否...
 I wondered if I am right to accept this job.
 I was wondering whether you'd like to join us for dinner.
 I was wondering whether she really loves me.
@@ -1067,6 +1067,10 @@ Only when I was forty years old did I find a way to learn English.
 I did not find a way to learn English until I was forty years old.
 
 #L41: Illusions of Pastoral Peace
+* something
+I have always regarded the work as something I live with it.
+I have always regarded reading as something I enjoy on the weekends.
+
 * at the mere mention of ... : 一提到...
 She blushed at the mere mention of his name.
 
@@ -1097,8 +1101,16 @@ Silence descended on the room.
 A feeling of despair descends on us as we realized that we had no choice.
 The white terror descends on this country.
 
+* ... than/when n. that v. ... :
+Few things could be more impressive than the peace that descends on deserted city streets on holidays when the thousands that travel to work every day are tucked away in their homes in the country.
+What a sad when the thousands that only worship the money at all.
+
+* ... run wild when... : ...失控当...
+Two cars run wild when they collide in the race.
+
 #L42: Modern cavemen
-##... might never have been discovered (if)... : 如果...就永远不会被发现
+##省略if的倒装句
+  ... might never have been discovered (if)... : 如果...就永远不会被发现
   与过去事实相反的虚拟语气, 可以省略if, 然后将助动词提前(倒装)
 I might have not been bullied had I left this place earlier.
 You might have not been solved this problem had I not given you hint.

@@ -1176,9 +1176,18 @@ She drew me aside to whisper in my ear.
 He always likes to put the things he has learned into practice.
 
 #L44: Speed and comfort
-* ... n. + of being... : xx就是xx
+## ... n. + of being... : xx就是xx
+   ... n. + of doing...
 I have a habit of being to go to bed early and get up early every day.
 People who smoke have a feature of being to die early than the normal man. 
+You have to find a way of taking your time off the journey.
+
+## for/with 连接从句
+  ... for... : 表原因(时间段)
+  ... with... : 表同时(伴随)
+Learning English by yourself is usually not easy, for you can not communicate with others.
+I went back to my house with my laptop and necessities.
+She walked back to the bus stop, with him following her.
 
 * take one's mind off sth : 把某人的注意力从某事上移开
 The authority needs to take people's mind off the riot.
@@ -1193,7 +1202,7 @@ The authority has only expressed a partial report for the riot.
 Behind many successful men there is, more often than not, a woman who makes this success possible.
 Most of the successful person who, more often than not, can be good at time management.
 
-* assuming that... : 前提是(假设)...
+* assuming that... : 前提是(假设)... // assuming conj. 连词
 Assuming that your application is accepted, are you going to quit the present job?
 Assuming that you have learned English very well, are you going to work abroad? 
 Assuming that she is single, would you pursuit her?

@@ -73,14 +73,14 @@ C++Primer_5th_Note
 int main()
 {
     int a = 100;
-    const int* p;    // high-level const read-only
+    const int* p;    // low-level const read-only
     p = &a;
     //*p = 10;
     printf("a = %d\n", *p);
     int b = 200;
     p = &b;
     printf("b = %d\n", *p);
-    int* const p1 = &a;    // low-level const write
+    int* const p1 = &a;    // high-level const write
     //p1 = &a;
     *p1 = 101;
     printf("a = %d\n", a);

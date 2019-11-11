@@ -1339,7 +1339,14 @@ He'll air his opinions on education whether you want to listen or not.
 I'll air my views on culture whether you want to listen or not.
 
 * in that... : 就在于...
+  in what... : 在...方面
   复合连词, 连接从句
+The local authorities have invariably insisted on one policy, in that they have their people fooled.
+I am quite interested in what you want for your birthday.
+In what aspect did she ask for my help? 
+
+* n. + of ... 连接从句
+I discovered that many cars of a variety of angles parked and straggled in by the road and completely blocked my car.
 
 * while... : 尽管...
 While she always criticized the fickleness of human nature, ...
@@ -1358,9 +1365,23 @@ I opened the television the moment I went home.
 * have a difficult time doing... : 费很大力气去做...
 I have a difficult time trying to learn English.
 
+* found their way there : ...找到了去那里的路
+We finally found us the best way there from home.
+
 #L50: New year resolutions
+* mark v.
+What marked the decline of this country?
+
 * a thousand and one : 许许多多
 As people get older, a thousand and one men would abandon their dream.
+
+* resolve v. : 解决 / 决定
+We must find a way to resolve these problems before it's too late.
+He resolved not to tell her the truth.
+I resolved to find a decent job quickly.
+
+* not... either of these... : 这两种(否定)
+I intended to play basketball and jogging yesterday, but as it was raining all-day provided me with a good excuse for not carrying out either of these sports.
 
 * keep...to oneself: 将...保密
 I'll keep the plan of learning English to myself.
@@ -1371,6 +1392,10 @@ He immediately applied himself to the investigation.
 
 * jump about: 跳来跳去
 I've been jumping about the file instead of working straight through it.
+
+* fend off : 抵挡 / 避开
+He raised his hand to fend off the blow.
+She uses her secretary to fend off unwanted phone calls.
 
 #L51: Predicting the future
 ##could / would / what 用法

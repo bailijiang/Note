@@ -1399,6 +1399,11 @@ She uses her secretary to fend off unwanted phone calls.
 
 #L51: Predicting the future
 ##could / would / what 用法
+  - would be : 会...
+They said they would meet us at 10.30 at the station.
+She said she wouldn't be coming to the library anymore.
+I knew I would be tired the next day.
+It would soon be dark.
 
 * could (not) have done: (不)可能...
   表示主观猜测: 本来(不)可以...
@@ -1415,6 +1420,10 @@ His brother took over from him as the chief executive.
 I've asked my assistant to take over preparing for the conference.
 Cars gradully took over from horses.
 
+* dismiss v. : 解散/解雇/不考虑,不顾
+I dismissed him from my mind.
+Dismissing her fears, she climbed higher.
+
 #L52: Mud is mud 
 ## ... v + to be done ... : 将要被...
    将来时的被动语态
@@ -1422,17 +1431,45 @@ I like to be praised in public.
 The murderer has to be executed tomorrow.
 The people of this country like to be abused and insulted very much.
 
+* delicate adj. : 雅致的,纤细的 / 清淡的,柔和的
+He had delicate hands.
+Young haricot beans have a tender texture and a delicate, subtle flavour.
+The colours are delicate and shimmering.
+
 * a delicate shade of (colour): 一种(...)淡(颜色)
 We choose a delicate colour for our bedroom curtains.
 The wine has a delicate fruity flavour.
 
-* shade: 色度(级别)
+* shade n. : 色度(级别)
 What shade of lipstick do you use?
-Everything is black or white for him; there are no shades of grey.
+Everything is black or white for him, there are no shades of grey.
 There are several shades of meaning in that sentence. 
 
 * put out: 愤怒的 adj.
 The subway of this city makes me considerably put out.
+
+* prompt v. : 促使/推动/引起/鼓励,怂恿
+What prompted you to buy that suit?
+The discovery of the bomb prompted an increase in security.
+What prompted her to be so generous?
+Don't be prompted by anyone to quit your job hastily.
+
+* discreet adj.  discreetly adv.
+He assured her that he would be discreet.
+He was always very discreet about his love affairs.
+
+* clutch v.
+I staggered and had to clutch at a chair for support.
+
+* dispel v.
+Light poured into the hall, dispelling the shadows.
+The sun dispelled the dense fog.
+
+* ... consider it ... to do... : it 为形式宾语, 真正的宾语是 to do...
+I used to consider it a great joke to go to an online shopping mall and buy too many commodities at double eleven.
+
+* How... is quite beyond me. ...真搞不懂
+How these people are so stupid is quite beyond me.
 
 #L53: In the public interest
 * be subject to : 臣服于/受制约  adj.
@@ -1451,6 +1488,9 @@ I vary other people enormously.
 
 * justify: 证明合理 v.
 I cannot justify taking another day off work.
+
+* ascertain v.
+It can be difficult to ascertain the facts.
 
 #L54: Instinct of cleverness?
 ## 动名词 being (名词从句简化)
@@ -1482,6 +1522,9 @@ I felt very cold was to be found the window was opened.
 
 * stand in awe: 肃然起敬
 You cannot help but stand in awe of such a stunning performance.
+
+* contaminate v. : 弄脏 / 污染
+The river was contaminated with waste from the factory.
 
 #L55: From the earth: Greetings!
 ##虚拟语气: 与现在事实相反

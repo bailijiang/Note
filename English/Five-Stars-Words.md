@@ -28,6 +28,7 @@
 - [claim](#claim)
 - [cut](#cut)
 - [remain](#remain)
+- [beat](#beat)
 
 <!-- /MarkdownTOC -->
 
@@ -148,3 +149,7 @@
 
 <a id="remain"></a>
 ##remain
+
+
+<a id="beat"></a>
+##beat

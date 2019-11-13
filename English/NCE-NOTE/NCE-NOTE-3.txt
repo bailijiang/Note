@@ -1472,6 +1472,21 @@ I used to consider it a great joke to go to an online shopping mall and buy too 
 How these people are so stupid is quite beyond me.
 
 #L53: In the public interest
+* evolve v. : 演化,逐渐形成
+Fish evolved from prehistoric sea creatures.
+The idea evolved from a drawing I discovered in the attic.
+The Chinese political system has evolved over a long period of time.
+
+* adopt v. : 收养 / 采纳
+Sally was adopted when she was four.
+The committee ultimately adopted his suggestions.
+I believe that you should adopt my opinion on this event.
+
+* introduce v. : 介绍 / 推行
+Allow me to introduce a friend to you.
+The Government has introduced a number of other money-saving moves.
+The company is introducing a new range of products this year.
+
 * be subject to : 臣服于/受制约  adj.
 Cars are subject to a high domestic tax.
 Any actions will be subject to the director's permission.
@@ -1484,41 +1499,55 @@ I think his sincerity is open to doubt.
 * vary: 不同 v.
 Personal preference naturally varies.
 Prices can vary enormously.
+Costs are likely to vary depending on where you live.
 I vary other people enormously.
+I can vary the speed at will.
 
 * justify: 证明合理 v.
+  justified adj.
 I cannot justify taking another day off work.
+No argument can justify a war.
+In my opinion, the decision was wholly justified.
+She felt fully justified in asking for her money back.
 
 * ascertain v.
 It can be difficult to ascertain the facts.
 
-#L54: Instinct of cleverness?
+* ... might have done... : 可能会(已经)... (虚拟语气: 与过去事实相反)
+If I hadn't escaped from my home, I might have died miserably.
+
+#L54: Instinct or cleverness?
 ## 动名词 being (名词从句简化)
    prep. + being done : 介词 + 动名词 + 被动语态
-   完整形式(主语不一致时): having been done
+   完整形式(主语不一致时): having been done  (现在完成时的被动语态,连接从句加ing,主从句主语一致时简化为being done)
 I am looking forward to being invited to the party.
 Everybody likes being praised.
 Being laughed in the class makes him angry.
 We wish not being defeated.
 The matter requires being looked into.
-The book is worthy of being read.
+The book is worthy of being read.  /red/
 Those refugees need being transferred.
 Being despised make me feel very angry.
+I enjoy drinking beer in front of the TV after work.
+Though he feels so angry with his boss, he has still to work overtime without being able to do anything about it.
 
 ## 复合句中转折方式的应用
    即使 ... 也不能...
    Being...do nothing to do...
    No matter how much...
+Being angry with those men do nothing to be necessary.
+Knowing that the flaw in the system does nothing to resolve the problem.
+No matter how much you are in a hurry, you must have the patience in being checked.
 
 * against...on/by...: 
 The house against a high mountain by the side of a river.
 
-* sb/sth...Ving...Ving...
+* sb/sth...Ving...Ving... (现在分词连缀)
 Last summer I spent three months learning C/C++ programming helping me to get a good job.
 
 * be to be done: 结果被...
   情态动词, 比could情绪强一些
-I felt very cold was to be found the window was opened.
+I felt very cold, it was to be found the window was opened by someone.
 
 * stand in awe: 肃然起敬
 You cannot help but stand in awe of such a stunning performance.

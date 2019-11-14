@@ -1558,17 +1558,19 @@ The river was contaminated with waste from the factory.
 #L55: From the earth: Greetings!
 ##虚拟语气: 与现在事实相反
            would (not) be (doing/done)
-           would have to do...
+           would have to do... : 将不得不(必须这么做)
 If he were not honest, he would have to be accused.
 If they lost this game, they would have to face the stronger opponent.
 Once I finished English study, I would have to find a job.
 If I were not sick, I would be learning English.
 No man's eye would not be attracted by that kind of beautiful woman. 
+At the oncoming party, I would have to do some cleaning, for I was considered unable to dance or sing.
+You would have to be root to see it all.
 
 ##过去将来时: 
             would do 
             would be doing
-            would have done
+            would have done 
             would have been doing
 I didn't know if he would come.
 He said he could not come because he would be having a meeting. 
@@ -1582,9 +1584,12 @@ I found that I would have to learn English.
   infinitely more...
   larger, brighter and hotter
 The harder you work, the greater progress you will make.
+This car is far too large and that car is far too small for me.
 
 * It is impossible to do... : it为形式主语, 逻辑主语是 to do...
-  ... would make it impossible to do... : it为形式宾语, 逻辑宾语是 to do...
+  ... would make it possible/impossible to do... : it为形式宾语, 逻辑宾语是 to do...
+It is impossible to acquire this job using this method.
+I thought they would make it impossible to win the game.
 
 * blot out: 遮住
 Thick white smoke blotted out the sun.
@@ -1593,10 +1598,13 @@ Clouds blotted out the sun.
 * develop: 生长, 发育, 发展 v.
 The bacteria would develop in our respiratory system.
 
+* be capable of doing... : 能够...
+At present, there is no one who is capable of explaining this phenomenon.
+
 #L56: Our neighbour, the river
 ##虚拟语气: 与过去事实相反
            if had (been) done... would have done  本来...
-I would have got that job if I had been English very well.  
+I would have got that job if I had spoken English very well.  
 
 * stand to lose/gain/win: 处于损失/盈利...的境况中
 Our company stands to lose a lot of money if the deal is unsuccessful.
@@ -1605,16 +1613,31 @@ Our team stands to lose a lot of points if their defends fail.
 
 * hard by: 在...近旁 
 Hard by the school stood a big bookstore.
-My home sited hard by a basketball court.
+My home sited in the downtown hard by a basketball court.
 
 * take turns: 轮流
 We take turns to do the cooking. 
 I'm tired. Do you want to take a turn?
 If you give the wrong answer, you have to miss a turn. 
 
-* unduly: 过分地
+* unduly: 过分地, 过度地, 不正当地
     duly: 恰当地
+She doesn't seem unduly concerned about her exams.
+It didn't trouble me unduly.
 There is no need to be unduly pessimistic about the situation.
+
+* sound adj. 坚固的
+I believe that the house must have been sound foundations.
+
+* overtake v. : 赶上,超过 / 降临
+He pulled out to overtake a truck.
+The tragedy was short to overtake him, however.
+A terrible sense of panic overtook him.
+Soon afterward death overtook him.
+
+* spell v. : 拼写 / 招致
+If the irrigation plan goes ahead, it could spell disaster for the birds.
+The crop failure spelt/spelled disaster for many farmers.
 
 #L57: Back in the old country
 ## but, no(not) 的用法

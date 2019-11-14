@@ -29,6 +29,16 @@
 - [cut](#cut)
 - [remain](#remain)
 - [beat](#beat)
+- [decide](#decide)
+- [call](#call)
+- [act](#act)
+- [deal](#deal)
+- [open](#open)
+- [develop](#develop)
+- [force](#force)
+- [fall](#fall)
+- [feel](#feel-1)
+- [produce](#produce)
 
 <!-- /MarkdownTOC -->
 
@@ -153,3 +163,44 @@
 
 <a id="beat"></a>
 ##beat
+
+
+<a id="decide"></a>
+##decide
+
+
+<a id="call"></a>
+##call
+
+
+<a id="act"></a>
+##act
+
+
+<a id="deal"></a>
+##deal
+
+
+<a id="open"></a>
+##open
+
+
+<a id="develop"></a>
+##develop
+
+
+<a id="force"></a>
+##force
+
+
+<a id="fall"></a>
+##fall
+
+
+<a id="feel-1"></a>
+##feel
+
+
+<a id="produce"></a>
+##produce
+

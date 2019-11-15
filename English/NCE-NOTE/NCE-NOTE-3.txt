@@ -1641,18 +1641,41 @@ The crop failure spelt/spelled disaster for many farmers.
 
 #L57: Back in the old country
 ## but, no(not) 的用法
+I did not think that I should need the map on my way home.
+It was not that I actually remembered anything at all, but I had had an electronic navigation system in my car.
 
 * sb had expected to be... : 本以为...
 I had expected him to say 'Yes', but he said 'No' instead.
 I had expected to finish my English course last month, but I had sick. 
 
+* decide v. : 决定 / 判定,断定
+I decided my girlfriend must be suffering from a bad cold.
+
 * must have done: 必定是...
 The news must have been censored.
 
-* should be doing: 虚拟语气, 表推测
+* should be doing: 虚拟语气, 表推测 (现在)
 I should be seeing a movie at my house.
 They should be working at the office.
 You should be sleeping at your home.
+
+* make sb do... : 要 某人 做... (迫使/强迫)
+Mama made him clean up the plate.
+You can't make me do anything.
+
+* mortally adv. : 致命地
+  mortal adj. 不免一死的
+He regarded the mortally wounded man with no pity in his heart.
+We are all mortal.
+
+* land up : 到达 / 最终成为(落到)
+We landed up in a bar at 3 am.
+By steady effort, she landed up as a famous scholar.
+
+* stumble v.
+He stumbled and almost fell.
+The child stumbled and fell.
+She nearly fell down by stumbling over my stretched leg.
 
 #L58: A spot of bother
 ##间接引语: asked / advised / said / told ...
@@ -1674,15 +1697,57 @@ Traditional religious practices are disppearing in many parts of the world.
 Following my regular practice, I would learn English in the morning.
 
 * might be doing... : 也许正在...
-I decided that she might be sleeping now.
+I guess that she might be sleeping now.
 I think that they might be working overtime.
 
 * must have been done: 必定是被...
-I think that the rebels must have been destroyed.
+I think that the rebels must have been eliminated.
+
+* a scene of : 
+She returned home to find a scene of devastation.
 
 * sort out: 选出,分类
 Sort out any books you want to throw away and give them to me.
 They failed to sort out the computer system's problems.
+
+* composure n.
+She answered with perfect composure.
+
+* hinder v.
+His career has been hindered by injury.
+
+* lurk v.
+She didn't see the figure lurking behind the bushes.
+The thief lurked behind a tree.
+
+* veritable adj.
+The area is a veritable paradise for those who love walking and swimming.
+
+* hoard v.
+They've begun to hoard food and gasoline and save their money.
+
+* toss v.
+She crumpled the letter and tossed it into the fire.
+
+* discard v.
+Read the manufacturer's guidelines before discarding the box.
+Older managers have been discarded in favour of younger people.
+He discarded an old hat and an old pair of shoes.
+
+* ransack v.
+The whole flat had been ransacked.
+The house had been ransacked by burglars.
+
+* thereby adv.
+Our bodies can sweat, thereby losing heat by evaporation.
+Regular exercise strengthens the heart, thereby reducing the risk of heart attack.
+
+* by the next day : 到明天以前
+I suggested that you might not drive by the next day.
+
+* fussy adj.
+Gabby was fussy about her looks.
+She is not fussy about her food.
 
 #L59: Collecting
 ##排比句:描述的是一件事, 并有重复的成分可以省略(并列句描述的是独立事件)

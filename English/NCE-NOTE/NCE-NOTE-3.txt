@@ -1754,11 +1754,14 @@ She is not fussy about her food.
   ..., ..., ..., ...
   ...to..., to..., to...
 No matter how they pretend, they also can not hide their extremely selfish, hypocrisy, shameless, fool, ignorance, confused, low, mean, faithlessness, violence. 
-For leisure hours I like to play basketball, to sing, to read, to swim, to play PCs games.
+For leisure hours I like to play basketball, to sing, to read, to swim, and to play PC games.
+She leaves food in frigs, in drawers, in cupboards and attics for several weeks. 
 
 * have/has a/some bearing on... : 与...有关(受...影响)
-It has direct bearing on the subject.
-It has an important bearing on the relations between China and the United States.
+Experts generally agree that diet has an important bearing on your general health.
+Recent events had no bearing on our decision.
+It has a direct bearing on the subject.
+China has an important bearing on the United States.
 His remark had some/a/no bearing on what happened.
 Many people's bad temper has some bearing on the local culture.
 
@@ -1774,15 +1777,41 @@ I was very sick to such an extent that I can not finish my English course in tim
 
 * save doing... : 省去做...
 If you walk to the office every morning, you'll save spending money on bus fares.
-If you do exercise every day, you'll save spending money to see the doctor.
+If you do exercise every day, you would save spending money to see the doctor.
+
+* indiscriminate adj.
+The indiscriminate use of fertilizers is damaging to the environment.
+
+* mania n.
+He had a mania for fast cars.
+Football mania is sweeping the country.
+
+* verify v.
+A computer program verifies that the system is working.
+I verified the source from which I had that information.
+
+* constructively adv.
+  constructive adj.
+Use your time constructively.
+The meeting was very constructive.
+We welcome any constructive criticism.
+
+* remote adj.
+I live in a remote border town.
+The chances of his surviving are pretty remote.
+
+* confine v.
+The woman will be confined to a mental institution.
+Let's confine our attention to the problem of illegal drugs.
 
 #L60: Too early and too late
 * without : 常用虚拟语气
-Without honest, any country could ever not be became stronger; everything would be in a state of chaos.
-Without health, I could not be achieved my dreams.
+Without honest, any country could ever not become stronger, everything would be in a state of chaos.
+Without health, I could not achieve my dreams.
+Without a master's degree, I could not be employed of this firm.
 
 * It is hard for... : 很难...
-It is hard for foolish to admit his fault.
+It is hard for a fool to admit his fault.
 
 * the + adj. 表示一类人(名词短语)
 the over-punctural,  the unpunctual
@@ -1792,7 +1821,10 @@ the mean
 
 * and 可以嵌套使用: 
   ... 事件A and 事件B(条件1 and 条件2)
-I think that my teeth must have decayed and feeling toothache when I eating and drinking anything.
+I think that my teeth must have decayed and I have been feeling toothache when I eating and drinking anything.
+
+* cut things fine : 卡点儿
+He does always late for work as the fault is cutting things fine.
 
 * draw out/into: 驶出/入
 The cars drew out one by one as the party was over.
@@ -1808,6 +1840,28 @@ Can you tell me whom you were calling to?
 They impressed on their children the virtue of always telling the truth.
 She's always trying to impress upon me how much easier life is if one is organized.
 I always impress upon myself doing the right things rather than the easy things.
+
+* coordinate v.
+They appointed a new manager to coordinate the work of the team.
+We try to coordinate our activities with those of other groups.
+
+* reproach v.
+The manager reproached the new salesgirl for her carelessness.
+
+* puncture v. / n.
+I had a puncture on the way and arrived late.
+She was taken to the hospital with broken ribs and a punctured lung.
+One of the front tires had punctured.
+
+* befall v.  befell befallen
+We prayed that no harm should befall them. 
+Bad luck may befall to anyone at any time.
+What had befallen her?
+
+* adamant adj.
+She begged me to change my mind, but I remained adamant.
+The prime minister is adamant that he will not resign.
+Eva was adamant that she would not come.
 
 
 

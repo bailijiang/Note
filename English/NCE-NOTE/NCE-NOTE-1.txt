@@ -57,6 +57,12 @@ It's green.
 Come upstairs and see it.
 Come and see me.
 
+What style's your new song?
+It's a soft rock.
+Where section's your new house?
+Where is your new house?
+It's Shunyi.
+
 L15: Your passports,please
 Are you ...?
 Are you French?
@@ -69,7 +75,7 @@ What colour are your...?
 Are these your cases?
 Yes, they are.
 What colour are your cases?
-They'ar brown.
+They're brown.
 
 L17: How do you do?
 What are their jobs?

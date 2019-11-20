@@ -199,6 +199,7 @@ There isn't a book on that desk.
 L43: Hurry up!
 Are there any ...? (对可数名词复数提问用 are)
 
+Are there any books?
 Are there any glasses on the table?
 There are some glasses on the table.
 There aren't any glasses on the table.

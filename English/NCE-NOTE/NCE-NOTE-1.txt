@@ -313,6 +313,12 @@ Don't read in bed.
 You mustn't read in bed.
 
 L65: Not a baby
+* mustn't : 不许, 不能...
+* can't/couldn't : 不能(表推测)...
+
+When's your birthday?
+My birthday is on the 16th of June 1979.
+
 come home 回家(强调动作)
 be home   在家(强调状态)
 You mustn't come home late.

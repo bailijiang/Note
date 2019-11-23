@@ -448,7 +448,17 @@ What(When/How/Why) did he(she/you/they) do with it?
 What did you do this afternoon?
 I strolled slowly in the park this afternoon.
 
+* go (went gone)
+The bus went slowly yesterday afternoon and we arrived home late.
+The plane went slowly.
+The ship went fast.
+
 L75: Uncomfortable shoes
+* these/those/like/any 用法
+Do you have any books like these?
+No, we don't have any.
+We have some books like those.
+
 * have -> had
 * ... ago
 Do you have any shoes like these?
@@ -461,6 +471,14 @@ When did you look at a photograph?
 I looked at a photograph an hour ago.
 
 L77: Terrible toothache
+* in + 月份
+  on + 具体日期(包括周几)
+  at + 时间点
+I was born in June.
+I was born in 1979.
+I was born on the 16th of June 1979.
+I was driving at 9 o'clock last night.
+
 Can't you wait till this afternoon? (否定疑问句表肯定，语气更强)
 Can't you keep quiet?
 Can you come at 10 a.m. on Monday, April 24th?
@@ -481,15 +499,18 @@ July 1st
 She spoke to him on July the first.
 
 L79: Carol's shopping list
+* 肯定句: a lot of(lots of), some, a little, little
+  否定句: many(可数), much(不可数), any
+
 * need
 * have got, haven't got
 
-some 一些(用在肯定句中)
-any 一些(用在疑问或否定句中)
+* some 一些(用在肯定句中)
+  any 一些(用在疑问或否定句中)
 
-a lot of 许多(修饰可数或不可数n都可以, 用在肯定句中) = lots of
-many 许多(修饰可数n, 用在疑问或否定句中)
-much 许多(修饰不可数n, 用在疑问或否定句中)
+* a lot of 许多(修饰可数或不可数n都可以, 用在肯定句中) = lots of
+  many 许多(修饰可数n, 用在疑问或否定句中)
+  much 许多(修饰不可数n, 用在疑问或否定句中)
 
 What do we need?
 We need a lot of things.
@@ -514,6 +535,7 @@ We have some cheese.
 We have got some cheese.
 He doesn't have any biscuits.
 He hasn't got any biscuits.
+I haven't got much butter.
 
 Have you got any eggs?
 I need a lot of eggs.
@@ -521,7 +543,7 @@ I haven't got many.
 I must go to the grocer's to get some eggs.
 
 Has he got any jam?
-He needs a lot jam.
+He needs lots of jam.
 He hasn't got much.
 He must go to the grocer's to get some jam.
 

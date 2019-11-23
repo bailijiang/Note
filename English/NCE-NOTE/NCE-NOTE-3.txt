@@ -251,29 +251,35 @@ As I put it 'There are no good people here'.
 Before playing outside, you must be finished your homework.
 After getting a master's degree, it was a little easier for me to find a job.
 On being interviewed to somebody, you should ask some important questions.
-Since quitting my job, I have been studying hard.
+Since quitting my job, I have been studying hard constantly.
 While injuring some time, you should have a good rest.
 Not wanting to hurt my mum, I did not say it out.
 
 ##逗号后, doing 表伴随:
-Weather is very cool, raining a little outside.
+The weather is very cold, raining a little outside.
 We have had a very good dinner, listening to the gracious music.
 She looks very beautiful, emitting a charming perfume.
 
-* intend to do...: 打算做...
-He intends to cheat her.
-I intend to learn English well.
-
-* 形容词adj. + to do ...
+##形容词adj. + to do ...
 She is easy enough to be cheated.
 I'm glad to hear this.
 It was silly of us to believe you.
 
+* intend to do...: 打算做...
+He intends to cheat her.
+I intend to have my English level promoted.
+
+* would be doing... : 过去将来进行时
+He said he would be taking part in a competition.
+
+* consist of : 由...组成
+The cake I had just made consisted of eggs, flour, and cheese.
+
 #L14: A noble gangster
 ##would rather do... than... (不带to的不定式): 宁可做...而不做...
 They would rather die than surrender.
-I would rather die than accept Chinese culture.
-I would rather lonely than making friend with a mean man.
+I would rather die than accept Asian culture.
+I would rather be alone than talking with you.
 
 #L15: Fifty pence worth of trouble
 * managed to do (努力设法去做...)
@@ -282,16 +288,22 @@ I manage to finish my study plan quickly.
 
 * xx yuan worth of ... : 价值xx元钱的xx
 One hundred yuan worth of beer.
-Five yuan worth of bread.
+Five million pounds worth of the antique.
 
 * ...is a small price to pay... : ...是算不了什么的...
-In China, fifty people died is a small price to pay for freedom.
-In China, air pollution is a small price to pay for rulers.
+In Hongkong, fifty people died is a small price to pay for freedom.
+In Indian, air pollution is a small price to pay for the development of the economy.
 
 * Instead: 本应...却... (表转折)
 I want to finish my English course last month. Instead, I got sick.
 I had wanted to play a game at night, Instead, power cut.
 I had expected her to say 'Yes', but she said 'No' instead.
+
+* find one's way: 找到解决方法
+I wish I can find my way to happiness.
+
+* on one's way: 去...的路上
+On my way to the airport, I encountered heavy traffic and I feel I could not catch the flight.
 
 #L16: Mary had a little lamb
 ##过去完成时被动语态: had been done (...已经被...)
@@ -305,6 +317,7 @@ You had better not be late tomorrow.
 
 * accuse sb of doing
 I accused his son of having thrown a stone to my head.
+I accused him of stealing my money, but he denied taking it.
 * deny doing
 But he denied admitting it.
 * ashamed of doing
@@ -336,11 +349,16 @@ A man called me yesterday, whom he is proved to be a liar in the end.
 * within: 在...里面/内部/内侧
 I should have my English course finished within 2 hours.
 There are full of cheating and hypocrisy within this country's culture.
+We should have the test results back within 24 hours.
+He fell sick and died within a matter of weeks.
 
 * would be doing: 过去将来进行时
   ...would still only be carrying...
 If I have a lot of money, I would be living very well.
 I wish I will be living very happy forever.
+
+* probably adv.
+I guess she has probably arrived at home.
 
 #L18: Electric currents in modern art
 * ...cannot have failed...: 不至于失败...
@@ -355,10 +373,24 @@ There are many beautiful lights suspended from the tree.
 * pieces of: 一些...
 These people are pieces of garbage.
 
+* exhibit n. : 展览品(有复数)
+  exhibition n. : 展览会
+
 #L19: A very dear cat
+##动词,副词,形容词的用法:　
+  - 动词v. :take/got/lead/share/state/fail/instruct/place/leave/make/follow/fear/change/withdraw/keep/astound/consider
+  - 副词adv. : rarely/usually/orderly/immediately/punctually
+  - 形容词adj. : dear/considerable/wealthy/worried
+I lead an orderly life for a great many years.
+I usually take a short walk in the evenings at the park.
+I often drink milk and rarely drink beer.
+I always get up punctually at 6 o'clock.
+The spokesman stated that the company has gone bankrupt.
+I was astounded when she told me what she had done.
+
 * considerable: 相当大/多...
   take considerable interest in...
-Now, I take considerable interest in the robot's AI.
+Now, I recently take considerable interest in the robot's AI.
 She takes considerable interest in learning English.
 
 * lead a ... life: 过着...样的生活
@@ -380,11 +412,33 @@ We are within two kilometres of the city centre.
 She is within one meter of me.
 I'm within one kilometer of the cinema.
 
+* during which: 在此期间
+A week before, we had finished this project during which we wrote 50,000 lines of code.
+
+* Over...passed before... : 多久后才...
+Over a year passed before the building was built.
+
 #L21: Daniel Mendoza
-* It was not until... that... : 直到...才...
-It was not until my 35 years old that I understood the meaning that people live.
-* not ... until ... when ...: 直到...才...(强调when之后的)
-I did not understand the meaning that people live until 2014 when I quit my job.
+* adore v. : 崇拜,爱戴
+In my teenage days, I enjoyed tremendous popularity.
+I was adored by girls and boys alike.
+
+* extravagant adj. : 浪费的, 奢侈的
+Would it be too extravagant to buy both?
+Do you want to lead an extravagant lifestyle?
+
+* technically adv. : 严格地/准确地
+They were technically not human beings.
+Technically, the two countries are still at war, as a peace treaty was never signed.
+What you have done is technically illegal.
+
+...之前...不行 ...之后...行了
+* It was not until... that... : ...不/没...直到...才...
+It was not until I'm 35 that I understood the meaning of life.
+It was not until 2018 that I had an opportunity to acquire a job of coding.
+* not ... until ... when ...: ...不/没...直到...才...(强调when之后的)
+I did not understand the meaning of life until 2014 when I quit my job.
+I did not have an opportunity to acquire a job of coding until 2018 when I finished my learning.
 
 * draw up: 制定
 The rules which the authority drew up have the people of this country changed to extremely selfish and hypocrisy.
@@ -394,15 +448,48 @@ The air in Beijing is so dirty that I cannot play basketball outside.
 
 * alike: 同样的
   ... A and B alike.
-Most of the people in this country and pig alike.
+My mother and I are alike in many ways.
+We looked very alike.
 
-* introduce: 
+* introduce v. : 
   introduce sb: 介绍某人
-  introduce sth: 引进某物
+  introduce sth: 引进/推行某物(事)
+He introduced me to a Greek girl at the party.
+The company is introducing a new range of products this year.
+The new law was introduced in 2007.
 I intend to introduce AI in my robot.
 The efficient of produce was obviously promote since introduced the automatic system.
 
 #L22: By heart
+* expect v. : 预计/期待/指望
+We are expecting a rise in food prices this month.
+I'm expecting a rise in house prices next year.
+I am expecting several important letters but nothing has arrived.
+He wasn't expecting our hospitality.
+I do expect to have some time to myself in the evenings.
+I do expect to get a decent job next month.
+
+* proceed v. : 接着做/继续进行
+Work is proceeding slowly.
+The government was determined to proceed with the election.
+The group proceeded with a march they knew would lead to bloodshed.
+I nodded and proceeded up the stairs.
+I will instruct my lawyer to proceed with the preparation of draft contracts.
+I will remember your advice and proceed accordingly.
+She decided not to proceed with the treatment.
+I will proceed with English learning and robot development.
+
+* falter v. : 结巴/蹒跚/停滞/退缩
+Normal life is at a standstill, and the economy is faltering.
+The economy is showing signs of faltering.
+The boy faltered when the policeman demanded his name.
+They went to falter under enemy fire.
+
+* squint v. : 眯着眼看
+She was squinting through the keyhole.
+The girl squinted at me.
+Anna squinted in the sudden bright sunlight.
+
 * ...run for... on end : ...连续...
 I locked myself in my room for six hours on end.
 It have been raining for two days on end.
@@ -411,7 +498,7 @@ It have been raining for two days on end.
 This country looks strong, but that's simply not the case.
 
 * look on: 旁观
-It is usually in China when an old man falls to the ground everybody just looks on.
+It is usually in America when an old man falls everybody just looks on.
 
 * so...that...
 His speed is so quick that no one can catch him.
@@ -419,7 +506,7 @@ His speed is so quick that no one can catch him.
 * Even though...
 Even though you make great progress in your work, you shouldn't be conceited.
 Even though you failed many times, you shouldn't give up.
-Even though China team was expected to win, they still lose the game.
+Even though the team of Japan was expected to win, they still lose the game.
 
 * proceed to do... : 继续进行...
 After I finished my math course, I proceed to learn English.
@@ -434,15 +521,16 @@ Much to me disgust, he lied to me again.
 ##虚拟语气: 与将来事实相反 
   (if)... would do... : 如果..., 某人/物就将会...
 If I were to have enough money, I would buy myself a computer. 
-If the air of China has been polluting continuously, we would all get cancer.
+If the air of here has been polluting continuously, we would all get cancer.
 If you have still insisted not to study the new technology, you would soon be eliminated.
 
-* What was it about sth that made sb... : 是什么使谁怎么样?
-What was it about Chinese that made them so hypocrisy nowadays.
+* What was it about sth that made sb...? : 关于这些...是什么使...怎么样?
+What was it about this country that made people so hypocrisy nowadays?
+What was it about work that made you feel so excited?
 
 * ... brought up to do...: 养育(raise)
 She was brought up to repect authority. 
-Chinese were brought up to cheat each other and meanwhile, they stick to cheat themselves either.
+These people were brought up to cheat each other and meanwhile, they stick to cheat themselves either.
 
 * despise: 鄙视, 小看
 I lived in a country where the knowledge was despised.
@@ -452,15 +540,25 @@ I don't know why honest people was so despised in this country.
 Does the idea of working abroad appeal to you?(...对你有吸引力吗?)
 Leaving this country to live is so appealing to me.
 
-* happened to be doing...when... : 碰巧做...
+* happened to be doing...when... : 碰巧正在做...
 I happened to be showering when she called me yesterday.
 She happened to leave when I went to see her.
+After a heavy shower, I happened to be walking in the park when I noticed a huge number of snails taking a stroll on some of the trees.
 
 * take possession of (house/car/...) : 占据/拥有...
 These gangsters have taken complete possession of this country for 70 years.
 The gang of drug dealers has taken possession of this house for five years.
+I had taken complete possession of the house.
+
+* fancy v. : 想要
+What do you fancy doing, anyway?
+I just fancied a drink.
+All the girls fancied me.
 
 #L24: A skeleton in the cupboard
+* how adv. : 强调程度
+What I didn't expect was how a seemingly respectable person has some terrible secret which has been concealed from strangers for years.
+
 * conceal from sb: 对谁隐瞒...
 You should not conceal this matter from me.
 
@@ -491,7 +589,7 @@ I was a good three-point shooter once upon a time.
 
 #L25: The Cutty Sark
 * serve as...: 用于...
-The political is served as the oppression of people.
+Politics is usually served as oppressing people.
 
 * ... of its kind : ...是同类中最...
 This is the best wine of its kind.
@@ -528,23 +626,31 @@ Much as I may lose the job, I must still finish this project.
 If you exert the control of your temper, you would make your life better.
 
 * It was so ... that ... had to be done ...: xx如此...以至于...不得不...
-Most of the Chinese people are so abnormal that I had to be a hermit.
+Most of the people are so abnormal that I had to be a hermit.
 
 #L27: Nothing to sell and nothing to buy
-##...be such that... : ...是这样的...(such是that从句的代词)
-The aim of the government is such that they manipulate people through money.
+##...be such that... : ...是这样的...(以至于)...  // such是that从句的代词
+  ...such...that...
+The force of the explosion was such that windows were blown out.
+Such behavior is just not acceptable in this school.
+His behavior was such mean that everyone disliked him.
 
-* In terms of...: 从...方面来讲...(用...来说)
+* In terms of...: 从...方面来讲...(用...来说) / 从...的角度
 In terms of the nation's future, the government should not be a one-party state.
+So think of your priorities not in terms of what activities you do, but when you do them.
 
 * perform: 执行/履行/进行/表演
 The doctor performed the operation yesterday.
 She will be performing at the piano.
+The children perform two plays each school year.
+He had not performed well in his exams.
 This program is performing very stable.
+A complex engine has many separate components, each performing a different function.
 
-* precisely: 准确地/精确地/恰恰/偏偏
+* precisely: 准确地/精确地/恰恰地/偏偏地
 Temperature can be measured precisely.
 Whenever I told him what to do, he does precisely the opposite.
+Nobody knows precisely how many people are still living in the camp.
 
 * ... in the same way that ... : ...就像...一样
   比较两个从句的相同之处
@@ -553,7 +659,25 @@ The government block youtube and google in the same way that they block the free
 * lead:
 I wish I lead the life I lead without others disturb.
 
+* grudge:
+I grudge having to pay so much tax.
+
 #L28: Five pounds too dear
+## speed / approach / examine / bargain / tempt / assail / thrust / inscribe  v.
+The car sped along the road towards the village.
+He sped away on his bike.
+He didn't approach the front door at once.
+When I approached, they grew silent.
+A storm is approaching.
+Each case must be carefully examined.
+He examined her passport and stamped it.
+Workers bargaining for better pay.
+Did you ever feel tempted to cheat?
+Carla was suddenly assailed by doubts.
+He thrust a piece of paper at me.
+She suddenly thrust out her arm.
+Her name was inscribed on the watch.
+
 * sb went to great lengths to prove that ... : 某人竭力...
 I told him that I would go to any lengths to revenge.
 
@@ -566,7 +690,10 @@ He acted like a child.
 He acted as if he had never seen me before.
 He acted as if he is a kind man.
 
-* readily: 很快地, 毫不迟疑地
+* readily: 很快地, 毫不迟疑地, 乐意地
+I asked her if she would allow me to interview her, and she readily agreed.
+Boats are readily available to visitors.
+The information is readily accessible on the Internet.
 I readily made a 3-points.
 I readily launched a nuclear bomb.
 
@@ -578,15 +705,16 @@ I would love you forever no matter how you are rich or poor.
 ##find + n. + adj. : 觉得...怎么样...
   find + it + adj. + to do ...
   see/consider/think/feel
-Whether we find our life happy or not largely depends on your parent's ability.
+Whether we find our life happy or not largely depends on your parent's intelligence.
 Many people find this country very distasteful.
 I find these people worse than a beast.
 She found it difficult to make friends because of her natural reserve.
+I found it perfect nice to go to the concert.
 
 * stem (v.): 源于
 All my problems stem from drink.
 Their argument stemmed from a misunderstanding.
-The ignorance of Chinese stemmed from their lazy.
+The ignorance of people stemmed from their lazy.
 
 * chances: 可能性
   chances... good / faint / slight
@@ -598,34 +726,57 @@ I have a good chance that I would find a job next month.
 * certain : 某些
 Certain people have very bad luck.
 
-* along: 参加 (adv. / prep.)
-I would excitedly go along to the party.
+* along: 参加/一起 (adv. / prep.)
+You're welcome to come along if you like.
+I think I'll go along and watch the game.
+I find it excited to go along to the party.
 
 #L30: The Death of a Ghost
 ##believe that / suspect that / suppose to have done / claim to have done  
                                 用 现在完成时的不定式 对过去事情的猜测
+Detectives believe that the victim knew his killer.
+It is believed that the house was built in 1735.
+It was suspected that the drugs had been brought into the country by boat.
+First, we have to suppose that she was out to make money.
+The policy is perfectly clear and I see no reason to suppose that it isn't working.
+We supposed to have solved that problem.
+The girls claim to have seen the fairies.
 
 * none other than... : 不是别人, 正是...
-The worst criminal is none other than this country's president.
+The criminal is none other than the old lady who is my neighbor.
 
 * be supposed to be...: 被认为...
 All the policeman of this country was absolutely supposed to be seen as gangsters.
 
-* quite unaware of the fact that ... : 对...不知道
+* (quite) unaware of the fact that ... : 对...不知道
 He seemed unaware of the trouble he had caused.
 The fool is usually unaware of the fact that they are foolish.
+
+* think it... to do...
+  find it...to do...
+The men usually thought it their duty to make money for their family.
+I found it impossible to buy a luxury car.
 
 #L31: A lovable eccentric
 ##表示否定: 
        -  no / not
        -  never / hardly
        -  rarely / seldom / none / neither / little / few / too...to
-       -  动词表否定: disregard / refuse ...
-*      -  without (= ...that sb is not ...) 连接表示否定从句的简化形式
+       -  动词表否定: disregard / dislike / refuse ...
+       -  without (= ...that sb is not ...) 连接表示否定从句的简化形式
 I disregard social convention without being conscious that I'm doing anything extraordinary.
 The party was organized without her knowing anything about it.
 She had done this without consulting me.
 She read my e-mail without my permit.
+I disliked snobs intensely.
+There's hardly any tea left.
+I hardly know you.
+They hardly make a mistake.
+
+* invariably
+It invariably rains when I go there.
+Their teamwork was invariably good.
+I invariably cook BBQ myself at home using the oven.
 
 * be caught in... : 陷入...(困境)
 I was caught in a traffic jam on my way to the airport.
@@ -654,10 +805,16 @@ I was under the impression that he is a good man.
 The things which everybody does is nothing of value.
 I hope the information will be of some help to you. (of some help = helpful)
 
+* piece v.
+Police are trying to piece together his movements before the murder.
+The detectives tried to piece together the facts.
+I was piecing that contract when you called me.
+
 #L33: A day to remember
 * choose to...: (故意)找...
-You must have chosen to make trouble!
+He must have chosen to ask for trouble!
 It seemed like the weather chooses to make trouble for me.
+I wonder why the boss chose to make trouble for me.
 
 * attend to: 接待,照顾
 He is attending to the customers now.
@@ -668,6 +825,7 @@ You are responsible to attend to the customers.
 His question reduced me to silence.
 The city was reduced to ruins.
 This country will certainly reduce to the colony.
+They were reduced to extreme poverty.
 
 * yet: still 也...
   yet another / again / worse...
@@ -676,14 +834,20 @@ Sorry to disturb you yet again.
 He made a yet worse mistake.
 
 * was drawing up alongside ... : 正在靠近...
-I am drawing up alongside the first place.
+I am drawing up alongside the first place in the race.
+
+* as if : 好像
+It is as if you like her.
+As if this were not enough to reduce you to upset, your wife arrives, unexpectedly bringing her parents to dinner.
 
 #L34: A happy discovery
 * its: it的所有格
 There is always hope that in its labyrinth of musty, dark, disordered room ...
-  - its 代表的是 hope (...充满希望的迷宫...)
+  - its 代表的是 hope
+  - ...its labyrinth of... : 希望迷宫
 The dog has its own house.
 Turn the box on its side.
+The hotel has its own pool.
 
 * be bother to...: 费事做...
 I cannot be bothered to cook this evening.
@@ -694,26 +858,55 @@ I bend on learning English well.
 * by chance: 碰巧, 意外
 I picked up fifty dollars by chance when I was walking in our community yesterday.
 
-#L35: Justice was done
-* of one's own accord: 自愿地, 自动地
-I had donated 1,500 RMB of my own accord.
-He donated blood of his own accord.
+* 数字: 
+一万: Ten thousand          10,000 
+百万: One million           1,000,000
+千万: Ten million           10,000,000
+一亿: One hundred million   100,000,000
+十亿: One billion           1,000,000,000
+万亿: One trillion          100,000,000,000
 
-* cease to do / doing sth: 
+#L35: Justice was done
+##certain adj. : 某些 / 肯定的,有把握的
+  - a certain set of circumstances: 一些特定情况下 
+In a certain set of circumstances has enabled the bug emerged in this program.
+I'm absolutely certain I'm going to make it in the world.
+They are certain to agree.
+I'm absolutely certain that I left the keys in the kitchen.
+I felt certain that I'd passed the test.
+
+* v...to act of one's own accord: 自愿地, 自动地
+I had donated 1,500 RMB to act of my own accord.
+He donated blood to act of his own accord.
+
+* cease v. : 停止,消失,终止,不再是 (否定动词)
+  - cease to do / doing sth: 
 Some museums have ceased to charge admission. 
 We must cease dumping waste in the sea.
-
-* a certain set of circumstances: 一些特定情况下
-In a certain set of circumstances has enabled the bug emerged in this program.
+At one o'clock the rain had ceased.
+He never ceases to amaze me.
 
 * blackened: black(adj.) -> blacken(v.) -> blackened(adj.)
   这种变换通常在形容 quality / state 时使用, 使其带有变化性质的形容效果
   如: broadened, brightened, sharpened, weakened ...
+The sun would be brightened gradually in the morning of winter.
+As you get older, your strength would be weakened increasingly.
+
+* enable(v.) to do
+  unable(adj.) to do
+  able(adj.) to do
+I'm admitting that a certain set of circumstances justice has enabled to act of its own accord.
+The software enables you to create your own songs.
+She remained silent, unwilling or unable to say what was in her mind.
+You must be able to speak English for this job.
 
 #L36: A chance in a million
-* how it is/was : why
+##形容词的用法: credulous, improbable, obscure, naive, unacceptable, incredible, close
+
+* how it is/was that... : why (it 是形式主语)
 How is it that you don't know?
 How it was that you missed that shot?
+She explained how it was that she was cheated by her husband.
 
 * be acquaited with sb/sth...: 对...很熟悉(认识了...)
 I'm acquainted with this city.
@@ -725,6 +918,29 @@ I made my way up the stairs.
 I made my way to success.
 
 #L37: The Westhaven express
+##动词的用法: learn,expect,condition,develop,delay,cancel,dislocate,blame,occur,consult,note,last,board,strike,reflect,hold up,dawdle,dawn on,roar,chug,cover,heard,determine,lodge,borrow,glance,conduct,suspend
+
+He was eager to learn all she could teach him.
+It was only after his death that she learned of his affair with Eddie.
+The situation is developing into a crisis.
+A long-protracted strike dislocated the economy.
+I dislocated my shoulder playing football.
+A third of accidental deaths occur in the home. //əˈkɜːr//
+The explosion occurred at 5.30 a.m.
+If the pain continues, consult your doctor.
+The meeting only lasted (for) a few minutes.
+The ship struck a rock.
+At this point, it suddenly struck me that I was wasting my time.
+We should all give ourselves time to reflect.
+I have reflected upon his suggestion.
+She covered her face with her hands.
+It would not be easy to cover ten miles on that amount of petrol.
+They were hoping to cover 40 miles yesterday.
+A guide conducted us around the museum.
+I decided to conduct an experiment.
+He should learn how to conduct a meeting.
+The union suspended strike action this week.
+
 * too...to...: 太...以至于(不能)...
 He is too smart to solve this math problem.
 She was too clumsy to open the door.
@@ -749,14 +965,16 @@ His jokes didn't strike me as funny.
 * reflected that... : 认为...
 I reflected that those people should die.
 
-* note: 一丝
-There is a not jealousy in his voice.
+* note: n. 一丝
+        v. 意识到
+There is a note jealousy in his voice.
 Her voice had an angry note.
 There is a note smile on her face.
+Suddenly, I noted that the rain had stopped.
 
 #L38: The first calender
-* ...not have to rely...: 不必依赖...
-If you want to live with a soul, you must not have to rely solely on the national network.(必须不能完全依赖...)
+* ...not have to do...: 不必...
+If you don't want to live abroad, you will not have to learn English well.
 
 * shed... light on: 使...显露出来
 Though he is young, he has shed talent light on music.
@@ -771,6 +989,20 @@ a scanty bikini
 * the passage of: ...的流逝
 As the passage of time, we all gradually getting old.
 
+* definite adj.
+It's too soon to give a definite answer.
+Can you give me a definite time to finish this job?
+
+* bewilder v.
+He was rather bewildered at seeing her there.
+The driver was bewildered by the conflicting road signs.
+He was bewildered by his daughter’s reaction.
+I was bewildered by your talking about.
+
+* ...have long been done...: ...很久被(一直被)...
+This country has long been manipulated by America.
+It has long been known that the most important things in life are working and loving.
+
 #L39: Nothing to worry about
 * get sb (not)to do sth: 说服某人(不)做某事
 I tried to get her not to travel to the Hongkong.
@@ -783,7 +1015,7 @@ I don't like travelling in the least.
 It is not that I am not paying attention to you, I'm simply too busy.
 It was not that I'm not seeing you, I just didn't want to talk to you.
 
-* wonder if/whether... : 不知是否...
+* wonder if/whether... : 想(不)知是否...
 I wondered if I am right to accept this job.
 I was wondering whether you'd like to join us for dinner.
 I was wondering whether she really loves me.
@@ -806,16 +1038,39 @@ The economy of Hongkong came to a grinding halt because of the riot.
 #L40: Who's who
 * It has never been explained why... : 很难解释...
   why后面是真正的主语
-It has never been explained why the Chinese are so lazy.
+It has never been explained why the people of this country are so lazy.
+
+* specialize(v.) in : 专门做...
+He specialized in criminal law.
+I specialized in learning AI.
+
+* indulge v.
+They went into town to indulge in some serious shopping.
+Only rarely will she indulge in a glass of wine.
+Children have always indulged themselves in video games.
+
+* seem to do : 似乎...
+I seem to see someone going into my house.
+I can't seem to get started today.
+The dinner seems to look so delicious.
+It seems to look like we're going to win the game.
 
 * take sb seriously: 把...当回事
 I never take these people seriously.
 
+* remonstrate v.
+He remonstrated with the referee.
+
 * Only when... did he realize that... : 直到...才...
-  only引导的副词从句放句首,主句要倒装
+  only引导的副词从句放句首,主句要倒装(强调when之后的时间)
 Only when I was forty years old did I find a way to learn English.
+I did not find a way to learn English until I was forty years old.
 
 #L41: Illusions of Pastoral Peace
+* something
+I have always regarded the work as something I live with it.
+I have always regarded reading as something I enjoy on the weekends.
+
 * at the mere mention of ... : 一提到...
 She blushed at the mere mention of his name.
 
@@ -846,8 +1101,16 @@ Silence descended on the room.
 A feeling of despair descends on us as we realized that we had no choice.
 The white terror descends on this country.
 
+* ... than/when n. that v. ... :
+Few things could be more impressive than the peace that descends on deserted city streets on holidays when the thousands that travel to work every day are tucked away in their homes in the country.
+What a sad when the thousands that only worship the money at all.
+
+* ... run wild when... : ...失控当...
+Two cars run wild when they collide in the race.
+
 #L42: Modern cavemen
-##... might never have been discovered (if)... : 如果...就永远不会被发现
+##省略if的倒装句
+  ... might never have been discovered (if)... : 如果...就永远不会被发现
   与过去事实相反的虚拟语气, 可以省略if, 然后将助动词提前(倒装)
 I might have not been bullied had I left this place earlier.
 You might have not been solved this problem had I not given you hint.
@@ -913,9 +1176,18 @@ She drew me aside to whisper in my ear.
 He always likes to put the things he has learned into practice.
 
 #L44: Speed and comfort
-* ... n. + of being... : xx就是xx
+## ... n. + of being... : xx就是xx
+   ... n. + of doing...
 I have a habit of being to go to bed early and get up early every day.
 People who smoke have a feature of being to die early than the normal man. 
+You have to find a way of taking your time off the journey.
+
+## for/with 连接从句
+  ... for... : 表原因(时间段)
+  ... with... : 表同时(伴随)
+Learning English by yourself is usually not easy, for you can not communicate with others.
+I went back to my house with my laptop and necessities.
+She walked back to the bus stop, with him following her.
 
 * take one's mind off sth : 把某人的注意力从某事上移开
 The authority needs to take people's mind off the riot.
@@ -930,7 +1202,7 @@ The authority has only expressed a partial report for the riot.
 Behind many successful men there is, more often than not, a woman who makes this success possible.
 Most of the successful person who, more often than not, can be good at time management.
 
-* assuming that... : 前提是(假设)...
+* assuming that... : 前提是(假设)... // assuming conj. 连词
 Assuming that your application is accepted, are you going to quit the present job?
 Assuming that you have learned English very well, are you going to work abroad? 
 Assuming that she is single, would you pursuit her?
@@ -944,9 +1216,9 @@ Nobody can match them for lazy and stupid in the world.
   副词可以修饰动词/副词/形容词/名词
 
 * 虚拟语气:　与过去事实相反 If had done...,　would have done
-If my English had quite had good, I would have acquired that job.
+If my English had quite (been) good, I would have acquired that job.
 If my English had quite good, I would have gone abroad.
-I had thought it would have been hard to win.
+Before finishing the game, I had thought it would have been hard to win.
 
 * not only...but (also)...(as well): 不但...而且...
 Domestic cars are not only expensive but the performance is not good. 
@@ -957,6 +1229,12 @@ It is extremely doubtful whether the authority can protect people.
 * ...was to be replaced...: 将被/由(取代)
   was/were to be done
 This country was to be colonized.
+
+* keep pressing for/to... : 不断要求...
+  more pressing : 更为紧迫
+The inhabitants kept pressing to change the law.
+We have kept pressing for our children to be taught in English.
+Finding a decent job is a more pressing task for me.
 
 #L46: Do it yourself
 * go so far as to (do): 甚至要...(竟到了...程度)
@@ -969,10 +1247,18 @@ She is as much a friend to me as a mother.
 They are not so much friends as lovers.
 These people are not so much selfish as mean.
 
+* as much as anything else : 这就是...
+It is a question of pride as much as anything else.
+It is a question of selfish as much as anything else.
+
 *     as...as... : 和...一样...
   not as...as... : 不像...一样...(没有那么...)
 You are as bad as her.
 You are not as bad as her.
+
+* got round to : 抽出时间做...
+I had never got round to learn to compose.
+I had never got round to play games.
 
 * ...rather...than... : 宁愿...也不...(不如...与其...)
 I'd rather sleep than learn.
@@ -985,6 +1271,10 @@ As far as I'm concerned, music is my life.
 * either...or...: 要么...要么...
 Either you would learn English well or to die. 
 
+* embark v. 着手做
+He's embarking on a new career as a writer.
+I'm embarking on working at a new company as a programmer.
+
 #L47: Too high a price?
 * 并列句: ...or...or...
          and / but / so / though
@@ -992,7 +1282,7 @@ Either you would learn English well or to die.
          not only...but (also)...(as well)
          so/such...that...
          : ... , ... , ... ,
-If you want to exercise, you can play basketball or go swimming or running in the park.
+If you want to exercise, you can play basketball or go swimming or jogging in the park.
 
 * 动名词 / 现在分词 / 名词 的区别:
   动名词是名词,但有动词的性质, 及物动词可以接宾语
@@ -1009,16 +1299,35 @@ The guy is to be jerking.
 If the product doesn't work, you are given the choice of a refund or a replacement.
 I have the choice of living in China or America.
 
-#L48: The silent village
-* in the vicinity: 在附近
-There are several hotels in the vicinity of the railway station.
-The price is said to be in the vicinity of $10,000.
-There are countless real estate agents in the vicinity.
+* volume n.
+  - the volume of... : ...的数量
+Can you turn the volume up?
+The volume of traffic on the roads has increased dramatically in recent years.
+The volume of trade in America is incessantly reducing every year.
 
+#L48: The silent village
 * descend on: come 突然出现
 Sorry to descend on you like this, but we have no time to phone.
 The enemy descended on our back.
 An uneasy calm descended on the area.
+
+* dilapidated adj.
+The old house was in a somewhat dilapidated condition.
+
+* straggle v.
+The children were beginning to straggle in from the playground.
+Her hair was straggling over her eyes.
+Her grey hair straggled in wisps about her face.
+
+* vicinity n.
+  - in the vicinity of 在附近
+The stolen car was found in the vicinity of the station.
+There are several hotels in the vicinity of the railway station.
+The price is said to be in the vicinity of $10,000.
+There are countless real estate agents in the vicinity.
+
+* cut off : 隔绝
+The village was cut off by the snow for more than a month.
 
 #L49: The ideal servant
 * 虚拟语气--与现在事实相反: were...would not be...
@@ -1030,7 +1339,14 @@ He'll air his opinions on education whether you want to listen or not.
 I'll air my views on culture whether you want to listen or not.
 
 * in that... : 就在于...
+  in what... : 在...方面
   复合连词, 连接从句
+The local authorities have invariably insisted on one policy, in that they have their people fooled.
+I am quite interested in what you want for your birthday.
+In what aspect did she ask for my help? 
+
+* n. + of ... 连接从句
+I discovered that many cars of a variety of angles parked and straggled in by the road and completely blocked my car.
 
 * while... : 尽管...
 While she always criticized the fickleness of human nature, ...
@@ -1049,9 +1365,23 @@ I opened the television the moment I went home.
 * have a difficult time doing... : 费很大力气去做...
 I have a difficult time trying to learn English.
 
+* found their way there : ...找到了去那里的路
+We finally found us the best way there from home.
+
 #L50: New year resolutions
+* mark v.
+What marked the decline of this country?
+
 * a thousand and one : 许许多多
 As people get older, a thousand and one men would abandon their dream.
+
+* resolve v. : 解决 / 决定
+We must find a way to resolve these problems before it's too late.
+He resolved not to tell her the truth.
+I resolved to find a decent job quickly.
+
+* not... either of these... : 这两种(否定)
+I intended to play basketball and jogging yesterday, but as it was raining all-day provided me with a good excuse for not carrying out either of these sports.
 
 * keep...to oneself: 将...保密
 I'll keep the plan of learning English to myself.
@@ -1063,8 +1393,17 @@ He immediately applied himself to the investigation.
 * jump about: 跳来跳去
 I've been jumping about the file instead of working straight through it.
 
+* fend off : 抵挡 / 避开
+He raised his hand to fend off the blow.
+She uses her secretary to fend off unwanted phone calls.
+
 #L51: Predicting the future
 ##could / would / what 用法
+  - would be : 会...
+They said they would meet us at 10.30 at the station.
+She said she wouldn't be coming to the library anymore.
+I knew I would be tired the next day.
+It would soon be dark.
 
 * could (not) have done: (不)可能...
   表示主观猜测: 本来(不)可以...
@@ -1081,6 +1420,10 @@ His brother took over from him as the chief executive.
 I've asked my assistant to take over preparing for the conference.
 Cars gradully took over from horses.
 
+* dismiss v. : 解散/解雇/不考虑,不顾
+I dismissed him from my mind.
+Dismissing her fears, she climbed higher.
+
 #L52: Mud is mud 
 ## ... v + to be done ... : 将要被...
    将来时的被动语态
@@ -1088,19 +1431,62 @@ I like to be praised in public.
 The murderer has to be executed tomorrow.
 The people of this country like to be abused and insulted very much.
 
+* delicate adj. : 雅致的,纤细的 / 清淡的,柔和的
+He had delicate hands.
+Young haricot beans have a tender texture and a delicate, subtle flavour.
+The colours are delicate and shimmering.
+
 * a delicate shade of (colour): 一种(...)淡(颜色)
 We choose a delicate colour for our bedroom curtains.
 The wine has a delicate fruity flavour.
 
-* shade: 色度(级别)
+* shade n. : 色度(级别)
 What shade of lipstick do you use?
-Everything is black or white for him; there are no shades of grey.
+Everything is black or white for him, there are no shades of grey.
 There are several shades of meaning in that sentence. 
 
 * put out: 愤怒的 adj.
 The subway of this city makes me considerably put out.
 
+* prompt v. : 促使/推动/引起/鼓励,怂恿
+What prompted you to buy that suit?
+The discovery of the bomb prompted an increase in security.
+What prompted her to be so generous?
+Don't be prompted by anyone to quit your job hastily.
+
+* discreet adj.  discreetly adv.
+He assured her that he would be discreet.
+He was always very discreet about his love affairs.
+
+* clutch v.
+I staggered and had to clutch at a chair for support.
+
+* dispel v.
+Light poured into the hall, dispelling the shadows.
+The sun dispelled the dense fog.
+
+* ... consider it ... to do... : it 为形式宾语, 真正的宾语是 to do...
+I used to consider it a great joke to go to an online shopping mall and buy too many commodities at double eleven.
+
+* How... is quite beyond me. ...真搞不懂
+How these people are so stupid is quite beyond me.
+
 #L53: In the public interest
+* evolve v. : 演化,逐渐形成
+Fish evolved from prehistoric sea creatures.
+The idea evolved from a drawing I discovered in the attic.
+The Chinese political system has evolved over a long period of time.
+
+* adopt v. : 收养 / 采纳
+Sally was adopted when she was four.
+The committee ultimately adopted his suggestions.
+I believe that you should adopt my opinion on this event.
+
+* introduce v. : 介绍 / 推行
+Allow me to introduce a friend to you.
+The Government has introduced a number of other money-saving moves.
+The company is introducing a new range of products this year.
+
 * be subject to : 臣服于/受制约  adj.
 Cars are subject to a high domestic tax.
 Any actions will be subject to the director's permission.
@@ -1113,56 +1499,78 @@ I think his sincerity is open to doubt.
 * vary: 不同 v.
 Personal preference naturally varies.
 Prices can vary enormously.
+Costs are likely to vary depending on where you live.
 I vary other people enormously.
+I can vary the speed at will.
 
 * justify: 证明合理 v.
+  justified adj.
 I cannot justify taking another day off work.
+No argument can justify a war.
+In my opinion, the decision was wholly justified.
+She felt fully justified in asking for her money back.
 
-#L54: Instinct of cleverness?
+* ascertain v.
+It can be difficult to ascertain the facts.
+
+* ... might have done... : 可能会(已经)... (虚拟语气: 与过去事实相反)
+If I hadn't escaped from my home, I might have died miserably.
+
+#L54: Instinct or cleverness?
 ## 动名词 being (名词从句简化)
    prep. + being done : 介词 + 动名词 + 被动语态
-   完整形式(主语不一致时): having been done
+   完整形式(主语不一致时): having been done  (现在完成时的被动语态,连接从句加ing,主从句主语一致时简化为being done)
 I am looking forward to being invited to the party.
 Everybody likes being praised.
 Being laughed in the class makes him angry.
 We wish not being defeated.
 The matter requires being looked into.
-The book is worthy of being read.
+The book is worthy of being read.  /red/
 Those refugees need being transferred.
 Being despised make me feel very angry.
+I enjoy drinking beer in front of the TV after work.
+Though he feels so angry with his boss, he has still to work overtime without being able to do anything about it.
 
 ## 复合句中转折方式的应用
    即使 ... 也不能...
    Being...do nothing to do...
    No matter how much...
+Being angry with those men do nothing to be necessary.
+Knowing that the flaw in the system does nothing to resolve the problem.
+No matter how much you are in a hurry, you must have the patience in being checked.
 
 * against...on/by...: 
 The house against a high mountain by the side of a river.
 
-* sb/sth...Ving...Ving...
+* sb/sth...Ving...Ving... (现在分词连缀)
 Last summer I spent three months learning C/C++ programming helping me to get a good job.
 
 * be to be done: 结果被...
   情态动词, 比could情绪强一些
-I felt very cold was to be found the window was opened.
+I felt very cold, it was to be found the window was opened by someone.
 
 * stand in awe: 肃然起敬
 You cannot help but stand in awe of such a stunning performance.
 
+* contaminate v. : 弄脏 / 污染
+The river was contaminated with waste from the factory.
+
 #L55: From the earth: Greetings!
 ##虚拟语气: 与现在事实相反
            would (not) be (doing/done)
-           would have to do...
+           would have to do... : 将不得不(必须这么做)
 If he were not honest, he would have to be accused.
 If they lost this game, they would have to face the stronger opponent.
 Once I finished English study, I would have to find a job.
 If I were not sick, I would be learning English.
 No man's eye would not be attracted by that kind of beautiful woman. 
+At the oncoming party, I would have to do some cleaning, for I was considered unable to dance or sing.
+You would have to be root to see it all.
 
 ##过去将来时: 
             would do 
             would be doing
-            would have done
+            would have done 
             would have been doing
 I didn't know if he would come.
 He said he could not come because he would be having a meeting. 
@@ -1176,9 +1584,12 @@ I found that I would have to learn English.
   infinitely more...
   larger, brighter and hotter
 The harder you work, the greater progress you will make.
+This car is far too large and that car is far too small for me.
 
 * It is impossible to do... : it为形式主语, 逻辑主语是 to do...
-  ... would make it impossible to do... : it为形式宾语, 逻辑宾语是 to do...
+  ... would make it possible/impossible to do... : it为形式宾语, 逻辑宾语是 to do...
+It is impossible to acquire this job using this method.
+I thought they would make it impossible to win the game.
 
 * blot out: 遮住
 Thick white smoke blotted out the sun.
@@ -1187,10 +1598,13 @@ Clouds blotted out the sun.
 * develop: 生长, 发育, 发展 v.
 The bacteria would develop in our respiratory system.
 
+* be capable of doing... : 能够...
+At present, there is no one who is capable of explaining this phenomenon.
+
 #L56: Our neighbour, the river
 ##虚拟语气: 与过去事实相反
            if had (been) done... would have done  本来...
-I would have got that job if I had been English very well.  
+I would have got that job if I had spoken English very well.  
 
 * stand to lose/gain/win: 处于损失/盈利...的境况中
 Our company stands to lose a lot of money if the deal is unsuccessful.
@@ -1199,31 +1613,69 @@ Our team stands to lose a lot of points if their defends fail.
 
 * hard by: 在...近旁 
 Hard by the school stood a big bookstore.
-My home sited hard by a basketball court.
+My home sited in the downtown hard by a basketball court.
 
 * take turns: 轮流
 We take turns to do the cooking. 
 I'm tired. Do you want to take a turn?
 If you give the wrong answer, you have to miss a turn. 
 
-* unduly: 过分地
+* unduly: 过分地, 过度地, 不正当地
     duly: 恰当地
+She doesn't seem unduly concerned about her exams.
+It didn't trouble me unduly.
 There is no need to be unduly pessimistic about the situation.
+
+* sound adj. 坚固的
+I believe that the house must have been sound foundations.
+
+* overtake v. : 赶上,超过 / 降临
+He pulled out to overtake a truck.
+The tragedy was short to overtake him, however.
+A terrible sense of panic overtook him.
+Soon afterward death overtook him.
+
+* spell v. : 拼写 / 招致
+If the irrigation plan goes ahead, it could spell disaster for the birds.
+The crop failure spelt/spelled disaster for many farmers.
 
 #L57: Back in the old country
 ## but, no(not) 的用法
+I did not think that I should need the map on my way home.
+It was not that I actually remembered anything at all, but I had had an electronic navigation system in my car.
 
 * sb had expected to be... : 本以为...
 I had expected him to say 'Yes', but he said 'No' instead.
 I had expected to finish my English course last month, but I had sick. 
 
+* decide v. : 决定 / 判定,断定
+I decided my girlfriend must be suffering from a bad cold.
+
 * must have done: 必定是...
 The news must have been censored.
 
-* should be doing: 虚拟语气, 表推测
+* should be doing: 虚拟语气, 表推测 (现在)
 I should be seeing a movie at my house.
 They should be working at the office.
 You should be sleeping at your home.
+
+* make sb do... : 要 某人 做... (迫使/强迫)
+Mama made him clean up the plate.
+You can't make me do anything.
+
+* mortally adv. : 致命地
+  mortal adj. 不免一死的
+He regarded the mortally wounded man with no pity in his heart.
+We are all mortal.
+
+* land up : 到达 / 最终成为(落到)
+We landed up in a bar at 3 am.
+By steady effort, she landed up as a famous scholar.
+
+* stumble v.
+He stumbled and almost fell.
+The child stumbled and fell.
+She nearly fell down by stumbling over my stretched leg.
 
 #L58: A spot of bother
 ##间接引语: asked / advised / said / told ...
@@ -1245,26 +1697,71 @@ Traditional religious practices are disppearing in many parts of the world.
 Following my regular practice, I would learn English in the morning.
 
 * might be doing... : 也许正在...
-I decided that she might be sleeping now.
+I guess that she might be sleeping now.
 I think that they might be working overtime.
 
 * must have been done: 必定是被...
-I think that the rebels must have been destroyed.
+I think that the rebels must have been eliminated.
+
+* a scene of : 
+She returned home to find a scene of devastation.
 
 * sort out: 选出,分类
 Sort out any books you want to throw away and give them to me.
 They failed to sort out the computer system's problems.
+
+* composure n.
+She answered with perfect composure.
+
+* hinder v.
+His career has been hindered by injury.
+
+* lurk v.
+She didn't see the figure lurking behind the bushes.
+The thief lurked behind a tree.
+
+* veritable adj.
+The area is a veritable paradise for those who love walking and swimming.
+
+* hoard v.
+They've begun to hoard food and gasoline and save their money.
+
+* toss v.
+She crumpled the letter and tossed it into the fire.
+
+* discard v.
+Read the manufacturer's guidelines before discarding the box.
+Older managers have been discarded in favour of younger people.
+He discarded an old hat and an old pair of shoes.
+
+* ransack v.
+The whole flat had been ransacked.
+The house had been ransacked by burglars.
+
+* thereby adv.
+Our bodies can sweat, thereby losing heat by evaporation.
+Regular exercise strengthens the heart, thereby reducing the risk of heart attack.
+
+* by the next day : 到明天以前
+I suggested that you might not drive by the next day.
+
+* fussy adj.
+Gabby was fussy about her looks.
+She is not fussy about her food.
 
 #L59: Collecting
 ##排比句:描述的是一件事, 并有重复的成分可以省略(并列句描述的是独立事件)
   ..., ..., ..., ...
   ...to..., to..., to...
 No matter how they pretend, they also can not hide their extremely selfish, hypocrisy, shameless, fool, ignorance, confused, low, mean, faithlessness, violence. 
-For leisure hours I like to play basketball, to sing, to read, to swim, to play PCs games.
+For leisure hours I like to play basketball, to sing, to read, to swim, and to play PC games.
+She leaves food in frigs, in drawers, in cupboards and attics for several weeks. 
 
 * have/has a/some bearing on... : 与...有关(受...影响)
-It has direct bearing on the subject.
-It has an important bearing on the relations between China and the United States.
+Experts generally agree that diet has an important bearing on your general health.
+Recent events had no bearing on our decision.
+It has a direct bearing on the subject.
+China has an important bearing on the United States.
 His remark had some/a/no bearing on what happened.
 Many people's bad temper has some bearing on the local culture.
 
@@ -1280,15 +1777,41 @@ I was very sick to such an extent that I can not finish my English course in tim
 
 * save doing... : 省去做...
 If you walk to the office every morning, you'll save spending money on bus fares.
-If you do exercise every day, you'll save spending money to see the doctor.
+If you do exercise every day, you would save spending money to see the doctor.
+
+* indiscriminate adj.
+The indiscriminate use of fertilizers is damaging to the environment.
+
+* mania n.
+He had a mania for fast cars.
+Football mania is sweeping the country.
+
+* verify v.
+A computer program verifies that the system is working.
+I verified the source from which I had that information.
+
+* constructively adv.
+  constructive adj.
+Use your time constructively.
+The meeting was very constructive.
+We welcome any constructive criticism.
+
+* remote adj.
+I live in a remote border town.
+The chances of his surviving are pretty remote.
+
+* confine v.
+The woman will be confined to a mental institution.
+Let's confine our attention to the problem of illegal drugs.
 
 #L60: Too early and too late
 * without : 常用虚拟语气
-Without honest, any country could ever not be became stronger; everything would be in a state of chaos.
-Without health, I could not be achieved my dreams.
+Without honest, any country could ever not become stronger, everything would be in a state of chaos.
+Without health, I could not achieve my dreams.
+Without a master's degree, I could not be employed of this firm.
 
 * It is hard for... : 很难...
-It is hard for foolish to admit his fault.
+It is hard for a fool to admit his fault.
 
 * the + adj. 表示一类人(名词短语)
 the over-punctural,  the unpunctual
@@ -1298,7 +1821,10 @@ the mean
 
 * and 可以嵌套使用: 
   ... 事件A and 事件B(条件1 and 条件2)
-I think that my teeth must have decayed and feeling toothache when I eating and drinking anything.
+I think that my teeth must have decayed and I have been feeling toothache when I eating and drinking anything.
+
+* cut things fine : 卡点儿
+He does always late for work as the fault is cutting things fine.
 
 * draw out/into: 驶出/入
 The cars drew out one by one as the party was over.
@@ -1314,6 +1840,28 @@ Can you tell me whom you were calling to?
 They impressed on their children the virtue of always telling the truth.
 She's always trying to impress upon me how much easier life is if one is organized.
 I always impress upon myself doing the right things rather than the easy things.
+
+* coordinate v.
+They appointed a new manager to coordinate the work of the team.
+We try to coordinate our activities with those of other groups.
+
+* reproach v.
+The manager reproached the new salesgirl for her carelessness.
+
+* puncture v. / n.
+I had a puncture on the way and arrived late.
+She was taken to the hospital with broken ribs and a punctured lung.
+One of the front tires had punctured.
+
+* befall v.  befell befallen
+We prayed that no harm should befall them. 
+Bad luck may befall to anyone at any time.
+What had befallen her?
+
+* adamant adj.
+She begged me to change my mind, but I remained adamant.
+The prime minister is adamant that he will not resign.
+Eva was adamant that she would not come.
 
 
 

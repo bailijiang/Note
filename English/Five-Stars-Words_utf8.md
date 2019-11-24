@@ -1,0 +1,169 @@
+通用多用常见动词(five stars):  
+选择例句原则: 肯定,否定,疑问句 / 各种时态语态 / 并列,排比,转折 / 尽量多用五星副词,介词,形容词,名词  
+<!-- MarkdownTOC -->
+
+- have
+- do
+- make
+- take
+- get
+- put
+- let
+- bring
+- find
+- learn : 学习/学会/得知/记住/背下
+- feel
+- own
+- say
+- go
+- come
+- keep
+- give
+- carry
+- draw
+- hold
+- offer
+- expect : 预计/期待/指望
+- turn : 转身/使转向/转动/拐弯/翻动/变得/开始从事
+- believe
+- claim
+- cut
+- remain
+- beat
+- decide
+- call
+- act
+- deal
+- open
+- develop
+- force
+- fall
+- feel
+- produce
+
+<!-- /MarkdownTOC -->
+
+
+##have
+
+
+##do
+
+
+##make
+* He made the remarkble discovery.
+* Hawkwood made large sums of money in this way.
+
+##take
+* I accused him of stealing my money, but he denied taking it.
+
+
+##get
+* He could not find his fifty pence anywhere, and what is more, he could not get his arm out.
+
+
+##put
+* If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.
+
+##let
+
+##bring
+
+##find
+
+##learn : 学习/学会/得知/记住/背下
+* Their children were going to learn English.
+* He is learning to play the piano.
+* You have to learn to face your problem.
+* I am convinced that he has learned from his mistakes.
+* He learned this song as an inmate at a Texas prison.
+* He had managed to learn the contents of the letter by heart.
+* I wonder whether I must learn these texts completely.
+* I have to manage to learn the rules of game.
+* The jailer looked on eagerly, anxious to see if his fellow actor had, at last, learned his lines.
+* Have you learned your speech draft?
+
+
+
+##feel
+
+##own
+
+##say
+
+##go
+* I go to work by subway.
+* I must be going now.
+* With some children, small sums go a long way.
+
+##come
+
+##keep
+
+##give
+
+##carry
+
+##draw
+
+##hold
+
+##offer
+
+
+##expect : 预计/期待/指望
+* We are expecting a rise in food prices this month.
+* I'm expecting a rise in house prices next year.
+* I am expecting several important letters but nothing has arrived.
+* He wasn't expecting our hospitality.
+* I do expect to have some time to myself in the evenings.
+* I do expect to get a decent job next month.
+
+
+##turn : 转身/使转向/转动/拐弯/翻动/变得/开始从事
+
+
+##believe
+
+
+##claim
+
+
+##cut
+
+
+##remain
+
+
+##beat
+
+
+##decide
+
+
+##call
+
+
+##act
+
+
+##deal
+
+
+##open
+
+
+##develop
+
+
+##force
+
+
+##fall
+
+
+##feel
+
+
+##produce
+

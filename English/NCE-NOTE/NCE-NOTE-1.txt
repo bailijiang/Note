@@ -582,8 +582,7 @@ It's nearly ready.
 
 L83: Going on holiday
 现在完成时
-* have/has + Ven
-  had + Ven
+* have/has + done
 * 现在完成时常用不确定时间副词短语：
   already / just / yet / often / never / ever
 
@@ -641,8 +640,10 @@ I've already asked a question.
 I asked a question two minutes ago.
 
 L87: A car crash
-* 现在完成时的疑问句: Have you Ven yet?
+* 现在完成时的疑问句: Have you done yet?
 * yet : 还，已经 (用于现在完成时的否定或疑问句中)
+    - 疑问句: ...已经...了吗? 
+    - 否定句: ...还(没/不能)...样
 * 否定疑问句表肯定(表希望、请求)，期待肯定的回答,
   语气更强烈，难道...
 * still 用于现在进行时
@@ -671,6 +672,8 @@ Has the boss left yet?
 Yes, he has.
 When did he leave?
 He left ten minutes ago.
+
+I haven’t asked him yet (=but I will).
 
 L89: For sale
 * for 后面接一段时间

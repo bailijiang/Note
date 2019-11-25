@@ -721,6 +721,9 @@ L93: Our new neighbour
 * When did ... go to ...?
 * When will ... go to ...?
 
+He said that he will find a job the week after next.
+I believe that I will go abroad the month after next.
+
 When did he go to New York?
 He went to New York last week.
 When will he go to Paris?
@@ -788,6 +791,8 @@ Is belongs to us.
 Are these the children's pens?
 Yes, they're theirs.
 They belong to them.
+Are these books yours?
+These books belong to us.
 
 L99: Owl!
 名词性从句

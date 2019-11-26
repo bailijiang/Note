@@ -828,8 +828,8 @@ He says he'll write a letter soon.
 He hopes we are all well.
 
 He doesn't say very much, does he?
-No, he doesn't. 是的，他没写多少。
-Yes, he does. 不，他写了很多。
+No, he doesn't.
+Yes, he does.
 She went to Paris last month, didn't she?
 Yes, she did.
 No, she didn't.
@@ -902,10 +902,11 @@ Because he wants them to listen to it.
 
 L107: It's too small
 * Would you like to ...? 您愿意...吗?
+* Could you ...? 比 Can you ...? 更委婉
+
 * 形容词的比较级: is smaller than ...
           最高级: the largest ...
 * suit = go along with = fit
-* Could you ...? 比 Can you ...? 更委婉
 
 Would you like to go swimming?
 Would you like a glass of water?
@@ -947,14 +948,21 @@ I haven't got much.
 I've got more than you have.
 I've got the most.
 
-little    -> less  -> the least
-few       -> fewer -> the fewest
-many/much -> more  -> the most
+少
+little    -> less  -> the least   (不可数)
+few       -> fewer -> the fewest  (可数)
+
+多
+many/much -> more  -> the most  (much 不可数)
 
 Have you made any mistakes?
 I haven't made many.
 I've made more than you have.
 I've made the most.
+The team that makes the fewest mistakes usually wins.
+
+Would you like some more? 再来点吗?
+Would you like any more? 你还要别的吗?
 
 L111: The most expensive model
 * 多音节形容词的比较级可以使用 more / less 修饰

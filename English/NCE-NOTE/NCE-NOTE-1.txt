@@ -1200,11 +1200,12 @@ It took her ten dollars to get this book.
 
 He may not know about it.
 He may come soon.
-Sha might be ill.
+She might be ill.
 She might not come.
 
 She may be writing a letter now.
 She may have been reading at that moment.
+They may have been death.
 
 Where's Herry?
 He may be in his room.
@@ -1277,6 +1278,9 @@ If it rains tomorrow, we won't go to the seaside.
 What can I do if I feel better?
 If you feel better, you can get up.
 
+What will you do if you can get up early?
+If I get up early I can learn English.
+
 L139: Is that you, Jone?
 做宾语的名词从句
 * 宾语从句引导词：that(可省略), if(是否), whether, who, what, which, when, where, why, how ...
@@ -1293,6 +1297,11 @@ What does he want to know?
 He wants to know if you are tired.
 He wants to know why you are tired.
 Tell him what you are reading.
+
+I don't know what will happen in my future.
+I want to know how they compete with me.
+Tell me why you are so lazy.
+She wants to know if he intends to go abroad.
 
 L141: Sally's first train ride
 * 被动语态与主动补(SVC/主系表)结构的区别:
@@ -1328,8 +1337,8 @@ L143: A walk through the woods
 * have / has  been + Ven : 已经被...
 * will / shall be + Ven  : 将会被...
 
-The car I wanted to buy which has sold out.
-I think you have been cheated of fixing your car.
+The car I wanted to buy which has been sold out.
+I think you have been cheated of your car repairing.
 If it rains tomorrow, the meeting will be canceled.
 Hasn't anyone been caught in protesting?
 My private script hasn't been finished yet.
@@ -1365,7 +1374,9 @@ Hasn't anyone caught the thieves yet?
 They haven't been caught yet.
 They will be caught soon!
 
-
+Hasn't anyone mended this bug?
+This bug hasn't been mended yet.
+This bug will be mended next week.
 
 
 

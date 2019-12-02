@@ -1,5 +1,8 @@
 通用多用常见动词(five stars):  
-选择例句原则: 肯定,否定,疑问句 / 各种时态语态 / 并列,排比,转折 / 尽量多用五星副词,介词,形容词,名词  
+选择例句原则:  
+    - 先选常用简单句；  
+    - 然后选：肯定,否定,疑问句 / 各种时态语态 / 并列,排比,转折 / 尽量多用五星副词,介词,形容词,名词;  
+
 <!-- MarkdownTOC -->
 
 - have
@@ -44,34 +47,51 @@
 <!-- /MarkdownTOC -->
 
 
-##have
+
+####have
+* Alex has already gone.
+* I've just seen a play that I can highly recommend.
+* I went out and had a walk around.
+* I had a look at the photos.
+* Come and have a meal with us tonight.
+* I want to have a cup of coffee, now.
+* I want to have my own business.
+* She had no job and no money.
+* He had plenty of work to do.
+* You can have my ticket.
+* I had a headache.
+* They had him killed.
+* Have you got some ideas?
+* Have you got a match?
+* He has only to work hard.
+* I have to go now.
 
 
-##do
+####do
 
 
-##make
+####make
 * He made the remarkble discovery.
 * Hawkwood made large sums of money in this way.
 
-##take
+####take
 * I accused him of stealing my money, but he denied taking it.
 
 
-##get
+####get
 * He could not find his fifty pence anywhere, and what is more, he could not get his arm out.
 
 
-##put
+####put
 * If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.
 
-##let
+####let
 
-##bring
+####bring
 
-##find
+####find
 
-##learn : 学习/学会/得知/记住/背下
+####learn : 学习/学会/得知/记住/背下
 * Their children were going to learn English.
 * He is learning to play the piano.
 * You have to learn to face your problem.
@@ -85,33 +105,33 @@
 
 
 
-##feel
+####feel
 
-##own
+####own
 
-##say
+####say
 
-##go
+####go
 * I go to work by subway.
 * I must be going now.
 * With some children, small sums go a long way.
 
-##come
+####come
 
-##keep
+####keep
 
-##give
+####give
 
-##carry
+####carry
 
-##draw
+####draw
 
-##hold
+####hold
 
-##offer
+####offer
 
 
-##expect : 预计/期待/指望
+####expect : 预计/期待/指望
 * We are expecting a rise in food prices this month.
 * I'm expecting a rise in house prices next year.
 * I am expecting several important letters but nothing has arrived.
@@ -120,50 +140,50 @@
 * I do expect to get a decent job next month.
 
 
-##turn : 转身/使转向/转动/拐弯/翻动/变得/开始从事
+####turn : 转身/使转向/转动/拐弯/翻动/变得/开始从事
 
 
-##believe
+####believe
 
 
-##claim
+####claim
 
 
-##cut
+####cut
 
 
-##remain
+####remain
 
 
-##beat
+####beat
 
 
-##decide
+####decide
 
 
-##call
+####call
 
 
-##act
+####act
 
 
-##deal
+####deal
 
 
-##open
+####open
 
 
-##develop
+####develop
 
 
-##force
+####force
 
 
-##fall
+####fall
 
 
-##feel
+####feel
 
 
-##produce
+####produce
 

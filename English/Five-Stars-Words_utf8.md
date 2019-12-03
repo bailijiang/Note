@@ -1,7 +1,7 @@
 通用多用常见动词(five stars):  
-选择例句原则:  
-    - 先选常用简单句；  
-    - 然后选：肯定,否定,疑问句 / 各种时态语态 / 并列,排比,转折 / 尽量多用五星副词,介词,形容词,名词;  
+选择例句原则(重点从collins中选):  
+    - 1. 先选常用简单句；  
+    - 2. 然后选：肯定,否定,疑问句 / 各种时态语态 / 并列,排比,转折 / 尽量多用五星副词,介词,形容词,名词;  
 
 <!-- MarkdownTOC -->
 
@@ -68,7 +68,28 @@
 
 
 ####do
+* Do you like bananas?
+* I don’t feel like going out tonight.
+* Where do you live?
+* You know Tony, don’t you?
+* ‘I want to go home.’ ‘So do I.’
+* You do look nice in that hat.
+* Have you done your homework yet?
+* We should do something to help him.
 
+* Students are under considerable pressure to do well.
+* What do you want to do after you leave school?
+* I make more money than he does.
+* All she does is complain.
+* I was allowed to do whatever I wanted with my life.
+* What did he do with the thirty pounds?
+* Well, what are you going to do about it?
+* A few bombs can do a lot of damage.
+* They did everything they could to help us.
+* What does your father do?
+* Are you doing anything tomorrow night?
+* How did I do?
+* I'd like to do maths at university.
 
 ####make
 * He made the remarkble discovery.

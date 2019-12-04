@@ -1,5 +1,5 @@
 通用多用常见动词(five stars):  
-选择例句原则(重点从collins中选):  
+选择例句原则(优先选top5用法):  
     - 1. 先选常用简单句；  
     - 2. 然后选：肯定,否定,疑问句 / 各种时态语态 / 并列,排比,转折 / 尽量多用五星副词,介词,形容词,名词;  
 
@@ -94,6 +94,28 @@
 ####make
 * He made the remarkble discovery.
 * Hawkwood made large sums of money in this way.
+* I'd just like to make a comment.
+* I made a few phone calls.
+* I think you're making a serious mistake.
+* Are you really going to make a better job of it this time?
+* Mary made as if to protest, then hesitated.
+* Anyone can make a mistake.
+* I can’t make a decision just yet.
+* When was the last time you made a cake?
+* Its beautiful beaches make this a highly popular area with tourists.
+* It was this movie which made him a star.
+* My parents always make me do my homework before I go out.
+* The cup has made a mark on the table.
+* If we run, we should make it.
+* His one aim in life was to make money.
+* Two and two make four.
+* I had made 30 points by the halftime.
+* I was made to feel guilty and irresponsible.
+* You can't make me do anything.
+* We made it into a beautiful home.
+* I made my own cake.
+* The police don't make the laws, they merely enforce them.
+* The stone made a dent in the roof of the car.
 
 ####take
 * I accused him of stealing my money, but he denied taking it.

@@ -381,7 +381,8 @@ One must be careful these days.== You must be careful these days.
 I had to take her to the hospital yesterday.
 Do you have got to leave now?
 I will have to check my car tomorrow morning. 
-I must be infected when I went home by subway.
+He must be a fool.
+I must have been infected when I went home by subway.
 
 
 * as 作为/当...
@@ -429,17 +430,20 @@ I have a cold.
   can/could: 能，可以
   may/might: 允许；可能、也许
   may/might as well: 还是
+  may/might have done: 也许已经...
 
 I think she may go on a business trip but I'm not sure.
 I feel that I could move that wardrobe myself, but I was wrong.
 As it's raining outside, I can't go anywhere, so I might as well go to sleep.
+He might have gone abroad, but I'm not sure.
 
 #L20: One man in a boat
 * 动名词 ing (动词当名词用): 
   - 做主语: Doing...
   - 做宾语: ... of/on/in/for doing...
-  - 连接从句: 可以与介词组成介宾短语,作副词从句(状语从句)来修饰主句动词
+  - 连接从句: 可以与介词组成介宾短语
              without / Before / After ... + doing ...
+* 现在分词: 连接副词从句(状语从句)来修饰主句动词
 
 Drinking is my only vice.
 Reading and exercising are my favorites things to do.

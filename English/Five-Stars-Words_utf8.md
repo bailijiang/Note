@@ -43,6 +43,7 @@
 - fall
 - feel
 - produce
+- drive
 
 <!-- /MarkdownTOC -->
 
@@ -119,7 +120,22 @@
 
 ####take
 * I accused him of stealing my money, but he denied taking it.
-
+* She was too tired to take a shower.
+* Would you like to take a look?
+* I forgot to take my bag with me when I got off the bus.
+* Barney took us to the airport.
+* Take your feet off the seats.
+* How long is this going to take?
+* Will you take the job?
+* If you take my advice, you’ll see a doctor.
+* Let me take your coat.
+* Don't forget to take your camera.
+* She was taken to hospital.
+* My work takes me abroad a lot.
+* I had heard an appeal could take years.
+* Do you take sugar in your coffee?
+* Take 5 from 12 and you're left with 7.
+* take a seat / take care / take a pill
 
 ####get
 * He could not find his fifty pence anywhere, and what is more, he could not get his arm out.
@@ -230,3 +246,5 @@
 
 ####produce
 
+
+####drive

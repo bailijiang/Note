@@ -139,7 +139,22 @@
 
 ####get
 * He could not find his fifty pence anywhere, and what is more, he could not get his arm out.
-
+* What did you get for Christmas?
+* We need to get help quickly!
+* Run upstairs and get a pillow.
+* Where did you get that jacket? (buy)
+* Hospital doctors get a minimum of £50,000 a year.
+* She began to get an uncomfortable feeling that she was being watched.
+* I got a terrible shock when I saw how ill he looked.
+* You don’t get enough exercise.
+* I got flu last winter and was in bed for three weeks.
+* I got 98% in my last maths test.
+* What time will we get there?
+* The meeting dragged on, and I didn't get away until seven.
+* His lack of social life was beginning to get him down.
+* News like this soon gets round.
+* The woman was so fat that she couldn't get through the doorway.
+* get on / get off / get out / get round / get up / get through
 
 ####put
 * If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.

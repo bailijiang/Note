@@ -540,6 +540,7 @@ Neither you nor he is good people.
 I find it that I go to Shunyi neither by car nor by subway is comfortable.
 Driving to Shunyi not only cost too much but very tired as well.
 She's looking not only very beautiful but very sexy also.
+You can neither confirm nor deny.
 
 * wonder
 I wonder at his rudeness.
@@ -558,9 +559,11 @@ No wonder!
 She always hurry to finish that unimportant things.
 The air of the city often fill with heavy haze.
 
-* 感官动词一般不用在进行时: appear, appreciate, believe, feel, forget, hear, know, like, look like, notice, remember, resemble, see, think(that), understand
-I see a boy suicide by jumping a building.
-I hear that the price of the house will be decreased.
+* 感官动词在表示经常发生的事时，一般不用进行时: appear, appreciate, believe, feel, forget, hear, know, like, look like, notice, remember, resemble, see, think(that), understand
+I always smell some strange odor.
+She said she often sees a boy follow her quietly.
+I hear that you like rock music.
+I remember Tom very well. Do you know him?
 
 * 宾语从句
   whether...(or not) 从句使用陈述句语序
@@ -575,6 +578,7 @@ The river wound its way beside my home.
 She came into the hotel and sat to the same table with me.
 He wasn't at work this morning.
 I went to the theatre last night.
+He had leapt from a window in the building and escaped.
 
 * put up
 to put up a flag

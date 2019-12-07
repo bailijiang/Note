@@ -158,12 +158,38 @@
 
 ####put
 * If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.
+* He put the coffee on the table.
+* Don’t put yourself into a situation you can’t handle.
+* He was putting himself at risk.
+* I don’t want to put you in danger.
+* Put your name at the top of each answer sheet.
+* It is hard to put into words (=express) how I feel now.
+* I thought you put your points very well.
+* Can I put a question to you?
+* We had to put new locks on all the doors.
+* Her new job has put a great strain on her.
 
 ####let
+* I can’t come out tonight – my dad won’t let me.
+* Let me have a look at that letter.
+* Don’t let anyone know it was me who told you.
+* Don't let her upset you.
+* The police had to let him go through lack of evidence.
+* Let’s make a start, shall we?
+* Let's go to the beach.
+* Today’s date is – let me see, March 20th.
+* I'm bored. Let's go home.
+* Let x equal 5 and y equal 3.
+* Here, let me do it.
+* Let me give you an example.
 
 ####bring
 
+
+
 ####find
+
+
 
 ####learn : 学习/学会/得知/记住/背下
 * Their children were going to learn English.
@@ -224,7 +250,7 @@
 
 
 ####cut
-
+* A small river cuts across the park near my home.
 
 ####remain
 

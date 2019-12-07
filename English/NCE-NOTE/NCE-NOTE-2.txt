@@ -656,12 +656,13 @@ He took the book with him when he left.
 I asked him to go to my room and fetch my glasses.
 
 #L30: Football or polo?
-* some, any
+* some 肯定
+  any  否定/疑问
 Is there any problem?
 Is there any tea in the bottle?
 No, there isn't any tea in the bottle, there is some tea in the jug.
-Would you give me some water?
-Do you know where can buy some food?
+Would you give me any/some water?
+Do you know where can buy any/some food?
 There isn't any food and water.
 
 * so...that...
@@ -689,13 +690,14 @@ It's a great pleasure to talk to you.
 
 #L32: Shopping made easy
 * as...as...: 像...一样
-  not so + adj + as ... : 不如... 那样
+  not so + adj + as ... : 不如... 那样(可以用比较级来代替)
 These people are as stupid as a pig.
 Today's work is as too much as usual for me.
 She is not as/so intelligent as we think.
 People are not so honest as they once were.
 It's not so easy as I thought.
 The film is not so interesting as I expected.
+The film is less interesting than I expected.
 
 #L33: Out of the darkness
 * 带介词的短语: to, from, into, out of, for, towards, at 

@@ -729,13 +729,15 @@ The phone had rung for one minute before someone answered it.
         - have/has been done
         - had been done
         - will be done
-        - ... to be done
+        - ... to be done : ...(让人)把...怎么样
 He was hit by a car.
 I was told that the tickets have been sold out yet.
 The air of this city is being polluted now.
 I have to tell you that you had already been cheated by him when your car was being repaired. 
 If you don't study hard you will be eliminated.
 I expected him to be arrested because my money was stolen by him.
+I need the house to be repaired. 
+He wants the car to be painted. 
 
 #L35: Stop thief!
 * such + n + that... : 如此...以至于... (引导副词从句)
@@ -762,8 +764,10 @@ A short while ago / Shortly afterwards
 #L36: Across the Channel
 * be going to do...: 打算做什么(主观愿望)
   will be doing...: 将要做什么(主观较弱)
+  ...will be... if ... : if条件句中，不能用 be going to do
 I'm going to cook chicken myself tomorrow.
 They will be driving through the highway at night.
+You will enjoy yourself if you travel by sea.
 
 * ... , who/which... 是非限制性的名词从句，是一种补充说明
 This kind of beer is very delicious, which has just bought by myself.

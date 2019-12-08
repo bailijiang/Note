@@ -184,12 +184,27 @@
 * Let me give you an example.
 
 ####bring
-
-
+* Did you bring an umbrella?
+* Can you bring me another beer?
+* I told you about what brought me here.
+* His writing brings him $10 000 a year.
+* He brought the car to a stop in front of the square.
+* The revolution brought many changes.
+* The judge brought his hammer down on the table.
 
 ####find
-
-
+* I can’t find the car keys.
+* I found a purse in the street.
+* I’m sure we’ll find her hard at work when we get home.
+* After wandering around, we found ourselves back at the hotel.
+* Many people here cannot find work.
+* They found her walking alone and depressed on the beach.
+* At my age I would find it hard to get another job.
+* She was found guilty of manslaughter and put on probation for two years.
+* I find most of the young men of my own age so boring.
+* How could anyone find pleasure in hunting and killing this beautiful creature?
+* I was just finding more time to write music.
+* I find it amazing that they're still together.
 
 ####learn : 学习/学会/得知/记住/背下
 * Their children were going to learn English.

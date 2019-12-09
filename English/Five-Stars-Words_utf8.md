@@ -41,7 +41,6 @@
 - develop
 - force
 - fall
-- feel
 - produce
 - drive
 
@@ -218,13 +217,34 @@
 * The jailer looked on eagerly, anxious to see if his fellow actor had, at last, learned his lines.
 * Have you learned your speech draft?
 
-
-
 ####feel
+* Do you still feel hungry?
+* You can never tell what he’s feeling.
+* She felt his arms go round her.
+* Her hands felt rough.
+* The house felt hot and stuffy.
+* After twenty years, seeing him again felt very strange.
+* Some of the parents felt the school wasn't doing enough about bullying.
+* I really felt bad about what I had done.
+* He didn't feel like going to work.
+* She felt his forehead. Perhaps he had a temperature.
+* Through several layers of clothes I could feel his muscles.
 
 ####own
+adj:
+* My wife decided I should have my own shop.
+* Bring your own equipment.
+* She makes a lot of her own clothes.
+* I've been living on my own for four years now.
+* I'm only telling you this for your own good.
+v:
+* The building is owned by the local council.
+* She acts like she owns the place.
+* Do you own your house or do you rent it?
+* I don't own anything of any value.
 
 ####say
+
 
 ####go
 * I go to work by subway.
@@ -296,8 +316,6 @@
 
 ####fall
 
-
-####feel
 
 
 ####produce

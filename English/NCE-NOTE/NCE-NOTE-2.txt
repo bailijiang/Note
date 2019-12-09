@@ -777,8 +777,11 @@ Next month she will start her new job in Shanghai, which is her birthplace.
 #L37: The Olympic Games
 * 将来完成时: will + has/have + Ven ... +(by)...
 * 将来进行时: will be doing
-I will be finished all the study courses this month.
+* 将被: will be done
+I will have finished all the study courses this month.
 He will be working at this company for a couple of months.
+He said he will be seeing you tomorrow.
+There will be held a great concert in this city.
 
 #L38: Everything Except the Weather
 * 过去完成时: had done
@@ -819,13 +822,17 @@ They quarreled continually. (频率高)
 They have quarreled continuously for more than an hour. (连续不断)
 
 #L39: Am I all right?
-* 间接引语: ask (sb) if / ask when / ask sb to do whether
-           He asked if/whether/when/why...
-The vice president asked me if I would go to work now.
-My mother asked me when I go to work.
-My boss asked you to tell me whether you had finished your work.
+* 间接引语(转述): 
+      ask (sb) if / ask when
+      He asked if/whether/when/why...
+      ask sb to tell... whether...
+The vice president asked if you would go to work now.
+My mother asked when I go to work.
+She asked if you had ever been abroad.
+Clair asked why you hadn't written to her.
+She asked me to tell her whether I had watched that movie.
 
-* so 做代词
+* so 做代词: 这样，所以
 Can you go abroad to work? I don't think so.
 So be good.
 He hopes he will win and I hope so too.
@@ -833,8 +840,7 @@ If you say so, I'll have to believe it.
 Are you ready? If so, let's go.
 
 #L40: Food and Talk
-* will be doing... 将来进行时
-  will do: 是将来时态，指将来某个时间要做的事情。
+* will do: 是将来时态，指将来某个时间要做的事情。
   will be doing: 是将来进行时态，指将来某个时间正在做某事。
   常用的时间状语: Soon,tomorrow,this evening,on Sunday,by this time,tomorrow,in two days,tomorrow evening
 I will be working soon.
@@ -843,8 +849,8 @@ I will study English (in the future).
 I will be studying English at universty this time next year.
 
 * if虚拟语气 与 if条件句
-  if虚拟语气: if was/were...I would be...
-  if条件句: if do..., I will...
+  if虚拟语气: if was/were...I would be... (已经发生的)
+  if条件句: if do..., I will... (没有发生的)
 If I finished my stuff, I would do what I should do.
 If you don't take your key, you will not be able to enter the room.
 

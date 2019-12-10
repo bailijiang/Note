@@ -870,13 +870,14 @@ He could have come if his car had not broken down on the road.
 It would have been different if you had helped.
 
 #L41: Do You Call That a Hat?
-* mustn't 不应该
+* mustn't 不应该(责备)
   needn't 不必
   need 作为情态动词时，只能用于疑问或否定句，后接动词原形，肯定句中用 must, have to, ought to, should
 
 You needn't buy so many pairs of sports shoes.
 I know, but I can't help but be tempted by them.
 I have to control myself do not to be tempted.
+I feel that I can never have too many basketball shoes.
 
 #L42: Not very musical
 * have + (可加形容词)表示动作的名词/名词短语 == verb  
@@ -917,18 +918,23 @@ He didn't agree with me at first, but in the end I was able to persuade him.
 He was able to leave Europe before the war began.
 Will you be able to come tomorrow?
 I have not been able to go to work for three days.
+I was able to drive to Shunyi yesterday and I took everything I need.
 
-* It seeded certain that...
+* It seemed certain that...
 At that moment, it seemed certain that they would win the game.
 
 #L44: Through the forest
 * was/were doing ... 过去进行时
 It began to rain when I was sleeping last night.
 I was learning English when they were having dinner yesterday.
-
+  
 * 动名词: 是具有持续性动作含义的名词
+  start/need/begin/continue/hate/love/like/want... + doing
 I love staying at home when it's raining.
 I'm used to getting up early.
+I'm looking forward to seeing him tomorrow.
+The men started running through the trees.
+They began running. 
 
 #L45: A Clear Conscience
 * 被动语态:

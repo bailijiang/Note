@@ -43,6 +43,7 @@
 - fall
 - produce
 - drive
+- look
 
 <!-- /MarkdownTOC -->
 
@@ -244,24 +245,79 @@ v:
 * I don't own anything of any value.
 
 ####say
-
+* ‘I’m so tired,’ she said.
+* Did she say what happened?
+* The clock said twenty past three.
+* What do you think the writer is trying to say in this passage?
+* It is said that he was a spy during the war.
+* They say that she has been all over the world.
+* The kind of car you drive says what kind of person you are.
+* The cake does look good, I must say.
+* I can’t say I envy her being married to him!
+* I’d say he was jealous.
+* I couldn’t say who will win.
+* I have to say I didn't expect it to be so good.
 
 ####go
-* I go to work by subway.
+* I go to work by subway.(go to school)
 * I must be going now.
 * With some children, small sums go a long way.
+* There's nothing more we can do here. Let’s go home.
+* Where are you going?
+* It took us over an hour to go ten miles.
+* Go wash your hands.
+* The plate went crashing to the floor.
+* The bullet went flying over my head.
+* Are you going to Manuela's party?
+* I first went to a rock concert when I was 15.
+* What time does the last train go?
+* She turned to go.
+* Right, let’s go!
+* Let’s go for a walk.
+* I need to go shopping this afternoon.
+* I’m going to tell Dad what you said.
+* The company went bankrupt last year.
+* The bread’s gone mouldy.
+* He went crazy and tried to kill her.
+* How did your French test go?
+* The party went well.
+* Where do the plates go?
+* Where does this road go?  
+* I don’t think all that will go in the suitcase.(fit)
+* The email went to everyone in the company.
+* The preparations have been completed and we’re ready to go.
+
+* go after / go about / go through / go ahead with / go away / go back / go down / go on / go to
+* I want to learn German but I don’t know the best way to go about it.(start)
+* The road goes through the middle of the forest.
+* Joe went after her to make sure she was unhurt.
+* They’ve decided to go ahead with plans to build 50 new houses on the site.
+* I went ahead and arranged the trip anyway.(start after planning)
+* We’re going away for the weekend.
+* I think we ought to go back now.
+* His income went down last year.
+* He went on working until he was 91.
+* Six goes into thirty five times.
+* 3 into 12 goes 4 times.
+* 7 into 15 won't go.
 
 ####come
 
+
 ####keep
+
 
 ####give
 
+
 ####carry
+
 
 ####draw
 
+
 ####hold
+
 
 ####offer
 
@@ -322,3 +378,6 @@ v:
 
 
 ####drive
+
+
+####look

@@ -302,10 +302,41 @@ v:
 * 7 into 15 won't go.
 
 ####come
-
+* Let me know when they come.
+* What time will you be coming home?
+* There was a knock on the door and a young woman came into the room.
+* I could see a figure coming towards me.
+* I’ve come to see Philip.
+* Come and look at this!
+* I asked Rosie if she’d like to come with us.
+* Which way did you come?
+* A letter came for you this morning.
+* The time will come when you’ll thank me for this.
+* She had blonde hair which came down to her waist.
+* The water came up as far as my chest.
+* Cats come in many shapes and sizes.
+* Bikes come in all shapes and sizes.
+* The door knobs came off in our hands.
+* The summer came to an end.
+* She said it so many times that she came to believe it.
+* He was about to shut the door when an idea came to him.
+* Lunch came to $80.
+* Nearly half the students come from abroad.
+* She comes of a very good family.
 
 ####keep
-
+* We huddled around the fire to keep warm.
+* I was struggling to keep awake.
+* I keep telling you, but you won’t listen!
+* You can keep it. I don’t need it anymore.
+* We decided to keep our old car instead of selling it.
+* I kept his letters for years.
+* George kept a bottle of whiskey under his bed.
+* He was kept in prison for a week without charge.
+* He should be here by now. What’s keeping him?
+* How do I know you’ll keep your word?
+* He kept her from being lonely.
+* She bit her lip to keep from crying.
 
 ####give
 

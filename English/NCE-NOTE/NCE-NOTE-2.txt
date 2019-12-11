@@ -950,7 +950,7 @@ He had an accident while driving to the airport.
 
 #L46: Expensive and Uncomfortable
 * 动词后面接 To, At, For, With
-I was appealed to that song.
+Farmers have appealed to the government for help.
 He was condemned to death.
 She had been confined to a huge pit for three days.
 When I was looking at her, she glanced at me with shy.
@@ -964,7 +964,7 @@ It must amuse at myself to compose a song.
 It will challenge me to find a good job in a short time.
 
 #L47: A Thirsty Ghost
-* 名词从句: which, that
+* 名词从句: which, that, who
 He told me he can't go to sleep because he smelled a kind of subtle frowzy odor coming from the floor.
 She also said that she had loved the man who had already married.
 They also said they used to go to the restaurant which had closed. 
@@ -978,7 +978,7 @@ She then asked me whether I liked her.
 I asked her how's her health.
 
 * either...or: 要么...要么...
-During her interview, she either nod or shake.
+During her interview, she either nodded or shook.
 Most of the people in this country are either too hypocrisy or too stupid.
 
 * 常用动词make, do:

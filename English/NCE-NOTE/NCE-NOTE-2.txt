@@ -1001,6 +1001,16 @@ Poverty sent me feeling very unhappy.
 Composing and singing sent me very happy.
 
 #L50: Taken for a Ride
+* 表习惯性动词(主观动词), 用一般现在时
+  belong to,consist of,contain,desire,detest,dislike,hate,hope,love,matter,mean,mind,need,want,wish...
+This box contains 48 matches.
+Those papers belong to me.
+He needs a new pair of shoes.
+I hate writting letters.
+I desire of living happily.
+I wish to make a complaint.
+I want to use English everywhere.
+
 * love doing / like doing:
 I love listening to music while working.
 I don't like being set up by my boss.
@@ -1010,7 +1020,7 @@ I hate getting cold.
 * 连词 that, when, what, where
 Excuse me, can you tell me where am I?
 I don't know what to do.
-Please let us know when to start setting off.
+Please let us know when it is set off.
 Can you show me how to use the fax machine?
 According to my age, I realized that I must get married quickly.
 
@@ -1019,6 +1029,13 @@ According to my age, I realized that I must get married quickly.
 I stand in the front of the ship to feel the sea breeze.
 
 #L51: Reward for Virtue
+* 动词过去式,过去分词(不规则动词)
+begin/began,write/wrote,forbid/forbade/forbidden,pay/paid,ring/rang,lead/led,hide/hid...
+
+* things : 情况，东西
+He has got a headache since yesterday, and now the things got badly.
+I love lots of things like singing, sporting, traveling and reading.
+
 * 从句连词 which, that, when, what
 I feel hungry, so I eat a bar of bread which I have just bought.
 When I asked her what she was doing, she said she did nothing.
@@ -1035,6 +1052,8 @@ I have just got home and I have been learning English all morning.
 I have been thinking for an hour about how to make lunch easier.
 It has not been easy because I need nutrition to remain balance.
 This is the most delicious I have ever had.
+I have rung you up five times since 7 o'clock.
+I have been ringing you up all morning
 
 #L53: Hot Snake
 * 过去完成时: had been

@@ -44,6 +44,7 @@
 - produce
 - drive
 - look
+- send
 
 <!-- /MarkdownTOC -->
 
@@ -339,10 +340,27 @@ v:
 * She bit her lip to keep from crying.
 
 ####give
-
+* Give your mother the letter.
+* What did Bob give you for your birthday?
+* Give me the letter, please.
+* He finally gave us permission to leave.
+* Let me give you some advice.
+* She gave a little frown.
+* I gave a small donation.
+* They don't give a damn about the country.
+* He gave me a shock.
+* We were given to understand that he was ill.
 
 ####carry
-
+* He was carrying a suitcase.
+* Police in many countries carry guns.
+* The veins carry blood to the heart.
+* Ticks can carry a nasty disease which affects humans.
+* He carried the news to everyone in the campus.
+* Can you carry all these figures in your mind?
+* I never carry much money about me.
+* Love for art carried him abroad.
+* Three pillars carries the whole roof.
 
 ####draw
 
@@ -412,3 +430,13 @@ v:
 
 
 ####look
+
+
+####send
+* She sent the letter by airmail.
+* What sort of message is that sending to young people?
+* She sent the kids to bed early.
+* Her music always sends me to sleep.
+* Ed couldn't make it so they sent me instead.
+* I've sent Tom to buy some milk.
+* The transmitters will send a signal automatically to a local base station.

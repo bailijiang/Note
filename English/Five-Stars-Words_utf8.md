@@ -363,10 +363,43 @@ v:
 * Three pillars carries the whole roof.
 
 ####draw
-
+* Katie had drawn a cottage with a little stream running next to it.
+* A dark house can draw attention to the fact that the house is empty.
+* It would be unwise to draw firm conclusions from the results of a single survey.
+* What first drew you to teaching?
+* His remarks drew an angry response from Democrats.
+* I drew a lot of comfort from her kind words.
+* She drew away, but he pulled her close again.
+* He drew his chair nearer the fire.
+* After drawing the curtains, she lit a candle.
+* He drew his dagger and turned to face his pursuers.
+* He paused, drawing a deep breath.
+* Villagers still have to draw their water from wells. (to draw blood)
+* She was drawing out cash from a cash machine.
+* He draws two conclusions from this.
+* England and France drew 3–3.
+* Italy has been drawn against Spain in the first round.
 
 ####hold
-
+* Could you hold my bag for me?
+* He held out his hand to help her to her feet.
+* This year’s conference will be held at the Hilton Hotel.
+* Remember to hold your head up and keep your back straight.
+* Do you really think he’s capable of holding such a responsible position?
+* Further copies of the book are held in the library.
+* We can hold the reservation for you until next Friday.
+* Police are holding two men in connection with the robbery.
+* Experts hold varying opinions as to the causes of the disease.
+* This view is not widely held. (accept)
+* Hold on, I’ll just get my coat.
+* If only he would hold her close to him.
+* He then held the man in an armlock until police arrived.
+* I don't think that branch will hold your weight.
+* This barrel holds 25 litres.
+* Who holds the world record for the long jump?
+* Hold your fire! (= don't shoot)
+n.
+* A fire had been reported in the cargo hold.(on ship/plane/aircraft)
 
 ####offer
 

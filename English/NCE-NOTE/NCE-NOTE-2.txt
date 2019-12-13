@@ -1087,8 +1087,13 @@ I was learning English in the morning when my express arrived.
 When I was learning English in the morning my express arrived.
 I was sleeping when she telephoned me and said that she would come to my home.
 
-* ...would (often) do...: 过去常常做...
-I would often go to the cinema and then I watch the movie at home.
+* 过去常常做...
+  ...would (often) do...: 
+  ...used to do...:
+  表示状态,反复,现在不做了时必须用 used to do, 不能用 would (大多数情况下用 used to do)
+I would often go to the cinema.
+I used to go to the cinema, but now I watched the movie at home.
+This sort of novel used to be very popular.
 
 * Done/Doing + ... : 分词短语(增加表达信息量)
 Taken the tools, I went into the garage starting to fix my car.
@@ -1126,6 +1131,7 @@ There is quite a little water in the bottle. (quite a little 很多)
   many: 很多, 修饰可数名词
 There isn't much beer, but you can have a little.
 There aren't many apples, but you can take a few.
+My car is much faster than any of its rivals.
 
 * a lot of = lots of : 大量的, 修饰可数和不可数名词
   a great deal of : 大量的, 修饰不可数名词
@@ -1139,7 +1145,7 @@ There is a lot of time to finish my work.
 I spent a great deal of time on this work.
 There are a great number of birds outside my window. 
 There are a great many students.
-There are a great many of my classmates
+There are a great many of my classmates.
 
 #L57: Can I Help You Madam?
 * 介词使用： at, in, off, with

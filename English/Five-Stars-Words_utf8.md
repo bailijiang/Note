@@ -402,7 +402,16 @@ n.
 * A fire had been reported in the cargo hold.(on ship/plane/aircraft)
 
 ####offer
-
+* Can I offer you something to drink?
+* My dad has offered to pick us up.
+* Your doctor should be able to offer advice on diet.
+* Canada has much to offer in terms of location and climate.
+* He felt he had nothing to offer her that she wanted.
+* Peter offered to teach them water-skiing.
+* She offered drinks to her guests.
+n.
+* I can't turn down the offer of a free trip to Milan!
+* His offer to resign will be accepted.
 
 ####expect : 预计/期待/指望
 * We are expecting a rise in food prices this month.
@@ -412,18 +421,62 @@ n.
 * I do expect to have some time to myself in the evenings.
 * I do expect to get a decent job next month.
 
+* I expect to be back within a week.
+* Emergency repairs were expected to take three weeks.
+* I didn’t expect him to stay so long.
+* The officer expects complete obedience from his troops.
+* We're expecting Alison home any minute now.
+* Snow is expected by the weekend.
+* I expected her to be taller than me, not shorter.
+* She was expecting another baby.
+* Don't expect sympathy from me!
+* I expect that you are tired from the trip.
 
 ####turn : 转身/使转向/转动/拐弯/翻动/变得/开始从事
-
+* She turned her head in surprise.
+* The wheels of the car began to turn.
+* We turned and headed for home.
+* He turned into a narrow street.
+* Turn the sweater inside out before you wash it.
+* The road turns to the left after the church.
+* He turned the gun on himself.
+* They turned the horse into the field.
+* She turned down the blankets and climbed into bed.
+* The weather has turned cold.
+* He turned to the study and practice of medicine.
+* A prince turns into a frog in this cartoon fairytale.
+n.
+* The scandal took a new turn over the weekend.
+* Can I have a turn?
 
 ####believe
-
+* You shouldn’t believe everything you read.
+* I don’t believe he’s only 25.
+* Detectives believe that the victim knew his killer.
+* Sometimes, it’s hard to believe we’ve been married for 50 years.
+* I can’t believe he’s expecting us to work on Sunday!
+* He enjoys school, believes it or not.
+* I don't believe in ghosts.
+* If you believe in yourself you can succeed.
+* I believe it's going to snow.
 
 ####claim
-
+* The product claims that it can make you thin without dieting.
+* He should be able to claim the price of the ticket back.
+* Now they are returning to claim what was theirs.
+* The majority of those who claim asylum are genuine refugees.
+* Lost property can be claimed between 10 a.m. and 4 p.m.
+* The earthquake has so far claimed over 3,000 lives.
+* He claimed that it was all a conspiracy against him.
+* A most unwelcome event claimed his attention. 
+n.
+* The singer has denied the magazine's claim that she is leaving the band.
+* They had no claim on the land.
+* You can make a claim on your insurance policy.
 
 ####cut
 * A small river cuts across the park near my home.
+
 
 ####remain
 

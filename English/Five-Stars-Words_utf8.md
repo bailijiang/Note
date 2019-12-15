@@ -1,7 +1,4 @@
 通用多用常见动词(five stars):  
-选择例句原则(优先选top5用法):  
-    - 1. 先选常用简单句；  
-    - 2. 然后选：肯定,否定,疑问句 / 各种时态语态 / 并列,排比,转折 / 尽量多用五星副词,介词,形容词,名词;  
 
 <!-- MarkdownTOC -->
 
@@ -45,6 +42,7 @@
 - drive
 - look
 - send
+- ask
 
 <!-- /MarkdownTOC -->
 
@@ -476,10 +474,26 @@ n.
 
 ####cut
 * A small river cuts across the park near my home.
-
+* She cut her finger on a piece of glass.
+* He cut four thick slices from the loaf.
+* Workmen cut a hole in the pipe.
+* Don't cut the string, untie the knots.
+* He's had his hair cut really short.
+* Two survivors were cut free after being trapped for twenty minutes.
+* The swimsuit was cut high in the leg.
+* This knife won't cut.
+* Buyers will bargain hard to cut the cost of the house they want.
+* This scene was cut from the final version of the movie.
 
 ####remain
-
+* Train fares are likely to remain unchanged.
+* We remained friends.
+* The boy remained silent.
+* He will have to remain in hospital for at least 10 days.
+* Very little of the house remained after the fire.
+* It remains to be seen (= it will only be known later) whether you are right.
+* There remained one significant problem.
+* The plane remained on the ground.
 
 ####beat
 
@@ -526,3 +540,19 @@ n.
 * Ed couldn't make it so they sent me instead.
 * I've sent Tom to buy some milk.
 * The transmitters will send a signal automatically to a local base station.
+
+####ask
+* ‘What’s your name?’ she asked.
+* If you need anything, you only have to ask.
+* How much is he asking?
+* Let’s ask them to have dinner with us some time.
+* It would be better if he cooperated, but perhaps I’m asking too much.
+* He’s just plain crazy, if you ask me.
+* I asked to see the Director.
+* I decided to go to the next house and ask for food.
+* She asked me back to her house.
+* She's asked him to come to the party. 
+* All the students were asked to complete a questionnaire.
+* She asked me if I would give her English lessons.
+* I know it's asking a lot to expect them to win again.
+* He was asked to make a speech at the ceremony.

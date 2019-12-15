@@ -1247,6 +1247,9 @@ By the end of this month, the system will have worked for one year continuously.
 Next month, I will have been working at this company for ten years.
 Later, you will have received the message from me.
 
+* 主句一般将来时，从句可以是一般现在/现在完成时
+As soon as she has known her health examination result, she will let me know.
+
 #L62: After the Fire
 * 过去完成时 had done
 When I went to the office yesterday, my boss had been there.
@@ -1311,7 +1314,7 @@ I wonder when he will arrive.
 I wonder why the people of this country are so lazy.
 
 # L64: The Channel Tunnel
-##虚拟语气与假设条件句的区别在于: 虚拟语气是已经发生了的
+##虚拟语气与假设条件句的区别在于: 虚拟语气是已经发生了的(非真实条件句)
 * if一般条件句(现在时), 表示将来很可能发生的事
 If you park your car in the wrong place, a traffic policeman will soon find it.
 You'll miss the train, if you don't hurry.
@@ -1330,7 +1333,7 @@ You had got a good health If you would have had good exercise.
 If I had got up early this morning, I would have felt comfortable.
 
 * 虚拟语气: 将来事实相反(是指将来发生的可能性很小, 或低概率事件)
-If would hire a foreign coach, the football team of China could enter the World Cup finals.
+If they could hire a foreign coach, the football team of China would enter the World Cup finals.
 If I could go to the USA tomorrow, I would watch the NBA game.
 
 * 过去将来时: would be... (会...)

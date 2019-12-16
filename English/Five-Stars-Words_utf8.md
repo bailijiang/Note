@@ -496,10 +496,37 @@ n.
 * The plane remained on the ground.
 
 ####beat
-
+* My wife tried to stop them and they beat her.
+* There was dead silence but for a fly beating against the glass.
+* I felt my heart beating faster.
+* When you beat the drum, you feel good.
+* Beating their wings they flew off.
+* In yesterday's games, Switzerland beat the United States two-one.
+* He beat me at chess.
+* The government's main aim is to beat inflation.
+* They want to beat the speed record (= go faster than anyone before).
+* If we go early we should beat the traffic.
+* Somebody was beating at the door.
+* Beat the flour and milk together.
+* The gold is beaten out into thin strips.
+* Can you beat time to this music?
+n.
+* It's got four beats to a bar. (music: rhythm)
+spoken.
+* Beats me why he wants such a big car. (do not know)
 
 ####decide
-
+* I can't decide what to do.
+* It was difficult to decide between the various options.
+* Has anything been decided yet?
+* Tina’s decided to go to Rome for her holidays.
+* It was decided that four hospitals should close.
+* I can’t decide whether I like him or not.
+* People have a right to decide how to spend their own money.
+* It was the penalty kick that decided the match.
+* Taxes could be the deciding factor for millions of floating voters.
+* I couldn't decide whether he was incredibly brave or just insane.
+* I don't know what finally decided on her, but she agreed.
 
 ####call
 

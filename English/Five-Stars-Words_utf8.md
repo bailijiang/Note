@@ -529,16 +529,74 @@ spoken.
 * I don't know what finally decided on her, but she agreed.
 
 ####call
-
+* I’ll call you soon.
+* I’ll call back later.
+* Would you call me as soon as you find out?
+* Are you calling me a liar?
+* I wouldn't call it a burden; I call it a responsibility.
+* The arrow that appears on the screen is called a cursor.
+* What are you going to call the new puppy?
+* The Security Council has called an emergency session to discuss the crisis.
+* I heard someone calling in the distance.
+* I thought I’d call by and see how you were.
+* He was out when I called to see him.  
+* Everybody called each other by their surnames.
+* He screamed for his wife to call an ambulance.
+* She called out to her father for help.
+n.
+* I got a call from him late yesterday evening.
 
 ####act
-
+* He claims he acted in self-defence.
+* The girl's life was saved because the doctors acted so promptly.
+* Stop acting like spoilt children!
+* I decided to act dumb. (pretend)
+* Have you ever acted?
+* Most of the cast act well.
+* Can you act as interpreter?
+* Alcohol acts quickly on the brain.
+* It took a few minutes for the drug to act.
+n.
+* a criminal act
+* He does a little novelty act.  
+* He does a little song-and-dance act.
+* You could tell she was just putting on an act.
 
 ####deal
-
+* New laws were introduced to deal with the issue.
+* I certainly don't deal drugs.
+* Start by dealing out ten cards to each player.
+* The two issues should be dealt with separately.
+n.
+* They made a deal to sell the land to a property developer.
+* It took a great deal of time and effort.
+* OK, it’s a deal.
+* I got a very good deal on my new car.
 
 ####open
-
+* Jack opened the window.
+* He opened the window and looked out.
+* The doors of the bus open automatically.
+* Shall I open another bottle?
+* He hardly ever opens his mouth (= speaks).
+* Open your books at page 25.
+* What if the parachute doesn't open?
+* The flowers are starting to open.
+* When did the country open its borders?
+* What time does the bank open?
+* You need just one pound to open a bank account with us.
+* ‘Open up!’ He hammered on the door.
+adj.
+* There was open ground at the end of the lane.
+* The president was riding with his wife in an open car.
+* He threw the door open and ran down the stairs.
+* I was so sleepy, I couldn’t keep my eyes open.
+* The dancing was outside, in the open air.
+* The offices are also open at weekends.
+* In many schools, governors’ meetings are not open to the public.
+* The job is being kept open for her.
+* A wasp flew in the open window.
+* Leave the envelope open.
 
 ####develop
 

@@ -1457,6 +1457,7 @@ After having been fired, he decided to sue the company for unpaid wages.
 # L70: Red for danger
 * 与 for, with, of, to, at, from, in, on, about 连用的形容词(形容词词组)
   be unaware of / busy with / sensitive to / sure of / sorry for 
+  形容词 + 介词 + 名词/动名词(短语/从句)
 
 I'm wondering who should be responsible for this fault.
 I was unaware of the difficulty of the job.

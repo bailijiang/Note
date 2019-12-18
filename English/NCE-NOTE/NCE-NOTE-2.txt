@@ -1570,7 +1570,7 @@ Are you sure that they live in Beijing?
 * ... as far as ... 能够达到的程度 / 就...而言 (连词，与距离无关)
 My boss who lies to me is very dishonorable. A whole day's lying is usually as far as he gets.
 As far as I can see, there's nothing else to discuss.
-I only do this as far as I can.
+I have just done as far as I can do.
 
 * in the meantime 在这期间(与此同时)
 I had dinner last night, in the meantime, it began to snow.
@@ -1588,7 +1588,7 @@ When we had finished dinner, my girlfriend appeared.
 
 * 虚拟语气(与事实相反): 
   原理：以 现在/过去 的时间为基准点，往前推一个时态(现在时->过去时，过去时->过去完成时) 
-I didn't feel bad if I had drunk less.
+I would not feel bad if I had drunk less.
 She looked at me as if I had been a stranger.
 If she had had time, I would have asked her to have dinner yesterday.
 

@@ -1714,16 +1714,19 @@ I have changed into sports clothes and ready to play basketball.
 The bridge is over the river.
 She is walking toward me.
 When she looked towards me, I smiled and waved.
+He could hear shouting in the camp itself. (itself: camp 同位语反身代词,起强调作用)
 
 #L82: Monster of fish?
 ##被动语态(可应用在各种时态中)
 These bicycles are made in Shanghai.
-My head used to be beaten by the boy in 2014.
+My head had been beaten by the boy in 2014.
+I used to be bullied by neighbors before.
 He told me that he was being bullied.
 I asked her if she was bullied by the other children.
 I will be asked many questions during the interview next month.
 The team of Hongkong has been eliminated in the world cup.
 The flying saucer which has at times been sighted are artificial drones.
+That tree was found to be over 100 meters tall.
 
 #L83: After the elections
 ##时态 复习(过去时/进行时/完成时...)
@@ -1735,7 +1738,7 @@ But after we were getting ready to change locations, we just kind of realized, w
 ##将来时 will be / be going to do (计划性强)
 I will find a job next month.
 I am going to finish the NCE studying course this year.
-Our firm has stated that we will continue developing this robot until the client's needs are reached about its running performance and low manufacturing costs.
+Our firm has stated that we will be developing this robot continuously until the needs of the client are approached for its running performance and low manufacturing costs.
 I'm going to find it difficult to get to work.
 
 * extent

@@ -243,13 +243,13 @@
 
 <a id="own"></a>
 ####own
-adj:
+* adj:
 * My wife decided I should have my own shop.
 * Bring your own equipment.
 * She makes a lot of her own clothes.
 * I've been living on my own for four years now.
 * I'm only telling you this for your own good.
-v:
+* v:
 * The building is owned by the local council.
 * She acts like she owns the place.
 * Do you own your house or do you rent it?
@@ -416,7 +416,7 @@ v:
 * This barrel holds 25 litres.
 * Who holds the world record for the long jump?
 * Hold your fire! (= don't shoot)
-n.
+* n.
 * A fire had been reported in the cargo hold.(on ship/plane/aircraft)
 
 <a id="offer"></a>
@@ -428,7 +428,7 @@ n.
 * He felt he had nothing to offer her that she wanted.
 * Peter offered to teach them water-skiing.
 * She offered drinks to her guests.
-n.
+* n.
 * I can't turn down the offer of a free trip to Milan!
 * His offer to resign will be accepted.
 
@@ -466,7 +466,7 @@ n.
 * The weather has turned cold.
 * He turned to the study and practice of medicine.
 * A prince turns into a frog in this cartoon fairytale.
-n.
+* n.
 * The scandal took a new turn over the weekend.
 * Can I have a turn?
 
@@ -492,7 +492,7 @@ n.
 * The earthquake has so far claimed over 3,000 lives.
 * He claimed that it was all a conspiracy against him.
 * A most unwelcome event claimed his attention. 
-n.
+* n.
 * The singer has denied the magazine's claim that she is leaving the band.
 * They had no claim on the land.
 * You can make a claim on your insurance policy.
@@ -538,9 +538,9 @@ n.
 * Beat the flour and milk together.
 * The gold is beaten out into thin strips.
 * Can you beat time to this music?
-n.
+* n.
 * It's got four beats to a bar. (music: rhythm)
-spoken.
+* spoken.
 * Beats me why he wants such a big car. (do not know)
 
 <a id="decide"></a>
@@ -573,7 +573,7 @@ spoken.
 * Everybody called each other by their surnames.
 * He screamed for his wife to call an ambulance.
 * She called out to her father for help.
-n.
+* n.
 * I got a call from him late yesterday evening.
 
 <a id="act"></a>
@@ -587,7 +587,7 @@ n.
 * Can you act as interpreter?
 * Alcohol acts quickly on the brain.
 * It took a few minutes for the drug to act.
-n.
+* n.
 * a criminal act
 * He does a little novelty act.  
 * He does a little song-and-dance act.
@@ -599,7 +599,7 @@ n.
 * I certainly don't deal drugs.
 * Start by dealing out ten cards to each player.
 * The two issues should be dealt with separately.
-n.
+* n.
 * They made a deal to sell the land to a property developer.
 * It took a great deal of time and effort.
 * OK, it’s a deal.
@@ -619,7 +619,7 @@ n.
 * What time does the bank open?
 * You need just one pound to open a bank account with us.
 * ‘Open up!’ He hammered on the door.
-adj.
+* adj.
 * There was open ground at the end of the lane.
 * The president was riding with his wife in an open car.
 * He threw the door open and ran down the stairs.
@@ -662,7 +662,7 @@ adj.
 * He tried to force the window open but it was jammed shut.
 * She forced herself to be polite to them.
 * We had to force the lock.
-n.
+* n.
 * The riots were suppressed by government forces.
 * Peace cannot be imposed by force.
 * The police used force to overpower the demonstrators.

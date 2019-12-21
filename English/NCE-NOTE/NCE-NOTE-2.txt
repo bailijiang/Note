@@ -1775,10 +1775,11 @@ He asked me, "Where did you buy this Chinese-English dictionary?"
 He asked me where I had bought that Chinese-English dictionary.
 She asked, "Are you handsome?"
 She asked me whether I am handsome.
-I suggest that you have been taken off the quality of the match.
+Let me remind you that you have been disqualified from the match.
+He suggested that you should bribe him $1,000.
 
 #L88: Trapped in a mine
-##if虚拟语气:
+##if虚拟语气: 非真实条件句
   - 与 现在 / 过去 事实相反: 已经发生的
   - 将来:  发生概率很小 
 If I had the money now, I would buy a new car. (与现在事实相反)

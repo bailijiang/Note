@@ -1,13 +1,27 @@
 ﻿#L1: a puma at large
 ##复杂句Complex(从句): 通过连接词判断主从句之间的关系
-##被动语态: 表达事实的客观性
+* 同位语从句 which/that... 不需要跟在被修饰词后面(可以后置/夹在主句中间,补充信息)
+* 从句连接方式: 
+  - when/where/who/what/how/that/which
+  - as/for
+  - 逗号,
+  - Although/but/However/and/or/Wherever/Whenever/Whoever/Whatever
+  - not only... but...as well/either...or/neither...nor
+  - to do / doing / done...
+  - after/before
+The cat I saw yesterday (that) looked very pitiful.
+That house is so shabby which I have already sold it last year.
+When that bug appeared at the program which could destroy the whole system, the programmers were not taken seriously.
+
+* 被动语态: 表达事实的客观性
 I had been cheated 20,000 yuan for my house decorating.
 These people's brain had been eaten by zombies.
-##cling clung clung: 抓住 / 粘在(客观) / 固执坚持(主观)
+
+* cling clung clung: 抓住 / 粘在(客观) / 固执坚持(主观)
 His wet shirt clung to his body.
 They're clinging to the past.
 
-* ... where/when sb doing... did...
+* ... where/when sb (was/were) doing... did...
 The investigation by police began in an office where a worker cleaning it fond a corpse under the table.
 
 * It is disturbing to think that...
@@ -21,6 +35,7 @@ They always stay up until midnight.
 Many people of this country is always smoke all day.
 He never exercises since I knew him.
 They argue continually about money.
+They are continually arguing about money.
 
 * whom
 The car in my way whom I recognized as my neighbor's.

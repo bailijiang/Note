@@ -138,6 +138,7 @@
 * I had heard an appeal could take years.
 * Do you take sugar in your coffee?
 * Take 5 from 12 and you're left with 7.
+* The Statue of Liberty was taken to pieces and sent to America.
 * take a seat / take care / take a pill
 
 <a id="get"></a>
@@ -377,6 +378,8 @@
 * I never carry much money about me.
 * Love for art carried him abroad.
 * Three pillars carries the whole roof.
+* Which minister carries responsibility for the police?
+* Do you want to carry the whole game?
 
 <a id="draw"></a>
 ####draw

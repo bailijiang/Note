@@ -43,6 +43,7 @@
 - [look](#look)
 - [send](#send)
 - [ask](#ask)
+- [run](#run)
 
 <!-- /MarkdownTOC -->
 
@@ -434,6 +435,7 @@
 * n.
 * I can't turn down the offer of a free trip to Milan!
 * His offer to resign will be accepted.
+* I wish that the company would give me an offer.
 
 <a id="expect"></a>
 ####expect
@@ -443,7 +445,6 @@
 * He wasn't expecting our hospitality.
 * I do expect to have some time to myself in the evenings.
 * I do expect to get a decent job next month.
-
 * I expect to be back within a week.
 * Emergency repairs were expected to take three weeks.
 * I didn’t expect him to stay so long.
@@ -773,3 +774,36 @@
 * She asked me if I would give her English lessons.
 * I know it's asking a lot to expect them to win again.
 * He was asked to make a speech at the ceremony.
+
+<a id="run"></a>
+####run
+* run/rʌn/ ran/ræn/ run running runs
+* I ran down the stairs as fast as I could.
+* He was running towards the door.
+* She turned and ran away.
+* The children came running out of the house.
+* I’d never run a marathon before.
+* For a while, she ran a restaurant in Boston.
+* Many people don’t care who runs the country.
+* Run and ask your mother where she’s put the keys.
+* The buses don’t run on Sundays.
+* The software will run on any PC.
+* She got out of the car and left the engine running.
+* She didn’t realize the tape was running as she spoke.
+* He pushed the play button again and ran the tape.
+* The company is running a series of advertisements in national newspapers.
+* A local TV station ran her story.
+* Her car ran off the road and into a tree.
+* The hallway ran the length of the villa.
+* His stepfather ran a prosperous paint business.
+* You must have left a tap running in the bathroom.
+* All sorts of thoughts were running through my head.
+* A buzz of excitement ran through the crowd.
+* n.
+* a five-mile run
+* They took the car out for a run.
+* a run of good/bad luck
+* I usually eat breakfast on the run.
+* I’m going on a fun run tomorrow.
+* Let’s go for a run before dinner.
+* She took the stairs at a run.

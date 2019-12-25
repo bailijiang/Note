@@ -47,11 +47,17 @@ She was wearing the coat whom I recognized as mine.
   - has/have/had been done
   - must have been done
 Those cheeses were bought for making a cake.
-I wonder why those cheeses still have not been sent to my home and I guess they must have been delayed by the express. 
+I wonder why those cheeses still have not been sent to my home and I guess they must have been delayed by the express.
+
+* able/unable to do
+So far, I have been unable to solve this problem.
+We had been able to solve this problem yesterday.
 
 * must have done : ...一定是...(对过去某事的推测)
 Where could my mom put my headphones? She must have lost it at the Airport.
-Look at this, my house's lock must have cracked by a thief.
+It must have been stolen at the airport.
+Look at this, my house's lock must have been picked by a thief.
+This area at one time must have been graves, for a great many crows fly here for the night every day.
 
 #L4: The double life of Alfred Bloggs
 ##现在完成时 have/has been
@@ -68,6 +74,9 @@ I'm very tired, I've been working all day.
 I've been keeping to sing for five years.
 I've been keeping to eat an apple every morning for ten years.
 
+* as much as
+His salary is half as much as mine.
+
 #L5: The facts
 ##过去完成时的被动语态: had been done 
 I had been instructed on fitness by a personal trainer in a gym.
@@ -77,7 +86,11 @@ Not only had he been arrested, but he had been executed.
 
 He had at last been allowed to telephone his parents informing that he had been arrested by stealing money.
 Not only had she not been convinced by the police, but she had been irritated at all.
-This project had originally been considered to have great development.
+This project had originally been considered of great development.
+
+* in which = where
+This is the city in which I was born. (强调)
+This is the city where I was born.
 
 #L6: Smash-and-grab
 ##过去进行时 were/was doing

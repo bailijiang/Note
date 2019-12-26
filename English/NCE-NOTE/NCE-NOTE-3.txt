@@ -123,7 +123,7 @@ Cats love to chew up fish.
 * whose
 I saw a man shouting at a driver whose car was blocking the street.
 I saw a woman shouting at a man whose car is blocking her's.
-She told me about that guy whose hands had been mutilated by an accident.
+She told me that she knew that guy whose hands had been mutilated by an accident.
 
 * went doing / went to do
 We went swimming last night. (不及物v. go doing)
@@ -169,6 +169,8 @@ Where ever did you pick that up?
 Why ever did you go there?
 What ever did you do?
 
+* minus thirty degrees Centigrade/Celsius/Fahrenheit
+
 #L9: Flying cats
 * the more...the more...: 越...越...
   the further...the less
@@ -198,18 +200,27 @@ This highway leads to the airport.
 I have led the team to accomplish the project.
 The ability of coding could lead to a career in a programmer.
 
+* How do you try to protect your children when they were being bullied?
+
 #L10: The loss of the Titanic
 ##过去完成时 had done
 His life had already been ruined by his father.
 These people's conscience had already been eaten by dogs.
 All people's brain had been eaten by zombies.
-Before yesterday, the world record of man's 100 meters race had never been broken since 1989.  
+The world record of man's 100 meters race had been broken yesterday.
 She had narrowly caught the flight.
 
 * even if 即使
 I will recite this text even if I'm so tired.
 I'm still learning English even if I'm forty years old.
 This car is not only the fastest car that had ever been built but was regarded as the coolest, for it has been a concept car, even if you have a lot of money, you can't buy it.
+
+* if only (虚拟语气:与过去事实相反)
+What would have happened if only two of these people had been convinced to buy the house?
+What would have happened to you if you had been arrested in that incident?
+
+* instead of 反而
+Instead of admitting, she was debating in court.
 
 #L11: Not guilty
 ##副词的用法: really/recently/particularly/clearly/confidently/carefully/suddenly/sarcastically/encouragingly

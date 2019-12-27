@@ -2,8 +2,8 @@ Section::Topic::Q&A
 
 <!-- MarkdownTOC -->
 
-- [1. Daily life](#1-daily-life)
-- [2. Travel](#2-travel)
+- [1. Personality/Self-introduction](#1-personalityself-introduction)
+- [2. Daily life](#2-daily-life)
 - [3. Hobby/Habit](#3-hobbyhabit)
 - [4. Work/Interview](#4-workinterview)
 - [5. School/Learning](#5-schoollearning)
@@ -11,23 +11,31 @@ Section::Topic::Q&A
 - [7. Shopping](#7-shopping)
 - [8. Nature/Climate/Geography](#8-natureclimategeography)
 - [9. Dream/Ideal/Wish/Expect](#9-dreamidealwishexpect)
-- [10. Personality/Self-introduction](#10-personalityself-introduction)
+- [10. Travel](#10-travel)
 
 <!-- /MarkdownTOC -->
 
 
-<a id="1-daily-life"></a>
-####1. Daily life
+<a id="1-personalityself-introduction"></a>
+####1. Personality/Self-introduction
+* Character
+    - Q: 
+    - A: 
+* Experience
+    - Q: 
+    - A: 
+* Stages
+    - Q: 
+    - A: 
+
+<a id="2-daily-life"></a>
+####2. Daily life
 * Food
     - Q: 
     - A: 
 * Cloth
     - Q: 
     - A: 
-
-<a id="2-travel"></a>
-####2. Travel
-
 
 <a id="3-hobbyhabit"></a>
 ####3. Hobby/Habit
@@ -66,7 +74,7 @@ Section::Topic::Q&A
 * 
 
 
-<a id="10-personalityself-introduction"></a>
-####10. Personality/Self-introduction
+<a id="10-travel"></a>
+####10. Travel
 *
 *

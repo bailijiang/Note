@@ -160,6 +160,8 @@
 * His lack of social life was beginning to get him down.
 * News like this soon gets round.
 * The woman was so fat that she couldn't get through the doorway.
+* What time are you getting your train?
+* Before getting aboard the airplane, the Customs Officer would go through the case thoroughly.
 * get on / get off / get out / get round / get up / get through
 
 <a id="put"></a>
@@ -301,7 +303,6 @@
 * I don’t think all that will go in the suitcase.(fit)
 * The email went to everyone in the company.
 * The preparations have been completed and we’re ready to go.
-
 * go after / go about / go through / go ahead with / go away / go back / go down / go on / go to
 * I want to learn German but I don’t know the best way to go about it.(start)
 * The road goes through the middle of the forest.

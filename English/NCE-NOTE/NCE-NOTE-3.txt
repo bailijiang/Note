@@ -223,10 +223,11 @@ What would have happened to you if you had been arrested in that incident?
 Instead of admitting, she was debating in court.
 
 #L11: Not guilty
-##副词的用法: really/recently/particularly/clearly/confidently/carefully/suddenly/sarcastically/encouragingly
-'Please get out my way, I'm in a hurry', I claimed encouragingly
+##副词的用法: really/recently/particularly/clearly/confidently/carefully/suddenly/sarcastically/encouragingly/thoroughly
+'Please get out my way, I'm in a hurry', I claimed encouragingly.
 A particularly officious neighbor is clearly annoying.
 'You did a good job, eh?' he said sarcastically.
+Before getting aboard the airplane, the Customs Officer would go through the case thoroughly.
 
 ##形容词的用法: guilty/tolerant/hardened/officious/dreadful/exempt/precious
 I feel so guilty, leaving all this to you.

@@ -25,7 +25,15 @@ Section::Topic::Q&A
     - Q: 
     - A: 
 * Stages
+    - Q: What was your childhood like?
+    - A: 
+* Life Style
     - Q: 
+    - A: 
+* Self-introduction
+    - Q: Please introduce yourself briefly.
+    - A: My name is Bryan and I was born in Beijing. I'm Chinese and I'm 40 years old now. 
+    - Q: How many people are there in your family?
     - A: 
 
 <a id="2-daily-life"></a>

@@ -300,7 +300,8 @@ The weather is very cold, raining a little outside.
 We have had a very good dinner, listening to the gracious music.
 She looks very beautiful, emitting a charming perfume.
 
-##形容词adj. + to do ...
+##to do (使动词变为名词/名词短语) 作 宾语/主语 使用
+  形容词adj. + to do ...
 She is easy enough to be cheated.
 I'm glad to hear this.
 It was silly of us to believe you.
@@ -314,6 +315,10 @@ He said he would be taking part in a competition.
 
 * consist of : 由...组成
 The cake I had just made consisted of eggs, flour, and cheese.
+
+* know/realize that it must be...
+I knew that it must be my boss's phone.
+I realized that it must be that bug to lead the system failure.
 
 #L14: A noble gangster
 ##would rather do... than... (不带to的不定式): 宁可做...而不做...

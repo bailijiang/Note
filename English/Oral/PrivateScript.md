@@ -18,10 +18,24 @@ Section::Topic::Q&A
 
 <a id="1-personalityself-introduction"></a>
 ####1. Personality/Self-introduction
+* Self-introduction
+    - Q: Please introduce yourself briefly(So tell me yourself.).
+    - A: My name is Bryan.  
+         I'm from China and I was born in Beijing.   
+         I'm Chinese and I'm 40 years old now.  
+         I live in Beijing now and I spent most of my life here.     
+         Till now, I have graduated from BUAA(Beihang) University for 3 years and my major is Computer Science and Technology.  
+         Now I'm a programmer at an entrepreneurial firm.  
+         Since graduation, I have had over 15 years of work experience.   
+         My hobbies are very extensive. I like sports, music, movies, games, and reading.     
+         I enjoy playing basketball with others very much, so I am playing it continually for 20 years and I believe I'm good at it.        
+    - Q: How many people are there in your family?
+    - A: 
+
 * Character
     - Q: 
     - A: 
-* Experience
+* Experience(Story)
     - Q: 
     - A: 
 * Stages
@@ -29,11 +43,6 @@ Section::Topic::Q&A
     - A: 
 * Life Style
     - Q: 
-    - A: 
-* Self-introduction
-    - Q: Please introduce yourself briefly.
-    - A: My name is Bryan and I was born in Beijing. I'm Chinese and I'm 40 years old now. 
-    - Q: How many people are there in your family?
     - A: 
 
 <a id="2-daily-life"></a>
@@ -56,7 +65,9 @@ Section::Topic::Q&A
 
 <a id="4-workinterview"></a>
 ####4. Work/Interview
-
+* Work experience/Story(STAR: Situation, Task, Action, Result)
+    - Q: 
+    - A: 
 
 <a id="5-schoollearning"></a>
 ####5. School/Learning

@@ -116,7 +116,7 @@ Yesterday, I bought some beer and a piece of cake.
 I saw a boy jumping a building, and then the boy dead.
 
 * 用在可数名词前，表示数量的修饰词：a/an, the, some, a few, many, a great number of, a great many, lots of
-a meal, an eggs, some books, a few words,
+a meal, an egg, some books, a few words,
 many pictures, a great number of students,
 a great many places, lots of things
 
@@ -381,7 +381,8 @@ One must be careful these days.== You must be careful these days.
 I had to take her to the hospital yesterday.
 Do you have got to leave now?
 I will have to check my car tomorrow morning. 
-I must be infected when I went home by subway.
+He must be a fool.
+I must have been infected when I went home by subway.
 
 
 * as 作为/当...
@@ -429,17 +430,20 @@ I have a cold.
   can/could: 能，可以
   may/might: 允许；可能、也许
   may/might as well: 还是
+  may/might have done: 也许已经...
 
 I think she may go on a business trip but I'm not sure.
 I feel that I could move that wardrobe myself, but I was wrong.
 As it's raining outside, I can't go anywhere, so I might as well go to sleep.
+He might have gone abroad, but I'm not sure.
 
 #L20: One man in a boat
 * 动名词 ing (动词当名词用): 
   - 做主语: Doing...
   - 做宾语: ... of/on/in/for doing...
-  - 连接从句: 可以与介词组成介宾短语,作副词从句(状语从句)来修饰主句动词
+  - 连接从句: 可以与介词组成介宾短语
              without / Before / After ... + doing ...
+* 现在分词: 连接副词从句(状语从句)来修饰主句动词
 
 Drinking is my only vice.
 Reading and exercising are my favorites things to do.
@@ -536,6 +540,7 @@ Neither you nor he is good people.
 I find it that I go to Shunyi neither by car nor by subway is comfortable.
 Driving to Shunyi not only cost too much but very tired as well.
 She's looking not only very beautiful but very sexy also.
+You can neither confirm nor deny.
 
 * wonder
 I wonder at his rudeness.
@@ -554,9 +559,11 @@ No wonder!
 She always hurry to finish that unimportant things.
 The air of the city often fill with heavy haze.
 
-* 感官动词一般不用在进行时: appear, appreciate, believe, feel, forget, hear, know, like, look like, notice, remember, resemble, see, think(that), understand
-I see a boy suicide by jumping a building.
-I hear that the price of the house will be decreased.
+* 感官动词在表示经常发生的事时，一般不用进行时: appear, appreciate, believe, feel, forget, hear, know, like, look like, notice, remember, resemble, see, think(that), understand
+I always smell some strange odor.
+She said she often sees a boy follow her quietly.
+I hear that you like rock music.
+I remember Tom very well. Do you know him?
 
 * 宾语从句
   whether...(or not) 从句使用陈述句语序
@@ -571,6 +578,7 @@ The river wound its way beside my home.
 She came into the hotel and sat to the same table with me.
 He wasn't at work this morning.
 I went to the theatre last night.
+He had leapt from a window in the building and escaped.
 
 * put up
 to put up a flag
@@ -648,12 +656,13 @@ He took the book with him when he left.
 I asked him to go to my room and fetch my glasses.
 
 #L30: Football or polo?
-* some, any
+* some 肯定
+  any  否定/疑问
 Is there any problem?
 Is there any tea in the bottle?
 No, there isn't any tea in the bottle, there is some tea in the jug.
-Would you give me some water?
-Do you know where can buy some food?
+Would you give me any/some water?
+Do you know where can buy any/some food?
 There isn't any food and water.
 
 * so...that...
@@ -681,13 +690,14 @@ It's a great pleasure to talk to you.
 
 #L32: Shopping made easy
 * as...as...: 像...一样
-  not so + adj + as ... : 不如... 那样
+  not so + adj + as ... : 不如... 那样(可以用比较级来代替)
 These people are as stupid as a pig.
 Today's work is as too much as usual for me.
 She is not as/so intelligent as we think.
 People are not so honest as they once were.
 It's not so easy as I thought.
 The film is not so interesting as I expected.
+The film is less interesting than I expected.
 
 #L33: Out of the darkness
 * 带介词的短语: to, from, into, out of, for, towards, at 
@@ -719,13 +729,15 @@ The phone had rung for one minute before someone answered it.
         - have/has been done
         - had been done
         - will be done
-        - ... to be done
+        - ... to be done : ...(让人)把...怎么样
 He was hit by a car.
 I was told that the tickets have been sold out yet.
 The air of this city is being polluted now.
 I have to tell you that you had already been cheated by him when your car was being repaired. 
 If you don't study hard you will be eliminated.
 I expected him to be arrested because my money was stolen by him.
+I need the house to be repaired. 
+He wants the car to be painted. 
 
 #L35: Stop thief!
 * such + n + that... : 如此...以至于... (引导副词从句)
@@ -752,8 +764,10 @@ A short while ago / Shortly afterwards
 #L36: Across the Channel
 * be going to do...: 打算做什么(主观愿望)
   will be doing...: 将要做什么(主观较弱)
+  ...will be... if ... : if条件句中，不能用 be going to do
 I'm going to cook chicken myself tomorrow.
 They will be driving through the highway at night.
+You will enjoy yourself if you travel by sea.
 
 * ... , who/which... 是非限制性的名词从句，是一种补充说明
 This kind of beer is very delicious, which has just bought by myself.
@@ -763,8 +777,11 @@ Next month she will start her new job in Shanghai, which is her birthplace.
 #L37: The Olympic Games
 * 将来完成时: will + has/have + Ven ... +(by)...
 * 将来进行时: will be doing
-I will be finished all the study courses this month.
+* 将被: will be done
+I will have finished all the study courses this month.
 He will be working at this company for a couple of months.
+He said he will be seeing you tomorrow.
+There will be held a great concert in this city.
 
 #L38: Everything Except the Weather
 * 过去完成时: had done
@@ -805,13 +822,17 @@ They quarreled continually. (频率高)
 They have quarreled continuously for more than an hour. (连续不断)
 
 #L39: Am I all right?
-* 间接引语: ask (sb) if / ask when / ask sb to do whether
-           He asked if/whether/when/why...
-The vice president asked me if I would go to work now.
-My mother asked me when I go to work.
-My boss asked you to tell me whether you had finished your work.
+* 间接引语(转述): 
+      ask (sb) if / ask when
+      He asked if/whether/when/why...
+      ask sb to tell... whether...
+The vice president asked if you would go to work now.
+My mother asked when I go to work.
+She asked if you had ever been abroad.
+Clair asked why you hadn't written to her.
+She asked me to tell her whether I had watched that movie.
 
-* so 做代词
+* so 做代词: 这样，所以
 Can you go abroad to work? I don't think so.
 So be good.
 He hopes he will win and I hope so too.
@@ -819,8 +840,7 @@ If you say so, I'll have to believe it.
 Are you ready? If so, let's go.
 
 #L40: Food and Talk
-* will be doing... 将来进行时
-  will do: 是将来时态，指将来某个时间要做的事情。
+* will do: 是将来时态，指将来某个时间要做的事情。
   will be doing: 是将来进行时态，指将来某个时间正在做某事。
   常用的时间状语: Soon,tomorrow,this evening,on Sunday,by this time,tomorrow,in two days,tomorrow evening
 I will be working soon.
@@ -829,8 +849,8 @@ I will study English (in the future).
 I will be studying English at universty this time next year.
 
 * if虚拟语气 与 if条件句
-  if虚拟语气: if was/were...I would be...
-  if条件句: if do..., I will...
+  if虚拟语气: if was/were...I would be... (已经发生的)
+  if条件句: if do..., I will... (没有发生的)
 If I finished my stuff, I would do what I should do.
 If you don't take your key, you will not be able to enter the room.
 
@@ -850,13 +870,14 @@ He could have come if his car had not broken down on the road.
 It would have been different if you had helped.
 
 #L41: Do You Call That a Hat?
-* mustn't 不应该
+* mustn't 不应该(责备)
   needn't 不必
   need 作为情态动词时，只能用于疑问或否定句，后接动词原形，肯定句中用 must, have to, ought to, should
 
 You needn't buy so many pairs of sports shoes.
 I know, but I can't help but be tempted by them.
 I have to control myself do not to be tempted.
+I feel that I can never have too many basketball shoes.
 
 #L42: Not very musical
 * have + (可加形容词)表示动作的名词/名词短语 == verb  
@@ -897,18 +918,23 @@ He didn't agree with me at first, but in the end I was able to persuade him.
 He was able to leave Europe before the war began.
 Will you be able to come tomorrow?
 I have not been able to go to work for three days.
+I was able to drive to Shunyi yesterday and I took everything I need.
 
-* It seeded certain that...
+* It seemed certain that...
 At that moment, it seemed certain that they would win the game.
 
 #L44: Through the forest
 * was/were doing ... 过去进行时
 It began to rain when I was sleeping last night.
 I was learning English when they were having dinner yesterday.
-
+  
 * 动名词: 是具有持续性动作含义的名词
+  start/need/begin/continue/hate/love/like/want... + doing
 I love staying at home when it's raining.
 I'm used to getting up early.
+I'm looking forward to seeing him tomorrow.
+The men started running through the trees.
+They began running. 
 
 #L45: A Clear Conscience
 * 被动语态:
@@ -924,7 +950,7 @@ He had an accident while driving to the airport.
 
 #L46: Expensive and Uncomfortable
 * 动词后面接 To, At, For, With
-I was appealed to that song.
+Farmers have appealed to the government for help.
 He was condemned to death.
 She had been confined to a huge pit for three days.
 When I was looking at her, she glanced at me with shy.
@@ -938,7 +964,7 @@ It must amuse at myself to compose a song.
 It will challenge me to find a good job in a short time.
 
 #L47: A Thirsty Ghost
-* 名词从句: which, that
+* 名词从句: which, that, who
 He told me he can't go to sleep because he smelled a kind of subtle frowzy odor coming from the floor.
 She also said that she had loved the man who had already married.
 They also said they used to go to the restaurant which had closed. 
@@ -952,7 +978,7 @@ She then asked me whether I liked her.
 I asked her how's her health.
 
 * either...or: 要么...要么...
-During her interview, she either nod or shake.
+During her interview, she either nodded or shook.
 Most of the people in this country are either too hypocrisy or too stupid.
 
 * 常用动词make, do:
@@ -975,6 +1001,16 @@ Poverty sent me feeling very unhappy.
 Composing and singing sent me very happy.
 
 #L50: Taken for a Ride
+* 表习惯性动词(主观动词), 用一般现在时
+  belong to,consist of,contain,desire,detest,dislike,hate,hope,love,matter,mean,mind,need,want,wish...
+This box contains 48 matches.
+Those papers belong to me.
+He needs a new pair of shoes.
+I hate writting letters.
+I desire of living happily.
+I wish to make a complaint.
+I want to use English everywhere.
+
 * love doing / like doing:
 I love listening to music while working.
 I don't like being set up by my boss.
@@ -984,7 +1020,7 @@ I hate getting cold.
 * 连词 that, when, what, where
 Excuse me, can you tell me where am I?
 I don't know what to do.
-Please let us know when to start setting off.
+Please let us know when it is set off.
 Can you show me how to use the fax machine?
 According to my age, I realized that I must get married quickly.
 
@@ -993,6 +1029,13 @@ According to my age, I realized that I must get married quickly.
 I stand in the front of the ship to feel the sea breeze.
 
 #L51: Reward for Virtue
+* 动词过去式,过去分词(不规则动词)
+begin/began,write/wrote,forbid/forbade/forbidden,pay/paid,ring/rang,lead/led,hide/hid...
+
+* things : 情况，东西
+He has got a headache since yesterday, and now the things got badly.
+I love lots of things like singing, sporting, traveling and reading.
+
 * 从句连词 which, that, when, what
 I feel hungry, so I eat a bar of bread which I have just bought.
 When I asked her what she was doing, she said she did nothing.
@@ -1009,6 +1052,8 @@ I have just got home and I have been learning English all morning.
 I have been thinking for an hour about how to make lunch easier.
 It has not been easy because I need nutrition to remain balance.
 This is the most delicious I have ever had.
+I have rung you up five times since 7 o'clock.
+I have been ringing you up all morning
 
 #L53: Hot Snake
 * 过去完成时: had been
@@ -1042,8 +1087,13 @@ I was learning English in the morning when my express arrived.
 When I was learning English in the morning my express arrived.
 I was sleeping when she telephoned me and said that she would come to my home.
 
-* ...would (often) do...: 过去常常做...
-I would often go to the cinema and then I watch the movie at home.
+* 过去常常做...
+  ...would (often) do...: 
+  ...used to do...:
+  表示状态,反复,现在不做了时必须用 used to do, 不能用 would (大多数情况下用 used to do)
+I would often go to the cinema.
+I used to go to the cinema, but now I watched the movie at home.
+This sort of novel used to be very popular.
 
 * Done/Doing + ... : 分词短语(增加表达信息量)
 Taken the tools, I went into the garage starting to fix my car.
@@ -1081,6 +1131,7 @@ There is quite a little water in the bottle. (quite a little 很多)
   many: 很多, 修饰可数名词
 There isn't much beer, but you can have a little.
 There aren't many apples, but you can take a few.
+My car is much faster than any of its rivals.
 
 * a lot of = lots of : 大量的, 修饰可数和不可数名词
   a great deal of : 大量的, 修饰不可数名词
@@ -1094,22 +1145,23 @@ There is a lot of time to finish my work.
 I spent a great deal of time on this work.
 There are a great number of birds outside my window. 
 There are a great many students.
-There are a great many of my classmates
+There are a great many of my classmates.
 
 #L57: Can I Help You Madam?
 * 介词使用： at, in, off, with
-I sat on a bench at the park, with a book.
+I sat on a bench in the park, with a book.
 We appointed to meet at a coffee shop.
 At that moment, I was waiting for you in the street.
 Please take off your hat.
 I saw him got off the bus.
 I remember I was dressed in a casual T-shirt to the interview.
-The woman with a pair of glasses and the brown handbag is my wife.
+The woman with a pair of glasses and a brown handbag is my wife.
 Do you know that woman in the white dress?
 
 * doing 动名词与现在分词的区别: 看前面是否有介词
 I think of obsessing about video games is a vice.
 Before having dinner, I must finish the task today.
+I enjoyed myself drinking a cup of green tea before going to work in the morning.
 
 #L58: A Blessing in Disguise?
 * 被动语态(起强调作用)
@@ -1120,7 +1172,7 @@ He was offered the vacant post.
 * so far + 现在完成时
 So far, no one has beaten me in the basketball game.
 
-* 强调句 It is/was ...(被强调部分) that...
+* 强调句 It is/was ...(被强调部分) that/who...
 It was his selfish that my life was destroyed.
 It's she who put me at a disadvantage.
 It was in England that we first met.
@@ -1133,7 +1185,7 @@ This wrong decision has already claimed much damage to the company.
 * is said to
   It is said that...
 The classmate who has not seen many years is said to go abroad.
-It is said that if you buy a lottery ticket continuously, you will win the big prize.
+It is said that if you buy a lottery ticket continually with the same number, you will win the big prize.
 
 #L59: In or out?
 * 表示目的的几种方式(连词),后面连接副词从句(状语从句): to, in order to, so as to, so that, in order that
@@ -1171,7 +1223,7 @@ I'm coming to see you.
 He's arriving tomorrow.
 Are you leaving now?
 
-* 表示 条件/时间 的副词从句 用 一般现在时表将来, 主语用将来时
+* 表示 条件/时间 的副词从句 用 一般现在时表将来, 主句用将来时
 If I go outside this time, I will meet many people who annoyed me.
 They will pay a high price when the conditions permit.
 The moment you leave this tent, you will get a big surprise.
@@ -1183,6 +1235,7 @@ He will write to his friends as soon as he gets there.
 
 * 带从句的疑问句
 Does what she said come true?
+Did what he had done fix that problem?
 Is what you talked about the movie on?
 
 #L61: Trouble with the Hubble
@@ -1193,6 +1246,9 @@ The ceremony will be helding at 10 o'clock.
 By the end of this month, the system will have worked for one year continuously.
 Next month, I will have been working at this company for ten years.
 Later, you will have received the message from me.
+
+* 主句一般将来时，从句可以是一般现在/现在完成时
+As soon as she has known her health examination result, she will let me know.
 
 #L62: After the Fire
 * 过去完成时 had done
@@ -1258,7 +1314,7 @@ I wonder when he will arrive.
 I wonder why the people of this country are so lazy.
 
 # L64: The Channel Tunnel
-##虚拟语气与假设条件句的区别在于: 虚拟语气是已经发生了的
+##虚拟语气与假设条件句的区别在于: 虚拟语气是已经发生了的(非真实条件句)
 * if一般条件句(现在时), 表示将来很可能发生的事
 If you park your car in the wrong place, a traffic policeman will soon find it.
 You'll miss the train, if you don't hurry.
@@ -1277,7 +1333,7 @@ You had got a good health If you would have had good exercise.
 If I had got up early this morning, I would have felt comfortable.
 
 * 虚拟语气: 将来事实相反(是指将来发生的可能性很小, 或低概率事件)
-If would hire a foreign coach, the football team of China could enter the World Cup finals.
+If they could hire a foreign coach, the football team of China would enter the World Cup finals.
 If I could go to the USA tomorrow, I would watch the NBA game.
 
 * 过去将来时: would be... (会...)
@@ -1352,6 +1408,10 @@ I like watching TV.
 I'd like to watch TV.
 I enjoy playing basketball.
 I'm usually busy working in the morning.
+Fancy her treating me like that!
+I can't get over this trouble unless getting a decent job immediately.
+Would you mind closing the window?
+Why did he tell you that he is going to resign?
 
 He insisted on paying.
 I have to think of a way of preventing him from disturbing me consistently.
@@ -1397,6 +1457,7 @@ After having been fired, he decided to sue the company for unpaid wages.
 # L70: Red for danger
 * 与 for, with, of, to, at, from, in, on, about 连用的形容词(形容词词组)
   be unaware of / busy with / sensitive to / sure of / sorry for 
+  形容词 + 介词 + 名词/动名词(短语/从句)
 
 I'm wondering who should be responsible for this fault.
 I was unaware of the difficulty of the job.
@@ -1509,7 +1570,7 @@ Are you sure that they live in Beijing?
 * ... as far as ... 能够达到的程度 / 就...而言 (连词，与距离无关)
 My boss who lies to me is very dishonorable. A whole day's lying is usually as far as he gets.
 As far as I can see, there's nothing else to discuss.
-I only do this as far as I can.
+I have just done as far as I can do.
 
 * in the meantime 在这期间(与此同时)
 I had dinner last night, in the meantime, it began to snow.
@@ -1527,7 +1588,7 @@ When we had finished dinner, my girlfriend appeared.
 
 * 虚拟语气(与事实相反): 
   原理：以 现在/过去 的时间为基准点，往前推一个时态(现在时->过去时，过去时->过去完成时) 
-I didn't feel bad if I had drunk less.
+I would not feel bad if I had drunk less.
 She looked at me as if I had been a stranger.
 If she had had time, I would have asked her to have dinner yesterday.
 
@@ -1653,16 +1714,19 @@ I have changed into sports clothes and ready to play basketball.
 The bridge is over the river.
 She is walking toward me.
 When she looked towards me, I smiled and waved.
+He could hear shouting in the camp itself. (itself: camp 同位语反身代词,起强调作用)
 
 #L82: Monster of fish?
 ##被动语态(可应用在各种时态中)
 These bicycles are made in Shanghai.
-My head used to be beaten by the boy in 2014.
+My head had been beaten by the boy in 2014.
+I used to be bullied by neighbors before.
 He told me that he was being bullied.
 I asked her if she was bullied by the other children.
 I will be asked many questions during the interview next month.
 The team of Hongkong has been eliminated in the world cup.
 The flying saucer which has at times been sighted are artificial drones.
+That tree was found to be over 100 meters tall.
 
 #L83: After the elections
 ##时态 复习(过去时/进行时/完成时...)
@@ -1674,7 +1738,7 @@ But after we were getting ready to change locations, we just kind of realized, w
 ##将来时 will be / be going to do (计划性强)
 I will find a job next month.
 I am going to finish the NCE studying course this year.
-Our firm has stated that we will continue developing this robot until the client's needs are reached about its running performance and low manufacturing costs.
+Our firm has stated that we will be developing this robot continuously until the needs of the client are approached for its running performance and low manufacturing costs.
 I'm going to find it difficult to get to work.
 
 * extent
@@ -1711,10 +1775,11 @@ He asked me, "Where did you buy this Chinese-English dictionary?"
 He asked me where I had bought that Chinese-English dictionary.
 She asked, "Are you handsome?"
 She asked me whether I am handsome.
-I suggest that you have been taken off the quality of the match.
+Let me remind you that you have been disqualified from the match.
+He suggested that you should bribe him $1,000.
 
 #L88: Trapped in a mine
-##if虚拟语气:
+##if虚拟语气: 非真实条件句
   - 与 现在 / 过去 事实相反: 已经发生的
   - 将来:  发生概率很小 
 If I had the money now, I would buy a new car. (与现在事实相反)

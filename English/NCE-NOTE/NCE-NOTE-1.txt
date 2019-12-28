@@ -582,8 +582,7 @@ It's nearly ready.
 
 L83: Going on holiday
 现在完成时
-* have/has + Ven
-  had + Ven
+* have/has + done
 * 现在完成时常用不确定时间副词短语：
   already / just / yet / often / never / ever
 
@@ -641,8 +640,10 @@ I've already asked a question.
 I asked a question two minutes ago.
 
 L87: A car crash
-* 现在完成时的疑问句: Have you Ven yet?
+* 现在完成时的疑问句: Have you done yet?
 * yet : 还，已经 (用于现在完成时的否定或疑问句中)
+    - 疑问句: ...已经...了吗? 
+    - 否定句: ...还(没/不能)...样
 * 否定疑问句表肯定(表希望、请求)，期待肯定的回答,
   语气更强烈，难道...
 * still 用于现在进行时
@@ -671,6 +672,8 @@ Has the boss left yet?
 Yes, he has.
 When did he leave?
 He left ten minutes ago.
+
+I haven’t asked him yet (=but I will).
 
 L89: For sale
 * for 后面接一段时间
@@ -717,6 +720,9 @@ He will finish work tomorrow night.
 L93: Our new neighbour
 * When did ... go to ...?
 * When will ... go to ...?
+
+He said that he will find a job the week after next.
+I believe that I will go abroad the month after next.
 
 When did he go to New York?
 He went to New York last week.
@@ -785,6 +791,8 @@ Is belongs to us.
 Are these the children's pens?
 Yes, they're theirs.
 They belong to them.
+Are these books yours?
+These books belong to us.
 
 L99: Owl!
 名词性从句
@@ -820,8 +828,8 @@ He says he'll write a letter soon.
 He hopes we are all well.
 
 He doesn't say very much, does he?
-No, he doesn't. 是的，他没写多少。
-Yes, he does. 不，他写了很多。
+No, he doesn't.
+Yes, he does.
 She went to Paris last month, didn't she?
 Yes, she did.
 No, she didn't.
@@ -894,10 +902,11 @@ Because he wants them to listen to it.
 
 L107: It's too small
 * Would you like to ...? 您愿意...吗?
+* Could you ...? 比 Can you ...? 更委婉
+
 * 形容词的比较级: is smaller than ...
           最高级: the largest ...
 * suit = go along with = fit
-* Could you ...? 比 Can you ...? 更委婉
 
 Would you like to go swimming?
 Would you like a glass of water?
@@ -939,14 +948,21 @@ I haven't got much.
 I've got more than you have.
 I've got the most.
 
-little    -> less  -> the least
-few       -> fewer -> the fewest
-many/much -> more  -> the most
+少
+little    -> less  -> the least   (不可数)
+few       -> fewer -> the fewest  (可数)
+
+多
+many/much -> more  -> the most  (much 不可数)
 
 Have you made any mistakes?
 I haven't made many.
 I've made more than you have.
 I've made the most.
+The team that makes the fewest mistakes usually wins.
+
+Would you like some more? 再来点吗?
+Would you like any more? 你还要别的吗?
 
 L111: The most expensive model
 * 多音节形容词的比较级可以使用 more / less 修饰
@@ -1184,11 +1200,12 @@ It took her ten dollars to get this book.
 
 He may not know about it.
 He may come soon.
-Sha might be ill.
+She might be ill.
 She might not come.
 
 She may be writing a letter now.
 She may have been reading at that moment.
+They may have been death.
 
 Where's Herry?
 He may be in his room.
@@ -1261,6 +1278,9 @@ If it rains tomorrow, we won't go to the seaside.
 What can I do if I feel better?
 If you feel better, you can get up.
 
+What will you do if you can get up early?
+If I get up early I can learn English.
+
 L139: Is that you, Jone?
 做宾语的名词从句
 * 宾语从句引导词：that(可省略), if(是否), whether, who, what, which, when, where, why, how ...
@@ -1277,6 +1297,11 @@ What does he want to know?
 He wants to know if you are tired.
 He wants to know why you are tired.
 Tell him what you are reading.
+
+I don't know what will happen in my future.
+I want to know how they compete with me.
+Tell me why you are so lazy.
+She wants to know if he intends to go abroad.
 
 L141: Sally's first train ride
 * 被动语态与主动补(SVC/主系表)结构的区别:
@@ -1312,8 +1337,8 @@ L143: A walk through the woods
 * have / has  been + Ven : 已经被...
 * will / shall be + Ven  : 将会被...
 
-The car I wanted to buy which has sold out.
-I think you have been cheated of fixing your car.
+The car I wanted to buy which has been sold out.
+I think you have been cheated of your car repairing.
 If it rains tomorrow, the meeting will be canceled.
 Hasn't anyone been caught in protesting?
 My private script hasn't been finished yet.
@@ -1349,7 +1374,9 @@ Hasn't anyone caught the thieves yet?
 They haven't been caught yet.
 They will be caught soon!
 
-
+Hasn't anyone mended this bug?
+This bug hasn't been mended yet.
+This bug will be mended next week.
 
 
 

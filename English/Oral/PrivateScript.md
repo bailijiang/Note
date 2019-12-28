@@ -1,49 +1,99 @@
+Section::Topic::Q&A
+
 <!-- MarkdownTOC -->
 
-- [1. Daily life](#1-daily-life)
-- [2. Travel](#2-travel)
-- [3. Hobbies](#3-hobbies)
-- [4. Work](#4-work)
-- [5. School](#5-school)
-- [6. Hospital](#6-hospital)
+- [1. Personality/Self-introduction](#1-personalityself-introduction)
+- [2. Daily life](#2-daily-life)
+- [3. Hobby/Habit](#3-hobbyhabit)
+- [4. Work/Interview](#4-workinterview)
+- [5. School/Learning](#5-schoollearning)
+- [6. Hospital/Health/Illness](#6-hospitalhealthillness)
 - [7. Shopping](#7-shopping)
-- [8. Nature](#8-nature)
+- [8. Nature/Climate/Geography](#8-natureclimategeography)
+- [9. Dream/Ideal/Wish/Expect](#9-dreamidealwishexpect)
+- [10. Travel](#10-travel)
 
 <!-- /MarkdownTOC -->
 
 
-<a id="1-daily-life"></a>
-####1. Daily life
+<a id="1-personalityself-introduction"></a>
+####1. Personality/Self-introduction
+* Self-introduction
+    - Q: Please introduce yourself briefly(So tell me yourself.).
+    - A: My name is Bryan.  
+         I'm from China and I was born in Beijing.   
+         I'm Chinese and I'm 40 years old now.  
+         I live in Beijing now and I spent most of my life here.     
+         Till now, I have graduated from BUAA(Beihang) University for 3 years and my major is Computer Science and Technology.  
+         Now I'm a programmer at an entrepreneurial firm.  
+         Since graduation, I have had over 15 years of work experience.   
+         My hobbies are very extensive. I like sports, music, movies, games, and reading.     
+         I enjoy playing basketball with others very much, so I am playing it continually for 20 years and I believe I'm good at it.        
+    - Q: How many people are there in your family?
+    - A: 
+
+* Character
+    - Q: 
+    - A: 
+* Experience(Story)
+    - Q: 
+    - A: 
+* Stages
+    - Q: What was your childhood like?
+    - A: 
+* Life Style
+    - Q: 
+    - A: 
+
+<a id="2-daily-life"></a>
+####2. Daily life
 * Food
+    - Q: 
+    - A: 
 * Cloth
+    - Q: 
+    - A: 
 
-
-<a id="2-travel"></a>
-####2. Travel
-
-
-<a id="3-hobbies"></a>
-####3. Hobbies
+<a id="3-hobbyhabit"></a>
+####3. Hobby/Habit
 * Sport
+    - Q: 
+    - A: 
 * Music
+    - Q: 
+    - A: 
 
-<a id="4-work"></a>
-####4. Work
+<a id="4-workinterview"></a>
+####4. Work/Interview
+* Work experience/Story(STAR: Situation, Task, Action, Result)
+    - Q: 
+    - A: 
+
+<a id="5-schoollearning"></a>
+####5. School/Learning
 
 
-<a id="5-school"></a>
-####5. School
-
-
-<a id="6-hospital"></a>
-####6. Hospital
+<a id="6-hospitalhealthillness"></a>
+####6. Hospital/Health/Illness
 
 
 <a id="7-shopping"></a>
 ####7. Shopping
 
 
-<a id="8-nature"></a>
-####8. Nature
+<a id="8-natureclimategeography"></a>
+####8. Nature/Climate/Geography
 * Animals
 * Plants
+
+
+<a id="9-dreamidealwishexpect"></a>
+####9. Dream/Ideal/Wish/Expect
+* 
+* 
+
+
+<a id="10-travel"></a>
+####10. Travel
+*
+*

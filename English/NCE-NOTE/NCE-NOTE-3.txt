@@ -1,13 +1,27 @@
 ﻿#L1: a puma at large
 ##复杂句Complex(从句): 通过连接词判断主从句之间的关系
-##被动语态: 表达事实的客观性
+* 同位语从句 which/that... 不需要跟在被修饰词后面(可以后置/夹在主句中间,补充信息)
+* 从句连接方式: 
+  - when/where/who/what/how/that/which
+  - as/for
+  - 逗号,
+  - Although/but/However/and/or/Wherever/Whenever/Whoever/Whatever
+  - not only... but...as well/either...or/neither...nor
+  - to do / doing / done...
+  - after/before
+The cat I saw yesterday (that) looked very pitiful.
+That house is so shabby which I have already sold it last year.
+When that bug appeared at the program which could destroy the whole system, the programmers were not taken seriously.
+
+* 被动语态: 表达事实的客观性
 I had been cheated 20,000 yuan for my house decorating.
 These people's brain had been eaten by zombies.
-##cling clung clung: 抓住 / 粘在(客观) / 固执坚持(主观)
+
+* cling clung clung: 抓住 / 粘在(客观) / 固执坚持(主观)
 His wet shirt clung to his body.
 They're clinging to the past.
 
-* ... where/when sb doing... did...
+* ... where/when sb (was/were) doing... did...
 The investigation by police began in an office where a worker cleaning it fond a corpse under the table.
 
 * It is disturbing to think that...
@@ -21,6 +35,7 @@ They always stay up until midnight.
 Many people of this country is always smoke all day.
 He never exercises since I knew him.
 They argue continually about money.
+They are continually arguing about money.
 
 * whom
 The car in my way whom I recognized as my neighbor's.
@@ -32,11 +47,17 @@ She was wearing the coat whom I recognized as mine.
   - has/have/had been done
   - must have been done
 Those cheeses were bought for making a cake.
-I wonder why those cheeses still have not been sent to my home and I guess they must have been delayed by the express. 
+I wonder why those cheeses still have not been sent to my home and I guess they must have been delayed by the express.
+
+* able/unable to do
+So far, I have been unable to solve this problem.
+We had been able to solve this problem yesterday.
 
 * must have done : ...一定是...(对过去某事的推测)
 Where could my mom put my headphones? She must have lost it at the Airport.
-Look at this, my house's lock must have cracked by a thief.
+It must have been stolen at the airport.
+Look at this, my house's lock must have been picked by a thief.
+This area at one time must have been graves, for a great many crows fly here for the night every day.
 
 #L4: The double life of Alfred Bloggs
 ##现在完成时 have/has been
@@ -53,6 +74,9 @@ I'm very tired, I've been working all day.
 I've been keeping to sing for five years.
 I've been keeping to eat an apple every morning for ten years.
 
+* as much as
+His salary is half as much as mine.
+
 #L5: The facts
 ##过去完成时的被动语态: had been done 
 I had been instructed on fitness by a personal trainer in a gym.
@@ -62,7 +86,11 @@ Not only had he been arrested, but he had been executed.
 
 He had at last been allowed to telephone his parents informing that he had been arrested by stealing money.
 Not only had she not been convinced by the police, but she had been irritated at all.
-This project had originally been considered to have great development.
+This project had originally been considered of great development.
+
+* in which = where
+This is the city in which I was born. (强调)
+This is the city where I was born.
 
 #L6: Smash-and-grab
 ##过去进行时 were/was doing
@@ -95,7 +123,7 @@ Cats love to chew up fish.
 * whose
 I saw a man shouting at a driver whose car was blocking the street.
 I saw a woman shouting at a man whose car is blocking her's.
-She told me about that guy whose hands had been mutilated by an accident.
+She told me that she knew that guy whose hands had been mutilated by an accident.
 
 * went doing / went to do
 We went swimming last night. (不及物v. go doing)
@@ -141,6 +169,8 @@ Where ever did you pick that up?
 Why ever did you go there?
 What ever did you do?
 
+* minus thirty degrees Centigrade/Celsius/Fahrenheit
+
 #L9: Flying cats
 * the more...the more...: 越...越...
   the further...the less
@@ -170,12 +200,14 @@ This highway leads to the airport.
 I have led the team to accomplish the project.
 The ability of coding could lead to a career in a programmer.
 
+* How do you try to protect your children when they were being bullied?
+
 #L10: The loss of the Titanic
 ##过去完成时 had done
 His life had already been ruined by his father.
 These people's conscience had already been eaten by dogs.
 All people's brain had been eaten by zombies.
-Before yesterday, the world record of man's 100 meters race had never been broken since 1989.  
+The world record of man's 100 meters race had been broken yesterday.
 She had narrowly caught the flight.
 
 * even if 即使
@@ -183,11 +215,19 @@ I will recite this text even if I'm so tired.
 I'm still learning English even if I'm forty years old.
 This car is not only the fastest car that had ever been built but was regarded as the coolest, for it has been a concept car, even if you have a lot of money, you can't buy it.
 
+* if only (虚拟语气:与过去事实相反)
+What would have happened if only two of these people had been convinced to buy the house?
+What would have happened to you if you had been arrested in that incident?
+
+* instead of 反而
+Instead of admitting, she was debating in court.
+
 #L11: Not guilty
-##副词的用法: really/recently/particularly/clearly/confidently/carefully/suddenly/sarcastically/encouragingly
-'Please get out my way, I'm in a hurry', I claimed encouragingly
+##副词的用法: really/recently/particularly/clearly/confidently/carefully/suddenly/sarcastically/encouragingly/thoroughly
+'Please get out my way, I'm in a hurry', I claimed encouragingly.
 A particularly officious neighbor is clearly annoying.
 'You did a good job, eh?' he said sarcastically.
+Before getting aboard the airplane, the Customs Officer would go through the case thoroughly.
 
 ##形容词的用法: guilty/tolerant/hardened/officious/dreadful/exempt/precious
 I feel so guilty, leaving all this to you.
@@ -260,7 +300,8 @@ The weather is very cold, raining a little outside.
 We have had a very good dinner, listening to the gracious music.
 She looks very beautiful, emitting a charming perfume.
 
-##形容词adj. + to do ...
+##to do (使动词变为名词/名词短语) 作 宾语/主语 使用
+  形容词adj. + to do ...
 She is easy enough to be cheated.
 I'm glad to hear this.
 It was silly of us to believe you.
@@ -274,6 +315,10 @@ He said he would be taking part in a competition.
 
 * consist of : 由...组成
 The cake I had just made consisted of eggs, flour, and cheese.
+
+* know/realize that it must be...
+I knew that it must be my boss's phone.
+I realized that it must be that bug to lead the system failure.
 
 #L14: A noble gangster
 ##would rather do... than... (不带to的不定式): 宁可做...而不做...

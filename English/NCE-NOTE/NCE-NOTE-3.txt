@@ -339,7 +339,7 @@ Five million pounds worth of the antique.
 In Hongkong, fifty people died is a small price to pay for freedom.
 In Indian, air pollution is a small price to pay for the development of the economy.
 
-* Instead: 本应...却... (表转折)
+* Instead: 本应...却.../反而 (表转折)
 I want to finish my English course last month. Instead, I got sick.
 I had wanted to play a game at night, Instead, power cut.
 I had expected her to say 'Yes', but she said 'No' instead.
@@ -369,6 +369,9 @@ But he denied admitting it.
 I think he should asham of cheating me.
 * apologized to sb for doing
 You should really apologize to me for bullying my family.
+
+* Was the people right to cheat each other for the money? Why not?
+* I knew it would not prove difficult in such a small company. 
 
 #17: The longest suspention bridge in the world
 ##动词v. + 宾语 + to be... : 不定式做宾补

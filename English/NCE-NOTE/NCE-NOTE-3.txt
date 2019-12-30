@@ -402,8 +402,9 @@ He fell sick and died within a matter of weeks.
 
 * would be doing: 过去将来进行时
   ...would still only be carrying...
-If I have a lot of money, I would be living very well.
-I wish I will be living very happy forever.
+If I had a lot of money, I would be living very well.
+He said he would be arriving on time.
+I had believed I would be living very happy forever.
 
 * probably adv.
 I guess she has probably arrived at home.
@@ -411,8 +412,9 @@ I guess she has probably arrived at home.
 #L18: Electric currents in modern art
 * ...cannot have failed...: 不至于失败...
   - 表示对过去事情的一种推测
-  - 双重否定表示强调
+  - 双重否定表示肯定强调
 I think you cannot have failed to pass the driving test. 
+Even you have not been there you cannot have failed to find that house.
 
 * be suspended from : ...挂在...下面
 There is a bee's nest suspended from a branch.
@@ -423,6 +425,10 @@ These people are pieces of garbage.
 
 * exhibit n. : 展览品(有复数)
   exhibition n. : 展览会
+
+* How might... : 怎么会...?
+How might some of the exhibits have been dangerous?
+How might this match have you failed?
 
 #L19: A very dear cat
 ##动词,副词,形容词的用法:　

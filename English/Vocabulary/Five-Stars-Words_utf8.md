@@ -2,54 +2,55 @@
 
 <!-- MarkdownTOC -->
 
-- have
-- do
-- make
-- take
-- get
-- put
-- let
-- bring
-- find
-- learn
-- feel
-- own
-- say
-- go
-- come
-- keep
-- give
-- carry
-- draw
-- hold
-- offer
-- expect
-- turn
-- believe
-- claim
-- cut
-- remain
-- beat
-- decide
-- call
-- act
-- deal
-- open
-- develop
-- force
-- fall
-- produce
-- drive
-- look
-- send
-- ask
-- run
-- tell
+- [have](#have)
+- [do](#do)
+- [make](#make)
+- [take](#take)
+- [get](#get)
+- [put](#put)
+- [let](#let)
+- [bring](#bring)
+- [find](#find)
+- [learn](#learn)
+- [feel](#feel)
+- [own](#own)
+- [say](#say)
+- [go](#go)
+- [come](#come)
+- [keep](#keep)
+- [give](#give)
+- [carry](#carry)
+- [draw](#draw)
+- [hold](#hold)
+- [offer](#offer)
+- [expect](#expect)
+- [turn](#turn)
+- [believe](#believe)
+- [claim](#claim)
+- [cut](#cut)
+- [remain](#remain)
+- [beat](#beat)
+- [decide](#decide)
+- [call](#call)
+- [act](#act)
+- [deal](#deal)
+- [open](#open)
+- [develop](#develop)
+- [force](#force)
+- [fall](#fall)
+- [produce](#produce)
+- [drive](#drive)
+- [look](#look)
+- [send](#send)
+- [ask](#ask)
+- [run](#run)
+- [tell](#tell)
 
 <!-- /MarkdownTOC -->
 
 
 
+<a id="have"></a>
 ####have
 * Alex has already gone.
 * I've just seen a play that I can highly recommend.
@@ -69,6 +70,7 @@
 * I have to go now.
 
 
+<a id="do"></a>
 ####do
 * Do you like bananas?
 * I don’t feel like going out tonight.
@@ -93,6 +95,7 @@
 * How did I do?
 * I'd like to do maths at university.
 
+<a id="make"></a>
 ####make
 * He made the remarkble discovery.
 * Hawkwood made large sums of money in this way.
@@ -119,6 +122,7 @@
 * The police don't make the laws, they merely enforce them.
 * The stone made a dent in the roof of the car.
 
+<a id="take"></a>
 ####take
 * I accused him of stealing my money, but he denied taking it.
 * She was too tired to take a shower.
@@ -140,6 +144,7 @@
 * The Statue of Liberty was taken to pieces and sent to America.
 * take a seat / take care / take a pill
 
+<a id="get"></a>
 ####get
 * He could not find his fifty pence anywhere, and what is more, he could not get his arm out.
 * What did you get for Christmas?
@@ -161,6 +166,7 @@
 * Before getting aboard the airplane, the Customs Officer would go through the case thoroughly.
 * get on / get off / get out / get round / get up / get through
 
+<a id="put"></a>
 ####put
 * If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.
 * He put the coffee on the table.
@@ -174,6 +180,7 @@
 * We had to put new locks on all the doors.
 * Her new job has put a great strain on her.
 
+<a id="let"></a>
 ####let
 * I can’t come out tonight – my dad won’t let me.
 * Let me have a look at that letter.
@@ -188,6 +195,7 @@
 * Here, let me do it.
 * Let me give you an example.
 
+<a id="bring"></a>
 ####bring
 * Did you bring an umbrella?
 * Can you bring me another beer?
@@ -197,6 +205,7 @@
 * The revolution brought many changes.
 * The judge brought his hammer down on the table.
 
+<a id="find"></a>
 ####find
 * I can’t find the car keys.
 * I found a purse in the street.
@@ -211,6 +220,7 @@
 * I was just finding more time to write music.
 * I find it amazing that they're still together.
 
+<a id="learn"></a>
 ####learn
 * Their children were going to learn English.
 * He is learning to play the piano.
@@ -223,6 +233,7 @@
 * The jailer looked on eagerly, anxious to see if his fellow actor had, at last, learned his lines.
 * Have you learned your speech draft?
 
+<a id="feel"></a>
 ####feel
 * Do you still feel hungry?
 * You can never tell what he’s feeling.
@@ -236,6 +247,7 @@
 * She felt his forehead. Perhaps he had a temperature.
 * Through several layers of clothes I could feel his muscles.
 
+<a id="own"></a>
 ####own
 * adj:
 * My wife decided I should have my own shop.
@@ -249,6 +261,7 @@
 * Do you own your house or do you rent it?
 * I don't own anything of any value.
 
+<a id="say"></a>
 ####say
 * ‘I’m so tired,’ she said.
 * Did she say what happened?
@@ -263,6 +276,7 @@
 * I couldn’t say who will win.
 * I have to say I didn't expect it to be so good.
 
+<a id="go"></a>
 ####go
 * I go to work by subway.(go to school)
 * I must be going now.
@@ -305,6 +319,7 @@
 * 3 into 12 goes 4 times.
 * 7 into 15 won't go.
 
+<a id="come"></a>
 ####come
 * Let me know when they come.
 * What time will you be coming home?
@@ -328,6 +343,7 @@
 * Nearly half the students come from abroad.
 * She comes of a very good family.
 
+<a id="keep"></a>
 ####keep
 * We huddled around the fire to keep warm.
 * I was struggling to keep awake.
@@ -342,6 +358,7 @@
 * He kept her from being lonely.
 * She bit her lip to keep from crying.
 
+<a id="give"></a>
 ####give
 * Give your mother the letter.
 * What did Bob give you for your birthday?
@@ -354,6 +371,7 @@
 * He gave me a shock.
 * We were given to understand that he was ill.
 
+<a id="carry"></a>
 ####carry
 * He was carrying a suitcase.
 * Police in many countries carry guns.
@@ -367,6 +385,7 @@
 * Which minister carries responsibility for the police?
 * Do you want to carry the whole game?
 
+<a id="draw"></a>
 ####draw
 * Katie had drawn a cottage with a little stream running next to it.
 * A dark house can draw attention to the fact that the house is empty.
@@ -385,6 +404,7 @@
 * England and France drew 3–3.
 * Italy has been drawn against Spain in the first round.
 
+<a id="hold"></a>
 ####hold
 * Could you hold my bag for me?
 * He held out his hand to help her to her feet.
@@ -406,6 +426,7 @@
 * n.
 * A fire had been reported in the cargo hold.(on ship/plane/aircraft)
 
+<a id="offer"></a>
 ####offer
 * Can I offer you something to drink?
 * My dad has offered to pick us up.
@@ -419,6 +440,7 @@
 * His offer to resign will be accepted.
 * I wish that the company would give me an offer.
 
+<a id="expect"></a>
 ####expect
 * We are expecting a rise in food prices this month.
 * I'm expecting a rise in house prices next year.
@@ -437,6 +459,7 @@
 * Don't expect sympathy from me!
 * I expect that you are tired from the trip.
 
+<a id="turn"></a>
 ####turn
 * She turned her head in surprise.
 * The wheels of the car began to turn.
@@ -454,6 +477,7 @@
 * The scandal took a new turn over the weekend.
 * Can I have a turn?
 
+<a id="believe"></a>
 ####believe
 * You shouldn’t believe everything you read.
 * I don’t believe he’s only 25.
@@ -465,6 +489,7 @@
 * If you believe in yourself you can succeed.
 * I believe it's going to snow.
 
+<a id="claim"></a>
 ####claim
 * The product claims that it can make you thin without dieting.
 * He should be able to claim the price of the ticket back.
@@ -479,6 +504,7 @@
 * They had no claim on the land.
 * You can make a claim on your insurance policy.
 
+<a id="cut"></a>
 ####cut
 * A small river cuts across the park near my home.
 * She cut her finger on a piece of glass.
@@ -492,6 +518,7 @@
 * Buyers will bargain hard to cut the cost of the house they want.
 * This scene was cut from the final version of the movie.
 
+<a id="remain"></a>
 ####remain
 * Train fares are likely to remain unchanged.
 * We remained friends.
@@ -502,6 +529,7 @@
 * There remained one significant problem.
 * The plane remained on the ground.
 
+<a id="beat"></a>
 ####beat
 * My wife tried to stop them and they beat her.
 * There was dead silence but for a fly beating against the glass.
@@ -522,6 +550,7 @@
 * spoken.
 * Beats me why he wants such a big car. (do not know)
 
+<a id="decide"></a>
 ####decide
 * I can't decide what to do.
 * It was difficult to decide between the various options.
@@ -535,6 +564,7 @@
 * I couldn't decide whether he was incredibly brave or just insane.
 * I don't know what finally decided on her, but she agreed.
 
+<a id="call"></a>
 ####call
 * I’ll call you soon.
 * I’ll call back later.
@@ -553,6 +583,7 @@
 * n.
 * I got a call from him late yesterday evening.
 
+<a id="act"></a>
 ####act
 * He claims he acted in self-defence.
 * The girl's life was saved because the doctors acted so promptly.
@@ -569,6 +600,7 @@
 * He does a little song-and-dance act.
 * You could tell she was just putting on an act.
 
+<a id="deal"></a>
 ####deal
 * New laws were introduced to deal with the issue.
 * I certainly don't deal drugs.
@@ -580,6 +612,7 @@
 * OK, it’s a deal.
 * I got a very good deal on my new car.
 
+<a id="open"></a>
 ####open
 * Jack opened the window.
 * He opened the window and looked out.
@@ -605,6 +638,7 @@
 * A wasp flew in the open window.
 * Leave the envelope open.
 
+<a id="develop"></a>
 ####develop
 * Knowledge in the field of genetics has been developing very rapidly.
 * Scientists are developing new drugs to treat arthritis.
@@ -623,6 +657,7 @@
 * The situation is developing into a crisis.
 * You always have an opportunity to develop new skills in your life.
 
+<a id="force"></a>
 ####force
 * Government troops have forced the rebels to surrender.
 * I had to force myself to get up this morning.
@@ -642,6 +677,7 @@
 * the force of gravity
 * the company’s sales force
 
+<a id="fall"></a>
 ####fall
 * The tree was about to fall.
 * September had come and the leaves were starting to fall.
@@ -661,6 +697,7 @@
 * A number of roads have been blocked by fallen trees.
 * Their profits have fallen by 30 per cent.
 
+<a id="produce"></a>
 ####produce
 * New drugs are producing remarkable results.
 * The factory produces an incredible 100 cars per hour.
@@ -671,6 +708,7 @@
 * An adult cat may produce kittens three times a year.
 * Scientists have produced powerful arguments against his ideas.
 
+<a id="drive"></a>
 ####drive
 * I am planning to drive to Morocco next year.
 * Can you drive?
@@ -690,6 +728,7 @@
 * They drove a tunnel through the mountains.(make a hole)
 * This is the main factor driving investment in the area.
 
+<a id="look"></a>
 ####look
 * Gina covered her eyes, afraid to look.
 * We sneaked out while Jessie’s mom wasn’t looking.
@@ -712,6 +751,7 @@
 * We're not looking to make a fortune.(intend)
 * The house looks east.(face)
 
+<a id="send"></a>
 ####send
 * She sent the letter by airmail.
 * What sort of message is that sending to young people?
@@ -721,6 +761,7 @@
 * I've sent Tom to buy some milk.
 * The transmitters will send a signal automatically to a local base station.
 
+<a id="ask"></a>
 ####ask
 * ‘What’s your name?’ she asked.
 * If you need anything, you only have to ask.
@@ -737,6 +778,7 @@
 * I know it's asking a lot to expect them to win again.
 * He was asked to make a speech at the ceremony.
 
+<a id="run"></a>
 ####run
 * run/rʌn/ ran/ræn/ run running runs
 * I ran down the stairs as fast as I could.
@@ -769,6 +811,7 @@
 * Let’s go for a run before dinner.
 * She took the stairs at a run.
 
+<a id="tell"></a>
 ####tell
 * He told the news to everybody he saw.
 * Why wasn't I told about the accident?

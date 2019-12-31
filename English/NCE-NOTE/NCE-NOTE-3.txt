@@ -453,7 +453,7 @@ I wish I can lead an exciting life.
 
 #L20: Pioneer pilots
 * It looked as if... : 看来要(看上去好像)...
-The chicken, it looks as if very delicious.
+The chicken you cooked, it looks as if very delicious.
 It looks as if it will soon rain.
 It looks as if he is a kind man.
 
@@ -463,7 +463,7 @@ I was going to marry last year.
 
 * within... of... : 距离到...不到...(英里)
 We are within two kilometres of the city centre.
-She is within one meter of me.
+She is very close to me within one meter.
 I'm within one kilometer of the cinema.
 
 * during which: 在此期间
@@ -471,6 +471,10 @@ A week before, we had finished this project during which we wrote 50,000 lines o
 
 * Over...passed before... : 多久后才...
 Over a year passed before the building was built.
+
+* What was the name of the man to develop that program?
+* How was the boss arrested for this company?
+* When did the CTO resign from our company?
 
 #L21: Daniel Mendoza
 * adore v. : 崇拜,爱戴
@@ -513,6 +517,8 @@ The company is introducing a new range of products this year.
 The new law was introduced in 2007.
 I intend to introduce AI in my robot.
 The efficient of produce was obviously promote since introduced the automatic system.
+
+* How long were you learning English before going abroad?
 
 #L22: By heart
 * expect v. : 预计/期待/指望

@@ -45,6 +45,7 @@
 - [ask](#ask)
 - [run](#run)
 - [tell](#tell)
+- [set](#set)
 
 <!-- /MarkdownTOC -->
 
@@ -831,3 +832,27 @@
 * The strain was beginning to tell on the rescue team.(HAVE EFFECT)
 * The facts tell us that this is not true.(reveal)
 
+<a id="set"></a>
+####set
+* She set the tray down on a table next to his bed.
+* The workmen set the box down carefully on the floor.
+* The novel is set in France.
+* These casualty totals have to be set against the continuing growth in traffic.(consider)
+* This debate should be set in an international context.
+* It is important that parents set an example (=behave well).(establish)
+* A study by military experts was immediately set in motion.(start)
+* They set to work to paint the outside of the building.(start)
+* Protesters set fire to two buses.
+* The government has still not set a date for the election.(decide)
+* Did you set the alarm?
+* n.
+* a set of tools
+* We face a new set of problems.
+* a colour television set
+* Nadal won the second set 6–4.
+* adj.
+* a big house set back from the road
+* a small town of white buildings, set against a background of hills
+* We were paid a set amount each week.(fixed)
+* The evening meal is served at a set time.
+* Are you all set for the trip?(ready)

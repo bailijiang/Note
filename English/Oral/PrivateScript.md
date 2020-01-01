@@ -82,7 +82,7 @@ Section::Topic::Q&A
 
 * Life Style
     - Q: like/dislike/regularly
-    - A: 
+    - A: I like to take the challenge of myself.
 
 <a id="2-daily-life"></a>
 ####2. Daily life

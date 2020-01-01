@@ -459,6 +459,7 @@
 * She was expecting another baby.
 * Don't expect sympathy from me!
 * I expect that you are tired from the trip.
+* One would expect them to know their parts by heart and never have cause to falter. Yet this is not always the case.
 
 <a id="turn"></a>
 ####turn

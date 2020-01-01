@@ -12,6 +12,7 @@ Section::Topic::Q&A
 - [8. Nature/Climate/Geography](#8-natureclimategeography)
 - [9. Dream/Ideal/Wish/Expect](#9-dreamidealwishexpect)
 - [10. Travel/Entertainment](#10-travelentertainment)
+- [11. Society/Environment](#11-societyenvironment)
 
 <!-- /MarkdownTOC -->
 
@@ -51,8 +52,14 @@ Section::Topic::Q&A
          However(Of course), I also have some shortcomings: For example, When I suffer a setback I'm so irritable that it at times leads to bad results, and When I'm in the complex situations I sometimes would ignore the point of the things.  
          I think I used to be a perfectionist, but now I'm not the one.   
 
-    - Q: I wonder what you care or don't care about in your life?
-    - A: 
+    - Q: How do you get along with others in your life? I wonder what you care or don't care about in your life?
+    - A: As far as my concerned, most people in this country whom I don't like to make contact with.  
+         In most cases, I neither trust nor respect anyone and I don't care anyone how they judge me.  
+         But I think I am a person who values emotion.  
+         I believe the emotion of a person is far more important than money in any case forever.  
+         Although my friends are not too much, they are all kindness, honesty, and value emotion.  
+         And what is more, they must have a craft of their living and they can't be fools.  
+         Furthermore, they would not cheat the good person even if they can do it, and at the same time, they also would not be cheated by the bad guys easily.  
 
     - Q: Are you a strict person? Do you set high-demand for yourself?
     - A: high self-demand in life,study,work...
@@ -145,5 +152,11 @@ Section::Topic::Q&A
 
 <a id="10-travelentertainment"></a>
 ####10. Travel/Entertainment 
+*
+*
+
+
+<a id="11-societyenvironment"></a>
+####11. Society/Environment
 *
 *

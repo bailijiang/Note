@@ -583,12 +583,12 @@ Much to me disgust, he lied to me again.
 #L23: One man's meat is another man's poision
 ##虚拟语气: 与将来事实相反 
   (if)... would do... : 如果..., 某人/物就将会...
-If I were to have enough money, I would buy myself a computer. 
+If I should have enough money, I would buy myself a computer. 
 If the air of here has been polluting continuously, we would all get cancer.
-If you have still insisted not to study the new technology, you would soon be eliminated.
+If you don't try to study the new technology, you would soon be eliminated.
 
-* What was it about sth that made sb...? : 关于这些...是什么使...怎么样?
-What was it about this country that made people so hypocrisy nowadays?
+* What was it about ... that made ...? : 关于这些...是什么使...怎么样?
+What was it about this country that made its people so hypocrisy and indifference nowadays?
 What was it about work that made you feel so excited?
 
 * ... brought up to do...: 养育(raise)
@@ -610,13 +610,16 @@ After a heavy shower, I happened to be walking in the park when I noticed a huge
 
 * take possession of (house/car/...) : 占据/拥有...
 These gangsters have taken complete possession of this country for 70 years.
-The gang of drug dealers has taken possession of this house for five years.
+A gang of drug dealers has taken possession of this house for five years.
 I had taken complete possession of the house.
 
-* fancy v. : 想要
+* fancy v. : 想要,喜爱
 What do you fancy doing, anyway?
 I just fancied a drink.
 All the girls fancied me.
+
+* at the idea of doing... : 一想到...
+My stomach would turn at the idea of thinking that case.
 
 #L24: A skeleton in the cupboard
 * how adv. : 强调程度
@@ -645,7 +648,7 @@ Japan was almost destroyed by nuclear.
 The rain ruined my holiday.
 
 * sb's hair stands on end: 某人毛骨悚然
-My hair stands on end when I was watching a horror film.
+My hair stands on end when I was watching a horror movie.
 
 * once upon a time: 以前
 I was a good three-point shooter once upon a time.

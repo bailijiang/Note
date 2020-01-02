@@ -46,6 +46,7 @@
 - [run](#run)
 - [tell](#tell)
 - [set](#set)
+- [show](#show)
 
 <!-- /MarkdownTOC -->
 
@@ -718,7 +719,6 @@
 * Shall we drive or take the bus?
 * They drove back to Woodside.
 * I’ll drive you home.
-
 * Torrential rain drove the players off the course.
 * The detective wondered what had driven Christine to phone her.
 * The noises in my head have nearly driven me to suicide.
@@ -857,3 +857,25 @@
 * We were paid a set amount each week.(fixed)
 * The evening meal is served at a set time.
 * Are you all set for the trip?(ready)
+
+
+<a id="show"></a>
+####show
+* The children proudly showed me their presents.
+* Show your ticket to the woman at the entrance.
+* Cut out this article and show it to your bank manager.
+* Figures showed a 9% rise in inflation.
+* Research shows that a high-fiber diet may protect you from bowel cancer.
+* Think positively and show some determination.
+* She had learned not to show her emotions.
+* Show me how the gun works.
+* I want a photograph that shows his face.
+* Can you show Mrs Davies to the bathroom?
+* Let me show you to my study.
+* Can you show me exactly where he fell?
+* The film was shown on television last night.
+* His happiness showed in his face.
+* n.
+* I enjoyed the show immensely.
+* a new television quiz show 
+* a fashion show for charity

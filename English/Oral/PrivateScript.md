@@ -54,15 +54,29 @@ Section::Topic::Q&A
 
     - Q: How do you get along with others in your life? I wonder what you care or don't care about in your life?
     - A: As far as my concerned, most people in this country whom I don't like to make contact with.  
-         In most cases, I neither trust nor respect anyone and I don't care anyone how they judge me.  
+         In most cases, Neither do I trust nor respect anyone and meanwhile I don't care anybody how they judge me.  
          But I think I am a person who values emotion.  
          I believe the emotion of a person is far more important than money in any case forever.  
          Although my friends are not too much, they are all kindness, honesty, and value emotion.  
          And what is more, they must have a craft of their living and they can't be fools.  
          Furthermore, they would not cheat the good person even if they can do it, and at the same time, they also would not be cheated by the bad guys easily.  
 
-    - Q: Are you a strict person? Do you set high-demand for yourself?
-    - A: high self-demand in life,study,work...
+    - Q: Are you a strict person? Whether you set high-demand for yourself?
+    - A: In general, I have been leading an orderly life for myself.  
+         In terms of life:  
+         I'm used to getting up early at 6:00 am and going to bed at 10:00 pm every day.  
+         I usually drink a glass of milk and have an egg, an apple every day and I almost have green tea in the morning.  
+         I stick to exercise every day.  
+         I play basketball one or two times every week.   
+         If I hadn't gone to play basketball, I would have taken a walk five miles after dinner.  
+         Occasionally I would go swimming or play table tennis as well.  
+         Meanwhile, I never drinking and smoking.  
+         In terms of learning:  
+         I would make an overall plan of learning every year and would also make a specific plan each month.  
+         The learning plan includes computer technology, English, or other hobbies like music.  
+         In the learning progressing, Whenever I got a difficult problem, I will try constantly and finally find a solution.  
+         In terms of working:  
+         I always take my work seriously and responsibly, and I never hide my mistakes.  
 
 * Experience(Story)
     - Q: work,girl,book,movie,song,TV series,food,dangerous,travel,fun,odd thing,pet

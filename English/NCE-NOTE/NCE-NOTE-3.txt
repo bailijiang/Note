@@ -339,7 +339,7 @@ Five million pounds worth of the antique.
 In Hongkong, fifty people died is a small price to pay for freedom.
 In Indian, air pollution is a small price to pay for the development of the economy.
 
-* Instead: 本应...却... (表转折)
+* Instead: 本应...却.../反而 (表转折)
 I want to finish my English course last month. Instead, I got sick.
 I had wanted to play a game at night, Instead, power cut.
 I had expected her to say 'Yes', but she said 'No' instead.
@@ -370,6 +370,9 @@ I think he should asham of cheating me.
 * apologized to sb for doing
 You should really apologize to me for bullying my family.
 
+* Was the people right to cheat each other for the money? Why not?
+* I knew it would not prove difficult in such a small company. 
+
 #17: The longest suspention bridge in the world
 ##动词v. + 宾语 + to be... : 不定式做宾补
 I consider her to be one of the beautiful girls I have ever seen.
@@ -399,8 +402,9 @@ He fell sick and died within a matter of weeks.
 
 * would be doing: 过去将来进行时
   ...would still only be carrying...
-If I have a lot of money, I would be living very well.
-I wish I will be living very happy forever.
+If I had a lot of money, I would be living very well.
+He said he would be arriving on time.
+I had believed I would be living very happy forever.
 
 * probably adv.
 I guess she has probably arrived at home.
@@ -408,8 +412,9 @@ I guess she has probably arrived at home.
 #L18: Electric currents in modern art
 * ...cannot have failed...: 不至于失败...
   - 表示对过去事情的一种推测
-  - 双重否定表示强调
+  - 双重否定表示肯定强调
 I think you cannot have failed to pass the driving test. 
+Even you have not been there you cannot have failed to find that house.
 
 * be suspended from : ...挂在...下面
 There is a bee's nest suspended from a branch.
@@ -420,6 +425,10 @@ These people are pieces of garbage.
 
 * exhibit n. : 展览品(有复数)
   exhibition n. : 展览会
+
+* How might... : 怎么会...?
+How might some of the exhibits have been dangerous?
+How might this match have you failed?
 
 #L19: A very dear cat
 ##动词,副词,形容词的用法:　
@@ -444,7 +453,7 @@ I wish I can lead an exciting life.
 
 #L20: Pioneer pilots
 * It looked as if... : 看来要(看上去好像)...
-The chicken, it looks as if very delicious.
+The chicken you cooked, it looks as if very delicious.
 It looks as if it will soon rain.
 It looks as if he is a kind man.
 
@@ -454,7 +463,7 @@ I was going to marry last year.
 
 * within... of... : 距离到...不到...(英里)
 We are within two kilometres of the city centre.
-She is within one meter of me.
+She is very close to me within one meter.
 I'm within one kilometer of the cinema.
 
 * during which: 在此期间
@@ -462,6 +471,10 @@ A week before, we had finished this project during which we wrote 50,000 lines o
 
 * Over...passed before... : 多久后才...
 Over a year passed before the building was built.
+
+* What was the name of the man to develop that program?
+* How was the boss arrested for this company?
+* When did the CTO resign from our company?
 
 #L21: Daniel Mendoza
 * adore v. : 崇拜,爱戴
@@ -504,6 +517,11 @@ The company is introducing a new range of products this year.
 The new law was introduced in 2007.
 I intend to introduce AI in my robot.
 The efficient of produce was obviously promote since introduced the automatic system.
+
+* as much as: 那样多, 高达
+As he was smuggling, he was fined as much as $10,000.
+
+* How long were you learning English before going abroad?
 
 #L22: By heart
 * expect v. : 预计/期待/指望
@@ -565,12 +583,12 @@ Much to me disgust, he lied to me again.
 #L23: One man's meat is another man's poision
 ##虚拟语气: 与将来事实相反 
   (if)... would do... : 如果..., 某人/物就将会...
-If I were to have enough money, I would buy myself a computer. 
+If I should have enough money, I would buy myself a computer. 
 If the air of here has been polluting continuously, we would all get cancer.
-If you have still insisted not to study the new technology, you would soon be eliminated.
+If you don't try to study the new technology, you would soon be eliminated.
 
-* What was it about sth that made sb...? : 关于这些...是什么使...怎么样?
-What was it about this country that made people so hypocrisy nowadays?
+* What was it about ... that made ...? : 关于这些...是什么使...怎么样?
+What was it about this country that made its people so hypocrisy and indifference nowadays?
 What was it about work that made you feel so excited?
 
 * ... brought up to do...: 养育(raise)
@@ -592,13 +610,16 @@ After a heavy shower, I happened to be walking in the park when I noticed a huge
 
 * take possession of (house/car/...) : 占据/拥有...
 These gangsters have taken complete possession of this country for 70 years.
-The gang of drug dealers has taken possession of this house for five years.
+A gang of drug dealers has taken possession of this house for five years.
 I had taken complete possession of the house.
 
-* fancy v. : 想要
+* fancy v. : 想要,喜爱
 What do you fancy doing, anyway?
 I just fancied a drink.
 All the girls fancied me.
+
+* at the idea of doing... : 一想到...
+My stomach would turn at the idea of thinking that case.
 
 #L24: A skeleton in the cupboard
 * how adv. : 强调程度
@@ -627,7 +648,7 @@ Japan was almost destroyed by nuclear.
 The rain ruined my holiday.
 
 * sb's hair stands on end: 某人毛骨悚然
-My hair stands on end when I was watching a horror film.
+My hair stands on end when I was watching a horror movie.
 
 * once upon a time: 以前
 I was a good three-point shooter once upon a time.
@@ -645,7 +666,7 @@ This is the best school of its kind.
   引导定语从句
   storm during which...: 在风暴中...
 I spent three years at home during which I finished my English course.
-I spent two months in this company during which I had felt very tied.
+I spent two months in this company during which I had felt very tired.
 
 * from side to side: 摇来摇去
   from time to time: 时而
@@ -682,7 +703,7 @@ His behavior was such mean that everyone disliked him.
 
 * In terms of...: 从...方面来讲...(用...来说) / 从...的角度
 In terms of the nation's future, the government should not be a one-party state.
-So think of your priorities not in terms of what activities you do, but when you do them.
+In terms of priority, the most important thing is not what you do, but when you do.
 
 * perform: 执行/履行/进行/表演
 The doctor performed the operation yesterday.
@@ -702,10 +723,22 @@ Nobody knows precisely how many people are still living in the camp.
 The government block youtube and google in the same way that they block the freedom of the people.
 
 * lead:
-I wish I lead the life I lead without others disturb.
+I wish I lead a life without others disturb.
 
 * grudge:
 I grudge having to pay so much tax.
+
+* times:
+There are times when...
+..., in times of real need,...
+
+* with + n.
+with ease
+with contempt
+
+* by doing... : 靠/由于...
+These emigrants are living by cheating.
+By raining heavily, I haven't gone outside.
 
 #L28: Five pounds too dear
 ## speed / approach / examine / bargain / tempt / assail / thrust / inscribe  v.
@@ -735,12 +768,15 @@ He acted like a child.
 He acted as if he had never seen me before.
 He acted as if he is a kind man.
 
-* readily: 很快地, 毫不迟疑地, 乐意地
+* readily: adv. 很快地, 毫不迟疑地, 乐意地
+  ready adj: 准备好的 / 乐意的,情愿的
 I asked her if she would allow me to interview her, and she readily agreed.
 Boats are readily available to visitors.
 The information is readily accessible on the Internet.
 I readily made a 3-points.
 I readily launched a nuclear bomb.
+I don't readily make friends.
+They were ready to die for their beliefs.
 
 * no mater how / where / ... : 不管...
 I would follow her no matter where she goes.

@@ -11,7 +11,8 @@ Section::Topic::Q&A
 - [7. Shopping](#7-shopping)
 - [8. Nature/Climate/Geography](#8-natureclimategeography)
 - [9. Dream/Ideal/Wish/Expect](#9-dreamidealwishexpect)
-- [10. Travel](#10-travel)
+- [10. Travel/Entertainment](#10-travelentertainment)
+- [11. Society/Environment](#11-societyenvironment)
 
 <!-- /MarkdownTOC -->
 
@@ -29,26 +30,85 @@ Section::Topic::Q&A
          Since graduation, I have had over 15 years of work experience.   
          My hobbies are very extensive. I like sports, music, movies, games, and reading.     
          I enjoy playing basketball with others very much, so I am playing it continually for 20 years and I believe I'm good at it.        
+
     - Q: How many people are there in your family?
-    - A: 
+    - A: My family is not large.  
+         There are three people in my family now, my mother, my father and I.  
+         I have a very good relationship with my mother, but I have a very bad relationship with my father because I think he is the man who is not only foolish but means as well.  
 
 * Character
-    - Q: 
-    - A: 
+    - Q: What's your personality like? Are you an outgoing or introvert man?
+    - A: I think I'm a cheerful person. I will never give up.  
+         Once I'm an introverted person. I'm not good at social communications.  
+         So I think I should join in more activities and make more friends.
+         I feel I'm neither an outgoing nor introvert man, for sometimes I would be very outgoing and talkative when I'm spending time with my acquaintances, but sometimes I don't talk much with strangers especially with a girl.   
+
+    - Q: What kind of person do you think you are?    
+    - A: I think I'm a kindness man because I am always loving to play with small animals like rabbits or kitten since my childhood.  
+         And I feel sometimes I am so naive that I believe all of the people of the world are good.  
+         I rarely have the guard against the others, so I always have been deceived by others in many ways.    
+         I think I'm a definitely sincere person and I hated the people of hypocrisy totally.  
+         And I also think I'm a brave man, for I always choose the right one over the easy one when I'm in trouble.  
+         However(Of course), I also have some shortcomings: For example, When I suffer a setback I'm so irritable that it at times leads to bad results, and When I'm in the complex situations I sometimes would ignore the point of the things.  
+         I think I used to be a perfectionist, but now I'm not the one.   
+
+    - Q: How do you get along with others in your life? I wonder what you care or don't care about in your life?
+    - A: As far as my concerned, most people in this country whom I don't like to make contact with.  
+         In most cases, Neither do I trust nor respect anyone and meanwhile I don't care anybody how they judge me.  
+         But I think I am a person who values emotion.  
+         I believe the emotion of a person is far more important than money in any case forever.  
+         Although my friends are not too much, they are all kindness, honesty, and value emotion.  
+         And what is more, they must have a craft of their living and they can't be fools.  
+         Furthermore, they would not cheat the good person even if they can do it, and at the same time, they also would not be cheated by the bad guys easily.  
+
+    - Q: Are you a strict person? Whether you set high-demand for yourself?
+    - A: In general, I have been leading an orderly life for myself.  
+         In terms of life:  
+         I'm used to getting up early at 6:00 am and going to bed at 10:00 pm every day.  
+         I usually drink a glass of milk and have an egg, an apple every day and I almost have green tea in the morning.  
+         I stick to exercise every day.  
+         I play basketball one or two times every week.   
+         If I hadn't gone to play basketball, I would have taken a walk five miles after dinner.  
+         Occasionally I would go swimming or play table tennis as well.  
+         Meanwhile, I never drinking and smoking.  
+         In terms of learning:  
+         I would make an overall plan of learning every year and would also make a specific plan each month.  
+         The learning plan includes computer technology, English, or other hobbies like music.  
+         In the learning progressing, Whenever I got a difficult problem, I will keep trying constantly until finding a solution.  
+         In terms of working:  
+         I always take my work seriously and responsibly, and I never hide my mistakes.  
+
 * Experience(Story)
-    - Q: 
+    - Q: work,girl,book,movie,song,TV series,food,dangerous,travel,fun,odd thing,pet
     - A: 
+    - Q:
+    - A:
+    - Q:
+    - A:
+    - Q:
+    - A:
+    - Q:
+    - A:
+    - Q:
+    - A:
+    - Q:
+    - A:
 * Stages
     - Q: What was your childhood like?
     - A: 
+    - Q: school
+    - A:
+    - Q: work
+    - A:
+
 * Life Style
-    - Q: 
-    - A: 
+    - Q: like/dislike/regularly
+    - A: I like to take the challenge of myself.
 
 <a id="2-daily-life"></a>
 ####2. Daily life
 * Food
-    - Q: 
+    - Q: cook
     - A: 
 * Cloth
     - Q: 
@@ -62,6 +122,15 @@ Section::Topic::Q&A
 * Music
     - Q: 
     - A: 
+* Game
+    - Q: 
+    - A: 
+* Reading
+    - Q: 
+    - A: 
+* ...habit
+    - Q:
+    - A: 
 
 <a id="4-workinterview"></a>
 ####4. Work/Interview
@@ -71,7 +140,9 @@ Section::Topic::Q&A
 
 <a id="5-schoollearning"></a>
 ####5. School/Learning
-
+* English
+    - Q: How do you think you can improve your spoken English?
+    - A: I think I can promote my English proficiency as long as I am used to speaking English every day.
 
 <a id="6-hospitalhealthillness"></a>
 ####6. Hospital/Health/Illness
@@ -93,7 +164,13 @@ Section::Topic::Q&A
 * 
 
 
-<a id="10-travel"></a>
-####10. Travel
+<a id="10-travelentertainment"></a>
+####10. Travel/Entertainment 
+*
+*
+
+
+<a id="11-societyenvironment"></a>
+####11. Society/Environment
 *
 *

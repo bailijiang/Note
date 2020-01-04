@@ -44,6 +44,9 @@
 - [send](#send)
 - [ask](#ask)
 - [run](#run)
+- [tell](#tell)
+- [set](#set)
+- [show](#show)
 
 <!-- /MarkdownTOC -->
 
@@ -137,6 +140,7 @@
 * She was taken to hospital.
 * My work takes me abroad a lot.
 * I had heard an appeal could take years.
+* These alone took sixteen months to build.
 * Do you take sugar in your coffee?
 * Take 5 from 12 and you're left with 7.
 * The Statue of Liberty was taken to pieces and sent to America.
@@ -313,6 +317,7 @@
 * I think we ought to go back now.
 * His income went down last year.
 * He went on working until he was 91.
+* The man went to great lengths to prove that the diamonds were real.(go to great lengths to do)
 * Six goes into thirty five times.
 * 3 into 12 goes 4 times.
 * 7 into 15 won't go.
@@ -456,6 +461,7 @@
 * She was expecting another baby.
 * Don't expect sympathy from me!
 * I expect that you are tired from the trip.
+* One would expect them to know their parts by heart and never have cause to falter. Yet this is not always the case.
 
 <a id="turn"></a>
 ####turn
@@ -714,7 +720,6 @@
 * Shall we drive or take the bus?
 * They drove back to Woodside.
 * I’ll drive you home.
-
 * Torrential rain drove the players off the course.
 * The detective wondered what had driven Christine to phone her.
 * The noises in my head have nearly driven me to suicide.
@@ -808,3 +813,70 @@
 * I’m going on a fun run tomorrow.
 * Let’s go for a run before dinner.
 * She took the stairs at a run.
+
+<a id="tell"></a>
+####tell
+* He told the news to everybody he saw.
+* Why wasn't I told about the accident?
+* They've told us (that) they're not coming.
+* The advertisement told us very little about the product.
+* Are you sure you're telling the truth?
+* Promise you won't tell.
+* He was told to sit down and wait.
+* I kept telling myself to keep calm.
+* 'Come on', she told herself.
+* Don't tell me what to do!
+* I think he's happy. It's hard to tell.
+* It was already impossible to tell where the bullet had entered.
+* As far as I can tell, she's enjoying the course.
+* Can you tell Tom from his twin brother?(DISTINGUISH)
+* How do you tell one from another?
+* The strain was beginning to tell on the rescue team.(HAVE EFFECT)
+* The facts tell us that this is not true.(reveal)
+
+<a id="set"></a>
+####set
+* She set the tray down on a table next to his bed.
+* The workmen set the box down carefully on the floor.
+* The novel is set in France.
+* These casualty totals have to be set against the continuing growth in traffic.(consider)
+* This debate should be set in an international context.
+* It is important that parents set an example (=behave well).(establish)
+* A study by military experts was immediately set in motion.(start)
+* They set to work to paint the outside of the building.(start)
+* Protesters set fire to two buses.
+* The government has still not set a date for the election.(decide)
+* Did you set the alarm?
+* n.
+* a set of tools
+* We face a new set of problems.
+* a colour television set
+* Nadal won the second set 6–4.
+* adj.
+* a big house set back from the road
+* a small town of white buildings, set against a background of hills
+* We were paid a set amount each week.(fixed)
+* The evening meal is served at a set time.
+* Are you all set for the trip?(ready)
+
+
+<a id="show"></a>
+####show
+* The children proudly showed me their presents.
+* Show your ticket to the woman at the entrance.
+* Cut out this article and show it to your bank manager.
+* Figures showed a 9% rise in inflation.
+* Research shows that a high-fiber diet may protect you from bowel cancer.
+* Think positively and show some determination.
+* She had learned not to show her emotions.
+* Show me how the gun works.
+* I want a photograph that shows his face.
+* Can you show Mrs Davies to the bathroom?
+* Let me show you to my study.
+* Can you show me exactly where he fell?
+* The film was shown on television last night.
+* His happiness showed in his face.
+* n.
+* I enjoyed the show immensely.
+* a new television quiz show 
+* a fashion show for charity

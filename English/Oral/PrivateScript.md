@@ -74,7 +74,7 @@ Section::Topic::Q&A
          In terms of learning:  
          I would make an overall plan of learning every year and would also make a specific plan each month.  
          The learning plan includes computer technology, English, or other hobbies like music.  
-         In the learning progressing, Whenever I got a difficult problem, I will try constantly and finally find a solution.  
+         In the learning progressing, Whenever I got a difficult problem, I will keep trying constantly until finding a solution.  
          In terms of working:  
          I always take my work seriously and responsibly, and I never hide my mistakes.  
 

@@ -666,7 +666,7 @@ This is the best school of its kind.
   引导定语从句
   storm during which...: 在风暴中...
 I spent three years at home during which I finished my English course.
-I spent two months in this company during which I had felt very tied.
+I spent two months in this company during which I had felt very tired.
 
 * from side to side: 摇来摇去
   from time to time: 时而
@@ -703,7 +703,7 @@ His behavior was such mean that everyone disliked him.
 
 * In terms of...: 从...方面来讲...(用...来说) / 从...的角度
 In terms of the nation's future, the government should not be a one-party state.
-So think of your priorities not in terms of what activities you do, but when you do them.
+In terms of priority, the most important thing is not what you do, but when you do.
 
 * perform: 执行/履行/进行/表演
 The doctor performed the operation yesterday.
@@ -723,10 +723,22 @@ Nobody knows precisely how many people are still living in the camp.
 The government block youtube and google in the same way that they block the freedom of the people.
 
 * lead:
-I wish I lead the life I lead without others disturb.
+I wish I lead a life without others disturb.
 
 * grudge:
 I grudge having to pay so much tax.
+
+* times:
+There are times when...
+..., in times of real need,...
+
+* with + n.
+with ease
+with contempt
+
+* by doing... : 靠/由于...
+These emigrants are living by cheating.
+By raining heavily, I haven't gone outside.
 
 #L28: Five pounds too dear
 ## speed / approach / examine / bargain / tempt / assail / thrust / inscribe  v.
@@ -756,12 +768,15 @@ He acted like a child.
 He acted as if he had never seen me before.
 He acted as if he is a kind man.
 
-* readily: 很快地, 毫不迟疑地, 乐意地
+* readily: adv. 很快地, 毫不迟疑地, 乐意地
+  ready adj: 准备好的 / 乐意的,情愿的
 I asked her if she would allow me to interview her, and she readily agreed.
 Boats are readily available to visitors.
 The information is readily accessible on the Internet.
 I readily made a 3-points.
 I readily launched a nuclear bomb.
+I don't readily make friends.
+They were ready to die for their beliefs.
 
 * no mater how / where / ... : 不管...
 I would follow her no matter where she goes.

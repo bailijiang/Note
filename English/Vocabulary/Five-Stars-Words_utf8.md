@@ -317,6 +317,7 @@
 * I think we ought to go back now.
 * His income went down last year.
 * He went on working until he was 91.
+* The man went to great lengths to prove that the diamonds were real.(go to great lengths to do)
 * Six goes into thirty five times.
 * 3 into 12 goes 4 times.
 * 7 into 15 won't go.

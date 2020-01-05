@@ -784,13 +784,14 @@ I would love you forever no matter how you are rich or poor.
 
 #L29: Funny or Not?
 ##find + n. + adj. : 觉得...怎么样...
-  find + it + adj. + to do ...
+  find + it + hard/difficult + (not) to do ...
   see/consider/think/feel
 Whether we find our life happy or not largely depends on your parent's intelligence.
 Many people find this country very distasteful.
 I find these people worse than a beast.
 She found it difficult to make friends because of her natural reserve.
 I found it perfect nice to go to the concert.
+I found it hard to communicate with you recently.
 
 * stem (v.): 源于
 All my problems stem from drink.

@@ -101,7 +101,7 @@ Section::Topic::Q&A
     - Q: work
     - A:
 
-* Life Style
+* Manner of life
     - Q: like/dislike/regularly
     - A: I like to take the challenge of myself.
 

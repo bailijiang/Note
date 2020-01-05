@@ -839,8 +839,7 @@
 * She set the tray down on a table next to his bed.
 * The workmen set the box down carefully on the floor.
 * The novel is set in France.
-* These casualty totals have to be set against the continuing growth in traffic.(consider)
-* This debate should be set in an international context.
+* This debate should be set in an international context.(consider)
 * It is important that parents set an example (=behave well).(establish)
 * A study by military experts was immediately set in motion.(start)
 * They set to work to paint the outside of the building.(start)
@@ -871,7 +870,7 @@
 * She had learned not to show her emotions.
 * Show me how the gun works.
 * I want a photograph that shows his face.
-* Can you show Mrs Davies to the bathroom?
+* Can you show Mrs Davies to the bathroom?(guide)
 * Let me show you to my study.
 * Can you show me exactly where he fell?
 * The film was shown on television last night.

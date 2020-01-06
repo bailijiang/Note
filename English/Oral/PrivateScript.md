@@ -79,9 +79,23 @@ Section::Topic::Q&A
          I always take my work seriously and responsibly, and I never hide my mistakes.  
 
 * Experience(Story)
-    - Q: work,girl,book,movie,song,TV series,food,dangerous,travel,fun,odd thing,pet
-    - A: 
-    - Q:
+    - Q: Have you ever had a pet in your childhood?
+    - A: I have ever had many pets in my childhood, such as dogs, cats, rabbits, parrots, fish, tortoise, and bats, etc, but the most impressive me of them is one rabbit.  
+         When I was 6 years old, someone gave me a little bunny and I am so happy with it.  
+         I made a rabbit nest using a basket and put it at the balcony in my home.  
+         During that time, the rabbit had had a very good time and she was growing up quickly.  
+         I used to feed it all kinds of vegetables and carrots and even some sausages.  
+         Occasionally I also take it to play outside with me, but my rabbit was so timid that she always unwilling to stay away from me.  
+         My rabbit so loves to clean itself because it would wash its own face every day, and I found it so cute.  
+         Till now, I still remember that my rabbit was very sensible and polite.  
+         Whenever I opened the door of the balcony she never entered the room itself and just looked at me.  
+         But then one day, my rabbit died somehow.  
+         I saw it had its head stuck in the basket and didn't move anymore.  
+         At that moment I felt so sad.  
+         Finally, I buried it and set a gravestone for it.  
+    - Q: What was your most memorable business trip?
+    - A:
+    - Q: girl(adorable/quizz compete/play/...),book(NCE),food(cake),dangerous(fell),
     - A:
     - Q:
     - A:
@@ -89,9 +103,7 @@ Section::Topic::Q&A
     - A:
     - Q:
     - A:
-    - Q:
-    - A:
-    - Q:
+    - Q: movie,song,TV series,travel,fun,odd thing
     - A:
 * Stages
     - Q: What was your childhood like?

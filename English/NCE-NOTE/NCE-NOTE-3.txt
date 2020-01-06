@@ -858,7 +858,9 @@ They hardly make a mistake.
 * invariably
 It invariably rains when I go there.
 Their teamwork was invariably good.
-I invariably cook BBQ myself at home using the oven.
+They almost invariably get it wrong.
+Invariably, he keeps the refrigerator well stocked.
+I am invariably learning English in the morning every day.
 
 * be caught in... : 陷入...(困境)
 I was caught in a traffic jam on my way to the airport.
@@ -870,7 +872,11 @@ He was in a so exciting condition singing that song.
 
 * insist on sb's doing sth : 坚持让某人做某事
 I insist on her learning English every day.
-I insist on my colleague's apologize to me.
+I insist on my colleague's apologizing to me.
+
+* set out: 出发,启航/引起
+It was raining when we set out.
+True eccentrics never deliberately set out to draw attention to themselves.
 
 #L32: A lost ship
 ##过去完成进行时 had been + doing : 过去一直做...(现在不做了)
@@ -891,6 +897,8 @@ I hope the information will be of some help to you. (of some help = helpful)
 Police are trying to piece together his movements before the murder.
 The detectives tried to piece together the facts.
 I was piecing that contract when you called me.
+
+* Did you find what you were looking for?
 
 #L33: A day to remember
 * choose to...: (故意)找...

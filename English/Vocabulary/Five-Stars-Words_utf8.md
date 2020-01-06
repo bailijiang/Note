@@ -82,7 +82,6 @@
 * You do look nice in that hat.
 * Have you done your homework yet?
 * We should do something to help him.
-
 * Students are under considerable pressure to do well.
 * What do you want to do after you leave school?
 * I make more money than he does.

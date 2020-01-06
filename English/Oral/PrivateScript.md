@@ -93,8 +93,20 @@ Section::Topic::Q&A
          I saw it had its head stuck in the basket and didn't move anymore.  
          At that moment I felt so sad.  
          Finally, I buried it and set a gravestone for it.  
-    - Q: What was your most memorable business trip?
-    - A:
+    - Q: What was your most impressive trip or business trip?
+    - A: Though I haven't been to many places, Jiuquan, Gansu province is one of the most impressive places since then I have ever been a trip.  
+         That trip was a business trip and there was only one colleague came with me.  
+         At that time we were going to the place which was an Airforce base where located at an extreme distance plot covered by the Gobi desert for 200 kilometers.  
+         As that the business trip was hurried, we didn't get the berth tickets.  
+         So we had to stand invariably through the whole journey for 33 hours and the train was extremely crowded.  
+         After arriving at the Airforce base, we immediately go to work to install the equipment for the project during which we met a lot of difficulties like no tools, no network, the line was not long enough, etc.  
+         Later we had finally managed to overcome all the difficulties and had finished the project in a week.   
+         I remember the most agreeable moment during that time was every night when I sat outside and looked at the sky.  
+         The night sky of that place was full of twinkling stars and as there was no one tall building at all, it seemed like the sky and the earth was connected and I could touch those stars.   
+         That beautiful scenery has never can be seen in the city.  
+         The other exciting part was the flight we were taking when we returned, which was a military aircraft, its totally different from a normal plane.  
+         There was not only the speed of the military aircraft but its raising speed and turning speed much faster than the normal plane.  
+         The feeling of that flight was over 100 times insane than a roller coaster.  
     - Q: girl(adorable/quizz compete/play/...),book(NCE),food(cake),dangerous(fell),
     - A:
     - Q:

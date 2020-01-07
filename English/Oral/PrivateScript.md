@@ -107,9 +107,9 @@ Section::Topic::Q&A
          The other exciting part was the flight we were taking when we returned, which was a military aircraft, its totally different from a normal plane.  
          There was not only the speed of the military aircraft but its raising speed and turning speed much faster than the normal plane.  
          The feeling of that flight was over 100 times insane than a roller coaster.  
-    - Q: girl(adorable/quizz compete/play/...),book(NCE),food(cake),dangerous(fell),
-    - A:
-    - Q:
+    - Q: Have you ever met a girl who set your heart racing?(fall in love)
+    - A: 
+    - Q: book(NCE),food(cake),dangerous(fell),
     - A:
     - Q:
     - A:

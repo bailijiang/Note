@@ -901,20 +901,23 @@ I was piecing that contract when you called me.
 * Did you find what you were looking for?
 
 #L33: A day to remember
-* choose to...: (故意)找...
+* choose to do...: (故意)找...
 He must have chosen to ask for trouble!
 It seemed like the weather chooses to make trouble for me.
 I wonder why the boss chose to make trouble for me.
 
-* attend to: 接待,照顾
+* attend to: 接待,照顾 / 处理(个人事务)
+  attend v.: 出席 to attend a concert
 He is attending to the customers now.
 She is attending to her baby.
 You are responsible to attend to the customers.
+You hang up hurriedly and attend to the baby, crockery, etc.
+I may be late – I have got one or two things to attend to.
 
 * reduce sb to ... : 把(谁)...弄(怎么样)... / 沦为...
 His question reduced me to silence.
 The city was reduced to ruins.
-This country will certainly reduce to the colony.
+This country will certainly reduce to be the colony.
 They were reduced to extreme poverty.
 
 * yet: still 也...
@@ -930,22 +933,34 @@ I am drawing up alongside the first place in the race.
 It is as if you like her.
 As if this were not enough to reduce you to upset, your wife arrives, unexpectedly bringing her parents to dinner.
 
+* what: 疑问词 / 连词 / 惯用语
+What do you want?
+I didn't know what else to say.
+What invariably happens is that a great number of things choose to go wrong at precisely the same moment.
+Look at that moon. Is that beautiful or what?(or what:不是吗)
+
+* go wrong
+But then things started to go wrong.
+Things can go wrong on a big scale...
+
 #L34: A happy discovery
 * its: it的所有格
-There is always hope that in its labyrinth of musty, dark, disordered room ...
+There is always hope that in its labyrinth of musty, dark, disordered room a real rarity will be found amongst the piles of assorted junk that litter the floors.
   - its 代表的是 hope
   - ...its labyrinth of... : 希望迷宫
+  - that...: 同位语从句(主句在两边)
 The dog has its own house.
 Turn the box on its side.
 The hotel has its own pool.
 
 * be bother to...: 费事做...
-I cannot be bothered to cook this evening.
+I don't want to be bothered to cook this evening.
 
 * bent on: determined to 决心做...
 I bend on learning English well.
+He's bent on suicide.
 
-* by chance: 碰巧, 意外
+* by chance: 碰巧, 意外(靠运气)
 I picked up fifty dollars by chance when I was walking in our community yesterday.
 
 * 数字: 
@@ -954,7 +969,7 @@ I picked up fifty dollars by chance when I was walking in our community yesterda
 千万: Ten million           10,000,000
 一亿: One hundred million   100,000,000
 十亿: One billion           1,000,000,000
-万亿: One trillion          100,000,000,000
+万亿: One trillion          1,000,000,000,000
 
 #L35: Justice was done
 ##certain adj. : 某些 / 肯定的,有把握的

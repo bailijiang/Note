@@ -98,7 +98,7 @@
 
 <a id="make"></a>
 ####make
-* He made the remarkble discovery.
+* He made a remarkable discovery.
 * Hawkwood made large sums of money in this way.
 * I'd just like to make a comment.
 * I made a few phone calls.

@@ -784,13 +784,14 @@ I would love you forever no matter how you are rich or poor.
 
 #L29: Funny or Not?
 ##find + n. + adj. : 觉得...怎么样...
-  find + it + adj. + to do ...
+  find + it + hard/difficult + (not) to do ...
   see/consider/think/feel
 Whether we find our life happy or not largely depends on your parent's intelligence.
 Many people find this country very distasteful.
 I find these people worse than a beast.
 She found it difficult to make friends because of her natural reserve.
 I found it perfect nice to go to the concert.
+I found it hard to communicate with you recently.
 
 * stem (v.): 源于
 All my problems stem from drink.
@@ -857,7 +858,9 @@ They hardly make a mistake.
 * invariably
 It invariably rains when I go there.
 Their teamwork was invariably good.
-I invariably cook BBQ myself at home using the oven.
+They almost invariably get it wrong.
+Invariably, he keeps the refrigerator well stocked.
+I am invariably learning English in the morning every day.
 
 * be caught in... : 陷入...(困境)
 I was caught in a traffic jam on my way to the airport.
@@ -869,7 +872,11 @@ He was in a so exciting condition singing that song.
 
 * insist on sb's doing sth : 坚持让某人做某事
 I insist on her learning English every day.
-I insist on my colleague's apologize to me.
+I insist on my colleague's apologizing to me.
+
+* set out: 出发,启航/引起
+It was raining when we set out.
+True eccentrics never deliberately set out to draw attention to themselves.
 
 #L32: A lost ship
 ##过去完成进行时 had been + doing : 过去一直做...(现在不做了)
@@ -891,21 +898,26 @@ Police are trying to piece together his movements before the murder.
 The detectives tried to piece together the facts.
 I was piecing that contract when you called me.
 
+* Did you find what you were looking for?
+
 #L33: A day to remember
-* choose to...: (故意)找...
+* choose to do...: (故意)找...
 He must have chosen to ask for trouble!
 It seemed like the weather chooses to make trouble for me.
 I wonder why the boss chose to make trouble for me.
 
-* attend to: 接待,照顾
+* attend to: 接待,照顾 / 处理(个人事务)
+  attend v.: 出席 to attend a concert
 He is attending to the customers now.
 She is attending to her baby.
 You are responsible to attend to the customers.
+You hang up hurriedly and attend to the baby, crockery, etc.
+I may be late – I have got one or two things to attend to.
 
 * reduce sb to ... : 把(谁)...弄(怎么样)... / 沦为...
 His question reduced me to silence.
 The city was reduced to ruins.
-This country will certainly reduce to the colony.
+This country will certainly reduce to be the colony.
 They were reduced to extreme poverty.
 
 * yet: still 也...
@@ -921,22 +933,34 @@ I am drawing up alongside the first place in the race.
 It is as if you like her.
 As if this were not enough to reduce you to upset, your wife arrives, unexpectedly bringing her parents to dinner.
 
+* what: 疑问词 / 连词 / 惯用语
+What do you want?
+I didn't know what else to say.
+What invariably happens is that a great number of things choose to go wrong at precisely the same moment.
+Look at that moon. Is that beautiful or what?(or what:不是吗)
+
+* go wrong
+But then things started to go wrong.
+Things can go wrong on a big scale...
+
 #L34: A happy discovery
 * its: it的所有格
-There is always hope that in its labyrinth of musty, dark, disordered room ...
+There is always hope that in its labyrinth of musty, dark, disordered room a real rarity will be found amongst the piles of assorted junk that litter the floors.
   - its 代表的是 hope
   - ...its labyrinth of... : 希望迷宫
+  - that...: 同位语从句(主句在两边)
 The dog has its own house.
 Turn the box on its side.
 The hotel has its own pool.
 
 * be bother to...: 费事做...
-I cannot be bothered to cook this evening.
+I don't want to be bothered to cook this evening.
 
 * bent on: determined to 决心做...
 I bend on learning English well.
+He's bent on suicide.
 
-* by chance: 碰巧, 意外
+* by chance: 碰巧, 意外(靠运气)
 I picked up fifty dollars by chance when I was walking in our community yesterday.
 
 * 数字: 
@@ -945,7 +969,7 @@ I picked up fifty dollars by chance when I was walking in our community yesterda
 千万: Ten million           10,000,000
 一亿: One hundred million   100,000,000
 十亿: One billion           1,000,000,000
-万亿: One trillion          100,000,000,000
+万亿: One trillion          1,000,000,000,000
 
 #L35: Justice was done
 ##certain adj. : 某些 / 肯定的,有把握的
@@ -956,7 +980,9 @@ They are certain to agree.
 I'm absolutely certain that I left the keys in the kitchen.
 I felt certain that I'd passed the test.
 
-* v...to act of one's own accord: 自愿地, 自动地
+* v...to act of its own accord: 自动地
+      ...act of one's own accord: 自愿地  
+In many cases the disease will clear up of its own accord.
 I had donated 1,500 RMB to act of my own accord.
 He donated blood to act of his own accord.
 
@@ -966,6 +992,12 @@ Some museums have ceased to charge admission.
 We must cease dumping waste in the sea.
 At one o'clock the rain had ceased.
 He never ceases to amaze me.
+
+* almost adv.: 几乎,差不多地
+  almost cease to be... : 不再是...
+Have you almost finished?
+There are rare instances when justice almost ceases to be an abstract concept.(同位语从句when..., 修饰 instances)
+In this country, most of the situations when justice almost ceases to be a real concept.
 
 * blackened: black(adj.) -> blacken(v.) -> blackened(adj.)
   这种变换通常在形容 quality / state 时使用, 使其带有变化性质的形容效果
@@ -997,6 +1029,16 @@ I've acquainted with a lot of basketball friends there.
 He made his way slowly up the hill.
 I made my way up the stairs.
 I made my way to success.
+
+* wind n. /wɪnd/ 风,气流
+  wind v. /waɪnd/ wound wound /waʊnd/  缠绕,蜿蜒向前
+  wound n. /wuːnd/ 伤口 
+        v. wounded 伤害
+There was a strong wind blowing.
+He wound the wool into a ball.
+The road winds uphill.
+A nurse cleaned and bandaged the wound.
+He was wounded in the arm.
 
 #L37: The Westhaven express
 ##动词的用法: learn,expect,condition,develop,delay,cancel,dislocate,blame,occur,consult,note,last,board,strike,reflect,hold up,dawdle,dawn on,roar,chug,cover,heard,determine,lodge,borrow,glance,conduct,suspend

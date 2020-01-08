@@ -147,12 +147,15 @@ Section::Topic::Q&A
      I'm so missing those good times.  
 
 * Q: Do you think which is the best English textbook have you ever read? Why?  
-* A: 
+* A: I have read a lot of English textbooks and I think New Concept English is the most classical among these.  
+     
     
-* Q:  food(cake),dangerous(fell),
-* A:
+* Q:  food(cake)
+* A: Egg beater
+     The oven
+     Cake moulds
 
-* Q:  
+* Q:  ,dangerous(fell),
 * A:
 
 * Q: movie,song,TV series,travel,fun,odd thing  

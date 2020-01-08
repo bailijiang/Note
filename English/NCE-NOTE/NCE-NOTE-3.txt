@@ -980,7 +980,9 @@ They are certain to agree.
 I'm absolutely certain that I left the keys in the kitchen.
 I felt certain that I'd passed the test.
 
-* v...to act of one's own accord: 自愿地, 自动地
+* v...to act of its own accord: 自动地
+      ...act of one's own accord: 自愿地  
+In many cases the disease will clear up of its own accord.
 I had donated 1,500 RMB to act of my own accord.
 He donated blood to act of his own accord.
 
@@ -990,6 +992,12 @@ Some museums have ceased to charge admission.
 We must cease dumping waste in the sea.
 At one o'clock the rain had ceased.
 He never ceases to amaze me.
+
+* almost adv.: 几乎,差不多地
+  almost cease to be... : 不再是...
+Have you almost finished?
+There are rare instances when justice almost ceases to be an abstract concept.(同位语从句when..., 修饰 instances)
+In this country, most of the situations when justice almost ceases to be a real concept.
 
 * blackened: black(adj.) -> blacken(v.) -> blackened(adj.)
   这种变换通常在形容 quality / state 时使用, 使其带有变化性质的形容效果
@@ -1021,6 +1029,16 @@ I've acquainted with a lot of basketball friends there.
 He made his way slowly up the hill.
 I made my way up the stairs.
 I made my way to success.
+
+* wind n. /wɪnd/ 风,气流
+  wind v. /waɪnd/ wound wound /waʊnd/  缠绕,蜿蜒向前
+  wound n. /wuːnd/ 伤口 
+        v. wounded 伤害
+There was a strong wind blowing.
+He wound the wool into a ball.
+The road winds uphill.
+A nurse cleaned and bandaged the wound.
+He was wounded in the arm.
 
 #L37: The Westhaven express
 ##动词的用法: learn,expect,condition,develop,delay,cancel,dislocate,blame,occur,consult,note,last,board,strike,reflect,hold up,dawdle,dawn on,roar,chug,cover,heard,determine,lodge,borrow,glance,conduct,suspend

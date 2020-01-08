@@ -147,8 +147,15 @@ Section::Topic::Q&A
      I'm so missing those good times.  
 
 * Q: Do you think which is the best English textbook have you ever read? Why?  
-* A: I have read a lot of English textbooks and I think New Concept English is the most classical among these.  
-     
+* A: I have read a lot of English textbooks and I think the New Concept English series is the most classical among these.    
+     I have already learned the New Concept English book one, book two and book three many times.  
+     The main content of the NCE1 is basic oral English, and the NCE2 includes basic English Grammar, and the NCE3 contains comprehensive reading and practicing.  
+     I haven't read NCE4 and If I should have time later I would read it probably.  
+     Many people thought NCE1 and NCE2 were too easy to learn.  
+     On the contrary, I think these two books are very important and they are the foundation for learning NCE3 well.  
+     I find it that the most classical characteristic of the NCE series is not only can systematically but gradually learn its knowledge.  
+     The author of the NCE, L.G.Alexander had said that the key point of learning English well was read and read again.  
+     Every time I learned NCE, that it always let me improve to a certain extent in English.  
     
 * Q:  food(cake)
 * A: Egg beater

@@ -1076,17 +1076,24 @@ Neither was I happy.
 Neither did I go swimming.
 
 * dawn on : v. 使...渐渐明白
-I dawn on understanding that this country's darkness.
-The truth finally dawned on him.
+It slowly dawned on me that he might have been mistaken.
+It gradually dawned on me that this country is so dark.
+The dreadful truth finally dawned on me.
 It finally dawned on him that his parents had been right.
+It was beginning to dawn on her that she had been fooled.
 
 * strike (me) as (odd): 使(我)感到(奇怪)
 His behavior strikes me on odd.
 Doesn't it strike you as strange that he never talks about his family? 
 His jokes didn't strike me as funny.
+It suddenly struck me how we could improve the situation.
 
-* reflected that... : 认为...
-I reflected that those people should die.
+* reflected that... 
+I reflected that I have never met him before.
+His face was reflected in the mirror.
+On the way home he reflected that the interview had gone well.
+We should all give ourselves time to reflect.
+I have reflected upon his suggestion.
 
 * note: n. 一丝
         v. 意识到
@@ -1095,12 +1102,17 @@ Her voice had an angry note.
 There is a note smile on her face.
 Suddenly, I noted that the rain had stopped.
 
+* Neither was I surprised when... : 当...时我也不惊讶(倒装强调)
+Neither was I surprised when the system failed to start.
+
 #L38: The first calender
 * ...not have to do...: 不必...
 If you don't want to live abroad, you will not have to learn English well.
 
 * shed... light on: 使...显露出来
 Though he is young, he has shed talent light on music.
+The candles shed a soft glow on her face.
+They will shed a few tears at their daughter's wedding.
 
 * come into being with...: 产生于/ 形成于...
 This kind of rogue culture came into being with the advent of reform and opening.

@@ -161,6 +161,8 @@ Section::Topic::Q&A
 * A: Egg beater
      The oven
      Cake moulds
+     scoop
+     up and down
 
 * Q:  ,dangerous(fell),
 * A:

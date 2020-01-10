@@ -1185,9 +1185,10 @@ Only rarely will she indulge in a glass of wine.
 Children have always indulged themselves in video games.
 
 * seem to do : 似乎...
-I seem to see someone going into my house.
-I can't seem to get started today.
-The dinner seems to look so delicious.
+It seemed like there's someone who went into my house.
+I can’t seem to get started today.
+It seemed like I can't start running this programe today.
+The dinner seems like so delicious.
 It seems to look like we're going to win the game.
 
 * take sb seriously: 把...当回事

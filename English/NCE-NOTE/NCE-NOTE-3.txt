@@ -1203,7 +1203,7 @@ Only when I was forty years old did I find a way to learn English.
 I did not find a way to learn English until I was forty years old.
 
 #L41: Illusions of Pastoral Peace
-* something
+* something pronoun. 某物,某事(不定代词)
 I have always regarded the work as something I live with it.
 I have always regarded reading as something I enjoy on the weekends.
 
@@ -1237,9 +1237,9 @@ Silence descended on the room.
 A feeling of despair descends on us as we realized that we had no choice.
 The white terror descends on this country.
 
-* ... than/when n. that v. ... :
+* ... than/when n. that v. ... : 同位语从句
 Few things could be more impressive than the peace that descends on deserted city streets on holidays when the thousands that travel to work every day are tucked away in their homes in the country.
-What a sad when the thousands that only worship the money at all.
+What a sad it was when the thousands that only worship the money at all.
 
 * ... run wild when... : ...失控当...
 Two cars run wild when they collide in the race.
@@ -1274,6 +1274,9 @@ Independent travel is not a task for old people.
   edge v. 挪动
 A long line of traffic is edging its way forward.(往前挪)
 In morning rush hour, there are thousands of people edging their way in this subway station.
+
+*With what... : 用什么... 
+With what does the writer describe this country's culture?
 
 #L43: Fully insured
 ##同位语从句: ...(n.) that ... : 从句用于解释前面的句子成分, 相当于等号=

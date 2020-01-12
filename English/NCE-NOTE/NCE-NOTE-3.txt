@@ -1317,7 +1317,7 @@ He always likes to put the things he has learned into practice.
 #L44: Speed and comfort
 ## ... n. + of being... : xx就是xx
    ... n. + of doing...
-I have a habit of being to go to bed early and get up early every day.
+I have a habit of being to go to bed and get up early every day.
 People who smoke have a feature of being to die early than the normal man. 
 You have to find a way of taking your time off the journey.
 
@@ -1338,7 +1338,7 @@ The authority has only expressed a partial report for the riot.
 
 * more often than not: 经常,通常
   = as often as not
-Behind many successful men there is, more often than not, a woman who makes this success possible.
+Behind many successful men, there is, more often than not, a woman who makes this success possible.
 Most of the successful person who, more often than not, can be good at time management.
 
 * assuming that... : 前提是(假设)... // assuming conj. 连词

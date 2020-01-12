@@ -123,7 +123,7 @@ Section::Topic::Q&A
 * A: Though I haven't been to many places, Jiuquan, Gansu province is one of the most impressive places since then I have ever been a trip.  
      That trip was a business trip and there was only one colleague came with me.  
      At that time we were going to the place which was an Airforce base where located at an extreme distance plot covered by the Gobi desert for 200 kilometers.  
-     As that the business trip was hurried, we didn't get the berth tickets.  
+     As that the business trip was hurried, we didn't get the sleeper tickets.  
      So we had to stand invariably through the whole journey for 33 hours and the train was extremely crowded.  
      After arriving at the Airforce base, we immediately go to work to install the equipment for the project during which we met a lot of difficulties like no tools, no network, the line was not long enough, etc.  
      Later we had finally managed to overcome all the difficulties and had finished the project in a week.   

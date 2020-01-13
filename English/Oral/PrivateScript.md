@@ -157,12 +157,20 @@ Section::Topic::Q&A
      The author of the NCE, L.G.Alexander had said that the key point of learning English well was read and read again.  
      Every time I learned NCE, that it always let me improve to a certain extent in English.  
     
-* Q:  food(cake)
-* A: Egg beater
-     The oven
-     Cake moulds
-     scoop
-     up and down
+* Q: Can you tell me what is your favorite food? And if you can cook it for yourself you can tell me how you cook it?
+     Oh, this cake looks very delicious, how did you cook it?
+* A: Actually, I like many kinds of food such as chicken, beef, and shrimp, and what is more, I also like to cook them for myself, but recently I am practicing baking the cake in an oven at home. Now I've known it's not easy to make a nice taste and a nice-looking cake.  
+     This recipe is for two.  
+     First of all, you must prepare all the ingredients for the cake. They include four eggs, 120 grams of cake flour, 80g sugar, and 50g milk. And you must have an oven, a cake mold, and an egg beater. Following we can start cooking the cake.  
+     Practices(Directions):  
+     (1). Separate the whites from the yolk of the eggs and put them in two larger containers;  
+     (2). Using the egg beater with middle speed and stirring the whites of the eggs until it becomes dry foaming, during which this process the sugar must be added in 3 times;  
+     (3). In the yolk container,  you need to pour the milk in it and mix them well, and then pour the cake flour in it and mix them well yet;  
+     (4). Put the foaming of the whites into the yolk container, and mix them well in the same way;  
+     (5). Pour the batter into the cake mold;  
+     (6). Bring the cake mold into the oven and set 165 degrees Celsius, 40 minutes and then start it;  
+     (7). No sooner you take the cake mold out of the oven  than you must put them up and down;  
+     (8). After 10 minutes you can turn the mold up and take the cake out of it;  
 
 * Q:  ,dangerous(fell),
 * A:

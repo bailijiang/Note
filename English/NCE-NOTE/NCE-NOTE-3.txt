@@ -1375,16 +1375,29 @@ The inhabitants kept pressing to change the law.
 We have kept pressing for our children to be taught in English.
 Finding a decent job is a more pressing task for me.
 
+* live   v.   /lɪv/    He lives just across the street from me.
+         adj. /laɪv/   We were so excited to see real live elephants.
+                       They watch all the live matches.
+  lives  n.   /laɪvz/  Though we may enjoy reading about the lives of others.
+  living adj. /ˈlɪvɪŋ/ He’s one of the greatest living composers.
+           n.          It’s not a great job, but it’s a living.
+                       What do you do for a living? (=what do you do as a job?)
+  alive  adj. /əˈlaɪv/ She does not know if he is alive or dead.
+
 #L46: Do it yourself
 * go so far as to (do): 甚至要...(竟到了...程度)
 She went so far as to threaten to kill herself.
 The authority went so far as to threaten to use a nuclear weapon.
 
 *     as/so much... as... : 既...又...
-  not as/so much... as... : 与其说是...不如...(not多了一层递进的含义)
-She is as much a friend to me as a mother.
+  not as/so much... as... : ...与其说是...不如说是...(not多了一层递进的含义, 说的是一件事)
+As far as my concern, she is as much my mother as a friend to me.
 They are not so much friends as lovers.
 These people are not so much selfish as mean.
+
+* ...rather...than... : 宁愿...也不... / 不如...与其... (说的是两件事)
+I'd rather sleep than learn.
+I think I'd rather cook for myself than order takeout online.
 
 * as much as anything else : 这就是...
 It is a question of pride as much as anything else.
@@ -1399,9 +1412,6 @@ You are not as bad as her.
 I had never got round to learn to compose.
 I had never got round to play games.
 
-* ...rather...than... : 宁愿...也不...(不如...与其...)
-I'd rather sleep than learn.
-
 * as far as (I) ... : 对(我)来说...
 There has been no change, as far as I can tell.
 It sounds like a good idea as far as I'm conserned.
@@ -1413,6 +1423,16 @@ Either you would learn English well or to die.
 * embark v. 着手做
 He's embarking on a new career as a writer.
 I'm embarking on working at a new company as a programmer.
+
+* plead v. 恳求，乞求 / 以...为借口
+  plead ignorance of/as... : 以不知情为...的借口
+Civil rights groups pleaded for government help.
+He was kneeling on the floor pleading for mercy.
+No one can plead ignorance of a subject any longer.
+Mr.Giles pleads ignorance as his excuse.
+
+* use...as : 用...作为...
+You can't use the traffic jam as an excuse to be late.
 
 #L47: Too high a price?
 * 并列句: ...or...or...

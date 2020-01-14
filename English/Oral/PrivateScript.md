@@ -21,6 +21,8 @@ Section::Topic::Q&A
     - [Work experience/Story](#work-experiencestory)
 - [5. School/Learning](#5-schoollearning)
     - [English](#english)
+    - [Note](#note)
+    - [Learning method](#learning-method)
 - [6. Hospital/Health/Illness](#6-hospitalhealthillness)
 - [7. Shopping](#7-shopping)
 - [8. Nature/Climate/Geography](#8-natureclimategeography)
@@ -32,7 +34,7 @@ Section::Topic::Q&A
 - [10. Travel/Entertainment](#10-travelentertainment)
     - [Travel](#travel)
     - [Entertainment](#entertainment)
-- [11. Society/Environment](#11-societyenvironment)
+- [11. Society/Environment/Culture](#11-societyenvironmentculture)
     - [Society](#society)
     - [Environment](#environment)
 
@@ -169,13 +171,15 @@ Section::Topic::Q&A
      (4). Put the foaming of the whites into the yolk container, and mix them well in the same way;  
      (5). Pour the batter into the cake mold;  
      (6). Bring the cake mold into the oven and set 165 degrees Celsius, 40 minutes and then start it;  
-     (7). No sooner you take the cake mold out of the oven  than you must put them up and down;  
+     (7). No sooner you take the cake mold out of the oven than you must put them up and down;  
      (8). After 10 minutes you can turn the mold up and take the cake out of it;  
 
-* Q:  ,dangerous(fell),
-* A:
+* Q: Have you ever experienced any dangerous moments?
+* A: I have experienced one horrible scene even now I think of it with horror.
+     As I was 10 years old, one day I explored outside with my little friends.
+     We tramped through the wood for over two hours until we arrived at a deep ditch. We could see on the other side of the ditch, there was a large prosperous orchard. But the ditch was many yards long and was five meters wide and at least six meters deep. So if we wanted to arrive that orchard, we must across the ditch. We need to climb down the ditch first and then climb up on the other side. On the beginning, I started climbing it went very well, but when I almost climbed up the other side, I suddenly slipped with my back down the bottom of the ditch. I remembered when I fall to the bottom of the ditch I immediately lost consciousness. After ten minutes, I had just woke up slowly. I was startled to find a heap of stones on my left, a stack of iron bars on my right, and I had happened to fall on a piece of straw mattress. I felt so lucky at that time. Afterwards, there was a boy jumped down the ditch at the same spot, but he broke his arm.
 
-* Q: movie,song,TV series,travel,fun,odd thing  
+* Q: movie,song,TV series,travel,fun,odd thing,man  
 * A:
 
 <a id="stages"></a>
@@ -191,7 +195,7 @@ Section::Topic::Q&A
 
 <a id="manner-of-life"></a>
 ####Manner of life
-* Q: like/dislike/regularly
+* Q: like/dislike/regularly(cloth,food,sleep,transport...)
 * A: I like to take the challenge of myself.
 
 <a id="2-daily-life"></a>
@@ -249,6 +253,12 @@ Section::Topic::Q&A
 * Q: How do you think you can improve your spoken English?
 * A: I think I can promote my English proficiency as long as I am used to speaking English every day.
 
+<a id="note"></a>
+####Note
+
+<a id="learning-method"></a>
+####Learning method
+
 <a id="6-hospitalhealthillness"></a>
 ##6. Hospital/Health/Illness
 
@@ -284,8 +294,8 @@ Section::Topic::Q&A
 ####Entertainment
 
 
-<a id="11-societyenvironment"></a>
-##11. Society/Environment
+<a id="11-societyenvironmentculture"></a>
+##11. Society/Environment/Culture
 <a id="society"></a>
 ####Society
 

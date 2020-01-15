@@ -185,10 +185,10 @@ Section::Topic::Q&A
 <a id="stages"></a>
 ####Stages
 * Q: What was your childhood like?
-* A:
+* A: cottage,naughty,happy,curious
  
 * Q: school
-* A:
+* A: all kind of exam,university,master
     
 * Q: work
 * A:

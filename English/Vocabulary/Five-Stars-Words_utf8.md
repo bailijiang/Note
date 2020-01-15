@@ -832,6 +832,7 @@
 * How do you tell one from another?
 * The strain was beginning to tell on the rescue team.(HAVE EFFECT)
 * The facts tell us that this is not true.(reveal)
+* Who's telling Mr.Bryan?
 
 <a id="set"></a>
 ####set

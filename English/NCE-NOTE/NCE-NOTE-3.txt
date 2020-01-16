@@ -1632,11 +1632,24 @@ I staggered and had to clutch at a chair for support.
 Light poured into the hall, dispelling the shadows.
 The sun dispelled the dense fog.
 
-* ... consider it ... to do... : it 为形式宾语, 真正的宾语是 to do...
-I used to consider it a great joke to go to an online shopping mall and buy too many commodities at double eleven.
+* ... consider it ... to do/doing... : it 为形式宾语, 真正的宾语是 to do...
+I have constantly considered it a big joke to go shopping online excessively at double eleven.
 
 * How... is quite beyond me. ...真搞不懂
 How these people are so stupid is quite beyond me.
+
+* purchase v. /ˈpɜːtʃɪs/
+Tickets may be purchased in advance from the box office.
+
+* beat v. : 打，击，敲/拍打/跳动/击败
+       n. : 节拍
+He beat a hasty retreat.
+They were beaten to death with baseball bats.
+There was dead silence but for a fly beating against the glass.
+I felt my heart beating faster.
+Beating their wings they flew off.
+In yesterday's games, Switzerland beat the United States two-one.
+It's got four beats to a bar.
 
 #L53: In the public interest
 * evolve v. : 演化,逐渐形成

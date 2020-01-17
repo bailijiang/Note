@@ -187,8 +187,8 @@ Section::Topic::Q&A
 * Q: What was your childhood like?
 * A: I think I had a happy childhood. Though I spent most of my childhood with my family in a bungalow, during that time, I could play with many children of the same age as me every day. I was very naughty when I was young. Once I threw stones from the roof, on another occasion I set off firecrackers in a well and later had to call the fire brigade. At that time, I was full of curiosity about everything, even I had got into a henhouse to watch a hen lay eggs.
  
-* Q: school
-* A: all kind of exam,university,master
+* Q: How were your school days?
+* A: My school days were not very happy. I remember there were filled with all kind of exam in my high school time. So there was no time to do what I wanted. In my college days, my major was Computer Science Technology and I was studying very hard and because of my diligence, my master's thesis was rated best paper award.
     
 * Q: work
 * A:

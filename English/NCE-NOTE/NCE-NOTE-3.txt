@@ -1680,8 +1680,9 @@ I think his sincerity is open to doubt.
 Personal preference naturally varies.
 Prices can vary enormously.
 Costs are likely to vary depending on where you live.
-I vary other people enormously.
+My characteristic enormously vary from other people.
 I can vary the speed at will.
+You are welcome to vary the diet.
 
 * justify: 证明合理 v.
   justified adj.
@@ -1729,11 +1730,23 @@ Last summer I spent three months learning C/C++ programming helping me to get a 
   情态动词, 比could情绪强一些
 I felt very cold, it was to be found the window was opened by someone.
 
-* stand in awe: 肃然起敬
+* awe n. 敬畏，畏怯
+  stand in awe: 肃然起敬
 You cannot help but stand in awe of such a stunning performance.
+She gazed in awe at the great stones.
+She filled me with a sense of awe.
 
 * contaminate v. : 弄脏 / 污染
 The river was contaminated with waste from the factory.
+
+* entrance n. 入口          /ˈentrəns/
+           v. 使陶醉，使入迷  /ɪnˈtrɑːns/
+Beside the entrance to the church, turn right.
+I became entranced with the idea.
+
+* wither v. 凋零，枯萎
+His career had withered.
+Flowers withered up soon after they were cut.
 
 #L55: From the earth: Greetings!
 ##虚拟语气: 与现在事实相反

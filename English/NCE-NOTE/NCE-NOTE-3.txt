@@ -1802,7 +1802,9 @@ I would have got that job if I had spoken English very well.
 * stand to lose/gain/win: 处于损失/盈利...的境况中
 Our company stands to lose a lot of money if the deal is unsuccessful.
 We stand to gain/win a lot if our plans get approved.
-Our team stands to lose a lot of points if their defends fail.
+Our team will stand to lose a lot of points if our defends fail.
+First, just how much do banks stand to lose?
+As we have prepared well enough, we stood to lose little. 
 
 * hard by: 在...近旁 
 Hard by the school stood a big bookstore.
@@ -1815,9 +1817,13 @@ If you give the wrong answer, you have to miss a turn.
 
 * unduly: 过分地, 过度地, 不正当地
     duly: 恰当地
+    due adj. : 预期的
+    due to : 由于，因为 
 She doesn't seem unduly concerned about her exams.
 It didn't trouble me unduly.
 There is no need to be unduly pessimistic about the situation.
+The results are due at the end of the month.
+If the trip is a success, a lot of this will be due to Mr. Green's efforts.
 
 * sound adj. 坚固的
 I believe that the house must have been sound foundations.

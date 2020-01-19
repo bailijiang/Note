@@ -190,8 +190,8 @@ Section::Topic::Q&A
 * Q: How were your school days?
 * A: My school days were not very happy. I remember there were filled with all kind of exam in my high school time. So there was no time to do what I wanted. In my college days, my major was Computer Science Technology and I was studying very hard and because of my diligence, my master's thesis was rated best paper award.
     
-* Q: work
-* A:
+* Q: What's your occupation? What kind of job have you taken?
+* A: My career has not been developing smoothly. In general, my jobs are all about Information Technology(IT). I have acted as many positions such like system engineer, network engineer, Jave programmer, DevOps, C/C++ programmer, project manager, and technology manager. During my career, I have constantly been learning some new technology that attracted me. At present, I am learning Computer Vision(CV) and Convolutional neural network(CNN) for trying to achieve my dream.
 
 <a id="manner-of-life"></a>
 ####Manner of life

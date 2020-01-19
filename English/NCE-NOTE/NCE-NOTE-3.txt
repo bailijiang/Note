@@ -1845,7 +1845,7 @@ It was not that I actually remembered anything at all, but I had had an electron
 
 * sb had expected to be... : 本以为...
 I had expected him to say 'Yes', but he said 'No' instead.
-I had expected to finish my English course last month, but I had sick. 
+I had expected to finish my English course last month, but I had been ill(had sick).  
 
 * decide v. : 决定 / 判定,断定
 I decided my girlfriend must be suffering from a bad cold.
@@ -1853,7 +1853,7 @@ I decided my girlfriend must be suffering from a bad cold.
 * must have done: 必定是...
 The news must have been censored.
 
-* should be doing: 虚拟语气, 表推测 (现在)
+* should/must be doing: 虚拟语气, 表推测 (现在:应该正在...)
 I should be seeing a movie at my house.
 They should be working at the office.
 You should be sleeping at your home.
@@ -1877,7 +1877,7 @@ The child stumbled and fell.
 She nearly fell down by stumbling over my stretched leg.
 
 #L58: A spot of bother
-##间接引语: asked / advised / said / told ...
+##间接引语: asked / advised / ordered / said / told ...
            时态通常向后移动(现在变过去)
            Reported Orders / Commands / Requests
 "Open the door!"
@@ -1888,6 +1888,8 @@ She told me not to answer the phone.
 
 * with... : 随着... 
 They have grown stronger with every match they encountered.
+I can’t do my homework with all this noise going on.
+I entered the office with confidence.
 
 * yet following her regular practice: 然而按照她的惯例
   regular / common practice

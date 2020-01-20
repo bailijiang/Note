@@ -1955,10 +1955,11 @@ She is not fussy about her food.
   ..., ..., ..., ...
   ...to..., to..., to...
 No matter how they pretend, they also can not hide their extremely selfish, hypocrisy, shameless, fool, ignorance, confused, low, mean, faithlessness, violence. 
-For leisure hours I like to play basketball, to sing, to read, to swim, and to play PC games.
+For leisure hours I like to play basketball, to sing, read, swim, and play PC games.
 She leaves food in frigs, in drawers, in cupboards and attics for several weeks. 
 
 * have/has a/some bearing on... : 与...有关(受...影响)
+Exercise has a direct bearing on how healthy you are.
 Experts generally agree that diet has an important bearing on your general health.
 Recent events had no bearing on our decision.
 It has a direct bearing on the subject.
@@ -2007,7 +2008,7 @@ Let's confine our attention to the problem of illegal drugs.
 
 #L60: Too early and too late
 * without : 常用虚拟语气
-Without honest, any country could ever not become stronger, everything would be in a state of chaos.
+Without honest, any country could not ever become stronger, everything would be in a state of chaos.
 Without health, I could not achieve my dreams.
 Without a master's degree, I could not be employed of this firm.
 
@@ -2030,10 +2031,10 @@ He does always late for work as the fault is cutting things fine.
 * draw out/into: 驶出/入
 The cars drew out one by one as the party was over.
 She looked eagerly along the platform as the train drew into the station.
-I felt very exciting when our cruise ship drew out the harbor.
+I felt very excited when our ship drew out the harbor.
 
 * whom : who的宾格
-He asked me with whom I had discussed it.
+He asked me with whom I had (already) discussed it (with).
 Desperate for money, she called her sister, whom she hadn’t spoken to in 20 years.
 Can you tell me whom you were calling to?
 

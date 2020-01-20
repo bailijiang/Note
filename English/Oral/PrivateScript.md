@@ -195,7 +195,7 @@ Section::Topic::Q&A
 
 <a id="manner-of-life"></a>
 ####Manner of life
-* Q: like/dislike/regularly(cloth,food,sleep,transport...)
+* Q: like/dislike/regularly(cloth,food,sleep,transport,man...) why
 * A: I like to take the challenge of myself.
 
 <a id="2-daily-life"></a>

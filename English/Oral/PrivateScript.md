@@ -63,7 +63,7 @@ Section::Topic::Q&A
 
 <a id="character"></a>
 ####Character
-* Q: What's your personality like? Are you an outgoing or introvert man?
+* Q: What's your personality like? Are you an outgoing or introvert man? What are you like as a person?
 * A: I think I'm a cheerful person. I will never give up.  
      Once I'm an introverted person. I'm not good at social communications.    
      So I think I should join in more activities and make more friends.  
@@ -195,8 +195,23 @@ Section::Topic::Q&A
 
 <a id="manner-of-life"></a>
 ####Manner of life
+* Q: What are you like as a person?
+* A: I'm diligent and my self-discipline is strong. I always like to take the challenge of myself. Because this can make me grow up constantly through learning some new knowledge. 
+
+* Q: What do you like to eat?
+* A: 
+
+* Q: 
+* A: 
+
+* Q: 
+* A: 
+
+* Q: 
+* A: 
+
 * Q: like/dislike/regularly(cloth,food,sleep,transport,man...) why
-* A: I like to take the challenge of myself.
+* A: 
 
 <a id="2-daily-life"></a>
 ##2. Daily life

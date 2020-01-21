@@ -198,8 +198,9 @@ Section::Topic::Q&A
 * Q: What are you like as a person?
 * A: I'm diligent and my self-discipline is strong. I always like to take the challenge of myself. Because this can make me grow up constantly through learning some new knowledge. 
 
-* Q: What do you like to eat?
-* A: 
+* Q: What do you like to eat? How's your diet?
+* A: I like seafood such as shrimps, fish, scallop, and crab.
+I'm used to eating one egg, one apple and drinking a bottle of milk and some green tea every day.
 
 * Q: 
 * A: 

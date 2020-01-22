@@ -77,6 +77,10 @@ Yes, they are.
 What colour are your cases?
 They're brown.
 
+What made of are your blouses?
+Are these pens yours?
+What are these pens for?
+
 L17: How do you do?
 What are their jobs?
 They are ...
@@ -90,6 +94,10 @@ We're ...
 These ice creams are nice.
 Are you all right?
 Yes, we are.
+
+How are they?
+How do they look?
+Are they light or heavy?
 
 L21: Which book?
 Give me/him/her/us/them a ...

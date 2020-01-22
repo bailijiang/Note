@@ -317,3 +317,7 @@ I'm used to eating one egg, one apple and drinking a bottle of milk and some gre
 
 <a id="environment"></a>
 ####Environment
+* Q: I want to know which country do you like?
+* A: I like America because its legal system is relatively perfect. 
+I don't like China because it has no credit system and serious air pollution.
+But I prefer Norway to the USA because it's a coastal forest country and not only people's average income high but the gap between rich and poor is small.

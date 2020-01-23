@@ -134,6 +134,16 @@ The books are new.
 There aren't any books on the shelf.
 Are there any books on the shelf?
 
+Where is the cup?
+There is a cup on the table.
+The cup is clean.
+Where are the shoes?
+There are some shoes on the floor.
+There are near the bed.
+There are some people outside the door.
+Where are they?
+There are near the window.
+
 L29: Come in, Amy
 What must I do?
 Open ...
@@ -144,6 +154,20 @@ Open the window.
 Put on your coat.
 Turn on the television.
 祈使句：用动词原型开头，表示请求、命令、建议等...通常加 please
+
+Shut the door.
+Open the window.
+Put on your shirt.
+Take off your shoes.
+Take off your watch.
+Turn on the stereo.
+Turn off the tap.
+Sweep the floor.
+Clean the cupboard.
+Dust the floor.
+Empty the cup.
+Read this magazine.
+Sharpen these knives.
 
 L31: Where's Sally?
 现在进行时：

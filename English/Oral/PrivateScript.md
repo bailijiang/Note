@@ -11,12 +11,12 @@ Section::Topic::Q&A
 - [2. Daily life](#2-daily-life)
     - [Food](#food)
     - [Cloth](#cloth)
-- [3. Hobby/Habit](#3-hobbyhabit)
+    - [Habit](#habit)
+- [3. Hobby/Favoriate](#3-hobbyfavoriate)
     - [Sport](#sport)
     - [Music](#music)
     - [Game](#game)
     - [Reading](#reading)
-    - [...habit](#habit)
 - [4. Work/Interview](#4-workinterview)
     - [Work experience/Story](#work-experiencestory)
 - [5. School/Learning](#5-schoollearning)
@@ -199,7 +199,7 @@ Section::Topic::Q&A
 * A: I'm diligent and my self-discipline is strong. I always like to take the challenge of myself. Because this can make me grow up constantly through learning some new knowledge. 
 
 * Q: What do you like to eat? How's your diet?
-* A: I like seafood such as shrimps, fish, scallop, and crab.
+* A: I'd like seafood such as shrimps, fish, scallop, and crab.
 I'm used to eating one egg, one apple and drinking a bottle of milk and some green tea every day.
 
 * Q: 
@@ -217,17 +217,61 @@ I'm used to eating one egg, one apple and drinking a bottle of milk and some gre
 <a id="2-daily-life"></a>
 ##2. Daily life
 <a id="food"></a>
-####Food
-* Q: cook
-* A: 
+####Food 
+* Order in restaurant:    
+    Are you ready to order now?  
+    Yes, I'd like fish.  
+    How do you want it?  
+    I'd like it steamed, please.  
+    What does she want?  
+    She wants a steak.  
+    Does she want it rare, medium, or well done?  
+    She wants it medium.  
+    What would he like?  
+    He'd like chicken.  
+    How would he like it?  
+    He'd like it fried.  
+    Would you like something to drink?(Can I get you something to drink?)  
+    Yes, we need two bottles of mineral water and a carafe of red wine and salad, please.  
+    What else would you like?  
+    All set, thank you.  
+
 
 <a id="cloth"></a>
 ####Cloth
 * Q: 
 * A: 
 
-<a id="3-hobbyhabit"></a>
-##3. Hobby/Habit
+
+<a id="habit"></a>
+####Habit
+
+* The habits of my life:  
+    Tell me about your day.  
+    When do you get up in the morning, Bryan?  
+    I always get up at 6.  
+    I have breakfast at 6:30 every morning.  
+    Then I usually learn English at 7 every morning.  
+    And then I always leave home at 8 every morning.  
+    When do you go to work in the morning?  
+    What time do you get to work in the morning?  
+    I always get to my office at 9 every morning.  
+    What do you drink in the office?  
+    I usually drink green tea in my office.  
+    I never drink coffee.  
+    I always get home at 7 in the evening.  
+    I sometimes watch a movie at 8 in the evening at home.  
+    I never watch TV.  
+    What do you do at the weekend?  
+    I often play basketball on Saturday afternoons.  
+    I never go to the bar.  
+    On Sunday afternoons, I always drive to Cuiwei Road and visit my mum.  
+    Sometimes, on Saturday evenings, I read a book I interested at home.  
+
+
+
+<a id="3-hobbyfavoriate"></a>
+##3. Hobby/Favoriate
 <a id="sport"></a>
 
 <a id="sport"></a>
@@ -250,10 +294,6 @@ I'm used to eating one egg, one apple and drinking a bottle of milk and some gre
 * Q: 
 * A: 
 
-<a id="habit"></a>
-####...habit
-* Q: 
-* A: 
 
 <a id="4-workinterview"></a>
 ##4. Work/Interview

@@ -62,11 +62,48 @@ What does he want to know?
 He wants to know what they prefer.
 
 #Lesson2
-
-
+* want, need, would like
+Do you need a new phone?
+Yes, I need a new phone.
+Do you need any beer?
+No, I don't need any beer.
+Maybe you need some rest.
+Maybe I do.
+Wendy, you look hungry! Maybe you need some food.
+Here is your appetizer. What else would you like?
+I'd like one portion spare rib, please.
+And would you like some sauce?
+Yes, please.
+Are you ready to order now?
+Yes, I'd like fish, please.
+Fish, How would you like it? (How do you want it?)
+Broiled.
+Do you want fries?
+Yes, please.
+And can I get you something to drink?
+Yes, some mineral water.
 
 #Lesson3
-
+* always, usually, often, sometimes, never (frequency: high->low)
+I always drink green tea.
+I never watch television.
+What about you, Claire?
+She always watches TV.
+We never drink alcohol.
+He never learns any knowledge.
+She never learns either.
+When do you get up in the morning, Bryan?
+I always get up at 6.
+What about Claire?
+She never gets up early.
+I always have lunch at 1 in the afternoon.
+I always get home at 5 in the evening.
+She always goes to bed at 11 at night.
+What do you do on Saturday afternoons?
+I usually hang out with friends.
+What does Bryan do on Saturday afternoons?
+He often plays basketball.
+I sometimes take a walk in a park at 8 in the evening.
 
 
 ##Unit7

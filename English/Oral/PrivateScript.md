@@ -1,4 +1,4 @@
-Section::Topic::Q&A
+Section::Topic(Scene)::Q&A_group(s)  
 
 <!-- MarkdownTOC -->
 
@@ -9,15 +9,15 @@ Section::Topic::Q&A
     - [Stages](#stages)
     - [Manner of life](#manner-of-life)
 - [2. Daily life](#2-daily-life)
-    - [Food](#food)
+    - [Order in restaurant](#order-in-restaurant)
     - [Cloth](#cloth)
-    - [Habit](#habit)
+    - [The habits of my life](#the-habits-of-my-life)
 - [3. Hobby/Favoriate](#3-hobbyfavoriate)
     - [Sport](#sport)
     - [Music](#music)
     - [Game](#game)
     - [Reading](#reading)
-- [4. Work/Interview](#4-workinterview)
+- [4. Work](#4-work)
     - [Work experience/Story](#work-experiencestory)
 - [5. School/Learning](#5-schoollearning)
     - [English](#english)
@@ -45,21 +45,41 @@ Section::Topic::Q&A
 ##1. Personality/Self-introduction
 <a id="self-introduction"></a>
 ####Self-introduction
-* Q: Please introduce yourself briefly(So tell me yourself.).
-* A: My name is Bryan.  
-     I'm from China and I was born in Beijing.   
-     I'm Chinese and I'm 40 years old now.  
-     I live in Beijing now and I spent most of my life here.     
-     Till now, I have graduated from BUAA(Beihang) University for 3 years and my major is Computer Science and Technology.  
-     Now I'm a programmer at an entrepreneurial firm.  
-     Since graduation, I have had over 15 years of work experience.   
-     My hobbies are very extensive. I like sports, music, movies, games, and reading.     
-     I enjoy playing basketball with others very much, so I am playing it continually for 20 years and I believe I'm good at it.        
+    Please introduce yourself briefly(So tell me yourself.).  
+    My name is Bryan.  
+    I'm from China and I was born in Beijing.   
+    I'm Chinese and I'm 40 years old now.  
+    I live in Beijing now and I spent most of my life here.     
+    Till now, I have graduated from BUAA(Beihang) University for 3 years and my major is Computer Science and Technology.  
+    Now I'm a programmer at an entrepreneurial firm.  
+    Since graduation, I have had over 15 years of work experience.   
+    My hobbies are very extensive. I like sports, music, movies, games, and reading.     
+    I enjoy playing basketball with others very much, so I am playing it continually for 20 years and I believe I'm good at it.        
 
-* Q: How many people are there in your family?
-* A: My family is not large.  
-     There are three people in my family now, my mother, my father and I.  
-     I have a very good relationship with my mother, but I have a very bad relationship with my father because I think he is the man who is not only foolish but means as well.  
+    How many people are there in your family?  
+    My family is not large.  
+    There are three people in my family now, my mother, my father and I.  
+    I have a very good relationship with my mother, but I have a very bad relationship with my father because I think he is the man who is not only foolish but means as well.  
+
+    Where are you from, Bryan?
+    I come from China.
+    Where do you come from exactly?
+    I come from Beijing.
+    I'm a Chinese.
+    I live in Beijing.
+    What do you do, Bryan?
+    I work as a programmer in a small company.
+    When did you come to the United States?
+    A year ago.
+    Of course, I speak English not very well.
+    English is not my native language.
+    My native language is Chinese.
+    But I'm learning English.
+    I'm beginning to understand it and can already speak a little.
+    I don't know any other foreign languages.
+    I expect that I can speak English excellent.
+
+
 
 <a id="character"></a>
 ####Character
@@ -216,9 +236,8 @@ I'm used to eating one egg, one apple and drinking a bottle of milk and some gre
 
 <a id="2-daily-life"></a>
 ##2. Daily life
-<a id="food"></a>
-####Food 
-* Order in restaurant:    
+<a id="order-in-restaurant"></a>
+####Order in restaurant  
     Are you ready to order now?  
     Yes, I'd like fish.  
     How do you want it?  
@@ -242,11 +261,8 @@ I'm used to eating one egg, one apple and drinking a bottle of milk and some gre
 * Q: 
 * A: 
 
-
-<a id="habit"></a>
-####Habit
-
-* The habits of my life:  
+<a id="the-habits-of-my-life"></a>
+####The habits of my life  
     Tell me about your day.  
     When do you get up in the morning, Bryan?  
     I always get up at 6.  
@@ -295,12 +311,21 @@ I'm used to eating one egg, one apple and drinking a bottle of milk and some gre
 * A: 
 
 
-<a id="4-workinterview"></a>
-##4. Work/Interview
+<a id="4-work"></a>
+##4. Work
+
+
+
+
+
 <a id="work-experiencestory"></a>
 ####Work experience/Story
 * Q: STAR: Situation, Task, Action, Result
 * A: 
+
+
+
+
 
 <a id="5-schoollearning"></a>
 ##5. School/Learning

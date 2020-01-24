@@ -108,7 +108,24 @@ I sometimes take a walk in a park at 8 in the evening.
 
 ##Unit7
 #Lesson1
-
+* Where are you from? What do you do?
+Where are you from, Bryan?
+I come from China.
+Where do you come from exactly?
+I come from Beijing.
+I'm a Chinese.
+I live in Beijing.
+What do you do, Bryan?
+I work as a programmer in a small company.
+When did you come to the United States?
+A year ago.
+Of course, I speak English not very well.
+English is not my native language.
+My native language is Chinese.
+But I'm learning English.
+I'm beginning to understand it and can already speak a little.
+I don't know any other foreign languages.
+I expect that I can speak English excellent.
 
 #Lesson2
 

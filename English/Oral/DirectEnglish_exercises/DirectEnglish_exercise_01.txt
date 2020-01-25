@@ -1,7 +1,55 @@
+##Unit1
+#Lesson1
+
+
+#Lesson2
+
+
+
+#Lesson3
+
+
+##Unit2
+#Lesson1
+
+
+#Lesson2
+
+
+
+#Lesson3
+
+
+##Unit3
+#Lesson1
+
+
+#Lesson2
+
+
+
+#Lesson3
+
+
+
+##Unit4
+#Lesson1
+
+
+#Lesson2
+
+
+
+#Lesson3
 
 
 
 ##Unit5
+#Lesson1
+
+
+#Lesson2
+
 
 
 #Lesson3
@@ -107,7 +155,7 @@ I sometimes take a walk in a park at 8 in the evening.
 
 
 ##Unit7
-#Lesson1
+#Lesson1: Talking about yourself
 * Where are you from? What do you do?
 Where are you from, Bryan?
 I come from China.
@@ -127,24 +175,107 @@ I'm beginning to understand it and can already speak a little.
 I don't know any other foreign languages.
 I expect that I can speak English excellent.
 
-#Lesson2
+#Lesson2: Talking about others
+* Who's that man/woman over there? Which one? The one in/with...
+Who's that man over there?
+Which one?
+The one in the cloak.
+The one with the big hat.
+That's Mr. Peter.
+He's a guest.
+Who's that woman over there?
+Which one?
+The one in the waiter's uniform.
+The one with the short hair.
+That's Wendy.
+She's a waitress.
 
+* What can you tell me about...? What does he look like? What's she like as a person?
+What can you tell me about Claire?
+She's an American.
+She comes from Seattle.
+She lives in Washington.
+She's the accountant in a big company.
+What does she look like?
+She's good-looking.
+She has blue eyes.
+She has brown hair.
+She's medium height.
+What's she like as a person?
+She's nice.
+She has a good sense of humor.
+She's fashionable and smart.
+What can you tell me about Simon Wilkinson?
+He's British.
+He comes from Manchester.
+He lives in Boston.
+He works in the city.
+He's the restaurant manager at a big hotel.
+What does he look like?
+He's good-looking.
+He has gray eyes.
+He has brown hair.
+He's fairly tall.
+What's he like as a person?
+He's hard-working.
+He has a pleasant manner.
+He's dependable.
 
+* What's the matter with...?
+What's the matter with Kevin?
+He looks sick.
+He does, doesn't he?
+Yes. Maybe he needs an aspirin.
+What's the matter with you?
+You look so hungry.
+You do, don't you?
+Yes. Maybe I need some food.
 
-#Lesson3
+#Lesson3: Polite requests
+* Can I...? May I...? I'd like to...
+Can I cash a check, please?
+May I leave my bags here?
+Can I speak with the manager?
+I'd like to give you my keys.
+Good morning.
+Can I help you?
+Yes. May I look at that phone?
+I'd like to buy this phone.
 
+* Shall I...? Would you...?
+Shall I drive you to the airport?
+Would you?
+Thank you very much.
+Would you translate it for me?
+Certainly. I'd be glad to.
 
+* Let's...Shall we...?
+Let's sit down.
+OK, fine.
+Shall we watch the big game?
+Good idea.
+Let's listen to a CD, shall we?
+OK.
+
+Can I help you?
+Yes. We'd like a table for two, please. Can we have the table by the window?
+How about this table, over here?
+That's great.
+Shall I take your coats?
+Would you, please? Let's order a drink first, shall we?
+Yes, Good idea.
 
 ##Unit8
-#Lesson1
+#Lesson1: Asking about and giving directions
+* 
 
 
-#Lesson2
+#Lesson2: How long?
+* 
 
 
-
-#Lesson3
-
+#Lesson3: These belong to...
+* 
 
 
 ##Unit9

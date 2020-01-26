@@ -290,6 +290,9 @@ It's often windy in March.
 It's always warm in April and May,
 but it's rains sometimes.
 
+What's the culture like in your country?
+It's always filled with hypocrisy.
+
 L53: An interesting climate
 I come from England, I'm English.
 What's the climate like in your country?
@@ -299,6 +302,9 @@ What's the weather like in the North?
 It's often cold.
 Which seasons do you like best?
 I like spring and summer best.
+
+Which girls do you like best?
+Which movies do you like best?
 
 L55: The Sawyer family
 What do/does ... usually do?

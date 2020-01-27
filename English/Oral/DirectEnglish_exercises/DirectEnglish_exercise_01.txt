@@ -439,15 +439,190 @@ I think it's mine.
 
 ##Unit9
 #Lesson1: Likes and dislikes
-* 
+What does he like?
+He likes computers, sports.
+The usual.
+So what sports does he like?
+He likes basketball.
+Do you like basketball?
+I enjoy it.
+But I'm not a maniac.
+So, what do you think?
+The style is terrific, but I don't like the color.
+Would he like a basketball cap?
 
+* I like..., I enjoy..., I prefer... + noun
+Do you like soccer, Bryan?
+Yes, I enjoy soccer very much, but I prefer basketball to soccer.
+Does Bryan like soccer, Claire?
+Yes, he enjoys soccer, but he prefers basketball to soccer.
+
+* I like..., I enjoy..., I prefer... + -ing
+This book is boring.
+It's a boring book. (adj.)
+-- interesting ，astonishing, surprising, moving, frightening, terrifying, puzzling, satisfying, tiring, amazing, boring, exciting, touching, embarrassing
+That is an interesting movie.
+It's an amazing basketball match.
+This is an exciting performance.
+What are you doing? I'm working. I'm listening to the music.
+I like walking. Walking is good for you.
+I like to drive. I like driving.
+I prefer to drive. I prefer driving.
+I prefer driving to walking.
+I prefer to drive rather than (to) walk.
+I enjoy sailing.
+Do you like walking, Bryan?
+Yes. I enjoy walking very much, but I prefer swimming to walking.
+Does Claire like skating, Bryan?
+Yes, she enjoys skating very much, but she prefers going shopping.
+
+* like -> enjoy -> love : low->high
+
+* Things we enjoy doing
+Tell me about some things you enjoy doing, Bryan?
+Well, I enjoy working with computers.
+What do you think Tony enjoys doing most?
+I think he enjoys making money. He really loves that.
+
+* Are you enjoying...?
+Are you enjoying that computer game, Bryan?
+No, I'm not.
+Why not?
+It's too easy.
+It's too boring.
+Are you enjoying that tea, Claire?
+No, I'm not.
+Why aren't you enjoying it?
+Because it's too strong(weak).
 
 #Lesson2: Wants and needs
-* 
+She needs some paper for the printer.
+How much? A lot.
+Will five packs be OK? I think so.
+And we need some fax paper.
+How much? Not much, I guess.
+She doesn't say.
+A couple of rolls'll be OK.
+Check that.
+Oh and some envelopes.
+How many? A lot.
+I'll give you a couple of hundred.
 
+* Quantity
+I need some batteries.
+I want a few apples.
+I'd like a lot of pens.
+I don't need any potatoes.
+I don't want many tomatoes.
+
+I need some water.
+I want a little paper.
+I'd like a lot of food.
+I don't need any meat.
+I don't want much sugar.
+
+* Office supplies
+I need some notebooks.
+Do you want any pens?
+And I want some pencils.
+How many pencils?
+Oh. Just a few. Say six.
+And I need some paper.
+How much?
+Just a little. Say one roll.
+Do you want any other supplies?
+No, thanks.
+
+* Room supplies
+a pack of envelopes
+half a dozen sheets of letter paper
+a box of tissues
+a roll of toilet paper
+a bottle of conditioner
+a bar of soap
+a small tube of toothpaste
+a set of towels
+
+What shall I put in each room, Nu La?
+Here's a checklist.
+For the room:
+A pack of envelopes.
+And...OK.
+For the minibar:
+a bottle of mineral water, a bag of peanuts.
+And...OK.
+For the bathroom:
+a box of tissues, a roll of toilet paper 
+and a clean set of towels.
+Good.
+I'll check each room.
+
+Are there any envelopes in room 2381?
+Not many.
+Here's a pack of envelopes.
+Look in the minibar.
+Is there any mineral water?
+Yes, there's a bottle.
+OK.
+But there aren't any potato chips.
+Here's a package.
+Look in the bathroom.
+Are there any tissues?
+No.
+We need a box of tissues,
+a roll of toilet paper and a bar of soap.
 
 #Lesson3: Behaviors
-* 
+Didn't you sleep well last night?
+I went to Shunyi to play basketball.
+One after another.
+I hit the ball.
+It flew through the air, landed, and rolled into the waiting cup.
+I could do no wrong.
+I drove onto the green.
+I was about three feet away from golfing history.
 
+* The simple past tense: basic forms
+Kevin went to London two years ago.
+Simon arrived in Boston two years ago.
+Kevin didn't go to Manchester.
+Simon didn't arrive in New York.
+Did Kevin go to London two years ago?
+Did Simon arrive in Boston two years ago?
+Where did Kevin go two years ago?
+When did Simon arrive in Boston?
 
+* Regular verbs: present and past tense forms
+/t/
+ask--asked
+check--checked
+discuss--discussed
 
+/d/
+arrive--arried
+belong--belonged
+carry--carried
+explain--explained
+
+/id/
+connect--connected
+end--ended
+need--needed
+
+* Irregular verbs: present and past tense forms
+be--was/were
+begin--began
+buy--bought
+cost--cost
+eat--ate
+drive--drove
+hit--hit
+let--let
+meet--met
+strick--struck
+
+* Tell Bryan's story
+Bryan was born in China.
+He lived in Beijing and went to school and university here.
+He passed his school exams and majored in Computer Science Technology. After that, he went to business school for management studies. He arrived in New York two years ago and looked for a job. Claire interviewed him and hired him as a programmer.
+In his spare time in China, Bryan played basketball as often as possible. He wanted to make shooting history. He wanted to be Number One in the world. He often dreams about basketball, but sometimes his dreams are nightmares!

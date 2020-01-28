@@ -444,6 +444,13 @@ Where were you on Saturday?
 We were at the dairy.
 
 L71: He's awful!
+What's Bryan like, Claire?
+He's awsome.
+He dated me three times yesterday.
+What did he say to you yesterday?
+Did he date you again?
+Did you answer him?
+
 He telephoned Jane four times yesterday.
 Did you telephone Jane last night?
 No, I didn't.
@@ -484,6 +491,7 @@ How did she greet you?
 She greeted me warmly.
 How did he swim this afternoon?
 He swam very well.
+He worked lazily.
 
 What(When/How/Why) did he(she/you/they) do ...?
 What(When/How/Why) did he(she/you/they) do with it?
@@ -513,6 +521,13 @@ She talked to the shop assistant two days ago.
 When did you look at a photograph?
 I looked at a photograph an hour ago.
 
+I drink some milk every day.
+I eat an egg every morning.
+When did you wash your hands?
+I washed my hands ten minutes ago.
+When did you paint that bookcase?
+I painted it the year before last.
+
 L77: Terrible toothache
 * in + 月份
   on + 具体日期(包括周几)
@@ -541,9 +556,32 @@ She met him on the fifth of November.
 July 1st
 She spoke to him on July the first.
 
+Today is Thursday, February 28th, 2020.
+
 L79: Carol's shopping list
-* 肯定句: a lot of(lots of), some, a little, little
-  否定句: many(可数), much(不可数), any
+* 限定词的判断顺序： 肯定 or 否定/疑问 --> 可数 or 不可数 --> 一点/一些/很多
+
+* 肯定句: a lot of(lots of), some, a little, a few
+  否定句,疑问句: many(可数), much(不可数), any, little, few
+I haven't got any bread.
+I've got some vegetables.
+We just have a little sugar.
+We need some sugar.
+I have got a lot of milk.
+I've got a few apples.
+I have few potatoes.
+I've got a little tea.
+I haven't any tea.
+
+* few 
+I have to buy a few things at the supermarket.
+There are only a very few (=not many) exceptions.
+She had few friends and was generally not very happy.
+This should not be an experience for the few.
+
+* little
+Fortunately I had a little time to spare.
+There’s little doubt in my mind that he’s guilty.
 
 * need
 * have got, haven't got

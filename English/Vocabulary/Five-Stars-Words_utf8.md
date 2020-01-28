@@ -720,7 +720,7 @@
 * They drove back to Woodside.
 * I’ll drive you home.
 * Torrential rain drove the players off the course.
-* The detective wondered what had driven Christine to phone her.
+* The detective wondered what had driven Christine to phone her.  /ˈdrɪvən/
 * The noises in my head have nearly driven me to suicide.
 * This cough is driving me mad.
 * She drove her heels into the sand.(push)

@@ -1,58 +1,237 @@
 ##Unit1
-#Lesson1
+#Lesson1: Talking about yourself
+Excuse me. Are you Bryan Bai?
+Yes. I am.
 
+* How do you do?
+My name's Bryan. What's your name?
+My name's Claire.
+How do you do?
+How do you do? Nice to meet you.
 
-#Lesson2
+* How old are you?
+Hello. How old are you?
+I'm 40 years old. How old are you?
+I'm 34.
 
+* What's your name? How do you spell it?
+What's your name, please?
+It's Bryan Bai.
+What's your first name?
+It's Bryan.
+How do you spell Bryan?
+What's your last name?
+It's Bai.
+How do you spell Bai.
+B-A-I.
 
+#Lesson2: Talking about others
+* am,is,are,
+  am, is, are, + not
+I'm a programmer.
+I'm not an engineer.
+She's a teacher.
+They're sales force.
+I'm here. She's here.
+Is his name William?
 
-#Lesson3
+* This is Anne...
+This is Bryan Bai.
+He is our tech manager.
+Meet Carl and Peter.
+They are our porters.
 
+* Introductions
+Tony, meet Claire.
+She's our general manager.
+Tony Quercio, Anne Holland.
+Tony's a salesman.
+How do you do?
+
+* Subject pronouns and possessive adjectives
+We're programmers.
+Our names are Bryan and Claire.
+Your names are...
+Their names are...
+
+* Who's the man on the left?
+Look at these photos.
+Who's the man on the left?
+Who's the woman in the middle?
+Who's the man on the right?
+That's Dean Johnson.
+How do you spell his first name?
+D-E-A-N.
+What does he do?
+He's an intern.
+
+#Lesson3: Polite requests
+Come in, Bryan. Please sit down.
+Can you use Python to develop the program, Bryan?
+Yes, I can.
+I can work with computers very well.
+Can you speak any foreign languages?
+Yes. I can speak English.
+You can find your way, can't you?
+
+* The imperative
+Please translate this into English.
+Please spell it for me.
+Please don't talk in the library.
+
+* Can
+I can run fast.
+We can see well.
+I can't sleep well.
+They cannot get through there.
+
+* Can you...?
+Can you see that star?
+Can you speak English?
+Yes, I can.
+No, I can't.
+
+* How well can you...?
+How well can you understand English?
+How well can you speak English?
+Very well.
+Fairly well.
+Not very well.
+Not at all.
 
 ##Unit2
-#Lesson1
+#Lesson1: To and at
+Where's Claire?
+Has she gone to the office?
+No, she hasn't.
+Claire is in the restaurant.
+She's at a meeting.
+And where's the meeting?
+At the Children's Center.
+Claire's gone to a meeting.
+Do you know where the Children's Center is?
 
+* Where people are: to and at
+She has gone to a meeting.
+She is at a meeting.
+He's gone to a party.
+He is at a party.
+Where's Wendy?
+She's gone to the movies.
+She's at the movies.
+I am at a party.
+I'm home.
+I've gone to the airport.
+Is she at a meeting?
+Yes, she is.
+Are William and Wendy with Nina?
+Yes, they are.
+Are they with Bryan?
+No, they aren't.
 
-#Lesson2
+#Lesson2: How to say time
+We start at 8:30 in the morning.
+The meeting runs from 9:30 to noon.
+Discussion ends at 4:45.
 
+* What time is it?
+It's a quarter to five.
+It's twenty-five to eleven.
+It's twenty past ten.
+It's seven minutes of four. (3:53)
+It's two minutes to six.
 
+* Days of week
+What day is it today?
+It's Wednesday.
+What day does the conference start?
+It starts on Thursday.
 
-#Lesson3
+* Months of the year and seasons
+When is our conference?
+It's in the winter.
+In February.
 
+* The date
+What day is it today?
+It's February 28th.
+When is the meeting?
+It's on Thursday, February 28th.
+
+When does the conference start?
+It starts on November 17th.
+What day is that?
+It's a Thursday.
+So it starts on Thursday, November 17th.
+That's right.
+What time does it begin?
+It begins at 9 o'clock sharp.
+
+#Lesson3: Describing things
+What is this?
+It's a computer.
+That's us.
+
+* Countable and uncountable nouns
+I'm a programmer.
+She's an artist.
+It's my idea.
+They're my ideas.
+It's coffee.
+It's water.
+It's information.
+It's luck.
+
+* What do you/they do?
+I'm a composer.
+They are the sales force.
+
+* What's this/that in English? 
+It's an alarm clock.
+It's a computer.
+It's milk.
+What's the word in English?
+It's technology.
+
+* What are these/those in English?
+What are these in English?
+They are ballons.
+What are those?
+They are green tea.
 
 ##Unit3
-#Lesson1
+#Lesson1: Likes and dislikes
 
 
-#Lesson2
+#Lesson2: Wants and needs
 
 
 
-#Lesson3
+#Lesson3: Behaviors
 
 
 
 ##Unit4
-#Lesson1
+#Lesson1: Talking about yourself
 
 
-#Lesson2
+#Lesson2: Talking about others
 
 
 
-#Lesson3
+#Lesson3: Polite requests
 
 
 
 ##Unit5
-#Lesson1
+#Lesson1: To and in
 
 
-#Lesson2
+#Lesson2: How to say time
 
 
 
-#Lesson3
+#Lesson3: Describing things
 Can I help you?
 Yes, I want to buy a laptop.
 How about this one?

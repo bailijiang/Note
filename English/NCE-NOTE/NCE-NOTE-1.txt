@@ -665,7 +665,7 @@ L83: Going on holiday
 现在完成时
 * have/has + done
 * 现在完成时常用不确定时间副词短语：
-  already / just / yet / often / never / ever
+  already / just / yet / never / ever
 
 I have already had lunch.
 I had lunch at half past twelve.
@@ -683,7 +683,7 @@ I haven't had lunch yet.
 I have already had some lettuce.
 I've already had some beer.
 I've just had a cup of tea.
-Have you had any fruit of vegetables?
+Have you had any fruit or vegetables?
 I haven't had any fruit.
 I've just had some vegetables.
 

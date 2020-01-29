@@ -201,37 +201,398 @@ They are green tea.
 
 ##Unit3
 #Lesson1: Likes and dislikes
+Where can we eat?
+I like meat too much to be a vegetarian. And fresh fish.
+I don't like fish at all.
+And I love bacon. It's my favorite breakfast.
+Do you eat cheese?
+I eat anything that can't look at me.
+How about eggs?
+Elena, what do you like?
+I also like coffee.
 
+* The simple present tense of the verb like
+I like apples.
+She likes milk.
+He likes potatoes.
+They like tomatoes.
+I don't like pork.
+He doesn't like chicken.
+She doesn't like apples.
+Do you like eggs?
+Does she like pork?
+Do they like potatoes?
+
+Do you like shrimps?
+Yes, I do.
+Do you like broccoli?
+No, I don't.
+I like fish.
+I do, too.
+I don't like broccoli.
+I don't, either.
+Claire likes coffee.
+Nina does, too.
+Claire doesn't like yogurt.
+Nina doesn't, either.
+What does Bryan like?
+He likes shrimps.
+He likes fish.
+He likes apples.
+He likes green tea.
+
+* Things to eat and drink: What do you like? What don't you like?
+Are you a vegetarian, Bryan?
+No, I'm not.
+So what do you like and dislike?
+Well, I like shrimps, but I don't like bacon.
+Is your friend a vegetarian, Claire?
+Yes, she is.
+So what does she like and dislike?
+Well, she likes cheese, but she doesn't like eggs.
 
 #Lesson2: Wants and needs
+Do you have a table for three?
+Yes. This way, please. We have a table over there, by the window, or over here, by the wall.
+What do you want?
+I want the eggplant.
+What can I get for you?
+The eggplant, please.
+I'm sorry. We don't have the eggplant.
+Do you have fruit salad?
+Do you want any drinks?
+Do you have that nice Italian mineral water?
+Sure, Anything else?
+No, thanks.
+All set.
 
+* The simple present tense of the verb want
+I want fish.
+He wants vegetables.
+I don't want bacon.
+She doesn't want eggs.
+Do you want fish?
+Does he want eggplant?
+I want a table for three, please.
+I want some fries, please.
+I don't want any fries, thank you.
+Do you want any vegetables?
 
+I have a room with a view for two. Do you want it?
+OK, thanks.
+We have some mashed potatoes Do you want some?
+Yes, thanks.
+Kevin has some rolls. Do you want one?
+Yes, please.
+
+* The simple present tense of the verb have
+We have a room.
+He has a book.
+You don't have enough money.
+She doesn't have enough time.
+Do you have a pencil?
+Does he have a screwdriver?
 
 #Lesson3: Behaviors
+What are you doing?
+Just taking your bags, sir.
+Where is that trolley going?
+To the airport.
+But I'm just checking in.
+They're going to the airport.
+The porter is putting my bags on the shuttle.
+What's going on?
+His bags are going to the airport.
+This isn't happening.
+I'm trying to get them back.
 
+* The present progressive tense
+I'm leaving.
+He's leaving.
+They're leaving.
+I'm not running.
+She isn't sleeping.
+We aren't leaving.
+Are you leaving?
+Is he leaving?
+Is she working?
+Are you drinking?
 
+* What are they doing? What's happening?
+Mr.Bryan is trying to check in.
+Anne is going over Dean's job description.
+Bryan and Claire are ordering a meal.
+What is he doing?
+He's trying to get up.
+What's happening?
+Mr.Tony is lying on the ground.
+What are you doing, Claire?
+I'm watching TV.
+I'm reading an article.
+I'm doing the crossword.
+But she isn't working this evening.
+Is he preparing a meal for himself?
+Yes, he is.
+What is he preparing for himself?
+He's preparing an eggplant.
 
 ##Unit4
 #Lesson1: Talking about yourself
+Can you tell me the hotel phone and fax numbers, please?
+Of course.
+The hotel phone is area code 617, 437 1890.
+Your fax number is 617 437 1888.
 
+What's the name of your hotel?
+The Sheraton, Boston.
+What's your room number?
+Room 2422.
+Which floor are you on?
+The 24th floor.
+Thank you. See you soon.
+
+Where is Mr.Bryan?
+He's in Room 2422 on the 24th floor.
+Which room is he in?
+Which floor is he on?
+
+* Name and address
+What's your last name, please?
+Bryan Bai.
+How do you spell that?
+How do you pronounce that, please?
+And what is your address?
+My address is 1-402 Building 31, Yard 9, Shunhe Rd, Shunyi District, Beijing.
+
+* Telephone numbers
+Hello?
+Oh, hello.
+Is that you, Claire?
+Yes, who's this?
+It's Bryan.
+Oh, hello, Bryan.
+Can I speak to Nina, please?
+Yes, who's speaking, please?
+This is Bryan.
+Just a moment, please.
+Hello?
+Hello. Is that you, Claire?
+Yes. Speaking.
+It's Bryan.
 
 #Lesson2: Talking about others
+Kevin, what's your ideal woman like?
+Oh, she's tall.
+Beautiful...
+With long blonde hair...
+What's your ideal man like?
+He's generous and intelligent and kind and sensitive and dependable.
 
+* Appearance: eyes, hair, height, age
+What's Wendy like, Sharon?
+She's short.
+She has brown eyes and long curly hair.
+Her eyes are brown.
+Her hair is long and curly.
+Hm. How tall is she?
+About 5 foot one.
+About how old is she?
+About 25.
 
+* What can you tell me about Wendy?
+Let me see. She's short.
+She's good-looking.
+She has brown eyes and long curly hair.
+She's 1.55 meters tall.
+She weighs about 51 kilograms.
+She's about 25 years old.
+What's she like as a person?
+She's friendly and kind.
+She has a good sense of humor.
+Anything else about her?
+She has a nice car.
+She dresses well. She doesn't smoke.
+
+* About you
+What can you tell me about yourself?
+I'm medium.
+I'm about 1.70 meters tall.
+I'm handsome.
+I have brown eyes and short straight hair.
+I weigh about 55 kilograms.
+I'm 40 years old.
+What're you like as a person?
+I'm friendly, kind, dependable and sensitive.
+I have a good sense of humor.
+Anything else about you?
+I have a nice car.
+I have three houses.
+I have good self-discipline.
+I like play basketball.
+I don't smoke.
 
 #Lesson3: Polite requests
+Hand me those bowls, please.
+I can't give a customer Alfredo sauce with no cream.
+Use milk.
+I'm not going to give him anything else.
+And I'm going to put cream in it.
+He's the man on the left at the middle table.
+What am I going to do with you?
 
+* Subject and object pronouns
+Give me that book, please.
+Give that book to me, please.
+Can I give you my card, Claire?
+Give him that bowl.
+Give Wendy/her this bag.
+Give the cat/it this bowl of milk.
+Give them this car.
+Give that apple to me, please.
+Can you give that sheet to me, please?
+Give that drawing to Claire/her.
+Can you see the cat? Can you see it?
+Can you see Anne? Can you see her?
 
+* Give me... Which on? Which ones?
+Give me that bowl, please.
+Which one?
+The one on the left.
+Here you are, Wendy.
+Thanks. And hand me those glasses, please.
+Which ones? These?
+Yes, the ones on the left.
+Give me those glasses, please.
+Which ones?
+The ones in the middle of the paper.
+
+* going to a place
+Where are you going, William?
+I'm going to Reception.
+Where's William going, Dean?
+He's going to Reception.
+Where's Anne going?
+She's going to a meeting.
+
+* going to do something
+What are you going to do, Anne?
+I'm going to call Nina.
+What's William going to do, Dean?
+He's going to speak to Carl.
+Where are you going?
+I'm going to the airport.
+What does she going to do, Bryan?
+She's going to the concert.
+
+* Please turn off the light
+Turn off the faucet.
+Turn the faucet off.
+Turn it off.
+Turn on the TV.
+Turn the TV on.
+Turn it on.
+Turn off the lights.
+Turn the lights off.
+Turn them off.
 
 ##Unit5
 #Lesson1: To and in
+Were you on a city tour today?
+Did you go to the Public Gardens?
+First, we went down to the river.
+We were at Bunker Hill.
+You've been everywhere!
 
+* Where people are: to and in
+Where's Bryan?
+He went to the bar.
+I beg your pardon?
+He's in the bar.
+Where has Bryan been?
+He's been to the bar.
+I beg your pardon?
+He was in the bar.
+Where's Nina's babysitter?
+She went to bed.
+She's sick.
+I beg your pardon?
+She's in bed.
+She's sick.
+Where is everybody today, Debbie?
+They've been to Cambridge with Didi.
+So they're back?
+Yes. They're in the restaurant now.
+He's in his room.
+She went to her office.
+She's back at work.
+
+* The simple past tense of the verb be
+I was in Shunyi.
+You were in Beijing.
+They were in Shanghai.
+I wasn't in Haidian.
+You weren't in Chongqing.
+Were you in Japan?
+Was she in China?
+Were they in the USA?
+
+* The simple past tense of the verb go
+I went to Thailand.
+She didn't go to Paris.
+Did you/he go to London?
+
+* Where have you been? Where did you go?
+I haven't seen you for ages.
+Peter. Where have you been?
+I've been on vacation.
+I've been to Brazil.
+Where did you go in Brazil?
+I went to Rio.
+I was in Rio for two weeks.
+It was wonderful!
 
 #Lesson2: How to say time
+What sign are you?
+Virgo. September 19th, right?
+I'm 21 on August 4th.
 
+* Points of time
+When is your first appointment, Nina?
+This morning.
+What time?
+At 10 o'clock.
+When's your next appointment?
+Tomorrow afternoon at 2 o'clock.
+When was your last appointment?
+Yesterday evening, at 6:30.
 
+* this, next, last
+When's your birthday, Bryan?
+This week.
+When exactly?
+On Monday, May 22nd.
+And when was your wife's birthday?
+Last month.
+When exactly?
+On April 15th.
+
+* Years
+When were you born, Bryan?
+In 1979.
+What month?
+In June. On June 16th.
+
+* Star signs
+What sign are you?
+Gemini. 
+When's your birthday, Bryan?
+On June 16th.
+So you're reliable and hard-working!
+And you're nice and prudent, too!
 
 #Lesson3: Describing things
+
+
 Can I help you?
 Yes, I want to buy a laptop.
 How about this one?
@@ -254,7 +615,7 @@ It's $600.
 Oh, it's too expensive for me, I want something cheaper.
 
 ##Unit6
-#Lesson1
+#Lesson1: Likes and dislikes
 * like / dislike
 * prefer / prefer...to... / prefer to do
 I prefer jazz to rock music.
@@ -288,7 +649,7 @@ Some of them like smoking, but in general, they prefer non-smoking, because it's
 What does he want to know?
 He wants to know what they prefer.
 
-#Lesson2
+#Lesson2: Wants and needs
 * want, need, would like
 Do you need a new phone?
 Yes, I need a new phone.
@@ -310,7 +671,7 @@ Yes, please.
 And can I get you something to drink?
 Yes, some mineral water.
 
-#Lesson3
+#Lesson3: Behaviors
 * always, usually, often, sometimes, never (frequency: high->low)
 I always drink green tea.
 I never watch television.

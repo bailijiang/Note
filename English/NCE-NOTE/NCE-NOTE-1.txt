@@ -846,6 +846,9 @@ She will fly to Stockholm in two weeks' time.
 We had better be careful. 
 You'd better go to bed early.
 
+Switzerland Swiss
+Sweden Swedish
+
 L97: A small blue case
 * the other day = a few days ago 几天前(过去时)
 * belong to + 宾格(me/you/him/her/them/us)

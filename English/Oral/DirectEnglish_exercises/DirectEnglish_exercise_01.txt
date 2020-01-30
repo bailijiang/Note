@@ -591,8 +591,6 @@ So you're reliable and hard-working!
 And you're nice and prudent, too!
 
 #Lesson3: Describing things
-
-
 Can I help you?
 Yes, I want to buy a laptop.
 How about this one?
@@ -613,6 +611,46 @@ It has black, white, blue, and green.
 How much is it?
 It's $600.
 Oh, it's too expensive for me, I want something cheaper.
+
+* What things are made of
+What's that dress made of, Claire?
+It's made of silk.
+Here's a present for you.
+Oh, thank you, Claire! Mm. What is it?
+Open it and see.
+Oh--it's a beautiful cotton shirt.
+Thank you very much!
+
+* Measurements, size, price
+How wide is it? -- It's 10 inches (wide).
+How long is it? -- It's 24 inches (long).
+How high is it? -- it's 14 inches (high).
+How deep is it? -- It's 10 inches (deep).
+How heavy is it? -- It's 5 pounds.
+How much does it weigh? -- (It weighs) 5 pounds.
+What size is that shirt? -- It's size 38.
+What color is it? -- It's red/orange/green/blue/yellow.
+How much is it? -- (It's) $45.72.
+How many apples do you have?
+I have twenty apples.
+
+* Adjectives: the comparative
+nice nicer 
+expensive more expensive less expensive
+good better
+bad worse
+
+* It's too...
+What about this shirt?
+It's too expensive.
+I'm looking for something cheaper.
+
+* It's not... enough
+This suitcase is very nice.
+It's made of nylon.
+And it's got handle.
+It's not small enough, I'm afraid.
+I'm looking for something smaller.
 
 ##Unit6
 #Lesson1: Likes and dislikes

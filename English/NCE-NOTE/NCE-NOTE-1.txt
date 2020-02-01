@@ -1127,6 +1127,11 @@ There's no one at home.
 There's someone in the garden.
 There's something under that chair.
 
+Have you got anything to drink?
+No, I haven't got anything to drink.
+How about Jenny?
+She has got something to drink.
+
 L117: Tommy's breakfast
 过去进行时
 * was / were + doing
@@ -1158,6 +1163,10 @@ No, I didn't.
 I asked the price of the car, but they had already sold it.
 She went on holiday after she had taken the examination.
 She had finished the housework before she went out.
+
+Have you read it?
+Yes. I have already read it before.
+No. I had never read it before.
 
 L121: The man in a hat
 名词性从句做补语(定语从句)

@@ -1169,7 +1169,7 @@ Yes. I have already read it before.
 No. I had never read it before.
 
 L121: The man in a hat
-名词性从句做补语(定语从句)
+形容词从句,修饰人/物 (定语从句)
 关系代词
 * who(whom), which 都可以用 that 代替
  
@@ -1183,21 +1183,43 @@ Which book did you buy?
 The book which / that is on the counter.
 He is the policeman who / that caught the thieves.
 
-L123: A trip to Australia
-省略关系代词的名词从句
-* 名词做宾语时可以省略关系代词: who / whom / that / which
+Who is the man you saw yesterday?
+I saw the man who is my high school classmate.
+What did you buy yesterday?
+I bought some milk which is without sugar.
+What did you want to buy yesterday?
+I want to buy some food which isn't contaminated.
+What are you want to buy?
+I want to buy a phone that has fold screen.
 
+L123: A trip to Australia
+省略关系代词的形容词从句
+* 连接词做从句的宾语时可以省略关系代词: who / whom / that / which (连接词做主语时不能省略)
 This is a photograph I took during my trip to Australia.
 They are people I met during the trip.
 That's the ship we travelled on. (travel on the ship)
-The man standing behind the counter served me.
+They are the men I saw yesterday.
 
+* 形容词从句缩略形式: 现在分词(表进行)
+  主句和从句的主语一致
 Who served you?
 The woman standing behind the counter.
           who is standing ...
-They are the men I saw yesterday.
+The man standing behind the counter served me.
+Who is making all that noise?
+The men reparing the road.
+
+* 形容词从句中，主句与从句的主语不一致时，不能用缩略形式
+I served her yesterday.
+She is the woman I served yesterday.
 What's this?
 This is the kitten I found in the garden.
+
+This is the person I've heard about.
+This is the village I wrote to you about.
+This is the test you wrote to me about.
+She is the woman you read about.
+This is something you must decide about.
 
 L125: Tea for two
 情态动词
@@ -1229,6 +1251,8 @@ I've had to wait for two hours.
 Do we have to walk to the station?
 No, we don't need to.
 We can catch a bus.
+Mary must wait for him.
+Does Mary really have to wait for him?
 
 L127: A famous actress
 对现在和将来的推测
@@ -1261,6 +1285,13 @@ She must be Swedish.
 It can't be the 20th.(日期用 It)
 It must be the 21st.
 
+He must be busy.
+I think he is probably busy.
+He must be an engineer.
+I don't think so. He can't be an engineer.
+He must be a mechanic.
+I think he is probably a mechanic.
+
 L129: Seventy miles an hour
 表对过去的推测
 * must have been ... : 那时肯定是...
@@ -1280,6 +1311,8 @@ He can't have been ill.
 He must have been tired.
 It can't have been my new hat.
 It must have been my old one.
+He can't have reading.
+He must have been sleeping.
 
 L131: Don't be so sure!
 表示对现在或将来可能性的结构

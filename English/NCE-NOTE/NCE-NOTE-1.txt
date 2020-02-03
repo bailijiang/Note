@@ -1315,11 +1315,13 @@ He can't have reading.
 He must have been sleeping.
 
 L131: Don't be so sure!
-表示对现在或将来可能性的结构
+表示对现在,过去,或将来 可能性的结构
 * may / might / could + do : 表可能发生的事
   may not / might not / can't / couldn't + do
 * may be ... : 可能是...
-  may have been ...: 那时可能是...
+  may be doing...: 可能正在...
+* may have been ...: 可能已经...
+  may have been doing...:那时可能正在...
 
 It usually takes me twenty minutes to drive to school.
 It took her ten dollars to get this book.
@@ -1331,7 +1333,6 @@ She might not come.
 
 She may be writing a letter now.
 She may have been reading at that moment.
-They may have been death.
 
 Where's Herry?
 He may be in his room.
@@ -1343,11 +1344,18 @@ Why was he late?
 He may have been busy.
 I'm not sure.
 
+They may have been dead.
+She may have been a doctor.
+She may be a doctor.
+She may become a doctor.
+She may be sleeping.
+She may have been working at that moment.
+
 L133: Sensational news!
 对过去时的引述动词后的间接引语
 间接陈述句的一般现在时变为一般过去时
-            现在进行时变为过去进行时
-            现在完成时变为过去完成时
+          现在进行时变为过去进行时
+          现在完成时变为过去完成时
 * He said (that) ...
 * He told me (that) ...
 
@@ -1370,7 +1378,7 @@ He told me (that) he had finished his homework.
 
 L135: The latest report
 直接引语变间接引语时，如果是过去时，引语中的情态助动词需变为过去时
-即 can -> could, will -> would, may -> might, going to -> would, can't -> couldn't
+即 can -> could, will -> would, won't -> wouldn't, may -> might, going to -> would, can't -> couldn't
 * He told me he could do ...
 * She said she would do ...
 * He told me he might do ...
@@ -1387,6 +1395,11 @@ What did he say?
 He said Penny would open the window.
 What did she tell you?
 She told me they could afford the car.
+
+I won't go there by subway.
+What did he say?
+He said he wouldn't go there by subway.
+He told me he wouldn't go there by subway.
 
 L137: A pleasent dream
 if... 引导条件的副词从句(状语从句)
@@ -1407,6 +1420,10 @@ If you feel better, you can get up.
 What will you do if you can get up early?
 If I get up early I can learn English.
 
+You can work abroad if you speak English very well.
+If you speak English very well you can work abroad.
+If you move your hands I'll shoot you.
+
 L139: Is that you, Jone?
 做宾语的名词从句
 * 宾语从句引导词：that(可省略), if(是否), whether, who, what, which, when, where, why, how ...
@@ -1423,6 +1440,10 @@ What does he want to know?
 He wants to know if you are tired.
 He wants to know why you are tired.
 Tell him what you are reading.
+
+Are you playing? What?
+I want to know what you are playing?
+Tell me what you are playing?
 
 I don't know what will happen in my future.
 I want to know how they compete with me.

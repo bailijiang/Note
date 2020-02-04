@@ -26,7 +26,7 @@ I'm learning English.
 It's blowing wind outside now.
 I always play basketball in the afternoon.
 I often cook myself.
-Are you sometimes play a video game?
+Do you sometimes play a video game?
 Are you still learning English?
 I never lie to anybody.
 
@@ -83,7 +83,7 @@ She showed her new dress to her friends.
 #L4: An exciting trip
 现在完成时
 * have / has + Ven
-  现在完成时的时间状语(副词)：just, already, since, for, not...yet, so far,
+  现在完成时的时间状语(副词)：just, already, never, since, for, not...yet, so far,
                         now, ever, lately
 
 I find this book very interesting. (find 觉得)

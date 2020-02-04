@@ -1,0 +1,72 @@
+ubuntu16.04安装OPenGL 此博文包含图片 (2019-01-09 12:09:42)转载▼
+分类： OPengl
+安装
+
+我建议大家参考官网历程
+
+sudo apt-get install build-essential
+sudo apt-get install build-essential libgl1-mesa-dev
+sudo apt-get install libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev
+
+ 
+官方历程就这里就结束了．但是我还安装了其他的一些东西，建议安装．
+
+    安装OpenGL Library
+
+$ sudo apt-get install libgl1-mesa-dev
+
+    安装OpenGL Utilities
+
+$ sudo apt-get install libglu1-mesa-dev
+OpenGL Utilities 是一组建构于 OpenGL Library 之上的工具组，提供许多很方便的函数，使 OpenGL 更强大且更容易使用。
+
+    安装OpenGL Utility Toolkit
+
+$ sudo apt-get install libglut-dev
+OpenGL Utility Toolkit 是建立在 OpenGL Utilities 上面的工具箱，除了强化了 OpenGL Utilities 的不足之外，也增加了 OpenGL 对于视窗介面支援。
+注意：在这一步的时候，可能会出现以下情况，shell提示：
+
+Reading package lists… Done
+Building dependency tree
+Reading state information… Done
+E: Unable to locate package libglut-dev
+将上述$ sudo apt-get install libglut-dev命令改成$ sudo apt-get install freeglut3-dev即可
+
+------------------------------------------------------------------------------------------
+
+Ubunt平台Qt出现:-1: error: cannot find -lgl
+安装完qt之后，构建项目就会出现:-1: error: cannot find -lGL
+
+然后使用 $ locate libGL.so  
+
+/usr/lib/x86_64-linux-gnu/mesa/libGL.so.1
+/usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0
+
+ 
+
+再使用 sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1  /usr/lib/libGL.so
+
+解决。
+
+----------------------------------------------------------------------------------------
+
+在把DSO移植到QT工程中，出现了
+
+/usr/bin/ld: KeyFrameDisplay.o: undefined reference to symbol ‘__glewBufferSubData‘
+
+报错，原因是.pro文件中没有加 GLEW库。
+
+解决方案：
+
+在.pro文件中加上这句：
+
+##### GLEW #####
+LIBS += -lGLEW
+
+ error: main.o: undefined reference to symbol ‘glTexImage2D‘
+
+报错，原因是.pro文件中没有加OpenGL
+
+解决方案：qt中内置了opengl，因此在.pro文件中加上这句：
+
+QT += opengl

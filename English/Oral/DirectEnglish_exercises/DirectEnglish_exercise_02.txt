@@ -660,27 +660,93 @@ No, we'd better not.
 
 ##Unit14
 #Lesson1: Giving directions
-* 
+Around the corner, by the phones.
 
+* Where can I...? How can I...?
+I want to change some money.
+Where can I do that, please?
+You can go to the bank.
+Where is the bank?
+There's a bank down the street.
+How can I get there?
+You can go there by bus or on foot across three blocks.
+Where's the nearest bus stop?
+
+* Where can I get...?
+Where can I get some information about trains?
+There's a train schedule in the hotel.
+How can I get there?
+Where's the nearest hotel?
+After you leave this station, take the first right, then the second left.
+Do you sell the train schedule in the hotel?
+How much do they cost?
 
 #Lesson2: How long?
-* 
+When are you going on your next trip?
+In three months.
+Nina, it'll be much easier if you just come along.
 
+* How long did it take you to...? How long will it take me to...?
+How long did it take you to the airport?
+It took me half an hour.
+I did it in half an hour, too.
+How long will it take me to learn English?
+It will take about two years.
+That's how long it took me.
+
+* When'll you...? in a week, in a minute...
+When'll you make a copy of the report, Claire?
+In an hour. 
+I'll make a copy at 11 o'clock.
+When will we pay these invoices?
+In a week. Next Monday.
+In a month. In September.
 
 #Lesson3: Previous jobs
-* 
+Did you tell her I used to work as a physicist?
 
+* used to do... / used to be...
+I used to get up early every morning.
+She used to be a waitress.
+Did you use to be a teacher?
+No, I didn't use to be a teacher.
+I never used to be a teacher.
+
+What do you do now?
+I'm a programmer.
+What did you use to be?
+I used to be a system engineer.
+
+What do you do for a living, Bryan?
+I'm a tech manager.
+Have you always been a tech manager?
+No, I used to be a programmer.
+So, you were a programmer before you became a tech manager.
+How interesting!
+
+What do you know about Claire?
+She's a good general manager.
+Has she always been a general manager?
+No, I think she used to be an English interpreter.
+That's what people say.
+How about you?
+What did you use to be?
+
+Did he use to work in a bank?
+Where did he use to work?
+Geroge hasn't always been in the hotel business.
+He used to work in a bank.
 
 ##Unit15
-#Lesson1: 
+#Lesson1: Likes and dislikes
 * 
 
 
-#Lesson2: 
+#Lesson2: Wants and needs
 * 
 
 
-#Lesson3: 
+#Lesson3: Behaviors
 * 
 
 

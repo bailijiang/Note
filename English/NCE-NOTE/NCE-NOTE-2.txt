@@ -212,7 +212,7 @@ half past ten
 Everything is fine.
 There is something I want to tell you.
 Nothing has changed.
-Is there anything I can do for you.
+Is there anything I can do for you?
 He did not say anything.
 
 Did you go anywhere yesterday?
@@ -232,12 +232,12 @@ This sofa is kept in my living room for a long time.
 
 #L11: One good turn deserves another
 Yesterday, when I was learning python I had toothache very hard.
-I have never had toothache before.
-After brushing my tooth many times I was still feeling very miserable. 
+I have never suffered toothache before.
+After brushing my teeth many times I was still feeling very miserable. 
 So I had lots of anti-inflammatory drugs water for a long time, but it didn't work.
 Up to now, I have had many drugs water continually and feeling better a little.
-The anti-inflammatory drugs water was almost had finished by me.
-If my toothache won't recover tomorrow I will go to the dentist.
+The anti-inflammatory drug water was almost used out by me.
+If my toothache isn't getting better tomorrow I will go to the dentist.
 
 #L12: Goodbye and good luck
 * 一般将来时

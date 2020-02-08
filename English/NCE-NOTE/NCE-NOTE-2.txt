@@ -375,7 +375,7 @@ One must be careful these days.== You must be careful these days.
 * 情态动词: 必须
           must do
           have (got) to do : 可以用各种时态 
-          had to : must不能用在过去时, 要用had to
+          had to : must不能用在过去时, 要用had to / would have to
           must be : 表推测
 
 I had to take her to the hospital yesterday.
@@ -385,7 +385,7 @@ He must be a fool.
 I must have been infected when I went home by subway.
 
 
-* as 作为/当...
+* as 作为/当... prep. : 连接 副词短语，副词从句，形容词短语
 I'm telling you this as a friend.
 He treats his dog as his best friend.
 I cannot come as I am busy.
@@ -429,7 +429,7 @@ I have a cold.
 * 情态动词: can/could/may/might/might as well + do
   can/could: 能，可以
   may/might: 允许；可能、也许
-  may/might as well: 还是
+  may/might as well: 还是,还不如(不太情愿)
   may/might have done: 也许已经...
 
 I think she may go on a business trip but I'm not sure.
@@ -442,7 +442,7 @@ He might have gone abroad, but I'm not sure.
   - 做主语: Doing...
   - 做宾语: ... of/on/in/for doing...
   - 连接从句: 可以与介词组成介宾短语
-             without / Before / After ... + doing ...
+             without / Before / After / Instead of ... + doing ...
 * 现在分词: 连接副词从句(状语从句)来修饰主句动词
 
 Drinking is my only vice.
@@ -452,6 +452,16 @@ I'm just interested in listening to her voice.
 The boy suicide without saying anything.
 After having a bath I went to bed.
 Instead of drinking beer, we drank water.
+
+Why is coding your favorite job?
+Why are cheating with each other they have to?
+Why is singing your favorite activity?
+Why is smoking endless they love?
+Do you interested in reading at the weekend?
+I'm really interested in reading at the weekend.
+
+* have/has done 在 After... 后变为 having done
+After having wasted much time learning English with the wrong method, I finally find the right way to learn it.
 
 #L21: Mad or not?
 * 被动语态

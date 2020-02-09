@@ -509,7 +509,6 @@ How much have you borrowed from me already?
 He delights in annoying me.
 
 #L23: A new house
-
 * district, area, region
 commercial district, dwelling district
 rural area, farming area

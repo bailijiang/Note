@@ -280,7 +280,7 @@ Do you want any vegetables?
 
 I have a room with a view for two. Do you want it?
 OK, thanks.
-We have some mashed potatoes Do you want some?
+We have some mashed potatoes. Do you want some?
 Yes, thanks.
 Kevin has some rolls. Do you want one?
 Yes, please.
@@ -451,8 +451,11 @@ Give them this car.
 Give that apple to me, please.
 Can you give that sheet to me, please?
 Give that drawing to Claire/her.
+
 Can you see the cat? Can you see it?
 Can you see Anne? Can you see her?
+Can you hear me?
+Can you take us?
 
 * Give me... Which on? Which ones?
 Give me that bowl, please.
@@ -481,7 +484,7 @@ What's William going to do, Dean?
 He's going to speak to Carl.
 Where are you going?
 I'm going to the airport.
-What does she going to do, Bryan?
+What is she going to do, Bryan?
 She's going to the concert.
 
 * Please turn off the light

@@ -536,9 +536,8 @@ He's always complaining about something.
 'I left the money in my room,' I said, 'and it's not there now.'
 
 #L25: Do the English speak English?
-* 并列句
-  and, so, but, or, yet
-  not only...but...as well, neither...nor, either...or, both...and
+* 并列句(部分/整句): and, so, but, or, yet
+                  not only...but...as well, neither...nor, either...or, both...and
 
 I got up quickly and brushed my teeth, but I'm still late.
 So I was fined for being late for work.
@@ -621,7 +620,8 @@ Have you been to New York?
 Have you seen this film?
 Have you read this book?
 
-* 名词从句: 关系代词在从句中做主语时不能省略,做宾语时可以省略
+* 形容词从句(关系从句): 关系代词在从句中做主语时不能省略,做宾语时可以省略
+  名词从句：连接词that/which... + 完整句子, 作主语/宾语/补语/同位语
 This is the house that was bought by me.
 
 Jasper White is one of those rare people who believes in ancient myths.

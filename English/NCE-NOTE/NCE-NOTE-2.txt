@@ -688,8 +688,9 @@ My parents were traveling when I went back home.
 
 * used to do(表示过去的习惯、动作或状态，常含有此动作现在已不再进行的意思)
 When I was a boy, I used to play a video game at home.
-He used to be bullied as he was young.
+He often used to be bullied when he was a child.
 Did you use to see each other a lot?
+She used to be a selfish woman.
 
 * It 做形式主语: It is/was ... to ... 
 It's your responsebility to solve the problem.
@@ -707,6 +708,12 @@ People are not so honest as they once were.
 It's not so easy as I thought.
 The film is not so interesting as I expected.
 The film is less interesting than I expected.
+
+* little,less,few,fewer,a little,a few 表否定
+There isn't much I can do to help him. -> There is little I can do to help him.
+He hasn't got as much work to do as I have. -> He's got less work to do than I have.
+There weren't many people in the shop. -> There were very few people in the shop.
+He hasn't as many books as I have. -> He has fewer books than I have.
 
 #L33: Out of the darkness
 * 带介词的短语: to, from, into, out of, for, towards, at 

@@ -500,6 +500,7 @@ Turn them off.
 
 ##Unit5
 #Lesson1: To and in
+* to,in,was,were,have/has been,go/went/has gone,where
 Were you on a city tour today?
 Did you go to the Public Gardens?
 First, we went down to the river.
@@ -553,6 +554,8 @@ Where did you go in Brazil?
 I went to Rio.
 I was in Rio for two weeks.
 It was wonderful!
+
+She has gone to New York.
 
 #Lesson2: How to say time
 What sign are you?

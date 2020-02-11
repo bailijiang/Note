@@ -500,7 +500,7 @@ Turn them off.
 
 ##Unit5
 #Lesson1: To and in
-* to,in,was,were,have/has been,go/went/has gone,where
+* keywords: to,in,was,were,have/has been,go/went/has gone,where
 Were you on a city tour today?
 Did you go to the Public Gardens?
 First, we went down to the river.
@@ -558,6 +558,7 @@ It was wonderful!
 She has gone to New York.
 
 #Lesson2: How to say time
+* keywords: at,on,in,this,last,next,When
 What sign are you?
 Virgo. September 19th, right?
 I'm 21 on August 4th.
@@ -597,6 +598,7 @@ So you're reliable and hard-working!
 And you're nice and prudent, too!
 
 #Lesson3: Describing things
+* keywords: How,What,better,less,more adj.+er,too,not...enough,has got,can(can't)
 Can I help you?
 Yes, I want to buy a laptop.
 How about this one?
@@ -642,7 +644,7 @@ I have twenty apples.
 
 * Adjectives: the comparative
 nice nicer 
-expensive more expensive less expensive
+expensive, more expensive, less expensive
 good better
 bad worse
 
@@ -660,6 +662,8 @@ I'm looking for something smaller.
 
 ##Unit6
 #Lesson1: Likes and dislikes
+* keywords: like,dislike,prefer,prefer...to...,prefer to do,Why,Which
+
 * like / dislike
 * prefer / prefer...to... / prefer to do
 I prefer jazz to rock music.

@@ -1,5 +1,7 @@
 ##Unit1
 #Lesson1: Talking about yourself
+* keywords: am,is,are / What / How
+
 Excuse me. Are you Bryan Bai?
 Yes. I am.
 
@@ -26,8 +28,8 @@ How do you spell Bai.
 B-A-I.
 
 #Lesson2: Talking about others
-* am,is,are,
-  am, is, are, + not
+* keywords: am,is,are / am,is,are + not / Who / What
+
 I'm a programmer.
 I'm not an engineer.
 She's a teacher.
@@ -66,6 +68,8 @@ What does he do?
 He's an intern.
 
 #Lesson3: Polite requests
+* keywords: can(can't) / Please / How well
+
 Come in, Bryan. Please sit down.
 Can you use Python to develop the program, Bryan?
 Yes, I can.
@@ -101,6 +105,8 @@ Not at all.
 
 ##Unit2
 #Lesson1: To and at
+* keywords: to / at / have(has) gone to / Where
+
 Where's Claire?
 Has she gone to the office?
 No, she hasn't.
@@ -130,6 +136,8 @@ Are they with Bryan?
 No, they aren't.
 
 #Lesson2: How to say time
+* keywords: at / in / on / from...to... / What time(day) / When
+
 We start at 8:30 in the morning.
 The meeting runs from 9:30 to noon.
 Discussion ends at 4:45.
@@ -168,6 +176,8 @@ What time does it begin?
 It begins at 9 o'clock sharp.
 
 #Lesson3: Describing things
+* keywords: It's a(an) / They're / What
+
 What is this?
 It's a computer.
 That's us.
@@ -201,6 +211,8 @@ They are green tea.
 
 ##Unit3
 #Lesson1: Likes and dislikes
+* keywords: like / don't like / too / either / What
+
 Where can we eat?
 I like meat too much to be a vegetarian. And fresh fish.
 I don't like fish at all.
@@ -252,6 +264,8 @@ So what does she like and dislike?
 Well, she likes cheese, but she doesn't like eggs.
 
 #Lesson2: Wants and needs
+* keywords: want / have / Do(Does) you(he,she) / What
+
 Do you have a table for three?
 Yes. This way, please. We have a table over there, by the window, or over here, by the wall.
 What do you want?
@@ -294,6 +308,8 @@ Do you have a pencil?
 Does he have a screwdriver?
 
 #Lesson3: Behaviors
+* keywords: am,is,are doing / be going to / be going to do / What's going on / What's happening
+
 What are you doing?
 Just taking your bags, sir.
 Where is that trolley going?
@@ -338,6 +354,8 @@ He's preparing an eggplant.
 
 ##Unit4
 #Lesson1: Talking about yourself
+* keywords: in / on / What / Which / Who's speaking / Who's this
+
 Can you tell me the hotel phone and fax numbers, please?
 Of course.
 The hotel phone is area code 617, 437 1890.
@@ -381,6 +399,8 @@ Yes. Speaking.
 It's Bryan.
 
 #Lesson2: Talking about others
+* keywords: am,is,are / have,has / with / What's ... like (as a person)
+
 Kevin, what's your ideal woman like?
 Oh, she's tall.
 Beautiful...
@@ -432,6 +452,9 @@ I like play basketball.
 I don't smoke.
 
 #Lesson3: Polite requests
+* keywords: give / please / can / be(not) going to do / turn
+            Which one(ones)? / Where are you going? / What are you going to do?
+
 Hand me those bowls, please.
 I can't give a customer Alfredo sauce with no cream.
 Use milk.
@@ -500,7 +523,8 @@ Turn them off.
 
 ##Unit5
 #Lesson1: To and in
-* keywords: to,in,was,were,have/has been,go/went/has gone,where
+* keywords: to / in / was(were) / have(has) been / go(went) / has gone / Where
+
 Were you on a city tour today?
 Did you go to the Public Gardens?
 First, we went down to the river.
@@ -558,7 +582,8 @@ It was wonderful!
 She has gone to New York.
 
 #Lesson2: How to say time
-* keywords: at,on,in,this,last,next,When
+* keywords: at / on / in / this / last / next / When
+
 What sign are you?
 Virgo. September 19th, right?
 I'm 21 on August 4th.
@@ -598,7 +623,8 @@ So you're reliable and hard-working!
 And you're nice and prudent, too!
 
 #Lesson3: Describing things
-* keywords: How,What,better,less,more adj.+er,too,not...enough,has got,can(can't)
+* keywords: How / What / better / less / more adj.+er than / too / not...enough / has got / can(can't)
+
 Can I help you?
 Yes, I want to buy a laptop.
 How about this one?
@@ -662,10 +688,9 @@ I'm looking for something smaller.
 
 ##Unit6
 #Lesson1: Likes and dislikes
-* keywords: like,dislike,prefer,prefer...to...,prefer to do,Why,Which
+* keywords: like / dislike / prefer / prefer...to... / prefer to do 
+            Why / Which one do you prefer?
 
-* like / dislike
-* prefer / prefer...to... / prefer to do
 I prefer jazz to rock music.
 We can eat out if you like, but I would prefer to stay in.
 
@@ -698,7 +723,9 @@ What does he want to know?
 He wants to know what they prefer.
 
 #Lesson2: Wants and needs
-* want, need, would like
+* keywords: want / need / would like
+            a,an / some / any
+
 Do you need a new phone?
 Yes, I need a new phone.
 Do you need any beer?
@@ -720,7 +747,8 @@ And can I get you something to drink?
 Yes, some mineral water.
 
 #Lesson3: Behaviors
-* always, usually, often, sometimes, never (frequency: high->low)
+* keywords: always / usually / often / sometimes / never (frequency: high->low)
+
 I always drink green tea.
 I never watch television.
 What about you, Claire?
@@ -740,7 +768,6 @@ I usually hang out with friends.
 What does Bryan do on Saturday afternoons?
 He often plays basketball.
 I sometimes take a walk in a park at 8 in the evening.
-
 
 ##Unit7
 #Lesson1: Talking about yourself

@@ -885,7 +885,9 @@ Yes, Good idea.
 
 ##Unit8
 #Lesson1: Asking about and giving directions
-Do you know where in the airport?
+* keywords: Where / How / down / up / at the end of / on the corner / go straight ahead / cross / opposite / behind / in front of / on top of / under / nearest / first,second,third left(right)
+
+Do you know where the airport is?
 How can I get there?
 It's in Shunyi.
 Down the street to the right is our subway.
@@ -934,6 +936,8 @@ Then take a right onto Wanshou Rd.
 It's on your right.
 
 #Lesson2: How long?
+* keywords: how long / for / When
+
 We're booking a flight to where?
 When?
 Tuesday, September 14th.
@@ -995,6 +999,8 @@ When was Bryan in the office?
 Yesterday.
 
 #Lesson3: These belong to...
+* keywords: belong(s) to / Whose / sb's
+
 * Possession
 That's my bag.
 That's his hat.
@@ -1045,7 +1051,7 @@ Brown. Is it large or small?
 It's fairly small.
 It's about 24 by 14 by 10.
 
-* I ordered...
+* I ordered... / with / without
 Whose hamburger is this?
 It's not mine.
 Mine's the one with onion.

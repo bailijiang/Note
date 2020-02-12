@@ -721,6 +721,8 @@ I'm going to drive from Haidian to Shunyi tomorrow.
 Where were you been? I have just been into the bathroom.
 Don't throw the bottle out of the car.
 I set out for my house where at Shunyi at 6 o'clock the next morning.
+I have left for Shunyi.
+I'm leaving for New York.
 She is walking towards me slowly.
 She was smiled when she looked at a flower.
 
@@ -745,7 +747,7 @@ The phone had rung for one minute before someone answered it.
         - have/has been done
         - had been done
         - will be done
-        - ... to be done : ...(让人)把...怎么样
+        - ... to be done : ...让...被人怎么样
 He was hit by a car.
 I was told that the tickets have been sold out yet.
 The air of this city is being polluted now.

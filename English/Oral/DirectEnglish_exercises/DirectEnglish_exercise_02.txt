@@ -179,6 +179,7 @@ Where were they?
 Under the clothes along with the newspapers and envelopes.
 
 * Things walk out of this office!
+    - Where...? There was one...
 Claire! Where're my photos?
 Have you seen it?
 Your photos? Yes, there's one between those books.
@@ -193,8 +194,11 @@ Does Anne think people borrow things?
 Yes, she does.
 Is Anne lucky?
 Yes, she is.
+Why are you so stupid?
 
 #Lesson2: How to say time
+* keywords: before / after / next / last(adj.) / not until / sometime before / sometime after / not before / not till after / How long...? / When...? / last,lasted(v.) / take
+
 How are you feeling?
 Aren't you suffering from jet lag?
 It will last all day.
@@ -214,10 +218,15 @@ It's at 10:40 on Wednesday.
 It's at 9:20 on Thursday, September 21st.
 It's in 2020.
 It's not until Monday.
+I won't see you until next Monday.
 It's sometime before September.
 It's sometime after September 21st.
 It's not before Thursday, September 21st.
 It's not till after 2020.
+I would intend to find a job in February, but now it looks like it can't be accomplished until May this year.
+I think it can be realized sometime before June this year.
+I won't go to work before May.
+I think we can't realize this plan until after April.
 
 * Points of time: last.../next...
 I'll see you next week.
@@ -260,7 +269,7 @@ That's not bad.
 
 #Lesson3: How to say weather
 hot, humid    adj.
-heat humidity n.
+heat, humidity n.
 So, the Cantonese phrasebook came in handy.
 So what was the weather like this time of the year?
 Did it rain?
@@ -307,6 +316,8 @@ It's generally hot and humid.
 
 ##Unit12
 #Lesson1: Likes and dislikes
+* keywords: like doing / like to do / hate doing / love doing / enjoy doing / being / What would you like to do(doing)...?
+
 Didi does cover a lot of ground.
 The woman never stops moving.
 I hate walking.
@@ -356,6 +367,8 @@ What do you like doing best?
 What do you hate doing most?
 
 #Lesson2: Wants and needs
+* keywords: someone,somebody,something / anyone,anybody / no one, nobody / ...who is,has,can,does...
+
 ...need someone who will...
 ...want someone who can...
 ...need something which/that will do...
@@ -410,7 +423,10 @@ He needs someone to translate for him.
 Is there anyone who can give me a hand with this suitcase?
 
 #Lesson3: Behaviors
-...have/has done...
+* keywords: ...have/has done...
+            What have you done? / How long have you been...?
+            for / since
+            
 Yes, we've had a very good year.
 We've managed to control our costs, as you can see.
 But of course you're expected to do that.

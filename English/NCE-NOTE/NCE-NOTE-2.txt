@@ -891,12 +891,20 @@ I will be studying English at universty this time next year.
 #L41: Do You Call That a Hat?
 * mustn't 不应该(责备)
   needn't 不必
-  need 作为情态动词时，只能用于疑问或否定句，后接动词原形，肯定句中用 must, have to, ought to, should
+  need : 
+    作为情态动词时，只能用于疑问或否定句，后接动词原形，肯定句中用 must, have to, ought to, should; 不必
+    作为实意动词时可以用于肯定句； 需要
+  have to
 
 You needn't buy so many pairs of sports shoes.
 I know, but I can't help but be tempted by them.
 I have to control myself do not to be tempted.
 I feel that I can never have too many basketball shoes.
+
+You mustn't buy cars you can't afford.
+You mustn't read books that they beyond your age.
+They mustn't drink things contaminated by nuclear.
+I find it that I can't have too many basketball shoes and can never have too many computers.
 
 #L42: Not very musical
 * have + (可加形容词)表示动作的名词/名词短语 == verb  
@@ -906,6 +914,9 @@ I have been to have dinner.
 You needn't have a bath.
 I must be to have relaxing.
 I remember I was very excited when I have my first look at her.
+Do you want to have a drink?
+Do you need have a rest?
+I want to have a walk in the park.
 
 had a ride
 was having a look at
@@ -927,6 +938,8 @@ Did you have a good sleep last night?
 * Can/Could: 无将来时，完成时
   Be(was) able to: 当表示过去已经成功完成时(客观事实)，不能用could
 
+At that time, I knew that I was able to overcome that difficulty.
+
 Can you give me a piece of paper?
 I was able to find a good job before I finished the English courses.
 Through hard studying, I was able to develop software with C/C++.
@@ -943,17 +956,20 @@ I was able to drive to Shunyi yesterday and I took everything I need.
 At that moment, it seemed certain that they would win the game.
 
 #L44: Through the forest
-* was/were doing ... 过去进行时
-It began to rain when I was sleeping last night.
-I was learning English when they were having dinner yesterday.
-  
 * 动名词: 是具有持续性动作含义的名词
-  start/need/begin/continue/hate/love/like/want... + doing
+  start/need/begin/continue/hate/love/like/want/enjoy/without... + doing
+  look forward to doing / accustomed to doing / used to doing
 I love staying at home when it's raining.
 I'm used to getting up early.
 I'm looking forward to seeing him tomorrow.
 The men started running through the trees.
 They began running. 
+He went to school without taking his bag.
+I am accustomed to learning English every morning.
+
+* was/were doing ... 过去进行时
+It began to rain when I was sleeping last night.
+I was learning English when they were having dinner yesterday.
 
 #L45: A Clear Conscience
 * 被动语态:

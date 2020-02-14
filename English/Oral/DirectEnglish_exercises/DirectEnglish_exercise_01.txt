@@ -1117,7 +1117,8 @@ It's too boring.
 Are you enjoying that tea, Claire?
 No, I'm not.
 Why aren't you enjoying it?
-Because it's too strong(weak).
+Because it's too strong.
+Because it's not strong enough(weak).
 
 #Lesson2: Wants and needs
 She needs some paper for the printer.

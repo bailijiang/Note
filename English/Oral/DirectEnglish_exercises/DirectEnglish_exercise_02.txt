@@ -483,6 +483,11 @@ Since last week.
 
 ##Unit13
 #Lesson1: Talking about yourself
+* keywords: very badly / fairly well / very well
+            very bad at / pretty good at / very good at 
+            How well did you do...? / How did you do at...? / What about...?
+            adj. + n. / v. + adv.
+
 This is just what I needed.
 How did you wind up here?
 Well, that's a bit of puzzle to me, as well.
@@ -569,6 +574,10 @@ He doesn't drive fast.
 He learns quickly.
 
 #Lesson2: Talking about others
+* keywords: He says (that) / She said that...
+            He tells me (that)... / She told me that...
+            What does sb say about...? / What's sb's opinion of...? / What did sb say?
+
 He's not, though.
 He said he barely got through school.
 He told me he did really badly at university.
@@ -636,8 +645,14 @@ Has he been there for a few months?
 How long has Dean been at the hotel?
 How has he helped Simon?
 He's helped him to understand what younger customers like in the restaurant.
+How has he killed Jenny?
+How have you arrived there?
 
 #Lesson3: Polite requests
+* keywords: Would you (please) do...for me? / Would you mind doing...? 
+            I want you to ... / I'd like you to...
+            I'd better (not) do... / You'd better (not) do...
+
 George, would you mind taking care of this for me?
 You did such a good job last time.
 I'll do it as soon as I can.

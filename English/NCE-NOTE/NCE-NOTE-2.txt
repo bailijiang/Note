@@ -994,12 +994,17 @@ I didn't expect to be charged for parking there.
 I'm sorry, I confused with these two people.
 I think we should prepare to cope with the thing.
 
+* see to : 负责
+I shall see to the dinner tonight.
+Go on, you go out. I'll see to the washing-up.
+He says he will see to this bug.
+
 * It ... to... : 形式主语it, 真正主语是to后面的 
 It must amuse at myself to compose a song.
 It will challenge me to find a good job in a short time.
 
 #L47: A Thirsty Ghost
-* 名词从句: which, that, who
+* 名词,形容词从句: which, that, who
 He told me he can't go to sleep because he smelled a kind of subtle frowzy odor coming from the floor.
 She also said that she had loved the man who had already married.
 They also said they used to go to the restaurant which had closed. 
@@ -1015,6 +1020,7 @@ I asked her how's her health.
 * either...or: 要么...要么...
 During her interview, she either nodded or shook.
 Most of the people in this country are either too hypocrisy or too stupid.
+I find it that these people are either stupid or bad.
 
 * 常用动词make, do:
 He had make progress.

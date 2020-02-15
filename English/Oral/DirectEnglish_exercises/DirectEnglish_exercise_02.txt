@@ -695,6 +695,9 @@ No, we'd better not.
 
 ##Unit14
 #Lesson1: Giving directions
+* keywords: I want to go to... / Where can I do(get) that, please? / You can...
+            Where is...? / It's on... / How can I get there? / Where's the nearest...?
+
 Around the corner, by the phones.
 
 * Where can I...? How can I...?
@@ -738,6 +741,11 @@ In a week. Next Monday.
 In a month. In September.
 
 #Lesson3: Previous jobs
+* keywords: used to be a ... / used to do / didn't(never) use to be(do)
+            What did you use to be?
+            Have you always been a...? / Has she always been a...?
+            Where did he use to do(work)?
+
 Did you tell her I used to work as a physicist?
 
 * used to do... / used to be...

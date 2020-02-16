@@ -1029,13 +1029,16 @@ Why can't you make up your mind?
 I have to go out now. I must do some shopping.
 
 #L49: The End of a Dream
-* 连词: when, until, after, as soon as, before, because, as, since, to, in order to, although, who, which, that
-I'm still not beginning to find a job because I haven't finished which I want to study.
+* 连词: when,not...until, after, as soon as, before, because, as, since, to, in order to, although, who, which, that
+I'm still not beginning to find a job because I haven't finished the thing which(that) I want to study.
 Although I can already write code, it's not well enough.
 I can't open my resume on the website until I finish ROS exercises.
 Finding no more vegetables, I went to a supermaket.
 Scratched in an accident, my car has still not been fixed.
 After having dinner, I went to the park which by my home walked for 2 hours.
+Hurt in that game, he has still not recovered by now.
+The people of this country who never can live better because they always enjoy cheating themselves.
+I went into the yard to wash my car.
 
 * send + 名词 + 分词/into(to) 表示"使...处于某种状态"
 Poverty sent me feeling very unhappy.
@@ -1059,7 +1062,7 @@ I need a new job.
 I hate getting cold.
 
 * 连词 that, when, what, where
-Excuse me, can you tell me where am I?
+Excuse me, can you tell me where I am?
 I don't know what to do.
 Please let us know when it is set off.
 Can you show me how to use the fax machine?
@@ -1068,6 +1071,10 @@ According to my age, I realized that I must get married quickly.
 * in front of : 在...的前面
   in the front of : 在...内部的前面
 I stand in the front of the ship to feel the sea breeze.
+
+* 宾语从句(名词从句)的省略: where
+I'll tell you where to get off.
+I'll tell you where you ought to get off.
 
 #L51: Reward for Virtue
 * 动词过去式,过去分词(不规则动词)
@@ -1085,10 +1092,12 @@ It is very clear that he is a fool.
 * so...that...
 The tea in the cup is so cold that I can't have.
 My house where at Shunyi is so quiet at night that I feel a little bit fear.
+The dangerous of the coronavirus is so serious that the local authorities decide to isolate all habitant from each other.
 
 #L52: A Pretty Carpet
 * 现在完成时: have/has been
   现在完成进行时: have/has been doing
+  prep.: for, since, never, all...
 I have just got home and I have been learning English all morning.
 I have been thinking for an hour about how to make lunch easier.
 It has not been easy because I need nutrition to remain balance.

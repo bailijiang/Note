@@ -782,6 +782,10 @@ He used to work in a bank.
 
 ##Unit15
 #Lesson1: Likes and dislikes
+* keywords: I like a man with... / I like someone with...
+            I like a person who... / I like...that... / I like doing / I love doing / I dislike...
+            What's ... like? / How do you like...? / He can be... / She must be... / He has...
+
 I loved it when I was little. Did you?
 Dean told you I used to be a physicist, didn't he?
 I like interesting combinations.
@@ -834,6 +838,8 @@ Do you like them?
 No, I dislike them very much.
 
 #Lesson2: Wants and needs
+* keywords: I'm looking for something which(that) is... / I want something with... / something has... / anything that...
+
 How big did you want them?
 It doesn't last.
 I want thicker cloth.
@@ -852,6 +858,8 @@ I'm looking for something which has a lining.
 I don't want anything that doesn't have a lining.
 I'm looking for something which doesn't cost too much.
 I don't want anything that costs too much.
+
+The car which he is driving looks so cool.
 
 I need a new laptop.
 What sort of laptop are you looking for, Mr?
@@ -872,6 +880,9 @@ Do you want the shoes with air cushion or without air cushion?
 With air cushion.
 
 #Lesson3: Behaviors
+* keywords: was(were) doing... / wasn't(weren't) doing... 
+            What was happening when...? / What were they doing? / I was doing when(while)... / ...be going to...
+
 How are you doing?
 Where are you going?
 We were working until 2 a.m. last night.
@@ -909,6 +920,9 @@ I think he was drinking.
 
 ##Unit16
 #Lesson1: Talking about yourself
+* keywords: go(went) doing / come(came) doing / Let's go doing...
+            Would you like to come doing... with us...? / What do you usually do on..? / What did you do...?
+
 Have you any idea how hard I work to stay in shape?
 Have you any idea how much work I have to do today?
 See, on Mondays I go swimming.
@@ -1005,6 +1019,8 @@ Do most people of this country always smoke in public?
 Who likes swimming in winter?
 
 #Lesson3: Polite requests
+* keywords: should(will,may,might,can't,may not) be able to / can / should be / shouldn't be
+
 A good hotel should be able to plan around your needs, and should stay within your budget.
 I will be able to see you tomorrow.
 You should be able to accomplish this job.

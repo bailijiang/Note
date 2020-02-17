@@ -1113,6 +1113,12 @@ Since then, I have been learning English for 3 months.
 Have you ever tried this restaurant?
 I have been working for 3 months in this company.
 
+* 形容词从句, 同位语从句:
+I have just bought a mobile phone which was stolen on the bus.
+I don't trust people who talk too much.
+I'm afraid (of that thing) that I can't help you.
+The story that he once killed a man might just be true.
+
 #L54: Sticky Fingers
 * any, some / The / Most
 Did you buy any beer?
@@ -1127,12 +1133,17 @@ I often play basketball at the court of this community.
 Most neighbors of mine are bastards.
 Our football team is the weakest in this world cup.
 
+* when / it / no sooner...than
+It took me twenty minutes to wash my car.
+I went to the basketball court with my friends and was dismayed when I found the court was closed.
+I had no sooner got home than the house out of power.
+
 #L55: Not a Gold Mine
 * 现在完成时的被动语态(已经被): have/has been done
 AI technology has been used in many areas of people and it has been used to relieve the pressure of people's work.
 The court where I used to play basketball has been pulled down.
 
-* when
+* was/were doing... when
 I was learning English in the morning when my express arrived.
 When I was learning English in the morning my express arrived.
 I was sleeping when she telephoned me and said that she would come to my home.
@@ -1141,6 +1152,7 @@ I was sleeping when she telephoned me and said that she would come to my home.
   ...would (often) do...: 
   ...used to do...:
   表示状态,反复,现在不做了时必须用 used to do, 不能用 would (大多数情况下用 used to do)
+I would have a cup of green tea in the morning.
 I would often go to the cinema.
 I used to go to the cinema, but now I watched the movie at home.
 This sort of novel used to be very popular.
@@ -1154,7 +1166,7 @@ Got nervous, I went to the podium.
 * one of the most
   the most
   more than
-One of the corrupt cities in this country is S.
+One of the most corrupt cities in this country is S.
 City B is the most corrupt city in this country.
 City B is more corrupt than S.
 

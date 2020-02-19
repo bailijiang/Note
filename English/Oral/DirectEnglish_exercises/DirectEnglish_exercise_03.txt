@@ -64,23 +64,67 @@ How did you first drive on the road, Bryan?
 I first drove on the street very dangerously.
 
 #Lesson2: Talking about others
-* 
+* keywords: have to / had to / said that / told me that
 
+I had to train myself.
+Did you have to train on Saturday?
+No, I didn't (have to).
+Why did you have to go to the hospital?
+She said she had to check up.
+She told me that she had to check up.
+
+What did Claire tell you?
+She told me that she used to work in a small company.
+She said that she had to work overtime every day.
+She hated it, so she quit.
+Then she worked in a factory where processed pork.
+After that she went to college and she got a job as an editor.
+She said she really loves her job.
+
+What was her first job?
+She used to be a novelist.
+She said she loves her job.
+What did she tell you?
+She told me that she had to break up with her boyfriend.
+Why did she do that?
+She said that her boyfriend had cheated her.
+She moved out of his house.
+She dropped his all stuff.
+She went to Australia.
+After that, she met a handsome man.
 
 #Lesson3: Polite requests
-* 
+* keywords: Turn on / Turn off / Put(Choose,Add,Drain,Toss,Serve)... 
+            Either...or...
+            First, ...Then,...Next,...After that,... 
+            What are you doing? / What are you going to do?
 
+If you want to develop software, this is what you do:
+First, you need to communicate with your clients and acquire the real needs of the software.
+Then, analyze the demands.
+Next, either write down the requirements document or draw the flow chart.
+Then, start developing the program divided into modules.
+After that, test the program after finishing the development.
+
+What are you doing?
+I'm turning on the computer.
+What are you going to do?
+I'm turning on the game program.
+What are you doing now?
+I'm inviting my friends in the game.
+And what are you going to do next?
+I'm going to play the game.
 
 ##Unit20
-#Lesson1: 
+#Lesson1: Routes
 * 
 
 
-#Lesson2: 
+#Lesson2: Ago, since and for
 * 
 
 
-#Lesson3: 
+#Lesson3: Descrbing things
 * 
 
 

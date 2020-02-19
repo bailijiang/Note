@@ -1225,14 +1225,22 @@ I think of obsessing about video games is a vice.
 Before having dinner, I must finish the task today.
 I enjoyed myself drinking a cup of green tea before going to work in the morning.
 
+* that / who / after doing / before doing / enjoy herself doing / to do / with / as soon as / Not doing / Although / and / Glancing at... / said that / told her that / She returned ... dressed in..., with...
+I told her that I didn't like the way she had done.
+The assistant who served me is my classmate before.
+Not seeing the red light, I was driving across the crossroads.
+I sat in front of the computer to start learning English.
+Walking to the podium nervously, I began to make my speech.
+She returned home taken a large basket of vegetables.
+
 #L58: A Blessing in Disguise?
 * 被动语态(起强调作用)
-All the neighors have been asked to move their cars to other places.
+All the neighbors have been asked to move their cars to other places, but so far they have refused.
 The vice president has been arrested because of corruption.
 He was offered the vacant post.
 
 * so far + 现在完成时
-So far, no one has beaten me in the basketball game.
+So far, I have not been beaten by anybody in the basketball game.
 
 * 强调句 It is/was ...(被强调部分) that/who...
 It was his selfish that my life was destroyed.
@@ -1243,6 +1251,7 @@ It was because of him that we succeeded.
 
 * claim
 This wrong decision has already claimed much damage to the company.
+So far, the coronavirus has claimed 2,000 persons of China.
 
 * is said to
   It is said that...
@@ -1259,8 +1268,8 @@ He left the letter on the table in order that I might see it.
 * has developed / as soon as / until / got so annoyed
 How did you develop this vice?
 I have developed a good habit of eating an apple every day.
-As soon as she comes back home, she begins to cook until I go home.
-As soon as I arrive at the office, I start working until lunchtime.
+As soon as she came back home, she had begun cooking until I went home.
+As soon as I arrived at the office, I have started working until lunchtime.
 He got so annoyed because his wife cheated on him.
 
 * begin doing / start doing: 已经开始做...(习惯做...)
@@ -1268,12 +1277,23 @@ He got so annoyed because his wife cheated on him.
 I have been studying Python for a long time, so I start to find a job about it.
 He starts exercising for some time.
 She begins to read that novel.
-She begins reading a book since she was a child.
+She begins reading books since she was a child.
+
+* would be: 经常做...
+  was/were doing
+  used to do
+  do/does
+I would have a walk in the park at the weekend.
+I was learning English hard so that I would go abroad to get a good job.
+
+* spend...doing...to do...
+I spent two years training myself to speak English with others.
 
 #L60: The Future
 * 将来时: will be
   将来进行时: will be doing
   在表示 来/去/到达 时可以用进行时表将来: is coming/arriving/leaving
+  一般现在时表将来do/does： if / as soon as / when / before / after / until
 After having lunch, I will go outside to walk for a while.
 I am going to working for three years.
 I will be working at this company for a year.
@@ -1286,6 +1306,7 @@ He's arriving tomorrow.
 Are you leaving now?
 
 * 表示 条件/时间 的副词从句 用 一般现在时表将来, 主句用将来时
+  if / as soon as / when / before / after / until + 条件从句
 If I go outside this time, I will meet many people who annoyed me.
 They will pay a high price when the conditions permit.
 The moment you leave this tent, you will get a big surprise.
@@ -1295,8 +1316,14 @@ I'll give him the message when he returns.
 I'll join you after I finish my work.
 He will write to his friends as soon as he gets there.
 
-* 带从句的疑问句
+As soon as she comes back, we shall set out to the airport.
+I won't leave there until he comes back.
+Before the boss takes part in the meeting, we won't start it.
+We shall start training after the coach arrives.
+
+* 带名词从句(what...)的疑问句
 Does what she said come true?
+Does what Claire said come true?
 Did what he had done fix that problem?
 Is what you talked about the movie on?
 
@@ -1308,6 +1335,12 @@ The ceremony will be helding at 10 o'clock.
 By the end of this month, the system will have worked for one year continuously.
 Next month, I will have been working at this company for ten years.
 Later, you will have received the message from me.
+
+If he arrives at the office I will let you know.
+I will be leaving Beijing tomorrow.
+Soon I will have finished my English course.
+By the end of this month, I will have been learning English for two years.
+You can get off work at 6 o'clock.
 
 * 主句一般将来时，从句可以是一般现在/现在完成时
 As soon as she has known her health examination result, she will let me know.
@@ -1325,7 +1358,7 @@ He had been working in a factory for years before he got this job.
 He asked me what I had been doing all afternoon.
 
 * 过去完成时被动语态 had been done
-When a country had been colonized, the people of this country just understood the importance of the study.
+The people of this country didn't understand the importance of knowledge until it had been invaded.
 
 * 过去将来时 would/should do
 You said you would get rid of this vice.
@@ -1334,8 +1367,7 @@ I said I would arrange everything.
 He asked me yesterday when I should leave for Paris.
 
 * not only... but...as well 不但...而且...
-Last summer, I not only obtained Master's degree but bought a new house as well.
-If I get this job, I will not only make money but learn certain knowledge.
+I can master Oral English, for not only I'm talented for it but I've been learning English diligently as well.
 
 #L63: She was not Amused
 * 陈述句/疑问句变间接引语: sb told (that)... / sb asked...if(why)... / sb said ...
@@ -1345,11 +1377,16 @@ He said that we could not wait like this.
 She said that she was shopping on the internet.
 She told me she was disappointed with you.
 
-- sb asked if/why...
+- sb asked (sb) if/why...
+  sb ask sb to do...
 He asked if Mr.Gilbert's opertion had been successful.
 Tom asked if it would have a match tomorrow.
 She asked if I had a lunch.
 The boss asked why I still did not finish the work.
+
+I asked her why she was late.
+I asked her if she had trouble.
+She asked me to help her.
 
 * 祈使句表示请求/命令/建议等, 谓语动词用动词原型, 省略主语
   祈使句变间接引语, 后接 to do 不定式
@@ -1366,6 +1403,8 @@ He suggested that they (should) sell the flat.
 He still insisted that we (should) help him.
 She suggested that you should not go to work at that company.
 He insisted that I should stay to lunch.
+They suggested that I should quit this job.
+I insisted that I would quit that job.
 
 * This is the sort of thing that...
 This is the sort of thing that I hate.
@@ -1386,6 +1425,7 @@ If you go outside now, you will meet a lot of neighbors.
 If I were you, I would not go to London tomorrow.
 If I were in your position, I would act differently.
 If I had some bread, I could make Hamburg now.
+I would get to work if there wasn't spread coronavirus.
 
 * 虚拟语气: 与过去事实相反 
   if从句需用过去完成时had done，
@@ -1393,6 +1433,7 @@ If I had some bread, I could make Hamburg now.
 If I had studied harder at school, I'd have got a better job.
 You had got a good health If you would have had good exercise. 
 If I had got up early this morning, I would have felt comfortable.
+If I had learned English with the right method, I would have finished the English course a long time ago.
 
 * 虚拟语气: 将来事实相反(是指将来发生的可能性很小, 或低概率事件)
 If they could hire a foreign coach, the football team of China would enter the World Cup finals.

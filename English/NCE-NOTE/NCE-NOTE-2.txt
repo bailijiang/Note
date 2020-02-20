@@ -1448,7 +1448,8 @@ Open the window and ventilate the room.
 
 # L65: Jumbo versus police
 * 情态动词:
-  应该: should, ought to(语气强)
+  应该: should, ought to(语气强), 
+  本应该(虚拟语气)：should have done(本应该做而没做); could have done(本来能做而没做)
   可能: may, might(可能性较小) 
   必须: have to(被动), must(主动)
 
@@ -1456,6 +1457,7 @@ I'm sorry I'm late. I should have taken a taxi.
 I ought to stop smoking.
 You should have stopped smoking.
 I would get that job if I should have studied English hard.
+They could have been the kind man.
 If I had not eaten candy, my teeth would not have decayed.
 I ought to begin finding a job.
 This party is very rare, you ought to have come.
@@ -1475,7 +1477,9 @@ I must finish my review quickly.
 * 使役动词: have + sth(名词/宾格) + done (sb 使 sth/sb 如何)
   强调sth/sb别人, 但不必指明 (相对于被动语态的第三方)
 I'm going to have my resume updated on the website.
-Did you have the network of your home opened?
+Did you have the wifi worked?
+Did you have your laptop remended?
+I'm going to have my laptop remended.
 I didn't have your code modified.
 I washed my car.
 My car was washed.
@@ -1488,7 +1492,7 @@ Did you have a good meal? (吃)
 He has five cars. (有)
 
 # L67: Volcanoes
-* 表示“能力”的情态助动词及其他有关的动词： can/ could / be able to / manage to
+* 表示“能力”的情态助动词及其他有关的动词： can/ could / be able to / manage to(设法完成)
 I can't remember where I've seen him.
 I can sing some songs, but I can't play the piano.
 He thought he could pass the exam easily, but he failed.
@@ -1499,14 +1503,28 @@ I think I can be a successful programmer and I can't fail.
 I was able to win the game yesterday because I have ever been training hard.
 Although she managed to offer me that job, I still can't like her.
 I managed to learn English by myself so that I could get a good job and travel abroad.
+I managed to arrive at the airport on time at midnight.
+
+* Though..., ... : 但是(还是)..., 虽然(尽管)...(前置强调)
+  ..., but... : 虽然..., 但是...（后置强调)
+Though I'm still insisting on learning English, I'm too tired.
+I'm too tired, but I'm still insisting on learning English.
+
+* Although: 连词，强调事实
+  though: 连词，也可作副词, 可以强调假设
+Although it was snowing, it was not very cold.
+Let's start as arranged though it rains tomorrow.
+It's hard work, I enjoy it though.
 
 # L68: Persistent
+* 连缀动词(avoid/enjoy/like/love/deny/go/come/went...) + 动名词(名词短语) == 宾语/补语: 在名词位置(宾语/补语/主语),使用带有动词含义的动名词
 * 动名词 doing : 有动作含义的名词或名词短语 (没有名词形式的动词+ing)
   - 主动补: S + V + N(doing)
   - 介宾: prep + N(doing)
   - 感官动词连用: see/hear/smell... + sb/sth + N(doing)
   - go/come + N(doing)
   - 名词短语: n/adj. + N(doing)
+
 I like watching TV.
 I'd like to watch TV.
 I enjoy playing basketball.

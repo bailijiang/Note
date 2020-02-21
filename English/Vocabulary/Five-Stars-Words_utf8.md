@@ -386,6 +386,7 @@
 * Three pillars carries the whole roof.
 * Which minister carries responsibility for the police?
 * Do you want to carry the whole game?
+* Till to now, we still haven't known what's animals carried the coronavirus.
 
 <a id="draw"></a>
 ####draw

@@ -1474,7 +1474,7 @@ You must stop smoking.
 I must finish my review quickly.
 
 # L66: Sweet as honey!
-* 使役动词: have + sth(名词/宾格) + done (sb 使 sth/sb 如何)
+* 使役动词(被动语态): have + sth(名词/宾格) + done (sb 使 sth/sb 被如何)
   强调sth/sb别人, 但不必指明 (相对于被动语态的第三方)
 I'm going to have my resume updated on the website.
 Did you have the wifi worked?
@@ -1593,13 +1593,16 @@ I'm pretty sure of winning the game.
 I feel so sorry for the foolish of the people of this country.
 When I was a child, I was curious about everything.
 
-* ...until...before...: (一直)...直到...才...
+* ...until...before...: (一直)...直到...才... == Before..., I...until...
   Not until...: 直到...(才)...
 I felt so miserable until I had finished learning English before once more getting a new job.
 Not until I'm 35, I had realized the meaning people live.
+I hadn't left until this afternoon.
+
+* How was that murderer executed by the authorities?
 
 # L71: A famous clock
-##复习: 将来时 / if条件句 / 完成时 / 情态动词 / 使役动词have / 被动语态 / 介词+动名词 / adj+prep(形容词词组)
+##复习: 将来时 / if条件句 / 完成时 / 情态动词 / 使役动词(被动语态)have...done / 被动语态 / 介词+动名词 / adj+prep(形容词词组) + n.
 * When/If ... do ... , ... will do ...
 When you compete on the court, you will feel very excited.
 If you get up late, you will lose time to exercise.
@@ -1614,16 +1617,17 @@ When the environment was being destroyed, why the government did nothing?
 It began to rain when I was waiting for the bus this morning.
 The old man who was arrested is an actor.
 
-* can/must/may  could/would/might 情态动词有过去时, 但没有人称复数变化, 后面接动词原型do
+* can/must/may  could/would/might/had to 情态动词有过去时, 但没有人称复数变化, 后面接动词原型do
 Everybody can taste these cakes for free.
 If you stood up just now, you could be found.
 
-* ...have/has/had ... done ...: 使...(怎么样)
+* ...have/has/had ... done ...: 使...被(怎么样)
 I need to have my house decorated this year.
 I must have my life changed to be better.
 
 * have/has done: 现在完成时
 She has rarely been late to work.
+I have rarely made mistakes.(I rarely make mistakes.)
 
 * If...had done, ...would have done...虚拟语气(与过去事实相反)
 If I had studied coding, I would have obtained this job.
@@ -1632,8 +1636,8 @@ If I had studied coding, I would have obtained this job.
 Not only are you clumsy but lazy as well.
 
 # L72: A car called Bulebird
-* to 引导的不定式短语做定语修饰前面的名词
-She's always the first to arrive and the last to leave.
+* to 引导的不定式短语做定语(形容词短语/形容词从句)修饰前面的名词
+She's always the first (woman) to arrive and the last (woman) to leave.
 You're the best person to advise me about buying a house.
 You're the only person to complain.
 You're the best appropriate man to do this job.

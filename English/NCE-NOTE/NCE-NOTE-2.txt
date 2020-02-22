@@ -1663,8 +1663,10 @@ I wish I can set up the miracle.
 
 # L73: The record-holder
 ##动名词和现在分词的区别: doing
-    - 动名词当名词用, 有动作持续性的含义;      
-    - 现在分词引导的名词短语当形容词用, 表伴随性动作, 修饰前面的动词(副词从句);  
+    - 动名词: 当名词用, 有动作持续性的含义(主语，宾语，补语);      
+    - 现在分词: 
+            引导的关系从句(形容词从句), 作补语(主补/宾补);
+            引导副词从句, 修饰前面的动词(一个主语，两个动作);  
 We couldn't help laughing as hearing such funny news.
 People shouldn't call as driving.
 As far as my concerned, traveling by air is very scared.
@@ -1675,12 +1677,18 @@ She walks towards me taking a little smile.
 I said goodbye waving to her.
 The woman was walking past me emitting the attractive perfume smell.
 
+The ship (which is) coming to shore is from Gaoxiong.(adj.)
+
+Lying on the couch, the boy fell asleep.
+He raised his hand, trying to hit her.
+She takes off her glasses, smiling at me.
+
 ##从句:
-- 主语从句 who
+- 形容词从句(主语从句) who
 People who like to play basketball are usually good healthy.
 The man who is standing by the road is my high school classmate.
 
-- 时间状语从句： when(时间点有前后) / as(随着,同时) / while(持续一段时间)
+- 副词从句(时间状语从句)： when(时间点有前后) / as(随着,同时) / while(持续一段时间)
 When I arrived at the bus stop, the bus had already gone.
 
 As she grew older she gained in confidence.
@@ -1688,7 +1696,7 @@ I was playing video's game as you called me yesterday.
 
 They arrived while we were having dinner.
 
-- 宾语从句that：
+- 名词从句(宾语从句)that：
 I can't believe that he's only 17.
 Are you sure that they live in Beijing?
 
@@ -1713,8 +1721,8 @@ When we had finished dinner, my girlfriend appeared.
 
 * 虚拟语气(与事实相反): 
   原理：以 现在/过去 的时间为基准点，往前推一个时态(现在时->过去时，过去时->过去完成时) 
-I would not feel bad if I had drunk less.
-She looked at me as if I had been a stranger.
+I would not have felt bad if I had drunk less.
+If I were you, I would take an umbrella.
 If she had had time, I would have asked her to have dinner yesterday.
 
 # L75: SOS

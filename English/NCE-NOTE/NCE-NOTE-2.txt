@@ -1726,22 +1726,25 @@ If I were you, I would take an umbrella.
 If she had had time, I would have asked her to have dinner yesterday.
 
 # L75: SOS
-##主系表句子结构： 主语 + 系动词 + 形容词
+##主系表句子结构： 主语 + 动词/系动词 + 补语（形容词作表语:表明主语）
 Snow lay thick on the ground.
 It grew dark.
 It got terribly cold.
+The waterfall flew rapidly.
 
 You grew fat.
 My boss is very awful.
+She looks beautiful.
 
 ##动词的现在分词形式，表伴随
 We ate and drunk, laughter filling the whole room.
 I ate dinner, watching the TV.
 Yesterday, I worked in my office, listening to jazz music.
 
-##不久： It was not long before(连词) / It will not be long before
-It will not be long before to find my girlfriend.
-It was not long before raining.
+##不久(It形式主语)： It was not long before(连词) + 名词从句(真正的主语)
+        It will not be long before
+It was not long before a taxi stopped in front of us.
+It will not be long before I get a decent job.
 
 # L76: Apil Fools' Day
 ##现在完成时: 已经, 刚刚, 尚未(还没)
@@ -1755,6 +1758,7 @@ They have been fired.
 How long has it been grown there?
 I have been living here for thirty years.
 He has been selling drug here for three years.
+I have been learning English for two years.
 
 # L77: A successful operation
 ##限制性定语从句: 关系代词 who / which / that / when / where / why

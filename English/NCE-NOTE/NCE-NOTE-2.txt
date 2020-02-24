@@ -1761,23 +1761,27 @@ He has been selling drug here for three years.
 I have been learning English for two years.
 
 # L77: A successful operation
-##限制性定语从句: 关系代词 who / which / that / when / where / why
+##形容词从句(限制性定语从句): 关系代词 who / which / that
   非限制性定语从句, 起补充说明的作用(有逗号的): ...,which(不能用that)...
 
-I finally have left Yiyuanju where I had lived for 30 years.
 My boss who is a hypocritical person.
-The department at Shunyi that I have just bought recently.
-Thank you for your help that you have given me.
 Mr.Brown was the only person who saw the accident.
-He will not tell you the reason why he didn't go to the meeting
-I won't forget the day when you give me a kiss.
 How to run a dual system on my laptop was the problem that confused me.
+The car which was scratched is mine.
 
-* 宾语从句: how, whether, what, that...
-I want to find out how is her health.
+* ...which...because...which...
+The people who is kind and reliable proved to live difficult in this country because of those men who are both stupid and bad go to great length to hurt them.
+
+* 名词从句(宾语从句): how, whether, that, what, why, when, where...
+I want to find out whether she is healthy.
 I don't know whether she realized it was silly to do that.
 Do what you should do.
 I just said what I want to say.
+The department at Shunyi that I have just bought recently.
+I finally have left Yiyuanju where I had lived for 30 years.
+Thank you for your help that you have given me.
+He will not tell you the reason why he didn't go to the meeting.
+I won't forget the day when you give me a kiss.
 
 # L78: The last one?
 ##现在/过去分词做形容词成分
@@ -1791,7 +1795,7 @@ Boiled water is safe to drink.
 ##动名词:doing (表示习惯/持续性的)
 Drinking is his only vice.
 Picking strawberries can be fun.
-I am not afraid of death,but I am scared of dying.
+I am not afraid of death, but I am scared of dying.
 I don't like calling my girlfriend day after day.
 Learning English is my habit.
 My favorite sport is playing basketball.
@@ -1808,6 +1812,10 @@ I don't remember to eat lunch.
 I know what it's like to lose.
 I want to live abroad.
 I went running for a while to make me feel better.
+I sat on the couch to have a rest.
+The salesman urged me to buy that car.
+John is the one to go this time.
+John is not a man to be trusted.
 
 #L79: By air
 ##used to do 曾经做过某事(现在不做了) use(v.)

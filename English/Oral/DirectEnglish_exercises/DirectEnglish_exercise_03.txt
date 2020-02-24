@@ -415,8 +415,75 @@ There is a flight that goes Boston tomorrow.
 It leaves at 3:05 a.m and arrives at 6:15 p.m.
 
 #Lesson2: Life stories
-* 
+* keywords: was,were / did / had / have,has been / had done
+            First...Then...before/after that...
+            in / ago / last 
+            since / for 
+            What did you(he,she) do...? / How long ago did you...?
+            Where were you born? / How long were you there?
 
+Whatever happened to him?
+Whoever told you that?
+How long ago did you work for China Mobile?
+How long have you worked for China Mobile?
+Where did you work last year? 
+
+Do you know Mr.Bryan?
+Yes, I know him very much.
+What can you tell me about him? Yes, of course.
+Where was Bryan born?
+He was born in Beijing.
+How old was he when he left school?
+He left school when he was 22.
+What did he do after he left school?
+After that, he trained as a system engineer.
+Where did he fist work?
+He worked at China Mobile.
+How long did he work there? What did he do after that? What did he become?
+After six months, he took a tech job. He became a system engineer.
+He became Bryan the Engineer.
+Where did he go?
+Then he went to the U.S.
+
+Where were you born, Bryan?
+I was born in Beijing.
+Did you go to school there?
+That's right. I finished high school when I was eighteen.
+What did you do then?
+I went to college, I majored in Computer Science.
+Not bad. And after that?
+I went to graduate school at Beihang University, from 2013 to 2017.
+Who did you first work for? What did your first work?
+I first worked for China Mobile.
+How long were you there?
+I was there for three years.
+You became Project manager.
+
+What did you major when you go to college?
+I majored in Computers when I went to college.
+After that, did you work in Beijing?
+Where did you first work for?
+Yes, I worked in Beijing.
+What did you first work?
+I first worked in China Mobile.
+How long ago did you work there?
+I worked there three years ago.
+How long have you been there?
+I've been there for three years.
+I've been there since 2014.
+
+Have you ever traveled to Thailand?
+Yes, I have.
+How long ago did you travel to Thailand?
+I went there 20 years ago.
+Did you go to Bangkok?
+Yes, I did.
+What did you do when you in Bangkok?
+I went to see the performance when I was there.
+After that, where were you been?
+After that, I went to Pattaya.
+How long were you there?
+I was there for two weeks.
 
 #Lesson3: The city and the country
 * 

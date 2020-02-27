@@ -1876,7 +1876,7 @@ That tree was found to be over 100 meters tall.
 #L83: After the elections
 ##时态 复习(过去时/进行时/完成时...)
 When he was studying at high school, I had already gone aboard.
-When I was walking in the park, I had since finished reciting the text.
+When I was walking in the park, she had since finished cooking dinner.
 But after we were getting ready to change locations, we just kind of realized, we weren't really sure that taking her with us was the right thing to do. 
 
 #L84: On strike
@@ -1886,7 +1886,13 @@ I am going to finish the NCE studying course this year.
 Our firm has stated that we will be developing this robot continuously until the needs of the client are approached for its running performance and low manufacturing costs.
 I'm going to find it difficult to get to work.
 
-* extent
+Who will be dominating this country?
+We're going to hang out for a drive in two days.
+
+* extent:
+    to an extent : 某种程度
+    to a large extent : 很大程度
+    to some extent : 一定程度
 I do agree with him to an extent.
 Its success will depend to a large extent on local attitudes.
 What you say is true to some extent, but it's not the whole picture.

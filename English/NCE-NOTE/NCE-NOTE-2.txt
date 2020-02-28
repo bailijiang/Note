@@ -1901,7 +1901,7 @@ Getting this job will relieve pressure on my life to some extent.
 #L85: Never too old to learn
 ##一般将来时 will be / 将来进行时 will be doing / 将来完成进行时 will have been doing
 I believe that I will be living happily.
-I will be waiting for you at the station when you arrive. 
+After getting off work, I will be waiting for you at the station. 
 I will be working at a decent company.
 This project will have been finishing its half function next week.
 By then, I shall have been living in Beijing for over 40 years.
@@ -1910,10 +1910,10 @@ The laziest one will be fired next month.
 
 #L86: Out of control
 ##过去完成时 had done / 过去完成进行时 had been doing 
-I have received the shoes which had been bought yesterday.
+All those who had been infected by the coronavirus must be isolated.
 She had gone abroad to travel last week.
 I had already been learning English for the last year.
-Before I had had dinner, she had been sleeping on my bed for two hours.
+She had been sleeping on my bed for two hours until I had had dinner.
 By yesterday I had already been working at this firm for one year.
 
 #L87: A perfect alibi

@@ -1935,7 +1935,7 @@ He suggested that you should bribe him $1,000.
   - 将来:  发生概率很小 
 If I had the money now, I would buy a new car. (与现在事实相反)
 If I were you, I would not buy a laptop.
-If you knew how difficult it was to learn to code yourself, you would give up. 
+If you knew how difficult it was to learn coding yourself, you would give up. 
 
 If John had worked hard, he would have passed his examination. (与过去事实相反)
 If I had not hurried to decorate my house, I would not have been cheated two thousand dollars.

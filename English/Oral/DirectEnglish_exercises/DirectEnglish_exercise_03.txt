@@ -670,18 +670,29 @@ There are not enough right now.
             ...be going to have sth done.
             ...should have sth done.
 
-
+Has your car washed?
+I washed my car this morning
+I have my car washed this morning.
+I'm having the whole place rewired.
+I'm having my home remodeled.
+I'm going to cut my hair.
+She's going to have her hair cut.
+He's going to have his tooth cured.
+I'm going to have my home decorated.
+I have had the project finished.
+You should have your car fixed.
+I should have my home decorated.
 
 ##Unit26
-#Lesson1: 
+#Lesson1: Movements and directions
 * keywords: 
 
 
-#Lesson2: 
+#Lesson2: Schedules
 * keywords: 
 
 
-#Lesson3: 
+#Lesson3: Big issues
 * keywords: 
 
 

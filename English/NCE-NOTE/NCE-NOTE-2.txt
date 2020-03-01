@@ -1965,14 +1965,19 @@ I should have dinner now.
 You must have a good rest now. 
 I have to get to work on time.
 These people must have not been kindness.
+Those people who should have arrested are ruling this country.
 
-* present v. adj.
+* present v. / adj. / n.
+He has brought much of the present crisis on himself. (adj.)
+I'm looking for a present for Mark. (n.)
+A further obstacle has presented itself, however. (v.)
+We presented three options to the unions for discussion. (v.)
 There would be presented a parade in Beijing.
 At that time, there will be present many people.
 
 #L90: What's for supper?
 ##have的用法:
-  have sth done : 使...(怎么样)
+  have sth done : 使...(被怎么样)
   have to do: 不得不...
   现在完成时: have/has done 一直/已经/曾经...
   现在完成时被动语态: have been done 曾经被...

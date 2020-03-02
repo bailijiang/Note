@@ -2003,11 +2003,13 @@ I asked my colleague to buy my lunch.
 
 #L91: Three men in a basket
 ##Can (可能性/有能力) / Be able to (有能力) / Manage to (努力设法去做)
-I think that he can probably dunk.
+I think that he might dunk.
+I believe I can overcome this situation.
 I wonder whether he can dunk.
 I believe he will be able to dunk when he grows up.
 I told him that we would be able to finish this project later.
 I manage to use all sorts of ways to promote the speed of my English learning.
+I manage to avoid meeting the security guard who is standing around our gate.
 
 * can be / might be doing(推测)
 Everybody all can be an honest person and should be. 
@@ -2016,6 +2018,7 @@ He said she might be shopping now.
 
 * make out: 辨认出,看出
 I could make out you are drunk.
+When you arrive at the airport, you can make out me easily.
 
 #L92: Asking for trouble
 ##动名词doing(做名词用)
@@ -2023,7 +2026,8 @@ I could make out you are drunk.
   begin / need / regret / enjoy / busy / mind  + doing ...
 I believe the knowledge of a person could be promoted by reading a lot of books.
 I began learning English when I was twelve.
-You need relaxing a little every night.
+You need to relax a little every night.
+I think you need relaxing at night.
 I regretted drinking so much last night.
 I enjoy listening to music when I driving my car. 
 I have busied learning software development this year.

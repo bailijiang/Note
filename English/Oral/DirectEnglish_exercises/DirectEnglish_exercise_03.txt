@@ -784,9 +784,61 @@ I enjoy myself at work.
 They can ruin themselves.
 
 #Lesson2: Wants and needs
-* keywords: 
+* keywords: some, any, more, less, adj.+ er, in, with
+            someone, somebody, something, somewhere
+            anyone,  anybody,  anything,  anywhere
+            no one,  nobody,   nothing,   nowhere
+            everyone,everybody,everything,everywhere
 
+I'd like to see some fountain pens.
+What kind of thing did you have in mind?
+Do you have anything in silver?
+We have something in gold.
+We don't have anything in silver.
+We have nothing in silver.
+Do you have any ballpoints?
+Do you have anything less heavy?
+Do you have anything smaller?
+We have something smaller.
+Do you have anything bigger?
+We don't have anything bigger.
+Something with a wide point.
+I can't find my fountain pen anywhere.
+Sit anywhere you like.
+I've looked everywhere but I can't find the map.
+I have no job and nowhere to live.
+Nowhere is drug abuse more of a problem than in the US.
+Because of the coronavirus, there is nobody to play basketball and nowhere to play.
 
 #Lesson3: Reporting
-* keywords: 
+* keywords: tells me/says (that)... will/may/can/can't/should/have to...
+            told me/said (that)... would/might/could/couldn't/should/had to
 
+She tells me she will exercise every day.
+She says they will offer you that job.
+She told me she would exercise every day.
+She said they would offer you that job.
+He tells me they may fire you.
+He says they may fire you.
+He told me they might fire you.
+He said they might fire you.
+She tells me she can afford that car.
+She says she can afford that car.
+She told me she could afford that car.
+She said she could afford that car.
+He tells me they can't finish that project.
+He says they can't finish that project.
+He told me they couldn't finish that project.
+He said they couldn't finish that project.
+She tells me you should have a rest.
+She says you should have a rest.
+She told me you should have a rest.
+She said you should have a rest.
+He tells me they have to chip in for the lunch.
+He says they have to chip in for the lunch.
+He told me they had to chip in for the lunch.
+He said they had to chip in for the lunch.
+
+Claire said she had arrived at New York.
+Tony tells me they have left.
+Mark says Claire will go away on Friday.

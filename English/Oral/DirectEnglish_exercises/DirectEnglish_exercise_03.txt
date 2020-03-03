@@ -766,8 +766,22 @@ That's what the self-protection mechanism I have.
 
 ##Unit27
 #Lesson1: Agreement and disagreement
-* keywords: 
+* keywords: myself,yourself,himself,herself,itself
+            ourselves,yourselves,themselves
+            enjoy/help myself...
+            Do you...yourself?
+            by himself
 
+I think exercising is very important to everybody, so if you haven't the condition to do it, you should create the condition to do it by yourself.
+I always enjoy myself at home.
+Do you have to do it yourself?
+Have you washed the car by yourself?
+I think they should help themselves to finish this job.
+Can't this machine fix itself?
+He enjoys himself in the garden.
+She enjoys herself in the game.
+I enjoy myself at work.
+They can ruin themselves.
 
 #Lesson2: Wants and needs
 * keywords: 

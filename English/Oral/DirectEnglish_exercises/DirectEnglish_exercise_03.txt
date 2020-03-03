@@ -716,11 +716,13 @@ It's along the corridor.
 It's between those two houses.
 
 #Lesson2: Schedules
-* keywords: I'll be away/back on,in,about,around,during,for,before,after,some time before,some time after,by(the end of),from...to.../until/till...,between...and...
+* keywords: I'll be away/back on,in,about,around,during,for,before,after
+                some time before,some time after
+                by(the end of),from...to...,until,till...,between...and...
             I won't be back until/till... / I won't be back until after/till after...
 
-I did a lot of work while he was here.
-It was very hot during the summer.
+I did a lot of work while he was here. (while conj.)
+It was very hot during the summer. (during prep.)
 I haven't seen him for two weeks.
 I haven't seen him since I left there.
 
@@ -740,7 +742,7 @@ They'll be away some time after May 23rd.
 I'll find a job by the end of this month.
 I'll be away from July 21st to August 3rd.
 I'll be away until July 22nd.
-I'll be back between July 11st and September 22nd.
+I'll be back between July 11th and September 22nd.
 
 #Lesson3: Big issues
 * keywords: have to / but / do,does / can,can't / have,has / will be / want
@@ -760,7 +762,7 @@ People living in this country face so many kinds of dangers.
 I must prevent being fooled.
 I must prevent being cheated.
 I must prevent being infected by the virus.
-That's what the self-protection pattern I am.
+That's what the self-protection mechanism I have.
 
 ##Unit27
 #Lesson1: Agreement and disagreement

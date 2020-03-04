@@ -29,6 +29,7 @@ B-A-I.
 
 #Lesson2: Talking about others
 * keywords: am,is,are / am,is,are + not / Who / What
+            my,your,his,her,its,our,your,their
 
 I'm a programmer.
 I'm not an engineer.
@@ -55,6 +56,7 @@ We're programmers.
 Our names are Bryan and Claire.
 Your names are...
 Their names are...
+The hotel has its own pool.
 
 * Who's the man on the left?
 Look at these photos.
@@ -68,7 +70,9 @@ What does he do?
 He's an intern.
 
 #Lesson3: Polite requests
-* keywords: can(can't) / Please / How well
+* keywords: can(can't) / Can you...?
+            Please come in / Please don't come in
+            How well can you do...?
 
 Come in, Bryan. Please sit down.
 Can you use Python to develop the program, Bryan?
@@ -76,6 +80,7 @@ Yes, I can.
 I can work with computers very well.
 Can you speak any foreign languages?
 Yes. I can speak English.
+They can't finish their job.
 You can find your way, can't you?
 
 * The imperative
@@ -105,7 +110,9 @@ Not at all.
 
 ##Unit2
 #Lesson1: To and at
-* keywords: to / at / have(has) gone to / Where
+* keywords: to / at / have(has) gone to
+            Where is/are...?
+            Is it...? / Is she...? / Are they...?
 
 Where's Claire?
 Has she gone to the office?
@@ -130,6 +137,7 @@ I'm home.
 I've gone to the airport.
 Is she at a meeting?
 Yes, she is.
+Has she gone to the meeting?
 Are William and Wendy with Nina?
 Yes, they are.
 Are they with Bryan?
@@ -176,7 +184,10 @@ What time does it begin?
 It begins at 9 o'clock sharp.
 
 #Lesson3: Describing things
-* keywords: It's a(an) / They're / What
+* keywords: It's a(an) / They're
+            What do you do? / What does...?
+            What's this...? / What's that...?
+            What are these...? / What are those...?
 
 What is this?
 It's a computer.
@@ -211,7 +222,9 @@ They are green tea.
 
 ##Unit3
 #Lesson1: Likes and dislikes
-* keywords: like / don't like / too / either / What
+* keywords: like / don't like 
+            too / either
+            What do you like? / What don't you like?
 
 Where can we eat?
 I like meat too much to be a vegetarian. And fresh fish.
@@ -264,7 +277,9 @@ So what does she like and dislike?
 Well, she likes cheese, but she doesn't like eggs.
 
 #Lesson2: Wants and needs
-* keywords: want / have / Do(Does) you(he,she) / What
+* keywords: want / have 
+            Do(Does) you(he,she) want any...? / Do you have...?
+            What do you want? / What can I get for you?
 
 Do you have a table for three?
 Yes. This way, please. We have a table over there, by the window, or over here, by the wall.
@@ -308,7 +323,9 @@ Do you have a pencil?
 Does he have a screwdriver?
 
 #Lesson3: Behaviors
-* keywords: am,is,are doing / be going to / be going to do / What's going on / What's happening
+* keywords: am,is,are doing
+            be going to / be going to do 
+            What's going on? / What's happening?
 
 What are you doing?
 Just taking your bags, sir.

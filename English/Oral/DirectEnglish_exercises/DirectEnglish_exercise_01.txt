@@ -711,8 +711,9 @@ I'm looking for something smaller.
 
 ##Unit6
 #Lesson1: Likes and dislikes
-* keywords: like / dislike / prefer / prefer...to... / prefer to do 
-            Why / Which one do you prefer?
+* keywords: like / dislike 
+            prefer / prefer...to... / prefer to do 
+            Why do you prefer...? / Which one do you prefer?
 
 I prefer jazz to rock music.
 We can eat out if you like, but I would prefer to stay in.
@@ -794,9 +795,9 @@ I sometimes take a walk in a park at 8 in the evening.
 
 ##Unit7
 #Lesson1: Talking about yourself
-* keypoints: Where are you from? What do you do?
-             Where do you come from? What does she do? Where does she live now?
-             Do you come from China? Does he live in Beijing?
+* keywords: Where are you from? / What do you do?
+            Where do you come from? / What does she do? / Where does she live now? / When did you come to...?
+            Do you come from China? / Does he live in Beijing? / Did you come...?
 
 Where are you from, Bryan?
 I come from China.
@@ -815,8 +816,13 @@ But I'm learning English.
 I'm beginning to understand it and can already speak a little.
 I don't know any other foreign languages.
 I expect that I can speak English excellent.
+Did you work as a programmer?
 
 #Lesson2: Talking about others
+* keywords: Who's that man/woman over there? / Which one? / The one in,with...
+            What can you tell me about...? / What does he look like? / What's she like as a person?
+            What's the matter with...?
+
 * Who's that man/woman over there? Which one? The one in/with...
 Who's that man over there?
 Which one?
@@ -873,6 +879,10 @@ You do, don't you?
 Yes. Maybe I need some food.
 
 #Lesson3: Polite requests
+* keywords: Can I...? / May I...? / I'd like to do...
+            Shall I...? / Would you do...?
+            Let's...Shall we...?
+
 * Can I...? May I...? I'd like to...
 Can I cash a check, please?
 May I leave my bags here?

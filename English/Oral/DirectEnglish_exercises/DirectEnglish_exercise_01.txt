@@ -1,6 +1,8 @@
 ##Unit1
 #Lesson1: Talking about yourself
-* keywords: am,is,are / What / How
+* keywords: I am... / He is... / They are... 
+            What's your...? 
+            How do you spell...?
 
 Excuse me. Are you Bryan Bai?
 Yes. I am.
@@ -28,7 +30,9 @@ How do you spell Bai.
 B-A-I.
 
 #Lesson2: Talking about others
-* keywords: am,is,are / am,is,are + not / Who / What
+* keywords: am,is,are / am,is,are + not 
+            Who's the...on/in...?
+            What does he do? / What do you do?
             my,your,his,her,its,our,your,their
 
 I'm a programmer.
@@ -918,7 +922,9 @@ Yes, Good idea.
 
 ##Unit8
 #Lesson1: Asking about and giving directions
-* keywords: Where / How / down / up / at the end of / on the corner / go straight ahead / cross / opposite / behind / in front of / on top of / under / nearest / first,second,third left(right)
+* keywords: Where's the nearest...? / How can I get to...?
+            down / up / at the end of / on the corner / go straight ahead / cross / opposite / behind / in front of / on top of / under 
+            first,second,third left(right)
 
 Do you know where the airport is?
 How can I get there?
@@ -967,9 +973,16 @@ Then second right to Changan St.
 Then go straight ahead.
 Then take a right onto Wanshou Rd.
 It's on your right.
+How can you don't know her?
 
 #Lesson2: How long?
-* keywords: how long / for / When
+* keywords: How long am,is,are,was,were...(doing)?
+            How long do,does,did...?
+            How long have(has) you(he) been done...?
+            How long can...?
+            How long will it take?
+            for / about / at / on / from...till...
+            When do(does) they(you,she,the...) do(open,close...)?
 
 We're booking a flight to where?
 When?
@@ -1030,9 +1043,19 @@ Was Bryan in the office yesterday?
 Yes, he was.
 When was Bryan in the office?
 Yesterday.
+How long can you wait?
+I can wait for you for one hour.
+How long does she work?
+How long do you use this car?
+How long did you sleep?
+I slept from 6 pm till 9 am.
+How long have you been learning English?
+About two years.
 
 #Lesson3: These belong to...
-* keywords: belong(s) to / Whose / sb's
+* keywords: Whose is it(this)? / Whose are they? / Whose are these...?
+            It's Sb's. / It's...
+            It(They) belong(s) to me/you/him/her/us/you/them.
 
 * Possession
 That's my bag.
@@ -1057,7 +1080,7 @@ It's mine.
 It belongs to me.
 Whose car is this?
 It's Claire's.
-it belongs to her.
+It belongs to her.
 These are my books.
 They belong to me.
 Whose are these books?
@@ -1096,6 +1119,16 @@ I think it's mine.
 
 ##Unit9
 #Lesson1: Likes and dislikes
+* keywords: I like / I enjoy / I prefer + n.
+            I like / I enjoy / I prefer + -ing (I prefer n. to n.)
+            like -> enjoy -> love : low->high
+            Do you like (doing)...? / Does he like...?
+            Are you enjoying...? / Why aren't you enjoying it?
+            Would you like...? / Would he like...?
+            What do you like? / What does he like?
+            adj. : interesting ，astonishing, surprising, moving, frightening, terrifying, puzzling, satisfying, tiring, amazing, boring, exciting, touching, embarrassing
+            It's a boring book.
+
 What does he like?
 He likes computers, sports.
 The usual.
@@ -1117,7 +1150,6 @@ Yes, he enjoys soccer, but he prefers basketball to soccer.
 * I like..., I enjoy..., I prefer... + -ing
 This book is boring.
 It's a boring book. (adj.)
--- interesting ，astonishing, surprising, moving, frightening, terrifying, puzzling, satisfying, tiring, amazing, boring, exciting, touching, embarrassing
 That is an interesting movie.
 It's an amazing basketball match.
 This is an exciting performance.
@@ -1132,8 +1164,6 @@ Do you like walking, Bryan?
 Yes. I enjoy walking very much, but I prefer swimming to walking.
 Does Claire like skating, Bryan?
 Yes, she enjoys skating very much, but she prefers going shopping.
-
-* like -> enjoy -> love : low->high
 
 * Things we enjoy doing
 Tell me about some things you enjoy doing, Bryan?
@@ -1154,6 +1184,13 @@ Because it's too strong.
 Because it's not strong enough(weak).
 
 #Lesson2: Wants and needs
+* keywords: I need some... / I want a few(a little)... / I'd like a lot of...
+            I don't need any... / I don't want many(much)...
+            How many...? / How much...?
+            Do you want any...? / Does he want any...?
+            Is/Are there any...?
+            There aren't any...
+
 She needs some paper for the printer.
 How much? A lot.
 Will five packs be OK? I think so.
@@ -1178,6 +1215,7 @@ I want a little paper.
 I'd like a lot of food.
 I don't need any meat.
 I don't want much sugar.
+I don't want much water.
 
 * Office supplies
 I need some notebooks.
@@ -1231,6 +1269,12 @@ We need a box of tissues,
 a roll of toilet paper and a bar of soap.
 
 #Lesson3: Behaviors
+* keywords: Sb went to... / Sb arrived in...
+            Sb didn't go to... / Sb didn't arrive in...
+            Did Sb go to...? / Did Sb arrive in...?
+            Where did Sb go...? / When did Sb arrive in...?
+            Didn't you do...?
+
 Didn't you sleep well last night?
 I went to Shunyi to play basketball.
 One after another.

@@ -521,10 +521,11 @@ I haven't seen you for two years.
 
 ##Unit13
 #Lesson1: Talking about yourself
-* keywords: very badly / fairly well / very well
-            very bad at / pretty good at / very good at 
+* keywords: I did very badly / fairly well / very well
+            I was very bad at / pretty good at / very good at 
+            I got adj. + n.
             How well did you do...? / How did you do at...? / What about...?
-            adj. + n. / v. + adv.
+            adj. + n. / v. + adv. (quick learner == learns quickly)
 
 This is just what I needed.
 How did you wind up here?
@@ -614,7 +615,9 @@ He learns quickly.
 #Lesson2: Talking about others
 * keywords: He says (that) / She said that...
             He tells me (that)... / She told me that...
-            What does sb say about...? / What's sb's opinion of...? / What did sb say?
+            He thinks she's good at... because...
+            What does Sb say about...? / What's Sb's opinion of...? / What did Sb say?
+            Sharon says she wants to... / Peter tells me he wants...
 
 He's not, though.
 He said he barely got through school.
@@ -688,7 +691,7 @@ How have you arrived there?
 
 #Lesson3: Polite requests
 * keywords: Would you (please) do...for me? / Would you mind doing...? 
-            I want you to ... / I'd like you to...
+            I want you to do... / I'd like you to do...
             I'd better (not) do... / You'd better (not) do...
 
 George, would you mind taking care of this for me?

@@ -1,6 +1,12 @@
 ##Unit10
 #Lesson1: Talking about yourself
-* keywords: was / from...to... / first worked for(at)
+* keywords: I'm... / I was... / I did... / I have... / I can...
+            I first worked for(at) / in / on / from...to... / of
+            What is/are your...?
+            Where was/were/did you...?
+            When did you do...?
+            How do you get along with other people?
+            Do you...? / Can you...?
 
 Look, here's the visa for my trip.
 I traveled so much in my previous job.
@@ -30,6 +36,7 @@ When did you leave school?
 Where did you first work?
 What did you do?
 What do you do now?
+Where have you been on Wednesday, July 12th?
 
 * All about you!
 I'm single.
@@ -43,6 +50,14 @@ Fairly well.
 I get along with other people fairly well.
 
 #Lesson2: Talking about others
+* keywords: Who's this? / What's her name? / What do you know about...?
+            parents, children, wife, husband, grandmother, grandfather
+            younger than, older than, the youngest..., the same... as...
+            son, brother, daughter, single, sister, is married to, maiden name, married name, divorced, brother-in-law, sister-in-law, uncle, aunt
+            a baby girl, granddaughter, grandparents, niece 
+            Sherise's father, Harry's sister, Janey's niece
+            not very, sort of / kind of, fairly/pretty, very, really
+
 These are my children.
 This is my older son.
 He's married.
@@ -60,13 +75,6 @@ She's very easy-going.
 These are your grandchildren?
 They are adorable.
 Is this a relative, Nu La?
-
-* Nina's family
-parents, children, wife, husband, grandmother, grandfather
-younger than, older than
-son, brother, daughter, single, sister, is married to, maiden name, married name, divorced, brother-in-law, sister-in-law, uncle, aunt
-a baby girl, granddaughter, grandparents, niece 
-Sherise's father, Harry's sister, Janey's niece
 
 * Who's who in Nina's family?
 Who's this, Nina?
@@ -98,7 +106,9 @@ He's a very successful businessman.
 They are fairly new ships.
 
 #Lesson3: Polite requests
-* keywords: can,can't / have to,don't have to / must,mustn't
+* keywords: Can you...? / I can't..., because...
+            Do you have to...? / We have to... / I don't have to... / You've got to...
+            I must... / They mustn't... / Must we...?
 
 How does it feel, Kevin?
 Do you like driving on the right side?
@@ -148,6 +158,13 @@ Great!
 
 ##Unit11
 #Lesson1: There be...
+* keywords: There is a... / There are some... / There was... / There were...
+            There isn't a(an)... / There aren't any... / There wasn't... / There weren't...
+            Is there a...? / Are there any...? / Was there a...? / Were there any...?
+            Did you have a...? / Yes, I did. / No, I didn't. 
+            I had some...
+            on / near / above / under / between / in front of / along with
+
 Where is my laptop?
 There was a laptop computer on my desk this morning and it isn't here now.
 I also had a mobile phone.

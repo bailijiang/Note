@@ -214,7 +214,14 @@ Yes, she is.
 Why are you so stupid?
 
 #Lesson2: How to say time
-* keywords: before / after / next / last(adj.) / not until / sometime before / sometime after / not before / not till after / How long...? / When...? / last,lasted(v.) / take
+* keywords: before / after / next / last(adj.) / not until / till
+            at / in / on
+            sometime before / sometime after / not before / not till after 
+            How long did the... last(v.)? / How long does it take you to...?
+            When did you last go to...? / When was you last trip to...?
+            When will you next go to...? / When was your next trip to...?
+            last,lasted(v.) / last,next (adj.)
+            It takes me about...
 
 How are you feeling?
 Aren't you suffering from jet lag?
@@ -244,6 +251,7 @@ I would intend to find a job in February, but now it looks like it can't be acco
 I think it can be realized sometime before June this year.
 I won't go to work before May.
 I think we can't realize this plan until after April.
+I promise we would finish this project sometime before next Monday.
 
 * Points of time: last.../next...
 I'll see you next week.
@@ -285,8 +293,10 @@ It takes me less than an hour.
 That's not bad.
 
 #Lesson3: How to say weather
-hot, humid    adj.
-heat, humidity n.
+* keywords: What's it like outside? / What's the climate like in...?
+            adj.: hot,humid,grey,cloudy,wet,warm,hot,rainy,drizzly,windy,cold,freezing,nice,dry
+            n.: heat,humidity,raining,shining,snowing,blowing
+
 So, the Cantonese phrasebook came in handy.
 So what was the weather like this time of the year?
 Did it rain?
@@ -333,7 +343,12 @@ It's generally hot and humid.
 
 ##Unit12
 #Lesson1: Likes and dislikes
-* keywords: like doing / like to do / hate doing / love doing / enjoy doing / being / What would you like to do(doing)...?
+* keywords: like doing / like to do / doesn't like doing / 
+            Do you like doing...? / Does she like doing...?
+            - like doing,       love doing : enjoy doing sth, constantly
+            - would like to do, love to do : want to do sth, one time
+            hate doing / love doing / enjoy doing / hate being 
+            What would you like to do(doing)...?
 
 Didi does cover a lot of ground.
 The woman never stops moving.
@@ -384,7 +399,11 @@ What do you like doing best?
 What do you hate doing most?
 
 #Lesson2: Wants and needs
-* keywords: someone,somebody,something / anyone,anybody / no one, nobody / ...who is,has,can,does...
+* keywords: someone,somebody,something 
+            anyone,anybody 
+            no one, nobody 
+            I need/want/prefer/am looking for someone/somebody who is,has,can,does...
+            Is there anybody who...?
 
 ...need someone who will...
 ...want someone who can...
@@ -440,9 +459,10 @@ He needs someone to translate for him.
 Is there anyone who can give me a hand with this suitcase?
 
 #Lesson3: Behaviors
-* keywords: ...have/has done...
-            What have you done? / How long have you been...?
-            for / since
+* keywords: have/has done / I haven't done / Have you done?
+            What have you done? 
+            How long have you been...?
+            for / since / ago
             
 Yes, we've had a very good year.
 We've managed to control our costs, as you can see.
@@ -497,6 +517,7 @@ Has Mr.Bryan been at home since last week?
 Yes, he has.
 How long has Mr.Bryan been at home?
 Since last week.
+I haven't seen you for two years.
 
 ##Unit13
 #Lesson1: Talking about yourself
@@ -737,6 +758,8 @@ Do you sell the train schedule in the hotel?
 How much do they cost?
 
 #Lesson2: How long?
+* keywords: 
+
 When are you going on your next trip?
 In three months.
 Nina, it'll be much easier if you just come along.
@@ -970,6 +993,8 @@ As far as I know, she often watches the football game.
 That's exactly what I do!
 
 #Lesson2: Talking about others
+* keywords: 
+
 Is he the one who eats snakes?
 He's the one who throws his guitar into the audience.
 
@@ -1125,6 +1150,8 @@ They will be able to visit the wonderful shops in Prague.
 They will be able to permit entering the building.
 
 #Lesson2: Past time
+* keywords: 
+
 Are you interested in glamor or reliability?
 Was it always this color?
 Was there only one owner?
@@ -1155,6 +1182,8 @@ I'd like to trade in a car. (old->new)
 Are you want to trade up? (low->high)
 
 #Lesson3: Land areas and population 
+* keywords: 
+
 Did it make it?
 What was that like?
 Everything's bigger.
@@ -1183,6 +1212,8 @@ It's in the southwest.
 
 ##Unit18
 #Lesson1: Likes and dislikes
+* keywords: 
+
 Boston's so small and charming and manageable after London.
 This sort of thing can be manageable after SARS disease.
 I love the museums here, and art galleries.
@@ -1213,6 +1244,8 @@ Because it can surf the Internet freely.
 
 #Lesson2: Wants and needs
 exact requirements
+
+* keywords: 
 
 * or, particular 
   with, for, and
@@ -1258,6 +1291,8 @@ Not really.
 But they have to be stout and good for jumping.
 
 #Lesson3: Planning for the future
+* keywords: 
+
 Will she be away at all in the next three weeks?
 She'll be here.
 Nina will travel for business, right?

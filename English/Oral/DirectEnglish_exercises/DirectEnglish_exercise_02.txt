@@ -736,8 +736,10 @@ No, we'd better not.
 
 ##Unit14
 #Lesson1: Giving directions
-* keywords: I want to go to... / Where can I do(get) that, please? / You can...
-            Where is...? / It's on... / How can I get there? / Where's the nearest...?
+* keywords: I want to go to... / Where can I do(get) that, please? 
+            You can...
+            Where is...? / It's on... 
+            How can I get there? / Where's the nearest...?
 
 Around the corner, by the phones.
 
@@ -761,7 +763,12 @@ Do you sell the train schedule in the hotel?
 How much do they cost?
 
 #Lesson2: How long?
-* keywords: 
+* keywords: How long did(does) it take you(he) to...? 
+            How long will it take me to...?
+            It took me...(a couple of) minutes/hours/days.
+            I did it in...minutes/hours/days.
+            When will you do...? / In a week,month. / In two years.
+            in / about / for
 
 When are you going on your next trip?
 In three months.
@@ -784,9 +791,10 @@ In a week. Next Monday.
 In a month. In September.
 
 #Lesson3: Previous jobs
-* keywords: used to be a ... / used to do / didn't(never) use to be(do)
+* keywords: I used to be a ... / He didn't use to be... / Did she use to be...?
             What did you use to be?
             Have you always been a...? / Has she always been a...?
+            I used to work as... / I didn't(never) use to be(do)...
             Where did he use to do(work)?
 
 Did you tell her I used to work as a physicist?
@@ -827,7 +835,8 @@ He used to work in a bank.
 #Lesson1: Likes and dislikes
 * keywords: I like a man with... / I like someone with...
             I like a person who... / I like...that... / I like doing / I love doing / I dislike...
-            What's ... like? / How do you like...? / He can be... / She must be... / He has...
+            What's Sb like? / How do you like...? 
+            He can be... / She must be... / He has...
 
 I loved it when I was little. Did you?
 Dean told you I used to be a physicist, didn't he?
@@ -844,6 +853,7 @@ Do you like her?
 Yes. I like her very much.
 I like a person who is very artistic.
 I like talking to her.
+I like a person who is highly educated.
 
 What's Bryan like?
 He's wonderful.
@@ -881,7 +891,10 @@ Do you like them?
 No, I dislike them very much.
 
 #Lesson2: Wants and needs
-* keywords: I'm looking for something which(that) is... / I want something with... / something has... / anything that...
+* keywords: I'm looking for something which(that) is... 
+            I want something with... / something has... / something can...
+            I don't want anything that isn't...
+            Do you have anything which/that/with...?
 
 How big did you want them?
 It doesn't last.
@@ -921,10 +934,17 @@ Size 7.
 What style/kind of ... do you like?
 Do you want the shoes with air cushion or without air cushion?
 With air cushion.
+Do you have anything which doesn't cost too much?
+Do you have anything which can be fast enough for the race?
+Do you have anything with a great stereo?
 
 #Lesson3: Behaviors
-* keywords: was(were) doing... / wasn't(weren't) doing... 
-            What was happening when...? / What were they doing? / I was doing when(while)... / ...be going to...
+* keywords: I was(were) doing... / I wasn't(weren't) doing... 
+            Were you leaving? / Was she leaving?
+            What was happening when...? / What were they doing?
+            I was doing when(while)... 
+            He was going to...when(while) I was doing.
+            I have been doing...for...
 
 How are you doing?
 Where are you going?
@@ -960,6 +980,7 @@ What was she wearing this morning?
 Was she wearing a new dress?
 What was he doing this morning?
 I think he was drinking.
+I have been learning English for two years.
 
 ##Unit16
 #Lesson1: Talking about yourself

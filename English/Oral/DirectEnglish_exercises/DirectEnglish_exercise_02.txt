@@ -1260,7 +1260,10 @@ It's in the southwest.
 
 ##Unit18
 #Lesson1: Likes and dislikes
-* keywords: 
+* keywords: What do you like about it/them?
+            What do you like in particular?
+            I like... / I love..., because...
+            But I don't like...
 
 Boston's so small and charming and manageable after London.
 This sort of thing can be manageable after SARS disease.
@@ -1291,16 +1294,17 @@ I love the culture.
 Because it can surf the Internet freely.
 
 #Lesson2: Wants and needs
-exact requirements
+exact requirements: with,for,have to,something that,and,but
 
-* keywords: 
+* keywords: I'd like to make a reservation for...
+            I'd like a room with...and...
+            I'm looking for a...
+            Something...with...that...for...
+            What do you have in mind?
+            What kind of... are you looking for?
+            Preferably, I want something that...and...(I don't have to...)
+            But they have to be...
 
-* or, particular 
-  with, for, and
-  I'd like to...
-  Preferably...
-  I want something that...
-  ...have to...
 I'd like to make a reservation for a room, please.
 For when?
 February 23rd, for three nights.
@@ -1340,6 +1344,20 @@ But they have to be stout and good for jumping.
 
 #Lesson3: Planning for the future
 * keywords: 
+    Four ways of expressing the future:
+    posibility: high -> low
+    - be going to do
+    - be doing : arriving,coming,going,leaving
+    - do/does
+    - will be
+    The future: degrees of certainty
+        low -> high: might,may,could,should,will
+                     might not, may not, won't
+    I will do...
+    You won't do...
+    Will she do...?
+    What will the... be like...?
+    Where are you going to do(stay/play)?
 
 Will she be away at all in the next three weeks?
 She'll be here.
@@ -1356,7 +1374,7 @@ I'll wear a dress.
     - do/does
     - will be
 We're going to fly to Prague tomorrow.
-We're flying to Prague tomorrow.
+We're leaving to Prague tomorrow.
 We leave at 11:15.
 We will leave at 11:15.
 
@@ -1381,9 +1399,10 @@ Will she stay?
 They won't tell you.
 
 What will the weather be like in Prague?
+What will the weather be like in Beijing tomorrow?
 According to the weather forecast, it will be nice and dry.
 
-You are traveling to Norway soon.
+You are going to Norway soon.
 You'll stay in a nice hotel by the coast.
 You'll be in Norway for five years.
 Since when do you know this message?

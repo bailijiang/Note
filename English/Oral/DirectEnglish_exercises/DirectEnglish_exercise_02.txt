@@ -984,8 +984,10 @@ I have been learning English for two years.
 
 ##Unit16
 #Lesson1: Talking about yourself
-* keywords: go(went) doing / come(came) doing / Let's go doing...
-            Would you like to come doing... with us...? / What do you usually do on..? / What did you do...?
+* keywords: I go(went) doing / I come(came) doing / Let's go doing...
+            Would you like to come doing... with us...? 
+            What do you usually do on..? / What does she usually do on...?
+            What did you do...?
 
 Have you any idea how hard I work to stay in shape?
 Have you any idea how much work I have to do today?
@@ -1017,7 +1019,11 @@ As far as I know, she often watches the football game.
 That's exactly what I do!
 
 #Lesson2: Talking about others
-* keywords: 
+* keywords: Is he/she the one who/that...? / Are they the ones who/that...?
+            Who is it?
+            It is / It must be / It could be / It may be / It might be 
+            It can't be / It isn't
+            Peter must be the one that does(takes)...
 
 Is he the one who eats snakes?
 He's the one who throws his guitar into the audience.
@@ -1085,7 +1091,14 @@ Do most people of this country always smoke in public?
 Who likes swimming in winter?
 
 #Lesson3: Polite requests
-* keywords: should(will,may,might,can't,may not) be able to / can / should be / shouldn't be
+* keywords: I/He/They + am/is/are/was/were + able to do...
+            You aren't able to do... / He isn't able to do...
+            Can I do...? / Are you able to do...?
+            You will be able to do...
+            You won't be able to do...
+            Will I able to do...?
+            You should/may/might + be able to do...
+            You may not/might not be able to do...
 
 A good hotel should be able to plan around your needs, and should stay within your budget.
 I will be able to see you tomorrow.
@@ -1116,6 +1129,7 @@ What should I do?
 You should get plenty of exercises, and you shouldn't worry too much.
 You should enjoy your free time, and you shouldn't stay up late at night too often.
 I know what I should do, but it's easier said than done!
+When will you able to finish your course?
 
 ##Unit17
 #Lesson1: Directions and positions

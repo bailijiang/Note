@@ -343,7 +343,7 @@ It's generally hot and humid.
 
 ##Unit12
 #Lesson1: Likes and dislikes
-* keywords: like doing / like to do / doesn't like doing / 
+* keywords: Sb like doing / like to do / doesn't like doing
             Do you like doing...? / Does she like doing...?
             - like doing,       love doing : enjoy doing sth, constantly
             - would like to do, love to do : want to do sth, one time
@@ -1133,10 +1133,15 @@ When will you able to finish your course?
 
 ##Unit17
 #Lesson1: Directions and positions
-* keywords: to / into / in
+* keywords: We're going to... 
+            We're going into... 
+            We're going to do in...
             What are you going to do...?
             I'm going to... / I'm going doing in(at)...
-            went to... / went doing...
+            We went to... / We went doing...
+            There is a... in...
+            It is on the / next to / behind...
+            Are there ... at the...
 
 We'll have our arrival dates very soon.
 I wonder if there's an interesting theater or club we can go to while we're in Prague.
@@ -1151,13 +1156,11 @@ We went into the park.
 We walked in the park.
 
 What are you doing, Bryan?
+We're going to play basketball in the park.
 We're going to the park.
-We're going playing basketball in the park.
-What are you doing, Bryan?
-We're going to the park.
-We're going playing basketball in the park.
 We're driving to Shunyi.
 We're going fishing in Shunyi.
+Are you going to have a walk in the park?
 
 What are you going to do during the weekend, Claire?
 Bryan and I are going to the theater.
@@ -1188,7 +1191,11 @@ They will be able to visit the wonderful shops in Prague.
 They will be able to permit entering the building.
 
 #Lesson2: Past time
-* keywords: 
+* keywords: I have/has + been
+            for, since, ago
+            How long have you done...?
+            When did you do...?
+            How long ago did you do...?
 
 Are you interested in glamor or reliability?
 Was it always this color?
@@ -1217,10 +1224,13 @@ I have moved it for six months.
 I've moved it since February.
 
 I'd like to trade in a car. (old->new)
-Are you want to trade up? (low->high)
+Do you want to trade up? (low->high)
 
 #Lesson3: Land areas and population 
-* keywords: 
+* keywords: What's the area of...?
+            thousand, million, billion, trillion
+            What's the population of...?
+            It's over... / It's about...
 
 Did it make it?
 What was that like?
@@ -1235,7 +1245,7 @@ The land goes on and on.
 1,000,000,000 : one billion
 1,680,540,292 : one billion, six hundred and eighty million, five hundred and forty thousand, two hundred and ninty-two
 
-How many square miles?
+What's the area of...?
 46,043: forty-six thousand, and forty-three square miles
 
 What's the area of China?

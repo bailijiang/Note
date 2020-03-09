@@ -1,13 +1,65 @@
 ##Unit28
-#Lesson1: 
+#Lesson1: Start the day right
+* keywords: 
+          - Do you want a muffin? / Do you want an egg?
+            Do you want any muffins? / Do you want any eggs?
+            How many muffins do you want? / How many eggs do you want?
+          - Do you want any bread?
+            How much bread do you want? / Just a little, please.
+          - Do you want a yogurt? / Do you want some(any) yogurt?
+            Yes, I'd like one please. / Yes, I'd like some please.
+          - What would you like for breakfast?
+            I'd like a muffin and some coffee please.
+          - What do you usually have for breakfast, Claire?
+            I usually have some... / I usually have a...and a...
+          - What is your day (going to be) like today?
+            I go to... / I'm in...
+            I have a busy day. / I have to... / I have a... 
+            I'll do... / I won't be...
+
+Do you want a peach?
+Do you want an apple?
+Do you want any cookies?
+How many eggs do you want?
+Just one, please.
+How many cookies do you want?
+Two, please.
+
+Do you want any milk?
+How much milk do you want?
+Just a little, please.
+Do you want any beer?
+How much beer do you want?
+Two glasses of beer, please.
+
+Do you want a coffee? Yes, I'd like one, please.
+Do you want any coffee? Yes, I'd like some, please.
+
+What would you like for breakfast, Bryan?
+I'd like some muffins and an egg.
+I'd like a slice of toast and some fruit.
+I'd like a yogurt and some coffee.
+
+What would you usually have for breakfast, Claire?
+I usually have a bottle of milk and two slices of bread.
+Then I have an egg and a slice of toast or muffin.
+What about you, Bryan?
+I usually have a cup of green tea.
+
+What is your day like today, Bryan?
+First, I have to go to the office by subway.
+Then I have a meeting for the new project.
+After that, I start writing the code of the project.
+And I'm in the laboratory this afternoon.
+I'll fix the problem of the server.
+I won't be home late.
+I'll get home late tonight.
+
+#Lesson2: Potential client
 * keywords: 
 
 
-#Lesson2: 
-* keywords: 
-
-
-#Lesson3: 
+#Lesson3: He's famous
 * keywords: 
 
 

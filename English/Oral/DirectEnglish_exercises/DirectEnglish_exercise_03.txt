@@ -1,6 +1,14 @@
 ##Unit19
 #Lesson1: Talking about yourself
-* keywords: went to / at(in) / first worked / work as 
+* keywords: She went to...
+            He was at/in...
+            Where did she go?
+            Where is she?
+            What did you do (after...)? / What do you do now?
+            I first worked at/in...
+            Now I work as a... 
+            How do/did you like it?
+            How did you do at...?
 
 Where did she go?
 She went to the park.
@@ -21,6 +29,7 @@ What did you do then?
 I went to college.
 What do you do now?
 I work as a programmer.
+How come you're a programmer?
 How do you like it?
 I love my job.
 
@@ -64,7 +73,18 @@ How did you first drive on the road, Bryan?
 I first drove on the street very dangerously.
 
 #Lesson2: Talking about others
-* keywords: have to / had to / said that / told me that
+* keywords: I have to do... / You must do... 
+            I had to / She didn't have to...
+            Did you have to...?
+            When did you have to...?
+            I used to work...
+            What did she tell you?
+            She said (that) she had to... 
+            She told me (that) she had to...
+            But I...because...
+            What did she do after she did...?
+            After..., I did...
+            What was her first job? / Why did she quit?
 
 I had to train myself.
 Did you have to train on Saturday?
@@ -92,12 +112,13 @@ She moved out of his house.
 She dropped his all stuff.
 She went to Australia.
 After that, she met a handsome man.
+She didn't have to work hard because she is a rich second generation.
 
 #Lesson3: Polite requests
 * keywords: Turn on / Turn off / Put(Choose,Add,Drain,Toss,Serve)... 
             Either...or...
             First, ...Then,...Next,...After that,... 
-            What are you doing? / What are you going to do?
+            What are you doing? / What are you going to do (next)?
 
 If you want to develop software, this is what you do:
 First, you need to communicate with your clients and acquire the real needs of the software.
@@ -117,7 +138,12 @@ I'm going to play the game.
 
 ##Unit20
 #Lesson1: Routes
-* keywords: Route 9 North / Drive north on / Take / Make / Go straight till.../ Go over / Go up / Keep on...until / across / down / Over / back over / back towards / back across / south to / south on
+* keywords: Route 9 North / Drive north on 
+            Take / Make 
+            Go straight till.../ Go over / Go up 
+            Keep on...until / across / down / Over 
+            back over / back towards / back across 
+            south to / south on
 
 How do I get there?
 How do I get to the airport?
@@ -148,7 +174,8 @@ Where did he have to drive?
 #Lesson2: Ago, since and for
 * keywords: ago / since / for
             have(has) been / had been (done)
-            How long ago did...? / How long has it been since...? / When did...?
+            How long ago did...? / How long has it been since...? 
+            When did...?
 
 How long ago did you stay at home?
 Two months ago.
@@ -299,9 +326,11 @@ Unbelievable!
 
 ##Unit22
 #Lesson1: Talking about yourself
-* keywords: do,does / go doing / once a week(three times a week) / rather than / and / keep / get / eat / have / drink / take / enjoy
-            don't do / too much / never / love
-            How often do you do that? / 
+* keywords: do,does / go doing / once a week(three times a week)
+            rather than / and 
+            keep / get / eat / have / drink / take / enjoy / love
+            don't do / too much / never 
+            How often do you do that? 
 
 I work hard to stay in my shape.
 What do you do?
@@ -544,7 +573,8 @@ I remember that we have had an appointment at the concert.
 #Lesson1: Likes and dislikes
 * keywords: 
         If he(she) be going to do / wants..., he(she) always... I like that.
-        If he(she) be going to do / wants..., he(she) never...  I don't like that. / I don't like it at all. / I hate that.
+        If he(she) be going to do / wants..., he(she) never...  I don't like that.
+        I don't like it at all. / I hate that.
 
 If Claire's going to relax at home.
 She always runs some light music and has a cup of coffee on the couch.
@@ -717,8 +747,9 @@ It's between those two houses.
 
 #Lesson2: Schedules
 * keywords: I'll be away/back on,in,about,around,during,for,before,after
-                some time before,some time after
-                by(the end of),from...to...,until,till...,between...and...
+                              some time before,some time after
+                              by(the end of)
+                              from...to...,until,till...,between...and...
             I won't be back until/till... / I won't be back until after/till after...
 
 I did a lot of work while he was here. (while conj.)
@@ -746,8 +777,9 @@ I'll be back between July 11th and September 22nd.
 
 #Lesson3: Big issues
 * keywords: have to / but / do,does / can,can't / have,has / will be / want
-            That's (where/what)... / There is,are... / more than / know that
-            What / How
+            That's (where/what)... / There is,are... 
+            more than / know that
+            What are you going to do...? / How can you do...?
 
 What are you going to do after the virus alert relief?
 I have to finish my English course, then I look for a job.

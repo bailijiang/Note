@@ -151,8 +151,34 @@ You are much more reserved than I am. / You are much more reserved than me.
 
 ##Unit29
 #Lesson1: New tenants
-* keywords: 
+* keywords: How did you/they do...?
+            adj.->adv.: slow->slowly, careful->carefully, heavy->heavily
+            adv.: hard->hardly, last/lastly, late/lately
+            adj.: friendly, lovely, motherly, silly...
 
+How did you get the mattress into your apartment?
+Very slowly and hard.
+I hardly think so.
+How did you fix that bug in the system?
+Very seriously and patiently.
+How did you get along with your children so well?
+You need to play with them frequently.
+It is generally true that the faster the better.
+In general, I work hard and study diligently.
+How did Claire do in her maths exam?
+Fairly well.
+I think you should make the speech confidently.
+I usually get along with my friends generously.
+
+I worked late.
+I haven't seen you lately.
+When I last saw her, she worked in New York.
+Lastly, could I ask you a question?
+Lastly, could I ask all of you to keep this information secret?
+
+You are so silly.
+This car is so lovely.
+Are they always so friendly?
 
 #Lesson2: Life is tough
 * keywords: 

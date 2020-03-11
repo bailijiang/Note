@@ -182,7 +182,40 @@ Are they always so friendly?
 
 #Lesson2: Life is tough
 * keywords: 
+    There's a... up/down/under/behind...
+    prep./adv_particles: about,across,after,up,down,off,around,over,past,under
+    prep_only: against,at,beside,during,into,out of,till/until,to + n.
+    adv_particles_only: away,back,out
 
+There's a bookstore up the street.
+There are some cars down the street.
+They've broken up.
+These bad guys got her down.
+What are you talking about?
+Can you help me to look after my children?
+You should go over the bridge.
+Go through. Go through the tunnel.
+Drive around. Drive around the block.
+Drive up. Drive up the street.
+
+Try not to knock that vase over.
+The wind must have blown it over.
+He was sitting beside the river.
+They will parade in the street against the authorities' decision.
+He stands against the wall.
+Meet me at the station.
+Wait for me till 6 o'clock.
+
+Where are they?
+They're away.
+They're away from the office.
+She's back.
+She's back at the office.
+He's out.
+He's out of the house.
+Tell him I'm not back.
+Tell her I'm out.
+Tell him I'm away.
 
 #Lesson3: Home news
 * keywords: 

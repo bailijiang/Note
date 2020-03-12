@@ -219,18 +219,42 @@ Tell him I'm away.
 
 #Lesson3: Home news
 * keywords: 
+    stative verbs(status): can't + -ing
+      - love,like,hate,mean,mind,admire,
+      - know,agree,believe,appreciate,disagree,feel,hope,imagine,suppose,think,understand
+      - want,need,prefer,wish
+      - appear,hear,see,smell,seem,sound,taste
+      - have,has,own(having,owning)
+    dynamic verbs:
+        take,takes,taking / write,writes,writing
 
+How do you like my new car, Claire?
+I like it. 
+I think that the car is pretty cool.
+I want to take a look at it inside.
+Why do you want to buy those stamps?
+How does she prefer writing letters to e-mail?
+I never seem to write letters myself.
+I know this can make me get along with you better.
+They don't mind if you write letters to them.
+I always feel better when I'm listening to music.
+This cake smells good and tastes so delicious.
+Do you own that house?
+
+I'm sitting in my office.
+I love listening to music while I'm working.
+I'm taking a break and writing to you.
 
 ##Unit30
-#Lesson1: 
+#Lesson1: Sweet sixteen
 * keywords: 
 
 
-#Lesson2: 
+#Lesson2: You're my hero
 * keywords: 
 
 
-#Lesson3: 
+#Lesson3: The 2 am rush
 * keywords: 
 
 

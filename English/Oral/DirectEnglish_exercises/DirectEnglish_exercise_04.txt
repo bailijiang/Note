@@ -184,7 +184,7 @@ Are they always so friendly?
 * keywords: 
     There's a... up/down/under/behind...
     prep./adv_particles: about,across,after,up,down,off,around,over,past,under
-    prep_only: against,at,beside,during,into,out of,till/until,to + n.
+    prep_only: against,at,beside,during,into,out of,till/until,to + n.(Object)
     adv_particles_only: away,back,out
 
 There's a bookstore up the street.

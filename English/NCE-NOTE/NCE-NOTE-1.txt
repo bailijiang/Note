@@ -447,6 +447,12 @@ Where were you on Saturday?
 We were at the dairy.
 
 L71: He's awful!
+* He telephoned... yesterday/last night/this morning...
+  Did he...?
+  Yes, he did. / No, he didn't.
+  What did he...?
+  When did he...?
+
 What's Bryan like, Claire?
 He's awsome.
 He dated me three times yesterday.
@@ -468,6 +474,8 @@ He shaved this morning.
 L73: The way to King Street 
 *不规则动词的一般过去时
 *与副词连用
+What(When/How/Why) did he(she/you/they) do ...?
+What(When/How/Why) did he(she/you/they) do with it?
 
 I know him very well.
 I don't know the city very well.
@@ -495,9 +503,6 @@ She greeted me warmly.
 How did he swim this afternoon?
 He swam very well.
 He worked lazily.
-
-What(When/How/Why) did he(she/you/they) do ...?
-What(When/How/Why) did he(she/you/they) do with it?
 
 What did you do this afternoon?
 I strolled slowly in the park this afternoon.
@@ -576,13 +581,13 @@ I have few potatoes.
 I've got a little tea.
 I haven't any tea.
 
-* few 
+* a few / few 
 I have to buy a few things at the supermarket.
 There are only a very few (=not many) exceptions.
 She had few friends and was generally not very happy.
 This should not be an experience for the few.
 
-* little
+* a little / little
 Fortunately I had a little time to spare.
 There’s little doubt in my mind that he’s guilty.
 
@@ -611,9 +616,9 @@ We haven't got any meat at all.
 Have we got any beer and wine?
 No, we haven't.
 
-We haven't got much tea.
-               many tomatoes.
-               any tea/tomatoes at all.
+* We haven't got much tea.
+                 many tomatoes.
+                 any tea/tomatoes at all.
 
 We have some cheese.
 We have got some cheese.

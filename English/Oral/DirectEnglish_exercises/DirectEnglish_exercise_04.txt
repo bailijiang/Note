@@ -248,7 +248,15 @@ I'm taking a break and writing to you.
 ##Unit30
 #Lesson1: Sweet sixteen
 * keywords: 
+    - can,could,may,might,will,would,shall,should,must,ought to
+    - I can't... / May I... / We will... / She would... / Should I...? / mustn't
+    - You might be / could be / must be / can't be right.
+      You might have been / could have been / must have been / can't have been right.
 
+I can't help you.
+If you are smart enough, you will find out the solution.
+
+They might have been killed.
 
 #Lesson2: You're my hero
 * keywords: 

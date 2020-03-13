@@ -665,6 +665,10 @@ What must they do?
 They must have tea.
 What did they do?
 They had dinner.
+What must he do?
+They had dinner together last night.
+They are having a lesson.
+He is having a bath.
 
 I'm nearly ready.
 It's nearly ready.
@@ -687,6 +691,7 @@ Yes, I have.
 I have already/just had lunch.
 No, I haven't.
 I haven't had lunch yet.
+I haven't had anything.
 
 I have already had some lettuce.
 I've already had some beer.

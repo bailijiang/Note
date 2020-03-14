@@ -339,6 +339,12 @@ Help her solve that problem.
 ##Unit31
 #Lesson1: Breakfast for your brain
 * keywords: 
+    - some/any/a piece of + information,fruit,furniture,garbage,homework,luggage,meat,money,soap,spaghetti,toast,traffic,weather
+      some/any/a slice of toast
+    - two pieces of + bread,meat,chocolate,paper,toast,advice,information
+      a loaf of bread, a slice of bread, a bunch of flowers
+      a bar of soap, a tube of toothpaste, a pat of butter
+
 
 
 #Lesson2: No sense of color

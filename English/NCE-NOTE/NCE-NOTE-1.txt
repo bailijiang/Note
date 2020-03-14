@@ -798,6 +798,9 @@ What will you do tomorrow?
 I'll go to the country.
 When will you leave?
 I'll leave at seven o'clock.
+Has he arrived at the airport?
+What will she make for dinner?
+When will you go shopping?
 
 He didn't go to school last week, did he?
 No, he didn't. 是的，他没去
@@ -836,10 +839,10 @@ No, she won't return to Geneva next year.
 She will return to London.
 
 L95: Tickets, please
-* When did ...?
-* When will ...?
+* When did ...? ago
+* When will ...? in...time
 * in ... time ：多长时间之后
-* had better ... : 最好...
+* had better do... : 最好...
                    比must语气弱一些,比 should 强一些
 
 When did they fly to Guangzhou?

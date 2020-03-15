@@ -979,6 +979,10 @@ He was too stupid to answer them.
 Why could he buy the car?
 Because it was very cheap.
 
+The books were too heavy for me.
+The house is big enough for me.
+No, the cake was too stale.
+
 L105: Full of mistakes
 动词不定式 to do
 * I want you/him/her/them to ...
@@ -999,6 +1003,12 @@ What do you want me to do?
 I want you to carry it.
 Why is the boy putting a record on?
 Because he wants them to listen to it.
+
+I tell him to try it.
+I told him to try it.
+I don't want him to hurt himself.
+I don't want him to slip.
+Tell him not to cut yourself.
 
 L107: It's too small
 * Would you like to ...? 您愿意...吗?
@@ -1037,6 +1047,12 @@ L109: A good idea
   much, little 修饰不可数n
   few, little 表否定
   a few(有一些), a little(有一点) 表肯定
+* much,   more than,  the most
+  little, less than,  the least
+  many,   more than,  the most
+  few,    fewer than, the fewest
+  good,   better,     the best
+  bad,    worse,      the worst
 
 Have you got any ink?
 I've got very little.

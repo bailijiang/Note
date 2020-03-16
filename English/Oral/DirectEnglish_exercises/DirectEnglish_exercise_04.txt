@@ -448,8 +448,41 @@ All these cars.
 
 ##Unit32
 #Lesson1: What day is it?
-* keywords: 
+* keywords: on, in, at
+            this week/month/year, last week, next week
+            still, yet (until now)
+            already
 
+We're already out of sync.
+With all due respect, ...
+..., which is why...
+I don't know how bad that security guard is, which is why I was plotted by him.
+What makes a good programmer? (discreet adj.)
+...should be able to do...
+point of view
+
+I got up at 8 o'clock a.m.
+She bought a refrigerator in July.
+I will take a walk on Monday.
+I make a cake this week.
+I made a cake this week.
+I'll make a cake this week.
+
+The coronavirus is still a threat to all of the people.
+Are you still worried about the virus?
+They still haven't solved this problem.
+These people are still being isolated now.
+Have you finished this project yet?
+I haven't achieved my target yet.
+She hasn't answered my question yet.
+
+The meeting has already started when I arrived.
+You already told me that.
+Are you already asleep?
+Have you already set off?
+Has he already fired?
+We're out of sync already.
+They've failed already.
 
 #Lesson2: Disasters
 * keywords: 

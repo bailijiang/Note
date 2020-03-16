@@ -485,23 +485,59 @@ We're out of sync already.
 They've failed already.
 
 #Lesson2: Disasters
-* keywords: 
+* keywords: Direction: to, from, into, out of (go,come,fly,drive,walk,run)
+            Location: at, in
+            Time: at, on, in
 
+I was going to New York.
+She was coming home from the office.
+He was going into the park.
+I'm walking to my car.
+He was driving to the party.
+She is running into the building.
+They're coming here from the airport.
+We were running out of the building.
+
+I'll meet you at the coffee.
+He was waiting at the bus stop.
+Is there anybody at the office?
+He is being in the bathroom.
+How long did you live in Beijing?
+Did she in the hospital?
+
+The meeting will start at 9 o'clock.
+I will arrive in Beijing on February 14th.
+It was snowing intermittently in February.
 
 #Lesson3: Interruptions
-* keywords: 
+* keywords: am/is/are + doing
+            PLANS(FUTURE): I'm seeing... / ...is flying...
+            HABIT: People are always/forever/constantly doing...
 
+What are you doing?
+I'm listening to music.
+The noise is driving me crazy.
+They are eating dinner.
+
+I'm seeing you tomorrow.
+She is flying to New York on Saturday.
+He's leaving next week.
+Who's talking to the boss?
+
+They are always arriving at the office late.
+We are forever telling the truth.
+It is constantly snowing this month.
 
 ##Unit33
-#Lesson1: 
+#Lesson1: Good things come in small packages
 * keywords: 
 
 
-#Lesson2: 
+#Lesson2: Run, Richard run!
 * keywords: 
 
 
-#Lesson3: 
+#Lesson3: The rules of the game
 * keywords: 
 
 

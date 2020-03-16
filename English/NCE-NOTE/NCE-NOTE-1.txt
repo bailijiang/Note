@@ -1091,6 +1091,10 @@ L111: The most expensive model
 This television is more expensive than that one.
 It's the most expensive model in the shop.
 This television is (not) as good as that one.
+This problem is less important than that.
+What's your the least favorite sport?
+This girl is not as(so) beautiful as that one.
+This security guard is as stupid as that one.
 
 Is the red apple sweeter than the green one?
 No, it isn't.
@@ -1107,10 +1111,14 @@ L113: Small change
 * So 也 (在句首时使用倒装)
   Neither 也不 (在句首时使用倒装)
 
+Have you (got) any paper, sir?
+Have you any pen?
 I haven't got any small change.
 Neither have I.
 I'm not a teacher.
 Neither is he.
+There is no coffee in that tin.
+There isn't any coffee in that tin.
 
 None of the boys failed the French test.
 None of the money on the table is mine.
@@ -1163,11 +1171,15 @@ Have you got anything to drink?
 No, I haven't got anything to drink.
 How about Jenny?
 She has got something to drink.
+Everyone's looking out of the window.
+You must get something to eat.
 
 L117: Tommy's breakfast
 过去进行时
 * was / were + doing
   When, While, Just as
+    when: did...when...was/were doing...
+    while:was/were doing while...was/were doing...
 
 He phoned me when I was doing the housework.
 While we were having breakfast, our son put two coins into his mouth.
@@ -1185,10 +1197,12 @@ My wife was cooking the dinner while I was working in the garden.
 L119: A true story
 过去完成时
 * had + Ven
+  ...did...after...had already done...
 
 After they had entered the house, they went into the dining room.
 The thieves had already left before George came downstairs.
 I invited him to have lunch with me, but he had already had lunch.
+I went outside for a walk after I had already finished my homework.
 
 Did you buy the car?
 No, I didn't.

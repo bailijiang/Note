@@ -558,11 +558,44 @@ I'll be able to speak English very well.
 I couldn't fix that bug yesterday, but I managed to find somebody fixed it.
 
 #Lesson2: Run, Richard run!
-* keywords: 
+* keywords: say,tell, ask
+            says, tells me
+            said, told me
+            asked me if...
 
+She asked me if I had ever thought of running for public office.
+Tech General of the company
+I have a lot to offer.
+If you want to.
+Do you want to run?
+She asked me if I want to run.
+
+He says we're doing the wrong thing.
+He says I have a lot to offer.
+He says they need a programmer.
+She said you're doing the right decision.
+She told me you were risking your life.
+
+I said I'll think about it.
+I said I would think about it.
+She told me she'll look after my parents.
+She told me she would take place in our boss.
+
+He asked me if I have ever thought of working abroad.
+She asked me if I could look after her.
+They asked her who entered the house.
+I asked her whether she believed the news.
+My boss asked me whether I'd like to be the CTO of the firm.
+She asked me if I want to run a public office.
 
 #Lesson3: The rules of the game
 * keywords: 
+    feel,hear,listen to,look at,notice,see,smell,watch + sb + do / doing (do:finished, doing:meanwhile)
+    have + object + do   
+    Purpose: ...to see / to fix / to find / to finish / to help / to save ...     
+
+
+I'll have you take charge of the company.
 
 
 ##Unit34

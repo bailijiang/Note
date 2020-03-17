@@ -530,8 +530,32 @@ It is constantly snowing this month.
 
 ##Unit33
 #Lesson1: Good things come in small packages
-* keywords: 
+* keywords: can/could, be able to, manage to 
+            could = was able to / couldn't = wasn't able to
+            Finished: was able to, managed to
+            I couldn't... but I managed to...
+            gem n. intimate adj.
 
+If you can't get a job quickly, you will lose yourself.
+I can get a job, but I can't get happy.
+She can get her car next week.
+
+I could run for an hour when I was young.
+I was able to run for an hour when I was young.
+She couldn't go home yesterday.
+She wasn't able to go home yesterday.
+
+I was able to dunk.
+She managed to avoid being hurt by the security guard.
+
+She didn't manage to avoid being hurt by him.
+I wasn't able to finish my course this morning.
+I couldn't get my phone yesterday.
+
+I've been able to cope with that sort of thing.
+I'll be able to speak English very well.
+
+I couldn't fix that bug yesterday, but I managed to find somebody fixed it.
 
 #Lesson2: Run, Richard run!
 * keywords: 

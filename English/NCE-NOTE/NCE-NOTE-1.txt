@@ -1314,10 +1314,8 @@ They must be thirsty.
 He can't be watching television.
 They can't be late.
 
-Doesn't Karen Marsh look old!
-Karen Marsh 看起来真老啊，不是吗!
-Doesn't Mary look sad!
-Mary看起来很伤心，不是吗!
+Doesn't Karen Marsh look old! // Karen Marsh 看起来真老啊，不是吗!
+Doesn't Mary look sad! // Mary看起来很伤心，不是吗!
 
 She can't be French.
 She must be Italian.

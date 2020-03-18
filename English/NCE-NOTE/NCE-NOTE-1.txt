@@ -1396,7 +1396,7 @@ She may be sleeping.
 She may have been working at that moment.
 
 L133: Sensational news!
-对过去时的引述动词后的间接引语
+对过去时的间接引语
 间接陈述句的一般现在时变为一般过去时
           现在进行时变为过去进行时
           现在完成时变为过去完成时
@@ -1463,6 +1463,8 @@ If you feel better, you can get up.
 
 What will you do if you can get up early?
 If I get up early I can learn English.
+What will you do if you don't have enough money?
+If I don't have enough money, I will go to find a better job.
 
 You can work abroad if you speak English very well.
 If you speak English very well you can work abroad.
@@ -1568,7 +1570,9 @@ They will be caught soon!
 Hasn't anyone mended this bug?
 This bug hasn't been mended yet.
 This bug will be mended next week.
-
+Hasn't anyone taken away this pot yet?
+The pot hasn't been taken away yet.
+The pot will be taken away tomorrow.
 
 
 

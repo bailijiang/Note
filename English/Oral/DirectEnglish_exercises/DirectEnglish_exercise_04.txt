@@ -628,28 +628,123 @@ He'd like you to give him an English lesson.
 
 ##Unit34
 #Lesson1: A new man!
-* keywords: 
+* keywords: -s, -es, -ies, ...
 
+I lift weights.
+I took off a few pounds.
+I've got flexible hours.
+I've read a lot of books.
+We went to plant trees today.
+The five o’clock train is always packed with commuters.
+booths, bricks, bills, corners, commuters
+
+What happened to the glasses?
+How many classes do your school have?
+boxes, dishes, watches, dresses
+
+I manage one of my father's stores.
+I have many pair of shoes.
+Wear more clothes, it's cold outside.
+I made three cakes for myself.
+airlines, guides, in ages
+
+Do you know the guys who deliver flowers?
+Which countries have you visited?
+She has been to a lot of cities.
+Our firm has many beautiful ladies.
+boys, days, keys, ways, libraries, galleries
+
+We'll have wives before you know it.
+I like many different knives.
+halves, leaves, lives
+
+I eat too many potatoes.
+tomatoes, stereos, radios, photos, videos, ponchos(cape)
+
+children, men, women, people, feet, teeth
+
+How has your friend changed in appearance?
+How has your friend's lifestyle changed?
 
 #Lesson2: Strange customs
-* keywords: 
+* keywords: the + sb/sth
+            the wedding, the balloon, the balloons
+            People: the Japanese, the Chinese, the Portuguese, the Swiss
+                    (the) Koreans, (the) Austrians, (the) Russians
+                    (the) Germans, (the) Greeks, (the) Poles, (the) Saudis
+                    the Danes / the Danish, the Swedes / the Swedish
 
+I'm going to a wedding. The balloons are for the wedding.
+Sort of.
+
+The keyboard is almost broke.
+The driver was killed in the accident.
+The flowers are boomed in the garden.
+
+I'm going to a meeting. The meeting is about the coronavirus.
+I bought a kettle. The kettle is broken.
+
+The Germans make excellent cars.
+So do the Japanese.
+The Saudis produce a lot of oil.
+So do the Iranian.
+Mexico has a lot of drugs.
+So do America.
+The Japanese love to read books.
+So do the Swedish.
+The Chinese have an excellent cuisine. 
+So do the Thais.
+
+Where do you want to go abroad?
+I want to go to Norway, Danmark, Swede, Swiss, Dutch, and Finland.
 
 #Lesson3: Four Seasons Guide to Massachusetts
-* keywords: 
+* keywords: it, so
+            It's... to do... / It's... for...
+            It's... doing...
+            ...? I think so. / I don't think so. / I hope so. / I hope not.
+            ...? : believe,expect,imagine,say,suppose,tell someone
 
+I like playing basketball. It's the perfect sport to exercise.
+I like Autumn in this city. It's the perfect time for hiking.
+Look at the car. It's a sports car.
+Fix your car quickly, or else it's very dangerous.
+It's a nice day.
+It's 5 o'clock.
+It's cold.
 
+It's important to exercise outside every day.
+It's important to learn English every morning for me.
+It's important to keep learning.
+It's nice to meet you.
+It's dangerous to jump off the wall.
+It's exciting to look at the game.
+It's fun cooking yourself occasionally.
+It's boring watching TV.
+It's cool driving a sports car.
+It's so great sitting by the river in the sun.
+I guess so.
+I love lying in the sun, too.
+
+Has she finished her homework?
+I think so. / I don't think so. / I hope so.
+Will it snow tomorrow? I hope not.
+Did she win the game yesterday? I guess so.
+Do you think they can finish their job? I believe so. / I don't believe so.
+Have they been isolated at the airport? I expect not.
+Do you think they live happily? I suppose so.
+Did the police catch that thief? I suppose not.
 
 ##Unit35
-#Lesson1: 
+#Lesson1: You're impossible!
 * keywords: 
 
 
-#Lesson2: 
+#Lesson2: The Jersey devil!
 * keywords: 
 
 
-#Lesson3: 
+#Lesson3: First impressions
 * keywords: 
 
 

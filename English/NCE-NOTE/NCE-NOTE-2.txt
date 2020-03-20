@@ -57,7 +57,7 @@ The train is arriving in 5 minutes.
 #L3: Please send me a card
 一般过去时
 * 有些动词可以带两个宾语：直接宾语，间接宾语
-  这些动词大多具有"给与"的含义
+  这些动词大多具有"给与"的含义: v. + sb + sth / v. + sth + to(for) sb
   lend, send, give, bring, get, make, leave, show
 
 Last month I went to Shunyi by subway, but I did not take the mask.

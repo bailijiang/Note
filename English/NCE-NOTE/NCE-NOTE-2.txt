@@ -100,7 +100,7 @@ Have you taken your holidays yet?
 #L5: No wrong numbers
 一般过去时和现在完成时
 * 一般过去时时间状语：last year, yesterday, two years ago, ...
-  现在完成时时间状语： just, already, for six months, up till now, up to now, before, yet, ...
+  现在完成时时间状语： just, already, for six months, up till now, up to now, yet, ever...before..., never, since, lately...
 I haven't finished the English study yet.
 I have played basketball for twenty years.
 I haven't traveled anywhere since I graduated from university.
@@ -109,11 +109,13 @@ I bought this car last year.
 He has been abroad for six months.
 I have never met him before.
 I have not finished work yet.
+Have you ever bought this kind of product before?
+The coronavirus has spread more and more severe lately.
 
 #L6: Percy Buttons
 * a(an) / some / the
 Yesterday, I bought some beer and a piece of cake.
-I saw a boy jumping a building, and then the boy dead.
+I saw a boy jump suicide and then the boy dead.
 
 * 用在可数名词前，表示数量的修饰词：a/an, the, some, a few, many, a great number of, a great many, lots of
 a meal, an egg, some books, a few words,

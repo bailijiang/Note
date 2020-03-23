@@ -898,8 +898,88 @@ You must not obstruct the public sidewalk.
 You mustn't spread the toxic culture.
 
 #Lesson2: Yvonne!
-* keywords: 
+* keywords: You told me you were...
+            You said she had done...
+            He said he was going to...
+            He said he was/had been in...
+            She said we couldn't...
+            She promised she would...
+            v.: say,tell,ask,promise,know,think,believe
 
+Yvonne mentioned you were in Chicago.
+At one point, the flight attendants told us we had to take crash positions.
+seminar n. Teaching is by lectures and seminars. a Shakespeare seminar
+Yvonne promised she would take the day off.
+A lot of passengers expected disaster and panicked.
+What drives Yvonne?
+
+am/is/are -> was/were
+have/has -> had
+You told me you were over that.
+She said she bought some milk.
+He told me he had finished his assignment.
+He believed they had fixed that problem.
+
+be going to -> was going to
+was -> was/had been
+She said she was going to the gym.
+She told me she was in the grocery.
+She told us she had been in Norway.
+
+can -> could
+may -> might
+will -> would
+The lecturer said we couldn't give up.
+Tony asked when he could leave.
+Claire promised she would compose for me.
+She thought she might have been right.
+He knew he had to get out of here.
 
 #Lesson3: Try groveling
 * keywords: 
+      v. + to do : can('t) offer,afford,aim,apply,fail,hurry,manage,prepare
+      v. + to do / v. + Object + to do : want,ask,expect,('d) like,love,need
+      v. + Object + to do: advise,allow,forbid,invite,order,remind,teach,tell
+      v. + to do / that... : decide,agree,expect,hope,promise,prefer
+
+It's nothing a little gesture on your part won't fix.
+She said you were supposed to meet her.
+I had a meeting over at school.
+I just inspire women to break up with me.
+He was supposed to meet her and didn't.
+He failed to turn up.
+Whoever said that is a fool.
+Whoever said it never met Lisa.
+
+Your mom offered to take us to school.
+Bryan can't afford to spend a lot of money.
+Claire failed to turn up for her date with Bryan.
+I applied to go abroad to work.
+We managed to fix those bugs.
+She prepared to go on holiday.
+
+Tony wanted to go out.
+Tony wanted the advisor to hurry up.
+She asked to get in.
+She asked the teacher to answer her question.
+I'd like to sing songs.
+I'd like you to sing songs.
+They expected to realize dreams.
+They expected me to realize dreams.
+
+Tony advised me to shop on the Internet.
+The customs officer allowed the tourists to enter the gate.
+The boss told us to go home.
+The police ordered Tony to move his car.
+
+I decided to finish the English curriculum.
+I decided that I would finish the English curriculum.
+She agreed to go to the cinema.
+She agreed that she would go to the cinema with me.
+I expected to find a new job.
+I expected that I would find a new job.
+He promised to learn to compose.
+He promised that he would learn to compose.
+I prefer to drink beer.
+I would prefer that I did not take part in the party.
+I would prefer that you did not mention my name.

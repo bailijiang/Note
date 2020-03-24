@@ -1,26 +1,112 @@
 ##Unit37
 #Lesson1: New work ethic
 * keywords: 
+  - owner,lawyer,customer,linguist,assistant,tourist,guest,vegetarian
+  - Richard,Nathan,Tony,Bryan,Sam,John / Jane,Trish,Yvonne,Jenny,Claire,Donna
+  - man,woman / boy,girl / prince,princess / actor,actress / waiter,waitress / god,goddess / host,hostess / heir,heiress / hero,heroine / nephew,niece
 
+I don't suppose this new work ethic extends to the supply room, does it?
+I'll man the front desk.
+Where do I pick them up?
+Where and when does Danny have to get his costumes?
+Is Danny always in a hurry to leave work?
+
+Who's Tony? He's a customer.
+Who's Jane? She's a student.
+Who's John? He's an actor.
+Do you know Trish? She's a vegetarian.
+Do you know Nathan? He's a linguist.
+
+Who's Richard? He's my brother.
+Who's Jenny? She's my sister.
+Do you know Sam? He's my nephew.
+Do you know Donna? She's my niece.
+Where's the bride? She's at the hotel.
+Where's the bridegroom? He's in the room.
+Do you like Bryan? He's a hero.
+Do you like Claire? She's a heroine.
+Who's Clark? He's the host.
+Who's Nancy? She's the hostess.
 
 #Lesson2: Another pedestrian crosswalk for Coolidge Corner?
-* keywords: 
+* keywords: the
+    - a/an... the...
+    - the bank, the supermarket, the post office, the movie theater, the business section, the metro, the indicators, ...
+    - the country, the beach, ...
+    - the earth, the solar system, the planets, the stars, the galaxy, the universe, the moon, ...
 
+dodge v. coverage n. slant v. rejoin v. errand n.
+..., which is where I live.
+
+A basketball game will be held in the city.
+The game attracted nearly fifty thousand people.
+
+Would you go to the supermarket and the bank?
+I'm supposed to go to the park.
+They've arrived at the office.
+
+We're not in the country.
+She's at the beach.
+They were sailing in the ocean.
+
+How much traffic can the earth bear?
+How many planets have in the solar system?
+The stars in the sky are beautiful.
+We are living in the galaxy.
+The universe is still mysterious.
 
 #Lesson3: Let's have a star!
 * keywords: 
+    - my, your, his, her, its, our, your, their + noun.
+    - his/her daughter/son
+    - mine, yours, his, hers, its, ours, theirs
+    - That / This ... of yours... (good/bad/emphasize/sarcasm...)
+    - my own / of my own / of her own ...
 
+celebrity n. equality n.
+an author's name
+an attorney's name
+One for being tough.
+
+This is my car.
+Your house is very luxurious.
+Norway is famous for its beautiful environment.
+His name should be remembered forever.
+Tony's hat is very funny. (a hat of Tony's)
+
+Claire spoke about her husband.
+Bryan spoke about his daughter.
+
+This phone is not yours.
+The books are mine.
+That money doesn't belong to theirs.
+Your dress is more beautiful than hers.
+
+That car of yours is expensive to run.
+Perhaps that daughter of yours wouldn't mind so much.
+Perhaps that wife of yours maybe adopts this advice.
+That laptop of yours is too light.
+This house of yours is too far away.
+That parent of hers wouldn't permit it.
+Those neighbors of mine would do this sort of thing.
+It's time you spoke to that daughter of yours.
+
+The hotel has its own pool.
+It was more trouble to drive my own car.
+Claire has a house of her own.
+We run a company of our own.
+Please sign your own name.
 
 ##Unit38
-#Lesson1: 
+#Lesson1: I can't find...
 * keywords: 
 
 
-#Lesson2: 
+#Lesson2: Perfect harmony
 * keywords: 
 
 
-#Lesson3: 
+#Lesson3: A model museum
 * keywords: 
 
 

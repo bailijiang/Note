@@ -125,6 +125,7 @@ They are frequently drunk.
 I often jog in the morning.
 He sometimes has a drink.
 She hardly ever watches TV.
+I go there hardly ever.
 I seldom watch TV.
 I'm seldom preoccupied.
 We are not ever smoke.
@@ -180,17 +181,59 @@ We have lots of things in common besides music.
 Besides working as a doctor, he also writes novels in his spare time.
 
 #Lesson3: A model museum
-* keywords: 
+* keywords: past
+    - hit, cost, cut, put
+    - was/were + doing
+    - was/were + always/often/frequently + doing
+    - when: ...when I was doing...
+    - as: When...was doing... / As...was doing...
+    - while: ...was doing...while...was doing...
 
+curator n. collate v.
+I was planning to charge admission.
+There's a jar by the door for donations.
+I was interviewing a woman when a couple of guys jumped in front of the camera and started waving and shouting.
+
+Don't hit the drum at night.
+Hit the ball as hard as you can.
+What you have done would cost your career.
+This case cost his life.
+She cut her finger when she was cooking.
+He put the coffee on the table.
+
+I was planning to pay you money.
+They were planning to play outside.
+
+My family was always moving when I was little.
+I was often going for a drive.
+She was generally doing silly things.
+
+I felt so sweet when I was working with her.
+He is preoccupied when he was learning English.
+Your phone rang when we were having a class.
+I was so lonely when I was living in that country.
+
+I was having a meeting when the idea hit me.
+I was listening to music when somebody knocked at the door.
+As she was working in the office, the boss came to see her.
+As I was having a bath at home, somebody called me.
+It was raining outside while we were having a class.
+He was playing video games while I was working yesterday.
+She was working on her dress while I was watching TV.
+You were having a rest while I was collating my dissertation.
 
 ##Unit39
-#Lesson1: 
+#Lesson1: Will she? Won't she?
 * keywords: 
 
-#Lesson2: 
+
+
+#Lesson2: Rules
 * keywords: 
 
-#Lesson3: 
+
+
+#Lesson3: Table talk
 * keywords: 
 
 

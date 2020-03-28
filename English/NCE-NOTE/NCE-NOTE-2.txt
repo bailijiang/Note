@@ -437,7 +437,10 @@ I have a cold.
 I think she may go on a business trip but I'm not sure.
 I feel that I could move that wardrobe myself, but I was wrong.
 As it's raining outside, I can't go anywhere, so I might as well go to sleep.
+According to this situation, I might as well stay at home.
 He might have gone abroad, but I'm not sure.
+They may have been infected by coronavirus.
+She may have gone abroad.
 
 #L20: One man in a boat
 * 动名词 ing (动词当名词用): 
@@ -459,6 +462,7 @@ Why is coding your favorite job?
 Why are cheating with each other they have to?
 Why is singing your favorite activity?
 Why is smoking endless they love?
+Why is your shirt blue?
 Do you interested in reading at the weekend?
 I'm really interested in reading at the weekend.
 

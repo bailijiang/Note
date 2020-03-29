@@ -340,7 +340,7 @@ The test is difficult enough to eliminate most students.
 #Lesson1: The customer is always right
 * keywords: 's / '
     - a child's dream / an actress's career, an actress' career
-    - Bryan's car / Claire' address
+    - Bryan's car / Claire's address / James' bag
     - a gentlemen's club / the maids' room
     - guest room, the car key (the key of the car), the table leg (the leg of the table)
     - a month's work, two month's study, at one's wit's end, at arm's length
@@ -348,9 +348,9 @@ The test is difficult enough to eliminate most students.
 strike v.
 the hallway furniture
 the guest room
-And this color scheme.
+And this color scheme strikes me as a little dull.
 our original schedule
-How soon does Klara want a new design proposal
+How soon does Klara want a new design proposal?
 Now I know that today alone I have handed you two month's work.
 If we could afford a dream house.
 Wall-to-wall carpets
@@ -470,9 +470,56 @@ I like cleaning my house, as well as cooking by myself.
 
 ##Unit41
 #Lesson1: Messages
-* keywords: 
+* keywords: adv. of degree
+    - very,quite / fairly,rather,pretty(kind of,sort of) + small(adj.)
+    - fairly + sure/good/well...
+    - rather + well/better/interesting...
+    - much + better / very much
+    - don't much + like/enjoy/prefer... / Do...much like...?
+    - by far + the best news / the best by far
 
+I wonder if you have plans for the evening of the 17th.
+We're having a get-together.
+Quite small.
+I have by far the best news for you.
+I'm fairly sure it has to do with a boy.
+I'd rather not.
+It's OK, but it's pretty sour.
+I don't like it very much, either.
+I managed to speak to quite a few of them.
+He doesn't have as much time as Nancy.
 
+These days, people being gracious is very difficult.
+Quite difficult. 
+Pretty difficult.
+Fairly difficult.
+Rather difficult.
+Kind of difficult.
+Sort of difficult.
+
+It is fairly good.
+Fairly well.
+I'm fairly sure she didn't say that.
+A month's work is fairly enough.
+
+He did rather better this time.
+This rumor is rather interesting.
+That car is rather cool.
+Rather well.
+
+It's pretty strong/weak/cold/sweet.
+I don't like it very much, either.
+
+We had some much better news today.
+I don't much like this cider.
+I don't like this cider very much.
+It isn't much stronger.
+I don't much like this kind of thing.
+We all don't much enjoy this party.
+Do you much like drinking?
+This is by far the best news I've heard for a long time.
+It's the best by far.
+This is by far the worst virus.
 
 #Lesson2: A night on the town
 * keywords: 
@@ -481,6 +528,7 @@ I like cleaning my house, as well as cooking by myself.
 
 #Lesson3: Excitement!
 * keywords: 
+
 
 
 ##Unit42

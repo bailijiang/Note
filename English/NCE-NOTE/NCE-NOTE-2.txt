@@ -521,12 +521,13 @@ rural area, farming area
 tropical region, autonomous region
 
 * 感官动词直接加形容词
-He seems angry.
-She appeared sleepy.
-It sounds good.
-This room smells terrible.
-Silk feels very soft.
-This coffee tastes very strong.
+He seems very angry.
+She appeared kind of sleepy.
+It sounds pretty good.
+This room smells quite terrible.
+Silk feels fairly soft.
+This coffee tastes rather strong.
+She looks quite great.
 
 #L24: It could be worse
 * 可以用进行时表示含有埋怨的情绪

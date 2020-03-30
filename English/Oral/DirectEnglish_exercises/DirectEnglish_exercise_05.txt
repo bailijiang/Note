@@ -475,7 +475,7 @@ I like cleaning my house, as well as cooking by myself.
     - fairly + sure/good/well...
     - rather + well/better/interesting...
     - much + better / very much
-    - don't much + like/enjoy/prefer... / Do...much like...?
+    - don't much + verb.(like/enjoy/prefer)... / Do...much like...?
     - by far + the best news / the best by far
 
 I wonder if you have plans for the evening of the 17th.
@@ -497,6 +497,9 @@ Rather difficult.
 Kind of difficult.
 Sort of difficult.
 
+Quite a few towns are now banning cars from their shopping centers.
+These days, quite a few people can't find a job.
+
 It is fairly good.
 Fairly well.
 I'm fairly sure she didn't say that.
@@ -506,6 +509,7 @@ He did rather better this time.
 This rumor is rather interesting.
 That car is rather cool.
 Rather well.
+That movie is rather boring.
 
 It's pretty strong/weak/cold/sweet.
 I don't like it very much, either.
@@ -522,12 +526,56 @@ It's the best by far.
 This is by far the worst virus.
 
 #Lesson2: A night on the town
-* keywords: 
+* keywords: prep.
+    - of / off
+    - on / in
+    - out of (into) / outside (inside)
+    - (the one) with / without / in
 
+contest n.
+in the wee-hours
+Cool jazz of blues take the top off the building?
+Emergency rations
+Who do you turn to in your hour of need?
+A night on the town.
+We just cook food as fast and furiously as possible.
 
+Which country of people in the world is relatively kind?
+The average price of these houses is fairly high.
+I saw a cat jump off a high building.
+He got into his car and drove off.
+Take your coat off.
+He took his feet off the desk.
+
+Leaving your phone on the table there.
+We are lying on the grass.
+There are a lot of problems in Beijing.
+I wish I can do more things even in the small hours of the morning.
+
+She got off the car.
+He gets into the car.
+They are washing the car outside the building.
+The jewels were locked away inside the safe.
+
+He's the one with the glasses.
+The man is the one with a scar on his face.
+I'll be with you.
+Don't leave without her.
+My house is without a garden.
+After the storm, we were without electricity for five days.
+I accepted his offer without a moment's hesitation.
+They had gone two days without food.
+He left home without any money.
+She's the one in the blue suit.
+He's the one in the tuxedo.
 
 #Lesson3: Excitement!
 * keywords: 
+    - have(has) + done
+    - have(has) + been + doing
+    - already, since
+
+
 
 
 

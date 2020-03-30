@@ -542,6 +542,7 @@ We just cook food as fast and furiously as possible.
 
 Which country of people in the world is relatively kind?
 The average price of these houses is fairly high.
+What are they made of?
 I saw a cat jump off a high building.
 He got into his car and drove off.
 Take your coat off.
@@ -573,21 +574,55 @@ He's the one in the tuxedo.
 * keywords: 
     - have(has) + done
     - have(has) + been + doing
-    - already, since
+    - already, since, yet, ever
 
+bungee jumping, skydive
+No, I've been collating these papers since we got here.
+But I have done it.
+So you've thrown yourself off a building with nothing but a big rubber band to hold you above the ground.
+Is your work here fast-paced?
+Would you call your home life a thrill a minute?
+What happened to checkers?
+Haven't you ever done something just for the thrill of it?
+You've made your point, Nathan.
+Because a friend of his dared him.
+What have you done this evening?
+There's got to be more to life than photocopying.
+There's got to be more to life than money.
+I prefer to put my feet up after work.
 
+You've moved out of your home.
+You haven't moved out yet.
+Have you ever moved out of your home?
+He hasn't finished yet.
 
+Haven't you ever drunk?
+She hasn't drunk yet.
+She has already drunk.
 
+What have you been doing since we got here, Claire?
+I've been cooking dinner.
+I've cooked dinner.
+What has Bryan been doing since she arrived this evening?
+He's been playing video games.
+I've been learning English since I quit my job.
+How long have you been learning English?
+For six hours.
 
 ##Unit42
-#Lesson1: 
+#Lesson1: Say, aren't you...?
 * keywords: 
 
-#Lesson2: 
+
+
+#Lesson2: Remember when you worked with us?
 * keywords: 
 
-#Lesson3: 
+
+
+#Lesson3: Three guys and a drip
 * keywords: 
+
 
 
 ##Unit43

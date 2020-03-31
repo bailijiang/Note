@@ -540,7 +540,9 @@ Who do you turn to in your hour of need?
 A night on the town.
 We just cook food as fast and furiously as possible.
 
-Which country of people in the world is relatively kind?
+Which country's people in the world are relatively kind?
+I like the beauty of the scenery in the world.
+The length of the swimming pool is standard.
 The average price of these houses is fairly high.
 What are they made of?
 I saw a cat jump off a high building.
@@ -591,7 +593,7 @@ There's got to be more to life than photocopying.
 There's got to be more to life than money.
 I prefer to put my feet up after work.
 
-You've moved out of your home.
+You've already moved out of your home.
 You haven't moved out yet.
 Have you ever moved out of your home?
 He hasn't finished yet.
@@ -611,29 +613,163 @@ For six hours.
 
 ##Unit42
 #Lesson1: Say, aren't you...?
-* keywords: 
+* keywords: Polite offers, requests and suggestions
+    - Would you like...?
+    - Could I...? / Can I...?
+    - Would you...? / Will you...? / Can you...?
+    - Shall I...?
+    - Shall we...? / Let's... (Yes, let's.)
 
+Can I help you out there?
+That's very nice of you.
+Could you get the ones in this hand?
+Would you hold this for just a second?
+Shall we just put these here for the time being?
+But I can't put my finger on it.
+Where would I have seen you?
+No, I can't say that you do.
+That'll be the tip-off
+Let's just check the name.
+That would have bugged me all day.
 
+Would you like some beer?
+Yes, please. / No, thank you.
+
+Can I help you?
+Can I have a cheeseburger?
+Can I have some milk?
+Could I have some mineral water?
+Yes, of course. / I'm afraid there is none left.
+
+Would you hold this for a moment?
+Would you give me a cup of coffee?
+Will you bring me the book?
+Can you move your feet?
+Can you turn off the TV?
+Could you make a coffee for me?
+Could you translate this paper?
+Yes, of course. / I'm afraid I can't at the moment. (Because...)
+
+Shall I ask you to dance with me?
+Shall I sing a song for you?
+Shall I carry this bag for you?
+Thank you. That's very nice of you. / It's OK thanks. I can manage. (Because...)
+
+Shall we just take the bus?
+Shall we watch a movie?
+Shall we have dinner?
+Let's just have dinner, (shall we?).
+Let's dance.
+Yes, let's. / No, that won't be necessary.
 
 #Lesson2: Remember when you worked with us?
 * keywords: 
+    - "Remember..."
+      I reminded her that...
+      "Don't do..."
+      She told me not to do... / I explained that... / She reminded me that...
+      ask,tell,advise,remind...
+    - "Should I...?"
+      She asked me if/whether she...
+      She asked me whether to do...
+    - "How should I...?" (What/Why/When/Where/Who...)
+      She wanted to know how she should...
+      She wanted to know how to...
 
+groundhog n. bully n. v. saint n.
+Ah, well, your child asked me if she should look at cars with 6-cylinder engines.
+When the time comes.
+Wait until she tells you not to wait up.
+I'll be right up.
+She finished off a pot of coffee.
+I don't have to put up with anyone, except Nancy.
+That's how it is.
 
+"Turn off your phone."
+He advised us to turn off our phone.
+He reminded us that we should turn off our phone.
+She told me to turn off the TV.
+"Don't wait up for me."
+She told me not to wait up for her.
+They asked me not to close the door.
+I suggested her not to hang out with Tony.
+
+"Should I quit my job?"
+She asked me if she should quit her job.
+She asked me whether to quit her job.
+
+"How should I make a cake?"
+She wanted to know how she should make a cake.
+She wanted to know how to make a cake.
+I explained how to make a cake.
+I offered to show her how to make a cake.
+I advised her not to take the cake out of the oven until she heard the ring.
+She wanted to know why you didn't come.
+She wanted to know where were you been.
+She wanted to know when you would emerge.
+She wanted to know what you had done.
 
 #Lesson3: Three guys and a drip
-* keywords: 
+* keywords: -ing
+    - am,is,are + doing / was,were + doing / has,had been doing / will be doing
+    - joining sentences: I feel stupid calling you up for this. / Opening the drawer, he took out a box.
+    - noun.: The dripping drives me crazy. / a little tightenting / for coming up / Waking up in the night is awful. / for,of,after,before... + doing
+    - adj.: No more dripping faucet. / The washer's missing. / Where's the missing washer?
 
+clockwise adv. washer n.
+turning clockwise
+Counter-clockwise
+It's nothing a little tightening won't fix.
+Well, that takes care of that.
 
+It wasn't working this morning.
+We are trying to fix it.
+I still have been learning English.
+I had been watching the TV before she arrived home.
+I will be cleaning my house tomorrow morning.
+I was just being absent-minded.
+
+I feel stupid buying this in the store.
+Closing the windows, I left my house.
+I'll try turning off the faucet.
+I feel relax listening to music.
+He goes out washing his car.
+
+Reading is one of my habits.
+Try concentrating on sleep.
+Raining is pretty heavy.
+Winning makes me happy.
+It's nothing a little tightening won't fix.
+The dripping drives me crazy.
+After finishing the work, I went home.
+This has been a good chance of meeting up with everyone again.
+This is the knife for cutting bread.
+
+I like watching the shinning water in the park.
+Those trees were hung some flowing ribbon.
+a rolling ball, a barking dog, a running boy
+Where is the missing phone?
+This is the missing money of yours.
+The washer's missing.
+The fire's heating.
+It's running. It's working. It's snowing.
+Your idea is very interesting.
+I had the most embarrassing experience.
 
 ##Unit43
-#Lesson1: 
+#Lesson1: Do it yourself
 * keywords: 
 
-#Lesson2: 
+
+
+#Lesson2: Taboo topics
 * keywords: 
 
-#Lesson3: 
+
+
+#Lesson3: I really do want to study
 * keywords: 
+
 
 
 ##Unit44

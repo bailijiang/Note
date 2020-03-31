@@ -546,16 +546,15 @@ He's always complaining about something.
 * 并列句(部分/整句): and, so, but, or, yet
                   not only...but...as well, neither...nor, either...or, both...and
 
-I got up quickly and brushed my teeth, but I'm still late.
-So I was fined for being late for work.
-I can use both python and C to develop software.
-I believe the key point of crack this bomb either red or blue line.
-The water of this tap is either too hot or too cold.
-Neither you nor he is good people.
-I find it that I go to Shunyi neither by car nor by subway is comfortable.
-Driving to Shunyi not only cost too much but very tired as well.
-She's looking not only very beautiful but very sexy also.
+I got up and went outside to jog in the morning.
+Both Claire and Bryan like reading.
+I generally have an apple and a bottle of milk every day.
+We went to the theater but the ticket was sold out.
+Either you or I must tell her this news.
+She usually watches either movie or TV in the evening.
+Neither she nor I went to the airport.
 You can neither confirm nor deny.
+I must not only find a decent job but get married quickly this year as well.
 
 * wonder
 I wonder at his rudeness.
@@ -580,12 +579,13 @@ She said she often sees a boy follow her quietly.
 I hear that you like rock music.
 I remember Tom very well. Do you know him?
 
-* 宾语从句
+* 宾语从句(noun. clause)
   whether...(or not) 从句使用陈述句语序
   that,what,pretend
 I don't know whether we can win the game.
 I remember that I had locked the door before I went to work.
 Do you notice what I had my hair cut?
+I wonder why many people pretend that they are special and rich.
 
 #L27: A wet night
 * 一般过去时

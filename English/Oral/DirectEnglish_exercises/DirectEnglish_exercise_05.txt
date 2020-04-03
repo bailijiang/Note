@@ -815,17 +815,67 @@ I wish I could offer you some cake but there's none left.
 
 #Lesson3: I really do want to study
 * keywords: 
+    - someone,  somebody,  something,  somewhere
+      anyone,   anybody,   anything,   anywhere
+      no one,   nobody,    nothing,    nowhere
+      everyone, everybody, everything, everywhere
+    - I will kill you if you spoke to anybody / anyone.
+      I will kill you if you said anything.
+    - Everybody knows they have to take four years of English.
+      Anybody knows they have to take four years of English.
 
+cheat off you, flunk
+There isn't anyone who loves every subject.
+I talked to somebody you know last night.
+Because I will kill you if you said anything.
+I wish you wouldn't keep mentioning you-know-who.
+Is there anyone else I could mean?
+Nothing. I never say anything to anyone.
+You seem to understand anything you hear in Spanish.
+And you can say anything you like in Spanish.
+Well, not anything.
+It's only when you know about everything that you can decide what you really like.
 
+Did you see anybody in the office?
+I find somebody modified my code.
+She said she didn't see anyone entered the yard.
+I talked to no one you know.
+I talked to nobody you know.
+I think my phone must be around somewhere.
+I didn't find my phone anywhere.
+There might be something in the box.
+Is there anything in the box?
+I have no job and nowhere to live.
+This kind of forest exists nowhere else in the world.
+There was nowhere to hide and nowhere to run.
+I think there is nowhere to live comfortably in the world.
+There is coronavirus everywhere.
+Money isn't everything.
+How many people do you know in these people?
+No one.
+
+I won't believe you even if you speak anything.
+She will leave you if you do anything.
+You may be infected if you spoke to anybody.
+I won't tell anybody if you said anything.
+
+Everybody knows they have to work for their living.
+Everyone wants what they can't have.
+Everyone wants their share.
+Anybody knows they should be honesty.
 
 ##Unit44
-#Lesson1: 
+#Lesson1: No comment
 * keywords: 
 
-#Lesson2: 
+
+
+#Lesson2: We're having a party
 * keywords: 
 
-#Lesson3: 
+
+
+#Lesson3: Feel your energy!
 * keywords: 
 
 
@@ -833,10 +883,15 @@ I wish I could offer you some cake but there's none left.
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
 
+
+
 #Lesson3: 
 * keywords: 
+
 
 

@@ -716,6 +716,11 @@ It's not so easy as I thought.
 The film is not so interesting as I expected.
 The film is less interesting than I expected.
 
+Mike doesn't like music as much as I do.
+I like music more than Mike.
+He hasn't as many books as I have.
+He has fewer books than I have.
+
 * little,less,few,fewer,a little,a few 表否定
 There isn't much I can do to help him. -> There is little I can do to help him.
 He hasn't got as much work to do as I have. -> He's got less work to do than I have.

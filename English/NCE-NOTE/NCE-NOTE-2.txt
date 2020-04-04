@@ -728,7 +728,13 @@ There weren't many people in the shop. -> There were very few people in the shop
 He hasn't as many books as I have. -> He has fewer books than I have.
 
 #L33: Out of the darkness
-* 带介词的短语: to, from, into, out of, for, towards, at 
+* Where/Which direction... ? 
+  -- from / to : flew to, from...to... 
+  -- into, out of 
+  -- for
+  -- towards
+  -- at
+              
 I'm going to drive from Haidian to Shunyi tomorrow.
 Where were you been? I have just been into the bathroom.
 Don't throw the bottle out of the car.
@@ -737,6 +743,7 @@ I have left for Shunyi.
 I'm leaving for New York.
 She is walking towards me slowly.
 She was smiled when she looked at a flower.
+The light was high up on the cliffs.
 
 * On + doing... = as soon as ...
 On having the medicine, I went to bed last night.
@@ -746,6 +753,7 @@ On seeing the man, she waved and called out to him.
 
 * 连词 before: 才
   ...时间 + before + ... : 过了...时间 才...
+Nearly a week passed before the girl was able to explain what had happened to her.
 I waited for one hour before she arrived.
 It was three days before he came back.
 The phone had rung for one minute before someone answered it.

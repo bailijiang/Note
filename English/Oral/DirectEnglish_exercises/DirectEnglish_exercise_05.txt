@@ -926,7 +926,7 @@ I enjoy very much listening to music.
 
 #Lesson2: We're having a party
 * keywords: Phrasal verbs with prepositions (v. + prep.)
-  - NON-IDIOMATIC: n <-> n
+  - NON-IDIOMATIC: (v.) n <-> n (prep.)
       look at, look into
       come to, arrive at, walk to, go to, hop on, stop at
       advise against
@@ -937,7 +937,7 @@ I enjoy very much listening to music.
       knock at
       ask for
       pick up
-  - IDIOMATIC: n <-> 1
+  - IDIOMATIC: (v.) n <- 1 (prep.)
       come across
       get across
       put across
@@ -1013,17 +1013,133 @@ I had been driving for an hour when I passed the airport.
 
 ##Unit45
 #Lesson1: What a mess
-* keywords: 
+* keywords: wish, if only
+    - I wish she were/was... 
+      I wish she had been...
+      If only she were/was...
+      If only she had been...
+    - I wish I knew where...
+      I wish I had known where...
+      If only I knew where...
+      If only I had known where...
+    - I wish I could stay...
+      I wish you would/could stay...
+      If only I could stay...
+      If only you would/could stay...
+    - It's (about) time I left.
+      It's (high) time I left.
 
+I wish I knew where it is.
+I wish I knew what it is.
+Actually, I just wish she were here.
+It's time I got going.
+I wish you had told me where you put that package.
+I wish you would use your eyes.
+If only you were observant.
+Well, it's about time you learned!
+I thought guys were naturally messy.
+I'll take your word for it!
 
+I wish she were gracious.
+I wish she had been smart last time.
+If only he were alive.
+If only he had been alive when I went abroad.
+
+I wish I knew when it stops.
+I wish I had known what happened.
+I wish I had noticed how dangerous it was.
+If only I knew when it starts.
+If only I had accepted what you said.
+
+I wish I could win the game.
+I wish you would change your mind.
+I wish they could kill themselves.
+If only I could get a decent job.
+If only you would come with me.
+If only she could admit her fault.
+
+It's about time I ate.
+It's high time I slept.
+It's time they emerged.
+It's time the icecream melted.
+It's time I claimed the money.
 
 #Lesson2: Roommate worries
-* keywords: 
+* keywords: if
+    - If...does/do(not)..., you will do...
+    - If...am,is,are doing..., you will/won't do...
+    - If...am,is,are (doing)..., ...can/can't/will/would/wouldn't/could/might/may/must/have to
+    - If...+ MODAL... + MODAL...
 
+Well, if he's having a serious problem, he'll talk to you of all people.
+What if I don't want to know?
+Well, if you don't stop worrying about it, you'll go crazy.
+You know, if you're not seeing anyone, it can be hard to have a couple around all the time.
+If I'm feeling like that, I won't talk to anybody either.
+If he doesn't seem better soon, I'll talk to him.
+If I come home late, it's my business.
+How is Danny behaving? (Strangely.)
 
+If I am sleeping at home, what will you do?
+If you do that, I will kill you.
+If you don't learn English, you won't find a good job.
+If she doesn't love me, she will lose me.
+
+If you are driving, I won't interrupt you.
+If she is working, where will you go?
+If I'm leaving, I will tell you.
+
+If he doesn't talk to you, you should talk to him.
+If she is working, you shouldn't interrupt her.
+If they leave, I can't solve this problem.
+If his condition gets worse, we have to give him an operation.
+If I'm feeling like that, I wouldn't talk to anybody.
+
+If I can get this job, I will feel better a little bit.
+If you would listen to this, I will talk to you very much.
+If you can't finish your job, I might help you.
+If you wouldn't learn English, what can you do?
 
 #Lesson3: Bee sing*
 * keywords: 
+    - see/feel/hear/listen to/look at/notice/smell/watch + ...doing / do...
+    - admit/appreciate/avoid/can't help/consider/dislike/enjoy/feel like/finish/imagine/keep/look forward to/mind/miss/practise/risk/suggest... + doing...
+    - like/love/hate/prefer/hope + doing / to do...
+
+Do you hear my last shred of dignity flying away?
+We can't help wishing you'd stay.
+We'll sure miss seeing your smile each day.
+We hate to see you leave.
+But I won't miss commuting.
+And I look forward to doing all those things I enjoy doing.
+Well, I'd do it for a lot less than that if I needed the money.
+
+Did you see anybody enter the building?
+She noticed Tony drinking a beer.
+I hear a plane flying through away.
+I hear a plane fly through away.
+I felt your heart beating fast.
+I watched Claire dancing.
+I watched her leave.
+I didn't look at anybody walk across.
+
+I can't help listening to some rock music.
+I will miss seeing your smile each day.
+Whether should I avoid meeting anybody?
+Do they enjoy cheating kind people?
+I look forward to working with good people.
+Would you mind helping me solve this problem?
+It was a risk of drinking alcohol at night.
+I suggest taking her to the museum.
+
+I like listening to music.
+I like to see you died.
+She hates working with you.
+She hates to work abroad.
+I prefer learning English at home.
+I prefer to jog outside.
+I hope to find a decent job.
+
 
 
 

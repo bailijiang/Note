@@ -813,17 +813,21 @@ Among them will be Debbie's mother, who swam the Channel herself when she was a 
 Next month she will start her new job in Shanghai, which is her birthplace.
 
 #L37: The Olympic Games
-* 将来完成时: will + has/have + Ven ... +(by)...
+* 将来完成时: will + has/have + Ven ... +(in, by)...
 * 将来进行时: will be doing
 * 将被: will be done
-I will have finished all the study courses this month.
+I will have finished all the study courses by the end of this month.
 He will be working at this company for a couple of months.
 He says he will be seeing you tomorrow.
-There will be held a great concert in this city.
+There will be held a great concert in two months.
+
+They will be infecting coronavirus by the end of this month.
+All the people will have infected in two months.
+Most people will be killed by the virus in one year.
 
 #L38: Everything Except the Weather
 * 过去完成时: had done
-  conj: after, as soon as, when, until, before
+  conj: after, before, as soon as, when, not...until...
 I had already prepared all I need before I went to Shunyi.
 I had no sooner finished my study courses than began to find a job and opened my resume on the website.
 As soon as the sun had risen I got up this morning.

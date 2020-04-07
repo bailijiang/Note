@@ -883,7 +883,7 @@ If you say so, I'll have to believe it.
 Are you ready? If so, let's go.
 
 #L40: Food and Talk
-* if虚拟语气 与 if条件句
+* if虚拟语气 与 if条件句 (adv. clause)
   if虚拟语气(非真实条件句): if was/were...I would be... (已经发生的,与事实相反) 假如
   if条件句(真实条件句): if do..., I will... (没有发生的) 如果
 If I finished my stuff, I would do what I should do.
@@ -897,6 +897,9 @@ If I were in your position, I would act differently.
 He would help you if he were here.
 If you could make him change his mind, you would save him a lot of trouble.
 If it were not for you, I wouldn't do this.
+Would you understand if I told you about it?
+If only I told you about it, would you understand?
+If only I got up early, I would feel better very much.
 
 与过去事实相反：if had done... 主句 would/could have done
 If I had finished my work, I would have gone to travel.
@@ -906,9 +909,9 @@ It would have been different if you had helped.
 
 * will do: 是将来时态，指将来某个时间要做的事情。
   will be doing: 是将来进行时态，指将来某个时间正在做某事。
-  常用的时间状语: Soon,tomorrow,this evening,on Sunday,by this time,tomorrow,in two days,tomorrow evening
+  常用的时间状语: Soon,tomorrow,this evening,on Sunday,by this time tomorrow,in two days,tomorrow evening
 I will be working soon.
-By this time tomorrow,I'll be lying on the beach.
+By this time tomorrow, I'll be lying on the beach.
 I will study English (in the future).
 I will be studying English at universty this time next year.
 

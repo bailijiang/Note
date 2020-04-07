@@ -7,7 +7,7 @@
       absence,activity,anxiety,happiness
       childhood,kingdom,spoonful,sexism,relationship,freedom
 
-    - manageable,permissible,incredible,careful,careless,athletic,foolish,attractive,friendly
+    - manageable,permissible,careful,careless,athletic,foolish,attractive,friendly
     - unattractive,immoral,incredible,dishonest,illegal,irresponsible
 
 I'm perfectly sane.
@@ -21,15 +21,15 @@ At what point do "children" act as "parents" to their parents?
 
 NOUN.
 an actor, a jazz pianist
-listener, actress, coder, musician, composer, inhabitant, killer, singer, dancer
+listener, actress, coder, musician, composer, inhabitant, killer, singer, dancer, linguist, scientist, physicist
 
 Pekingese, southerner, Indians, Norwegian
 
-heater, commutation, disgreement, installment, approval, interior, senior, junior, warrior, bumpy, funny, delivery, victory, memory, caution, action, detective
+heater, commutation, disgreement, installment, approval, interior, warrior, bumpy, funny, delivery, caution, action, detective, computer
 
-presence, regularity, certainty, sadness
+presence, regularity, certainty, beauty, sadness
 
-fatherhood, motherhood, wisdom, restful, helpful, childless, tireless, alcoholic, sarcasm, racism, friendship, boredom
+fatherhood, motherhood, wisdom, restful, helpful, childless, tireless, alcoholic, sarcasm, racism, friendship, boredom, victory
 
 ADJ.
 washable, loveable, comfortable, restful, eventful, tasteless, friendless, photographic, spanish, selfish, tallish, explosive, motherly, cowardly

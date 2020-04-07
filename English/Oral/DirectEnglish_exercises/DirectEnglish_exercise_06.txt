@@ -34,16 +34,97 @@ fatherhood, motherhood, wisdom, restful, helpful, childless, tireless, alcoholic
 ADJ.
 washable, loveable, comfortable, restful, eventful, tasteless, friendless, photographic, spanish, selfish, tallish, explosive, motherly, cowardly
 
-unable, untruth, impossible, insensitive, illogical, irregular
+unable, untruth, impossible, insensitive, illogical, irregular, inhuman, unattractive
 
 #Lesson2: Surprise pudding
-* keywords: 
+* keywords: Quantifiers
+    - There aren't many...
+      There isn't much...
+      There are a lot of / lots of ...
+      There is a lot of / lots of...
+    - (very) few
+      (very) little
+    - a few
+      a little
+    - fewer
+      less
 
+I wish there were fewer walnuts in this pudding.
+She doesn't even put in as many as she wants.
+a family heirloom
+There's just a little less pudding to go around.
+There are a lot of guests.
+There's plenty to go around.
+lots of plates and glasses
+And there isn't much time before they arrive.
+Only a little at a time. (chocolate)
+When you get to my age, you like sweet things less and less.
 
+There aren't many apples in the fridge.
+There aren't any apples in the fridge.
+Are there any apples in the fridge?
+There are a lot of apples in the fridge.
+There isn't much milk in the fridge.
+There are lots of eggs in the fridge.
+There is a lot of beer in the fridge.
+
+Claire has (very) few books.
+few days, few seconds, few possessions, few drinks, few people
+Claire drinks (very) little water today.
+little doubt, little attention to, little money, little kindness
+
+She wants to read a few books this year.
+a few people, a few cars, a few apples, a few lights, a few walnuts
+She wants to drink a little coffee this morning.
+a little time, a little water, a little milk, a little oil
+
+There are fewer cars on the highway.
+Urban usually has fewer trees than in the countryside.
+This contains fewer calories.
+This cake contains less sugar.
+You should eat less salt.
+Honesty is less and less in this country.
 
 #Lesson3: Birthday girl
 * keywords: 
+    - who, which/that:
+      She's the woman who runs those tennis classes.
+      It's the jacket (which/that) I love.
+    - who / that:
+      I am the only person who/that can beat you at tennis.
+    - which / that:
+      Here is a gift which/that will help you play better.
 
+squash v.
+This isn't the present that you really want.
+And the next person who brings it up gets no cake.
+Happy Birthday from the only person who can beat you at tennis.
+She's that woman who runs those intense tennis clinics in Florida.
+It's the album that contains all my favorite photos.
+She's the woman who lives next door.
+How did you know I wanted it?
+
+She's the woman who cheated me.
+They are the men who were slaved by the money.
+He's the man I despise.
+It's the car that I want to drive.
+That's the job which I don't like.
+This is the phone I bought.
+
+He is the only man (who) I can't beat.
+She is the only woman who can solve this problem.
+They are the customers who really love our products.
+He is the driver who crashed the tree.
+She is the singer I like very much.
+
+I want to find a job which is stable and suit me.
+That's the song I can sing well.
+I've just bought a house that is very expensive.
+That's the car I like.
+I'm reading a novel which is pretty attractive.
+That's the quaint house I'm dreaming to own.
+They are the cats which live next door.
+This is the jacket I love best.
 
 ##Unit47
 #Lesson1: Left out

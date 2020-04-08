@@ -924,7 +924,7 @@ I will be studying English at universty this time next year.
   have to
 
 You needn't buy so many pairs of sports shoes.
-I know, but I can't help but be tempted by them.
+I know, but I can't help being tempted by them.
 I have to control myself do not to be tempted.
 I feel that I can never have too many basketball shoes.
 
@@ -933,13 +933,17 @@ You mustn't read books that they beyond your age.
 They mustn't drink things contaminated by nuclear.
 I find it that I can't have too many basketball shoes and can never have too many computers.
 
+You really needn't stay with me.
+She finds she can't have too many handbags.
+I think I can never have too much money.
+
 #L42: Not very musical
 * have + (可加形容词)表示动作的名词/名词短语 == verb  
   语气更委婉，更显得正式
 Do you want to have a drink?
 I have been to have dinner.
 You needn't have a bath.
-I must be to have relaxing.
+I must have a rest.
 I remember I was very excited when I have my first look at her.
 Do you want to have a drink?
 Do you need have a rest?
@@ -960,6 +964,7 @@ They had a big quarrel over a small thing.
 Can I have a try?
 He had another try again.
 Did you have a good sleep last night?
+I remember we had a good time before.
 
 #L43: Over the South Pole
 * Can/Could: 无将来时，完成时

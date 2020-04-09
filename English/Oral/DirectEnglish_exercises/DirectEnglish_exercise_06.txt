@@ -159,7 +159,7 @@ How tedious for you!
 More haste, less speed.
 Precisely.
 
-Clearly, believing them is very stupid.
+Clearly, I believe them is very stupid.
 I definitely need a holiday.
 Definitely not.
 Honestly, I don't know anything about it.
@@ -178,6 +178,7 @@ In short, you must redo your work.
 
 As far as I am concerned, music is my life.
 Frankly, I think the Internet is overrated.
+Frankly, I find you're an idiot.
 In my opinion, the law should be changed. 
 
 The company provides cheap Internet access. In addition, it makes shareware freely available.
@@ -219,9 +220,54 @@ Little is known about the causes of the problem.
 Little is honesty just like me.
 
 #Lesson2: Danny's the man
-* keywords: 
+* keywords: Phrasal verbs
+  - verb. + prep. + Object : 
+      I asked her for her number.
+      We came across a sign to...
+      Look at this photo.
+  - verb. + adv particle. : NON-IDIOMATIC
+      Tony called up his friends.   Danny put on his shoes.
+      Tony called his friends up.   Danny put his shoes on.
+      Tony called them up.          Danny put them on.
+      He called her up.
+      take off, turn on, turn off
+  - verb. + adv particle. : IDIOMATIC
+      Tony brought up the subject.
+      Tony brought the subject up.
+      Tony brought it up.
+      They brought up a large family.
 
+Showing a little initiative.
+I met her back at your dinner.
+I struck out.
+We're going away for a weekend in a couple of weeks.
+I lose out to my old pal.
+The indignity of it.
+The customer comes into the store.
+Picks up a CD. Listens to it.
+He works for his dad.
+Why do you always zap the commercials?
+They appeal to my worst instincts.
+They appeal to my vanity.
 
+You can't run through the street when the light is red.
+Please put the ball on the ground.
+Let's again go over your job.
+You should run away from your family.
+
+You shouldn't drink this out.
+He always calls his mother up.
+You should put your coat on.
+Police are looking into this case.
+Don't go through that road.
+Do you like listening to music?
+The flight has taken off the airport.
+Please turn on the TV.
+You should turn it off.
+
+Has the problem I brought up yesterday solved yet?
+Has he brought up the suggestion about it?
+I really don't want to come across this kind of thing again.
 
 #Lesson3: The new you!
 * keywords: 

@@ -5,7 +5,7 @@
       Bostonian,New Yorker,Roman
     - agreement,arrival,behavior,discovery,knowledge,possession
       absence,activity,anxiety,happiness
-      childhood,kingdom,spoonful,sexism,relationship,freedom
+      childhood,kingdom,spoonful,sexism,relationship,freedom,backache
 
     - manageable,permissible,careful,careless,athletic,foolish,attractive,friendly
     - unattractive,immoral,incredible,dishonest,illegal,irresponsible
@@ -270,21 +270,67 @@ Has he brought up the suggestion about it?
 I really don't want to come across this kind of thing again.
 
 #Lesson3: The new you!
-* keywords: 
+* keywords: will, shall
+    - I will see you...
+      I won't see you...
+    - INTENSION:
+        Will you join...?
+        I'll join...
+      REQUEST:
+        Will you sign here please?
+      OFFER:
+        Shall I wait here for you?
+      SUGGESTION:
+        Shall we go down to the pool?
+    - PREDICTION:
+        will help/enjoy/open/take place/join us
+        hope/believe/expect/think/afraid/sure ... + will do...
 
+With that kind of support, you will feel healthier. (healthy)
+We hope you'll join us.
+Aerobic stuff.
+
+We will have dinner at 7 p.m.
+I won't believe anybody.
+Will you read this book?
+
+Will you join this reading club?
+I'll join the music club.
+I'll take this offer.
+
+Will you park here?
+Will you finish your work?
+
+Shall I take the bag for you?
+Shall I pick you up?
+
+Shall we go to the theater?
+Shall we go skating?
+
+I wish I will enjoy my life.
+The exhibition will open on July 14th.
+Prices will rise extremely.
+You all will envy me.
+I hope you will help me fix this bug.
+She believes he will turn back to her.
+We all expect that we will go abroad.
+I think she will be cheated by anybody.
+I'm afraid that you will lose her.
+I'm sure they will give up their dream.
+Most people in this country won't understand the meaning of life until death.
 
 ##Unit48
-#Lesson1: 
+#Lesson1: Train strain
 * keywords: 
 
 
 
-#Lesson2: 
+#Lesson2: Pets
 * keywords: 
 
 
 
-#Lesson3: 
+#Lesson3: Good news
 * keywords: 
 
 

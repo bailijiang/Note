@@ -360,9 +360,51 @@ You had to see a doctor.
 You had to take care of her.
 
 #Lesson2: Pets
-* keywords: 
+* keywords: if
+    - If...do/does..., ... will do...
+    - If...did..., ... would do...
+      If...were..., ... would do...
+      If I were doing..., I would do...
+    - If I could do..., I would/might/should do...
+      
+I was wondering if you had a particular policy about animals in the apartment.
+Can you narrow it down a little?
+How would you feel if I got a monkey?
+If there's going to be a pet at all, it will have to be a domesticated one.
+If you had a dog, we'd able to take it for walks.
+If I didn't work the night shift, that might be possible.
 
+If you have a pet, it will have to be a domesticated one.
+If you got a dog, we would have to agree on some conditions.
+If I were you, I would get a fish.
+If he is here, I'm sure he'll take the call.
+If he were here, I'm sure he'd take the call. (he were)
+If I were you == If I were in your position
+If I were looking for a pet, I would get a fish.
+If I could get a pet, I would get a dog.
 
+If I see these people, I will feel disgusted.
+If you open the door, you will see me.
+If they arrive at the station on time, they will catch the train.
+If you trust anybody in this country, you will be cheated.
+
+If you fixed this bug, the system would not crash.
+If I didn't forget to take my phone, I would call you.
+If you didn't forget to turn off the faucet, we would not return home.
+If I knew her, I would greet her.
+If I left her, she would sad.
+If I were you, I would leave her.
+If he were here, he would solve this problem.
+If she were the boss, she would let me promote.
+
+If I was working at the office, I would meet her.
+If you were driving, you would miss the call.
+If you were being at school, you would see him.
+
+If you could get that job, you might get more salary.
+If she could understand what I mean, she would not be cheated.
+If they could win the game,  I should like them.
+How should I do if they couldn't make it?
 
 #Lesson3: Good news
 * keywords: 

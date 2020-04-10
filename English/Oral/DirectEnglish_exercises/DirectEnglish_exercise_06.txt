@@ -321,9 +321,43 @@ Most people in this country won't understand the meaning of life until death.
 
 ##Unit48
 #Lesson1: Train strain
-* keywords: 
+* keywords: Advice: present and past
+    - ADVICE: PRESENT/FUTURE
+      Maybe I/you should do...
+      Maybe I/you ought to do...
+      I/You had better do...
+      I/You have to do...
+    - LOOKING BACK: ADVICE NOT TAKEN
+      Maybe I/You should have done...
+      Maybe I/You ought to have done...
+    - LOOKING BACK: ADVICE THAT WAS TAKEN
+      I/You had to do... (have to -> had to)
 
+Maybe you should see a doctor.
+I told Marie we should have flown.
+We should have taken the shuttle.
+I probably shouldn't.
+He would have had a bad back.
+How should they have traveled to New York, according to Joe?
 
+Maybe I should eat more vegetables.
+Maybe you should jog every morning.
+Maybe I ought to get up early.
+Maybe you ought to read a book.
+I had better drive slowly.
+You had better drive slowly.
+I have to fix my car.
+You have to find a new job.
+
+Maybe I should have learned English.
+Maybe you should have quit your job.
+Maybe I ought to have accepted your advice.
+Maybe you ought to have adopted my suggestion.
+
+I had to learn English.
+I had to take your advice.
+You had to see a doctor.
+You had to take care of her.
 
 #Lesson2: Pets
 * keywords: 

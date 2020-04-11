@@ -1058,11 +1058,14 @@ They also said they used to go to the restaurant which had closed.
 I suggested that some bugs must have existed in the system.
 The neighbors have told me that they will never give up the parking space even if police intervene.
 Didn't you tell him that the grocery beside our home which had closed?
+I've heard the news that was very interesting because I never heard about this kind of thing.
+The man you talked about who is a total fool because I knew him.
 
 #L48: Did You Want To Tell Me Something?
-* 宾语从句的疑问句使用陈述句语序: ask sb if/whether/how...
+* 宾语(名词)从句的疑问句使用陈述句语序: ask sb if/whether/how...
 She then asked me whether I liked her.
 I asked her how's her health.
+He asked me whether I was searching out the bug and how I fixed it.
 
 * either...or: 要么...要么...
 During her interview, she either nodded or shook.

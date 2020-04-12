@@ -475,31 +475,162 @@ The school believes in letting children learn at their own pace.
 
 ##Unit49
 #Lesson1: Cabs, cars, and candidates
-* keywords: 
+* keywords: adj.
+    - be / seem + adj.
+    - adj. + noun / one(s)
+    - the + adj.
+    - adj: -ed / -ing (people / things)
+    - adj: -ing (people) effect others
 
+I'm free.
+I'm a free man.
+They're free women/men.
+I need a new car.
+I need to buy a new one.
+We sold our old car.
+We bought two new ones.
+The land of the free and the home of the brave.
+The sound was loud enough to wake the dead.
+the blind, the deaf, the rich, the poor, the young, the old, the sick, the unemployed, the elderly, the disabled
+I get bored listening to cabbies.
+They tell very long, very boring stories.
+amazed/amazing, annoyed/annoying, bored/boring, excited/exciting, interested/interesting, pleased/pleasing, exhausted/exhausting
+Some people are very boring / very annoying.
 
+Then I get to listen to cabbies telling very long, very boring stories.
+It's very annoying.
+I don't get annoyed at that.
+I love talkative cabbies.
+Are you going to set up a private practice?
+I'm sure your dad will be pleased to give you a lift to the store.
+I get annoyed, that's all.
+Richard, don't be so boring.
+I can just afford a used car.
+You can afford a decent car.
+I was feeling tired and cranky.
+
+She's fashionable.
+She's a stylish woman.
+They're mean men.
+It seems a foolish decision now.
+It seems a genius idea.
+
+I want to buy a new phone.
+You needn't a new car.
+She just bought a new one.
+They have two old ones.
+You are a special girl.
+Shall I give you a beautiful necklace?
+Let's have an exciting dance.
+
+Both the poor and the rich are mean.
+The old is worse than the young.
+The deaf and the blind are all miserable.
+
+She is so amazed and interested.
+They are very bored.
+I'm so exhausted.
+I'm too tired to work.
+Are you pleased about that party?
+I'm excited too.
+Do you think this is an interesting story?
+I really hate taking part in this kind of annoying thing. 
+I want to take part in an exciting activity.
+Don't tell me that boring messages.
+
+Some interviewer is very boring and annoying.
+The smart girl can be interesting.
 
 #Lesson2: Public phones
-* keywords: 
+* keywords: both, all, the whole, everyone, everything
+    - both / both the : same
+    - All / All the : different
+    - the whole / all
+    - everyone / all : all of us == everyone
+    - everything / all
 
+In both cases, you will be told how much to insert.
+Both cases are the same. Both the cases are the same.
+All calls to "0" are free.
+All the calls I made were a waste of time.
+You will get the whole amount back.
+I've spent all my money.
+We waited the whole day. We waited all day.
+the whole amount, the whold truth, all my money
+Everyone wants to help Richard win.
+We all want to help Richard win.
+All of us want to help Richard win. ( = Everyone)
+Everything is OK. All is well.
 
+You can access all the long distance companies by dialing their codes first.
+Both lines are busy.
+All lines are busy.
+Everyone seems to be calling the party headquarters.
+I hear she is winning every match she plays.
+
+Both girls, I like them all.
+Both the songs, I love them all.
+Both you and I are honesty.
+I like both singing and dancing.
+Both the girls are insane.
+
+All people are mean.
+All the people I met are mean.
+All interviews are fake.
+All the interviews I intended are fake.
+
+I will claim the whole amount back.
+They didn't state the whole truth.
+I've already known the whole feeling of yours.
+I want to know all problems with our system.
+He has played video games all day.
+
+Everyone wants to bully me.
+Everybody doesn't know the meaning of life.
+All of these people are so mean.
+All of you were deceived by the local authorities.
+
+Everything is perfect.
+Everything is ruin.
+All is finished.
 
 #Lesson3: Things are going well
-* keywords: 
+* keywords: adj. clause
+    - who(m) / that / (-) : PEOPLE(Object.)
+    - to whom / whom...to / that...to / (-)...to
 
+Lisa, you look ravishing this morning.
+Are you one of those people that aliens abduct and take to their spaceships for experiments?
+You're cynical sometimes.
+Be practical.
+
+Are you one of those people who God chooses?
+I think I'm the one whom God chooses.
+Do you think I'm the one that God chooses?
+I'm the one God chooses.
+I like the cake you were eating.
+I want to buy a sports car that you own.
+I know the man whom you like.
+I know the man who you like.
+I know the man you like.
+
+Claire is the only woman to whom I can talk.
+Claire is the only woman whom I can talk to.
+Claire is the only woman that I can talk to.
+Claire is the only woman I can talk to.
 
 ##Unit50
-#Lesson1: 
+#Lesson1: Why not?
 * keywords: 
 
 
 
-#Lesson2: 
+#Lesson2: Because I said so
 * keywords: 
 
 
 
-#Lesson3: 
+#Lesson3: Promise
 * keywords: 
 
 

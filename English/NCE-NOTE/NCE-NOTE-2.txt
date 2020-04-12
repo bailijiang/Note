@@ -1079,24 +1079,33 @@ Why can't you make up your mind?
 I have to go out now. I must do some shopping.
 
 #L49: The End of a Dream
-* 连词: when,not...until, after, as soon as, before, because, as, since, to, in order to, although, who, which, that
+* 连词(adv. clause): 
+    when, not...until, after, as soon as, before, as, since
+    because, in order to, although, so...that...
+    to do, -ing, -ed
+
 I'm still not beginning to find a job because I haven't finished the thing which(that) I want to study.
 Although I can already write code, it's not well enough.
 I can't open my resume on the website until I finish ROS exercises.
 Finding no more vegetables, I went to a supermaket.
 Scratched in an accident, my car has still not been fixed.
-After having dinner, I went to the park which by my home walked for 2 hours.
-Hurt in that game, he has still not recovered by now.
+After having dinner, I went to the park, beside my home, to walk for 2 hours.
+Injured in that game, he has still not recovered by now.
 The people of this country who never can live better because they always enjoy cheating themselves.
 I went into the yard to wash my car.
+Infected by the coronavirus, he has been isolated in a hotel.
+I've been learning English very hard to make some friends from the USA.
+I forgot to call you.
+I prefer to have a cup of tea.
 
 * send + 名词 + 分词/into(to) 表示"使...处于某种状态"
 Poverty sent me feeling very unhappy.
 Composing and singing sent me very happy.
 
 #L50: Taken for a Ride
-* 表习惯性动词(主观动词), 用一般现在时
+* 表习惯性动词(主观动词), 用一般现在时 : verb. + n./-ing/to do
   belong to,consist of,contain,desire,detest,dislike,hate,hope,love,matter,mean,mind,need,want,wish...
+
 This box contains 48 matches.
 Those papers belong to me.
 He needs a new pair of shoes.
@@ -1105,7 +1114,7 @@ I desire of living happily.
 I wish to make a complaint.
 I want to use English everywhere.
 
-* love doing / like doing:
+* love/like + -ing:
 I love listening to music while working.
 I don't like being set up by my boss.
 I need a new job.
@@ -1123,7 +1132,7 @@ According to my age, I realized that I must get married quickly.
 I stand in the front of the ship to feel the sea breeze.
 
 * 宾语从句(名词从句)的省略: where
-I'll tell you where to get off.
+I'll tell you where to get off. ==> I'll tell you where you get off.
 I'll tell you where you ought to get off.
 
 #L51: Reward for Virtue

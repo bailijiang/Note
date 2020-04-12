@@ -412,7 +412,7 @@ How should I do if they couldn't make it?
 #Lesson3: Good news
 * keywords: The infinitive and the -ing form
     - It's easy/difficult/nice/pleasant/important + to do / -ing ...
-    - adj. + -ing(PARTICIPLE) == adv. clause
+    - adj. + -ing(PARTICIPLE): S + V + C (Complement.: adj./n.)
       bored, busy, fed up, happy, tired...
     - It's no use -ing.
       It's no good -ing.
@@ -435,7 +435,7 @@ Yvonne is very good at managing people.
 Joe didn't advise Richard against running for office.
 
 I'm fed up with waiting for her.
-Why don't you stop by next Wednesday?
+Why don't you stop by next Wednesday? (stop by)
 I also like eating and sleeping.
 It's no use complaining, is it?
 I can't go on working without taking a break.

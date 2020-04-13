@@ -1163,6 +1163,9 @@ It has not been easy because I need nutrition to remain balance.
 This is the most delicious I have ever had.
 I have rung you up five times since 7 o'clock.
 I have been ringing you up all morning
+I have bought this product three times.
+I have been using this product since last year.
+I have never lived in this house.
 
 #L53: Hot Snake
 * 过去完成时: had been

@@ -514,6 +514,9 @@ She's a stylish woman.
 They're mean men.
 It seems a foolish decision now.
 It seems a genius idea.
+I get annoyed.
+Do you get annoyed?
+Are you annoyed?
 
 I want to buy a new phone.
 You needn't a new car.
@@ -556,7 +559,7 @@ All the calls I made were a waste of time.
 You will get the whole amount back.
 I've spent all my money.
 We waited the whole day. We waited all day.
-the whole amount, the whold truth, all my money
+the whole amount, the whole truth, all my money
 Everyone wants to help Richard win.
 We all want to help Richard win.
 All of us want to help Richard win. ( = Everyone)

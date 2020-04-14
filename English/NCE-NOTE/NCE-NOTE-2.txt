@@ -1170,6 +1170,7 @@ I have never lived in this house.
 #L53: Hot Snake
 * 过去完成时: had been
   现在完成进行时: have/has been doing
+  for, since, ever, yet
 I had quit my job for 3 months.
 Since then, I have been learning English for 3 months.
 Have you ever tried this restaurant?
@@ -1180,6 +1181,15 @@ I have just bought a mobile phone which was stolen on the bus.
 I don't trust people who talk too much.
 I'm afraid (of that thing) that I can't help you.
 The story that he once killed a man might just be true.
+
+This is the car which I've just bought.
+The reason why I didn't call you is I was working yesterday.
+She is the girl who they all love.
+The old lady who we all know is the murderer.
+
+* but
+This car is very cool but very expensive.
+They are all rich but mean.
 
 #L54: Sticky Fingers
 * any, some / The / Most

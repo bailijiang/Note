@@ -748,31 +748,146 @@ I'm going to go abroad to work.
 
 ##Unit51
 #Lesson1: Wish you were here
-* keywords: 
+* keywords: Advice (present and past)
+    - ADVICE: PRESENT/FUTURE
+        shouldn't do 
+        oughtn't to do 
+        had better not do 
+        don't need to do 
+        don't have to do
+    - LOOKING BACK: ADVICE NOT TAKEN
+        shouldn't have done
+        oughtn't to have done
+    - LOOKING BACK: LACK OF NECESSITY
+        didn't need to do
+        didn't have to do
 
+I shouldn't tell you this.          You shouldn't tell this to anyone.
+I oughtn't to tell you this.        You oughtn't to tell this to anyone.
+I'd better not tell you this.       You'd better not tell this to anyone.
+I don't need to go to school today. You don't need to go to school today.
+I don't have to go to school today. You don't have to go to school today.
+Mom told dad he'd better not drive so fast.
+I shouldn't go with you.
+You shouldn't talk to these people.
+I'd better not eat that cake.
+You'd better not hang out with her.
+I don't need to learn so many skills.
+You don't need to do too many works.
 
+I shouldn't have told you this.     You shouldn't have told this to anyone.
+I oughtn't to have told you this.   You oughtn't to have told this to anyone.
+We shouldn't have brought sunglasses.
+We should have brought raincoats.
+You shouldn't have called Nathan at work.
+I shouldn't have taken that offer.
+You shouldn't have said that.
+They shouldn't have deceived me.
+
+I didn't need to go to school yesterday. You didn't need to go to school yesterday.
+I didn't have to go to school yesterday. You didn't have to go to school yesterday.
+I didn't need to go to New York to see my friend.
+I don't have to go to school while we are here.
+I didn't need to feel guilty.
+You didn't need to feel regret.
+I didn't have to talk this to you.
+You didn't have to leave him.
 
 #Lesson2: If not for...
-* keywords: 
+* keywords: if Type3
+    - If...do/does..., you will/may/can do..
+    - If...were/did..., you would/might/could do...
+    - If...had done..., you would/might have done...
 
+If you watch the ball, you will/may/can catch it.
+If you want dinner this evening, you'll have to cook it yourself.
+If you drink too much, you will be drunk.
+If you get trouble, I will help you.
 
+If you watched the ball, you would/might/could catch it.
+If they were honest, I wouldn't be deceived.
+If I got up early, I would feel better.
+
+If I had chosen criminal law, we would never have worked together.
+If I had decided to go into private practice, we would/might never have met.
+If my father hadn't been a lawyer, I would/might not have gone to law school.
+If I hadn't met Nancy, I would/might have gone to a different law school.
+So Joe, if I had watched where I was going, you and I would have missed each other entirely!
+And I wouldn't have met Nancy, if I'd been more coordinated.
+How might Joe never have met Richard?
+If I'd known you were going to be late, I wouldn't have cooked.
+If I hadn't quit that job, I would have bought this house.
+If they had stopped him, he wouldn't have suicided.
+If I had been smarter, I wouldn't have believed them.
+If I had called her when I was working, she might not have been angry.
+How might Claire never have missed me?
 
 #Lesson3: What a week!
-* keywords: 
+* keywords: verb. + to do / -ing
+    - VERB + TO OR -ING: NOCHANGE OF MEANING
+        continue to do, continue doing
+        begin to do, begin doing, beginning to do
+        attempt, can't bear, cease, intend, omit, start, like, love
+    - VERB + TO OR -ING: SLIGHT CHANGES IN MEANING
+        dread doing, dread to do
+        hate doing, hate to do
+    - VERB + TO OR -ING: DIFFERENT MEANINGS
+        remember doing, remember to do
+        try doing, try to do
 
+Continue to fill our glasses. Continue filling our glasses.
+Richard began to fill our glasses. Richard began filling our glasses.
+I'm beginning to realize that's not going to happen.
+I'll begin clearing out next week.
+We can start sorting the office out on Monday.
+I love clearing out.
+He began changing his routines even before he went on vacation.
+Claire continues to work at the weekend.
+Claire continues working at the weekend.
+When did you begin to teach at school?
+When did you begin teaching at school?
+I attempt to compose a song.
+I attempt composing a song.
+We can't bear to lose the game.
+We can't bear losing the game.
+It’s starting to rain.
+
+I dread getting up out of this chair.
+I dread to think what has happened.
+I hate disturbing you.
+I hate to disturb you.
+I dread to think what it will be like.
+I hate throwing away old papers!
+I hate sitting around.
+I hate working at the weekend.
+I hate to work at the weekend.
+I dread walking in a nightmare.
+I dread to walk in a nightmare.
+
+Do you remember coming home from work on Friday night?
+Remember to come home from work early tomorrow.
+Did you remember to turn the answering machine on?
+Try taking a weekend off in real estate.
+Try to take next weekend off if you can, Douglas.
+Try not to keep anything you haven't looked at in 2 years.
+Do you remember closing the faucet before you left?
+You should remember to close the faucet before you left.
+I tried composing a song.
+I tried to make it better.
+He tried to control his voice.
 
 ##Unit52
-#Lesson1: 
+#Lesson1: Nights in
 * keywords: 
 
 
 
-#Lesson2: 
+#Lesson2: Clearing out
 * keywords: 
 
 
 
-#Lesson3: 
+#Lesson3: Talking frog
 * keywords: 
 
 

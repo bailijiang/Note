@@ -981,21 +981,47 @@ Neither of them is fair.
 Neither of us didn't make it.
 
 #Lesson3: Talking frog
-* keywords: 
+* keywords: adj. clause
+    - SUBJECTS: who/that, which/that
+    - OBJECTS: who(m)/that, which/that
+    - whose + noun.
 
+An old man who/that finds the frog keeps it in his pocket.
+I'm a beautiful woman who/that has been put under a spell.
+Here's a joke which/that will make you laugh.
+I like that basketball player who can dunk.
+I hate that guy that has deceived me.
+I've just bought a house which located in Shunyi.
+I want to find a job that can work abroad.
+Claire is the only woman I've ever met who can speak English so well.
+Those interviewers are so disgusting I hate extremely who ran a fake interview of me.
+
+She was a beautiful woman (whom/who/that) he met by chance.
+It was an ugly frog (which/that) he put in his pocket.
+Either one of them I dislike.
+This is the picture I just took.
+That is the CTO whom we just hired.
+This is the final version of the paper that I edited.
+
+Am I the only person whose jokes you interrupt?
+That's the house whose windows were broken.
+I saw a man shouting at a driver whose car was blocking the street.
+I'm seeing a girl whose body is super hot.
+That guy is very annoying whose voice is very aloud.
+I want to make a friend whose English is very well.
 
 ##Unit53
-#Lesson1: 
+#Lesson1: Playtime
 * keywords: 
 
 
 
-#Lesson2: 
+#Lesson2: Congratulations
 * keywords: 
 
 
 
-#Lesson3: 
+#Lesson3: The speech
 * keywords: 
 
 

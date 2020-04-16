@@ -1307,7 +1307,7 @@ She returned home taken a large basket of vegetables.
 
 #L58: A Blessing in Disguise?
 * 被动语态(起强调作用)
-All the neighbors have been asked to move their cars to other places, but so far they have refused.
+My neighbors have been asked to have their cars moved away, but so far they have not performed.
 The vice president has been arrested because of corruption.
 He was offered the vacant post.
 
@@ -1323,12 +1323,14 @@ It was because of him that we succeeded.
 
 * claim
 This wrong decision has already claimed much damage to the company.
-So far, the coronavirus has claimed 2,000 persons of China.
+So far, the coronavirus has claimed 2,000 lives of China.
 
-* is said to
-  It is said that...
-The classmate who has not seen many years is said to go abroad.
-It is said that if you buy a lottery ticket continually with the same number, you will win the big prize.
+* is said to be...
+  = It is said that...
+He is said to be a genius.
+It is said that he is a genius.
+She is said to be a musician.
+It is said that she is a musician.
 
 #L59: In or out?
 * 表示目的的几种方式(连词),后面连接副词从句(状语从句): to, in order to, so as to, so that, in order that

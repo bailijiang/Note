@@ -878,7 +878,7 @@ He tried to control his voice.
 
 ##Unit52
 #Lesson1: Nights in
-* keywords: -er, -est
+* keywords: -er, -est (adj.)
     - small, smaller, the smallest
       strange, stranger, strangest
       big, bigger, biggest
@@ -918,6 +918,9 @@ Claire is the most careless in her family.
 You are correct.
 This manner is more correct than yours.
 This is the most correct solution in the world.
+This house is more comfortable than that one.
+This book is more interesting than that one.
+Most people in this country are the most ignorant in the world.
 
 Boston is five miles further/farther.
 There's no further information.
@@ -945,6 +948,17 @@ They know less than I do about this project.
 He knows less than I do about driving.
 Which method causes the least damage to the environment?
 If you make the least mistakes, you will win the game.
+She has much cynical.
+She has more cynical than Tony.
+She is the most cynical in his family.
+She prefers a more lavish lifestyle.
+Her life is more lavish than yours.
+Her pose is more ravishing than yours.
+He is a little insidious man.
+He has less insidious than you.
+He was one of the least warm human beings I had ever met.
+Claire wasn't the least bit frightened.
+She is the least adorable girl in the class.
 
 #Lesson2: Clearing out
 * keywords: Distributives
@@ -973,7 +987,7 @@ I can hardly believe this. I can't either. / Me neither. (too)
 Which one would you like? I don't want either of them. Thanks / Neither. Thanks. / Either one is lovely.
 I don't like either of them.
 Neither of them is really right.
-I haven't enough money. Me either.
+You haven't enough money. I haven't either. / Me neither.
 I don't like either of them.
 Either of us doesn't like smoking.
 Either one is difficult.
@@ -1000,14 +1014,14 @@ She was a beautiful woman (whom/who/that) he met by chance.
 It was an ugly frog (which/that) he put in his pocket.
 Either one of them I dislike.
 This is the picture I just took.
-That is the CTO whom we just hired.
+That is the CTO (whom) we just hired.
 This is the final version of the paper that I edited.
 
 Am I the only person whose jokes you interrupt?
 That's the house whose windows were broken.
 I saw a man shouting at a driver whose car was blocking the street.
 I'm seeing a girl whose body is super hot.
-That guy is very annoying whose voice is very aloud.
+That guy is very annoying whose voice is so loud.
 I want to make a friend whose English is very well.
 
 ##Unit53

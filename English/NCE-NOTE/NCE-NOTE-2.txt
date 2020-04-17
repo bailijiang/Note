@@ -1342,7 +1342,7 @@ He left the letter on the table in order that I might see it.
 * has developed / as soon as / until / got so annoyed
 How did you develop this vice?
 I have developed a good habit of eating an apple every day.
-As soon as she came back home, she had begun cooking until I went home.
+As soon as she came back home, she had been cooking until I went home.
 As soon as I arrived at the office, I have started working until lunchtime.
 He got so annoyed because his wife cheated on him.
 
@@ -1380,7 +1380,7 @@ He's arriving tomorrow.
 Are you leaving now?
 
 * 表示 条件/时间 的副词从句 用 一般现在时表将来, 主句用将来时
-  if / as soon as / when / before / after / until + 条件从句
+  if / as soon as / when / before / after / until / The moment + 条件从句
 If I go outside this time, I will meet many people who annoyed me.
 They will pay a high price when the conditions permit.
 The moment you leave this tent, you will get a big surprise.
@@ -1389,11 +1389,13 @@ I shall wait here until he comes.
 I'll give him the message when he returns.
 I'll join you after I finish my work.
 He will write to his friends as soon as he gets there.
+The moment you leave, I'll kiss you.
 
 As soon as she comes back, we shall set out to the airport.
 I won't leave there until he comes back.
 Before the boss takes part in the meeting, we won't start it.
 We shall start training after the coach arrives.
+You should have (shouldn't haven't) finished your work after I went back to the office.
 
 * 带名词从句(what...)的疑问句
 Does what she said come true?

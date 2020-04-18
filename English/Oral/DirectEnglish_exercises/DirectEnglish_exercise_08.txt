@@ -2,8 +2,12 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
+
+
 
 #Lesson3: 
 * keywords: 
@@ -13,8 +17,12 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
+
+
 
 #Lesson3: 
 * keywords: 
@@ -24,8 +32,12 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
+
+
 
 #Lesson3: 
 * keywords: 
@@ -35,8 +47,12 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
+
+
 
 #Lesson3: 
 * keywords: 
@@ -46,8 +62,12 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
+
+
 
 #Lesson3: 
 * keywords: 
@@ -57,8 +77,12 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
+
+
 
 #Lesson3: 
 * keywords: 
@@ -68,8 +92,12 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
+
+
 
 #Lesson3: 
 * keywords: 
@@ -79,8 +107,12 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
+
+
 
 #Lesson3: 
 * keywords: 
@@ -90,10 +122,16 @@
 #Lesson1: 
 * keywords: 
 
+
+
 #Lesson2: 
 * keywords: 
 
+
+
 #Lesson3: 
 * keywords: 
+
+
 
 

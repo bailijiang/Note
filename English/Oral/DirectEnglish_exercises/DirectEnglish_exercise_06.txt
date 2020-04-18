@@ -1154,16 +1154,149 @@ The car should be driven away by Bryan.
 
 ##Unit54
 #Lesson1: Premiere
-* keywords: 
+* keywords: Used to
+    - used to do / Did you use to...?
+    - used to do / did
+    - used to do / do(does)
+    - used to do = would do
+    - be used to / get used to + -ing (accustomed)
 
+I used to hang out with Claire.
+Did you use to hang out with Claire?
+I didn't use to hang out with Claire.
+I never use to hang out with Claire.
+He used to be so embarrassed about his balloon delivery job.
+I used to play video games at home.
+Claire used to order take-out at noon.
+Did you use to work overtime?
+I never use to watch TV.
 
+I used to spend a lot of time there. (but now I don't)
+I spent a lot of time there.
+I used to drink a beer after work.
+I drank a beer at night.
+
+I used to hang out with Claire.
+I hang out with Claire a lot. (present accustomed)
+I used to play basketball at school.
+I play tennis at school a lot.
+
+Michael used to get up all hours of the day and night.
+Michael would get up all hours of the day and night.(!= regularity)
+Richard said he would be home late tonight. (regularity)
+She used to go shopping last year.
+She would go shopping last year.
+
+We're used to watching my project on our old TV.
+I could never get used to reporters.
+Michael is used to getting up early.
+I'm getting used to getting up early.
+I'm getting used to having him around.
+I'm used to drinking a cup of green tea in the morning.
+I'm getting used to drinking a cup of green tea in the morning.
+They are used to deceiving everybody.
+They get used to deceiving everybody.
 
 #Lesson2: Michael's work journal
-* keywords: 
+* keywords: if / unless
+    - If...do/does, ...will do/be...
+    - If...did/was doing, ...would do/be... (subjunctive: low possibility)
+    - If...had done..., ... would have done... (subjunctive: no possibility)
+    - unless >= if...not
+    - if, so long as, assuming (that), even if
+      on (the) condition (that), provided/providing (that)
+      suppose (that), supposing (that)
 
+If you don't show me your hand, I will shoot you.
+If you see her, you'll fall in love.
+If you talk with those people, you'll have much trouble.
+I'm calling to say I'll be back at work this evening, unless you hear otherwise.
 
+If I took that job, I would go abroad to work.
+If I had enough money, I would redecorate this house.
+If you fixed this bug, you would receive extra money.
+Under these conditions, we may give up this project.
+
+If I had known that parking could be such a problem, I wouldn't have chosen Harvard Square.
+If I hadn't learned English, I wouldn't have gone abroad to live.
+Supposing somebody had infected the virus, we would have isolated by police.
+Even if I had accepted that job, I would not have had the opportunity to go abroad.
+
+Unless I keep this in mind, I'll have problems getting the film finished.
+Unless I can handle AI technology, I'll not get that job.
+Unless I can get up early, I won't catch the flight.
+Unless I can get rid of these people, I'll have trouble living there.
+
+So long as the weather stays fine, I'll be OK.
+So long as it doesn't rain, we'll jog in the park.
+Assuming that you admit it, you will be sue at court.
+I'll get there, even if I have to walk.
+He can come with us, provided he pays for his own meals.
+I can meet her, provided she apologies to me.
+I don’t suppose I’ll ever see her again.
+What makes you suppose we’re going to sell the house?
+Suppose someone doesn't obey my order, I'll kill him.
 
 #Lesson3: Fellow citizens
-* keywords: 
+* keywords: to do / -ing (review)
+    - let...do / would rather do
+    - v. + to do : aim, appear, want, would like, hope
+    - v. + -ing : admit, appreciate, avoid, consider, 
+                  dislike, enjoy, explain, feel like, 
+                  finish, forgive, can't imagine, keep, 
+                  (don't) mind, miss, practice, prevent, 
+                  risk, suggest, understand
+    - v. + to do / -ing : like, love, hate
+    - v. + to do / -ing (DIFFERENT MEANINGS) : remember, regret, try, forget
+    - prep. + -ing : for, without, of, on, in, at ...
+
+Let me say a few words.
+I'd rather just talk to you.
+Let me help you solve this problem.
+Let me have a look at that letter.
+I’d rather have a quiet night in front of the TV.
+I'd rather live alone.
+Do you see anyone enter the building?
+
+I'd like to tell you my idea of a civilized society.
+Do you want to sleep here tonight?
+It appears to rain.
+The system appears to crash.
+I would like to compose a song for myself.
+I hope to realize my dream.
+
+You'll enjoy watching this on TV.
+I wish I can keep looking eternally young.
+Claire admitted feeling hurt by what I had said.
+I have to admit feeling hurt by what you said.
+I don't appreciate being treated like a second-class citizen.
+I do appreciate being treated like a King.
+I must practice speaking English every day.
+
+I don't like to read speeches.
+I don't like reading speeches.
+I love to jog in the morning.
+I love jogging in the morning.
+I hate to lose any competition.
+I hate losing any competition.
+
+I'll remember to be brief.
+I remember being brief.
+Women trying to look eternally young.
+I think I can try living in America.
+Five years later she regrets having given up her home.
+We regret to inform you that your application has not been successful.
+I regret giving up that job.
+I regret to tell you about that.
+I forgot to take Beth to school this morning.
+I'll never forget hearing this piece of music for the first time.
+
+Thank you for listening.
+Leave the room without making a noise.
+Don't be afraid of asking questions.
+This knife for cutting bread.
+She left the house without saying a word.
+This song is the art of composing.
+This has been a good chance of meeting up with everyone again.
 
 

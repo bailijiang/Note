@@ -1422,10 +1422,14 @@ You can get off work at 6 o'clock.
 As soon as she has known her health examination result, she will let me know.
 
 #L62: After the Fire
-* 过去完成时 had done
+* 过去完成时 did... after... had done
+           had done... before...did
+  when, before, after, as soon as, by, asked...
+
 When I went to the office yesterday, my boss had been there.
 She had already finished cooking dinner when I went home.
 I had finished jogging before she woke up.
+She called me after I had left home.
 
 * 过去完成进行时 had been doing 
 By last year, I had been playing basketball for nearly 30 years.

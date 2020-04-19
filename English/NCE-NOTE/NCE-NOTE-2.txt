@@ -1485,6 +1485,7 @@ She suggested that you should not go to work at that company.
 He insisted that I should stay to lunch.
 They suggested that I should quit this job.
 I insisted that I would quit that job.
+She insisted that I should finish my English coures.
 
 * This is the sort of thing that...
 This is the sort of thing that I hate.

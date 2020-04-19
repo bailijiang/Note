@@ -1155,16 +1155,16 @@ The car should be driven away by Bryan.
 ##Unit54
 #Lesson1: Premiere
 * keywords: Used to
-    - used to do / Did you use to...?
-    - used to do / did
-    - used to do / do(does)
+    - used to do, Did you use to...?
+    - used to do, did
+    - used to do, do(does)
     - used to do = would do
-    - be used to / get used to + -ing (accustomed)
+    - be used to / get used to + -ing/n. (accustomed)
 
 I used to hang out with Claire.
 Did you use to hang out with Claire?
 I didn't use to hang out with Claire.
-I never use to hang out with Claire.
+I never used to hang out with Claire.
 He used to be so embarrassed about his balloon delivery job.
 I used to play video games at home.
 Claire used to order take-out at noon.
@@ -1182,8 +1182,8 @@ I used to play basketball at school.
 I play tennis at school a lot.
 
 Michael used to get up all hours of the day and night.
-Michael would get up all hours of the day and night.(!= regularity)
-Richard said he would be home late tonight. (regularity)
+Michael would get up all hours of the day and night.(!= regularity: would do)
+Richard said he would be home late tonight. (regularity: would be/do)
 She used to go shopping last year.
 She would go shopping last year.
 
@@ -1223,25 +1223,26 @@ Supposing somebody had infected the virus, we would have isolated by police.
 Even if I had accepted that job, I would not have had the opportunity to go abroad.
 
 Unless I keep this in mind, I'll have problems getting the film finished.
-Unless I can handle AI technology, I'll not get that job.
-Unless I can get up early, I won't catch the flight.
 Unless I can get rid of these people, I'll have trouble living there.
+If you don't exercise regularly, you will get sick.
+Unless you exercise regularly, you will get sick.
 
 So long as the weather stays fine, I'll be OK.
 So long as it doesn't rain, we'll jog in the park.
 Assuming that you admit it, you will be sue at court.
 I'll get there, even if I have to walk.
+I'll finish that job, even if I come across so many troubles.
 He can come with us, provided he pays for his own meals.
 I can meet her, provided she apologies to me.
 I don’t suppose I’ll ever see her again.
 What makes you suppose we’re going to sell the house?
-Suppose someone doesn't obey my order, I'll kill him.
+Suppose anyone doesn't obey my order, I'll kill him.
 
 #Lesson3: Fellow citizens
-* keywords: to do / -ing (review)
-    - let...do / would rather do
-    - v. + to do : aim, appear, want, would like, hope
-    - v. + -ing : admit, appreciate, avoid, consider, 
+* keywords: to do (will) / -ing (past) 
+    - let...do / would rather do / see...do
+    - v. + to do (will): aim, appear, want, would like, hope
+    - v. + -ing (past): admit, appreciate, avoid, consider, 
                   dislike, enjoy, explain, feel like, 
                   finish, forgive, can't imagine, keep, 
                   (don't) mind, miss, practice, prevent, 
@@ -1256,7 +1257,7 @@ Let me help you solve this problem.
 Let me have a look at that letter.
 I’d rather have a quiet night in front of the TV.
 I'd rather live alone.
-Do you see anyone enter the building?
+Did you see anyone enter the building?
 
 I'd like to tell you my idea of a civilized society.
 Do you want to sleep here tonight?
@@ -1288,6 +1289,7 @@ Five years later she regrets having given up her home.
 We regret to inform you that your application has not been successful.
 I regret giving up that job.
 I regret to tell you about that.
+You will regret to tell her about that.
 I forgot to take Beth to school this morning.
 I'll never forget hearing this piece of music for the first time.
 

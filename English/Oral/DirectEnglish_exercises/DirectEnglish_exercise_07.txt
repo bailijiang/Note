@@ -47,13 +47,88 @@ I was learning English a few years ago.
 
 #Lesson2: Editorial
 * keywords: 
+    - There is... / There are...
+    - whose = of which
+    - do/does : INTENTIONS (touch on)
+    - which: things, animals
+      who: people
 
+There's a magazine on the table.
+There are some magazines on the table.
+There is a song I really like.
+There are lots of songs I really like.
 
+The magazine whose pages bring surprises at every turn.
+It is one of those books whose sales have surprised everyone.
+It is one of those books the sales of which have surprised everyone.
+The sports car whose engine is very powerful.
+The sports car the engine of which is very powerful.
+It is one of those songs whose rhythm touches me.
+It is one of those songs the rhythm of which touches me.
+I like the movie whose plot is very attractive.
+I like the movie the plot of which is very attractive.
+Kobe Bryant is one of those people whose career has been spectacular.
+
+In our premiere issue, we touch on topics ranging from the mystery of twins to the evolution of the phone.
+It touches on different varieties, how to grow them, and etc.
+The meeting touches on our product flaws.
+The robot whose functions touch on AI, optical, and voice recognition.
+The street are full of houses which look alike.
+
+We think we have something for just about everyone, which we hope includes you.
+We'll take care of everyone who needs help.
+I want to compose a song which can express my emotion at present.
+I've ever had a pet which is a rabbit and it was very cute.
+The girl was left out at your party who is my sister.
+We'll cure everyone who needs help.
 
 #Lesson3: Twice lucky Chapter 1
 * keywords: 
+    - must / have to
+    - have been / was,were + n.
+    - go/come + -ing
+    - have + (a,an) noun.
 
+We have to go back home tomorrow.
+We had to go back home yesterday.
+You must stop when the traffic lights are red.
+You must not talk in class.
+I have to take a pill before sleeping.
+They had to accept that suggestion.
+We must fix that bug before the system running.
 
+It's been a wonderful vacation.
+It was a wonderful vacation.
+It has ever been a beautiful place.
+It was a beautiful place.
+It has been a river winding across the park.
+It was a car blocking our door yesterday.
+How long were you in Boston?
+
+Let's go swimming.
+Do you want to go fishing with us?
+We're going to go sailing this weekend.
+The new CTO will come running our team next week.
+The AI technology will come speeding our robot project.
+Come swimming with me.
+
+They had a picnic lunch.
+We had an argument.
+We had a talk.
+I have a good cry.
+I need to have a rest.
+Do we have an appointment?
+Have a good time.
+Have a nice day.
+I have a cold last week.
+I have a headache after working.
+He has a sense of humor.
+Do you have an idea?
+I had a shock when you entered.
+They have a baby.
+We have no time to have dinner.
+Do you have trouble with your new job?
+Good luck and have fun!
 
 ##Unit56
 #Lesson1: Chasing money

@@ -1591,12 +1591,14 @@ I managed to arrive at the airport on time at midnight.
   ..., but... : 虽然..., 但是...（后置强调)
 Though I'm still insisting on learning English, I'm too tired.
 I'm too tired, but I'm still insisting on learning English.
+Though she’s almost 40, she still plans to compete.
 
 * Although: 连词，强调事实
   though: 连词，也可作副词, 可以强调假设
 Although it was snowing, it was not very cold.
 Let's start as arranged though it rains tomorrow.
 It's hard work, I enjoy it though.
+Although in poor health, she continued to carry out her duties.
 
 # L68: Persistent
 * 连缀动词(avoid/enjoy/like/love/deny/go/come/went...) + 动名词(名词短语) == 宾语/补语: 在名词位置(宾语/补语/主语),使用带有动词含义的动名词
@@ -1634,6 +1636,7 @@ I turned my head, trying to avoid looking at her.
 It's no use helping him.
 It's no use arguing with you.
 It is no use having medicine for this kind of illness.
+It's not worth wasting time to talk with her.
 Would you mind drinking with me?
 Would you mind my smoking here?
 

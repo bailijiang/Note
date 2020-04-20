@@ -73,7 +73,6 @@ In our premiere issue, we touch on topics ranging from the mystery of twins to t
 It touches on different varieties, how to grow them, and etc.
 The meeting touches on our product flaws.
 The robot whose functions touch on AI, optical, and voice recognition.
-The street are full of houses which look alike.
 
 We think we have something for just about everyone, which we hope includes you.
 We'll take care of everyone who needs help.
@@ -81,6 +80,7 @@ I want to compose a song which can express my emotion at present.
 I've ever had a pet which is a rabbit and it was very cute.
 The girl was left out at your party who is my sister.
 We'll cure everyone who needs help.
+The street are full of houses which look alike.
 
 #Lesson3: Twice lucky Chapter 1
 * keywords: 
@@ -107,7 +107,7 @@ How long were you in Boston?
 
 Let's go swimming.
 Do you want to go fishing with us?
-We're going to go sailing this weekend.
+We'll go sailing this weekend.
 The new CTO will come running our team next week.
 The AI technology will come speeding our robot project.
 Come swimming with me.

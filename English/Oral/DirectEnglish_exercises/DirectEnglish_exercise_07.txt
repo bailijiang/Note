@@ -298,32 +298,208 @@ Can you get her to change her mind?
 ##Unit57
 #Lesson1: Missing in action
 * keywords: 
+    - be doing / do(does)
+    - Will: prediction
+            requests
+            characteristic behavior
+    - Let
+    - Would do (tentative) / do
+        
+What's happening? / What's going on?
+What happens When Gene goes away?
+It takes them forever to decide to buy and when they do decide they want immediate delivery.
+Heads I win. Tails you lose!
+How do you feel when someone doesn't meet a delivery date?
+I'm listening to music at home.
+I sometimes listen to music at home.
 
+Will it rain tomorrow?
+It will rain tomorrow.
+Will you mail this for me?
+I will mail this for you.
+He'll often go away on a mission.
+= He often goes away on a mission.
+Boys will be boys. Accidents will happen.
+= Boys are boys. Accidents happen.
+Claire will often read a book at night.
+Claire often reads a book at night.
+Fools will be fools.
+Fools are fools.
 
+Let me get this straight. (= allow me to...)
+Let us have more time.
+Let me make a suggestion.
+Did you let her borrow your car?
+Don't let the children annoy you.
+Let's have a meeting.
+Let's not argue.
+Let me take a look.
+Don't let her go outside.
+Let's have a rest.
+
+I would say that's a problem. 
+I say that's a problem.
+That seems to be a good idea.
+That would seem to be a good idea.
+I would say that's a little complicated.
+I say that's a little complicated.
+He seems to be a kind man.
+He would seem to be a kind man.
 
 #Lesson2: Communication in style
 * keywords: 
+    - make (a/an) + noun.
+      do + noun.
+    - will be done
+      has/have been done
+      was done
+    - are being done
+      were being done
+    - come up with, put up with
+      boil down to, talk sb out of 
+      face up to, look down on
+      come down with, look forward to
 
+* make + (a/an) noun. 
+make an agreement,           make an announcement,    make an apology
+make an appointment,         make an attempt,         make a change
+make a choice,               make a claim,            make comments
+make a difference,           make an effort,          make an escape
+make an exception,           make a fortune,          make a gesture
+make a habit of something,   make a law,              make love
+make a mistake,              make a name for oneself, make an offer
+make peace,                  make plans,              make progress
+make a proposal,             make room for someone,   make a start
+make a success of something, make a suggestion,       make war
+make a will,                 make a wish
 
+* do + noun.
+do your best,       do business,        do the cleaning
+do the cooking,     do damage,          do the dishes
+do your duty,       do exercises,       do good
+do someone good,    do your hair,       do harm
+do the housework,   do your homework,   do a job
+do the laundry,     do math,            do your nails
+do nothing,         do no goods,        do a report
+do research,        do right,           do the shopping
+do sports,          do the wash,        do wonders
+do work,            do wrong
+Who does your hair?
+
+The matter will be dealt with soon.
+Our office will be cleaned out tomorrow.
+My car has been stolen.
+A prototype has already been made by another company.
+That country has been invaded.
+These people have been infected.
+Rome wasn't built in a day.
+The windows were opened.
+This car was smashed down.
+The phone lines are being used.
+A second model is being developed now.
+Our luggage is being checked now.
+Exchanges were being built.
+This building was being built this time last year.
+
+Who can come up with the best product at the lowest possible price? (suggest)
+We've been asked to come up with some new ideas.
+I must come up with a solution to the project.
+Don't put up with it. (tolerate)
+She put up with his violent temper.
+It boils down to this. (summarized)
+This kind of thing boils down to their stupid.
+You'd better talk him out of it. (persuade)
+Face up to reality. (accept)
+She looks down on us. (considers us inferior)
+Don't look down on me.
+I'm coming down with the flu. (about to be sick)
+I look forward to your visit. 
 
 #Lesson3: Twice lucky Chapter 3
 * keywords: 
+    - IRREGULAR adv. 
+        fast, better, best, early
+        hard, high, last, late, near
+    - someone,somebody,somewhere,something...
+      anyone,anybody,anytime,anywhere,anything...
+      nobody,nowhere,nothing...
+    - There + be + noun. : 
+        There has been
+        There should be
+        There will be
+        There could be
+        There must be
+    - could
+      be able to
 
+It went slowly.
+It rained heavily.
+It went fast.
+You've done better.
+Your bike will run better if you oil it.
+I want to sleep better tonight.
+It works best if you let it warm up first.
+We arrived early.
+How fast can you get the job done?
+It all happened so fast I didn't even notice I was bleeding.
+She works hard.
+Sometimes David hardly does any work.
+She tried her hardest to ignore what he'd said.
+I'm concentrating very hard.
+I can hardly believe it.
+We just do not set our sights high enough.
+An eagle circled high overhead.
+You jumped too high.
+He is a highly successful politician.
+When I last saw her, she was working in New York.
+I can hardly remember when I last went to travel.
+Lastly, could I ask all of you to keep this information secret?
+Lastly, I would like to ask about your future plans.
+We have to work late tonight.
+It was late in the afternoon.
+Lately, I've had trouble sleeping.
+Lately, I've felt uncomfortable.
+They live near London.
+Don't come near me.
+It took nearly two hours to get here.
 
+I met someone you know.
+Is there anything I can do to help?
+There isn't anything you can do to help.
+Is there something I can do to help? (expect Yes)
+There 's nothing I can do to help.
 
+There has been an accident.
+There will be a meeting next week.
+There could be a problem about this.
+There must be a mistake.
+There will be a match in the city.
+There has been a party.
+Is there a gun?
+There wasn't a party.
+
+I could run very fast when I was young.
+Could you dunk when you were young?
+I was able to get tickets for the match yesterday.
+I was able to speak English two years ago.
+I want to be able to pass my driver's test first time.
+Chip and Daisy might have been able to get to the mainland if they had caught the ferry.
+They should have been able to solve that problem.
+ 
 ##Unit58
-#Lesson1: 
+#Lesson1: The two sides of Jack
 * keywords: 
 
 
 
-#Lesson2: 
+#Lesson2: Society today
 * keywords: 
 
 
 
-#Lesson3: 
+#Lesson3: Twice lucky Chapter 4
 * keywords: 
+
 
 
 ##Unit59

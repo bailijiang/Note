@@ -233,7 +233,7 @@ Drinking a beer can make you relax.
 #Lesson3: Twice lucky Chapter 2
 * keywords: 
     - thousand, million, billion, trillion
-    - No a/an : furniture, information, advice, clothing, flu, homework, housework, garbage, jewelry, lightning, luggage, meat, money, news, permission, progress, scenery, shopping, soap, spaghetti, thunder, toast, traffic, weather
+    - No a/an (uncountable noun.): furniture, information, advice, clothing, flu, homework, housework, garbage, jewelry, lightning, luggage, meat, money, news, permission, progress, scenery, shopping, soap, spaghetti, thunder, toast, traffic, weather
     - such a/an + adj. + countable noun.
       such + adj. + uncountable noun.
       so + adj.

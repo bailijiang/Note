@@ -1657,16 +1657,18 @@ My money has been spent out.
 The mobile phone that I wanted to buy was already sold out.
 Though that house still could be bought, I haven't enough money.
 She said she must have been cheated on him.
+After we had been asked to show the tickets, we entered the theatre.
 After having been asked to show the tickets, we entered the theatre.
 After having been fired, he decided to sue the company for unpaid wages.
 
 # L70: Red for danger
-* 与 for, with, of, to, at, from, in, on, about 连用的形容词(形容词词组)
+* 形容词 adj. +  for/with/of/to/at/from/in/on/about + noun. (形容词词组)
   be unaware of / busy with / sensitive to / sure of / sorry for 
   形容词 + 介词 + 名词/动名词(短语/从句)
 
 I'm wondering who should be responsible for this fault.
 I was unaware of the difficulty of the job.
+You're just jealous of her.
 They were busy with a war.
 Apparently sensitive to the smoke, I covered my nose quickly.
 Are you good at coding?
@@ -1677,14 +1679,17 @@ People always keen on snooping.
 I'm pretty sure of winning the game.
 I feel so sorry for the foolish of the people of this country.
 When I was a child, I was curious about everything.
+I always felt slightly inferior to her.
 
-* ...until...before...: (一直)...直到...才... == Before..., I...until...
+* Before..., ...until... : ...之前, ...直到...
   Not until...: 直到...(才)...
-I felt so miserable until I had finished learning English before once more getting a new job.
+Before quitting that job, I had worked seriously until I finished that project. 
 Not until I'm 35, I had realized the meaning people live.
 I hadn't left until this afternoon.
 
-* How was that murderer executed by the authorities?
+* How was the drunk removed from the ring?
+How was that murderer executed by the authorities?
+How were you beaten in the game?
 
 # L71: A famous clock
 ##复习: 将来时 / if条件句 / 完成时 / 情态动词 / 使役动词(被动语态)have...done / 被动语态 / 介词+动名词 / adj+prep(形容词词组) + n.

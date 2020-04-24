@@ -644,31 +644,167 @@ I'm so tired.
 ##Unit59
 #Lesson1: The job
 * keywords: 
+    - SENSE VERBS + adj. : appear, feel, look, seem, smell, sound, taste
+    - adj. + preposition. + noun. / -ing : good at, afraid of, bored with, clever at, enthusiastic about, fond of, interested in, slow at, sorry for, surprised at, worried about
+    - a/an + countable noun. : identify
+    - write : write down, write for, write in, write off, write out, write up
 
+You look terrific.
+You look well.
+appear strange, feel rough, look good, seem impossible, smell sweet, sound nice, taste bad
+They appear strange.
+He tried hard to appear calm.
+It feels rough.
+It seemed impossible.
 
+I'm not very good at relationships.
+He was afraid of being caught by the police.
+I won't bore you with all the technical details.
+He was clever at finding bargains.
+I'm fond of Claire.
+I'm not very good at writing letters.
+I feel so bored with watching movies.
+
+You're a detective.
+That's not a problem.
+He's an accountant.
+She's a composer.
+We're detectives.
+They're problems.
+They're policemen.
+We're programmers.
+
+I wrote down his name and address. (record)
+I wrote it down.
+I wrote down their questions. 
+I wrote for their catalog. (order)
+I wrote for this magazine.
+Maureen Dowd writes for ‘The New York Times’.
+I wrote in my initials in front of my name. (add)
+If you would like a copy of our fact sheet, please write in, enclosing a stamped addressed envelope.
+Please write in your phone number.
+The company wrote off our debts. (cancel)
+I've just written off my credit card.
+I wrote out all the names of the people who would support me. (write in full)
+Can you write out all the ingredients of the recipe?
+This place has been written up in all the guides. (write your opinion)
+I have to write up my report before the meeting. 
+They've written up their comments for this article.
 
 #Lesson2: Sports
 * keywords: 
+    - no the: Records, Beans, Museums, Life, Swimming...
+    - enough / too
+    - to do : purpose
+      so that / in order that + adv. clause
+    - as: prep. / when / because / as...as / clause / like
 
+Records are broken on a monthly basis.
+Apples were sold out.
+Beans are good for you.
+Planes have lots of types.
+Museums close on Mondays.
+Life is short.
+Swimming is good for you.
+Beer is not good for you.
+Jogging is good for you.
 
+His first jump was long enough to put him in first.
+He is strong enough to lift it.
+He is tall enough to dunk.
+Your car is large enough to take us.
+He's too weak to lift it.
+She is too stupid to understand what I mean.
+Your car is too small to pick us up.
+I don't have enough money to go on vacation this year.
+There is enough hot water to have a bath.
+
+I entered it to compete and to win.
+I turned on the computer to code.
+I got up early to jog in the park.
+I entered it so that I might compete and win.
+I entered it in order that I might compete and win.
+We all take masks so that we wouldn't be infected by a coronavirus.
+They risk their lives in order that the rest of us can sleep better.
+
+Lewis was seen as selfish.
+Lewis was seen as an elder statesman.
+I work as a hotel receptionist.
+The news apparently came as a complete surprise.
+He was seen as a system stranger.
+I work as a educator.
+We arrived as the last train was leaving.
+They often bully me as I was a child.
+Flowers are booming as the weather turns warm.
+As the last train had left, we took the bus.
+As the tickets were sold out, we might go home as well.
+Enjoy the first hour of the day. This is important as it sets the mood for the rest of the day.
+He is as tall as me.
+I never went through a final exam that was as difficult as that one.
+I never watched a movie that was as boring as that one.
+Please do as I say.
+They just do as you want.
+I still do as she asked me.
+As I told you, it's a question of time and money.
+As I told you, they are both mean and stupid.
+Daisy thought as she began to cry with relief.
 
 #Lesson3: Twice lucky Chapter 5
 * keywords: 
+    - -ing : adv. clause
+    - -ed : adv. clause
+    - over / above
+      to / toward(s)
+      into / out of
+    - adj. clause:
+      ..., who...
+      ..., which...
+      ...that...
 
+Wiping the spray out of her eyes, Daisy saw the boat had turned around.
+Taking a bunch of flowers, I set off to pick her up.
+Showing our tickets, we entered the theatre.
+Not knowing his phone number, I couldn't call.
+Not noticing the red light, I drove through the line.
+I damaged the car while trying to park it.
+I listened to music while working in the office.
+We often have dinner while watching TV.
 
+Huddled over the motor, the men ignored her.
+Taken our bags, we set out to the meeting.
+Finished our work, we went and sang Karaoke.
+Opened the door, I quietly went into the room.
+
+The helicopter was over/above the boat.
+The hot air ballon was over the bridge.
+I walked to the railroad station.
+I walked toward the railroad station.
+She ran to her children.
+She ran towards her children.
+They helped her into the boat.
+They helped her out of the boat.
+We all come into the office.
+The keys must have fallen out of my pocket.
+Please help me out of the car.
+
+Daisy, who was wearing a summer dress, began to shiver.
+That's the man, who is wearing a pair of sunglasses, stolen your purse.
+That's the bridge, which was damaged in the war.
+The newspaper that first published the story made a lot of money.
+The house that I just bought spent all my money.
 
 ##Unit60
-#Lesson1: 
+#Lesson1: Scoop!
 * keywords: 
 
 
 
-#Lesson2: 
+#Lesson2: Possessions
 * keywords: 
 
 
 
-#Lesson3: 
+#Lesson3: Twice lucky Chapter 6
 * keywords: 
 
 

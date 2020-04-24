@@ -510,6 +510,7 @@ What is this device for?
 
 Do you want me to beat him up?
 I want you to beat up him.
+Tess gave up her old job.
 Tess gave her old job up.
 Tess gave it up.
 Did Tess give her old job up?
@@ -528,7 +529,8 @@ This is an art of painting.
 * keywords: 
     - I didn't know why...
                know when...
-               asked when...
+      I asked sb when...
+                 where...
     - had done / had been done
     - both...and...
       either...or...
@@ -536,7 +538,7 @@ This is an art of painting.
     - have sth done : service, build, clean, cut, decorate...
       is having sth done
       had sth done
-    - in which: adj. clause
+    - in which: adj. clause (more information)
 
 I asked David when he would arrive.
 I don't know when David will arrive.
@@ -593,7 +595,7 @@ There's a special person in which he's different.
       such + a/an noun. + (that)...
 
 Remember to post my letter.
-I remembered to post your letter.
+I remembered posting your letter.
 Remember to take your phone.
 I remembered taking my phone.
 Don't forget to ask.
@@ -614,12 +616,12 @@ I watch the children playing a game.
 How would you feel about working with Claire?
 I could hear them arguing outside.
 I noticed a bird sitting on the roof.
+I think I can smell something burning.
 She felt his arms go round her.
 I heard you change your mind.
 She heard the wind change.
 She watched the children play a game.
 I noticed them come in.
-I think I can smell something burning.
 
 Let him go.
 Let them in.

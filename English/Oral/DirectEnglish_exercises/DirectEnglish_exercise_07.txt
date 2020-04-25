@@ -796,8 +796,43 @@ The house that I just bought spent all my money.
 ##Unit60
 #Lesson1: Scoop!
 * keywords: 
+    - ADVICE: should, ought to / might / had better  + do
+    - If + were/were to
+    - adj. ending in -ed / -ing
+    - a/an, the
 
+You should find out about it.
+You ought to find out about it.
+You should get a job next month.
+You ought to have an apple every day.
+You shouldn't believe what you hear.
+You oughtn't to believe what you hear.
+You shouldn't talk with them.
+You oughtn't to believe what they said.
+You might find out about it.
+You might feel a little pain.
+You'd better find out about it.
+You'd better get out of my way.
 
+If I were Janice, I would want to know more.
+If Janice were here, she would want to know more.
+If he were here, this problem would be solved.
+If I were you, I would give up this job.
+Mr.Nyatt would be very upset if he were to miss this interview.
+She would be very happy if you were to sing a song for her.
+She asked me if it would be OK if she were to leave early this afternoon.
+
+Mr.Nyatt is very excited about this opportunity.
+I'm very tired after work.
+The children are delighted with traveling.
+This opportunity is very exciting for Mr.Nyatt.
+This job is very tiring for all of us.
+Your words were very humiliating to her.
+Mr.Nyatt is exciting, boring, tiring, etc.
+You are amusing, amazing.
+
+This is Janice Berlin, a reporter from Business Magazine. Janice is the reporter who interviewed Gene Nyatt last year.
+Claire is a musician from Norway. She is the composer who made this song.
 
 #Lesson2: Possessions
 * keywords: 

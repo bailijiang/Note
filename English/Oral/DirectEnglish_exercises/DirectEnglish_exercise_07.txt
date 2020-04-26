@@ -809,7 +809,7 @@ You shouldn't believe what you hear.
 You oughtn't to believe what you hear.
 You shouldn't talk with them.
 You oughtn't to believe what they said.
-You might find out about it.
+You might find out about it. (tentative)
 You might feel a little pain.
 You'd better find out about it.
 You'd better get out of my way.
@@ -828,7 +828,7 @@ The children are delighted with traveling.
 This opportunity is very exciting for Mr.Nyatt.
 This job is very tiring for all of us.
 Your words were very humiliating to her.
-Mr.Nyatt is exciting, boring, tiring, etc.
+Mr.Nyatt is exciting, boring, tiring, etc. (personality)
 You are amusing, amazing.
 
 This is Janice Berlin, a reporter from Business Magazine. Janice is the reporter who interviewed Gene Nyatt last year.

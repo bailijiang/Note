@@ -848,6 +848,7 @@ on behalf of,     on duty,      on no account,   on the radio/TV
 on business,      on fire,      on purpose,      on the way
 on condition,     on foot,      on sale,         on time
 on credit,        on hand,      on the contrary, on your own
+She was told to wear flat shoes, on account of her back problem.
 I came here on foot.
 
 It all comes down to this. (mean)
@@ -882,24 +883,26 @@ They saved up and bought one thing at a time.
 * keywords: 
     - adj. suffixs : -able/-ible, -ful, -ic, -ive, -ant, -ish, -ly, -ing
     - TAG QUESTIONS: 
-        didn't you? / did you? / don't you? / do you? 
+        didn't you? / did you?
+        don't you? / do you? 
         won't you? / will you?
         isn't it? / is it?
     - two objects: 
         give/bring/lend/sell/show...to...
         buy/choose/cook/do/get...for...
-        give it to... / buy them for...
+        it,them: give it to... / buy them for...
     - pronunciation of -ed
 
 manageable, permissible, hopeful, energetic, attractive, hesitant, foolish, friendly, running water
+the maximum permissible level of radiation
 
 You have it, don't you?
 You saw him, didn't you?
 You didn't see him, did you?
 You finished the job, didn't you?
 She didn't make it, did she?
-You'll post my letter, won't you? (goes up)
-You locked the door, didn't you?  (goes down)
+You'll post my letter, won't you? (goes up, don't know)
+You locked the door, didn't you?  (goes down, know)
 You won't tell her anything, will you?
 Everything's all right, isn't it?
 
@@ -916,6 +919,10 @@ I'll cook something nice for you tonight.
 /d/ : dropped, arrived
 /t/ : packed, passed, watched, washed, laughed, tipped
 /id/: added, decided, counted, excited, needed, wanted
+Eric fell asleep, his head gently tipping to one side. (lean)
+Ben tipped the contents of the drawer onto the table. (pour)
+Her head tipped to my shoulder.
+Please tip the contents of your bag on the table.
 
 ##Unit61
 #Lesson1: Snoop

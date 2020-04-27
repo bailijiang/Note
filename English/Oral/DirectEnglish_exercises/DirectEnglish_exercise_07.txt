@@ -927,8 +927,72 @@ Please tip the contents of your bag on the table.
 ##Unit61
 #Lesson1: Snoop
 * keywords: 
+    - v. + object. : like, afford, allow, blame, bring, contain, deny, enjoy,
+                     excuse, fix, get, have, inform, let, like, love, make, 
+                     mean, need, owe, prove, put, question, remind, rob,
+                     select, want
+    - affirmative and negative responses: 
+        too, So
+        either, Neither, Nor
+    - double imperatives: 
+        Go and buy 
+        Try and be / Try to be
+        omit and: come find me  / Go tell him
+    - polite requests:
+        Can I ask who you are? / Could I... / May I... / Might I...
+        Do you think... / I wonder if... 
 
+I like it.
+I love one.
+I have some.
+I don't want any.
+I don't want one.
+I like vegetables.
+You have to afford the amount.
+I've allowed half a bottle of wine for each person.
+Please allow 28 days for delivery.
+The bag contained a gun.
+Please excuse the mess.
+Please inform us of any changes of address.
+The leaflet informs customers about healthy eating.
+As far as I'm concern, the bad weather means bad moods.
+The country owes billions of dollars to foreign creditors.
 
+I can speak French. I can, too. So can I.
+I can't speak French. I can't, either. Neither can I / Nor can I.
+I like it. I do, too. So do I.
+I don't like it. I don't, either. Neither do I. / Nor do I.
+She can compose songs. I can, too. So can I.
+She can't compose songs. I can't, either. Neither can I. / Nor can I.
+She likes it.  I do, too. So do I.
+She doesn't like it. I don't, either. Neither do I. / Nor do I.
+He didn't like smoking. I didn't, either. Neither did I. / Nor did I.
+He drank a bottle of beer. I did, too. So did I.
+
+Go and buy yourself a hat.
+Let's go and watch a movie.
+Sing and dance with us.
+Sweep and clean your room.
+Try and be helpful. Try to be helpful.
+Try and be nice. Try to be nice.
+Try to sing this song.
+Go tell him. Go and tell him.
+If I'm not in the office, come find me.
+Go play with them.
+Go fix your car.
+Come help me.
+Come look at this.
+
+Can I ask who you are?
+Can I ask where is the meeting room?
+Could I ask who can help me?
+May I ask who is the boss?
+May I ask why you want to know?
+Might I ask when we'll set off?
+Do you think you could point me to his table?
+I wonder if you could point me to his table.
+Do you think you could help me fix this bug?
+I wonder if you could tell me where is the boss?
 
 #Lesson2: The cost of the commerical
 * keywords: 

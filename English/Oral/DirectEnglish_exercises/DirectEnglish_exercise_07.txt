@@ -927,10 +927,12 @@ Please tip the contents of your bag on the table.
 ##Unit61
 #Lesson1: Snoop
 * keywords: 
-    - v. + object. : like, afford, allow, blame, bring, contain, deny, enjoy,
+    - vt. + object. :like, afford, allow, blame, bring, contain, deny, enjoy,
                      excuse, fix, get, have, inform, let, like, love, make, 
                      mean, need, owe, prove, put, question, remind, rob,
                      select, want
+      vt. = super verb.(emphasize verb)
+      vi. + prep. + object. (emphasize object)
     - affirmative and negative responses: 
         too, So
         either, Neither, Nor
@@ -982,6 +984,7 @@ Go play with them.
 Go fix your car.
 Come help me.
 Come look at this.
+She looks kind of like my sister.
 
 Can I ask who you are?
 Can I ask where is the meeting room?

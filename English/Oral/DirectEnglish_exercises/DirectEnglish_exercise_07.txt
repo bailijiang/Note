@@ -1113,8 +1113,55 @@ The snow began to fall just as we were walking home.
 ##Unit62
 #Lesson1: Puzzle pieces
 * keywords: 
+    - a/an, the
+    - no articles: breakfast, lunch, tea, dinner, supper
+      a + adj. + meal: a big breakfast
+      particular: the ~
+    - -self
+      amuse, blame, cut, dry, enjoy, hurt
+      dress, hide, shave, wash
+    - in, at, to + PLACES
+      (go) into, (come) out of
 
+A Mr.Bob Tanner. (a certain person)
+It was a Mr.Bob Tanner.
+He's a Tanner. (= a member of that family)
+Do you mean the Mr.Nyatt, our Chairman? (specific)
+Do you mean the Mr.Bryan, our new CTO?
 
+Dinner is served.
+Let's have lunch.
+I don't have supper.
+I always eat a big breakfast.
+We had a very good dinner last night.
+I usually have a rich lunch.
+The breakfast I orderd still hasn't arrived.
+
+I asked myself.
+I cut myself shaving this morning.
+She often amuses herself.
+They always enjoy themselves.
+I got up and dressed myself.
+She dressed herself this morning.
+Are you washing your car yourself?
+Take care of yourself! (emphasize)
+I asked myself what was going on.
+She fixed that bug herself.
+
+He's in Tokyo.
+He went to Tokyo.
+I'm in Beijing.
+I went to a party.
+I'll meet you at the airport.
+I hope you meet him at the party.
+I'll meet you in the airport at check-in.
+I'll meet you in the mall at the coffee shop.
+Gene's gone/been to Tokyo.
+Tony has gone to Norway.
+David's gone into the kitchen.
+David's just come out of the kitchen.
+Claire has gone into the bathroom.
+I have just come out of the bathroom.
 
 #Lesson2: Review
 * keywords: 

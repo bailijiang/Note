@@ -1165,10 +1165,13 @@ I have just come out of the bathroom.
 
 #Lesson2: Review
 * keywords: 
-    - negative questions: Isn't / Can't / Don't / Didn't / Haven't
+    - negative questions: Isn't / Aren't / Can't 
+                          Don't / Doesn't / Didn't 
+                          Haven't / Hasn't
+                          Wouldn't / Won't
     - prep. + being: without/for/after/instead of + being
     - at/on/in/within + time
-    - noun. clause subjects: What/How/Why... + is...
+    - noun. clause subjects: What/How/Why/Where/When/Who/Which... + is...
 
 Isn't there enough bad art in the world?
 Is there not enough bad art in the world? (emphasize)
@@ -1179,6 +1182,8 @@ Can't you ride a bicycle? (surprise/disbelief)
 Can't you drive on the highway?
 Didn't you finish your homework?
 Haven't you got any clue?
+Wouldn't you come to my home?
+Won't your flight to New York tomorrow?
 Don't you ever shut the door behind you? (annoyance)
 Don't you ever turn the voice down?
 Don't you ever clean your room?
@@ -1211,15 +1216,16 @@ What they do is help us define truly great works.
 What he does with the information is his business.
 What we wanna do is impress him with our amazing efficiency.
 What they do is make me feel very disgusted.
-What you think is very naive.
+What you think with that girl is very naive.
 How I got here on time is a mystery.
 How he made that 3-points is unbelievable.
 How she composed that song is an interesting story.
 Why Jack got a job with Indica is something he can't explain.
 Why I haven't got a job is something I don't want to explain.
-Why I don't like staying in this room is the room doesn't ventilate.
+Why I don't like staying in this room is it doesn't ventilate.
 Why are you so stupid is I don't understand.
 Why didn't you buy that product is I really don't care.
+Who does she like is I really don't care.
 
 #Lesson3: Twice lucky Chapter 8
 * keywords: 

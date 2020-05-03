@@ -2123,7 +2123,11 @@ I told him that we would be able to finish this project later.
 I manage to use all sorts of ways to promote the speed of my English learning.
 I manage to avoid meeting the security guard who is standing around our gate.
 
-* can be / might be doing(推测)
+* seem to be doing: 似乎(好像)正在做..
+That guy seemed to be stealing the money.
+She seemed to be sleeping.
+
+* can be / might be doing(推测): 可能正在...
 Everybody all can be an honest person and should be. 
 You can't be serious?
 He said she might be shopping now.
@@ -2136,13 +2140,13 @@ When you arrive at the airport, you can make out me easily.
 ##动名词doing(做名词用)
   by doing ...
   begin / need / regret / enjoy / busy / mind  + doing ...
-I believe the knowledge of a person could be promoted by reading a lot of books.
+I believe that person's knowledge level could be promoted by reading lots of books.
 I began learning English when I was twelve.
 You need to relax a little every night.
 I think you need relaxing at night.
 I regretted drinking so much last night.
-I enjoy listening to music when I driving my car. 
-I have busied learning software development this year.
+I enjoy listening to music when I'm driving my car. 
+I was busy learning software development this year.
 Would you mind smoking here I am? Yes, I do mind.
 At the party, the laughing was filled with the house.
 

@@ -1294,15 +1294,163 @@ The men made off as the police arrived.
 ##Unit63
 #Lesson1: True colors
 * keywords: 
+    - stative verbs: appreciate, like, love, need, prefer, want, understand
+      dynamic verbs (most verbs): do/does, am/is/are + doing
+    - emphatic forms: do/did + verb.
+    - model verbs 1st use: can/may/must/might/will/should/have to/be able to
+    - model verbs 2nd use: degrees of certainty
 
+I really appreciate it.
+She loves her baby.
+Do you like swimming?
+I want to go abroad.
+Do you understand what I mean?
+I need some fresh air.
+This property is appreciating quickly.
+I always do the ironing on Monday.
+It's Monday today and I'm doing the ironing.
+Can you cook your supper?
+I'm cooking my lunch.
 
+He did come yesterday.
+She did come late yesterday.
+I did go to that meeting.
+Do have another cup of coffee.
+Do have another cup of beer.
+Do have confirmed again.
+
+I can take a message.
+You may leave early.
+It will rain soon.
+You should do as you're told. (ought to)
+You must stop at the red light.
+You should be pleased with what we've been able to dig up.
+
+degrees: low -> high
+It might mean a lot of things.
+It could mean a lot of things. (It could have meant a lot of things.)
+It would mean a lot of things.
+It must mean a lot of things.
+It can't mean very much.
+It means a lot of things.
 
 #Lesson2: Travel report
 * keywords: 
+    - wish + did/had done/were/could/would
+    - it: subject
+    - get: passive construction (got)
+           become: get + arrested/caught/confused/divorced/dressed/drowned/elected/engaged/hit/killed/lost/married/stuck
+    - will/shall
 
+I wish I had a better watch. (now)
+I wish I had a sports car.
+I wish I got a decent job.
+I wish you had asked me first. (past)
+She wished that she had never begun the journey.
+I wish you had told me everything about Jack's reactions yesterday.
+I wish they had killed each other.
+I wish you had solved the problem yourself.
+I wish I were on vacation now.
+I wish they were in the office.
+I wish I were at the meeting.
+I wish I could swim. 
+I wish we could go there.
+I wish I could dunk.
+I wish we could fix our car.
+I wish you/he would quiet.
+I wish she could through the test.
+I wish he would do as I tell him.
 
+I love the spring – it's a wonderful time of the year.
+I love singing. It's my favorite activity.
+It's hot today.
+It's eight o'clock.
+It's a nice day.
+It's a sports car.
+It's take-out.
+It's Thursday.
+
+I got delayed by the heavy traffic. (= was delayed)
+I always get judged by those stupid people. (get=be)
+She got bullied in kindergarten yesterday.
+Tony got arrested because of stolen.
+I got confused about what you said.
+He got drowned in the river.
+Did you get engaged with Jenney?
+Perhaps I got sidetracked.
+
+I shall/We shall see you tomorrow.
+I shall order a take-out.
+Shall I carry your bag for you?
+I will see you tomorrow.
+I will hang out with my friends.
+I'll see you tomorrow. 
+I'll stick to the road, thank you.
+I'll go outside in ten minutes.
+I'll finish my job at 6 o'clock.
 
 #Lesson3: Twice lucky Chapter 9
 * keywords: 
+    - manage to do / be able to do
+    - particles that extend the meaning of the verb.: out / in / up
+    - adv. clause of time: 
+        when, after, as, as soon as, before, 
+        by the time (that), once, since, until/till...(before), while
+    - present: to be done       / to have been done
+      past:    to have sth done / to have had sth done
 
+I managed to sleep eight hours last night.
+I was able to sleep eight hours last night.
+We managed to fix that bug yesterday.
+She has been able to dress by herself.
+I could sleep right through the night without interruption when I was young.
+I could understand what you feeling.
+I could cover this trouble.
+I didn't manage to sleep at all last night.
+I wasn't able to sleep at all last night.
+I couldn't sleep at all last night.
+I didn't manage to help her to solve this problem.
+I wasn't able to help you.
+I couldn't help you.
 
+Drive the car out.
+Ride the moto out.
+Leave the word out. (omission)
+You left a word out.
+Leave the job out.
+Write this out.
+Read this out.
+Would you please copy this out again?
+Let him in.
+Come on in.
+Write this in.
+Remember this in.
+Fill this car up.
+Have you filled the barrel up?
+Pick that up.
+Pick your phone up.
+Help the patient up.
+Help me up.
+
+Once they were aboard, the train seemed to creep along.
+When they arrived at the station, they tried to get a taxi.
+Once I finish my work, I'll go home.
+When I got home, I immediately started learning English.
+After I had gone abroad, I started finding a job.
+I had ordered a take-out before I got home.
+I went into the kitchen as soon as I got home.
+By the time we got home, we were tired and hungry.
+By the time I got the office, the meeting had started for half an hour.
+They talked on and on until four o'clock in the morning.
+We waited until our guests had gone before clearing up.
+
+They wanted the ticket to be verified.
+I want my ability to be qualified.
+Your identity needs to be checked.
+They wanted to have the ticket verified.
+I wanted to have my car serviced.
+They wanted their ticket to have verified.
+It was important for the ticket to have been verified.
+It was important for my car to have been serviced.
+It was important to have had the ticket verified.
+It was important to have had my car serviced.

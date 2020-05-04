@@ -1231,7 +1231,7 @@ Who does she like is I really don't care.
 #Lesson3: Twice lucky Chapter 8
 * keywords: 
     - adv. clause: as if / as though
-                   as if / as though + were/had been
+                   as if / as though + do(does)/were/had been
       be, act, appear, behave, feel, look, seem, smell, sound, taste
     - although / though / even though / but
     - take + prep. + object: take after, take to
@@ -1269,6 +1269,7 @@ She takes after her mother. (take after = resemble)
 You really take after your mother.
 I've taken to jogging. (take to = start enjoying)
 I've taken to leaning English.
+I've taken to listening to music.
 He took off his jacket. He took his jacket off. (remove)
 She took off some time from her job. She took some time off from her job. (not report for work)
 The plane took off. (rise into the air)

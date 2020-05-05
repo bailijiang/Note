@@ -1392,12 +1392,12 @@ I'll finish my job at 6 o'clock.
 #Lesson3: Twice lucky Chapter 9
 * keywords: 
     - manage to do / be able to do
-    - particles that extend the meaning of the verb.: out / in / up
+    - particles that extend the meaning of the verb.: out / in / up / down
     - adv. clause of time: 
         when, after, as, as soon as, before, 
         by the time (that), once, since, until/till...(before), while
-    - present: to be done       / to have been done
-      past:    to have sth done / to have had sth done
+    - present: to be done        / to have sth done
+      past:    to have been done / to have had sth done
 
 I managed to sleep eight hours last night.
 I was able to sleep eight hours last night.
@@ -1417,7 +1417,8 @@ Drive the car out.
 Ride the moto out.
 Leave the word out. (omission)
 You left a word out.
-Leave the job out.
+She had to go out.
+They went out.
 Write this out.
 Read this out.
 Would you please copy this out again?
@@ -1431,6 +1432,9 @@ Pick that up.
 Pick your phone up.
 Help the patient up.
 Help me up.
+He laid his knife down.
+Put the gun down.
+Write it down.
 
 Once they were aboard, the train seemed to creep along.
 When they arrived at the station, they tried to get a taxi.
@@ -1443,13 +1447,15 @@ By the time we got home, we were tired and hungry.
 By the time I got the office, the meeting had started for half an hour.
 They talked on and on until four o'clock in the morning.
 We waited until our guests had gone before clearing up.
+It was not until June I can play basketball outside.
+The traffic laws don't take effect until the end of the year.
 
-They wanted the ticket to be verified.
+They wanted the ticket to be verified. (present)
 I want my ability to be qualified.
 Your identity needs to be checked.
 They wanted to have the ticket verified.
 I wanted to have my car serviced.
-They wanted their ticket to have verified.
+They wanted their ticket to have verified. (past)
 It was important for the ticket to have been verified.
 It was important for my car to have been serviced.
 It was important to have had the ticket verified.

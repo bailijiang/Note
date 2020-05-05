@@ -70,8 +70,7 @@ Grandma has beautiful skin. She's 75 but she only looks 50.
 # P4 Looking Good
 dark adj.
 What color is Pete's hair?
-What do you think? 
-How can I look better on TV?
+What do you think? How can I look better on TV?
 Would I look good with blond hair?
 You want to change your hair color?
 I want to have blond hair like you do.
@@ -106,8 +105,7 @@ I understand.
 If you spend lots of time outside, your skin will become darker.
 Hannah's favorite color is light blue.
 Ella is really beautiful. She looks like a model.
-Can you help me compare these two TVs?
-Which one is better?
+Can you help me compare these two TVs? Which one is better?
 I want jeans that make me look thinner.
 I want a shirt that makes my neck look bigger.
 

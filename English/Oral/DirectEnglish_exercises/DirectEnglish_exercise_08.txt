@@ -1,18 +1,182 @@
 ##Unit64
 #Lesson1: I spy
 * keywords: 
+    - may/should/must + be + doing (emphasize)
+    - You and I are...
+    - phrases with in: in ~
+    - verb. + object + to do: 
+        ask, beg, choose, expect, hate, like, love, need, prefer, want
 
+I may be leaving early tomorrow.
+She may be coming to my home next week.
+You should be working hard if the boss comes in.
+I should be learning English harder every day.
+I think he must be working very hard.
+I guess she must be drinking heavier.
 
+You and I are old colleagues.
+Now, where did you and I meet?
+You and I are good friends.
+When will you and I meet?
+We'll meet at 8 o'clock.
+Are they like you and me?
+
+Do you keep in touch?
+in addition     in comfort      in full             in pain
+in all          in conclusion   in gerneral         in public
+in brief        in debt         in ink / in pencil  in short
+in business     in detail       in love             in time
+in case(of)     in doubt        in no time          in touch
+in cash         in fact         in order            in trouble
+In general, we should make a plan before starting to do it.
+If in doubt, consult your doctor.
+We'll be there in no time.
+
+I want to speak to the manager. (will)
+I want you to speak to the manager.
+Do you want me to show you down?
+She wants me to pick her up.
+I want them to kill each other.
+Do you want me to meet you?
+She asks me to turn off the faucet.
+They beg the general to release them out.
+I choose this recipe to cook dinner.
+Why did you choose me to do this job?
+We expect you to survive the disease.
+She likes me to sing for her.
+I need you to bring that screwdriver for me.
+I'd prefer you to go outside.
 
 #Lesson2: Editorial
 * keywords: 
+    - They say(said)...
+      It is said that...
+        say, acknowledge, allege, believe, consider, know, recognize, report, suppose, think, understand
+    - modal passive forms: 
+        can/could/may/might/will/would/should/ought to/must + be done
+    - say / tell
+        + He told me... / He said he would...
+        + say so, say a few words, say no more, say nothing, 
+          say your prayers, say something, say thank you
+        + tell the difference, tell a lie, tell a story, 
+          tell the time, tell the truth
+    - take + noun. : accept...
 
+They said it couldn't be done.
+They say that housing costs are rising.
+It's said that housing costs are rising.
+He acknowledges that when he's tired he gets bad-tempered.
+It was acknowledged that he is a lier.
+It was alleged that the policeman had accepted bribes.
+It is alleged he stole some money.
+They alleged that their products haven't been contaminated.
+It was considered that COVID19 is a deadly virus for human beings.
+The considered that COVID19 is a deadly virus for human beings.
 
+It can be done.
+It could be done.
+It may be done.
+It might be done.
+It will be done.
+It would be done.
+It should be done.
+It ought to be done.
+It must be done.
+A station will be built on the moon within the next few years.
+It couldn't be done.
+It will be fixed.
+It would be dumped.
+It must be solved.
+I wish coronavirus will be cured all over the world in two years.
+
+He told me he would be late.
+He said he would be late.
+She told me she would go abroad.
+She said she would go shopping.
+Let me just say thanks.
+I’d like to say a few words (=make a short speech).
+'I saw him leaving her house at 6.30 this morning.'  'Say no more!'
+He looked as if he was going to say something.
+Jack would like to say a few words.
+Can you tell the difference between sparkling wine and champagne?
+They told lies about us.
+She told us some funny stories about her sister.
+They will tell the time of day.
+I don’t really want to go out, to tell the truth.
+
+This time, we're taking a look at the world.
+The government is taking action to combat drug abuse.
+If you take my advice, you'll see a doctor.
+take aim at        take a bath      take a shower       take the blame
+take a break       take the chair   take charge of      take a class
+take courage       take sb to court take effect         take an exam
+take exception to  take fright      take heart          take a hint
+take a vacation    take a joke      take liberties      take a look
+take a nap         take note of     take offense        take one's medicine
+take the opportunity to             take pains to       take part in
+take a photograph  take pity on     take place          take a rest
+take risks         take a seat      take the strain     take a turn
+take a walk       
+Would you take offense with me?     
+I guess I should take a joke with them.
+We need to take real liberties.
+Take a look at this, Susan.
+
+Why this bug can't be solved?
+Who else can we ask but experts?
 
 #Lesson3: One of us Chapter 1
 * keywords: 
+    - verb. + prep. + object: 
+        advise against      borrow from     look after              resign from
+        apologize for       depend on       look/gaze/stare at      succeed in
+        arrive at/in        fail in         look for                wait for
+        begin with          insist on       object to               wish for
+        believe in          knock at/on     refer to                belong to
+        listen to           reply to
+    - much / many / a lot of
+    - too / either / as well / also
+    - relative pronoun object of a preposition: 
+        to whom: people 
+        on which: things
 
+The young women weren't gazing at the spectacular view of the mountain and lake.
+I'd advise you against saying anything to the press.
+The island's economy depends on tourism. 
+Has Ian replied to your letter yet?
+Shall we begin with a prayer?
 
+The guys don't seem to be having much fun.
+We don't have many neighbors where we live.
+We have a lot of neighbors.
+We have a lot of fun.
+I don't have many friends in my life.
+I can't eat too much meat.
+I have a lot of sneakers.
+They have a lot of time.
+I don't think there's much chance we'll see him again.
+
+The picnic will be a lot of fun, too.
+The concert will be pretty elegant, too.
+The party won't be much fun, either.
+The new job won't be much comfortable, either.
+I bought this handbag as well.
+I've read that novel as well.
+I also bought this handbag.
+I also watched this movie.
+
+Mark's the man to whom Joanne got engaged.
+Mark's the man who Joanne got engaged to.
+Mark's the man Joanne got engaged to.
+Claire's the woman Bryan got engaged to.
+Bryan's the man Claire replied to.
+Tony's the man I asked to.
+That's the troops we beat off.
+This is the chair on which I sat.
+This is the chair which I sat on.
+This is the chair I sat on.
+This is the bug I find out.
+That's why I insisted on.
 
 ##Unit65
 #Lesson1: Breaking news

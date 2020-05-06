@@ -54,7 +54,7 @@ I'd prefer you to go outside.
         say, acknowledge, allege, believe, consider, know, recognize, report, suppose, think, understand
     - modal passive forms: 
         can/could/may/might/will/would/should/ought to/must + be done
-    - say / tell
+    - say / tell + noun.
         + He told me... / He said he would...
         + say so, say a few words, say no more, say nothing, 
           say your prayers, say something, say thank you
@@ -71,7 +71,8 @@ It was alleged that the policeman had accepted bribes.
 It is alleged he stole some money.
 They alleged that their products haven't been contaminated.
 It was considered that COVID19 is a deadly virus for human beings.
-The considered that COVID19 is a deadly virus for human beings.
+They considered that COVID19 is a deadly virus for human beings.
+It was recognized that COVID19 is deadly.
 
 It can be done.
 It could be done.
@@ -121,6 +122,12 @@ Would you take offense with me?
 I guess I should take a joke with them.
 We need to take real liberties.
 Take a look at this, Susan.
+You must take the heart immediately!
+You can't take liberties in the office.
+We would take pains to finish this job.
+I take pity on that little girl.
+I must take the strain of this sort of thing.
+I'll take charge of this project.
 
 Why this bug can't be solved?
 Who else can we ask but experts?
@@ -145,6 +152,7 @@ I'd advise you against saying anything to the press.
 The island's economy depends on tourism. 
 Has Ian replied to your letter yet?
 Shall we begin with a prayer?
+We agreed never to refer to the matter again.
 
 The guys don't seem to be having much fun.
 We don't have many neighbors where we live.
@@ -167,14 +175,14 @@ I also watched this movie.
 
 Mark's the man to whom Joanne got engaged.
 Mark's the man who Joanne got engaged to.
-Mark's the man Joanne got engaged to.
+Mark's the man Joanne got engaged to. (the most widely used form)
 Claire's the woman Bryan got engaged to.
 Bryan's the man Claire replied to.
 Tony's the man I asked to.
 That's the troops we beat off.
 This is the chair on which I sat.
 This is the chair which I sat on.
-This is the chair I sat on.
+This is the chair I sat on. (the most widely used form)
 This is the bug I find out.
 That's why I insisted on.
 

@@ -211,6 +211,7 @@ Which one?
 Which man?
 Which women were chosen for the part?
 Which one do you prefer?
+What cars do you prefer?
 
 yesterday morning / this morning / tomorrow morning
 yesterday afternoon / this evening / tomorrow night
@@ -218,6 +219,7 @@ the day before yesterday / the day after tomorrow
 the night before last / the night after next
 last Monday / this Monday / next Monday
 last year / this year / next year
+I'll meet you at night after the next.
 
 He'll tell everybody about the great job he did.
 He said he'd be late.
@@ -237,16 +239,17 @@ I never see him.
 He never showed up.
 I scarcely knew him.
 He could scarcely breathe.
-They seldom speak
+They seldom speak.
 He seldom gets in touch with me.
 
 What's the good of a sales pitch if you can't supply?
 Why does Susan have a good idea who it is?
 Who is the phone message from?
+Where is the money from?
 
 #Lesson2: Society today
 * keywords: 
-    - to be / being = noun.
+    - to be / being + noun. = it
       It's... to be / being...
     - as...as :
       (not) as + adj. + as + noun. / clause
@@ -288,7 +291,7 @@ You enjoy it as much as I do.
 Chinese / the Chinese, Japanese, Portuguese, Swiss
 Austrain, Brazilian, Canadian, Egyptian
 Korean, Mexican
-British, French, Irish
+British, French, Irish / The Irish (The Irishman)
 
 If you could see me now, you would die laughing.
 If you could speak English, you would get that job.
@@ -306,7 +309,7 @@ What, in the opinion of the writer, is the essence of the good old days?
         does, be going to, do
     - sequence of tenses: past-to-past
         did, could, got
-    - There + be...        + -ing
+    - There + be...        + -ing (connect clause)
       There + will be...   + -ing
       There + have been... + -ing
 
@@ -317,6 +320,7 @@ In addition to singing, what else can we do?
 I still look forward to meeting you.
 He had resigned himself to watching the soap series on television.
 I am used to learning English in the morning.
+We must resort to preventing measures.
 
 She says they're going to live in California.
 She says she's going to marry some guy we don't know anything about.
@@ -347,17 +351,193 @@ What business is Steve in?
 ##Unit66
 #Lesson1: Inside story
 * keywords: 
+    - have been doing
+    - wishes:
+        want to -> would like to -> would love to
+    - How much / How many
+    - everywhere / somewhere
 
+I've been word-processing all day. (finished or unfinished)
+His PR people have been begging us for a profile. 
+I've been learning English all morning.
+I've been painting this room. (unfinished)
+I've been learning English for two years.
 
+I want to retire early. (neutral)
+I'd like to retire early. (stronger wish)
+I'd love to retire early. (still stronger)
+I want to play basketball.
+I'd like to compose songs.
+I'd love to sing songs.
+Do you want to retire early?
+Yes, I do.
+Would you like to retire early?
+Yes, I'd like to.
+Yes, I'd love to.
+
+How much do you talk about this stuff playing golf?
+How much milk do you want in your coffee?
+How much beer did you drink?
+How much water do you leave?
+How much time do we have?
+How much time do they need?
+How much is it?
+How much does it cost?
+How many people are invited?
+How many windows were broken?
+How many cars in the yard?
+How many books did you read?
+
+Business is everywhere.
+We went everywhere.
+We didn't go anywhere.
+We went nowhere.
+I can't find my watch. It must be somewhere.
+Virus is everywhere.
+If I have a car I can go anywhere.
+He can hide nowhere.
+
+What qualities do you have to have to be a good member of a team?
+How is a new company formed?
+How will a small company begin to grow?
 
 #Lesson2: Interview
 * keywords: 
+    - get + sb/sth + to do
+      get + sth + done ( stronger than have)
+    - collective nouns: 
+        a group of, a gaggle of...
+    - have done: So far, up till now
+    - noun. + prep. (+ noun.)
+      adj.  + prep. (+ noun.)
 
+How do you get a robot to work?
+David got Ingrid to tell him about Bob Tanner. (persuasion)
+Did you get Janice to tell you anything?
+She nearly got me to tell her more than I've managed to find out so far!
+How can I get the children to do their homework?
+You need to get your wife to give up that idea.
+I had the job done. -> I got the job done.
+I have to get my car serviced. (stronger than have)
+I finally got my roof repaired.
+I managed to get my job finished.
+Get your hair cut! (urgency)
+Get your eyes tested!
+Get your car serviced!
+Get your room cleaned!
 
+a group of robots, a gaggle of geese
+an army of soldiers, a board of directors
+a flock of birds, a herd of cows
+a bunch of flowers, a crop of apples
+a set of cutlery, a suit of clothes
+a bunch of grapes, a circle of friends, a collection of coins, 
+a colony of ants, a crowd of people, a deck / pack of cards,
+a plague of locusts, a swarm of bees, a school of fish, 
+a set of teeth, a string of pearls
+
+So far, they've used those skills to forage for metal pucks.
+So far, they've not reached an agreement.
+I've seen three movies so far this week.
+So far, I haven't achieved my personal goal.
+How have the robots used these skills so far?
+Up till now, we haven't solved this problem.
+
+noun. + prep. :
+absence from,  curiosity about
+advantage of,   difference between
+amazement at, eagerness for
+anger at / with / about, faithfulness to
+anxiety over / about,  sadness for / about
+certainty of / about,  surprise at / about
+adj. + prep. :
+absent from, curious about
+amazed at, different from
+angry at, eager for
+annoyed with, faithful to
+anxious about, free from / of
+ashamed of, sad for / about
+aware of, surprised at
+certain of
+Her work involved repeated absences from home.
+Children have a natural curiosity about the world around them.
+He was curious about how she would react.
+What's the advantage of putting robots into groups?
+Fans eager for a glimpse of the singer.
+I can't explain his absence from class.
+
+How do robots normally like to work?
+How are robots used in industry?
+How can a machine develop that?
+How bad do you think they will be?
 
 #Lesson3: One of us Chapter 3
 * keywords: 
+    - no + noun. = not...any(a/an)
+      no/any + adj.
+    - not + to do
+    - This
+    - How
 
+It's no sports car.
+It's no different from ours.
+There aren't any eggs. -> There are no eggs.
+There isn't any milk. -> There is no milk.
+It's no apples.
+There are no people.
+There's no beer.
+I'm not an expert. -> I'm no expert.
+She's not a musician.
+It isn't any good.  
+It's no good.
+It isn't any different.
+It's no different.
+He's no lawyer.
+There are no newspapers today.
+
+I asked you not to show off.
+He advised me not to accept their offer.
+I instructed them not to tell anyone.
+She reminded me not to repeat what I knew.
+They warned us not to drive over the bridge.
+I promise not to tell a soul.
+She told me not to go swimming.
+I advised you not to hang out with him.
+The boss instructed us not to leave the office.
+Claire reminded me not to forget what I suppose to do.
+
+This is my room.
+This is Mary.
+This is Mark speaking.
+This boy wants a milkshake.
+Turn it this way.
+Walk this way.
+There was this lawyer.
+There was this pilot.
+I'll see you this morning.
+Is this the one you mean?
+How do I open it? 
+- This way.
+
+How far is it?
+How well is your English?
+How did you do it?
+How long must I wait?
+How do you do?
+How are you?
+How's life?
+How are things?
+How are the kids?
+How was the movie?
+How about a beer?
+How about a swim?
+How would you like to join us?
+How did Mark react to the idea of going for a swim?
+How come guys like to participate in sports? (Why)
+How far back does this go?
+How far forward can we move?
+How did you do it?
+How are things? Fine, thanks.
 
 ##Unit67
 #Lesson1: Detected
@@ -372,6 +552,7 @@ What business is Steve in?
 
 #Lesson3: One of us Chapter 4
 * keywords: 
+
 
 
 ##Unit68
@@ -389,6 +570,7 @@ What business is Steve in?
 * keywords: 
 
 
+
 ##Unit69
 #Lesson1: Hearing aid
 * keywords: 
@@ -402,6 +584,7 @@ What business is Steve in?
 
 #Lesson3: One of us Chapter 6
 * keywords: 
+
 
 
 ##Unit70
@@ -419,6 +602,7 @@ What business is Steve in?
 * keywords: 
 
 
+
 ##Unit71
 #Lesson1: Answers
 * keywords: 
@@ -432,6 +616,7 @@ What business is Steve in?
 
 #Lesson3: One of us Chapter 8
 * keywords: 
+
 
 
 ##Unit72

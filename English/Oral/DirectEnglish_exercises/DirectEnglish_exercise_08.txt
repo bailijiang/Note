@@ -615,8 +615,10 @@ His own experience was different from that of his friends.
 The cells of the body, especially those of the brain, can live only minutes without circulating blood.
 His habit is different from that of mine.
 The books she has read are not as much as those of mine.
+The movies of the present are more fun to watch than those of the past.
 
 It is delicious (when) served with meat.
+The system used here is very good.
 That is my car stolen last month.
 He waved to the crowd while seated in the presidential car.
 I ordered a take-out while seated on the couch.
@@ -627,16 +629,69 @@ These methods will help you if used often.
 It was destroyed by a bomb.
 That song was composed by an accident.
 This area was discovered by a campaign.
+Who was that piece composed by?
 
 #Lesson3: One of us Chapter 4
 * keywords: 
-    - prep. : movement / position
+    - verb. + prep. : movement / position
+        movement: bring, drive, fly, get, go, move, pull, run, take, walk
+            into, out of, to
+        position: be, live, keep, meet, stay, stop, work
+            at, in, on
+        go + above/across/along/behind/between/near
+        be + above/across/along/behind/between/near
     - adv. : -ly / ~
-    - already
+        high/highly, hard/hard, hardly, last/last, lastly, near/near, nearly
+    - already:
+        be / have + already
+        have already done
+        already + verb.
+        ... already.
     - be going to
 
+How did David get into Bob's office? (out of, to)
+I'll be waiting at the bus stop.
+Please bring my laptop to the office.
+We drive into the yard.
+I walk out of the park.
+The plane flew above the clouds.
+The plane was above the clouds.
+Don't forget to take along your backpack.
+We should walk aross the bridge.
+I live near a river.
+The key is above the magazine.
+My car is between the buildings.
 
+Bob doesn't think highly of Jimmy Klapp.
+Steve held the ball high in the air.
+Others hardly do any work at all.
+Some people work very hard.
+Lastly, I want to make this point.
+As usual, we managed to arrive last.
+I've nearly finished.
+Don't go near.
+It seems highly unlikely that she ever existed.
+You seemed highly boring.
+If you aim high, you try to obtain or to achieve the best that you can.
 
+He's already late.
+I'm already prepared.
+He may have already had lunch.
+I have already forgotten that woman.
+Ted already had a fire going in the grill.
+I already told you not to come over.
+I've told him already.
+I've gone abroad already.
+
+Look! It's going to rain. (prediction)
+What is he going to do now? (intention)
+We're going to take our vacation at Cape Cod. (planned)
+What are we going to do now?
+They are going to die.
+I'm going to buy a new car.
+She's going to achieve her goal.
+How are we going to do that?
+I don't care what he says. I am not going to sign it.
 
 ##Unit68
 #Lesson1: They bug him

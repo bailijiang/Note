@@ -542,16 +542,99 @@ How are things? Fine, thanks.
 ##Unit67
 #Lesson1: Detected
 * keywords: 
+    - plenty of + noun. (a lot of / lots of)
+    - verb. + so
+        believe, fear, guess, hope, imagine, say, it seems, suppose, tell someone, think
+    - noun. clause: 
+        say, tell someone, think, know, be
+    - under + noun.
 
+Indica has plenty of clients.
+They can do plenty of business playing golf.
+I've read plenty of books.
+Did you drink plenty of beer?
+Do they do much business?
+- Plenty.
 
+Janice said so.
+I don't suppose so.
+I believe so.
+She fears so. 
+I fear not.
+I hope so.
+I don't think so.
+How so?
+
+I think (that) Janice called.
+Ask him if/whether Janice called.
+I don't know when/why Janice called.
+Do you know where Gene Nyatt is?
+The main question is whether Janice will call.
+The main question is when Janice will call.
+He said he would quit that job.
+She asked if you like her.
+I didn't know where she had been.
+I want to know is what you have done.
+The problem is when you will go abroad.
+
+under age,           under orders           under control
+under pressure       under repair           under one's feet
+under the rules      under the impression    under suspicion
+under no obligation  under the weather
+I'm not sure we can, under the circumstances.
+They executed the prisoner, under orders.
+I'm glad to see that you have everything under control.
+They might not win the game, under the pressure.
+She might be a nice woman, under the impression.
 
 #Lesson2: Food and drink
 * keywords: 
+    - whether / if
+    - that of / those of
+    - passive: when/while/if... + done
+    - passive: by + agent(factor)
+        build, compose, damage, design, destroy, discover, invent, make, wreck, write
 
+Whether she likes it or not, I'm going.
+Whether you like her or not, she has gone.
+The question is whether it's big enough.
+The question is whether it's a fad or a lasting change.
+I can't remember whether I've ever eaten watermelon before.
+The problem is whether you want or not.
+It depends on whether she'll agree.
+She decided on whether you love her.
+I don't know whether to ask her or not.
+I don't know whether to trust you.
+I don't know whether they've found anybody yet.
+Ask him if/whether he likes fish.
+Tell me whether you can solve this problem.
+I'm not certain whether /if we've met before.
+It's not certain whether he will come back.
 
+His own experience was different from that of his friends.
+The cells of the body, especially those of the brain, can live only minutes without circulating blood.
+His habit is different from that of mine.
+The books she has read are not as much as those of mine.
+
+It is delicious (when) served with meat.
+That is my car stolen last month.
+He waved to the crowd while seated in the presidential car.
+I ordered a take-out while seated on the couch.
+He said he would back while arrested by the police.
+Vitamins will do you good if taken daily.
+These methods will help you if used often.
+
+It was destroyed by a bomb.
+That song was composed by an accident.
+This area was discovered by a campaign.
 
 #Lesson3: One of us Chapter 4
 * keywords: 
+    - prep. : movement / position
+    - adv. : -ly / ~
+    - already
+    - be going to
+
 
 
 

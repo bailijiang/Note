@@ -577,8 +577,8 @@ I didn't know where she had been.
 I want to know is what you have done.
 The problem is when you will go abroad.
 
-under age,           under orders           under control
-under pressure       under repair           under one's feet
+under age            under orders            under control
+under pressure       under repair            under one's feet
 under the rules      under the impression    under suspicion
 under no obligation  under the weather
 I'm not sure we can, under the circumstances.
@@ -608,7 +608,7 @@ I don't know whether to trust you.
 I don't know whether they've found anybody yet.
 Ask him if/whether he likes fish.
 Tell me whether you can solve this problem.
-I'm not certain whether /if we've met before.
+I'm not certain whether/if we've met before.
 It's not certain whether he will come back.
 
 His own experience was different from that of his friends.
@@ -641,7 +641,8 @@ Who was that piece composed by?
         go + above/across/along/behind/between/near
         be + above/across/along/behind/between/near
     - adv. : -ly / ~
-        high/highly, hard/hard, hardly, last/last, lastly, near/near, nearly
+        high/high, highly, hard/hard, hardly 
+        last/last, lastly, near/near, nearly
     - already:
         be / have + already
         have already done

@@ -697,8 +697,42 @@ I don't care what he says. I am not going to sign it.
 ##Unit68
 #Lesson1: They bug him
 * keywords: 
+    - do: don't do, doing, does, did, done
+    - Why not do...?
+    - causative: have sb done sth
+        coach, instruct, teach, train
+    - throw:
+        throw out, throw away, throw on
+        throw up
 
+Please don't do that.
+What are you doing?
+I'm reading.
+Bob works 16 hours a day. I don't know how he does it.
+Tony ate six eggs this morning. I don't know how he did it.
+What are those clothes doing on the floor?
+I've done the shopping / ironing / cleaning.
+And I do mean straight out.
 
+I'm not going to work today.
+Why not?
+Let's eat out tonight.
+Yes, why not?
+Why not take a vacation in New Mexico?
+Why not do it more?
+Why not have a drink?
+
+Why not have you thrown out of here?
+If she comes back, have her thrown out at once.
+I'm having her taught English.
+I'm having he coached swimming.
+The boss has me instructed them to work.
+Our teacher has Claire trained us to read.
+
+They threw out my suggestion. (reject)
+It's time to throw away these papers. (discard)
+I'll just throw on some clothes. (get dressed quickly)
+Some things just make you want to throw up. (vomit)
 
 #Lesson2: Style file
 * keywords: 

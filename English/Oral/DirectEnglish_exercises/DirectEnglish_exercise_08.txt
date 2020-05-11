@@ -736,13 +736,62 @@ Some things just make you want to throw up. (vomit)
 
 #Lesson2: Style file
 * keywords: 
+    - noun. and noun. phrases in apposition
+    - it: definite singular noun.
+      one: indefinite singular noun.
+    - need v.
+    - be + doing : temporary situation
+                   trend
 
+Bryan White, who is a composer, once wrote a nice song for Claire.
 
+Are you carrying a pen?
+Yes, I have one in my pocket.
+Are you carrying your pen?
+Yes, I have it in my pocket.
+Are you carrying your glasses?
+Yes, I have them in my pocket.
+Are you carrying any money?
+Yes, I have some in my pocket.
+
+Do you need to go to the bank?
+I don't need to go to the bank.
+My brother needs to go to the bank, too.
+Did you need to go to the bank?
+I didn't need to go to the bank.
+You don't really need a car.
+He desperately needed money.
+I didn't need to go to work this morning.
+
+What's your daughter doing these days?
+She's studying English at Stanford University.
+Don't take the ladder away. Your father's using it.
+I'm studying AI technology recently.
+More and more people are pouring into the city.
+Most people are becoming more and more hypocrisy.
 
 #Lesson3: One of us Chapter 5
 * keywords: 
+    - ~ever: whatever, wherever, whenever, whoever, whichever
+    - away
+    - adv.:
+        In addition, Again, Besides, Moreover
+        Equally, However, Nevertheless, Nonetheless, In reality
+        All in all, Essentially, In brief, In conclusion, In effect
 
+What ever happened to him?
+Do whatever you like.
+Go wherever you like.
+Come whenever you like.
+Talk to whoever you like.
+Choose whichever you like.
 
+It's only a couple of miles away.
+It isn't far away.
+Come / Go away.
+
+In conclusion, I want to end my speech by saying this.
+Nonetheless, I've still been learning English every day. 
 
 ##Unit69
 #Lesson1: Hearing aid

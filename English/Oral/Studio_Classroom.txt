@@ -1,4 +1,7 @@
 # P1_2016 Drone Racing
+* What do the pilots have to wear?
+  Why is it difficult to watch a drone race?
+
 * goggles n.  goggle v.
 Swimming goggles can protect your eyes from water.
 The skier wears goggles with prescription lenses.
@@ -43,6 +46,11 @@ She gave fresh momentum to the campaign.
 The sport is taking off, it's gaining momentum.
 
 # P2_2016 Cooling Down Conflict
+* What should you do with conflict?
+  What is one major cause of conflict?
+  What do you do when you were faced with conflict?
+  How do you handle conflict?
+
 * bound adj.
 You're bound to feel nervous during your first job interview. It's OK!
 This music prodigy is bound for international recognition.
@@ -52,6 +60,7 @@ After some thorough discussions, the conflict between the couple got peacefully 
 The customer resolved not to press any charges against the company.
 
 * personality clash
+Claire and Tony seemed to have a little personality clash.
 
 * cannot / can not
 You cannot(can not) escape the conflict.
@@ -70,18 +79,27 @@ The "Welcome to Class 702!" banner was made by the kids in the class.
 Tammy downloaded an app to block the banners on the Internet.
 A banner strung across the road read, ‘Welcome home, boys!’
 
-* vapor n.
+* vapor n. /'veipə/
   vaporize v.
 The vapor released from the factory's chimneys contains harmful substances.
 The chemical vapor in the lab caused the several students to feel dizzy and nauseous.
 The sun's heat vaporizes the water of the ocean.
 The liquid began to vaporize when the temperature reached 85 degrees Celsius.
 
-* bottom line
+* bottom line : the amount of money that is a profit or a loss after everything has been calculated
+These small promotions were costly and they did nothing to increase his bottom line.
+Sales last month failed to add to the company’s bottom line.
 The bottom line is that we have to make a decision today.
 
 * to kick the habit
 The scheme helps smokers to kick the habit.
+
+* conversation
+I ran into an old college friend today.
+He really likes our product.
+He wants to put banner ads on some of our gaming sites!
+Wonderful. That would really help our bottom line.
+The vapor from those things is really bad for you!
 
 # P3_2016 
 

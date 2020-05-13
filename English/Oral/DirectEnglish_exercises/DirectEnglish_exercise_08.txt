@@ -834,7 +834,7 @@ I'll take a shower as soon as I get home.
       2.5 million people
       45.987 = forty-five point nine eight seven
     - saying and believeing: It + passive + to do(be)
-        acknowledge, allege, believe, consider, declare, know,  recognize, report, say, suppose, think, understand
+        acknowledge, allege, believe, consider, declare, know, recognize, report, say, suppose, think, understand
     - some/any/none/much/many/most + of : specific references
     - How deep/long/wide/tall...?
       ...is...tall/long/deep.
@@ -913,18 +913,115 @@ He has gone abroad, never to come back again.
 ##Unit70
 #Lesson1: Jack's other face
 * keywords: 
+    - When'll, What'll, Who'll, How'll
+      When's, What's, Who's, How's
+      meeting'll, meeting's
+      Susan'll, Jack's
+    - making suggestions: 
+        Let's...
+        How about / What about...?
+        Why don't you...?
+        I suggest (that)...
+    - two-part phrasal verbs
+    - verb. + to / it : to avoid repetition
 
+The meeting'll be at 11.
+The meeting's in progress.
+The meeting's just began.
+Susan'll see you now.
+Jack's waiting to see Susan.
+Jack's been to see Susan.
 
+Let's ask Susan.
+How about asking Susan?
+Why don't you ask Susan?
+I suggest (that) we ask Susan.
+
+Come in, Come on, Come up, Come along
+Go in, Go out, Go away
+Get in, Get up, Get down, Get out
+Sit down, Sit up, Hurry up
+Give it away, Give it up, Take it off, Put it down, Throw it away, Put it out
+
+You don't have to eat it if you don't want to.
+I'd love to.
+I'll try not to.
+Do you want me to?
+He took the money. He admitted it.
+I'll avoid it.
+I'll consider it.
+I love going skiing. I enjoy it.
 
 #Lesson2: Management today
 * keywords: 
+    - /s/: laughs, drops, kicks, lets
+      /z/: robs, adds, fills, dreams, runs, rings, draws, stirs, loves, sees, pays
+      +s: works, drives, plays, runs
+      +es: does, misses, mixes, catches, pushes
+      +ies: cries (buys, says)
+    - verb. + it + adj. : believe, consider, feel, imagine
+    - gradable adj: very good, too good, good enough / good->better->best
+      non-gradable adj. : daily, dead, medical, unique
+    - Not + all/another/enough/every/a few/half/the least/a little/many/more/much
 
+The approach rarely succeeds.
 
+They find it difficult to concentrate.
+I consider it thoughtless of her not to call.
+They believe it easy to avoid.
+I feel it comfortable to live in.
+She imagines it quiet to read.
+
+Each member fulfills a unique role.
+Keep a daily record of your progress.
+Fresh milk is delivered daily.
+Her husband's been dead a year now.
+
+Not all can coexist at the same time.
+Not much is happening at the moment.
+She's had not a few proposals of marriage.
+How much did they offer? Not enough!
+Not much is known about the disease.
+Not many people have read the report.
+The number of infected people is not a little.
 
 #Lesson3: One of us Chapter 7
 * keywords: 
+    - noun. + to do
+      noun. + of doing
+      chance, opportunity
+    - word order
+    - verb. + at / to
+      aim, laugh, shout, stare, strike, talk, throw
+    - irregular verbs
 
+There wouldn't be any chance to escape drowning.
+There wouldn't be any chance of escaping drowning.
+You wouldn't be any chance to explain what you've done.
+You wouldn't be any chance of explaining what you've done.
+You may have an opportunity to explain what you've done.
+You may have an opportunity of explaining what you've done.
+It's a pleasure to see you.
+I look forward to the pleasure of seeing you.
 
+Yesterday, I bought a new coat.
+I bought a new coat yesterday.
+Desperately he tried to escape.
+
+He pointed to the mountain.
+He shouted at me.
+He was throwing stones at birds.
+Throw the ball to me.
+The children got dirty and their mother shouted at them.
+She shouted to us across the valley.
+It's rude to point at people.
+The law would strike at the most basic of civil rights.
+The law would strike to the most basic of civil rights.
+Nobody laughs at my jokes.
+
+cost-cost-cost, cut-cut-cut
+come-came-come, build-built-built
+be-was-been, know-knew-known
 
 ##Unit71
 #Lesson1: Answers

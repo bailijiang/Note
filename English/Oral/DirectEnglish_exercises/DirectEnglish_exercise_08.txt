@@ -1055,7 +1055,7 @@ All but Emily had guessed the truth.
 All I have belongs to you.
 
 Get out there and get what you want.
-What's Gene's approach to life?
+What's Gene's approach to life? (method)
 
 #Lesson2: Review
 * keywords: 
@@ -1123,17 +1123,85 @@ I still can't see the summit.
 ##Unit72
 #Lesson1: End game
 * keywords: 
+    - some / any
+    - It: split sentence (emphasize)
+    - ~ly = very
+    - simple present tense for narration: game, story... (vivid)
 
+I haven't seen Tess for some years.
+There were some 400 people.
+Some thousands of people have been affected by the earthquake. (a great many)
+That's some radio, I must say!
+Isn't it under some other name?
+This isn't just any hearing aid.
+He needs any help he can get.
+Give me a plate. Any plate will do.
 
+Our client paid us yesterday.
+It was our client who paid us yesterday.
+It was yesterday (that) our client paid us.
+It was your daughter who kicked my dog yesterday.
+It was in the office you kissed me.
+
+I feel really / extremely sleepy.
+That stereo is terribly / awfully expensive.
+You're totally wrong.
+completely mistaken, horribly injured, perfectly planned, badly needed, deeply suspicious, highly respected, utterly stupid, sharply critical
+
+MacFee passes to Franklyn. Franklyn makes a quick pass to Booth. Booth is away with the ball but he's losing his advantage.
+I'm driving along this country road and I'm completely lost. Then I see this old guy. He's leaning against the gate. I stop the car and ask him the way. He thinks a minute, then says: "Well, if I were you, I wouldn't start from here."
 
 #Lesson2: Architecture
 * keywords: 
+    - position of the -ly adv. : 
+        v. + adv. / adv. + v. / adv. + object(very long)
+    - adj. + to do : advisable, better/best, essential, important, right, vital
 
+"This is good," she finally says.
+It can flow freely.
+We could see very clearly a strange light in the distance ahead of us.
 
+It's better to leave now.
+
+It's important that we keep channels open.
+It's important that we be at the meeting.
+It is advisable to practise each exercise individually at first.
+It is advisable to quit that job.
 
 #Lesson3: One of us Chapter 9
 * keywords: 
+    - off / of
+    - hear / listen to
+    - had been doing
+    - with / without
 
+It's just off the highway.
+Take the top off the jar.
+We set off at dawn.
+Has her headache worn off?
+Mrs. Ray of Boston, Mass.
+north / south / west / east of...
+The University of Indiana
+a woman of 50
+
+I hear music in the distance.
+I often listen to music.
+I'm listening to this CD.
+I listen to / hear the 9 o'clock news every night without fail.
+I heard some wonderful music at last night's concert.
+
+She was tired. She had been typing all day.
+Sam was annoyed. Janice had been calling him every day for a whole week.
+Susan's eyes were red. It was obvious she had been crying.
+
+Who's the woman with the black handbag?
+I've come out without any money.
+The laptop comes with / without a carrying case.
+He's the man with the big nose and red hair.
+the man with the crew cut
+the woman with the pink lipstick
+
+Every cloud has a silver lining.
 
 
 

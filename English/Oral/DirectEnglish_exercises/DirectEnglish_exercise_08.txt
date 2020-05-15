@@ -1064,7 +1064,8 @@ What's Gene's approach to life? (method)
         will / be going to 
         am/is/are about to
         am/is/are to
-        am/is/are on
+        am/is/are due to
+        am/is/are on the point of
     - emphasize progress:
         to be doing
         to have been doing
@@ -1085,6 +1086,8 @@ Look! They're on the point of starting!
 
 Everyone seems to be hiding something.
 Everyone seems to have been hiding something.
+She sounds to be sobbing.
+She sounds to have been sobbing.
 We expect to be taking off soon.
 It's important to have been trying, even if you fail.
 
@@ -1162,7 +1165,6 @@ It can flow freely.
 We could see very clearly a strange light in the distance ahead of us.
 
 It's better to leave now.
-
 It's important that we keep channels open.
 It's important that we be at the meeting.
 It is advisable to practise each exercise individually at first.
@@ -1178,7 +1180,7 @@ It is advisable to quit that job.
 It's just off the highway.
 Take the top off the jar.
 We set off at dawn.
-Has her headache worn off?
+Has her headache worn off? (relieve)
 Mrs. Ray of Boston, Mass.
 north / south / west / east of...
 The University of Indiana

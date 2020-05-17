@@ -401,7 +401,12 @@ Bryan Bai.
 How do you spell that?
 How do you pronounce that, please?
 And what is your address?
-My address is 1-402 Building 31, Yard 9, Shunhe Rd, Shunyi District, Beijing.
+My address is Rm 31-1-402, No.9, Shunhe Rd, Shunyi District, Beijing.
+
+Room 402, Unit 1, Building No.31
+No.9. Shunhe Road, Shunyi District
+Beijing, China 101399
+Bryan.bai
 
 * Telephone numbers
 Hello?
@@ -520,14 +525,14 @@ Where's William going, Dean?
 He's going to Reception.
 Where's Anne going?
 She's going to a meeting.
+Where are you going?
+I'm going to the airport.
 
 * going to do something
 What are you going to do, Anne?
 I'm going to call Nina.
 What's William going to do, Dean?
 He's going to speak to Carl.
-Where are you going?
-I'm going to the airport.
 What is she going to do, Bryan?
 She's going to the concert.
 

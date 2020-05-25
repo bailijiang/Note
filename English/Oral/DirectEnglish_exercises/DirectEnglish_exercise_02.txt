@@ -200,7 +200,7 @@ Under the clothes along with the newspapers and envelopes.
 Claire! Where're my photos?
 Have you seen it?
 Your photos? Yes, there's one between those books.
-(on the table near the radio / on the TV next to the clock / on the shelve above the labels)
+(on the table near the radio / on the TV next to the clock / on the shelf above the labels)
 Claire! I can't find my ink.
 Did you see the ink anywhere?
 The ink? Yes, there was one on the shelf above the labels.
@@ -248,12 +248,13 @@ It's sometime after September 21st.
 It's not before Thursday, September 21st.
 It's not till after 2020.
 I would intend to find a job in February, but now it looks like it can't be accomplished until May this year.
-I think it can be realized sometime before June this year.
+I think it can be achieved sometime before June this year.
 I won't go to work before May.
-I think we can't realize this plan until after April.
+I think we can't carry out this plan until after April.
 I promise we would finish this project sometime before next Monday.
 
 * Points of time: last.../next...
+                  before last / after next
 I'll see you next week.
 I saw Dean last week.
 When did you last go to the movies, Kevin?

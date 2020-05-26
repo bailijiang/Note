@@ -400,11 +400,12 @@ What do you like doing best?
 What do you hate doing most?
 
 #Lesson2: Wants and needs
-* keywords: someone,somebody,something 
-            anyone,anybody 
-            no one, nobody 
-            I need/want/prefer/am looking for someone/somebody who is,has,can,does...
-            Is there anybody who...?
+* keywords: 
+    - someone,somebody,something 
+      anyone,anybody 
+      no one, nobody 
+    - I need(want,prefer,am looking for) + someone(somebody) + who is(has,can,does)...
+    - Is there anybody who...?
 
 ...need someone who will...
 ...want someone who can...
@@ -430,8 +431,8 @@ We're looking for someone who can drive.
 We don't want anyone who can't drive.
 We're looking for someone who can speak a foreign language.
 We don't want anyone who can't speak a foreign language.
-We're looking for someone who gets along with others.
-We don't want anyone who doesn't get along with others.
+We're looking for someone who gets along with others well.
+We don't want anyone who doesn't get along with others well.
 We're looking for someone who arrives at work on time.
 We don't want anyone who doesn't arrive at work on time.
 
@@ -440,7 +441,7 @@ What sort of person are you looking for, Jim?
 I need someone (who is) intelligent...
 ...someone who has a good sense of humor,
 ...someone who can drive,
-...someone who gets along with others.
+...someone who gets along with others well.
 Anything else?
 I'm not asking for much.
 
@@ -485,6 +486,9 @@ I haven't finished.
 She hasn't finished.
 Have you finished?
 Has it finished?
+Have you arrived in New York?
+Ahead of the schedule, we've achieved our goal this year.
+she hasn't found a job yet.
 
 * What have you done?
 How are things, Nu La?

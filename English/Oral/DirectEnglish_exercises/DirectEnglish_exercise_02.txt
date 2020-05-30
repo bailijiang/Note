@@ -920,7 +920,7 @@ I don't want anything that doesn't have a lining.
 I'm looking for something which doesn't cost too much.
 I don't want anything that costs too much.
 
-The car which he is driving looks so cool.
+The car (which) he is driving looks so cool.
 
 I need a new laptop.
 What sort of laptop are you looking for, Mr?

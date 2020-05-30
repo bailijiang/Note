@@ -48,7 +48,7 @@ I'm a Gemini, and I'm a dynamic person.
 According to my horoscope, I should be mercurial, sensitive, childish, curious, humorous, and dual personality.
 But I don't read my horoscope every day.
 Because to some extent, I think this is a kind of superstitious, and human being's character traits are not that simple. It is just an entertaining manner.
-In terms of my life, I won't like somebody or something easily.
+In terms of my life, I won't like anybody or anything easily.
 But once if I like somebody through thoroughly understanding, I won't change easily too.
 So I'm not a mercurial person.
 I think I'm sensitive, curious, and humorous, but definitely not childish.
@@ -59,4 +59,42 @@ And according to her horoscope, she should be harmony, responsible, single-minde
 I think she matches a few traits of those, such as responsible and integrity, but in general, it's not accurate, even is totally opposite.
 
 
-## 3.
+## 3. Talking about being famous
+* What kind of people are generally famous and always in the public eye?
+* What is one of the good things about being famous?
+* What is one of the bad things?
+
+keywords:
+    politics, sports, culture, entertainment
+    the pros and cons, advantages, disadvantages
+    would like to, would love to
+    I like a person who(with)...is(has,can)...
+    rich, appear, fans
+    privacy, freedom, family involved
+    the famous show host
+    actor, professor, journalist
+    the truth, justice, reveal
+    real intention, easy to believe
+    be taken advantage of by bad people
+    to protect themselves
+
+
+It's nice to be famous because you will be rich or maybe you can appear on TV or you will have lots of fans.
+On the other hand, as a celebrity, you will lose your privacy and your freedom is limited and even your family will be involved.
+Usually, celebrities would appear in politics, sports, culture, and entertainment.
+I like a person who used to be a famous show host.
+His name is Cui Yong Yuan.
+He used to be a journalist, actor, and professor of the university.
+I admire him because I think he is a person who is integrity and he always tells the truth about our society.
+I feel he has a good overall sense of justice and fairness.
+He managed to reveal the problem of actors' tax evasion.
+Indeed, he may have some convenience than other people, 
+but meanwhile, he is also hurt easier than ordinary people.
+In a movie, as an actor, he used to be taken advantage of by the director to make money and this movie hurt his reputation deeply.
+So if I were him, I wouldn't have believed anybody easily.
+Unless I know his real intension.
+Because only in this way I can protect my self and my family.
+
+
+## 4. Talking about moving house
+

@@ -97,4 +97,46 @@ Because only in this way I can protect my self and my family.
 
 
 ## 4. Talking about moving house
+* How many times have you moved house?
+* What was your most recent experience like? Why?
+* Would you move your things yourself, or would you hire a moving company? Why?
+* What's the problem with big pieces of furniture?
+* What's the problem with small things?
+* What's the worst thing about moving house for you?
+* How did you finally get it into the apartment?
+
+keywords:
+    slowly, carefully, easily, heavily
+    move, decorate, assemble
+    It's hard to...
+
+I've moved house five times.
+The last time I moved house, I went from a small place to a bigger place.
+This time made me felt very tedious and exhausted, it just likes a nightmare!
+I moved something that small like clothes, computers, necessities by myself, but I had something big moved by a moving company such as furniture and sofa because they are too heavy to carry.
+During the process of moving house, some little things are a problem, too.
+Little things break so easily, even if you move them carefully.
+The worst thing about moving house for me was when I moved the bed into my bedroom slowly and carefully, I found it's hard to fit it into the new place.
+So I had to buy a new bed and assemble it by myself.
+You know, it has almost 50 screws and 20 parts.
+It took me two whole days to finish it.
+
+
+## 5. Talking about breaking up
+* Have you ever broken up with someone, and if so, how long ago?
+* Who made the first move to break up?
+* Why?
+* How did you both feel at the time?
+* Did you meet someone else?
+* How do you and your previous partner get along now?
+
+keywords:
+    compatible, harmony
+    compare, tolerate, hurt
+    gold-digger
+
+
+I first met Alice when ...
+
+
 

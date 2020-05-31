@@ -15,9 +15,13 @@
 * What do you do after work?
 
 keywords: 
-    have to, expect to
-    and, but, after that, then
-    at, for, sometimes, usually, often
+    jog--have to--office
+    drive--subway
+    cost--commuting
+    punch in--meeting
+    write--code
+    expect to--lunch--go home
+    music--games--reading
 
 After getting up, I often go to the park jogging for half an hour, and then I have to go to the office.
 Usually, I get there driving by myself, but in the rush hour, I will take the subway to avoid traffic jam.
@@ -40,9 +44,13 @@ Before I go to bed, I'm used to reading a book for an hour.
 * What kind of person is he or she?
 
 keywords:
-    optimist, pessimist, opposite, extent
-    Gemini, dynamic, mercurial, sensitive, childish, curious, humor, dual personality
-    Cancer, harmony, responsible, single-minded, integrity, creativity
+    Gemini--dynamic--mercurial--sensitive--childish--humor--dual personality
+    horoscope--to some extent--superstitious
+    won't like--easily--thoroughly
+    not childish--pessimist--not an optimist
+    Claire--Cancer
+    harmony--responsible--single--minded--integrity--creativity
+    match--opposite
 
 I'm a Gemini, and I'm a dynamic person.
 According to my horoscope, I should be mercurial, sensitive, childish, curious, humorous, and dual personality.
@@ -65,19 +73,15 @@ I think she matches a few traits of those, such as responsible and integrity, bu
 * What is one of the bad things?
 
 keywords:
-    politics, sports, culture, entertainment
-    the pros and cons, advantages, disadvantages
-    would like to, would love to
-    I like a person who(with)...is(has,can)...
-    rich, appear, fans
-    privacy, freedom, family involved
-    the famous show host
-    actor, professor, journalist
-    the truth, justice, reveal
-    real intention, easy to believe
-    be taken advantage of by bad people
-    to protect themselves
-
+    famous--rich--appear--fans
+    privacy--freedom--involve--appear in
+    a famous show host--Cui Yong Yuan
+    journalist--actor--professor
+    admire--tells truth--justice
+    reveal--tax evasion
+    convenience--hurt
+    movie--his reputation
+    not believe--intension--protect
 
 It's nice to be famous because you will be rich or maybe you can appear on TV or you will have lots of fans.
 On the other hand, as a celebrity, you will lose your privacy and your freedom is limited and even your family will be involved.
@@ -106,9 +110,11 @@ Because only in this way I can protect my self and my family.
 * How did you finally get it into the apartment?
 
 keywords:
-    slowly, carefully, easily, heavily
-    move, decorate, assemble
-    It's hard to...
+    five times
+    last time--tedious--exhaust
+    small--big
+    little things--break so easily
+    worst thing--bed--hard to fit
 
 I've moved house five times.
 The last time I moved house, I went from a small place to a bigger place.
@@ -131,9 +137,12 @@ It took me two whole days to finish it.
 * How do you and your previous partner get along now?
 
 keywords:
-    compatible, harmony
-    compare, tolerate, hurt
+    break up--five years--first move
+    reasons--love--material conditions
+    compare--tolerate--pain--hurt
+    not compatible--harmony
     gold-digger
+    meet--contact
 
 
 I first met Alice when ...

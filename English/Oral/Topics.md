@@ -138,14 +138,39 @@ It took me two whole days to finish it.
 
 keywords:
     break up--five years--first move
+    not compatible
     reasons--love--material conditions
-    compare--tolerate--pain--hurt
-    not compatible--harmony
-    gold-digger
+    gold-digger--compare--tolerate--pickiness--painful--hurt
     meet--contact
 
 
-I first met Alice when ...
+I first met Alice when I was 27. We have broken up for five years.
+We had dated for two years before broke up.
+I made the first move to break up because I think we are not compatible.
+The main reason I guess is that she did not really love me.
+She just loved some material conditions about me, such as house, car, money, etc.
+Lastly, I even felt she is a gold-digger, she always compared me to other people and wanted to make me change a lot of things.
+During that time, I tolerated all her pickiness and I felt so painful.
+She hurt my heart so deeply.
+So I had to break up with her at last.
+Since then I haven't met any other girlfriend until now.
+Through that experience, I've learned how to recognize the nature of a person.
+I think we should all understand each other completely before dating.
+After that, I never contact with Alice again.
 
+
+## 6. Talking about teenagers from their parents
+* What kinds of things do parents have to buy for their children?
+* What kinds of things are less necessary?
+* How much spending money should teenagers have? Why?
+* Why is life sometimes difficult for teenagers?
+* Do teenagers expect too much from their parents? Why?
+
+keywords:
+    money, pocket money, luxury brand
+    compare each other, dispise
+    majority, minority, useful person
+
+Teenagers generally expect a lot from their parents ...
 
 

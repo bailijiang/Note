@@ -171,6 +171,27 @@ keywords:
     compare each other, dispise
     majority, minority, useful person
 
-Teenagers generally expect a lot from their parents ...
+Teenagers generally expect a lot from their parents.
+Parents have to buy something that they are related to study for their children.
+But these days, most teenagers have a mobile phone, a laptop, even a car.
+Indeed, nowadays, money is above morals, culture, education, and politics.
+So teenagers are too easy to compare each other everywhere.
+They always want to buy luxury brand clothes, such as Nike, Adidas.
+Because if they buy some cheaper clothes or other things, they will be despised by their classmates.
+I think the average of teenagers' pocket money must be over 1,000 yuan a month and in some private high school, it may have been over 3,000 yuan.
+The majority expect more money from their parents, only the minority expect to learn how to be a useful person.
 
+
+## 7. Talking about what people think of each other
+* Who do you admire most and why?
+* Who do you admire least and why?
+* Who do you think of admires you most and why?
+* Who do you think of admires you least and why?
+* What were your school report cards like?
+* What did you think of your teachers?
+
+keywords:
+    
+
+The person I admires most is ... I admire him because ...
 

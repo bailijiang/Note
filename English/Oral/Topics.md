@@ -191,7 +191,19 @@ The majority expect more money from their parents, only the minority expect to l
 * What did you think of your teachers?
 
 keywords:
-    
+    integrity, honesty, chose right, learn
+    hypocrisy, lie, never learn
+    same kind
+    teacher--irresponsible
+    self-study
 
-The person I admires most is ... I admire him because ...
-
+The person I admire most is Bryan. He is my colleague. 
+I admire him because he is honesty, integrity, and kind.
+And whenever he faces the choice, he always chooses the right one, not the easy one.
+The person I admire least is Ethan. He always lies to everybody and he never learns.
+There are only a few people who admire me and I think they are the same kind of person as mine.
+There are lots of people who don't admire me and I think they may have been the same kind of person as Ethan.
+During high school, my school report cards are not good. I really don't like this kind of education's manner.
+I don't like my teachers, I think most of them are irresponsible for their jobs.
+Until now, the knowledge that I've learned is totally by self-study.
+ 

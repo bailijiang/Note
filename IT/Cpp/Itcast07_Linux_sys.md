@@ -1,99 +1,99 @@
 <!-- MarkdownTOC -->
 
-- [1. 系统调用](#1-系统调用)
+- [1. 系统调用](#1-%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8)
 - [2. open/close : man 2 open](#2-openclose--man-2-open)
-- [3. Linux内存布局](#3-linux内存布局)
+- [3. Linux内存布局](#3-linux%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80)
 - [4. read / write](#4-read--write)
-- [5. cp命令实现\(read/write\)](#5-cp命令实现readwrite)
-- [6. fgetc, fputc / read, write 区别](#6-fgetc-fputc--read-write-区别)
+- [5. cp命令实现\(read/write\)](#5-cp%E5%91%BD%E4%BB%A4%E5%AE%9E%E7%8E%B0readwrite)
+- [6. fgetc, fputc / read, write 区别](#6-fgetc-fputc--read-write-%E5%8C%BA%E5%88%AB)
 - [7. perror \(man 3 perror\)](#7-perror-man-3-perror)
-- [8. 阻塞和非阻塞](#8-阻塞和非阻塞)
+- [8. 阻塞和非阻塞](#8-%E9%98%BB%E5%A1%9E%E5%92%8C%E9%9D%9E%E9%98%BB%E5%A1%9E)
 - [9. lseek](#9-lseek)
-- [10. 位操作\(bitmap位图\)](#10-位操作bitmap位图)
-- [11. fcntl函数](#11-fcntl函数)
-- [12. 查找宏定义](#12-查找宏定义)
+- [10. 位操作\(bitmap位图\)](#10-%E4%BD%8D%E6%93%8D%E4%BD%9Cbitmap%E4%BD%8D%E5%9B%BE)
+- [11. fcntl函数](#11-fcntl%E5%87%BD%E6%95%B0)
+- [12. 查找宏定义](#12-%E6%9F%A5%E6%89%BE%E5%AE%8F%E5%AE%9A%E4%B9%89)
 - [13. ioctl](#13-ioctl)
-- [14. strtok 拆分字符串与可重入和不可重入函数](#14-strtok-拆分字符串与可重入和不可重入函数)
+- [14. strtok 拆分字符串与可重入和不可重入函数](#14-strtok-%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E5%8F%AF%E9%87%8D%E5%85%A5%E5%92%8C%E4%B8%8D%E5%8F%AF%E9%87%8D%E5%85%A5%E5%87%BD%E6%95%B0)
 - [15. ext2](#15-ext2)
 - [16. stat](#16-stat)
-- [17. 管道文件](#17-管道文件)
-- [18. 软链接](#18-软链接)
+- [17. 管道文件](#17-%E7%AE%A1%E9%81%93%E6%96%87%E4%BB%B6)
+- [18. 软链接](#18-%E8%BD%AF%E9%93%BE%E6%8E%A5)
 - [19. inode/dentry](#19-inodedentry)
-- [20. 数据块寻址](#20-数据块寻址)
-- [21. sticky黏住位](#21-sticky黏住位)
-- [22. 拓展文件 lseek / truncate](#22-拓展文件-lseek--truncate)
+- [20. 数据块寻址](#20-%E6%95%B0%E6%8D%AE%E5%9D%97%E5%AF%BB%E5%9D%80)
+- [21. sticky黏住位](#21-sticky%E9%BB%8F%E4%BD%8F%E4%BD%8D)
+- [22. 拓展文件 lseek / truncate](#22-%E6%8B%93%E5%B1%95%E6%96%87%E4%BB%B6-lseek--truncate)
 - [23. link](#23-link)
-- [24. 程序运行时创建临时文件](#24-程序运行时创建临时文件)
-- [25. 获取改变当前目录getcwd/chdir](#25-获取改变当前目录getcwdchdir)
-- [26. 目录](#26-目录)
-- [27. 递归遍历目录中的文件](#27-递归遍历目录中的文件)
-- [28. 回调函数](#28-回调函数)
-- [29. dup / dup2 重定向](#29-dup--dup2-重定向)
-- [30. while无{}时的分号;](#30-while无时的分号)
-- [31. 短路运算](#31-短路运算)
-- [32. sizeof运算符](#32-sizeof运算符)
-- [33. 内存中数据分布](#33-内存中数据分布)
-- [34. 段错误](#34-段错误)
-- [35. 标准I/O提供的3种类型的缓冲](#35-标准io提供的3种类型的缓冲)
-- [36. find命令](#36-find命令)
-- [37. 求1~n之间的所有素数](#37-求1~n之间的所有素数)
-- [38. 获取进程环境变量](#38-获取进程环境变量)
+- [24. 程序运行时创建临时文件](#24-%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%97%B6%E5%88%9B%E5%BB%BA%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6)
+- [25. 获取改变当前目录getcwd/chdir](#25-%E8%8E%B7%E5%8F%96%E6%94%B9%E5%8F%98%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95getcwdchdir)
+- [26. 目录](#26-%E7%9B%AE%E5%BD%95)
+- [27. 递归遍历目录中的文件](#27-%E9%80%92%E5%BD%92%E9%81%8D%E5%8E%86%E7%9B%AE%E5%BD%95%E4%B8%AD%E7%9A%84%E6%96%87%E4%BB%B6)
+- [28. 回调函数](#28-%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0)
+- [29. dup / dup2 重定向](#29-dup--dup2-%E9%87%8D%E5%AE%9A%E5%90%91)
+- [30. while无{}时的分号;](#30-while%E6%97%A0%E6%97%B6%E7%9A%84%E5%88%86%E5%8F%B7)
+- [31. 短路运算](#31-%E7%9F%AD%E8%B7%AF%E8%BF%90%E7%AE%97)
+- [32. sizeof运算符](#32-sizeof%E8%BF%90%E7%AE%97%E7%AC%A6)
+- [33. 内存中数据分布](#33-%E5%86%85%E5%AD%98%E4%B8%AD%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83)
+- [34. 段错误](#34-%E6%AE%B5%E9%94%99%E8%AF%AF)
+- [35. 标准I/O提供的3种类型的缓冲](#35-%E6%A0%87%E5%87%86io%E6%8F%90%E4%BE%9B%E7%9A%843%E7%A7%8D%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%BC%93%E5%86%B2)
+- [36. find命令](#36-find%E5%91%BD%E4%BB%A4)
+- [37. 求1~n之间的所有素数](#37-%E6%B1%821%7En%E4%B9%8B%E9%97%B4%E7%9A%84%E6%89%80%E6%9C%89%E7%B4%A0%E6%95%B0)
+- [38. 获取进程环境变量](#38-%E8%8E%B7%E5%8F%96%E8%BF%9B%E7%A8%8B%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
 - [39. CPU/MMU](#39-cpummu)
-- [40. CentOS7 kernel源代码路径](#40-centos7-kernel源代码路径)
-- [41. 根据pid查找运行程序](#41-根据pid查找运行程序)
-- [42. fork创建子进程并用循环因子i区分](#42-fork创建子进程并用循环因子i区分)
-- [43. 多进程gdb调试](#43-多进程gdb调试)
-- [44. exec函数族](#44-exec函数族)
-- [45. 孤儿进程 / 僵尸进程](#45-孤儿进程--僵尸进程)
-- [46. wait\(\)阻塞回收僵尸进程](#46-wait阻塞回收僵尸进程)
-- [47. 回收指定进程 waitpid\(\)](#47-回收指定进程-waitpid)
-- [48. 父进程fork 3 个子进程，三个子进程一个调用ps命令，一个调用自定义程序1\(正常\), 一个调用自定义程序2\(会出段错误\)。父进程使用waitpid对其子进程全部进行回收, 并打印状态](#48-父进程fork-3-个子进程，三个子进程一个调用ps命令，一个调用自定义程序1正常-一个调用自定义程序2会出段错误。父进程使用waitpid对其子进程全部进行回收-并打印状态)
-- [49. 全双工/半双工/单工](#49-全双工半双工单工)
-- [50. 通过pipe管道进行进程间通信](#50-通过pipe管道进行进程间通信)
-- [51. pipe / fork / dup2 / execlp 练习1父子](#51-pipe--fork--dup2--execlp-练习1父子)
-- [52. pipe / fork / dup2 / execlp 练习2 兄弟](#52-pipe--fork--dup2--execlp-练习2-兄弟)
-- [53. pipe一读多写/一写多读](#53-pipe一读多写一写多读)
-- [54. 统计当前系统中进程ID大于1000的进程个数](#54-统计当前系统中进程id大于1000的进程个数)
-- [55. pipe管道大小 4096 bytes](#55-pipe管道大小-4096-bytes)
-- [56. 获取管道缓冲区大小fpathconf](#56-获取管道缓冲区大小fpathconf)
-- [57. FIFO命名管道](#57-fifo命名管道)
-- [58. fifo一写多读](#58-fifo一写多读)
+- [40. CentOS7 kernel源代码路径](#40-centos7-kernel%E6%BA%90%E4%BB%A3%E7%A0%81%E8%B7%AF%E5%BE%84)
+- [41. 根据pid查找运行程序](#41-%E6%A0%B9%E6%8D%AEpid%E6%9F%A5%E6%89%BE%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F)
+- [42. fork创建子进程并用循环因子i区分](#42-fork%E5%88%9B%E5%BB%BA%E5%AD%90%E8%BF%9B%E7%A8%8B%E5%B9%B6%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%9B%A0%E5%AD%90i%E5%8C%BA%E5%88%86)
+- [43. 多进程gdb调试](#43-%E5%A4%9A%E8%BF%9B%E7%A8%8Bgdb%E8%B0%83%E8%AF%95)
+- [44. exec函数族](#44-exec%E5%87%BD%E6%95%B0%E6%97%8F)
+- [45. 孤儿进程 / 僵尸进程](#45-%E5%AD%A4%E5%84%BF%E8%BF%9B%E7%A8%8B--%E5%83%B5%E5%B0%B8%E8%BF%9B%E7%A8%8B)
+- [46. wait\(\)阻塞回收僵尸进程](#46-wait%E9%98%BB%E5%A1%9E%E5%9B%9E%E6%94%B6%E5%83%B5%E5%B0%B8%E8%BF%9B%E7%A8%8B)
+- [47. 回收指定进程 waitpid\(\)](#47-%E5%9B%9E%E6%94%B6%E6%8C%87%E5%AE%9A%E8%BF%9B%E7%A8%8B-waitpid)
+- [48. 父进程fork 3 个子进程，三个子进程一个调用ps命令，一个调用自定义程序1\(正常\), 一个调用自定义程序2\(会出段错误\)。父进程使用waitpid对其子进程全部进行回收, 并打印状态](#48-%E7%88%B6%E8%BF%9B%E7%A8%8Bfork-3-%E4%B8%AA%E5%AD%90%E8%BF%9B%E7%A8%8B%EF%BC%8C%E4%B8%89%E4%B8%AA%E5%AD%90%E8%BF%9B%E7%A8%8B%E4%B8%80%E4%B8%AA%E8%B0%83%E7%94%A8ps%E5%91%BD%E4%BB%A4%EF%BC%8C%E4%B8%80%E4%B8%AA%E8%B0%83%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E7%A8%8B%E5%BA%8F1%E6%AD%A3%E5%B8%B8-%E4%B8%80%E4%B8%AA%E8%B0%83%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E7%A8%8B%E5%BA%8F2%E4%BC%9A%E5%87%BA%E6%AE%B5%E9%94%99%E8%AF%AF%E3%80%82%E7%88%B6%E8%BF%9B%E7%A8%8B%E4%BD%BF%E7%94%A8waitpid%E5%AF%B9%E5%85%B6%E5%AD%90%E8%BF%9B%E7%A8%8B%E5%85%A8%E9%83%A8%E8%BF%9B%E8%A1%8C%E5%9B%9E%E6%94%B6-%E5%B9%B6%E6%89%93%E5%8D%B0%E7%8A%B6%E6%80%81)
+- [49. 全双工/半双工/单工](#49-%E5%85%A8%E5%8F%8C%E5%B7%A5%E5%8D%8A%E5%8F%8C%E5%B7%A5%E5%8D%95%E5%B7%A5)
+- [50. 通过pipe管道进行进程间通信](#50-%E9%80%9A%E8%BF%87pipe%E7%AE%A1%E9%81%93%E8%BF%9B%E8%A1%8C%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1)
+- [51. pipe / fork / dup2 / execlp 练习1父子](#51-pipe--fork--dup2--execlp-%E7%BB%83%E4%B9%A01%E7%88%B6%E5%AD%90)
+- [52. pipe / fork / dup2 / execlp 练习2 兄弟](#52-pipe--fork--dup2--execlp-%E7%BB%83%E4%B9%A02-%E5%85%84%E5%BC%9F)
+- [53. pipe一读多写/一写多读](#53-pipe%E4%B8%80%E8%AF%BB%E5%A4%9A%E5%86%99%E4%B8%80%E5%86%99%E5%A4%9A%E8%AF%BB)
+- [54. 统计当前系统中进程ID大于1000的进程个数](#54-%E7%BB%9F%E8%AE%A1%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E4%B8%AD%E8%BF%9B%E7%A8%8Bid%E5%A4%A7%E4%BA%8E1000%E7%9A%84%E8%BF%9B%E7%A8%8B%E4%B8%AA%E6%95%B0)
+- [55. pipe管道大小 4096 bytes](#55-pipe%E7%AE%A1%E9%81%93%E5%A4%A7%E5%B0%8F-4096-bytes)
+- [56. 获取管道缓冲区大小fpathconf](#56-%E8%8E%B7%E5%8F%96%E7%AE%A1%E9%81%93%E7%BC%93%E5%86%B2%E5%8C%BA%E5%A4%A7%E5%B0%8Ffpathconf)
+- [57. FIFO命名管道](#57-fifo%E5%91%BD%E5%90%8D%E7%AE%A1%E9%81%93)
+- [58. fifo一写多读](#58-fifo%E4%B8%80%E5%86%99%E5%A4%9A%E8%AF%BB)
 - [59. mmap](#59-mmap)
-- [60. mmap非血缘IPC通信](#60-mmap非血缘ipc通信)
-- [61. 软件项目设计实现流程](#61-软件项目设计实现流程)
-- [62. 多进程拷贝大文件](#62-多进程拷贝大文件)
-- [63. 交互shell, myshell.c](#63-交互shell-myshellc)
+- [60. mmap非血缘IPC通信](#60-mmap%E9%9D%9E%E8%A1%80%E7%BC%98ipc%E9%80%9A%E4%BF%A1)
+- [61. 软件项目设计实现流程](#61-%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E8%AE%BE%E8%AE%A1%E5%AE%9E%E7%8E%B0%E6%B5%81%E7%A8%8B)
+- [62. 多进程拷贝大文件](#62-%E5%A4%9A%E8%BF%9B%E7%A8%8B%E6%8B%B7%E8%B4%9D%E5%A4%A7%E6%96%87%E4%BB%B6)
+- [63. 交互shell, myshell.c](#63-%E4%BA%A4%E4%BA%92shell-myshellc)
 - [64. QQ_IPC](#64-qq_ipc)
-- [65. 信号sig的概念](#65-信号sig的概念)
-- [66. typedef 类型定义](#66-typedef-类型定义)
-- [67. sigaction函数](#67-sigaction函数)
-- [68. pause函数](#68-pause函数)
-- [69. 父进程利用sigaction信号捕捉处理多个僵尸进程](#69-父进程利用sigaction信号捕捉处理多个僵尸进程)
-- [70. sigsuspend解决时序竞态问题](#70-sigsuspend解决时序竞态问题)
-- [71. 父子进程交替数数](#71-父子进程交替数数)
-- [72. 创建session会话/作业](#72-创建session会话作业)
-- [73. 创建daemon守护进程](#73-创建daemon守护进程)
-- [74. 线程的概念](#74-线程的概念)
-- [75. 创建线程](#75-创建线程)
-- [76. 退出单个线程pthread_exit\(NULL\)](#76-退出单个线程pthread_exitnull)
-- [77. pthread_join阻塞等待线程退出, 获取线程退出状态](#77-pthread_join阻塞等待线程退出-获取线程退出状态)
-- [78. pthread_detach 分离单个线程](#78-pthread_detach-分离单个线程)
-- [79. pthread_cancel杀死一个线程](#79-pthread_cancel杀死一个线程)
-- [80. 设置线程属性pthread_attr](#80-设置线程属性pthread_attr)
-- [81. 线程同步的概念](#81-线程同步的概念)
-- [82. 多线程拷贝大文件, 并显示拷贝进度](#82-多线程拷贝大文件-并显示拷贝进度)
-- [83. 线程死锁](#83-线程死锁)
-- [84. 读写锁](#84-读写锁)
-- [85. 生产者消费者-pthread_cond](#85-生产者消费者-pthread_cond)
-- [86. semaphore旗语\(信号量\)](#86-semaphore旗语信号量)
-- [87. 进程间同步pthread_mutexattr_t](#87-进程间同步pthreadmutexattrt)
-- [88. 进程间文件锁fcntl/flock](#88-进程间文件锁fcntlflock)
-- [89. 哲学家吃饭问题](#89-哲学家吃饭问题)
+- [65. 信号sig的概念](#65-%E4%BF%A1%E5%8F%B7sig%E7%9A%84%E6%A6%82%E5%BF%B5)
+- [66. typedef 类型定义](#66-typedef-%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89)
+- [67. sigaction函数](#67-sigaction%E5%87%BD%E6%95%B0)
+- [68. pause函数](#68-pause%E5%87%BD%E6%95%B0)
+- [69. 父进程利用sigaction信号捕捉处理多个僵尸进程](#69-%E7%88%B6%E8%BF%9B%E7%A8%8B%E5%88%A9%E7%94%A8sigaction%E4%BF%A1%E5%8F%B7%E6%8D%95%E6%8D%89%E5%A4%84%E7%90%86%E5%A4%9A%E4%B8%AA%E5%83%B5%E5%B0%B8%E8%BF%9B%E7%A8%8B)
+- [70. sigsuspend解决时序竞态问题](#70-sigsuspend%E8%A7%A3%E5%86%B3%E6%97%B6%E5%BA%8F%E7%AB%9E%E6%80%81%E9%97%AE%E9%A2%98)
+- [71. 父子进程交替数数](#71-%E7%88%B6%E5%AD%90%E8%BF%9B%E7%A8%8B%E4%BA%A4%E6%9B%BF%E6%95%B0%E6%95%B0)
+- [72. 创建session会话/作业](#72-%E5%88%9B%E5%BB%BAsession%E4%BC%9A%E8%AF%9D%E4%BD%9C%E4%B8%9A)
+- [73. 创建daemon守护进程](#73-%E5%88%9B%E5%BB%BAdaemon%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B)
+- [74. 线程的概念](#74-%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%A6%82%E5%BF%B5)
+- [75. 创建线程](#75-%E5%88%9B%E5%BB%BA%E7%BA%BF%E7%A8%8B)
+- [76. 退出单个线程pthread_exit\(NULL\)](#76-%E9%80%80%E5%87%BA%E5%8D%95%E4%B8%AA%E7%BA%BF%E7%A8%8Bpthread_exitnull)
+- [77. pthread_join阻塞等待线程退出, 获取线程退出状态](#77-pthread_join%E9%98%BB%E5%A1%9E%E7%AD%89%E5%BE%85%E7%BA%BF%E7%A8%8B%E9%80%80%E5%87%BA-%E8%8E%B7%E5%8F%96%E7%BA%BF%E7%A8%8B%E9%80%80%E5%87%BA%E7%8A%B6%E6%80%81)
+- [78. pthread_detach 分离单个线程](#78-pthread_detach-%E5%88%86%E7%A6%BB%E5%8D%95%E4%B8%AA%E7%BA%BF%E7%A8%8B)
+- [79. pthread_cancel杀死一个线程](#79-pthread_cancel%E6%9D%80%E6%AD%BB%E4%B8%80%E4%B8%AA%E7%BA%BF%E7%A8%8B)
+- [80. 设置线程属性pthread_attr](#80-%E8%AE%BE%E7%BD%AE%E7%BA%BF%E7%A8%8B%E5%B1%9E%E6%80%A7pthread_attr)
+- [81. 线程同步的概念](#81-%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5%E7%9A%84%E6%A6%82%E5%BF%B5)
+- [82. 多线程拷贝大文件, 并显示拷贝进度](#82-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%8B%B7%E8%B4%9D%E5%A4%A7%E6%96%87%E4%BB%B6-%E5%B9%B6%E6%98%BE%E7%A4%BA%E6%8B%B7%E8%B4%9D%E8%BF%9B%E5%BA%A6)
+- [83. 线程死锁](#83-%E7%BA%BF%E7%A8%8B%E6%AD%BB%E9%94%81)
+- [84. 读写锁](#84-%E8%AF%BB%E5%86%99%E9%94%81)
+- [85. 生产者消费者-pthread_cond](#85-%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85-pthread_cond)
+- [86. semaphore旗语\(信号量\)](#86-semaphore%E6%97%97%E8%AF%AD%E4%BF%A1%E5%8F%B7%E9%87%8F)
+- [87. 进程间同步pthread_mutexattr_t](#87-%E8%BF%9B%E7%A8%8B%E9%97%B4%E5%90%8C%E6%AD%A5pthreadmutexattrt)
+- [88. 进程间文件锁fcntl/flock](#88-%E8%BF%9B%E7%A8%8B%E9%97%B4%E6%96%87%E4%BB%B6%E9%94%81fcntlflock)
+- [89. 哲学家吃饭问题](#89-%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%90%83%E9%A5%AD%E9%97%AE%E9%A2%98)
 - [90. sem_timedwait](#90-sem_timedwait)
 
 <!-- /MarkdownTOC -->
 
-<a id="1-系统调用"></a>
+<a id="1-%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8"></a>
 #### 1. 系统调用
 * 本质: 内核提供的函数
 * 完成系统和应用程序之间的传递
@@ -139,7 +139,7 @@ int main(void)
 
 * 每打开一个文件都有一个I/O缓冲区
 
-<a id="3-linux内存布局"></a>
+<a id="3-linux%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80"></a>
 #### 3. Linux内存布局
 ![](image\内存布局图.PNG)
 
@@ -174,7 +174,7 @@ int main(void)
 }
 ```
 
-<a id="5-cp命令实现readwrite"></a>
+<a id="5-cp%E5%91%BD%E4%BB%A4%E5%AE%9E%E7%8E%B0readwrite"></a>
 #### 5. cp命令实现(read/write)
 ```
 [root@centos180 file_IO_test]# cat mycopy.c 
@@ -212,7 +212,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-<a id="6-fgetc-fputc--read-write-区别"></a>
+<a id="6-fgetc-fputc--read-write-%E5%8C%BA%E5%88%AB"></a>
 #### 6. fgetc, fputc / read, write 区别
 * C标准库fgetc, fputc 比 read, write 性能高
     - 原因: 预读入, 缓输出机制
@@ -227,7 +227,7 @@ int main(int argc, char* argv[])
 * vim中查看man: 3+K
 * !man 3 perror
 
-<a id="8-阻塞和非阻塞"></a>
+<a id="8-%E9%98%BB%E5%A1%9E%E5%92%8C%E9%9D%9E%E9%98%BB%E5%A1%9E"></a>
 #### 8. 阻塞和非阻塞
 * 阻塞
 ```
@@ -409,14 +409,14 @@ write(fd, msg, strlen(msg));
 * 获取文件大小
 `int len = lseek(fd, 0, SEEK_END);`
 
-<a id="10-位操作bitmap位图"></a>
+<a id="10-%E4%BD%8D%E6%93%8D%E4%BD%9Cbitmap%E4%BD%8D%E5%9B%BE"></a>
 #### 10. 位操作(bitmap位图)
 * 本质是通过二进制位直接操作整数
 * and与操作用于取出特定位(然后根据需要进行判定)----->位读 &
 * or或操作用于指定位的无条件赋值              ----->位写 |
 * `flags |= O_NONBLOCK; // 在flags中加入O_NONBLOCK属性`
 
-<a id="11-fcntl函数"></a>
+<a id="11-fcntl%E5%87%BD%E6%95%B0"></a>
 #### 11. fcntl函数
 * 动态添加非阻塞操作
 ```
@@ -463,7 +463,7 @@ write(fd, msg, strlen(msg));
     }
 ```
 
-<a id="12-查找宏定义"></a>
+<a id="12-%E6%9F%A5%E6%89%BE%E5%AE%8F%E5%AE%9A%E4%B9%89"></a>
 #### 12. 查找宏定义
 * man
 * 头文件 .h
@@ -496,9 +496,10 @@ int main(void)
 }
 ```
 
-<a id="14-strtok-拆分字符串与可重入和不可重入函数"></a>
+<a id="14-strtok-%E6%8B%86%E5%88%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E5%8F%AF%E9%87%8D%E5%85%A5%E5%92%8C%E4%B8%8D%E5%8F%AF%E9%87%8D%E5%85%A5%E5%87%BD%E6%95%B0"></a>
 #### 14. strtok 拆分字符串与可重入和不可重入函数
 * 不可重入函数(执行期间不可中断, 无法正常返回): 使用了全局资源
+* 多个线程或进程同时调用一个函数, 此函数会修改全局共享资源, 会导致数据不安全(不可重入/线程不安全), 反之则是可重入(线程安全)函数; 
 * strtok_r 是可重入函数: 使用二级指针
 ```
 #include<stdio.h>
@@ -593,13 +594,14 @@ int main(int argc, char* argv[])
 }
 ```
 
-<a id="17-管道文件"></a>
+<a id="17-%E7%AE%A1%E9%81%93%E6%96%87%E4%BB%B6"></a>
 #### 17. 管道文件
 * 特点: 半双工, 阻塞
 * 应用: 进程间通信, 一端写一端读(类似于golang: channel)
 * 创建管道文件: mkfifo file_name.pipe
 * 管道大小: 64K
 * 模拟进程间通信程序: a.c, b.c(你一句我一句)
+* 双管道, a写b读, b写a读
 * a.c:
 ```
 #include<sys/types.h>
@@ -655,7 +657,7 @@ int main(int argc,char** argv)
 }
 ```
 
-<a id="18-软链接"></a>
+<a id="18-%E8%BD%AF%E9%93%BE%E6%8E%A5"></a>
 #### 18. 软链接
 * 穿透(符号链接): vi, vim, stat, ...
 * 不穿透: lstat, ls, readlink, ...
@@ -667,7 +669,7 @@ int main(int argc,char** argv)
 * dentry: 
     - 保存文件名和inode号
 
-<a id="20-数据块寻址"></a>
+<a id="20-%E6%95%B0%E6%8D%AE%E5%9D%97%E5%AF%BB%E5%9D%80"></a>
 #### 20. 数据块寻址
 * inode表, 每个inode在ext2中是128字节 
 * 一个inode对应一个文件, 一个文件对应一个或多个Block
@@ -676,15 +678,16 @@ int main(int argc,char** argv)
 * ![](image\数据块寻址.PNG)
 * 索引项代表block的号
 
-* inode表中, 每个inode中的Block[]下标索引项占4字节: 每4个字节标识一个Block, 后3个是间接寻址, 里面存放的时Block的编号(不是地址)
+* inode表中, 每个inode中的Block[]下标索引项占4字节: 每4个字节标识一个Block, 后3个是间接寻址, 里面存放的是Block的编号(不是地址)
 * 当一个Block块大小为1K时(b=1K=1024Bytes), 最多可表示$(b/4)^3+(b/4)^2+(b/4)+12$=16843020 个数据块, 即16843020K字节, 即一个inode对应的一个文件最大为 16.06GB
 
-<a id="21-sticky黏住位"></a>
+<a id="21-sticky%E9%BB%8F%E4%BD%8F%E4%BD%8D"></a>
 #### 21. sticky黏住位
 * chmod 01777 ttt
 * 设置sticky位的文件或目录会始终存在内存里
+* 对任意用户可读写的目录需要设置sticky位(chmod o+t dir), 否则其他用户能删除不是自己创建的文件
 
-<a id="22-拓展文件-lseek--truncate"></a>
+<a id="22-%E6%8B%93%E5%B1%95%E6%96%87%E4%BB%B6-lseek--truncate"></a>
 #### 22. 拓展文件 lseek / truncate
 ```
 #include <stdio.h>
@@ -724,7 +727,7 @@ int main(int argc, char** argv)
 * 硬连接创建的文件与原文件共享一个inode
 * 硬连接不能创建目录
 
-<a id="24-程序运行时创建临时文件"></a>
+<a id="24-%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%97%B6%E5%88%9B%E5%BB%BA%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6"></a>
 #### 24. 程序运行时创建临时文件
 ```
 /*
@@ -778,7 +781,7 @@ int main(void)
 }
 ```
 
-<a id="25-获取改变当前目录getcwdchdir"></a>
+<a id="25-%E8%8E%B7%E5%8F%96%E6%94%B9%E5%8F%98%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95getcwdchdir"></a>
 #### 25. 获取改变当前目录getcwd/chdir
 ```
 #include <stdio.h>
@@ -798,7 +801,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="26-目录"></a>
+<a id="26-%E7%9B%AE%E5%BD%95"></a>
 #### 26. 目录
 * 目录也是文件
 * 目录文件内包括目录项
@@ -835,7 +838,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="27-递归遍历目录中的文件"></a>
+<a id="27-%E9%80%92%E5%BD%92%E9%81%8D%E5%8E%86%E7%9B%AE%E5%BD%95%E4%B8%AD%E7%9A%84%E6%96%87%E4%BB%B6"></a>
 #### 27. 递归遍历目录中的文件
 * listAllFiles.c:
 ```
@@ -984,7 +987,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="28-回调函数"></a>
+<a id="28-%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0"></a>
 #### 28. 回调函数
 * 要确定谁是调用函数, 谁是回调函数
 * 调用函数在参数中指定回调函数的类型
@@ -992,7 +995,7 @@ int main(int argc, char** argv)
 * 回调函数是面向对象中多态的理论基础
 * 回调函数的本质是函数指针
 
-<a id="29-dup--dup2-重定向"></a>
+<a id="29-dup--dup2-%E9%87%8D%E5%AE%9A%E5%90%91"></a>
 #### 29. dup / dup2 重定向
 * dup2(old_fd, new_fd) 
     - 是将old_fd 下标(指针), 拷贝到new_fd
@@ -1038,7 +1041,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="30-while无时的分号"></a>
+<a id="30-while%E6%97%A0%E6%97%B6%E7%9A%84%E5%88%86%E5%8F%B7"></a>
 #### 30. while无{}时的分号;
 ```
 #include <stdio.h>
@@ -1056,12 +1059,12 @@ int main(void)
 }
 ```
 
-<a id="31-短路运算"></a>
+<a id="31-%E7%9F%AD%E8%B7%AF%E8%BF%90%E7%AE%97"></a>
 #### 31. 短路运算
 * &&前面是0时,&&符号后面的不计算
 * ||前面不是0时,||号后面的不计算
 
-<a id="32-sizeof运算符"></a>
+<a id="32-sizeof%E8%BF%90%E7%AE%97%E7%AC%A6"></a>
 #### 32. sizeof运算符
 * 当数组作为函数参数时, 会自动退化成指针, 所以对函数参数做sizeof时, 大小为4
 ```
@@ -1076,7 +1079,7 @@ int main(void)
     printf("p = %d\n", sizeof(p));
 ```
 
-<a id="33-内存中数据分布"></a>
+<a id="33-%E5%86%85%E5%AD%98%E4%B8%AD%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83"></a>
 #### 33. 内存中数据分布
 * .bss: 未初始化的全局变量   初始化为0的全局变量 static修饰（静态变量）的未初始化的或初始化为0的变量
     - 通常是指用来存放程序中未初始化的全局变量的一块内存区域, BSS是英文Block Started by Symbol的简称, BSS段属于静态内存分配
@@ -1086,24 +1089,24 @@ int main(void)
 * stack：局部变量
 * (变量/函数...)只声明不定义, 编译器不会分配地址空间, 如果使用, 会报错
 
-<a id="34-段错误"></a>
+<a id="34-%E6%AE%B5%E9%94%99%E8%AF%AF"></a>
 #### 34. 段错误
 * 对只读区域进程写操作  char　*p = "hello"; p[0] = 'H';
 * 对非访问区域进行读写操 地址1000
 * stack空间耗尽      函数内部 int arr[N]= {1};  #define N 100000000
 
-<a id="35-标准io提供的3种类型的缓冲"></a>
+<a id="35-%E6%A0%87%E5%87%86io%E6%8F%90%E4%BE%9B%E7%9A%843%E7%A7%8D%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%BC%93%E5%86%B2"></a>
 #### 35. 标准I/O提供的3种类型的缓冲
 * 全缓冲
 * 行缓冲: printf("test \n"); 没有\n就不输出, fflush(stdout) 可以刷新缓冲区
 * 无缓冲: stderr
 
-<a id="36-find命令"></a>
+<a id="36-find%E5%91%BD%E4%BB%A4"></a>
 #### 36. find命令
 `find /usr/ -size +900k -size -2M | xargs ls -lh > result.txt
 `
 
-<a id="37-求1~n之间的所有素数"></a>
+<a id="37-%E6%B1%821%7En%E4%B9%8B%E9%97%B4%E7%9A%84%E6%89%80%E6%9C%89%E7%B4%A0%E6%95%B0"></a>
 #### 37. 求1~n之间的所有素数
 ```
 #include <stdio.h>
@@ -1137,7 +1140,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-<a id="38-获取进程环境变量"></a>
+<a id="38-%E8%8E%B7%E5%8F%96%E8%BF%9B%E7%A8%8B%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"></a>
 #### 38. 获取进程环境变量
 * environ:
 ```
@@ -1184,18 +1187,18 @@ int main(void)
 * CPU: 4级流水机制 (预取器, 译码器, ALU, 寄存器)
 * MMU: 虚拟内存映射 (Memery Management Unit)
 
-<a id="40-centos7-kernel源代码路径"></a>
+<a id="40-centos7-kernel%E6%BA%90%E4%BB%A3%E7%A0%81%E8%B7%AF%E5%BE%84"></a>
 #### 40. CentOS7 kernel源代码路径
 * PCB进程控制块的 struct task_struct 在源代码中的定义位置: 
     - `vim /usr/src/kernels/3.10.0-693.el7.x86_64/include/linux/sched.h`
 * 查询源码定义路径: `grep -r "struct task_struct {" /usr/src/kernels/3.10.0-693.el7.x86_64/include/linux/`
 
-<a id="41-根据pid查找运行程序"></a>
+<a id="41-%E6%A0%B9%E6%8D%AEpid%E6%9F%A5%E6%89%BE%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F"></a>
 #### 41. 根据pid查找运行程序
 * `ps aux | grep 2177`
 * `ps aux | grep init`
 
-<a id="42-fork创建子进程并用循环因子i区分"></a>
+<a id="42-fork%E5%88%9B%E5%BB%BA%E5%AD%90%E8%BF%9B%E7%A8%8B%E5%B9%B6%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%9B%A0%E5%AD%90i%E5%8C%BA%E5%88%86"></a>
 #### 42. fork创建子进程并用循环因子i区分
 * 在父进程中，fork返回新创建子进程的进程ID；
 * 在子进程中，fork返回0；
@@ -1240,13 +1243,13 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="43-多进程gdb调试"></a>
+<a id="43-%E5%A4%9A%E8%BF%9B%E7%A8%8Bgdb%E8%B0%83%E8%AF%95"></a>
 #### 43. 多进程gdb调试
 * set follow-fork-mode child
 * set follow-fork-mode parent
 * 一定要在fork()之前设定才有意义
 
-<a id="44-exec函数族"></a>
+<a id="44-exec%E5%87%BD%E6%95%B0%E6%97%8F"></a>
 #### 44. exec函数族
 * p代表PATH环境变量, 没有p的要加路径
 ```
@@ -1280,7 +1283,7 @@ int main(void)
 
 ```
 
-<a id="45-孤儿进程--僵尸进程"></a>
+<a id="45-%E5%AD%A4%E5%84%BF%E8%BF%9B%E7%A8%8B--%E5%83%B5%E5%B0%B8%E8%BF%9B%E7%A8%8B"></a>
 #### 45. 孤儿进程 / 僵尸进程
 * 父进程先于子进程结束, 子进程变为孤儿进程
 * 查看进程ID: `ps ajx`
@@ -1288,7 +1291,7 @@ int main(void)
 * 僵尸进程不能用kill清除掉
 * 可以手动 kill -9 父进程来回收僵尸进程
 
-<a id="46-wait阻塞回收僵尸进程"></a>
+<a id="46-wait%E9%98%BB%E5%A1%9E%E5%9B%9E%E6%94%B6%E5%83%B5%E5%B0%B8%E8%BF%9B%E7%A8%8B"></a>
 #### 46. wait()阻塞回收僵尸进程
 * 一个wait()只能回收1个子进程
 ```
@@ -1330,7 +1333,7 @@ int main(void)
 }
 ```
 
-<a id="47-回收指定进程-waitpid"></a>
+<a id="47-%E5%9B%9E%E6%94%B6%E6%8C%87%E5%AE%9A%E8%BF%9B%E7%A8%8B-waitpid"></a>
 #### 47. 回收指定进程 waitpid()
 * 非阻塞回收: `wpid = waitpid(tmppid, NULL, WNOHANG);`
 * 阻塞指定回收: `wpid = waitpid(tmppid, NULL, 0);`
@@ -1389,7 +1392,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="48-父进程fork-3-个子进程，三个子进程一个调用ps命令，一个调用自定义程序1正常-一个调用自定义程序2会出段错误。父进程使用waitpid对其子进程全部进行回收-并打印状态"></a>
+<a id="48-%E7%88%B6%E8%BF%9B%E7%A8%8Bfork-3-%E4%B8%AA%E5%AD%90%E8%BF%9B%E7%A8%8B%EF%BC%8C%E4%B8%89%E4%B8%AA%E5%AD%90%E8%BF%9B%E7%A8%8B%E4%B8%80%E4%B8%AA%E8%B0%83%E7%94%A8ps%E5%91%BD%E4%BB%A4%EF%BC%8C%E4%B8%80%E4%B8%AA%E8%B0%83%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E7%A8%8B%E5%BA%8F1%E6%AD%A3%E5%B8%B8-%E4%B8%80%E4%B8%AA%E8%B0%83%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E7%A8%8B%E5%BA%8F2%E4%BC%9A%E5%87%BA%E6%AE%B5%E9%94%99%E8%AF%AF%E3%80%82%E7%88%B6%E8%BF%9B%E7%A8%8B%E4%BD%BF%E7%94%A8waitpid%E5%AF%B9%E5%85%B6%E5%AD%90%E8%BF%9B%E7%A8%8B%E5%85%A8%E9%83%A8%E8%BF%9B%E8%A1%8C%E5%9B%9E%E6%94%B6-%E5%B9%B6%E6%89%93%E5%8D%B0%E7%8A%B6%E6%80%81"></a>
 #### 48. 父进程fork 3 个子进程，三个子进程一个调用ps命令，一个调用自定义程序1(正常), 一个调用自定义程序2(会出段错误)。父进程使用waitpid对其子进程全部进行回收, 并打印状态
 * exercise_fork.c:
 ```
@@ -1474,13 +1477,13 @@ int main(void)
 }
 ```
 
-<a id="49-全双工半双工单工"></a>
+<a id="49-%E5%85%A8%E5%8F%8C%E5%B7%A5%E5%8D%8A%E5%8F%8C%E5%B7%A5%E5%8D%95%E5%B7%A5"></a>
 #### 49. 全双工/半双工/单工
 * 全双工: 双向读写(电话)
 * 半双工: 双向半双工, 一端写一端读(对讲机), 管道pipe
 * 单工: 单向写/读(遥控器)
 
-<a id="50-通过pipe管道进行进程间通信"></a>
+<a id="50-%E9%80%9A%E8%BF%87pipe%E7%AE%A1%E9%81%93%E8%BF%9B%E8%A1%8C%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1"></a>
 #### 50. 通过pipe管道进行进程间通信
 * 先创建管道pipe, 再fork()子进程
 * 管道两端可分别用描述字fd[0]以及fd[1]来描述，需要注意的是，管道的两端是固定了任务的。即一端只能用于读，由描述字fd[0]表示，称其为管道读端；另一端则只能用于写，由描述字fd[1]来表示，称其为管道写端。
@@ -1531,7 +1534,7 @@ int main(void)
 }
 ```
 
-<a id="51-pipe--fork--dup2--execlp-练习1父子"></a>
+<a id="51-pipe--fork--dup2--execlp-%E7%BB%83%E4%B9%A01%E7%88%B6%E5%AD%90"></a>
 #### 51. pipe / fork / dup2 / execlp 练习1父子
 * 让父进程去读fd[0]管道pipe, 可以避免父进程先结束, 出现孤儿进程
 ```
@@ -1577,7 +1580,7 @@ int main(void)
 }
 ```
 
-<a id="52-pipe--fork--dup2--execlp-练习2-兄弟"></a>
+<a id="52-pipe--fork--dup2--execlp-%E7%BB%83%E4%B9%A02-%E5%85%84%E5%BC%9F"></a>
 #### 52. pipe / fork / dup2 / execlp 练习2 兄弟
 * 父进程自己读写pipe, 无法保证单向半双工, 需要在父进程中关闭rw, 即fd[0], fd[1], 才能保证子进程(兄弟)顺利读写
 ```
@@ -1638,11 +1641,11 @@ int main(void)
 }
 ```
 
-<a id="53-pipe一读多写一写多读"></a>
+<a id="53-pipe%E4%B8%80%E8%AF%BB%E5%A4%9A%E5%86%99%E4%B8%80%E5%86%99%E5%A4%9A%E8%AF%BB"></a>
 #### 53. pipe一读多写/一写多读
 
 
-<a id="54-统计当前系统中进程id大于1000的进程个数"></a>
+<a id="54-%E7%BB%9F%E8%AE%A1%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E4%B8%AD%E8%BF%9B%E7%A8%8Bid%E5%A4%A7%E4%BA%8E1000%E7%9A%84%E8%BF%9B%E7%A8%8B%E4%B8%AA%E6%95%B0"></a>
 #### 54. 统计当前系统中进程ID大于1000的进程个数
 * 思路: `ps aux`-> strtok -> atoi -> >1000
 * count_pid.c:
@@ -1741,13 +1744,13 @@ int main(void)
 }
 ```
 
-<a id="55-pipe管道大小-4096-bytes"></a>
+<a id="55-pipe%E7%AE%A1%E9%81%93%E5%A4%A7%E5%B0%8F-4096-bytes"></a>
 #### 55. pipe管道大小 4096 bytes
 * `ulimit -a`
 * `pipe size            (512 bytes, -p) 8`
 * 512 * 8 = 4096
 
-<a id="56-获取管道缓冲区大小fpathconf"></a>
+<a id="56-%E8%8E%B7%E5%8F%96%E7%AE%A1%E9%81%93%E7%BC%93%E5%86%B2%E5%8C%BA%E5%A4%A7%E5%B0%8Ffpathconf"></a>
 #### 56. 获取管道缓冲区大小fpathconf
 ```
 #include <stdio.h>
@@ -1781,13 +1784,13 @@ int main(void)
 }
 ```
 
-<a id="57-fifo命名管道"></a>
+<a id="57-fifo%E5%91%BD%E5%90%8D%E7%AE%A1%E9%81%93"></a>
 #### 57. FIFO命名管道
 * 不相关的进程可以同时使用的管道
 * `mkfifo myfifo`
 
 
-<a id="58-fifo一写多读"></a>
+<a id="58-fifo%E4%B8%80%E5%86%99%E5%A4%9A%E8%AF%BB"></a>
 #### 58. fifo一写多读
 * fifo_w.c:
 ```
@@ -1925,7 +1928,7 @@ int main(void)
 }
 ```
 
-<a id="60-mmap非血缘ipc通信"></a>
+<a id="60-mmap%E9%9D%9E%E8%A1%80%E7%BC%98ipc%E9%80%9A%E4%BF%A1"></a>
 #### 60. mmap非血缘IPC通信
 * 一写多读 / 一读多写 均可
 * mmap_w.c:
@@ -2064,7 +2067,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="61-软件项目设计实现流程"></a>
+<a id="61-%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E8%AE%BE%E8%AE%A1%E5%AE%9E%E7%8E%B0%E6%B5%81%E7%A8%8B"></a>
 #### 61. 软件项目设计实现流程
 * __功能模块图__: 总目标 -> 拆分成需求点 -> 根据需求点画出系统架构图
 * 关键技术难点实现方法
@@ -2076,7 +2079,7 @@ int main(int argc, char** argv)
 * __功能拆分__: 对功能进行2~3层拆分, 按步骤实现, 边写边测(printf), 从最简单的开始, 每次最好不要超过20行代码
 * 测试(gdb)
 
-<a id="62-多进程拷贝大文件"></a>
+<a id="62-%E5%A4%9A%E8%BF%9B%E7%A8%8B%E6%8B%B7%E8%B4%9D%E5%A4%A7%E6%96%87%E4%BB%B6"></a>
 #### 62. 多进程拷贝大文件 
 * multiprocess_cp.c
 * 只要有open/close, mmap/munmap等操作, 就需要定义临时指针, 以保证关闭的有效性(避免指针操作过程中的写操作修改原值)
@@ -2198,7 +2201,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="63-交互shell-myshellc"></a>
+<a id="63-%E4%BA%A4%E4%BA%92shell-myshellc"></a>
 #### 63. 交互shell, myshell.c 
 * 总体步骤:
     + 接收用户输入命令字符串，拆分命令及参数存储。（自行设计数据存储结构）
@@ -3211,7 +3214,7 @@ void travel_record(record *head, void (*visit)(record))
 }
 ```
 
-<a id="65-信号sig的概念"></a>
+<a id="65-%E4%BF%A1%E5%8F%B7sig%E7%9A%84%E6%A6%82%E5%BF%B5"></a>
 #### 65. 信号sig的概念
 * signal是软件产生,有一定延时, 而中断是有CPU硬件产生,可靠无延时
 * 信号是由kernel内核发送的
@@ -3437,12 +3440,12 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="66-typedef-类型定义"></a>
+<a id="66-typedef-%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89"></a>
 #### 66. typedef 类型定义
 * `void (*sighandler)(int);` sighandler是函数指针(变量, 可赋值)
 * `typedef void (*sighandler_t)(int);` sighandler_t是类型
 
-<a id="67-sigaction函数"></a>
+<a id="67-sigaction%E5%87%BD%E6%95%B0"></a>
 #### 67. sigaction函数
 ```
 #include <stdio.h>
@@ -3486,7 +3489,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="68-pause函数"></a>
+<a id="68-pause%E5%87%BD%E6%95%B0"></a>
 #### 68. pause函数
 * 使用 pause, alarm, sigaction函数实现 sleep()函数
 ```
@@ -3549,7 +3552,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="69-父进程利用sigaction信号捕捉处理多个僵尸进程"></a>
+<a id="69-%E7%88%B6%E8%BF%9B%E7%A8%8B%E5%88%A9%E7%94%A8sigaction%E4%BF%A1%E5%8F%B7%E6%8D%95%E6%8D%89%E5%A4%84%E7%90%86%E5%A4%9A%E4%B8%AA%E5%83%B5%E5%B0%B8%E8%BF%9B%E7%A8%8B"></a>
 #### 69. 父进程利用sigaction信号捕捉处理多个僵尸进程
 * 可以在父进程中的每1次响应SIG_CHLD的do_sig中通过while循环waitpid的方式回收多个同时死亡的子进程, 从而避免僵尸进程的产生
 ```
@@ -3627,7 +3630,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="70-sigsuspend解决时序竞态问题"></a>
+<a id="70-sigsuspend%E8%A7%A3%E5%86%B3%E6%97%B6%E5%BA%8F%E7%AB%9E%E6%80%81%E9%97%AE%E9%A2%98"></a>
 #### 70. sigsuspend解决时序竞态问题
 * sigsuspend的使用场景: 多进程高并发服务器中, 进程在失去cpu时间片的时候仍然可以响应信号并处理
 * 使用pause()函数, 会导致在恢复信号集之前程序挂起
@@ -3716,7 +3719,7 @@ int main(void)
 }
 ```
 
-<a id="71-父子进程交替数数"></a>
+<a id="71-%E7%88%B6%E5%AD%90%E8%BF%9B%E7%A8%8B%E4%BA%A4%E6%9B%BF%E6%95%B0%E6%95%B0"></a>
 #### 71. 父子进程交替数数
 * 使用全局变量flag, 出现时序竞态问题
 * 出现问题的原因(流程): 
@@ -3881,7 +3884,7 @@ int main(void)
 }
 ```
 
-<a id="72-创建session会话作业"></a>
+<a id="72-%E5%88%9B%E5%BB%BAsession%E4%BC%9A%E8%AF%9D%E4%BD%9C%E4%B8%9A"></a>
 #### 72. 创建session会话/作业
 ```
 #include <stdio.h>
@@ -3920,7 +3923,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="73-创建daemon守护进程"></a>
+<a id="73-%E5%88%9B%E5%BB%BAdaemon%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B"></a>
 #### 73. 创建daemon守护进程
 ```
 #include <stdio.h>
@@ -4001,7 +4004,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="74-线程的概念"></a>
+<a id="74-%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%A6%82%E5%BF%B5"></a>
 #### 74. 线程的概念
 * 线程本质还是进程
 * 不要在多线程的程序中使用信号signal
@@ -4012,7 +4015,7 @@ int main(int argc, char** argv)
 * 线程id和线程号不同, 线程id是进程内部使用的, 线程号是不同进程之间使用
 * 查看线程库版本NPTL(Native POSIX Thread Library): `getconf GNU_LIBPTHREAD_VERSION`
 
-<a id="75-创建线程"></a>
+<a id="75-%E5%88%9B%E5%BB%BA%E7%BA%BF%E7%A8%8B"></a>
 #### 75. 创建线程
 * `int pthread_create(pthread_t *thread, const pthread_attr_t *attr,
                           void *(*start_routine) (void *), void *arg);`
@@ -4113,7 +4116,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="76-退出单个线程pthread_exitnull"></a>
+<a id="76-%E9%80%80%E5%87%BA%E5%8D%95%E4%B8%AA%E7%BA%BF%E7%A8%8Bpthread_exitnull"></a>
 #### 76. 退出单个线程pthread_exit(NULL)
 ```
 #include <stdio.h>
@@ -4173,7 +4176,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="77-pthread_join阻塞等待线程退出-获取线程退出状态"></a>
+<a id="77-pthread_join%E9%98%BB%E5%A1%9E%E7%AD%89%E5%BE%85%E7%BA%BF%E7%A8%8B%E9%80%80%E5%87%BA-%E8%8E%B7%E5%8F%96%E7%BA%BF%E7%A8%8B%E9%80%80%E5%87%BA%E7%8A%B6%E6%80%81"></a>
 #### 77. pthread_join阻塞等待线程退出, 获取线程退出状态
 * 回收单线程
 ```
@@ -4295,7 +4298,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="78-pthread_detach-分离单个线程"></a>
+<a id="78-pthread_detach-%E5%88%86%E7%A6%BB%E5%8D%95%E4%B8%AA%E7%BA%BF%E7%A8%8B"></a>
 #### 78. pthread_detach 分离单个线程
 * 查看进程下的线程 `ps -T -p <pid>`
 ```
@@ -4336,7 +4339,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="79-pthread_cancel杀死一个线程"></a>
+<a id="79-pthread_cancel%E6%9D%80%E6%AD%BB%E4%B8%80%E4%B8%AA%E7%BA%BF%E7%A8%8B"></a>
 #### 79. pthread_cancel杀死一个线程
 * pthread_cancel: 以一个系统调用(alarm/pause/...printf/sleep)为取消点, 到达取消点才能把线程杀死, 如果没有系统调用(如空的while循环), 则无法杀死线程
 * pthread_testcancel: 杀死无系统调用的线程
@@ -4382,7 +4385,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="80-设置线程属性pthread_attr"></a>
+<a id="80-%E8%AE%BE%E7%BD%AE%E7%BA%BF%E7%A8%8B%E5%B1%9E%E6%80%A7pthread_attr"></a>
 #### 80. 设置线程属性pthread_attr
 ```
 #include <stdio.h>
@@ -4436,13 +4439,13 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="81-线程同步的概念"></a>
+<a id="81-%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5%E7%9A%84%E6%A6%82%E5%BF%B5"></a>
 #### 81. 线程同步的概念
 * 线程同步是指线程间协同工作(线程安全)
 * 多个线程/进程,共同操作一个共享资源的情况,都需要同步(协调工作), 避免混乱
 * 建议锁对全局变量无效
 
-<a id="82-多线程拷贝大文件-并显示拷贝进度"></a>
+<a id="82-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%8B%B7%E8%B4%9D%E5%A4%A7%E6%96%87%E4%BB%B6-%E5%B9%B6%E6%98%BE%E7%A4%BA%E6%8B%B7%E8%B4%9D%E8%BF%9B%E5%BA%A6"></a>
 #### 82. 多线程拷贝大文件, 并显示拷贝进度
 * multi_pthread_cp.c: (5个步骤实现)
     - 进度条使用pthread_mutex
@@ -4605,7 +4608,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="83-线程死锁"></a>
+<a id="83-%E7%BA%BF%E7%A8%8B%E6%AD%BB%E9%94%81"></a>
 #### 83. 线程死锁
 * 线程死锁不是一下就能锁住的, 而是trylock一段时间或次数后, 锁如果仍然存在, 才会真正死锁住, 所以在pthread_mutex_destroy前 sleep(3)秒
 ```
@@ -4672,7 +4675,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="84-读写锁"></a>
+<a id="84-%E8%AF%BB%E5%86%99%E9%94%81"></a>
 #### 84. 读写锁
 * 读共享, 写独占
 * 读写锁并行时, 写锁优先级高
@@ -4744,7 +4747,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="85-生产者消费者-pthread_cond"></a>
+<a id="85-%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85-pthread_cond"></a>
 #### 85. 生产者消费者-pthread_cond
 * 作用: 有了条件变量机制以后，只有生产者完成生产，才会引起消费者之间的竞争。提高了程序效率;
 * pthread_cond_wait的任务: 阻塞, 解锁, 唤醒其他抢锁线程, 条件满足pthread_cond_signal唤醒后加锁继续执行
@@ -4824,7 +4827,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="86-semaphore旗语信号量"></a>
+<a id="86-semaphore%E6%97%97%E8%AF%AD%E4%BF%A1%E5%8F%B7%E9%87%8F"></a>
 #### 86. semaphore旗语(信号量)
 * 作用: 控制对共享资源进行竞争的进程/线程数量
 * 进程/线程 都可以使用
@@ -4907,7 +4910,7 @@ int main(int argc, char** argv)
 
 ```
 
-<a id="87-进程间同步pthreadmutexattrt"></a>
+<a id="87-%E8%BF%9B%E7%A8%8B%E9%97%B4%E5%90%8C%E6%AD%A5pthreadmutexattrt"></a>
 #### 87. 进程间同步pthread_mutexattr_t
 * 进程间同步操作共享区主要用mmap(pipe/fifo是伪文件)
 * 一个共享资源(变量/数组/链表/struct)就有一把对应的锁mutex, 所以可以把锁mutex和锁属性与一个共享数据资源封装到一个struct中
@@ -4976,7 +4979,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="88-进程间文件锁fcntlflock"></a>
+<a id="88-%E8%BF%9B%E7%A8%8B%E9%97%B4%E6%96%87%E4%BB%B6%E9%94%81fcntlflock"></a>
 #### 88. 进程间文件锁fcntl/flock
 ```
 #include <stdio.h>
@@ -5029,7 +5032,7 @@ int main(int argc, char** argv)
 }
 ```
 
-<a id="89-哲学家吃饭问题"></a>
+<a id="89-%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%90%83%E9%A5%AD%E9%97%AE%E9%A2%98"></a>
 #### 89. 哲学家吃饭问题
 * 线程实现
 ```

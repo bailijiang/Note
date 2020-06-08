@@ -5,11 +5,11 @@
 
 # Janurary 1,2: Five Healthy Resolutions You Won't Regret Making
 
-* discount n. v.
+* discount (n./v.)
 Governments should never discount the possibility of future water shortages.
 The notion proposed by the previous CEO has been discounted.
 
-* revolve v.
+* revolve (v.)
 Ever since Sandy got married, her whole life has revolved around her husband.
 The Moon revolves around the Earth.
 
@@ -24,12 +24,12 @@ year after year
 
 * start off on the right(wrong) foot with...
 
-* interval n.
+* interval (n.)
 The interval between the two conflicts was only two weeks.
 The alarm sounds at 10-seconds intervals when it's activated.
 Many people got something to drink during the interval at the opera.
 
-* tweak n. v.
+* tweak (n./v.)
 We still have to make some tweaks before finalizing our report.
 After just a few tweaks by the designer, the whole house looks totally different.
 The project needs some tweaking.
@@ -43,16 +43,41 @@ But the great thing about getting older is that you can share your advice with y
 If you want to play the piano, I think you should invest in a good piano or at least a keyboard, to practice in.
 If you want to go running, you're going to have to invest in some good shoes.
 
+* multitasking (n.)
+The secretary's incredible multitasking impressed me a lot.
+The multitasking software is a great buy because you don't have to buy other software.
 
+* metabolic (adj.)
+  metabolism (n.)
+A low metabolic rate is one of the reasons people are overweight.
+Cold temperatures slow down your body's metabolism.
 
+* a mile a minute (pretty fast)
+  go the extra mile (more effort)
+  give someone an inch and he'll take a mile
+  smiles (s...s)
 
+* to be in the moment
+Don't think the next day, be in the moment.
+You should be in the moment, not thinking about something else right now.
 
+* up to...
+I try to up the number of jumps I do with a jump rope.
 
+* curb (v./n.)
+Jack needs to learn how to curb his temper.
+The new policy successfully curbed the inflation.
+Eric is trying to put a curb on his habit of overspending.
 
+* potential (adj./n.)
+The potential risks of this investment need to be carefully evaluated.
+Frank gets in touch with his potential customers frequently.
+The girl has great potential as a singer.
 
-
-
-
+* out in the open
+The medical service had advised us to keep it a secret, but we wanted it in the open.
+By now the whole affair was in the open.
+She never let her dislike for him come out into the open.
 
 
 
@@ -71,11 +96,11 @@ What is the cause of conflict?
 How do you resolve conflicts?
 Do you ever get emotional? Why?
 
-* bound adj.
+* bound (adj.)
 You're bound to feel nervous during your first job interview. It's OK!
 This music prodigy is bound for international recognition.
 
-* resolve v.
+* resolve (v.)
 After some thorough discussions, the conflict between the couple got peacefully resolved.
 The customer resolved not to press any charges against the company.
 
@@ -94,13 +119,13 @@ I thought the movie was at 8:30. That was a miscommunication.
 There must have been some misunderstanding. I didn’t order all these books.
 I'm not going to hang out with you. That was a misunderstanding.
 
-* banner n.
+* banner (n.)
 The "Welcome to Class 702!" banner was made by the kids in the class.
 Tammy downloaded an app to block the banners on the Internet.
 A banner strung across the road read, ‘Welcome home, boys!’
 
-* vapor n. /'veipə/
-  vaporize v.
+* vapor (n.) /'veipə/
+  vaporize (v.)
 The vapor released from the factory's chimneys contains harmful substances.
 The chemical vapor in the lab caused the several students to feel dizzy and nauseous.
 The sun's heat vaporizes the water of the ocean.
@@ -114,13 +139,13 @@ The bottom line is that we have to make a decision today.
 * to kick the habit
 The scheme helps smokers to kick the habit.
 
-* toxic adj.
-  toxin n.
+* toxic (adj.)
+  toxin (n.)
 The toxic waste from the nuclear plant must be carefully processed.
 The water discharged from the factory is toxic.
 Scientists have found an increased buildup of toxins in deep-sea fish in recent years.
 
-* bicker v.
+* bicker (v.)
   bickering
 Even though Josh and Hannah love to bicker over little things, they're truly in love.
 Melanie and her sister always bicker about who should do the chores.
@@ -138,17 +163,17 @@ Linda, shopping isn't everything.
 Success isn't everything.
 Family isn't everything.
 
-* moody adj.
+* moody (adj.)
 When I just had a bad day at work, I don't know why I get moody, I get emotional.
 
-* authority n.
+* authority (n.)
 The clerks do not have the authority to give customers extra discounts.
 A competent teacher needs to have the authority to control his or her class.
 The locals reported the incident to the authorities.
 This provided a pretext for the authorities to cancel the elections.
 
-* intensify v.
-  intense adj.
+* intensify (v.)
+  intense (adj.)
 The tension between the two nations intensified after the incident at the border.
 Britain is intensifying its efforts to secure the release of the hostages.
 My intense headache went away after I took some painkillers.

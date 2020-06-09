@@ -80,8 +80,47 @@ By now the whole affair was in the open.
 She never let her dislike for him come out into the open.
 
 
+# Janurary 4,5: Life Lessons From Nature
+* Questions:
+How do geese work together?
+What can we learn from geese?
 
+* apparent (adj.)
+  apparently (adv.)
+The presence of extraordinary talent was apparent when this pop star was very young.
+Fiona quit her job for no apparent reason.
+Apparently, the company has to file for bankruptcy.
 
+* flock (n.)
+The shepherd takes care of a big flock of sheep.
+Flocks of geese were feeding on the riverbank.
+Flocks of fans waited outside the hotel to see their idol.
+
+* in the wild
+There are two deers in the wild.
+It was so cool seeing these deer in the wild.
+
+* teamwork (n.)
+The basketball team demonstrated great teamwork throughout the game.
+
+* formation (n.)
+The cheerleaders stepped into a V-formation at the end of their performance.
+The film explains the formation of diamonds.
+
+* flap (v./n.)
+  flapped / flapping
+The bird flapped its wings and flew to another tree.
+The flag is flapping in the air.
+After a few flaps of its wings, the bird flew far away.
+
+* whether... or..., (still)
+Whether the weather is hot or cold, we will still go out.
+Whether or not you come with me, I'll still go on my trip.
+Whether we leave tomorrow or the next day, you still need to pack.
+
+* to go through life
+Some people go through life just worrying about everything.
+I want to go through life with my lover.
 
 
 

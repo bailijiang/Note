@@ -122,6 +122,47 @@ Whether we leave tomorrow or the next day, you still need to pack.
 Some people go through life just worrying about everything.
 I want to go through life with my lover.
 
+* honk (v./n.)
+The male goose honked to get the females' attention.
+The bus driver honked to warn the motorcyclist in front of him.
+The honks of the geese can be heard hundreds of feet away.
+
+* current (n./adj.)
+They swam against the current and finally reached the shore.
+The design of the wings can help reduce the impact of the air current.
+The company's current situation is worse than ever.
+
+* Keep up the good work!
+Keep up the good work! You are doing a great job.
+
+* take turns
+We can take turns driving.
+You're going to take turns on the computer.
+
+* actions speak louder than words
+  Do as I say, not as I do
+  monkey see, monkey do
+
+* gaggle (n.) /ˈɡæɡəl/
+The gaggle got so excited when the farmer started feeding them.
+These girls were talking so loud, they sounded like a gaggle of geese.
+A gaggle of kids passed us by, laughing and jumping.
+
+* burden (n./v.)
+Most parents don't feel that parenting is a big burden.
+Buying a house is a great financial burden for us now.
+I don't want to burden you with my marital problems.
+
+* set a good example
+As the boss of our company, you need to set a good example all the time to the followers.
+
+* to pass on to...
+Billy passed on several of his bad habits to his children. 
+
+
+
+
+
 
 
 

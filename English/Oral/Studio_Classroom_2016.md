@@ -62,6 +62,7 @@ Don't think the next day, be in the moment.
 You should be in the moment, not thinking about something else right now.
 
 * up to...
+  to up (v.)
 I try to up the number of jumps I do with a jump rope.
 
 * curb (v./n.)
@@ -160,8 +161,48 @@ As the boss of our company, you need to set a good example all the time to the f
 Billy passed on several of his bad habits to his children. 
 
 
+# Janurary 6: Wash your hands
+* Questions:
+Why wash your hands?
+When should you wash your hands?
 
+* observer (n.)
+  observe (v.)
+A team of professional observers will be assigned to monitor the R&D department.
+Observers said the robbers took the old lady's purse and got into a van.
 
+* cellphone (n.)
+  cellular
+  cell
+  mobile phone
+  mobile
+Mike is talking on his cellphone.
+
+* to dip into...
+So when you dip into your pocket, what are you reaching in to get?
+You can dip your hands into a bag of chips.
+
+* chopped up
+You can chop up onions, other vegetables, carrots, celery, cucumbers, and even peppers.
+
+* washing one's hands of someone/something
+  figurative (not related to)
+
+* lethal (adj.)
+The police found lethal weapons in the suspect's garage.
+The spread of the lethal disease was finally curbed because of the invention of the vaccine.
+
+* germ (n.)
+  virus (n.): smaller than germ
+This tiny germ is the cause of this dangerous disease.
+This germ is found in all the patients who were sharing the same room.
+The flu virus can be spread through the air.
+
+* crawling with...
+You can see many ants and bugs crawling with the trash bag.
+
+* hand sanitizer
+If you don't have soap, you can use a hand sanitizer to wash your hands.
 
 
 

@@ -205,6 +205,63 @@ You can see many ants and bugs crawling with the trash bag.
 If you don't have soap, you can use a hand sanitizer to wash your hands.
 
 
+# Janurary 7~9: The Scandinavian Peninsula
+* jut (v.)
+  jutted/jutting
+You can see the pier jutting out in the sea from a long distance.
+He jutted out his chin proudly when he returned to his hometown with the trophy.
+
+* resort (n.)
+The couple spent their honeymoon in a beautiful resort in Bali.
+All the ski resorts in Aspen are always fully booked in winters.
+
+* off the coast of...
+Well, it juts off the coast of northern Europe.
+Catalina Island is a small island off the coast of California.
+Taiwan is a small island off the coast of China mainland.
+
+* dotted (adj.)
+  dot (n.)
+It's dotted with ski resorts.
+
+* typically (adv.)
+  usually
+Typically she's on time but she's a little bit late right now.
+Typically I like to arrive at the office five minutes early because if I get there like right on time I'm typically going to be late.
+
+* Arctic Circle (n.)
+The scientists established a camp in the Arctic Circle to record the weather changes.
+Few animals can survive in the low temperatures in the Arctic Circle.
+
+* expertise (n.)
+The position requires expertise in computer programming.
+We were amazed by the expertise of this humble, small-town car mechanic.
+
+* Arctic vs. Antarctic
+             (Ant arctic)
+             Antarctica
+I know a lot of people don't live in Antarctica, do they?
+
+* umlaut
+Häagen Dazs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # October 10,11: Cooling Down Conflict

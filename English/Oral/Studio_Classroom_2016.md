@@ -245,16 +245,39 @@ I know a lot of people don't live in Antarctica, do they?
 * umlaut
 Häagen Dazs
 
+* No...(to).. without (-ing)... : emphasize
+No play pop music without composing with MIDI.
+You can't finish this job without speaking English.
 
+* geographical (adj.)
+  geography (n.)
+The fort's geographical position makes it very hard to attack.
+The wildebeests have a wide geographical distribution in East Africa.
+Wilson is majoring in geography in college.
 
+* pristine (adj.)
+The national park is well preserved to maintain its pristine beauty.
+The clear, pristine lake is the favorite of many photographers.
 
+* striking (adj.) : something beautiful
+She was tall and very striking.
+That hat looks very striking.
+The library is a striking example of excellent architecture.
+You are wearing a very striking dress.
 
+* stunning (adj.) : a show, an event, a dress
+You look absolutely stunning in that dress.
+Wow. You put on quite a stunning performance.
+The sunset was stunning last night.
 
+* aurora borealis (n.)
+  aurora australis : southern lights
+The calendar featuring photos of the different aurora borealis is very popular.
 
-
-
-
-
+* streak (n./v.)
+The boy's face was covered with streaks of sand after he was playing in the sandbox for hours.
+The woman wore a hat to cover her grey streaks.
+The comet streaked across the sky.
 
 
 

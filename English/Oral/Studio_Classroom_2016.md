@@ -279,11 +279,51 @@ The boy's face was covered with streaks of sand after he was playing in the sand
 The woman wore a hat to cover her grey streaks.
 The comet streaked across the sky.
 
+* array (n.)
+A sparkling array of celebrities showed up at the charity concert.
+The restaurant offers a splendid array of fresh seafood.
+An array of vitamins was displayed on their kitchen counter.
 
+* plunder (v.)
+The troops burnt and plundered the city mercilessly.
+The previous accountant has been plundering the funds of the company for years.
+Those who want to plunder our properties must be arrested.
 
+* as well as
+I know because it's cool to learn about the history of the Scandinavian Peninsula as well as see a little bit more of those northern lights.
 
+* vast array of...
+The queen has a vast array of dresses in her closet.
+Typically, there has a vast array of delicious food in New Year's celebration.
+There is a vast array of kinds of cars to be choosen. 
 
+* warrior (n.)
+The warriors have been ready to fight with the enemy.
 
+* aspect of...
+Dealing with people is the most important aspect of my work.
+You really should not concern the aspects of her personal life.
+
+* archaeological (adj.)
+  archaeology (n.)
+The ruins of the city were discovered in an archeaological dig in Greece.
+The archeaological site is closed to the public for research.
+There have ever been lots of archeaological discover in this region.
+
+* settlement (n.)
+The habor city used to be a busy trading settlement for the British.
+A Spanish settlement was discovered on this island.
+The village was the first settlement for fishing in this region.
+
+* to abound
+     abound in
+     abound with
+Good fish abound in the North Sea.
+I deem there are lots of fun and games abound in the winter camp.
+That meadows abound with lots of beautiful flowers and wildlife.
+Adventures abound in Scandinavia, so get ready to explore!
+This country abounds in coronavirus, so get ready to escape!
+Travelling in Norway always abounds with exciting and surprising.
 
 
 

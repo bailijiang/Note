@@ -326,6 +326,58 @@ This country abounds in coronavirus, so get ready to escape!
 Travelling in Norway always abounds with exciting and surprising.
 
 
+# Janurary 11 : Be Creative - On Your Own
+* production (n.)
+  produce (v.)
+The production of the album took a whole year.
+The model didn't go into production because it would have been too expensive for consumers.
+The production of this kind of song is not easy using the MIDI program.
+The musical was produced on a very limited budget.
+
+* publication (n.)
+  publish (v.)
+Our latest publication for fitness enthusiasts is quite popular.
+The book was translated into English for publication.
+His poems will be published next month.
+
+* innovative (adj.)
+Your idea of this product is pretty innovative.
+Are you an innovative person?
+
+* at present
+I'm at present working at a software company.
+
+* oversee: (boss) supervise
+  overlook: miss
+  oversight (n.)
+A team leader was appointed to oversee the project.
+The house overlooks the beach.
+The detective overlooked an important clue and the suspect was released.
+The mistake was due to an unfortunate oversight on my part.
+
+* smooth sailing (n.)
+In the beginning, Stuart's business was not smooth sailing.
+The movie is a great success, but it wasn't all smooth sailing during the filming.
+As far as I'm concerned, learning English is not smooth sailing.
+
+* adorable (adj.)
+  adore (v.)
+The puppy is so adorable. I want to take it home.
+Mathew has three adorable kids, one boy, and two girls.
+I adore my little nephew. He's only two years old.
+
+* to make progress
+I believe I can make progress in English by learning Studio Classroom every day.
+Claire, you have made a lot of progress on your banana bread.
+
+* to come up with...
+I've come up with a great idea.
+Have you come up with a good plan?
+We need to come up with an effective solution of this problem.
+
+* sloth (n.)
+My grandfather drives as slow as a sloth.
+
 
 # October 10,11: Cooling Down Conflict
 * Questions

@@ -332,7 +332,7 @@ This country abounds in coronavirus, so get ready to escape!
 Travelling in Norway always abounds with exciting and surprising.
 
 
-# Janurary 11 : Be Creative - On Your Own
+# Janurary 11,12 : Be Creative - On Your Own
 * production (n.)
   produce (v.)
 The production of the album took a whole year.
@@ -386,6 +386,64 @@ We need to come up with an effective solution of this problem.
 
 * sloth (n.)
 My grandfather drives as slow as a sloth.
+
+* run something by someone
+About next year's budget, can I run it by you when you're free?
+I like your idea, but I still have to run it by my boss.
+I feel you need to run this plan by the CEO.
+I think you should run your ideas by the boss first.
+
+* convince (v.)
+  convincing (adj.) : convincing evidence
+Nathan tried to convince his dad to buy him a car.
+You need to convince your interviewers of your enthusiasm and capability.
+You can not convince me of your idea.
+
+* identical
+Nearly all the houses were identical.
+I have three pairs of identical black pants.
+Hey, our shirts are identical.
+You do not look identical to Brad Pitt!
+The twins look identical.
+
+* rip-off (n.)
+These rip-off purses are only one-tenth the price of the real thing.
+This pop singer's latest hit turned out to be a rip-off.
+The sky-high parking fee downtown is a total rip-off.
+I think that your new sneaker is a rip-off.
+
+* sue (v.)
+If the builders don’t fulfil their side of the contract, we’ll sue.
+I'll sue the firm for breach the contract.
+
+* modify (v.)
+  modification (n.)
+The phone is modified with several new features.
+Ellen's professor asked her to modify the last part of her report.
+The boss told us that we must modify our design of the product.
+The modification of the speech might take a while.
+
+* inspiration for...
+Our apple-picking adventure gave me the inspiration for my book.
+Some stunning clouds what I saw yesterday gave me the inspiration for my drawing.
+
+* give... another chance
+We should give her another chance to sing this song.
+
+* inquire (v.)
+She inquired the conductor about the concert times.
+We should inquire some questions about travel.
+
+* Doesn't...? / Shouldn't...?
+Doesn't she ask me about driving to the airport?
+Don't you play games all the time?
+Don't you have enough creativity come up with your own ideas?
+Shouldn't you be careful that guy?
+
+* instead of -ing ...
+I wish you should be a leader instead of being a follower.
+
+
 
 
 # October 10,11: Cooling Down Conflict

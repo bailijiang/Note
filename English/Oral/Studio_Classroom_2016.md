@@ -283,6 +283,7 @@ The comet streaked across the sky.
 A sparkling array of celebrities showed up at the charity concert.
 The restaurant offers a splendid array of fresh seafood.
 An array of vitamins was displayed on their kitchen counter.
+An array of beverages was displayed on their sales counter.
 
 * plunder (v.)
 The troops burnt and plundered the city mercilessly.
@@ -291,6 +292,8 @@ Those who want to plunder our properties must be arrested.
 
 * as well as
 I know because it's cool to learn about the history of the Scandinavian Peninsula as well as see a little bit more of those northern lights.
+She is a talented musician as well as being a photographer.
+I do love music as well as sports.
 
 * vast array of...
 The queen has a vast array of dresses in her closet.
@@ -311,9 +314,12 @@ The archeaological site is closed to the public for research.
 There have ever been lots of archeaological discover in this region.
 
 * settlement (n.)
+  settle (v.)
 The habor city used to be a busy trading settlement for the British.
 A Spanish settlement was discovered on this island.
 The village was the first settlement for fishing in this region.
+They agreed to try to settle their dispute by negotiation.
+Those two nations agreed to settle their economical problems through negotiation.
 
 * to abound
      abound in
@@ -333,10 +339,12 @@ The production of the album took a whole year.
 The model didn't go into production because it would have been too expensive for consumers.
 The production of this kind of song is not easy using the MIDI program.
 The musical was produced on a very limited budget.
+By using the MIDI program, pop music songs can produce a little bit more easily.
 
 * publication (n.)
   publish (v.)
 Our latest publication for fitness enthusiasts is quite popular.
+The publication of my new book was not smooth sailing.
 The book was translated into English for publication.
 His poems will be published next month.
 
@@ -354,6 +362,7 @@ A team leader was appointed to oversee the project.
 The house overlooks the beach.
 The detective overlooked an important clue and the suspect was released.
 The mistake was due to an unfortunate oversight on my part.
+That our oversights resulting in the system crashed.
 
 * smooth sailing (n.)
 In the beginning, Stuart's business was not smooth sailing.

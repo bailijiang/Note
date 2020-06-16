@@ -444,6 +444,54 @@ Shouldn't you be careful that guy?
 I wish you should be a leader instead of being a follower.
 
 
+# Janurary 13,14 : A Crash Course in Winter Sports
+* familiar (adj.)
+  familiar with...
+There were only a few familiar faces at the party.
+I'm not familiar with these young movie stars.
+Patrick is quite familiar with this computer system because he's been working here many years.
+She looks so familiar, but I can't remember who she is.
+
+* transportation (n.)
+The school can be easily accessed by public transportation.
+The transportation and accommodation fees are included in the tour package.
+We can use trains for our transportation.
+As COVID-19 spreads across all this country, we can't take public transportation.
+
+* crash course (n.)
+I've just learned software development in a crash course which is three weeks.
+
+* to make... possible
+The Internet makes research possible.
+The organization makes the event possible.
+What she did made the negotiation possible.
+
+* skate (v.)
+  skating
+My sister slipped and fell onto the ice while skating.
+
+* replacement (n.)
+Audrey is absent today. We need to find a replacement right now.
+Tim came to this company in replacement of the previous manager.
+Soda beverages can be the replacement of beer.
+
+* unfamiliar (adj.)
+  unfamiliar with...
+This man seems unfamiliar to me.
+Alfred is good at adjusting to an unfamiliar enviornment.
+When Susan first moved to Japan, she was quite unfamiliar with the local culture.
+
+* Depending on...
+Depending on the area, prices for houses will vary a lot.
+Depending on the personal characteristic, hobbies for everyone will vary a lot.
+
+* widely accepted
+That was a widely accepted belief.
+
+* to exchange... for...
+Maybe we should held the ceremony to exchange ourdoor for indoor. 
+
+
 
 
 # October 10,11: Cooling Down Conflict

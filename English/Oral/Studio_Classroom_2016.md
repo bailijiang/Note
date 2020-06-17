@@ -491,6 +491,60 @@ That was a widely accepted belief.
 * to exchange... for...
 Maybe we should held the ceremony to exchange ourdoor for indoor. 
 
+* slippery (adj.)
+The roads are quite slippery after the rain. You'd better drive slowly.
+Pam fell on the slippery tile floor in her bathroom.
+This con man is too slippery; you can't get any truth from him.
+The hall way is slippery after cleaning.
+
+* ski (n./v.)
+The professional skis are made of special material so they are lighter and faster.
+The ski resort is closed due to bad weather.
+Sean skies every winter.
+
+* to dominate
+Money totally dominate the nation's culture.
+
+* simile (n.) (like / as)
+busy as a bee
+sick as a dog
+strong as an ox
+blind as a bat
+quiet as a mouse
+proud as a peacock
+stubborn as a mule
+
+* on display
+The aboriginal costumes were on display at the history museum. 
+There are lots of vases on display in museum.
+
+* athlete (n.)
+  athletic (adj.)
+Henry determined to become a professional athlete.
+A good athlete must have a strong will and be self-displined.
+Jonah got the scolarship because of his athletic ability.
+
+* artistic (adj.)
+Nina's impeccable skills and artistic talent made her a top designer at a very young age.
+an artistic furniture arrangement
+
+* to grow
+  growing tired (becoming tired)
+I think of a growing boy like my brother.
+I've lived in this city for so long, I'm just growing sick of it.
+
+* no matter...
+no matter what happened
+Let's hop on the next train no matter where it's going.
+
+* shovel (n.)
+He has to get out and shovel snow.
+
+* All... are/were/have...
+All the people have been taken their temperature before entering the building.
+
+
+
 
 
 

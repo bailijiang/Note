@@ -542,7 +542,7 @@ He has to get out and shovel snow.
 
 * All... are/were/have...
 All the people have been taken their temperature before entering the building.
-
+All that vaccine's advantages and disadvantages are on display in the result.
 
 
 

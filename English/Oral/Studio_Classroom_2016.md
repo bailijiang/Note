@@ -1,23 +1,5 @@
 
-<!-- MarkdownTOC -->
-
-- [Janurary 1,2: Five Healthy Resolutions You Won't Regret Making](#janurary-12-five-healthy-resolutions-you-wont-regret-making)
-- [Janurary 4,5: Life Lessons From Nature](#janurary-45-life-lessons-from-nature)
-- [Janurary 6: Wash your hands](#janurary-6-wash-your-hands)
-- [Janurary 7~9: The Scandinavian Peninsula](#janurary-7%7E9-the-scandinavian-peninsula)
-- [Janurary 11,12 : Be Creative - On Your Own](#janurary-1112--be-creative---on-your-own)
-- [Janurary 13,14 : A Crash Course in Winter Sports](#janurary-1314--a-crash-course-in-winter-sports)
-- [October 10,11: Cooling Down Conflict](#october-1011-cooling-down-conflict)
-- [October 20: Drone Racing](#october-20-drone-racing)
-
-<!-- /MarkdownTOC -->
-
-
-
-
-<a id="janurary-12-five-healthy-resolutions-you-wont-regret-making"></a>
 # Janurary 1,2: Five Healthy Resolutions You Won't Regret Making
-
 * discount (n./v.)
 Governments should never discount the possibility of future water shortages.
 The notion proposed by the previous CEO has been discounted.
@@ -94,7 +76,6 @@ By now the whole affair was in the open.
 She never let her dislike for him come out into the open.
 
 
-<a id="janurary-45-life-lessons-from-nature"></a>
 # Janurary 4,5: Life Lessons From Nature
 * Questions:
 How do geese work together?
@@ -175,7 +156,6 @@ As the boss of our company, you need to set a good example all the time to the f
 Billy passed on several of his bad habits to his children.
 
 
-<a id="janurary-6-wash-your-hands"></a>
 # Janurary 6: Wash your hands
 * Questions:
 Why wash your hands?
@@ -220,7 +200,6 @@ You can see many ants and bugs crawling with the trash bag.
 If you don't have soap, you can use a hand sanitizer to wash your hands.
 
 
-<a id="janurary-7%7E9-the-scandinavian-peninsula"></a>
 # Janurary 7~9: The Scandinavian Peninsula
 * jut (v.)
   jutted/jutting
@@ -348,7 +327,6 @@ This country abounds in coronavirus, so get ready to escape!
 Travelling in Norway always abounds with exciting and surprising.
 
 
-<a id="janurary-1112--be-creative---on-your-own"></a>
 # Janurary 11,12 : Be Creative - On Your Own
 * production (n.)
   produce (v.)
@@ -461,7 +439,6 @@ Shouldn't you be careful that guy?
 I wish you should be a leader instead of being a follower.
 
 
-<a id="janurary-1314--a-crash-course-in-winter-sports"></a>
 # Janurary 13,14 : A Crash Course in Winter Sports
 * familiar (adj.)
   familiar with...
@@ -566,7 +543,6 @@ All that vaccine's advantages and disadvantages are on display in the result.
 
 
 
-<a id="october-1011-cooling-down-conflict"></a>
 # October 10,11: Cooling Down Conflict
 * Questions
 What should you do with conflict?
@@ -686,7 +662,6 @@ Speaking of which, should the boss always make the executive decision?
 
 
 
-<a id="october-20-drone-racing"></a>
 # October 20: Drone Racing
 * What do the pilots have to wear?
   Why is it difficult to watch a drone race?

@@ -314,7 +314,7 @@ The habor city used to be a busy trading settlement for the British.
 A Spanish settlement was discovered on this island.
 The village was the first settlement for fishing in this region.
 They agreed to try to settle their dispute by negotiation.
-Those two nations agreed to settle their economical problems through negotiation.
+Those two nations agreed to settle their economic problems through negotiation.
 
 * to abound
      abound in
@@ -394,7 +394,7 @@ Nathan tried to convince his dad to buy him a car.
 You need to convince your interviewers of your enthusiasm and capability.
 You can not convince me of your idea.
 
-* identical
+* identical (adj.)
 Nearly all the houses were identical.
 I have three pairs of identical black pants.
 Hey, our shirts are identical.

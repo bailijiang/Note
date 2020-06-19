@@ -5,6 +5,7 @@ Governments should never discount the possibility of future water shortages.
 The notion proposed by the previous CEO has been discounted.
 
 * revolve (v.)
+  revolve around
 Ever since Sandy got married, her whole life has revolved around her husband.
 The Moon revolves around the Earth.
 
@@ -18,6 +19,7 @@ day after day
 year after year
 
 * start off on the right(wrong) foot with...
+Start off on the right foot with my new job, I first solved an important problem in our system.
 
 * interval (n.)
 The interval between the two conflicts was only two weeks.
@@ -75,6 +77,21 @@ The medical service had advised us to keep it a secret, but we wanted it in the 
 By now the whole affair was in the open.
 She never let her dislike for him come out into the open.
 
+* double adj. clauses
+But there are healthy things you can do to change your life that don't revolve around numbers on a scale.
+There are so many works you can do to help the teams that don't need to take long time.
+
+* Not (-ing)... But...
+Not discounting the benefis of exercise, but you should do it scientfically.
+
+* adj. clause: ...that...
+You must make the decision by yourself that could affect your career in the future.
+
+* Which/What... do you think...?
+Which of the resolutions in the article do you think would be most valuable to your life? Why?
+Do you think which of the resolutions in the article would be most valuable to your life? Why?
+What a reason in the event do you think could be the keypoint?
+
 
 # Janurary 4,5: Life Lessons From Nature
 * Questions:
@@ -109,11 +126,6 @@ The bird flapped its wings and flew to another tree.
 The flag is flapping in the air.
 After a few flaps of its wings, the bird flew far away.
 
-* whether... or..., (still)
-Whether the weather is hot or cold, we will still go out.
-Whether or not you come with me, I'll still go on my trip.
-Whether we leave tomorrow or the next day, you still need to pack.
-
 * to go through life
 Some people go through life just worrying about everything.
 I want to go through life with my lover.
@@ -122,6 +134,9 @@ I want to go through life with my lover.
 The male goose honked to get the females' attention.
 The bus driver honked to warn the motorcyclist in front of him.
 The honks of the geese can be heard hundreds of feet away.
+
+* to encourage...to...
+The local authorities reduced the interest last month to encourage more companies to invest in.
 
 * current (n./adj.)
 They swam against the current and finally reached the shore.
@@ -154,6 +169,14 @@ As the boss of our company, you need to set a good example all the time to the f
 
 * to pass on to...
 Billy passed on several of his bad habits to his children.
+
+* whether... or..., (still)
+Whether the weather is hot or cold, we will still go out.
+Whether or not you come with me, I'll still go on my trip.
+Whether we leave tomorrow or the next day, you still need to pack.
+
+* When..., A... and B...
+When they had arrived in the office, Claire went to the meeting and Bryan began working.
 
 
 # Janurary 6: Wash your hands
@@ -199,6 +222,9 @@ You can see many ants and bugs crawling with the trash bag.
 * hand sanitizer
 If you don't have soap, you can use a hand sanitizer to wash your hands.
 
+* ... but not...
+When a celebrity acquire success, you can only see his achievement, but not what the hard effort he paid before.
+
 
 # Janurary 7~9: The Scandinavian Peninsula
 * jut (v.)
@@ -239,10 +265,6 @@ I know a lot of people don't live in Antarctica, do they?
 
 * umlaut
 Häagen Dazs
-
-* No...(to).. without (-ing)... : emphasize
-No play pop music without composing with MIDI.
-You can't finish this job without speaking English.
 
 * geographical (adj.)
   geography (n.)
@@ -326,6 +348,9 @@ Adventures abound in Scandinavia, so get ready to explore!
 This country abounds in coronavirus, so get ready to escape!
 Travelling in Norway always abounds with exciting and surprising.
 
+* No...(to).. without (-ing)... : emphasize
+No play pop music without composing with MIDI.
+You can't finish this job without speaking English.
 
 # Janurary 11,12 : Be Creative - On Your Own
 * production (n.)
@@ -434,6 +459,7 @@ Doesn't she ask me about driving to the airport?
 Don't you play games all the time?
 Don't you have enough creativity come up with your own ideas?
 Shouldn't you be careful that guy?
+Can't you turn the volume down?
 
 * instead of -ing ...
 I wish you should be a leader instead of being a follower.
@@ -513,6 +539,13 @@ stubborn as a mule
 The aboriginal costumes were on display at the history museum.
 There are lots of vases on display in museum.
 
+* allow for...
+  allow...to...
+Our new system will allow for more efficient use of resources.
+The replacement of the medicine will allow for the same effect to some extent.
+The children are not allowed to watch violent TV programmes.
+He won't allow himself to fail.
+
 * athlete (n.)
   athletic (adj.)
 Henry determined to become a professional athlete.
@@ -534,6 +567,7 @@ Let's hop on the next train no matter where it's going.
 
 * shovel (n.)
 He has to get out and shovel snow.
+workmen with picks and shovels
 
 * All... are/were/have...
 All the people have been taken their temperature before entering the building.

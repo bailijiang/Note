@@ -643,21 +643,59 @@ Are you seriously proposing that we should allow this situation to continue?
 I proposed they should give up this project.
 
 * treaty (n.)
-
+Both sides have agreed to sign the treaty.
+All the members have voted to ratify the treaty.
 
 * currency (n.)
-
+Tourism helps the country to bring in a lot of foreign currency.
+There're currency exchanges and ATMs at the arrival hall.
+The value of Japan's currency has dropped in the past few years to boost its economy.
 
 * monetary (n.)
+The new monetary policy is to protect the stock market from being greatly influenced by foreign investors.
+The monetary unit of Taiwan is the New Taiwan Dollar.
 
+* one and the same (adj.)
+It turns out that her aunt and my cousin are one and the same.
+
+* The Netherlands
+North-Holland and South-Holland compose the Netherlands.
+
+* to set up... (establish)
+I set up a piano studio.
+We all agreed to set up a community.
+
+* adopt (v.)
+Philip adopted several new ways of cooking rice while living abroad.
+The teacher adopted a new method for classroom management.
 
 * impose (v.)
+  impose...on...
+The government composed severe fines for drunk driving, and it really worked.
+You can't impose your ideals of life on other people.
 
+* -wide
+union-wide
+office-wide
+company-wide
+family-wide
+There is a citywide parade next week.
+It is a company-wide meeting, so you'd better be there.
 
 * consistently (adv.)
-
+  consistent (adj.)
+Her work has been of a consistently high standard.
+She's not very consistent in the way she treats her children.
 
 * on the horizon
+There's a new treatment on the horizon to cure this disease.
+According to the data, another economic recession is on the horizon.
+
+* to meet... requirements
+You have to meet certain requirements to become a member.
+She couldn't go on the big roller coast at the amusement park because she didn't meet the height requirement.
+They didn't meet those requirements because they aren't well off enough.
+To meet the financial requirements to become a member of a club.
 
 
 

@@ -574,6 +574,91 @@ All the people have been taken their temperature before entering the building.
 All that vaccine's advantages and disadvantages are on display in the result.
 
 
+# Janurary 15,16 : The European Union
+* shambles (n.)
+  shamble (n./v.)
+The whole town was in shambles after the hurricane.
+The wounded man shambled toward a nearby house to call for help.
+* in a shambles
+Monica's life was in a shambles after her divorce.
+The classroom was in a shambles after the teacher left.
+
+* rivalry (n.)
+  rival (n.)
+There is a fierce rivalry among my colleagues for the position.
+The rivalry between cars dealers in this area grew intense.
+sibling rivalry
+
+* oftentimes (adv.)
+Oftentimes I have to wait more than 20 minutes for a bus.
+
+* longstanding (adj.)
+  OPP: short-lived (adj.)
+So this longstanding enmity ended when Romeo and Juliet took their lives.
+David and Jonathan had a longstanding friendship.
+The longstanding conflict between these two nations makes their economic situation getting worse.
+Our happiness was short-lived.
+It was a very short-lived government.
+
+* in a nutshell
+To put it in a nutshell, we're bankrupt.
+Okay, that’s our proposal in a nutshell. Any questions?
+
+* comprise (v.) : include (1 comprise n)
+  compose (v.) : consist of ( n compose 1)
+The planning committee for the charity organization comprises 12 members.
+The curriculum comprises many core subjects.
+Africa-Americans comprise 50% of our staff.
+Ten men compose the committee.
+
+* merge (v.)
+  merge with
+  merger (n.)
+The company will be merged with a big corporation next quarter.
+The cars on the ramp speeded up to merge onto the freeway.
+The merger caused hundreds of people to lose their jobs.
+
+* in order to
+I sold my sofa in order to make more room for my new drum set.
+
+* standard of living
+Do you think they have a high standard of living?
+
+* pool (n./v.)
+to pool their production of...
+revenue pool
+carpool (ride sharing)
+carpool lane
+HOV lane (high occupancy vehicle lane)
+
+* well-being (n.)
+Singing can create a sense of wellbeing.
+She was filled with a sense of well-being.
+We are responsible for the care and well-being of all our patients.
+
+* propose (v.)
+What would you propose?
+She proposed that the book should be banned.
+Are you seriously proposing that we should allow this situation to continue?
+I proposed they should give up this project.
+
+* treaty (n.)
+
+
+* currency (n.)
+
+
+* monetary (n.)
+
+
+* impose (v.)
+
+
+* consistently (adv.)
+
+
+* on the horizon
+
 
 
 

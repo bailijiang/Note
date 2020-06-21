@@ -549,7 +549,7 @@ He won't allow himself to fail.
 * athlete (n.)
   athletic (adj.)
 Henry determined to become a professional athlete.
-A good athlete must have a strong will and be self-displined.
+A good athlete must have a strong will and be self-disciplined.
 Jonah got the scolarship because of his athletic ability.
 
 * artistic (adj.)
@@ -565,9 +565,9 @@ I've lived in this city for so long, I'm just growing sick of it.
 no matter what happened
 Let's hop on the next train no matter where it's going.
 
-* shovel (n.)
-He has to get out and shovel snow.
+* shovel (n./v.)
 workmen with picks and shovels
+He has to get out and shovel snow.
 
 * All... are/were/have...
 All the people have been taken their temperature before entering the building.
@@ -671,7 +671,7 @@ The teacher adopted a new method for classroom management.
 
 * impose (v.)
   impose...on...
-The government composed severe fines for drunk driving, and it really worked.
+The government imposed severe fines for drunk driving, and it really worked.
 You can't impose your ideals of life on other people.
 
 * -wide
@@ -683,7 +683,7 @@ There is a citywide parade next week.
 It is a company-wide meeting, so you'd better be there.
 
 * consistently (adv.)
-  consistent (adj.)
+  consistent (adj.) /kənˈsɪstənt/
 Her work has been of a consistently high standard.
 She's not very consistent in the way she treats her children.
 

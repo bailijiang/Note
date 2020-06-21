@@ -698,6 +698,67 @@ They didn't meet those requirements because they aren't well off enough.
 To meet the financial requirements to become a member of a club.
 
 
+# Janurary 18~20 : Synesthesia
+* synesthesia (n.)
+  synesthete
+Synesthesia is widely used in poetry.
+The speaker claims he's a synesthete who can hear colors.
+
+* nonsense (n.)
+The woman's accusation is absolute nonsense. She's just trying to get the media's attention.
+It's such nonsense to say women should only stay home and take care of children.
+
+* mix-and-match
+mix and match style
+You can mix and match courses to suit your requirements.
+
+* tongue twisters
+please pay promptly
+Peter Piper picked a peck of pickled peppers
+
+* fixed (adj.)
+In the night market, the prices are not fixed.
+Do you have the fixed schedule, the things you need to do?
+
+* slap (v./n.)
+  slapped / slapping
+He would push or slap her once in a while.
+I slapped him hard across the face.
+I really want to give him a slap.
+
+* gene (n.)
+  genetic (adj.)
+Both Chelsea, her mother and her daughter are great singers; I figure it must be in their genes.
+This genetic disease is easily cured.
+
+* perception (n.)
+The medication might affect a patient's visual perception.
+During the movie, the hero's perception of reality was temporarily controlled by the villain.
+
+* wired
+Guys and girls are wired differently.
+
+* ...only to...
+Only to lose it early on.
+I went to the hot springs, very excited, only to realize that I have forgotten my swimsuit.
+I went to the store to get some milk only to find out that the store is closed today.
+
+* Yet...
+Kelly was a convicted criminal, yet many people admired him.
+She does not speak our language and yet she seems to understand what we say.
+We've bought some apples and yet found other cheaper ones.
+
+* ...though...
+She'll probably say no, though it's worth asking.
+Anne was fond of Tim, though he often annoyed her.
+I like her, even though she can be annoying at times.
+
+* ..., which may account for...
+The football team didn't train regularly, which may account for their failure.
+
+
+
+
 
 
 # October 10,11: Cooling Down Conflict

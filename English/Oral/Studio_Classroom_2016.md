@@ -756,9 +756,60 @@ I like her, even though she can be annoying at times.
 * ..., which may account for...
 The football team didn't train regularly, which may account for their failure.
 
+* dismiss (v.)
+George's creative ideas are often dismissed by his conservative boss.
+Just dismiss the thought of quitting from your mind!
+Bobby was dismissed from his job because he couldn't cooperate with others.
 
+* despise (v.)
+  despicable (adj.)
+Sam despises his shyness towards strangers.
+The heads of these two sales departments despise each other.
+I despise him for his hypocrisy.
+It was despicable of him to cheat on his wife.
 
+* ...for fear that...
+I didn't tell Mandy about the party for fear that she would spoil the surprise.
+Claire would never go outside in the summer for fear that she would get sunburn.
 
+* to lose track of...
+So don't lose track of your time.
+Keep track of your time.
+I lose track of my thoughts.
+
+* reject as...
+Gibson rejected the idea as ‘absurd’.
+
+* intrigue (v.)
+  intriguing (adj.)
+Readers are intrigued by the mysterious plots created by this author.
+Peter's boss was intrigued by the novelty of Peter's idea.
+(The novelty of her new job soon wore off.)
+The girl has an intriguing personality that makes you want to know her more.
+* to be intrigued by
+I will be intrigued by a rock singer.
+* to intrigue
+What intrigues you?
+That story really intrigues me.
+
+* psychology (n.)
+social/educational/child psychology
+cognitive psychology
+
+* neurology (n.)
+  neurological (adj.)
+The doctor specializes in neurology and is also an excellent surgeon.
+Parkinson's disease is a neurological disorder.
+
+* catch (v.)
+  caught
+  to catch interest
+Maybe there's an exhibit that catches your interest there.
+I feel that the singer would catch your interest.
+She dressed a splendid skirt caught everyone's attention.
+
+* in quite a range of ways
+My hobbies in quite a range of ways.
 
 
 # October 10,11: Cooling Down Conflict

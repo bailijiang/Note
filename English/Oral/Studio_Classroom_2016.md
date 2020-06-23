@@ -733,7 +733,7 @@ This genetic disease is easily cured.
 
 * perception (n.)
 The medication might affect a patient's visual perception.
-During the movie, the hero's perception of reality was temporarily controlled by the villain.
+During the movie, the hero's perception of reality was temporarily controlled by the villain. //ˈvɪlən//
 
 * wired
 Guys and girls are wired differently.
@@ -757,7 +757,7 @@ I like her, even though she can be annoying at times.
 The football team didn't train regularly, which may account for their failure.
 
 * dismiss (v.)
-George's creative ideas are often dismissed by his conservative boss.
+George's creative ideas are often dismissed by his conservative boss. //kənˈsɜːrvətɪv//
 Just dismiss the thought of quitting from your mind!
 Bobby was dismissed from his job because he couldn't cooperate with others.
 
@@ -771,6 +771,16 @@ It was despicable of him to cheat on his wife.
 * ...for fear that...
 I didn't tell Mandy about the party for fear that she would spoil the surprise.
 Claire would never go outside in the summer for fear that she would get sunburn.
+
+* (not) to be doing... (maybe doing)
+These toys seem to be distracting children.
+This company seems to be developing very well.
+The coronavirus appears to be breaking out all over the world.
+We considered this bug to be destroying the system.
+I think the wedding to be preparing now.
+She said the parade to be processing on the street.
+We believe the morality of this country to be changing worse.
+I guess the police not to be investigating this case.
 
 * to lose track of...
 So don't lose track of your time.

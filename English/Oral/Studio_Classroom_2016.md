@@ -753,7 +753,7 @@ She'll probably say no, though it's worth asking.
 Anne was fond of Tim, though he often annoyed her.
 I like her, even though she can be annoying at times.
 
-* ..., which may account for...
+* ..., which may account for... (explain)
 The football team didn't train regularly, which may account for their failure.
 
 * dismiss (v.)
@@ -820,6 +820,75 @@ She dressed a splendid skirt caught everyone's attention.
 
 * in quite a range of ways
 My hobbies in quite a range of ways.
+
+* sensation (n.)
+burning/prickling/tingling/pleasant/strange/physical sensation
+You might feel burning sensation when you first apply the medicine.
+The sensation of nausea also disappeared after her migraine stopped.
+
+* sensitivity (n.) //ˌsensəˈtɪvəti//
+Many doctors lack sensitivity when dealing with their patients.
+
+* cognitive (adj.)
+The book discusses the stages of cognitive development.
+Some of the patient's cognitive functions were damaged because of the brain surgery.
+As children grow older, their cognitive processes become sharper.
+
+* to aid... in...
+When I'm learning another language, a dictionary aids me in learning it.
+Brandon aided Shelly in fixing up her bathroom.
+Your GPS will aid you in travelling.
+The new AI technology will aid us in developing the robot.
+
+* the loss of...
+  the loss of money
+After his bike accident, Jeffery suffered the loss of money.
+Some people experience the loss of sight as they get older.
+The decision they've just made will lead to the loss of investing.
+
+* tend to be...
+The lighter cars tend to be noisy.
+The white clothes tend to be dirty.
+
+* it's understandable that...
+It's understandable that your parents are angry.
+It's understandable why they are so stupid.
+
+* to be known to...
+Taking vitamin C regularly is known to prevent colds.
+The coronavirus is known to infect easily.
+
+* to determine whether...
+The attitude of you about the match determine whether you can win.
+
+* acquire (v.)
+Children acquire languages more easily than adults.
+During the training, the trainees acquired both the basics and actual flying experience.
+Kelly acquired a love for fashion while living in Paris.
+
+* fuse (v.)
+The composer fused classic music with rock-n-roll in the piece.
+East and West fuse in Hong Kong so naturally.
+The extreme heat fused all the machines in the factory.
+This project fused two languages in it.
+fuse wire
+
+* to some effect
+You need to take this medicine for the treatment to some effect.
+
+* it may not be long before...
+  it won't be long before...
+It may not be long before the COVID-19 infects people around the world.
+It won't be long before we enjoy a review skit.
+
+* the young
+  the elderly
+The elderly should share their experience to the young.
+
+
+
+
+
 
 
 # October 10,11: Cooling Down Conflict

@@ -813,7 +813,7 @@ Parkinson's disease is a neurological disorder.
 
 * catch (v.)
   caught
-  to catch interest
+  to catch sb's interest/attention
 Maybe there's an exhibit that catches your interest there.
 I feel that the singer would catch your interest.
 She dressed a splendid skirt caught everyone's attention.
@@ -850,6 +850,10 @@ The decision they've just made will lead to the loss of investing.
 The lighter cars tend to be noisy.
 The white clothes tend to be dirty.
 
+* being (v.)
+The disease breaks out again being the cause of the recession.
+Being a journalist, you should report the news according to the fact.
+
 * it's understandable that...
 It's understandable that your parents are angry.
 It's understandable why they are so stupid.
@@ -883,7 +887,7 @@ It won't be long before we enjoy a review skit.
 
 * the young
   the elderly
-The elderly should share their experience to the young.
+The elderly should share their experiences with the young.
 
 
 

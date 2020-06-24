@@ -1,4 +1,6 @@
 # P1 Happy New Year
+EVENTS
+keywords: funny, part, nervous, reporter
 * How did you celebrate the New Year?
 * I went to a friend's party.
   I went to City Park with friends.
@@ -16,10 +18,10 @@
 * It was good.
   It was bad.
   My New Year's was great.
-* Now I want you to change and forth and go as fast as you can for ten seconds.
+* Now I want you to change back and forth and go as fast as you can for ten seconds.
 
 # P2 Happy New Year
-famous musician, around the world, a new start(n.), to-do list, goal
+keywords: famous musician, around the world, a new start(n.), to-do list, goal
 * What do you usually do there?
   I usually... with...
   I usually eat cake with my coffee.

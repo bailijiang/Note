@@ -1,41 +1,59 @@
 # P1 Happy New Year
 EVENTS
 keywords: funny, part, nervous, reporter
+
 * How did you celebrate the New Year?
+
 * I went to a friend's party.
   I went to City Park with friends.
   We went to a wedding.
+
 * What is your favorite part of the New Year?
   Fireworks are my favorite part.
+
 * Alex is a little nervous.
+
 * You look nervous. Don't be!
   You look worried. Don't be!
   You look angry. Don't be!
   Don't be silly!
+
 * How was your New Year's?
   How was your weekend?
   How was school?
+
 * It was good.
   It was bad.
   My New Year's was great.
+
 * Now I want you to change back and forth and go as fast as you can for ten seconds.
 
 # P2 Happy New Year
 keywords: famous musician, around the world, a new start(n.), to-do list, goal
+
 * What do you usually do there?
   I usually... with...
   I usually eat cake with my coffee.
   I usually eat pizza with lots of cheese and pepper.
   We go to a concert.
+
 * Maybe one day I can...
   Maybe one day I can celebrate New Year's at Taipei 101, too.
   Maybe one day I can be a teacher, too.
   Maybe one day I can fly an airplane.
+
+* around (prep.)
+travel around the world
+look around a store
+walk around a place
+walk around the park
+
 * People hang A on B.
   People hang onions on their door.
   Please hang the picture on the wall.
   You can hang it on your phone.
   She hung the picture on the wall.
+
 * Let's do it.
   We should go see a movie.
   We should eat at a fancy restaurant.

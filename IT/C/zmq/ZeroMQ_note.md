@@ -147,26 +147,38 @@
     E: server seems to be offline, abandoning
     ```
 
-  * MDP(面向服务):  mdcliapi.c, mdclient.c, mdwrkapi.c, mdworker.c
-  
-    * mdclient 会在 send request 时添加一个 service name (**"echo"**), 并要求 worker 注册特定的 service name：
-      * mdclient: zmsg_t *reply = mdcli_send (session, "echo", &request);
-      * mdworker: mdwrk_t *session = mdwrk_new ( "tcp://localhost:5555", "echo", verbose);
-    * mdbroker: 每个 service 对应一个队列， 多个 service 为一组队列；
-    * mdbroker 应该把超时后仍没有 worker 注册的 service 删除掉;
-    * 处理非幂等操作(broker拒绝重复请求的解决方案)： 
-      * client: client端加盖 唯一标识符； msg 唯一编号；
-      * 服务端发REP之前将 client ID 和 msg 编号作为键存储；
-      * 服务端读取客户端的 REP 时先检查是否已有该 REP， 如果有， 应不处理请求， 直接发送 REP；
-  
-  * TSP:  ticlient.c, titanic.c, mdbroker.c, mdworker.c
-  
-    * titanic既是 client 也是 worker
-    * 缺少 ticlient2.c 异步 send, recv 客户端程序, 如果要改成异步的客户端， 那么在 titanic.c 中也要把 MDG client API 改成异步的；
-    * 如何在实际的环境中让 TSP 运行更快：
-      * 使用单个磁盘文件(大文件)；
-      * 将磁盘文件组织为一个循环缓冲区；
-      * 在内存中保持索引，并在启动时从磁盘缓存重建索引 (fsync)；
-      * 使用固态硬盘；
-      * 预分配整个文件；
-      * 可以不使用文件的模式， 而是将 REQ, REP 存储在内存中 (TSP down掉会丢失 REQ/REP)；
+* MDP(面向服务):  mdcliapi.c, mdclient.c, mdwrkapi.c, mdworker.c
+
+  * mdclient 会在 send request 时添加一个 service name (**"echo"**), 并要求 worker 注册特定的 service name：
+    * mdclient: zmsg_t *reply = mdcli_send (session, "echo", &request);
+    * mdworker: mdwrk_t *session = mdwrk_new ( "tcp://localhost:5555", "echo", verbose);
+  * mdbroker: 每个 service 对应一个队列， 多个 service 为一组队列；
+  * mdbroker 应该把超时后仍没有 worker 注册的 service 删除掉;
+  * 处理非幂等操作(broker拒绝重复请求的解决方案)： 
+    * client: client端加盖 唯一标识符； msg 唯一编号；
+    * 服务端发REP之前将 client ID 和 msg 编号作为键存储；
+    * 服务端读取客户端的 REP 时先检查是否已有该 REP， 如果有， 应不处理请求， 直接发送 REP；
+
+* TSP:  ticlient.c, titanic.c, mdbroker.c, mdworker.c
+
+  * titanic既是 client 也是 worker
+  * 缺少 ticlient2.c 异步 send, recv 客户端程序, 如果要改成异步的客户端， 那么在 titanic.c 中也要把 MDG client API 改成异步的；
+  * 如何在实际的环境中让 TSP 运行更快：
+    * 使用单个磁盘文件(大文件)；
+    * 将磁盘文件组织为一个循环缓冲区；
+    * 在内存中保持索引，并在启动时从磁盘缓存重建索引 (fsync)；
+    * 使用固态硬盘；
+    * 预分配整个文件；
+    * 可以不使用文件的模式， 而是将 REQ, REP 存储在内存中 (TSP down掉会丢失 REQ/REP)；
+
+## Chaptor 05
+
+* PUB-SUB 模式：单向 1:N, 可能适合 Policy 的发布(punk)，订阅(reader);
+* PUB-SUB 模式适合使用场景： 每秒将数百万消息发送至几千个节点 (组播/多播 PGM)；
+
+
+
+## Chaptor 08
+
+* Zyre 测试仪： 高强度测试；
+* 分布式日志LOG收集；

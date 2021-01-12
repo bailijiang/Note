@@ -13,6 +13,23 @@
   * MDC，线程键-值对的表，可以扩展用户自定义的字段;
   * 自诊断，可以在运行时输出zlog自己的日志和配置状态;
   * 不依赖其他库，只要是个POSIX系统就成(当然还要一个C99兼容的vsnprintf);
+<<<<<<< HEAD
+=======
+* zlog 编译安装：
+  * 编译和安装zlog
+    下载 zlog-latest-stable.tar.gz
+    $ tar -zxvf zlog-latest-stable.tar.gz
+    $ cd zlog-1.2.*/
+    $ make
+    $ sudo make install
+    or
+    $ sudo make PREFIX=/usr/local/ install
+    PREFIX指明了安装的路径，安转完之后为了让你的程序能找到zlog动态库
+    $ sudo vi /etc/ld.so.conf
+    /usr/local/lib
+    $ sudo ldconfig
+
+>>>>>>> f63244efe62324fe98aa3d3258ac65a6c7030eee
 * glibc 版本(2.1以上)：
 
   * ll /usr/lib64/libc.so*
@@ -75,7 +92,11 @@
 
   * [formats]
 
+<<<<<<< HEAD
     * 转换字符 参考 zlog-UsersGuide 5.4.1;
+=======
+    * 转换字符 参考 5.4.1;
+>>>>>>> f63244efe62324fe98aa3d3258ac65a6c7030eee
 
     * %c : 分类名；
 
@@ -93,7 +114,11 @@
 
     * 宽度修饰符： 左对齐标识，减号(-)
 
+<<<<<<< HEAD
     * 时间字符: 参考  zlog-UsersGuide 5.4.3;
+=======
+    * 时间字符: 参考 5.4.3;
+>>>>>>> f63244efe62324fe98aa3d3258ac65a6c7030eee
 
   * [rules] : (category).(level) (output), (options, optional); (format name, optional)
 
@@ -157,6 +182,11 @@
     hzlog_info(cat, buf, buf_len)
     hzlog_debug(cat, buf, buf_len)
 
+<<<<<<< HEAD
+=======
+    
+
+>>>>>>> f63244efe62324fe98aa3d3258ac65a6c7030eee
   * dzlog是忽略分类(zlog_category_t)的一组简单zlog接口
 
 * zlog 高阶使用
@@ -170,6 +200,7 @@
   * 用户自定义等级
   * 用户自定义输出 
 
+<<<<<<< HEAD
 * zlog 编译安装：
   * 编译和安装zlog
     下载 zlog-latest-stable.tar.gz
@@ -222,3 +253,5 @@ return 0;
   $ cc -o test_hello test_hello.o -L/usr/local/lib -lzlog
   $ ./test_hello
   hello, zlog
+=======
+>>>>>>> f63244efe62324fe98aa3d3258ac65a6c7030eee

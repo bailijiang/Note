@@ -1,6 +1,7 @@
 ## zlog guide note
 
 * zlog 特性：
+
   * 日志格式定制;
   * 多种输出，包括动态文件、静态文件、stdout、stderr、syslog、用户自定义输出函数;
   * 运行时手动、自动刷新配置文件（同时保证安全);
@@ -13,6 +14,7 @@
   * MDC，线程键-值对的表，可以扩展用户自定义的字段;
   * 自诊断，可以在运行时输出zlog自己的日志和配置状态;
   * 不依赖其他库，只要是个POSIX系统就成(当然还要一个C99兼容的vsnprintf);
+
 * glibc 版本(2.1以上)：
 
   * ll /usr/lib64/libc.so*
@@ -135,7 +137,7 @@
 
   * 所有写日志的函数：
 
-     /* zlog macros */
+    /* zlog macros */
     zlog_fatal(cat, format, ...)
     zlog_error(cat, format, ...)
     zlog_warn(cat, format, ...)
@@ -160,9 +162,10 @@
   * dzlog是忽略分类(zlog_category_t)的一组简单zlog接口
 
 * zlog 高阶使用
+
   * MDC: Mapped Diagnostic Context
     *  MDC就是一个键-值对表;
-    * 使用场景： 需要在同样的日志行为区分不同的业务数据的时候 (多态)
+    *  使用场景： 需要在同样的日志行为区分不同的业务数据的时候 (多态)
   * 诊断 zlog 本身:
     * zlog有自己的日志——诊断日志。这个日志通常是关闭的，可以通过环境变量来打开:
       $ export ZLOG_PROFILE_DEBUG=/tmp/zlog.debug.log
@@ -171,6 +174,7 @@
   * 用户自定义输出 
 
 * zlog 编译安装：
+
   * 编译和安装zlog
     下载 zlog-latest-stable.tar.gz
     $ tar -zxvf zlog-latest-stable.tar.gz
@@ -183,6 +187,7 @@
     $ sudo vi /etc/ld.so.conf
     /usr/local/lib
     $ sudo ldconfig
+
 * zlog Hello World 实验代码
   test_hello.c, test_hello.conf
 
